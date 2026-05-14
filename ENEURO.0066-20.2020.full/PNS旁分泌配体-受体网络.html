@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文献汇报：外周神经微环境中促进轴突生长的旁分泌配体-受体相互作用网络</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif; background: #f5f5f5; color: #222; }
+  
+  /* ===== 固定尺寸横版幻灯片容器 ===== */
+  .slide { 
+    width: 100%; max-width: 1024px; margin: 20px auto; 
+    background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 24px 32px;
+    aspect-ratio: 330 / 190;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    page-break-after: always;
+    break-inside: avoid;
+  }
+  @page {
+    size: 330mm 190mm landscape;
+    margin: 0;
+  }
+  @media print {
+    body { background: #fff; }
+    .slide { 
+      box-shadow: none; margin: 0; 
+      width: 330mm; height: 190mm; 
+      padding: 20mm 25mm;
+      overflow: hidden;
+      page-break-after: always;
+      break-inside: avoid;
+    }
+    /* 强制保留背景色和文字颜色，防止打印时变为灰色 */
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    .tool-badge { color: #fff !important; }
+    .tool-badge-red { background: #d93025 !important; }
+    .tool-badge-blue { background: #1a73e8 !important; }
+    .tool-badge-green { background: #137333 !important; }
+    .tool-badge-orange { background: #e37400 !important; }
+    .arrow { color: #999 !important; }
+    .highlight { background: #fff3cd !important; color: #222 !important; }
+    .key-box { background: #f0f7ff !important; border-left-color: #1a73e8 !important; }
+    .conclusion-card { background: #f0f7ff !important; }
+    th { background: #1a1a2e !important; color: #fff !important; }
+    tr:nth-child(even) { background: #f8f8f8 !important; }
+    .fig-image-area { background: #fafafa !important; }
+    .fig-sidebar .fig-note { background: #f0f7ff !important; border-left-color: #1a73e8 !important; }
+  }
+  
+  /* ===== 标题样式 ===== */
+  h1 { font-size: 24px; margin-bottom: 12px; color: #1a1a2e; border-bottom: 3px solid #1a1a2e; padding-bottom: 6px; flex-shrink: 0; }
+  h2 { font-size: 18px; margin: 10px 0 8px; color: #16213e; }
+  h3 { font-size: 16px; margin: 8px 0 6px; color: #0f3460; }
+  
+  /* ===== 封面 ===== */
+  .cover { text-align: center; justify-content: center; align-items: center; }
+  .cover h1 { font-size: 30px; border: none; margin-bottom: 10px; flex-shrink: 1; }
+  .cover .meta { font-size: 16px; color: #555; margin: 8px 0; line-height: 1.8; }
+  .cover .divider { width: 80px; height: 3px; background: #1a1a2e; margin: 20px auto; }
+  
+  /* ===== 正文内容 ===== */
+  .content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 0;
+  }
+  .content-area p { font-size: 15px; line-height: 1.6; margin: 4px 0; }
+  .content-area ul, .content-area ol { margin: 4px 0 4px 18px; }
+  .content-area li { font-size: 14px; line-height: 1.5; margin: 2px 0; }
+  
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 13px; }
+  th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; }
+  th { background: #1a1a2e; color: #fff; font-weight: 600; }
+  tr:nth-child(even) { background: #f8f8f8; }
+  
+  .highlight { background: #fff3cd; padding: 2px 6px; border-radius: 3px; font-weight: 600; }
+  .highlight-red { color: #d93025; font-weight: 700; }
+  
+  .key-box { 
+    background: #f0f7ff; border-left: 4px solid #1a73e8; 
+    padding: 8px 12px; margin: 8px 0; border-radius: 0 4px 4px 0;
+    flex-shrink: 0;
+  }
+  .key-box strong { color: #1a73e8; }
+  .key-box p { font-size: 14px; line-height: 1.5; margin: 2px 0; }
+  
+  .two-col { display: flex; gap: 16px; margin: 8px 0; flex: 1; min-height: 0; }
+  .two-col > div { flex: 1; overflow-y: auto; }
+  
+  .tool-badge { 
+    display: inline-block; background: #1a1a2e; color: #fff; 
+    padding: 3px 10px; border-radius: 4px; font-size: 13px; font-weight: 600; margin: 2px;
+  }
+  .tool-badge-red { background: #d93025; }
+  .tool-badge-blue { background: #1a73e8; }
+  .tool-badge-green { background: #137333; }
+  .tool-badge-orange { background: #e37400; }
+  
+  /* ===== Figure 独占页布局（左图右文） ===== */
+  .fig-page {
+    padding: 12px 20px;
+  }
+  .fig-page h1 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    padding-bottom: 4px;
+    flex-shrink: 0;
+  }
+  .fig-layout {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+    min-height: 0;
+    overflow: hidden;
+  }
+  .fig-image-area {
+    flex: 0 0 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 6px;
+    overflow: hidden;
+  }
+  .fig-image-area img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+  .fig-sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 2px 0;
+  }
+  .fig-sidebar .fig-caption {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 6px;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 6px;
+    flex-shrink: 0;
+  }
+  .fig-sidebar ul {
+    margin: 0;
+    padding-left: 14px;
+    flex-shrink: 0;
+  }
+  .fig-sidebar li {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 3px 0;
+    color: #333;
+  }
+  .fig-sidebar li strong {
+    color: #1a73e8;
+  }
+  .fig-sidebar .fig-note {
+    margin-top: 6px;
+    padding: 6px 10px;
+    background: #f0f7ff;
+    border-left: 3px solid #1a73e8;
+    border-radius: 0 4px 4px 0;
+    font-size: 12px;
+    color: #555;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+  
+  /* ===== 技术路线流程图 ===== */
+  .flow-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 8px 0;
+  }
+  .flow-row span.arrow {
+    font-size: 18px;
+    color: #999;
+  }
+  
+  /* ===== 结论卡片 ===== */
+  .conclusion-card {
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 6px 0;
+  }
+  .conclusion-card h3 {
+    margin: 0 0 4px 0;
+  }
+  .conclusion-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- 第1页：封面 -->
+<!-- ============================================================ -->
+<div class="slide cover">
+  <h1>外周神经微环境中的<br>旁分泌配体-受体相互作用网络</h1>
+  <div class="divider"></div>
+  <p class="meta"><strong>Paracrine Ligand-Receptor Interactions in the Peripheral Nerve Microenvironment Promote Axon Growth</strong></p>
+  <p class="meta">eNeuro, 2020</p>
+  <div style="margin-top: 30px;">
+    
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第2页：研究背景 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>1. 研究背景</h1>
+  <div class="content-area">
+    <h2>外周神经（PNS）与中枢神经（CNS）再生能力的差异</h2>
+    <ul>
+      <li>外周神经损伤后能够有效再生，中枢神经损伤后再生困难</li>
+      <li>传统观点认为，再生能力主要归功于 <span class="highlight">施万细胞</span> 分泌的旁分泌因子</li>
+      <li>施万细胞在损伤后会转变为"修复"表型，帮助轴突生长</li>
+    </ul>
+    
+    <h2>新发现：外周神经包含多种细胞类型</h2>
+    <ul>
+      <li>单细胞转录组测序（scRNA-seq）揭示外周神经并非只有施万细胞</li>
+      <li>血管相关细胞、免疫细胞、<strong>间充质细胞</strong> 的作用此前被低估</li>
+    </ul>
+    
+    <div class="key-box">
+      <strong>核心问题：</strong>外周神经微环境中，哪些细胞通过哪些配体-受体相互作用来促进轴突生长？
+    </div>
+    
+    <h2>研究策略</h2>
+    <ul>
+      <li>对大鼠坐骨神经进行单细胞RNA测序（正常状态、损伤后3天、损伤后9天）</li>
+      <li>鉴定所有细胞类型及其表达的配体</li>
+      <li>与神经元受体进行匹配，构建细胞间通讯网络</li>
+      <li>用蛋白质组学验证受体在细胞表面的存在</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第3页：技术路线 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>2. 技术路线</h1>
+  <div class="content-area">
+    <div style="text-align:center; margin: 12px 0; padding: 14px; background: #f8f9fa; border-radius: 8px; flex-shrink: 0;">
+      <div class="flow-row">
+        <span class="tool-badge tool-badge-blue">Drop-seq 单细胞测序</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-green">细胞聚类与配体鉴定</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-orange">配体-受体数据库匹配</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge">网络构建与可视化</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-blue">蛋白质组学验证</span>
+      </div>
+    </div>
+    
+    <h3>实验样本</h3>
+    <ul>
+      <li><strong>坐骨神经组织：</strong>大鼠坐骨神经（损伤后3天、9天 + 未损伤对照 + 新生鼠）</li>
+      <li><strong>测序技术：</strong>Drop-seq（高通量液滴单细胞RNA测序）</li>
+      <li><strong>神经元数据：</strong>神经元胞体不在坐骨神经中（轴突无细胞核，Drop-seq无法捕获），通过独立实验外部引入
+        <ul>
+          <li><strong>感觉神经元</strong>（DRG）：E15大鼠背根神经节分离培养9天，CA纯化去除杂细胞，进行微阵列芯片（n=6）+ CSC-MS质谱（鉴定608种表面蛋白）</li>
+          <li><strong>交感神经元</strong>（SCG）：新生（P1-P2）大鼠上颈神经节分离培养6天，CA纯化，进行微阵列芯片（n=4）+ CSC-MS质谱（鉴定271种表面蛋白）</li>
+          <li><strong>运动神经元</strong>：使用已发表的小鼠P7腰髓运动神经元微阵列数据（Kaplan et al., 2014; GEO: GSE52118），仅转录组数据</li>
+          <li><strong>视网膜神经节细胞（RGCs）</strong>：使用已发表的大鼠RGCs RNA-seq数据（Blanco-Suarez et al., 2018; GEO: GSE108484），仅转录组数据</li>
+        </ul>
+        <p style="font-size:12px; color:#d93025; margin:4px 0 0 14px;"><strong>验证层级：</strong>感觉/交感神经元有转录组+蛋白质组双重验证；运动神经元和RGCs仅有转录组数据。</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第4页：实验基本原理（新增） -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>3. 实验基本原理</h1>
+  <div class="content-area">
+    <p style="font-size:13px; color:#666; margin-bottom:6px;">本研究涉及多项核心技术，以下逐一阐述其基本原理：</p>
+    
+    <h3>3.1 单细胞转录组测序（scRNA-seq）—— Drop-seq 液滴法</h3>
+    <ul>
+      <li><strong>核心原理：</strong>利用微流控芯片将单个细胞与携带独特分子标签（Barcode）的微珠（Barcoded beads）包裹在油包水微滴中。每个液滴作为一个独立的"微型反应器"，在液滴内完成细胞裂解、mRNA捕获和逆转录。</li>
+      <li><strong>分子标签策略：</strong>每个微珠携带大量相同的细胞条形码（Cell Barcode）和独特的分子标识符（UMI），使得测序后能追溯每个转录本来自哪个细胞、哪个原始mRNA分子，从而实现单细胞水平的定量。</li>
+      <li><strong>数据产出：</strong>生成数字基因表达矩阵（DGE Matrix），行=基因，列=细胞，值为UMI计数。</li>
+    </ul>
+    
+    <h3>3.2 偏向性捕获原理——为什么没测出神经元胞体？</h3>
+    <ul>
+      <li>坐骨神经中的轴突是神经元的远端突起，<strong>缺乏细胞核</strong>，mRNA总量极低。</li>
+      <li>标准Drop-seq技术依赖细胞核（或完整细胞）来捕获转录组，因此<strong>只能捕获驻留在神经鞘内的有核细胞</strong>（施万细胞、间充质细胞、免疫细胞等）。</li>
+      <li>神经元胞体位于背根神经节（DRG）和脊髓中，不在坐骨神经组织内。因此研究采用"异地采样"策略，<strong>外部引入</strong>神经元转录组和蛋白质组数据。</li>
+    </ul>
+    
+    <h3>3.3 细胞表面捕获质谱（CSC-MS）—— 受体验证原理</h3>
+    <ul>
+      <li><strong>化学氧化：</strong>利用高碘酸钠（NaIO₄, 5 mM）处理活神经元，特异性氧化细胞表面糖蛋白的糖链上的邻位二醇基团，生成醛基。</li>
+      <li><strong>亲和捕获：</strong>将氧化后的细胞裂解液与肼树脂（Hydrazide Resin）孵育，醛基与肼基团形成稳定的腙键共价连接，从而<strong>特异性富集表面糖蛋白</strong>。</li>
+      <li><strong>酶切与鉴定：</strong>经DTT还原、碘乙酰胺烷基化后，用胰蛋白酶（Trypsin）将捕获的蛋白酶解为肽段，再用PNGaseF去除N-糖链，最后通过Orbitrap Q-Exactive质谱仪进行高分辨率鉴定。</li>
+      <li><strong>核心逻辑：</strong>仅靠RNA数据不能证明蛋白已易位到细胞膜表面。只有通过质谱在膜表面真实检测到蛋白，才能确认通讯链路的物理存在。</li>
+    </ul>
+    
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第5页：实验基本原理（续）—— Harmony 批次校正 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>3. 实验基本原理（续）</h1>
+  <div class="content-area">
+    <h3>3.4 Harmony 批次校正原理</h3>
+    
+    <p><strong>为什么需要批次校正？</strong></p>
+    <ul>
+      <li>本研究合并了来自 <strong>6个不同来源</strong> 的单细胞转录组数据集：未损伤坐骨神经、损伤后3天、损伤后9天、新生鼠（FACS分选制备）、新生鼠（髓鞘去除磁珠制备），以及已发表的9天损伤数据。</li>
+      <li>不同实验批次间存在系统性技术偏差（如测序深度差异、细胞捕获效率不同、文库制备方法差异），这些偏差会干扰生物学信号的识别。</li>
+    </ul>
+    
+    <p><strong>Harmony 算法的核心逻辑</strong>（Korsunsky et al., 2019, <em>Nature Methods</em>）</p>
+    <ul>
+      <li><strong>输入：</strong>PCA降维后的细胞嵌入坐标（本研究使用前20个主成分）。</li>
+      <li><strong>第一步——软聚类（Soft k-means）：</strong>对细胞进行模糊聚类，每个细胞以一定概率属于多个聚类，而非硬性分配到单一聚类。这允许算法识别跨数据集的共享细胞状态。</li>
+      <li><strong>第二步——计算数据集特异性偏移：</strong>在每个聚类中，计算每个数据集相对于全局中心的偏移向量，量化不同实验批次间的技术偏差。</li>
+      <li><strong>第三步——线性校正：</strong>根据计算出的偏移量，对每个数据集的细胞嵌入坐标进行线性校正，移除数据集特异性的偏差。</li>
+      <li><strong>迭代收敛：</strong>重复"聚类→计算偏移→校正"循环，直到数据集间的混合程度达到最优（通常迭代10-20次收敛）。</li>
+    </ul>
+    
+    <p><strong>校正效果：</strong></p>
+    <ul>
+      <li>校正前：t-SNE图上细胞按数据集来源聚集（如"3 DPI"的细胞聚在一起，"9 DPI"的细胞聚在另一处）。</li>
+      <li>校正后：细胞按其 <strong>生物学本质（基因表达谱）</strong> 而非实验来源聚类，同一细胞类型的细胞（如施万细胞）无论来自哪个数据集都聚集在一起。</li>
+      <li>本研究利用Harmony成功整合了施万细胞（5331个细胞，7个亚群）和间充质细胞（5416个细胞，9个亚群）的跨条件数据。</li>
+    </ul>
+    
+    <div class="key-box">
+      <strong>整体实验逻辑：</strong>"转录组预测配体"（scRNA-seq鉴定神经细胞分泌的配体）→ "计算建模匹配受体"（配体-受体数据库匹配）→ "蛋白质组验证受体"（CSC-MS确认受体在神经元表面真实存在）→ "功能验证"（体外轴突生长实验）。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第6页：Figure 1 - 受损坐骨神经配体表达特征 -->
+
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 1: 受损坐骨神经配体表达特征</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_03.png" alt="Figure 1">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">受损坐骨神经中配体表达的转录组特征（论文原图）</div>
+      <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
+        <strong>小图说明：</strong>
+        <ul style="margin:2px 0 2px 14px;">
+          <li><strong>A：</strong>免疫荧光，PDGFRα⁺ 间质细胞（绿）与 S100β⁺ 施万细胞（白）在神经内膜中共定位。</li>
+          <li><strong>B：</strong>韦恩图，未损伤、3 DPI、7 DPI 神经中配体 mRNA 表达交集。</li>
+          <li><strong>C–D：</strong>3 DPI 神经 t-SNE 聚类图（C）及标志基因 Sox10/Aif1/Pdgfra 表达叠加图（D）。</li>
+          <li><strong>E–F：</strong>合并 3+9 DPI 数据 t-SNE 聚类图（E），按数据集来源着色（F）。</li>
+          <li><strong>G–H：</strong>柱状图，各细胞类型中 143 种配体的表达比例（G）及最高表达比例（H）。</li>
+          <li><strong>I：</strong>t-SNE 叠加图，展示 Fgf7、Il33、Bmp7、Wnt5a 的表达位置。</li>
+        </ul>
+        <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 结论：</strong>间充质细胞是配体主要来源（82.5%），颠覆传统认知。</p>
+      </div>
+      <ul>
+        <li><strong>143种</strong>配体在受损神经中表达</li>
+        <li>对比分析 <strong>损伤后3天、9天</strong> 与 <strong>未损伤</strong> 状态</li>
+        <li>配体表达呈现 <strong>时间动态变化</strong>，损伤后显著上调</li>
+        <li>不同细胞类型贡献的配体种类和数量差异显著</li>
+      </ul>
+      <div class="fig-note">
+        配体筛选标准：表达量不低于 <em>Ntf3</em>（神经营养因子3）的mRNA水平
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================================================ -->
+<!-- 第7页：细胞类型鉴定 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>4. 外周组织测出了哪些细胞类型？</h1>
+
+  <div class="content-area">
+    <p>通过Drop-seq对损伤后3天和9天的坐骨神经进行测序，鉴定出以下细胞类型：</p>
+    
+    <table>
+      <tr>
+        <th>细胞大类</th><th>具体细胞类型</th><th>关键标志基因</th><th>备注</th>
+      </tr>
+      <tr style="background: #fff3cd;">
+        <td><strong>神经谱系</strong></td>
+        <td><strong>施万细胞</strong></td>
+        <td>Sox10, Ngfr, S100b</td>
+        <td><strong style="color:#d93025;">唯一的驻留神经胶质细胞</strong></td>
+      </tr>
+      <tr>
+        <td rowspan="4"><strong>间充质谱系</strong></td>
+        <td>神经内膜间充质细胞</td>
+        <td>Pdgfra, Etv1, Wif1, Sox9</td>
+        <td>与轴突和施万细胞紧密贴合</td>
+      </tr>
+      <tr>
+        <td>神经外膜间充质细胞</td>
+        <td>Pdgfra, Pcolce2, Dpp4, Dpt</td>
+        <td>神经最外层结缔组织</td>
+      </tr>
+      <tr>
+        <td>神经束膜间充质细胞</td>
+        <td>Pdgfra, Slc2a1, Casq2, Msln</td>
+        <td>包绕神经纤维束</td>
+      </tr>
+      <tr>
+        <td>神经桥分化细胞</td>
+        <td>Pdgfra, Dlk1, Mest</td>
+        <td>断端间形成桥梁</td>
+      </tr>
+      <tr>
+        <td><strong>血管相关</strong></td>
+        <td>内皮细胞 / 平滑肌细胞/周细胞</td>
+        <td>Pecam1 / Desmin, Acta2</td>
+        <td>血-神经屏障 / 血管支撑</td>
+      </tr>
+      <tr>
+        <td rowspan="4"><strong>免疫细胞</strong></td>
+        <td>巨噬细胞</td>
+        <td>Aif1 (Iba1), Cd68</td>
+        <td>清除髓磷脂碎片</td>
+      </tr>
+      <tr>
+        <td>淋巴细胞（T/NK）</td>
+        <td>Ptprcap, Trbc2</td>
+        <td>免疫监测</td>
+      </tr>
+      <tr>
+        <td>B细胞</td>
+        <td>Cd19</td>
+        <td>损伤后9天显著增加</td>
+      </tr>
+      <tr>
+        <td>肥大细胞</td>
+        <td>Cpa3</td>
+        <td>早期炎症反应</td>
+      </tr>
+    </table>
+    
+    <div class="key-box">
+      <strong>注意：</strong>神经元胞体不在坐骨神经测序范围内。坐骨神经只含有轴突（没有细胞核），标准Drop-seq只能捕获有核细胞。因此，神经元作为通讯目标，需通过独立实验外部引入其转录组和蛋白质组数据（详见第3页"神经元数据"）。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第8页：哪些是神经细胞 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>5. 哪些细胞类型是神经细胞？</h1>
+
+  <div class="content-area">
+    <h2>施万细胞——唯一的驻留神经细胞</h2>
+    <p>在上述所有细胞类型中，<strong style="color:#d93025;">施万细胞是坐骨神经中唯一的驻留神经胶质细胞</strong>。根据功能状态分为三种：</p>
+    
+    <table>
+      <tr><th>亚型</th><th>特征</th><th>标志基因</th></tr>
+      <tr>
+        <td>髓磷脂化施万细胞</td>
+        <td>包裹大直径轴突，形成髓磷脂鞘</td>
+        <td>Mbp, Pmp22, Plp1</td>
+      </tr>
+      <tr>
+        <td>非髓磷脂化施万细胞</td>
+        <td>包裹小直径轴突（Remak束）</td>
+        <td>Cdh2, L1cam</td>
+      </tr>
+      <tr style="background: #fff3cd;">
+        <td><strong>修复型施万细胞</strong></td>
+        <td>损伤后去分化形成，分泌大量神经营养因子（Gdnf, Bdnf, Artn），清理轴突碎片</td>
+        <td>损伤诱导表型</td>
+      </tr>
+    </table>
+    
+    <div class="key-box">
+      <strong>关键发现：</strong>修复型施万细胞的基因表达谱与 <strong>新生鼠发育中的施万细胞</strong> 更相似（r=0.88），与成年正常施万细胞差异较大（r=0.76）。说明损伤诱导了向发育状态的回归。
+    </div>
+    
+    <h2>神经元——作为通讯目标引入</h2>
+    <p>神经元胞体不在坐骨神经中（轴突无细胞核，Drop-seq无法捕获），因此研究通过独立实验外部引入4种神经元的转录组和蛋白质组数据，作为配体-受体通讯的靶细胞：</p>
+    <ul>
+      <li><strong>感觉神经元</strong>（DRG）：E15大鼠背根神经节分离培养9天，CA纯化，微阵列芯片（n=6）+ CSC-MS质谱（鉴定608种表面蛋白）—— <strong style="color:#137333;">转录组+蛋白质组双重验证</strong></li>
+      <li><strong>交感神经元</strong>（SCG）：新生大鼠上颈神经节分离培养6天，CA纯化，微阵列芯片（n=4）+ CSC-MS质谱（鉴定271种表面蛋白）—— <strong style="color:#137333;">转录组+蛋白质组双重验证</strong></li>
+      <li><strong>运动神经元</strong>：使用已发表的小鼠P7腰髓运动神经元微阵列数据（Kaplan et al., 2014; GEO: GSE52118）—— <strong style="color:#d93025;">仅转录组数据</strong></li>
+      <li><strong>视网膜神经节细胞 RGCs</strong>（CNS代表）：使用已发表的大鼠RGCs RNA-seq数据（Blanco-Suarez et al., 2018; GEO: GSE108484）—— <strong style="color:#d93025;">仅转录组数据</strong></li>
+    </ul>
+    <p style="font-size:12px; color:#666; margin:4px 0 0 18px;">注：CA（胞嘧啶阿拉伯糖苷）用于消除培养物中分裂的非神经元细胞，纯化神经元群体。</p>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第9页：Figure 3 - 施万细胞配体表达特征 -->
+
+
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 3: 施万细胞配体表达特征</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_07.png" alt="Figure 3">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">施万细胞各亚型的配体表达谱（论文原图）</div>
+      <div class="fig-subnote" style="margin:12px 0; padding:10px; background:#f5f5f5; border-radius:8px; font-size:0.95em;">
+        <strong>小图说明：</strong>
+        <ul>
+          <li><strong>A–B：</strong>t-SNE 图，展示来自不同神经状态（新生、未损伤、损伤）的施万细胞合并聚类（A）及其数据来源（B），经 Harmony 批次校正。</li>
+          <li><strong>C：</strong>树状图（Dendrogram），展示施万细胞各聚类之间的表达相似性层次关系。</li>
+          <li><strong>D：</strong>散点图，比较每个施万细胞与未损伤、新生或损伤施万细胞 bulk 转录组的差异相关性。</li>
+          <li><strong>E：</strong>韦恩图，展示新生、未损伤和损伤施万细胞中配体 mRNA 的表达重叠。</li>
+          <li><strong>F：</strong>t-SNE 基因表达叠加图，展示 Btc、Bdnf、Fgf5、Ucn2、Clcf1、Gdnf 在合并施万细胞数据中的表达位置。</li>
+          <li><strong>G：</strong>小提琴图，比较损伤与未损伤施万细胞中 Bmp1、Gdnf、Shh、Pdgfa 的表达水平。</li>
+          <li><strong>H：</strong>t-SNE 基因表达叠加图，展示 Igf1、Dhh、Fgf1 在合并施万细胞数据中的表达位置。</li>
+          <li><strong>I：</strong>小提琴图，比较损伤与未损伤施万细胞中 Dhh、Fgf1 的表达水平。</li>
+        </ul>
+        <p style="margin:6px 0 0 0; font-size:12px; color:#1a73e8;"><strong>→ 关键点：</strong>修复型施万细胞是施万细胞中配体表达的主力，但仅贡献74/143种配体（51.7%），并非最大来源。</p>
+      </div>
+      <ul>
+        <li>施万细胞表达 <strong>74种</strong> 配体（占143种的51.7%）</li>
+        <li>单个细胞最高表达 <strong>23种</strong> 配体</li>
+        <li>经典神经营养因子：<strong>GDNF、BDNF、Artn</strong></li>
+        <li>损伤后 <strong>修复型施万细胞</strong> 是配体表达主力</li>
+      </ul>
+      <div class="fig-note">
+        施万细胞虽非配体最大贡献者，但其分泌的因子对轴突生长具有强力促进作用
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第10页：细胞间通讯分析工具 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>6. 用什么工具做细胞间通讯分析？</h1>
+
+  <div class="content-area">
+    <table>
+      <tr><th>工具/方法</th><th>用途</th><th>说明</th></tr>
+      <tr>
+        <td><span class="tool-badge tool-badge-blue">Drop-seq</span></td>
+        <td>单细胞RNA测序</td>
+        <td>高通量液滴技术，捕获有核细胞转录组</td>
+      </tr>
+      <tr>
+        <td><span class="tool-badge">scran (R)</span></td>
+        <td>数据标准化</td>
+        <td>纠正测序深度差异</td>
+      </tr>
+      <tr>
+        <td><span class="tool-badge tool-badge-green">Seurat</span></td>
+        <td>降维与聚类</td>
+        <td>PCA + t-SNE 可视化，SNN模块化聚类</td>
+      </tr>
+      <tr>
+        <td><span class="tool-badge tool-badge-orange">Harmony</span></td>
+        <td>批次校正</td>
+        <td>消除不同实验/时间点的技术偏差</td>
+      </tr>
+      <tr style="background: #fff3cd;">
+        <td><span class="tool-badge tool-badge-red">Cellcellinteractnet</span></td>
+        <td><strong>配体-受体匹配（核心工具）</strong></td>
+        <td>自定义Python 2.7.6脚本，将143种配体与神经元受体数据库匹配</td>
+      </tr>
+      <tr>
+        <td><span class="tool-badge">Cytoscape 3.7.0</span></td>
+        <td>网络可视化</td>
+        <td>对预测的旁分泌交互网络进行图形化建模</td>
+      </tr>
+      <tr>
+        <td><span class="tool-badge tool-badge-blue">细胞表面捕获质谱</span></td>
+        <td>受体蛋白验证</td>
+        <td>Orbitrap Q-Exactive质谱仪，鉴定感觉神经元608种、交感神经元271种表面蛋白</td>
+      </tr>
+    </table>
+    
+    <div class="key-box">
+      <strong>基本原理：</strong>Cellcellinteractnet 读取神经细胞分泌的配体列表，与神经元表达的受体数据库进行匹配，输出预测的配体-受体相互作用对。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第11页：配体-受体数据库来源 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>7. 配体和受体的数据来自哪里？</h1>
+
+  <div class="content-area">
+    <h2>数据库来源</h2>
+    <ul>
+      <li><strong>来源：</strong>基于 <span class="highlight">Yuzwa et al. (2016)</span> 的工作构建</li>
+      <li><strong>性质：</strong><strong style="color:#d93025;">高度手动管理的配体-受体数据库</strong>，不是现成的商业数据库</li>
+      <li><strong>优化处理：</strong>排除了仅具有结构功能、没有明确受体介导信号传导作用的细胞外基质蛋白（ECM）</li>
+      <li><strong>筛选标准：</strong>配体基因表达量不低于 <em>Ntf3</em>（神经营养因子3）的mRNA水平</li>
+    </ul>
+    
+    <h2>受体验证——蛋白质组学</h2>
+    <p>仅靠RNA数据无法确认受体蛋白是否真的在细胞膜表面表达，因此研究引入了细胞表面捕获质谱技术：</p>
+    <ul>
+      <li><strong>原理：</strong>氧化神经元表面糖蛋白 → 捕获 → 酶切 → 质谱鉴定</li>
+      <li><strong>结果：</strong>
+        <ul>
+          <li>感觉神经元：鉴定出 <strong>608</strong> 种表面蛋白</li>
+          <li>交感神经元：鉴定出 <strong>271</strong> 种表面蛋白</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第12页：Figure 5 - 感觉与交感神经元受体表达 -->
+
+
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 5: 感觉与交感神经元受体表达及预测相互作用</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_12.png" alt="Figure 5">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">感觉神经元与交感神经元的受体表达谱及预测的配体-受体相互作用（论文原图）</div>
+      <div class="fig-subnote" style="margin:12px 0; padding:10px; background:#f5f5f5; border-radius:8px; font-size:0.95em;">
+        <strong>小图说明：</strong>
+        <ul>
+          <li><strong>A：</strong>免疫荧光图像，展示培养的 E15 大鼠 DRG 感觉神经元和新生大鼠 SCG 交感神经元，标记 β-III-微管蛋白（绿色）和细胞核（蓝色）。</li>
+          <li><strong>B：</strong>柱状图，展示通过细胞表面质谱检测到的感觉和交感神经元上受体蛋白的类型分类（如 RTK、GPCR、细胞因子受体等）。</li>
+          <li><strong>C：</strong>网络模型图（Cytoscape），展示损伤神经中配体与交感神经元受体之间的预测相互作用。蓝色框表示受体也被质谱检测到。</li>
+          <li><strong>D：</strong>同上，但针对感觉神经元——损伤神经中配体与感觉神经元受体之间的预测相互作用网络。</li>
+        </ul>
+        <p style="margin:6px 0 0 0; font-size:12px; color:#1a73e8;"><strong>→ 关键点：</strong>RNA数据与蛋白质组学数据相互印证，确认受体蛋白真实存在于神经元表面，为配体-受体通讯模型提供可靠验证。</p>
+      </div>
+      <ul>
+        <li>感觉神经元表面鉴定出 <strong>608种</strong> 蛋白</li>
+        <li>交感神经元表面鉴定出 <strong>271种</strong> 蛋白</li>
+        <li>质谱验证确认受体蛋白在细胞膜 <strong>真实表达</strong></li>
+        <li>RNA数据与蛋白质组学数据 <strong>相互印证</strong></li>
+      </ul>
+      <div class="fig-note">
+        仅靠RNA数据不足以确认受体蛋白表达，蛋白质组学验证是本研究的关键质量控制步骤
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第13页：Figure 6 - 施万细胞与间充质细胞配体对交感神经元的预测作用 -->
+
+
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 6: 施万细胞与间充质细胞配体对交感神经元的预测作用</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_14.png" alt="Figure 6">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">施万细胞与内膜间充质细胞来源的配体对交感神经元的预测相互作用（论文原图）</div>
+      <div class="fig-subnote" style="margin:12px 0; padding:10px; background:#f5f5f5; border-radius:8px; font-size:0.95em;">
+        <strong>小图说明：</strong>
+        <ul>
+          <li><strong>A：</strong>模型网络图，展示施万细胞高表达的配体与交感神经元受体之间的预测相互作用。绿色节点表示受体在蛋白质水平被质谱检测到。</li>
+          <li><strong>B：</strong>模型网络图，展示神经内膜间充质细胞高表达的配体与交感神经元受体之间的预测相互作用。绿色节点表示受体在蛋白质水平被质谱检测到。</li>
+        </ul>
+        <p style="margin:6px 0 0 0; font-size:12px; color:#1a73e8;"><strong>→ 关键点：</strong>施万细胞和间充质细胞分别通过不同的配体-受体通路作用于交感神经元，两者互补而非冗余。</p>
+      </div>
+      <ul>
+        <li>施万细胞高表达配体：<strong>Gdnf、Bdnf、Artn、Dhh、Ucn2、Clcf1</strong></li>
+        <li>内膜间充质细胞高表达配体：<strong>Angpt1、Ccl11、Il33、Wnt5a、Fgf7</strong></li>
+        <li>绿色节点 = 经质谱验证的受体蛋白</li>
+        <li>两种细胞类型通过不同通路协同支持交感神经元</li>
+      </ul>
+      <div class="fig-note">
+        施万细胞提供经典神经营养因子信号，间充质细胞提供更广泛的旁分泌支持
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第14页：神经细胞相关通讯 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>8. 有没有神经细胞相关的细胞间通讯？</h1>
+
+
+  <div class="content-area">
+    <p>研究鉴定了143种在受损神经中表达的配体，分析其在不同细胞中的来源分布：</p>
+    
+    <table>
+      <tr><th>细胞来源</th><th>表达配体数（143种中）</th><th>最高表达数</th><th>典型神经支持因子</th></tr>
+      <tr style="background: #fff3cd;">
+        <td><strong>组合间充质细胞</strong></td>
+        <td><strong>118 (82.5%)</strong></td>
+        <td><strong>71</strong></td>
+        <td>Angpt1, Ccl11, Fgf7, Hgf, Il33, Wnt5a</td>
+      </tr>
+      <tr>
+        <td><strong>施万细胞</strong></td>
+        <td>74 (51.7%)</td>
+        <td>23</td>
+        <td>Gdnf, Bdnf, Artn, Dhh, Ucn2, Clcf1</td>
+      </tr>
+      <tr>
+        <td>血管内皮细胞</td>
+        <td>-</td>
+        <td>18</td>
+        <td>Bmp4, Pdgfb, Vegfc</td>
+      </tr>
+      <tr>
+        <td>周细胞/平滑肌</td>
+        <td>-</td>
+        <td>15</td>
+        <td>Ngf, Bmp2</td>
+      </tr>
+      <tr>
+        <td>免疫细胞</td>
+        <td>-</td>
+        <td>16</td>
+        <td>Osm, Tnf</td>
+      </tr>
+    </table>
+    
+    <div class="key-box">
+      <strong>核心发现：</strong>82.5%的预测配体是由 <strong>间充质细胞</strong> 产生的，而不是施万细胞。间充质细胞才是神经旁分泌环境的主要构建者。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第15页：Figure 2 - 配体表达分布 -->
+
+
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 2: 损伤、未损伤和新生坐骨神经中的配体表达</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_05.png" alt="Figure 2">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">不同状态下坐骨神经的配体表达谱对比（论文原图）</div>
+      <div class="fig-subnote" style="margin:12px 0; padding:10px; background:#f5f5f5; border-radius:8px; font-size:0.95em;">
+        <strong>小图说明：</strong>
+        <ul>
+          <li><strong>A–B：</strong>t-SNE 基因表达叠加图，展示多种配体（如 Btc、Crlf1、Fgf5、Gdnf、Ucn2 等）在合并的 3+9 DPI 数据集中的表达位置，标注出高表达的细胞类型（施万细胞、间充质细胞、内皮细胞等）。</li>
+          <li><strong>C：</strong>未损伤坐骨神经的 t-SNE 聚类图，标注出各种细胞类型。</li>
+          <li><strong>D：</strong>未损伤神经中 Pdgfra（间质细胞标志）、Cdh2 和 Plp1（施万细胞标志）的 t-SNE 基因表达叠加图。</li>
+          <li><strong>E：</strong>新生（P2-P4）坐骨神经的 t-SNE 聚类图，标注出各种细胞类型。</li>
+          <li><strong>F：</strong>新生神经中 Pdgfra、Dpt、Sox9（间质细胞标志）和 Sox10（施万细胞标志）的 t-SNE 基因表达叠加图。</li>
+          <li><strong>G：</strong>韦恩图，展示未损伤、新生和损伤神经中共有的 143 种配体 mRNA 的表达重叠。</li>
+          <li><strong>H：</strong>柱状图，显示未损伤和新生神经中不同细胞类型表达 143 种配体的比例。</li>
+          <li><strong>I：</strong>堆叠柱状图，显示未损伤和新生神经中配体 mRNA 的最高表达细胞类型。</li>
+        </ul>
+        <p style="margin:6px 0 0 0; font-size:12px; color:#d93025;"><strong>→ 结论：</strong>无论损伤还是发育状态，间充质细胞都是配体最大贡献者，颠覆传统认知。</p>
+      </div>
+      <ul>
+        <li>对比 <strong>未损伤、损伤后3天、损伤后9天、新生鼠</strong> 四种状态</li>
+        <li>间充质细胞贡献 <strong>82.5%</strong> 的配体（118/143种）</li>
+        <li>施万细胞贡献 <strong>51.7%</strong> 的配体（74/143种）</li>
+        <li>间充质细胞单个细胞最高表达 <strong>71种</strong> 配体</li>
+      </ul>
+      <div class="fig-note">
+        间充质细胞而非施万细胞是神经旁分泌环境的主要构建者——颠覆传统认知
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第16页：关键通路 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>9. 关键通讯通路</h1>
+
+  <div class="content-area">
+    <h2>间充质细胞到神经元的关键通路</h2>
+    
+    <table>
+      <tr><th>配体</th><th>受体</th><th>来源细胞</th><th>靶细胞</th><th>功能验证</th></tr>
+      <tr style="background: #fff3cd;">
+        <td><strong>ANGPT1</strong></td>
+        <td>TEK (Tie2)</td>
+        <td>间充质细胞</td>
+        <td>交感神经元</td>
+        <td>局部应用ANGPT1显著增强交感轴突生长</td>
+      </tr>
+      <tr style="background: #e8f0fe;">
+        <td><strong>CCL11</strong> (Eotaxin)</td>
+        <td>CXCR3</td>
+        <td>神经内膜间充质细胞</td>
+        <td>感觉/交感神经元</td>
+        <td>促进轴突生长</td>
+      </tr>
+      <tr style="background: #fff3cd;">
+        <td><strong>VEGFC</strong></td>
+        <td>FLT4 / NRP1</td>
+        <td>间充质细胞</td>
+        <td>感觉/交感神经元</td>
+        <td>促轴突生长作用体外证实</td>
+      </tr>
+    </table>
+    
+    <h2>施万细胞到神经元的传统通路</h2>
+    <ul>
+      <li><strong>GDNF</strong>：经典神经营养因子，强力促轴突生长</li>
+      <li><strong>BDNF</strong>：脑源性神经营养因子</li>
+      <li><strong>Artn</strong> (Artemin)：胶质细胞源性神经营养因子家族</li>
+    </ul>
+    
+    <div class="key-box">
+      <strong>网络冗余性：</strong>施万细胞的 Clcf1/Crlf1 和间充质细胞的 Lif 都作用于神经元表面的 gp130/Lifr 受体复合物。多来源信号重叠确保再生支持不会完全崩溃。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第17页：Figure 4 - 间充质细胞配体表达特征 -->
+
+
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 4: 间充质细胞配体表达特征</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_09.png" alt="Figure 4">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">间充质细胞各亚型的配体表达谱（论文原图）</div>
+      <div class="fig-subnote" style="margin:12px 0; padding:10px; background:#f5f5f5; border-radius:8px; font-size:0.95em;">
+        <strong>小图说明：</strong>
+        <ul>
+          <li><strong>A–B：</strong>t-SNE 图，展示来自不同神经状态（新生、未损伤、损伤）的间充质细胞合并聚类（A）及其数据来源（B），经 Harmony 批次校正。</li>
+          <li><strong>C：</strong>韦恩图，展示新生、未损伤和损伤神经中神经内膜间充质细胞表达配体的重叠。</li>
+          <li><strong>D：</strong>t-SNE 基因表达叠加图，展示 Angpt1、Crlf1、Ngf、Sema7a、Hgf 在合并间充质细胞数据中的表达位置。</li>
+          <li><strong>E：</strong>小提琴图，比较损伤与未损伤神经内膜间充质细胞中 Angpt1、Crlf1、Lif、Sema7a 的表达水平。</li>
+          <li><strong>F：</strong>t-SNE 基因表达叠加图，展示 Ccl11、Il33、Wnt5a 在合并间充质细胞数据中的表达位置。</li>
+          <li><strong>G：</strong>小提琴图，比较损伤与未损伤神经内膜间充质细胞中 Ccl11、Il33 的表达水平。</li>
+        </ul>
+        <p style="margin:6px 0 0 0; font-size:12px; color:#137333;"><strong>→ 关键点：</strong>间充质细胞4个亚型分工明确，神经内膜亚型与轴突最近、配体表达最丰富，是旁分泌支持的主力。</p>
+      </div>
+      <ul>
+        <li>间充质细胞 <strong>4个亚型</strong> 各有不同的配体表达特征</li>
+        <li>关键配体：<strong>ANGPT1、CCL11、VEGFC、FGF7、HGF</strong></li>
+        <li>神经内膜间充质细胞与轴突和施万细胞 <strong>紧密贴合</strong></li>
+        <li>神经桥分化细胞在断端间 <strong>形成桥梁</strong>，引导再生</li>
+      </ul>
+      <div class="fig-note">
+        间充质细胞各亚型分工明确，共同构建完整的再生微环境
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第18页：施万细胞 vs 间充质细胞 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>10. 施万细胞与间充质细胞的协同作用</h1>
+
+  <div class="content-area">
+    <div class="two-col">
+      <div style="border: 2px solid #1a73e8; border-radius: 8px; padding: 10px;">
+        <h3 style="color:#1a73e8; text-align:center;">施万细胞</h3>
+        <p style="text-align:center; font-size:12px; color:#666;">传统认知的主角</p>
+        <ul>
+          <li>提供强力的传统再生信号</li>
+          <li>GDNF、BDNF、Artn 的主要来源</li>
+          <li>损伤后去分化为修复表型</li>
+          <li>表达配体：74种（51.7%）</li>
+          <li>最高表达：23种</li>
+        </ul>
+      </div>
+      <div style="border: 2px solid #137333; border-radius: 8px; padding: 10px;">
+        <h3 style="color:#137333; text-align:center;">间充质细胞</h3>
+        <p style="text-align:center; font-size:12px; color:#666;">被低估的主力</p>
+        <ul>
+          <li>提供广泛而多样的再生信号</li>
+          <li>ANGPT1、CCL11、VEGFC 的主要来源</li>
+          <li>损伤后强烈上调配体表达</li>
+          <li>表达配体：118种（82.5%）</li>
+          <li>最高表达：71种</li>
+        </ul>
+      </div>
+    </div>
+    <div class="key-box">
+      <strong>协同机制：</strong>施万细胞提供强力传统信号（GDNF/BDNF），间充质细胞提供广泛多样的旁分泌支持。两者信号存在冗余（如 gp130/Lifr 通路），确保再生支持不会完全崩溃。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第19页：跨系统普适性 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>11. 跨系统普适性：外周神经的"通用生长配方"</h1>
+
+  <div class="content-area">
+    <h2>从外周到中枢的普适性</h2>
+    <ul>
+      <li>预测的 <strong>122种</strong> 交感/感觉神经元交互中，<strong>121种</strong> 同样适用于运动神经元</li>
+      <li>对于视网膜神经节细胞（RGCs），所有 <strong>122种</strong> 外周神经通讯路径均被预测为有效</li>
+      <li>RGCs 还具有额外的趋化因子交互能力</li>
+    </ul>
+    <div class="key-box">
+      <strong>结论：</strong>外周神经并非为特定神经元定制信号，而是产生了一套能被绝大多数神经元受体库感知的"通用生长配方"。这为外周神经移植物用于脊髓或视神经再生提供了分子基础。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第20页：结论与展望 -->
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>12. 结论与展望</h1>
+
+  <div class="content-area">
+    <h2>核心发现</h2>
+    <ul>
+      <li>间充质细胞（而非施万细胞）是神经旁分泌环境的主要构建者，贡献 <strong>82.5%</strong> 的配体</li>
+      <li>施万细胞提供强力传统信号，间充质细胞提供广泛多样的旁分泌支持</li>
+      <li>通讯网络具有高度 <strong>冗余性</strong>，确保再生支持稳健</li>
+      <li>外周神经的"通用生长配方"可被 CNS 神经元感知</li>
+    </ul>
+    <h2>临床意义</h2>
+    <ul>
+      <li>传统疗法过度依赖施万细胞或单一因子（如 NGF）</li>
+      <li>未来策略应考虑：激活内源性间充质细胞、模拟全细胞微环境</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第21页：参考文献 -->
+
+
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>参考文献</h1>
+  <div class="content-area">
+    <p style="font-size:13px; line-height:1.8;">
+      Carr et al. (2020). Paracrine Ligand-Receptor Interactions in the Peripheral Nerve Microenvironment Promote Axon Growth. <em>eNeuro</em>, 7(4), ENEURO.0066-20.2020.
+    </p>
+    <p style="font-size:13px; line-height:1.8; margin-top:12px;">
+      Yuzwa et al. (2016). A manually curated ligand-receptor database for cell-cell communication analysis.
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
