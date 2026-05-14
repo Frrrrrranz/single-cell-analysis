@@ -151,7 +151,6 @@
     <a href="#sec5-3" class="l2">5.3 细胞注释图</a>
     <a href="#sec5-4" class="l2">5.4 细胞比例</a>
     <a href="#sec6">6. 与文献对比</a>
-    <a href="#sec7">7. Git版本管理</a>
 </nav>
 
 <!-- ===== 主内容 ===== -->
@@ -602,52 +601,8 @@ for cluster in adata.obs['leiden'].cat.categories:
 </section>
 
 <!-- ============================================================ -->
-<section id="sec7">
-<h2>7. Git 版本管理</h2>
-
-<h3>7.1 仓库配置</h3>
-<p>项目已配置 Git 版本管理，关联 GitHub 远程仓库：</p>
-<pre><code># 远程仓库地址
-https://github.com/Frrrrrranz/single-cell-analysis.git
-
-# 已完成的配置
-git init                          # 初始化本地仓库
-git remote add origin <url>       # 关联远程仓库
-git add .gitignore ...             # 添加文件到暂存区
-git commit -m "初始化项目"         # 首次提交</code></pre>
-
-<h3>7.2 .gitignore 策略</h3>
-<p>以下文件/目录不纳入版本控制：</p>
-<table>
-    <tr><th>类型</th><th>说明</th></tr>
-    <tr><td><code>venv/</code></td><td>Python 虚拟环境（可重新创建）</td></tr>
-    <tr><td><code>data/*.txt.gz</code></td><td>原始数据文件（从 GEO 下载，可重新下载）</td></tr>
-    <tr><td><code>results/*.png</code></td><td>分析结果图片（可重新生成）</td></tr>
-    <tr><td><code>results/*.h5ad</code></td><td>分析结果数据（可重新生成）</td></tr>
-    <tr><td><code>__pycache__/</code></td><td>Python 缓存文件</td></tr>
-</table>
-
-<h3>7.3 常用 Git 命令</h3>
-<pre><code># 查看当前状态
-git status
-
-# 添加修改的文件
-git add 文件名
-
-# 提交修改
-git commit -m "修改说明"
-
-# 推送到 GitHub
-git push -u origin master
-
-# 拉取最新代码
-git pull</code></pre>
-</section>
-
-<!-- ============================================================ -->
 <footer>
     <p>📄 生成日期：2026年5月 | 基于 eNeuro 2020 文献复现</p>
-    <p>🔗 GitHub: <a href="https://github.com/Frrrrrranz/single-cell-analysis" target="_blank">github.com/Frrrrrranz/single-cell-analysis</a></p>
 </footer>
 
 </main>
