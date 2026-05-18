@@ -4,7 +4,7 @@
 文献: Peripheral Nerve Single-Cell Analysis Identifies Mesenchymal Ligands (eNeuro, 2020)
 数据: GEO GSE147285 (Drop-seq, 小鼠坐骨神经)
 
-分析流程: 下载数据 → 质控 → 标准化 → 降维 → 聚类 → 细胞类型注释
+分析流程: 下载数据 → 质控(含双细胞检测) → 标准化 → 降维 → 聚类 → 差异表达分析 → 细胞类型注释
 """
 
 import os
@@ -68,6 +68,12 @@ MARKER_GENES = {
     'B cells': ['Cd19', 'Cd79a', 'Ms4a1'],
     'Mast cells': ['Cpa3', 'Kit', 'Fcer1a'],
 }
+
+# NOTE: 文献核心发现中涉及的间充质细胞配体基因
+LIGAND_GENES = [
+    'Col1a1', 'Col1a2', 'Col3a1', 'Col6a1', 'Col6a2', 'Fn1', 'Sparc',
+    'Ctgf', 'Tgfbi', 'Sparcl1', 'Mdk', 'Ptprd', 'Slit2', 'Gas6',
+]
 
 
 # ============================================================
@@ -207,10 +213,96 @@ def quality_control(adata):
 
 
 # ============================================================
-# 步骤 4-6：标准化、高变基因、PCA
+# 步骤 3b：双细胞检测（Doublet Detection）
+# ============================================================
+def detect_doublets(adata):
+    """使用 Scrublet 检测并去除双细胞
+
+    Scrublet 通过模拟人工双细胞，比较真实细胞与模拟双细胞的
+    近邻密度分布，为每个细胞计算双细胞得分。
+    """
+    print("=" * 60)
+    print("步骤 3b：双细胞检测（Scrublet）")
+    print("=" * 60)
+
+    n_before = adata.n_obs
+    doublet_labels = np.full(adata.n_obs, False)
+    doublet_scores = np.zeros(adata.n_obs)
+
+    # NOTE: 不同样本的双细胞率不同，按样本分别检测
+    for sample_name in adata.obs['sample'].cat.categories:
+        mask = adata.obs['sample'] == sample_name
+        sample_adata = adata[mask].copy()
+
+        if sample_adata.n_obs < 50:
+            print(f"  [跳过] {sample_name}: 细胞数过少 ({sample_adata.n_obs})")
+            continue
+
+        try:
+            # Scanpy >= 1.10 内置了 scrublet 接口
+            sc.pp.scrublet(sample_adata, random_state=42, batch_key='sample')
+
+            if 'predicted_doublet' in sample_adata.obs:
+                n_doublets = sample_adata.obs['predicted_doublet'].sum()
+                print(f"  {sample_name}: {n_doublets}/{sample_adata.n_obs} 个双细胞 "
+                      f"({n_doublets/sample_adata.n_obs*100:.1f}%)")
+                doublet_labels[mask] = sample_adata.obs['predicted_doublet'].values.astype(bool)
+                if 'doublet_score' in sample_adata.obs:
+                    doublet_scores[mask] = sample_adata.obs['doublet_score'].values
+        except Exception as e:
+            print(f"  [警告] {sample_name} 双细胞检测失败: {e}")
+
+    # 将结果添加到原始 adata
+    adata.obs['doublet_score'] = doublet_scores
+    adata.obs['doublet'] = doublet_labels
+
+    # 绘制双细胞得分分布图
+    if doublet_scores.max() > 0:
+        fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+
+        # 直方图
+        axes[0].hist(doublet_scores[~doublet_labels], bins=50, alpha=0.7,
+                     color='steelblue', label='Singlet', density=True)
+        axes[0].hist(doublet_scores[doublet_labels], bins=50, alpha=0.7,
+                     color='coral', label='Doublet', density=True)
+        axes[0].set_xlabel('双细胞得分')
+        axes[0].set_ylabel('密度')
+        axes[0].set_title('双细胞得分分布')
+        axes[0].legend()
+
+        # 按样本的统计
+        sample_names = []
+        doublet_counts = []
+        for sample_name in adata.obs['sample'].cat.categories:
+            mask = adata.obs['sample'] == sample_name
+            sample_names.append(sample_name)
+            doublet_counts.append(adata.obs.loc[mask, 'doublet'].sum())
+
+        axes[1].bar(sample_names, doublet_counts, color='coral', edgecolor='white')
+        axes[1].set_xlabel('样本')
+        axes[1].set_ylabel('双细胞数')
+        axes[1].set_title('各样本双细胞数')
+        axes[1].tick_params(axis='x', rotation=45)
+
+        plt.tight_layout()
+        plt.savefig(os.path.join(OUTPUT_DIR, '02_doublet_detection.png'), dpi=150, bbox_inches='tight')
+        plt.close()
+        print("  [保存] 02_doublet_detection.png")
+
+    # 去除双细胞
+    adata = adata[~adata.obs['doublet'].values, :].copy()
+    n_after = adata.n_obs
+    print(f"  [去除] {n_before} → {n_after} 个细胞（去除 {n_before - n_after} 个双细胞）")
+    print()
+
+    return adata
+
+
+# ============================================================
+# 步骤 4-6：标准化、高变基因、PCA（含动态维度选择）
 # ============================================================
 def normalize_and_reduce(adata):
-    """标准化、高变基因选择、PCA降维"""
+    """标准化、高变基因选择、PCA降维（带动态PC选择）"""
     print("=" * 60)
     print("步骤 4-6：标准化 → 高变基因 → PCA")
     print("=" * 60)
@@ -232,15 +324,35 @@ def normalize_and_reduce(adata):
     # 缩放
     sc.pp.scale(adata, max_value=10)
 
-    # PCA
-    sc.pp.pca(adata, n_comps=30)
-    print("  [完成] PCA 降维（30个主成分）")
+    # PCA（计算 50 个主成分供后续动态选择）
+    sc.pp.pca(adata, n_comps=50, svd_solver='arpack')
+    print("  [完成] PCA 降维（50个主成分）")
 
     # 绘制 PCA 方差解释图
-    sc.pl.pca_variance_ratio(adata, n_pcs=30, show=False)
-    plt.savefig(os.path.join(OUTPUT_DIR, '02_pca_variance.png'), dpi=150, bbox_inches='tight')
+    sc.pl.pca_variance_ratio(adata, n_pcs=50, show=False)
+    plt.savefig(os.path.join(OUTPUT_DIR, '03_pca_variance.png'), dpi=150, bbox_inches='tight')
     plt.close()
-    print("  [保存] 02_pca_variance.png")
+    print("  [保存] 03_pca_variance.png")
+
+    # 动态选择 PC 数：使用 kneed 检测方差解释率的拐点
+    try:
+        from kneed import KneeLocator
+        var_ratio = adata.uns['pca']['variance_ratio']
+        n_pcs = min(50, len(var_ratio))
+        x = np.arange(1, n_pcs + 1)
+        # NOTE: 使用 KneeLocator 检测拐点，方向为递减
+        kneedle = KneeLocator(x, var_ratio[:n_pcs], S=1.0, curve='convex', direction='decreasing')
+        optimal_pcs = kneedle.knee
+        if optimal_pcs is None or optimal_pcs < 5:
+            optimal_pcs = 20  # 降级为默认值
+        print(f"  [选择] kneed 确定最优 PC 数: {optimal_pcs}")
+    except Exception as e:
+        optimal_pcs = 20  #  kneed 不可用时降级
+        print(f"  [降级] 使用默认 PC 数: {optimal_pcs} ({e})")
+
+    # 保存选择的 PC 数到 uns 中，供后续步骤使用
+    adata.uns['optimal_pcs'] = optimal_pcs
+
     print()
     return adata
 
@@ -255,7 +367,9 @@ def batch_correction(adata):
     print("=" * 60)
     try:
         import harmonypy
-        sc.external.pp.harmony_integrate(adata, key='sample', basis='X_pca', adjusted_basis='X_pca_harmony')
+        sc.external.pp.harmony_integrate(
+            adata, key='sample', basis='X_pca', adjusted_basis='X_pca_harmony'
+        )
         use_rep = 'X_pca_harmony'
         print("  [完成] Harmony 批次校正成功")
     except Exception as e:
@@ -274,8 +388,12 @@ def cluster_and_visualize(adata, use_rep):
     print("步骤 8-9：聚类 + UMAP 可视化")
     print("=" * 60)
 
+    optimal_pcs = adata.uns.get('optimal_pcs', 20)
+    n_pcs = min(optimal_pcs, 30)  # 最高不超过 30
+    print(f"  [信息] 使用 {n_pcs} 个 PC 构建邻域图")
+
     # 构建邻域图
-    sc.pp.neighbors(adata, n_pcs=20, use_rep=use_rep)
+    sc.pp.neighbors(adata, n_pcs=n_pcs, use_rep=use_rep)
     print("  [完成] 邻域图构建")
 
     # UMAP 降维
@@ -284,30 +402,115 @@ def cluster_and_visualize(adata, use_rep):
 
     # Leiden 聚类
     sc.tl.leiden(adata, resolution=0.8, flavor='igraph', n_iterations=2)
-    print(f"  [完成] Leiden 聚类，共 {adata.obs['leiden'].nunique()} 个聚类")
+    n_clusters = adata.obs['leiden'].nunique()
+    print(f"  [完成] Leiden 聚类，共 {n_clusters} 个聚类")
 
     # 绘制 UMAP（按聚类着色）
     sc.pl.umap(adata, color='leiden', legend_loc='on data', title='Leiden Clusters', show=False)
-    plt.savefig(os.path.join(OUTPUT_DIR, '03_umap_clusters.png'), dpi=150, bbox_inches='tight')
+    plt.savefig(os.path.join(OUTPUT_DIR, '04_umap_clusters.png'), dpi=150, bbox_inches='tight')
     plt.close()
-    print("  [保存] 03_umap_clusters.png")
+    print("  [保存] 04_umap_clusters.png")
 
     # 绘制 UMAP（按样本着色）
     sc.pl.umap(adata, color='condition', title='Sample Conditions', show=False)
-    plt.savefig(os.path.join(OUTPUT_DIR, '04_umap_conditions.png'), dpi=150, bbox_inches='tight')
+    plt.savefig(os.path.join(OUTPUT_DIR, '05_umap_conditions.png'), dpi=150, bbox_inches='tight')
     plt.close()
-    print("  [保存] 04_umap_conditions.png")
+    print("  [保存] 05_umap_conditions.png")
     print()
     return adata
 
 
 # ============================================================
-# 步骤 10：细胞类型注释（核心步骤）
+# 步骤 10：差异表达分析（DEA）
+# ============================================================
+def differential_expression(adata):
+    """差异表达分析：寻找每个聚类的标志基因
+
+    对应标准 Seurat 流程中的 FindAllMarkers() 步骤。
+    这是验证文献标志基因和发现新 marker 的关键步骤。
+    """
+    print("=" * 60)
+    print("步骤 10：差异表达分析")
+    print("=" * 60)
+
+    # 使用标准化后的全基因数据（adata.raw）进行差异表达分析
+    # NOTE: 使用 t-test 进行差异分析，快速且适合单细胞数据
+    sc.tl.rank_genes_groups(
+        adata, groupby='leiden', method='t-test',
+        n_genes=50, use_raw=True, key='rank_genes_groups'
+    )
+    print("  [完成] 差异表达分析（t-test，每个聚类 top 50 基因）")
+
+    # 保存差异表达结果到 CSV
+    de_results = pd.DataFrame()
+    for cluster in adata.obs['leiden'].cat.categories:
+        cluster_de = sc.get.rank_genes_groups_df(adata, group=cluster, key='rank_genes_groups')
+        cluster_de['cluster'] = cluster
+        de_results = pd.concat([de_results, cluster_de], ignore_index=True)
+
+    de_results.to_csv(os.path.join(OUTPUT_DIR, 'de_genes.csv'), index=False)
+    print("  [保存] de_genes.csv（差异表达基因表）")
+
+    # 绘制差异基因热图（每个聚类 top 5）
+    sc.pl.rank_genes_groups_heatmap(
+        adata, n_genes=5, groupby='leiden', key='rank_genes_groups',
+        show=False, vmin=-3, vmax=3, cmap='RdBu_r',
+    )
+    plt.savefig(os.path.join(OUTPUT_DIR, '06_heatmap_de_genes.png'), dpi=150, bbox_inches='tight')
+    plt.close()
+    print("  [保存] 06_heatmap_de_genes.png")
+
+    # 绘制差异基因点图
+    sc.pl.rank_genes_groups_dotplot(
+        adata, n_genes=5, groupby='leiden', key='rank_genes_groups',
+        show=False, standard_scale='var',
+    )
+    plt.savefig(os.path.join(OUTPUT_DIR, '07_dotplot_de_genes.png'), dpi=150, bbox_inches='tight')
+    plt.close()
+    print("  [保存] 07_dotplot_de_genes.png")
+
+    # 绘制差异基因小提琴图
+    sc.pl.rank_genes_groups_violin(
+        adata, n_genes=5, groupby='leiden', key='rank_genes_groups',
+        show=False,
+    )
+    plt.savefig(os.path.join(OUTPUT_DIR, '08_violin_de_genes.png'), dpi=150, bbox_inches='tight')
+    plt.close()
+    print("  [保存] 08_violin_de_genes.png")
+
+    # 验证文献核心发现：检查配体基因在间充质细胞中的表达
+    print("\n  [文献验证] 检查间充质细胞标志基因和配体基因表达...")
+    adata_raw = adata.raw.to_adata()
+
+    for gene in LIGAND_GENES:
+        if gene in adata_raw.var_names:
+            sc.pl.umap(adata_raw, color=gene, title=f'Ligand: {gene}',
+                       show=False, color_map='Reds', frameon=False)
+            plt.savefig(os.path.join(OUTPUT_DIR, f'ligand_{gene}.png'),
+                        dpi=150, bbox_inches='tight')
+            plt.close()
+
+    # 统计配体基因在不同细胞类型中的平均表达水平
+    ligand_found = [g for g in LIGAND_GENES if g in adata_raw.var_names]
+    if ligand_found:
+        ligand_expr = sc.get.aggregate(adata_raw, by='leiden', func='mean')
+        ligand_expr = ligand_expr[:, ligand_found]
+        ligand_df = ligand_expr.to_df().T
+        ligand_df.columns = [f'Cluster_{c}' for c in ligand_df.columns]
+        ligand_df.to_csv(os.path.join(OUTPUT_DIR, 'ligand_expression.csv'))
+        print(f"  [保存] ligand_expression.csv（配体基因在各聚类的平均表达）")
+
+    print()
+    return adata
+
+
+# ============================================================
+# 步骤 11：细胞类型注释（核心步骤）
 # ============================================================
 def annotate_cells(adata):
     """基于文献标志基因进行细胞类型注释"""
     print("=" * 60)
-    print("步骤 10：细胞类型注释")
+    print("步骤 11：细胞类型注释")
     print("=" * 60)
 
     # 使用 raw 数据（包含全部基因）来检查标志基因
@@ -329,9 +532,9 @@ def annotate_cells(adata):
     if all_markers:
         sc.pl.dotplot(adata_raw, var_names=available_markers, groupby='leiden',
                       standard_scale='var', show=False)
-        plt.savefig(os.path.join(OUTPUT_DIR, '05_dotplot_markers.png'), dpi=150, bbox_inches='tight')
+        plt.savefig(os.path.join(OUTPUT_DIR, '09_dotplot_markers.png'), dpi=150, bbox_inches='tight')
         plt.close()
-        print("\n  [保存] 05_dotplot_markers.png")
+        print("\n  [保存] 09_dotplot_markers.png")
 
     # 绘制标志基因在 UMAP 上的表达
     markers_to_plot = []
@@ -354,9 +557,9 @@ def annotate_cells(adata):
         for idx in range(len(markers_to_plot), len(axes)):
             axes[idx].set_visible(False)
         plt.tight_layout()
-        plt.savefig(os.path.join(OUTPUT_DIR, '06_umap_markers.png'), dpi=150, bbox_inches='tight')
+        plt.savefig(os.path.join(OUTPUT_DIR, '10_umap_markers.png'), dpi=150, bbox_inches='tight')
         plt.close()
-        print("  [保存] 06_umap_markers.png")
+        print("  [保存] 10_umap_markers.png")
 
     # 基于标志基因表达进行自动注释
     # NOTE: 计算每个聚类中各标志基因的平均表达，取最高者作为注释
@@ -395,9 +598,9 @@ def annotate_cells(adata):
     # 绘制注释后的 UMAP
     sc.pl.umap(adata, color='cell_type', title='Cell Type Annotation',
                legend_loc='right margin', show=False)
-    plt.savefig(os.path.join(OUTPUT_DIR, '07_umap_cell_types.png'), dpi=150, bbox_inches='tight')
+    plt.savefig(os.path.join(OUTPUT_DIR, '11_umap_cell_types.png'), dpi=150, bbox_inches='tight')
     plt.close()
-    print("\n  [保存] 07_umap_cell_types.png")
+    print("\n  [保存] 11_umap_cell_types.png")
 
     # 绘制注释后的小提琴图
     key_markers = []
@@ -409,9 +612,9 @@ def annotate_cells(adata):
     if key_markers:
         sc.pl.stacked_violin(adata_raw, var_names=key_markers, groupby='cell_type',
                              show=False, swap_axes=True)
-        plt.savefig(os.path.join(OUTPUT_DIR, '08_violin_markers.png'), dpi=150, bbox_inches='tight')
+        plt.savefig(os.path.join(OUTPUT_DIR, '12_violin_markers.png'), dpi=150, bbox_inches='tight')
         plt.close()
-        print("  [保存] 08_violin_markers.png")
+        print("  [保存] 12_violin_markers.png")
 
     # 统计各细胞类型比例
     print("\n  [统计] 各细胞类型比例:")
@@ -429,20 +632,20 @@ def annotate_cells(adata):
     for text in autotexts:
         text.set_fontsize(9)
     ax.set_title('Cell Type Proportions')
-    plt.savefig(os.path.join(OUTPUT_DIR, '09_cell_proportions.png'), dpi=150, bbox_inches='tight')
+    plt.savefig(os.path.join(OUTPUT_DIR, '13_cell_proportions.png'), dpi=150, bbox_inches='tight')
     plt.close()
-    print("  [保存] 09_cell_proportions.png")
+    print("  [保存] 13_cell_proportions.png")
     print()
     return adata
 
 
 # ============================================================
-# 步骤 11：保存结果
+# 步骤 12：保存结果
 # ============================================================
 def save_results(adata):
     """保存分析结果"""
     print("=" * 60)
-    print("步骤 11：保存结果")
+    print("步骤 12：保存结果")
     print("=" * 60)
 
     # 保存 AnnData 对象
@@ -451,7 +654,8 @@ def save_results(adata):
 
     # 导出细胞注释表
     meta = adata.obs[['sample', 'condition', 'leiden', 'cell_type',
-                       'n_genes_by_counts', 'total_counts']].copy()
+                       'n_genes_by_counts', 'total_counts',
+                       'doublet_score', 'doublet']].copy()
     meta.to_csv(os.path.join(OUTPUT_DIR, 'cell_annotations.csv'))
     print("  [保存] cell_annotations.csv（细胞注释表）")
     print()
@@ -475,7 +679,10 @@ def main():
     # 3. 质控
     adata = quality_control(adata)
 
-    # 4-6. 标准化 + PCA
+    # 3b. 双细胞检测（新增）
+    adata = detect_doublets(adata)
+
+    # 4-6. 标准化 + PCA（含动态PC选择）
     adata = normalize_and_reduce(adata)
 
     # 7. 批次校正
@@ -484,10 +691,13 @@ def main():
     # 8-9. 聚类 + UMAP
     adata = cluster_and_visualize(adata, use_rep)
 
-    # 10. 注释
+    # 10. 差异表达分析（新增）
+    adata = differential_expression(adata)
+
+    # 11. 注释
     adata = annotate_cells(adata)
 
-    # 11. 保存
+    # 12. 保存
     save_results(adata)
 
     print("=" * 60)

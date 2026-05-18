@@ -1,31 +1,27 @@
-# Python 虚拟环境
-scrna-analysis/venv/
-scrna-analysis/__pycache__/
+# Python
 __pycache__/
-*.pyc
-*.pyo
-
-# 单细胞数据文件（大文件，不纳入版本控制）
-scrna-analysis/data/*.txt.gz
-scrna-analysis/data/*.txt
-scrna-analysis/data/*.csv
-
-# 分析结果（可重新生成）
-scrna-analysis/results/*.png
-scrna-analysis/results/*.h5ad
-scrna-analysis/results/*.csv
-
-# R 相关
-.Rhistory
-.RData
-.Rproj.user
-
-# 系统文件
-Thumbs.db
-.DS_Store
-*.swp
-*.swo
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
 
 # IDE
-.idea/
 .vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.h5ad
+*.h5
+*.zip
+*.gz
+*.tar
+
+# Results images (generated)
+*.png
+*.jpg
+*.jpeg
