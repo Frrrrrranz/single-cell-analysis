@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>评审补充与修正 · 同学 Python 分析</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    background: #f5f7fa;
+    color: #1a1a2e;
+    line-height: 1.7;
+  }
+
+  .hero {
+    background: linear-gradient(135deg, #831843 0%, #9f1239 60%, #7c2d12 100%);
+    color: #fff;
+    padding: 50px 48px 36px;
+  }
+  .hero h1 { font-size: 1.7rem; font-weight: 700; margin-bottom: 8px; }
+  .hero .sub { font-size: .95rem; color: #fecaca; }
+  .hero .tag-row { margin-top: 18px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .hero .tag-pill {
+    background: rgba(255,255,255,.1);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: .8rem;
+    border: 1px solid rgba(255,255,255,.2);
+  }
+
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 32px 60px;
+  }
+
+  /* 校正声明 */
+  .correction-banner {
+    background: linear-gradient(135deg, #fef9c3, #fef3c7);
+    border-left: 6px solid #ca8a04;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+  }
+  .correction-banner h2 {
+    color: #713f12;
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .correction-banner h2::before {
+    content: "🔄";
+    font-size: 1.4rem;
+  }
+  .correction-banner p { color: #78350f; font-size: .95rem; }
+  .correction-banner .quote {
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: rgba(255,255,255,.6);
+    border-radius: 8px;
+    font-style: italic;
+    color: #92400e;
+    border-left: 3px solid #ca8a04;
+  }
+
+  .section {
+    background: #fff;
+    border-radius: 14px;
+    padding: 32px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.05);
+  }
+  .section h2 {
+    font-size: 1.3rem;
+    color: #0f172a;
+    margin-bottom: 6px;
+    display: flex; align-items: center; gap: 10px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #f1f5f9;
+  }
+  .section .section-sub {
+    color: #64748b;
+    font-size: .85rem;
+    margin: -8px 0 18px 0;
+  }
+  .sec-num {
+    width: 36px; height: 36px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .9rem;
+  }
+  .sec-num-1 { background: linear-gradient(135deg, #f59e0b, #d97706); }
+  .sec-num-2 { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+  .sec-num-3 { background: linear-gradient(135deg, #10b981, #059669); }
+
+  /* 参数对比表 */
+  .param-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    font-size: .85rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,.05);
+  }
+  .param-table th {
+    background: #1e3a8a;
+    color: #fff;
+    padding: 12px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: .82rem;
+    letter-spacing: .5px;
+  }
+  .param-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: top;
+  }
+  .param-table tr:hover { background: #f8fafc; }
+
+  .param-table .col-step { font-weight: 700; color: #0f172a; width: 14%; }
+  .param-table .col-paper { background: #eff6ff; width: 28%; }
+  .param-table .col-stu { background: #fef3c7; width: 28%; }
+  .param-table .col-eval { width: 30%; }
+
+  .badge-ok { color: #15803d; font-weight: 700; }
+  .badge-warn { color: #b45309; font-weight: 700; }
+  .badge-bad { color: #dc2626; font-weight: 700; }
+  .badge-na { color: #64748b; font-style: italic; }
+
+  code {
+    background: #f1f5f9;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", Consolas, monospace;
+    font-size: .82rem;
+    color: #dc2626;
+  }
+  code.green { color: #15803d; background: #f0fdf4; }
+  code.blue { color: #1d4ed8; background: #eff6ff; }
+
+  /* 工具推荐 */
+  .tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 18px;
+    margin-top: 18px;
+  }
+  .tool-card {
+    background: #fafbfc;
+    border-radius: 12px;
+    padding: 22px;
+    border: 1px solid #e2e8f0;
+    transition: transform .15s, box-shadow .15s;
+    position: relative;
+    overflow: hidden;
+  }
+  .tool-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.08); }
+  .tool-card.recommended {
+    background: linear-gradient(135deg, #ecfdf5, #f0fdf4);
+    border-color: #86efac;
+  }
+  .tool-card.recommended::before {
+    content: "⭐ 首选";
+    position: absolute;
+    top: 12px; right: 12px;
+    background: #16a34a;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+  }
+  .tool-card.alternative {
+    background: linear-gradient(135deg, #eff6ff, #f0f9ff);
+    border-color: #93c5fd;
+  }
+  .tool-card.alternative::before {
+    content: "✓ 推荐";
+    position: absolute;
+    top: 12px; right: 12px;
+    background: #2563eb;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: .68rem;
+    font-weight: 700;
+  }
+  .tool-name {
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 4px;
+  }
+  .tool-lang {
+    display: inline-block;
+    background: #1e293b;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: .68rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .tool-lang.python { background: #3776ab; }
+  .tool-lang.r { background: #276dc3; }
+  .tool-desc {
+    font-size: .85rem;
+    color: #475569;
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+  .tool-features {
+    font-size: .78rem;
+    color: #334155;
+  }
+  .tool-features div { margin-bottom: 3px; padding-left: 16px; position: relative; }
+  .tool-features div::before {
+    content: "▸";
+    position: absolute; left: 4px;
+    color: #16a34a;
+    font-weight: 700;
+  }
+  .tool-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 10px;
+    background: #1e293b;
+    color: #fff;
+    border-radius: 6px;
+    font-size: .75rem;
+    text-decoration: none;
+    font-family: "SF Mono", Consolas, monospace;
+  }
+
+  pre {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 14px 18px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 12px 0;
+    font-family: "SF Mono", Consolas, monospace;
+    font-size: .8rem;
+    line-height: 1.6;
+  }
+  pre .comment { color: #64748b; }
+  pre .keyword { color: #c084fc; }
+  pre .string { color: #86efac; }
+  pre .func { color: #fbbf24; }
+
+  .note-box {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: #f0f9ff;
+    border-left: 4px solid #0ea5e9;
+    border-radius: 6px;
+    font-size: .87rem;
+    color: #0c4a6e;
+  }
+  .note-box.warn {
+    background: #fff7ed;
+    border-color: #f97316;
+    color: #7c2d12;
+  }
+  .note-box .label {
+    font-weight: 700;
+    margin-right: 6px;
+  }
+
+  .score-update {
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    border-radius: 14px;
+    padding: 28px;
+    text-align: center;
+    margin: 32px 0;
+    border: 2px solid #93c5fd;
+  }
+  .score-update h3 { color: #1e3a8a; margin-bottom: 12px; }
+  .score-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  .score-old { color: #94a3b8; text-decoration: line-through; }
+  .score-arrow { color: #2563eb; font-size: 1.4rem; }
+  .score-new { color: #1e40af; font-size: 2.2rem; }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: .76rem;
+    color: #94a3b8;
+  }
+
+  .priority-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: .82rem;
+  }
+  .priority-bar .label-p {
+    background: #0f172a; color: #fff;
+    padding: 2px 8px; border-radius: 4px;
+    font-weight: 700; font-size: .7rem;
+    margin-right: 8px;
+  }
+  .priority-bar.p0 .label-p { background: #dc2626; }
+  .priority-bar.p1 .label-p { background: #ea580c; }
+  .priority-bar.p2 .label-p { background: #ca8a04; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>📋 评审补充与修正</h1>
+  <div class="sub">针对前次评审的三点回应 · ENEURO.0066-20.2020 Python 复现</div>
+  <div class="tag-row">
+    <span class="tag-pill">① 修正 LIGAND_GENES 误判</span>
+    <span class="tag-pill">② 参数逐项对比原文</span>
+    <span class="tag-pill">③ 推荐配体-受体工具</span>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- ════════════ 校正声明 ════════════ -->
+  <div class="correction-banner">
+    <h2>校正声明 · 关于 LIGAND_GENES 的判读错误</h2>
+    <p>
+      你指出得对。重新审视同学的 PDF 后，<b>LIGAND_GENES 那段代码并不是配体-受体分析</b>，而是<b>细胞类型注释完成后的验证步骤</b>——目的是看间充质细胞 cluster 是否真的能高表达这些特征基因，作为对注释结果的旁证。
+    </p>
+    <div class="quote">
+      代码原文注释：<code>"# 检查配体基因在间充质细胞中的表达"</code>
+      —— 实际是把 ECM 标志基因列入了 <code>LIGAND_GENES</code> 变量名下，<b>变量命名误导</b>，但功能上属于细胞类型 marker 验证。
+    </div>
+    <p style="margin-top:12px;">
+      <b>真正的问题</b>变成了两个：（1）<b>变量命名错误</b>——把 Col1a1/Fn1/Sparc 这些 ECM 蛋白叫成 "LIGAND_GENES" 容易误导后续读代码的人；（2）<b>同学的分析确实只做到细胞类型注释</b>，没有进入论文真正的核心（配体-受体互作预测），后者需要补做。
+    </p>
+    <p style="margin-top:8px;">
+      所以前次评审中"把 ECM 当成配体"的指控不成立，<b>评分上调</b>。但"分析深度未到论文核心"仍然成立。
+    </p>
+  </div>
+
+  <!-- ════════════ 分数更新 ════════════ -->
+  <div class="score-update">
+    <h3>评分修正</h3>
+    <div class="score-row">
+      <span class="score-old">7.0 / 10</span>
+      <span class="score-arrow">→</span>
+      <span class="score-new">7.8 / 10</span>
+    </div>
+    <p style="color: #475569; font-size: .85rem; margin-top: 12px;">
+      细胞注释流程完整、技术执行规范 · 上调 0.8 分<br>
+      但分析深度仅停留在论文 Figure 1，未涉及 Figure 5-7 核心内容 · 上限受限
+    </p>
+  </div>
+
+  <!-- ════════════ 第二部分：参数对比 ════════════ -->
+  <div class="section">
+    <h2><span class="sec-num sec-num-2">02</span>参数逐项对比原文</h2>
+    <div class="section-sub">所有参数严格依据 ENEURO.0066-20.2020 原文 Methods 部分</div>
+
+    <table class="param-table">
+      <thead>
+        <tr>
+          <th>分析步骤</th>
+          <th>论文参数（Toma 2020）</th>
+          <th>同学参数</th>
+          <th>评价</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="col-step">QC · 最低基因数</td>
+          <td class="col-paper">未明确指定具体值<br><span class="badge-na">"low UMI counts"</span></td>
+          <td class="col-stu"><code>min_genes=200</code></td>
+          <td class="col-eval"><span class="badge-ok">合理</span><br>200 是 10X/Drop-seq 数据的常用经验值</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">QC · 最高基因数</td>
+          <td class="col-paper">未明确指定<br>用了 doublet 检测（具体算法未说明）</td>
+          <td class="col-stu"><code>max_genes=5000</code></td>
+          <td class="col-eval"><span class="badge-warn">偏粗</span><br>固定阈值不如 MAD-based 自适应；不过对于 Drop-seq（基因检出率本就低）影响有限</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">QC · 线粒体</td>
+          <td class="col-paper">未明确比例阈值<br><span class="badge-na">"high mitochondrial gene content"</span></td>
+          <td class="col-stu"><code>pct_counts_mt &lt; 10%</code></td>
+          <td class="col-eval"><span class="badge-ok">合理</span><br>10% 是单细胞分析的标准截断之一</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">QC · 最低基因检出细胞数</td>
+          <td class="col-paper"><code>min_cells=3</code><br><span class="badge-ok">"Genes detected in less than three cells were removed"</span></td>
+          <td class="col-stu"><code>min_cells=3</code></td>
+          <td class="col-eval"><span class="badge-ok">✅ 完全一致</span><br>这是同学唯一与论文严格匹配的参数</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">归一化方法</td>
+          <td class="col-paper"><b>scran 池化反卷积</b><br>Lun et al. 2016，统计学严谨</td>
+          <td class="col-stu"><code>normalize_total(target_sum=1e4)</code><br>+ <code>log1p()</code></td>
+          <td class="col-eval"><span class="badge-warn">不同方法</span><br>scran 与 LogNormalize 在 2023 Nature Methods 基准中性能相当（假阳性 DEG: 498 vs 415），但 scran 更严谨。同学换了方法但未声明</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">高变基因数</td>
+          <td class="col-paper">未明确具体数量<br>Seurat v1 默认（基于均值-变异）</td>
+          <td class="col-stu"><code>n_top_genes=2000</code></td>
+          <td class="col-eval"><span class="badge-ok">合理</span><br>2000 是 Scanpy/Seurat v5 标准值；论文未给数字，无法严格比较</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">HVG batch_key</td>
+          <td class="col-paper"><span class="badge-na">未使用</span></td>
+          <td class="col-stu"><code>batch_key='sample'</code></td>
+          <td class="col-eval"><span class="badge-ok">✅ 比论文好</span><br>分样本算 HVG 再合并，能避免某个样本主导高变基因列表</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">PCA · 主成分数</td>
+          <td class="col-paper">批次校正用 <b>top 20 PCs</b><br><span class="badge-na">"top 20 principal components"</span></td>
+          <td class="col-stu">先算 <code>n_comps=50</code><br>再用 <code>kneed</code> 拐点自动选</td>
+          <td class="col-eval"><span class="badge-ok">✅ 比论文严谨</span><br>kneed 数据驱动选 PC 数比固定 20 个合理；但需检查 kneed 输出是否合理（神经组织异质性高时拐点可能偏移）</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">批次校正算法</td>
+          <td class="col-paper"><b>Harmony</b> + Seurat V2<br>Korsunsky et al. 2019</td>
+          <td class="col-stu"><b>Harmony</b>（harmonypy）<br>via <code>sc.external.pp.harmony_integrate</code></td>
+          <td class="col-eval"><span class="badge-ok">✅ 算法一致</span><br>实现差异（R 版 vs Python 版），结果应基本等价</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">聚类算法</td>
+          <td class="col-paper"><b>SNN 模块化优化</b><br>（Seurat v1 FindClusters，Louvain 家族）</td>
+          <td class="col-stu"><b>Leiden</b><br><code>sc.tl.leiden()</code></td>
+          <td class="col-eval"><span class="badge-ok">✅ 更先进</span><br>Leiden 保证 cluster 内部连通性，2019 年后已是公认更优。这是同学的优势</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">聚类 · 分辨率 ⭐</td>
+          <td class="col-paper"><b><code>resolution = 0.4</code></b><br><span class="badge-ok">"clusters were assigned at a resolution of 0.4 for analysis of all datasets"</span></td>
+          <td class="col-stu"><b><code>resolution = 0.8</code></b></td>
+          <td class="col-eval"><span class="badge-bad">⚠️ 偏离 2x</span><br>论文白纸黑字写 0.4，同学用 0.8 会过度细分。<b>这是直接可对照的参数差异</b>，建议改回 0.4</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">DE · 统计方法</td>
+          <td class="col-paper"><b>Wilcoxon 秩和检验</b><br>（Seurat v1 FindMarkers 默认）</td>
+          <td class="col-stu"><b>t-test</b><br><code>method='t-test'</code></td>
+          <td class="col-eval"><span class="badge-bad">⚠️ 不一致</span><br>单细胞数据高度非正态，t-test 假阳性偏高；Scanpy 官方推荐 wilcoxon</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">DE · 显著性阈值</td>
+          <td class="col-paper"><b><code>p &lt; 0.01</code></b><br>FWER 多重检验校正（Holm 法）</td>
+          <td class="col-stu">未指定阈值<br>仅取 <code>n_genes=50</code></td>
+          <td class="col-eval"><span class="badge-warn">不严谨</span><br>固定取 50 个 top 基因，没考虑显著性。如果某 cluster 实际上没有 50 个显著基因，会把噪声排进来</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">DE · 多重检验校正</td>
+          <td class="col-paper"><b>Holm (FWER)</b></td>
+          <td class="col-stu">Scanpy 默认 <b>Benjamini-Hochberg (FDR)</b></td>
+          <td class="col-eval"><span class="badge-warn">方法不同</span><br>Holm 更保守（FWER），BH 较宽松（FDR）。两者在单细胞分析中都被使用，没有绝对对错，但论文用 Holm 时同学用 BH 会导致 DEG 数量偏多</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">聚类停止准则</td>
+          <td class="col-paper">迭代至最相似 cluster 间 DEG 降至 <b>~10–20 个</b></td>
+          <td class="col-stu">固定 resolution=0.8<br>无停止准则</td>
+          <td class="col-eval"><span class="badge-warn">缺失</span><br>论文是数据驱动选 resolution，同学是经验值。可借助 <code>clustree</code> 包可视化</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">降维可视化</td>
+          <td class="col-paper"><b>t-SNE</b></td>
+          <td class="col-stu"><b>UMAP</b></td>
+          <td class="col-eval"><span class="badge-ok">✅ 更先进</span><br>2020 年后 UMAP 全面取代 t-SNE</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">双细胞检测</td>
+          <td class="col-paper">仅声明"removed cell doublets"<br>算法不详（可能是基于基因数的简单过滤）</td>
+          <td class="col-stu"><b>Scrublet</b><br>按 sample 独立运行</td>
+          <td class="col-eval"><span class="badge-ok">✅ 比论文严谨</span><br>Scrublet 是模拟双细胞 + 近邻密度的专门算法，比经验过滤可靠</td>
+        </tr>
+
+        <tr>
+          <td class="col-step">细胞数对照</td>
+          <td class="col-paper">3 DPI: 2,075 cells / 9 clusters<br>uninjured: 1,841 cells / 11 clusters<br>3+9 DPI 合并: 5,395 cells / 12 clusters</td>
+          <td class="col-stu">未在 PDF 中明确报告各样本独立细胞数<br>仅有合并后的注释比例</td>
+          <td class="col-eval"><span class="badge-warn">无法严格对照</span><br>建议在分析报告中加入各样本 QC 前后细胞数统计表</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <div class="note-box warn">
+      <span class="label">⭐ 重点结论：</span>
+      在<b>可严格对照</b>的参数中，<code>resolution=0.4 vs 0.8</code> 和 DE 方法（Wilcoxon vs t-test）是<b>明确偏离</b>论文的两点；<code>min_cells=3</code> 是唯一严格一致的参数；其余参数论文未明确给出具体值，同学选择了 Scanpy 标准做法，无可厚非。<br><br>
+      <span class="label">值得肯定的是：</span>
+      同学在 PCA 选 PC 数（kneed）、聚类（Leiden）、可视化（UMAP）、双细胞检测（Scrublet）四个环节上<b>主动用了比论文更现代的方法</b>，这是加分项。
+    </div>
+
+    <h3 style="margin-top: 24px; color: #0f172a; font-size: 1rem;">必须修改的两个参数</h3>
+
+    <div class="priority-bar p0"><span class="label-p">P0</span><b>Leiden resolution: 0.8 → 0.4</b></div>
+    <pre><span class="comment"># 同学当前</span>
+sc.tl.leiden(adata, resolution=<span class="string">0.8</span>)
+
+<span class="comment"># 修改为</span>
+sc.tl.leiden(adata, resolution=<span class="string">0.4</span>)  <span class="comment"># 与论文一致</span></pre>
+
+    <div class="priority-bar p0"><span class="label-p">P0</span><b>DE 方法: t-test → wilcoxon</b></div>
+    <pre><span class="comment"># 同学当前</span>
+sc.tl.rank_genes_groups(adata, groupby=<span class="string">'leiden'</span>,
+                        method=<span class="string">'t-test'</span>)
+
+<span class="comment"># 修改为</span>
+sc.tl.rank_genes_groups(adata, groupby=<span class="string">'leiden'</span>,
+                        method=<span class="string">'wilcoxon'</span>,
+                        pts=<span class="keyword">True</span>)  <span class="comment"># 同时输出表达比例</span></pre>
+  </div>
+
+
+  <!-- ════════════ 第三部分：工具推荐 ════════════ -->
+  <div class="section">
+    <h2><span class="sec-num sec-num-3">03</span>配体-受体互作工具推荐</h2>
+    <div class="section-sub">论文原工具 Cellcellinteractnet 仅在 Python 2.7 内部使用（"available on request"），未公开。以下是 2024 年的主流替代方案</div>
+
+    <div class="note-box">
+      <span class="label">⚙️ 选择思路：</span>
+      同学已经在用 Python + Scanpy + AnnData 生态，<b>首选 Python 工具</b>原生支持 AnnData。若愿意扩展到 R，CellChat 仍是功能最完整的方案。
+    </div>
+
+    <div class="tool-grid">
+
+      <!-- LIANA+ 首选 -->
+      <div class="tool-card recommended">
+        <div class="tool-name">LIANA+ </div>
+        <span class="tool-lang python">Python / R</span>
+        <div class="tool-desc">
+          <b>元工具</b>，整合了 CellChat、CellPhoneDB、NATMI、SingleCellSignalR、NicheNet 等 7+ 种方法，输出共识排名。原生支持 AnnData，与同学现有流程<b>零摩擦衔接</b>。
+        </div>
+        <div class="tool-features">
+          <div>无缝对接 AnnData / Scanpy</div>
+          <div>多方法共识降低单一算法偏差</div>
+          <div>支持空间转录组互作（LIANA+ 扩展）</div>
+          <div>2024 年 Nature Cell Biology 发表，工具新且活跃</div>
+        </div>
+        <pre><span class="keyword">import</span> liana <span class="keyword">as</span> li
+li.mt.rank_aggregate(
+    adata,
+    groupby=<span class="string">'cell_type'</span>,
+    resource_name=<span class="string">'mouseconsensus'</span>,
+    expr_prop=<span class="string">0.1</span>,
+    verbose=<span class="keyword">True</span>
+)
+<span class="comment"># 可视化</span>
+li.pl.dotplot(adata, source_labels=[<span class="string">'Mesenchymal'</span>],
+              target_labels=[<span class="string">'Schwann'</span>])</pre>
+        <a class="tool-link" href="https://github.com/saezlab/liana-py">github.com/saezlab/liana-py</a>
+      </div>
+
+      <!-- CellChat (R) 推荐 -->
+      <div class="tool-card recommended">
+        <div class="tool-name">CellChat v2</div>
+        <span class="tool-lang r">R</span>
+        <div class="tool-desc">
+          <b>当前最流行</b>的配体-受体分析工具，数据库基于 KEGG/STRING/扎实文献，2021 Nature Communications 引用 4000+。提供完整的信号通路级别分析、概率推断、动态对比。
+        </div>
+        <div class="tool-features">
+          <div>支持多条件对比（损伤 vs 未损伤），完美匹配本论文设计</div>
+          <div>内置丰富可视化（弦图、桑基图、热图、流形图）</div>
+          <div>CellChatDB.mouse 数据库专为小鼠优化</div>
+          <div>缺点：需切换到 R，对同学现有 Python 流程有切换成本</div>
+        </div>
+        <pre><span class="keyword">library</span>(CellChat)
+cellchat <- createCellChat(object = seurat_obj,
+                            group.by = <span class="string">"cell_type"</span>)
+cellchat@DB <- CellChatDB.mouse
+cellchat <- subsetData(cellchat)
+cellchat <- identifyOverExpressedGenes(cellchat)
+cellchat <- computeCommunProb(cellchat)
+cellchat <- aggregateNet(cellchat)
+netVisual_circle(cellchat@net$count)</pre>
+        <a class="tool-link" href="https://github.com/jinworks/CellChat">github.com/jinworks/CellChat</a>
+      </div>
+
+      <!-- CellPhoneDB v5 -->
+      <div class="tool-card alternative">
+        <div class="tool-name">CellPhoneDB v5</div>
+        <span class="tool-lang python">Python</span>
+        <div class="tool-desc">
+          原生 Python 工具，在<b>多亚基受体复合物</b>（如 integrin、TGF-β 受体）处理上独树一帜。统计推断基于 permutation test。
+        </div>
+        <div class="tool-features">
+          <div>多亚基受体处理强（外周神经组织有相关需求）</div>
+          <div>v5 支持 AnnData h5ad 输入</div>
+          <div>缺点：默认人类数据库，鼠数据需用 ortholog 映射</div>
+        </div>
+        <pre><span class="keyword">from</span> cellphonedb.src.core.methods <span class="keyword">import</span> \
+    cpdb_statistical_analysis_method
+
+cpdb_statistical_analysis_method.call(
+    cpdb_file_path=<span class="string">'cellphonedb.zip'</span>,
+    meta_file_path=<span class="string">'meta.tsv'</span>,
+    counts_file_path=<span class="string">'counts.h5ad'</span>,
+    counts_data=<span class="string">'hgnc_symbol'</span>,
+    iterations=<span class="string">1000</span>,
+)</pre>
+        <a class="tool-link" href="https://github.com/ventolab/CellphoneDB">github.com/ventolab/CellphoneDB</a>
+      </div>
+
+      <!-- NicheNet -->
+      <div class="tool-card alternative">
+        <div class="tool-name">NicheNet</div>
+        <span class="tool-lang r">R</span>
+        <div class="tool-desc">
+          <b>独特优势</b>：不仅预测配体-受体互作，还能预测<b>下游靶基因</b>。如果想知道间充质配体作用后激活了 Schwann 细胞的哪些基因，这是最合适的工具。
+        </div>
+        <div class="tool-features">
+          <div>整合先验调控网络，输出"配体→受体→下游靶基因"完整通路</div>
+          <div>对本论文场景极合适：可预测 ANGPT1/CCL11/VEGFC 作用后下游响应</div>
+          <div>缺点：模型基于人类数据，小鼠需用 ortholog</div>
+        </div>
+        <pre><span class="keyword">library</span>(nichenetr)
+ligand_activities <- predict_ligand_activities(
+    geneset = injured_response_genes,
+    background_expressed_genes = bg_genes,
+    ligand_target_matrix = ligand_target_matrix,
+    potential_ligands = potential_ligands
+)</pre>
+        <a class="tool-link" href="https://github.com/saeyslab/nichenetr">github.com/saeyslab/nichenetr</a>
+      </div>
+
+      <!-- Squidpy -->
+      <div class="tool-card alternative">
+        <div class="tool-name">Squidpy</div>
+        <span class="tool-lang python">Python</span>
+        <div class="tool-desc">
+          Scanpy 团队官方扩展，内置 <code>gr.ligrec()</code> 函数（封装 CellPhoneDB 算法）。最易与现有 Scanpy 流程衔接。
+        </div>
+        <div class="tool-features">
+          <div>API 风格与 scanpy 完全一致</div>
+          <div>支持空间组学（如未来做空间组学，无缝过渡）</div>
+          <div>仅做基础互作分析，深度不如 CellChat/LIANA</div>
+        </div>
+        <pre><span class="keyword">import</span> squidpy <span class="keyword">as</span> sq
+sq.gr.ligrec(
+    adata, n_perms=<span class="string">1000</span>,
+    cluster_key=<span class="string">'cell_type'</span>,
+    interactions_params={<span class="string">'resources'</span>:[<span class="string">'CellPhoneDB'</span>]},
+)
+sq.pl.ligrec(adata, source_groups=[<span class="string">'Mesenchymal'</span>])</pre>
+        <a class="tool-link" href="https://github.com/scverse/squidpy">github.com/scverse/squidpy</a>
+      </div>
+
+      <!-- CellChat Python版 -->
+      <div class="tool-card alternative">
+        <div class="tool-name">CellChat-py / scCellChat</div>
+        <span class="tool-lang python">Python</span>
+        <div class="tool-desc">
+          CellChat 的 Python 移植版（社区维护），如果同学不想切到 R 但又想用 CellChat 算法，可选此项。目前仍在开发，功能不如 R 版完整。
+        </div>
+        <div class="tool-features">
+          <div>避免 R/Python 切换</div>
+          <div>缺点：成熟度低于原版 CellChat</div>
+          <div>缺点：可视化功能受限</div>
+        </div>
+        <a class="tool-link" href="https://github.com/Wei-BioMath/cellchat-py">github.com/cellchat-py</a>
+      </div>
+
+    </div>
+
+    <!-- 决策树 -->
+    <h3 style="margin-top: 32px; color: #0f172a; font-size: 1.05rem;">📊 选型决策树（给同学的具体建议）</h3>
+
+    <div class="note-box">
+      <b>场景 1：想最快出结果，不切换语言生态</b><br>
+      → 用 <b>LIANA+</b>（Python，原生 AnnData，多方法集成）<br><br>
+
+      <b>场景 2：想做最完整的分析，包括信号通路级别 + 多条件对比</b><br>
+      → 切换到 <b>CellChat v2</b>（R）。需要先把 AnnData 导出为 Seurat 对象或表达矩阵 + 元数据 + barcode<br><br>
+
+      <b>场景 3：想了解配体作用的下游分子机制（比如 Angpt1 通过 TEK 受体激活了什么通路）</b><br>
+      → 用 <b>NicheNet</b>（R）<br><br>
+
+      <b>场景 4：未来要做空间转录组扩展</b><br>
+      → 用 <b>Squidpy</b>（Python）
+    </div>
+
+    <h3 style="margin-top: 24px; color: #0f172a; font-size: 1.05rem;">🛠️ 给本论文场景的具体推荐流程</h3>
+
+    <div class="note-box">
+      <b>推荐组合：LIANA+ 主分析 + NicheNet 补充下游靶基因</b><br><br>
+      ① 用 <b>LIANA+</b> 对损伤神经数据集计算所有 cluster 间的配体-受体互作；<br>
+      ② 重点提取 Mesenchymal/endoneurial → Schwann 的互作排名；<br>
+      ③ 同时提取 Mesenchymal → 神经元的互作（神经元数据需另外引入）；<br>
+      ④ 对前 10 名配体-受体对，用 <b>NicheNet</b> 推断下游靶基因；<br>
+      ⑤ 验证论文鉴定的 ANGPT1、CCL11、VEGFC 是否在前列。
+    </div>
+
+    <pre><span class="comment"># 完整代码框架</span>
+<span class="keyword">import</span> liana <span class="keyword">as</span> li
+<span class="keyword">import</span> scanpy <span class="keyword">as</span> sc
+
+<span class="comment"># 1. 设定细胞类型（同学已有的注释）</span>
+adata.obs[<span class="string">'cell_type'</span>] = adata.obs[<span class="string">'leiden_annot'</span>]
+
+<span class="comment"># 2. 用 LIANA+ 跑共识排名（推荐 mouseconsensus 数据库）</span>
+li.mt.rank_aggregate(
+    adata,
+    groupby=<span class="string">'cell_type'</span>,
+    resource_name=<span class="string">'mouseconsensus'</span>,
+    expr_prop=<span class="string">0.1</span>,        <span class="comment"># 论文用 2%，可调到 0.02</span>
+    return_all_lrs=<span class="keyword">False</span>,
+    use_raw=<span class="keyword">False</span>,
+    verbose=<span class="keyword">True</span>
+)
+
+<span class="comment"># 3. 取 mesenchymal → Schwann 的 top 互作</span>
+result = adata.uns[<span class="string">'liana_res'</span>]
+mes2sc = result[
+    (result[<span class="string">'source'</span>] == <span class="string">'Mesenchymal'</span>) &
+    (result[<span class="string">'target'</span>] == <span class="string">'Schwann'</span>)
+].sort_values(<span class="string">'magnitude_rank'</span>)
+
+<span class="comment"># 4. 可视化</span>
+li.pl.dotplot(
+    adata,
+    source_labels=[<span class="string">'Mesenchymal'</span>],
+    target_labels=[<span class="string">'Schwann'</span>, <span class="string">'Endothelial'</span>],
+    top_n=<span class="string">20</span>,
+    figure_size=(<span class="string">10</span>, <span class="string">8</span>)
+)
+
+<span class="comment"># 5. 验证论文核心配体是否出现</span>
+target_ligands = [<span class="string">'Angpt1'</span>, <span class="string">'Ccl11'</span>, <span class="string">'Vegfc'</span>,
+                  <span class="string">'Ngf'</span>, <span class="string">'Hgf'</span>, <span class="string">'Bmp7'</span>]
+verified = mes2sc[mes2sc[<span class="string">'ligand_complex'</span>].isin(target_ligands)]
+<span class="func">print</span>(verified[[<span class="string">'ligand_complex'</span>, <span class="string">'receptor_complex'</span>,
+                <span class="string">'magnitude_rank'</span>, <span class="string">'specificity_rank'</span>]])</pre>
+
+    <div class="note-box warn">
+      <span class="label">⚠️ 关键提醒：</span>
+      论文做的是<b>神经组织 → 外周神经元</b>的互作预测，神经元（DRG/SCG/MN/RGC）的受体数据来自 <b>microarray 和 bulk RNA-seq</b>，不在同一 scRNA-seq 数据集里。<br><br>
+      如果同学要严格复现这个跨数据类型的分析，需要：<br>
+      ① 下载论文用的神经元 microarray 数据（GSE146958）；<br>
+      ② 把受体表达从 microarray 提取出来作为 "external" 细胞类型；<br>
+      ③ 在 LIANA+ 中可用 <code>external_resource</code> 参数引入外源数据。<br><br>
+      或者<b>简化为</b>：只做 scRNA-seq 内部的细胞间互作（如 Mesenchymal → Schwann），不涉及外部神经元 — 这也能验证"间充质是配体源"的核心结论。
+    </div>
+  </div>
+
+  <!-- 总结 -->
+  <div class="section" style="background: linear-gradient(135deg, #f0fdf4, #ecfdf5);">
+    <h2 style="border-bottom-color: #86efac;"><span class="sec-num" style="background: linear-gradient(135deg, #14b8a6, #0d9488);">✓</span>本次补充总结</h2>
+
+    <ul style="list-style: none; padding: 0;">
+      <li style="padding: 10px 0 10px 28px; position: relative; font-size: .92rem;">
+        <span style="position: absolute; left: 4px; color: #16a34a; font-weight: 800;">✓</span>
+        <b>校正：</b>LIGAND_GENES 实际是细胞注释验证步骤，<b>不是配体-受体分析</b>。变量命名误导，但功能正常。前次评审中"把 ECM 当成配体"的指控撤回。
+      </li>
+      <li style="padding: 10px 0 10px 28px; position: relative; font-size: .92rem;">
+        <span style="position: absolute; left: 4px; color: #16a34a; font-weight: 800;">✓</span>
+        <b>评分上调：</b>7.0 → <b>7.8</b>。基础流程做得不错，<b>真正缺的是论文核心的配体-受体互作分析</b>，而不是细胞注释的错误。
+      </li>
+      <li style="padding: 10px 0 10px 28px; position: relative; font-size: .92rem;">
+        <span style="position: absolute; left: 4px; color: #dc2626; font-weight: 800;">!</span>
+        <b>参数严格偏离论文的两处：</b><br>
+        &nbsp;&nbsp;① <code>resolution=0.8</code> vs 论文 <code>0.4</code> → 改回 0.4<br>
+        &nbsp;&nbsp;② DE <code>method='t-test'</code> vs 论文 Wilcoxon → 改为 wilcoxon
+      </li>
+      <li style="padding: 10px 0 10px 28px; position: relative; font-size: .92rem;">
+        <span style="position: absolute; left: 4px; color: #2563eb; font-weight: 800;">→</span>
+        <b>下一步建议：</b>用 <b>LIANA+</b> 做配体-受体互作分析，<b>这是从"细胞分类"跨入论文核心的关键一步</b>。一周左右工作量。
+      </li>
+      <li style="padding: 10px 0 10px 28px; position: relative; font-size: .92rem;">
+        <span style="position: absolute; left: 4px; color: #2563eb; font-weight: 800;">→</span>
+        <b>升级版工作流：</b>LIANA+（互作排名）+ NicheNet（下游靶基因）= 完整复现论文 Figure 5-7 的核心结论。
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  评审补充 v2 · 基于 ENEURO.0066-20.2020 原文 Methods 严格参数对照 · 工具推荐基于 2024 主流实践
+</footer>
+
+</body>
+</html>

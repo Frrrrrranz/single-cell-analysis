@@ -1,0 +1,120 @@
+# ============================================================
+# 共享参数配置文件
+# 文献: ENEURO.0066-20.2020 (eNeuro, 2020)
+# 数据: GSE147285 (Drop-seq, 小鼠坐骨神经)
+#
+# 使用方式：
+#   import yaml
+#   with open('config.yaml', encoding='utf-8') as f:
+#       cfg = yaml.safe_load(f)
+#
+# NOTE: analyze.py 和 scRNA_py.ipynb 统一从此文件读取参数
+# FIXME: 原代码中 analyze.py 和 notebook 的参数各自硬编码，现统一管理
+# ============================================================
+
+# --- 质控 (QC) ---
+qc:
+  min_genes: 200            # 最低检测基因数（去除空液滴/碎片）
+  max_genes: 5000           # 最高检测基因数（去除双细胞）
+  # NOTE: 论文使用 "high mitochondrial gene content" 未给具体值，10% 为标准做法
+  max_pct_mt: 10            # 最大线粒体基因比例 (%)
+  min_cells: 3              # 基因至少在 N 个细胞中表达
+
+# --- 标准化 ---
+normalization:
+  target_sum: 10000         # 每个细胞归一化到 N UMI
+  log1p: true               # log(1 + x) 转换
+
+# --- 高变基因 ---
+hvg:
+  # NOTE: 论文未给具体 HVG 数量，2000 是 Scanpy/Seurat v5 标准值
+  n_top_genes: 2000
+
+# --- PCA ---
+pca:
+  n_comps: 50               # 计算 N 个主成分供 kneed 动态选择
+
+# --- 批次校正 ---
+batch_correction:
+  method: harmony           # 可用: harmony, none
+  key: sample               # obs 列名，标识批次来源
+
+# --- 聚类 ---
+clustering:
+  # NOTE: 论文 Methods 明确写 resolution=0.4
+  # FIXME: 原代码使用 0.8，已修正为 0.4
+  resolution: 0.4
+  algorithm: leiden
+  n_neighbors: 20
+  n_pcs: 20                 # 构建邻域图的 PC 数
+
+# --- 差异表达分析 (DEA) ---
+de:
+  # NOTE: 论文使用 Wilcoxon 秩和检验（Seurat v1 FindMarkers 默认）
+  # FIXME: 原代码使用 t-test，单细胞数据高度非正态，已修正为 wilcoxon
+  method: wilcoxon
+  n_genes: 50               # 每个聚类 top N 基因
+  # NOTE: 论文使用 Holm 校正 + p < 0.01（FWER）
+  # 此处使用 BH 校正 p_adj < 0.05（FDR），两者在单细胞分析中都被接受
+  pval_threshold: 0.05
+  use_raw: true
+
+# --- 可视化 ---
+visualization:
+  umap:
+    random_state: 42
+    n_components: 2
+  dotplot:
+    standard_scale: var
+
+# --- 细胞类型注释 ---
+annotation:
+  # NOTE: 标志基因来自论文 Figure 1 和文献报道
+  marker_genes:
+    Schwann cells: [Sox10, S100b, Mbp, Plp1, Ngfr]
+    Mesenchymal cells: [Pdgfra, Sox9, Dpt, Etv1, Wif1]
+    Macrophages: [Aif1, Cd68, Lyz2]
+    Endothelial cells: [Pecam1, Cdh5, Cldn5]
+    Pericytes/VSM: [Acta2, Des, Rgs5]
+    Lymphocytes: [Ptprcap, Cd3e, Nkg7]
+    B cells: [Cd19, Cd79a, Ms4a1]
+    Mast cells: [Cpa3, Kit, Fcer1a]
+
+# --- 间充质 ECM 标志基因 ---
+# FIXME: 原命名 LIGAND_GENES 有误导性，实际为 ECM 蛋白而非配体
+ecm_markers:
+  - Col1a1
+  - Col1a2
+  - Col3a1
+  - Col6a1
+  - Col6a2
+  - Fn1
+  - Sparc
+  - Ctgf
+  - Tgfbi
+  - Sparcl1
+  - Mdk
+  - Ptprd
+  - Slit2
+  - Gas6
+
+# --- 配体-受体互作分析（LIANA+） ---
+# NOTE: 论文核心是 Mesenchymal -> 神经元的配体-受体互作预测
+# 当前仅做 scRNA-seq 内部细胞间互作，不涉及外部神经元数据
+liana:
+  # NOTE: 默认使用 mouseconsensus 数据库（小鼠专有配体-受体对）
+  resource_name: mouseconsensus
+  # NOTE: 论文用 2%，此处用 0.1（即 10%）作为表达比例阈值
+  expr_prop: 0.1
+  # 核排列次数
+  n_perms: 1000
+  # 可视化 top N 配体-受体对
+  top_n: 20
+  # NOTE: 论文鉴定的核心配体，用于验证是否在 top 排名中
+  target_ligands:
+    - Angpt1
+    - Ccl11
+    - Vegfc
+    - Ngf
+    - Hgf
+    - Bmp7

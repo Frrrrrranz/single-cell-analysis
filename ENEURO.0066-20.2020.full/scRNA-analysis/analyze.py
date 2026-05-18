@@ -4,11 +4,12 @@
 文献: Peripheral Nerve Single-Cell Analysis Identifies Mesenchymal Ligands (eNeuro, 2020)
 数据: GEO GSE147285 (Drop-seq, 小鼠坐骨神经)
 
-分析流程: 下载数据 → 质控(含双细胞检测) → 标准化 → 降维 → 聚类 → 差异表达分析 → 细胞类型注释
+分析流程: 下载数据 → 质控(含双细胞检测) → 标准化 → 降维 → 聚类 → 差异表达分析 → 细胞类型注释 → 配体-受体互作分析
 """
 
 import os
 import gzip
+import yaml
 import requests
 import warnings
 import numpy as np
@@ -17,11 +18,26 @@ import scanpy as sc
 import matplotlib
 matplotlib.use('Agg')  # NOTE: 非交互式后端，用于服务器/脚本环境
 import matplotlib.pyplot as plt
+import seaborn as sns
+import logging
+
+# 设置日志
+logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
+logger = logging.getLogger(__name__)
 
 warnings.filterwarnings('ignore')
 
 # ============================================================
-# 配置
+# 加载配置（从 config.yaml 统一读取参数）
+# ============================================================
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.yaml')
+with open(CONFIG_PATH, 'r', encoding='utf-8') as f:  # NOTE: config.yaml 使用 UTF-8 编码
+    CFG = yaml.safe_load(f)
+print(f"[配置] 从 config.yaml 加载参数（resolution={CFG['clustering']['resolution']}, "
+      f"DE method={CFG['de']['method']}, mt%={CFG['qc']['max_pct_mt']}）")
+
+# ============================================================
+# 目录配置
 # ============================================================
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), 'results')
@@ -69,8 +85,9 @@ MARKER_GENES = {
     'Mast cells': ['Cpa3', 'Kit', 'Fcer1a'],
 }
 
-# NOTE: 文献核心发现中涉及的间充质细胞配体基因
-LIGAND_GENES = [
+# NOTE: 间充质细胞 ECM 标志基因（用于验证注释结果）
+# FIXME: 原命名 LIGAND_GENES 具有误导性，实际为 ECM 蛋白而非配体，已修正
+ECM_MARKERS = [
     'Col1a1', 'Col1a2', 'Col3a1', 'Col6a1', 'Col6a2', 'Fn1', 'Sparc',
     'Ctgf', 'Tgfbi', 'Sparcl1', 'Mdk', 'Ptprd', 'Slit2', 'Gas6',
 ]
@@ -199,11 +216,11 @@ def quality_control(adata):
     plt.close()
     print("  [保存] 01_qc_metrics.png")
 
-    # 过滤
-    sc.pp.filter_cells(adata, min_genes=200)
-    sc.pp.filter_cells(adata, max_genes=5000)
-    adata = adata[adata.obs['pct_counts_mt'] < 10, :].copy()
-    sc.pp.filter_genes(adata, min_cells=3)
+    # 过滤（参数从 config.yaml 读取）
+    sc.pp.filter_cells(adata, min_genes=CFG['qc']['min_genes'])
+    sc.pp.filter_cells(adata, max_genes=CFG['qc']['max_genes'])
+    adata = adata[adata.obs['pct_counts_mt'] < CFG['qc']['max_pct_mt'], :].copy()
+    sc.pp.filter_genes(adata, min_cells=CFG['qc']['min_cells'])
 
     n_after = adata.n_obs
     print(f"  [过滤] {n_before} → {n_after} 个细胞（去除 {n_before - n_after} 个低质量细胞）")
@@ -400,10 +417,12 @@ def cluster_and_visualize(adata, use_rep):
     sc.tl.umap(adata)
     print("  [完成] UMAP 降维")
 
-    # Leiden 聚类
-    sc.tl.leiden(adata, resolution=0.8, flavor='igraph', n_iterations=2)
+    # Leiden 聚类（resolution 从 config.yaml 读取：论文为 0.4）
+    # NOTE: 论文 Methods 明确写 "clusters were assigned at a resolution of 0.4"
+    # FIXME: 原代码使用 0.8 导致过度细分，已修正
+    sc.tl.leiden(adata, resolution=CFG['clustering']['resolution'], flavor='igraph', n_iterations=2)
     n_clusters = adata.obs['leiden'].nunique()
-    print(f"  [完成] Leiden 聚类，共 {n_clusters} 个聚类")
+    print(f"  [完成] Leiden 聚类（resolution=0.4），共 {n_clusters} 个聚类")
 
     # 绘制 UMAP（按聚类着色）
     sc.pl.umap(adata, color='leiden', legend_loc='on data', title='Leiden Clusters', show=False)
@@ -433,15 +452,16 @@ def differential_expression(adata):
     print("步骤 10：差异表达分析")
     print("=" * 60)
 
-    # 使用标准化后的全基因数据（adata.raw）进行差异表达分析
-    # NOTE: 使用 t-test 进行差异分析，快速且适合单细胞数据
+    # 差异表达分析（参数从 config.yaml 读取）
+    # NOTE: 论文使用 Wilcoxon 秩和检验，已从 t-test 修正为 wilcoxon
     sc.tl.rank_genes_groups(
-        adata, groupby='leiden', method='t-test',
-        n_genes=50, use_raw=True, key='rank_genes_groups'
+        adata, groupby='leiden', method=CFG['de']['method'],
+        n_genes=CFG['de']['n_genes'], use_raw=CFG['de']['use_raw'],
+        pts=True, key='rank_genes_groups'
     )
-    print("  [完成] 差异表达分析（t-test，每个聚类 top 50 基因）")
+    print(f"  [完成] 差异表达分析（{CFG['de']['method']}，每个聚类 top {CFG['de']['n_genes']} 基因，含表达比例）")
 
-    # 保存差异表达结果到 CSV
+    # 保存差异表达结果到 CSV（全量）
     de_results = pd.DataFrame()
     for cluster in adata.obs['leiden'].cat.categories:
         cluster_de = sc.get.rank_genes_groups_df(adata, group=cluster, key='rank_genes_groups')
@@ -449,7 +469,18 @@ def differential_expression(adata):
         de_results = pd.concat([de_results, cluster_de], ignore_index=True)
 
     de_results.to_csv(os.path.join(OUTPUT_DIR, 'de_genes.csv'), index=False)
-    print("  [保存] de_genes.csv（差异表达基因表）")
+    print("  [保存] de_genes.csv（差异表达基因表，全量）")
+
+    # 保存显著性过滤后的 DE 结果（pvals_adj < 0.05）
+    # NOTE: 论文使用 Holm 校正 + p < 0.01（FWER），此处使用 BH 校正 + p_adj < 0.05（FDR）
+    # FIXME: 原代码固定取 top 50 基因，未考虑显著性，现将噪声基因排除
+    de_significant = de_results[de_results['pvals_adj'] < 0.05].copy()
+    de_significant.to_csv(os.path.join(OUTPUT_DIR, 'de_genes_significant.csv'), index=False)
+    print(f"  [保存] de_genes_significant.csv（显著性过滤后: {len(de_significant)} 条记录）")
+    # 记录每个 cluster 的显著基因数，方便判断聚类停止准则
+    sig_counts = de_significant.groupby('cluster').size()
+    for cluster, count in sig_counts.items():
+        print(f"         Cluster {cluster}: {count} 个显著基因")
 
     # 绘制差异基因热图（每个聚类 top 5）
     sc.pl.rank_genes_groups_heatmap(
@@ -478,27 +509,28 @@ def differential_expression(adata):
     plt.close()
     print("  [保存] 08_violin_de_genes.png")
 
-    # 验证文献核心发现：检查配体基因在间充质细胞中的表达
-    print("\n  [文献验证] 检查间充质细胞标志基因和配体基因表达...")
+    # 验证注释结果：检查 ECM 标志基因在间充质细胞中的表达
+    # NOTE: 这是对细胞类型注释结果的旁证，并非配体-受体分析
+    print("\n  [文献验证] 检查间充质细胞 ECM 标志基因表达...")
     adata_raw = adata.raw.to_adata()
 
-    for gene in LIGAND_GENES:
+    for gene in ECM_MARKERS:
         if gene in adata_raw.var_names:
-            sc.pl.umap(adata_raw, color=gene, title=f'Ligand: {gene}',
+            sc.pl.umap(adata_raw, color=gene, title=f'ECM marker: {gene}',
                        show=False, color_map='Reds', frameon=False)
-            plt.savefig(os.path.join(OUTPUT_DIR, f'ligand_{gene}.png'),
+            plt.savefig(os.path.join(OUTPUT_DIR, f'ecm_marker_{gene}.png'),
                         dpi=150, bbox_inches='tight')
             plt.close()
 
-    # 统计配体基因在不同细胞类型中的平均表达水平
-    ligand_found = [g for g in LIGAND_GENES if g in adata_raw.var_names]
-    if ligand_found:
-        ligand_expr = sc.get.aggregate(adata_raw, by='leiden', func='mean')
-        ligand_expr = ligand_expr[:, ligand_found]
-        ligand_df = ligand_expr.to_df().T
-        ligand_df.columns = [f'Cluster_{c}' for c in ligand_df.columns]
-        ligand_df.to_csv(os.path.join(OUTPUT_DIR, 'ligand_expression.csv'))
-        print(f"  [保存] ligand_expression.csv（配体基因在各聚类的平均表达）")
+    # 统计 ECM 标志基因在不同细胞类型中的平均表达水平
+    ecm_found = [g for g in ECM_MARKERS if g in adata_raw.var_names]
+    if ecm_found:
+        ecm_expr = sc.get.aggregate(adata_raw, by='leiden', func='mean')
+        ecm_expr = ecm_expr[:, ecm_found]
+        ecm_df = ecm_expr.to_df().T
+        ecm_df.columns = [f'Cluster_{c}' for c in ecm_df.columns]
+        ecm_df.to_csv(os.path.join(OUTPUT_DIR, 'ecm_marker_expression.csv'))
+        print(f"  [保存] ecm_marker_expression.csv（ECM标志基因在各聚类的平均表达）")
 
     print()
     return adata
@@ -662,6 +694,231 @@ def save_results(adata):
 
 
 # ============================================================
+# 步骤 13：配体-受体互作分析（LIANA+）
+# ============================================================
+def ligand_receptor_analysis(adata):
+    """使用 LIANA+ 进行配体-受体互作分析
+
+    论文核心发现：间充质细胞（Mesenchymal cells）是神经营养配体的最大来源。
+    本函数通过 LIANA+ 的 rank_aggregate 方法，整合多种配体-受体数据库，
+    输出细胞类型间的配体-受体互作排名。
+
+    NOTE: 论文原工具 Cellcellinteractnet（Python 2.7）未公开，
+    LIANA+ 是 2024 年 Nature Cell Biology 发表的主流替代方案。
+
+    当前分析范围：
+    - 仅针对 scRNA-seq 数据内部细胞类型间的互作
+    - 重点提取 Mesenchymal → Schwann / Endothelial 的互作
+    - 验证 ANGPT1、CCL11、VEGFC 等论文核心配体是否在 top 排名中
+    - 如果需要引入外部神经元数据（DRG/SCG），需下载 GSE146958 并使用 liana external_resource
+
+    参考文献：
+    Dimitrov et al. (2024) LIANA+: Nature Cell Biology
+    """
+    print("=" * 60)
+    print("步骤 13：配体-受体互作分析（LIANA+）")
+    print("=" * 60)
+
+    # 检查是否已安装 liana
+    try:
+        import liana
+    except ImportError:
+        print("  [警告] liana 未安装，跳过配体-受体分析。")
+        print("          安装命令: pip install liana-py")
+        print()
+        return adata
+
+    # 确保细胞类型注释存在
+    if 'cell_type' not in adata.obs:
+        print("  [错误] cell_type 列不存在，请先运行 annotate_cells()")
+        return adata
+
+    # 使用 log1p 标准化的全基因数据进行互作分析
+    # NOTE: LIANA+ 需要原始 counts 或 log-normalized 数据
+    if adata.raw is not None:
+        adata_use = adata.raw.to_adata()
+    else:
+        adata_use = adata
+
+    # 同步细胞类型注释
+    adata_use.obs['cell_type'] = adata.obs['cell_type']
+
+    # 获取配置参数
+    liana_cfg = CFG.get('liana', {})
+    resource_name = liana_cfg.get('resource_name', 'mouseconsensus')
+    expr_prop = liana_cfg.get('expr_prop', 0.1)
+    top_n = liana_cfg.get('top_n', 20)
+    target_ligands = liana_cfg.get('target_ligands', [])
+
+    print(f"  [配置] 数据库: {resource_name}, 表达比例阈值: {expr_prop}, top_n: {top_n}")
+    print(f"  [验证] 目标配体: {target_ligands}")
+
+    # ---------------------------------
+    # 1) 运行 LIANA+ rank_aggregate
+    # ---------------------------------
+    print("\n  [运行] LIANA+ rank_aggregate（多方法共识排名）...")
+    try:
+        import liana as li
+        li.mt.rank_aggregate(
+            adata_use,
+            groupby='cell_type',
+            resource_name=resource_name,
+            expr_prop=expr_prop,
+            return_all_lrs=False,
+            use_raw=False,
+            verbose=True,
+        )
+
+        # 提取结果
+        if 'liana_res' in adata_use.uns:
+            result = adata_use.uns['liana_res']
+            print(f"  [结果] 共检测到 {len(result)} 个配体-受体对（全部细胞类型间）")
+        else:
+            print("  [警告] liana_res 未生成，跳过后续分析")
+            return adata
+
+    except Exception as e:
+        print(f"  [错误] LIANA+ 分析失败: {e}")
+        logger.error("LIANA+ 分析异常", exc_info=True)
+        return adata
+
+    # ---------------------------------
+    # 2) 提取重点互作：Mesenchymal → 其他细胞
+    # ---------------------------------
+    print("\n  [重点] 提取 Mesenchymal 作为配体源的互作...")
+
+    # 获取数据中实际存在的细胞类型
+    available_types = adata_use.obs['cell_type'].unique()
+    print(f"  [信息] 可用细胞类型: {list(available_types)}")
+
+    if 'Mesenchymal cells' not in available_types:
+        print("  [警告] 数据中未找到 'Mesenchymal cells'，跳过重点互作分析")
+    else:
+        # 提取 Mesenchymal → 所有靶细胞的互作
+        mes_sources = result[result['source'] == 'Mesenchymal cells'].copy()
+        print(f"    → 间充质发出互作: {len(mes_sources)} 个配体-受体对")
+
+        if not mes_sources.empty:
+            # 按 magnitude_rank 排序
+            mes_sources = mes_sources.sort_values('magnitude_rank')
+
+            # 保存 CSV
+            mes_sources.to_csv(os.path.join(OUTPUT_DIR, 'liana_mesenchymal_source.csv'), index=False)
+            print(f"    [保存] liana_mesenchymal_source.csv（Mesenchymal 源互作全表）")
+
+            # 打印 top 10
+            print("\n    Top 10 Mesenchymal 来源的配体-受体对:")
+            top_cols = ['ligand_complex', 'receptor_complex', 'source', 'target',
+                        'magnitude_rank', 'specificity_rank']
+            print(mes_sources.head(10)[top_cols].to_string(index=False))
+
+        # 提取 Mesenchymal → Schwann 的互作
+        if 'Schwann cells' in available_types:
+            mes2schwann = mes_sources[mes_sources['target'] == 'Schwann cells']
+            if not mes2schwann.empty:
+                mes2schwann.to_csv(os.path.join(OUTPUT_DIR, 'liana_mes2schwann.csv'), index=False)
+                print(f"\n    → Mesenchymal → Schwann: {len(mes2schwann)} 个互作")
+                print(mes2schwann.head(10)[top_cols].to_string(index=False))
+
+        # 提取 Mesenchymal → Endothelial 的互作
+        if 'Endothelial cells' in available_types:
+            mes2endo = mes_sources[mes_sources['target'] == 'Endothelial cells']
+            if not mes2endo.empty:
+                mes2endo.to_csv(os.path.join(OUTPUT_DIR, 'liana_mes2endothelial.csv'), index=False)
+                print(f"\n    → Mesenchymal → Endothelial: {len(mes2endo)} 个互作")
+
+    # ---------------------------------
+    # 3) 验证论文核心配体
+    # ---------------------------------
+    if target_ligands:
+        print("\n  [验证] 论文核心配体在互作结果中的排名:")
+
+        # 在所有 Mesenchymal 来源的互作中查找目标配体
+        if 'Mesenchymal cells' in available_types:
+            for ligand in target_ligands:
+                found = mes_sources[mes_sources['ligand_complex'].str.contains(
+                    ligand, case=False, na=False
+                )]
+                if not found.empty:
+                    print(f"    ✅ {ligand}: 找到 {len(found)} 个互作")
+                    for _, row in found.iterrows():
+                        print(f"       → {row['target']} "
+                              f"(受体: {row['receptor_complex']}, "
+                              f"magnitude_rank: {row['magnitude_rank']})")
+                else:
+                    print(f"    ❌ {ligand}: 未在 Mesenchymal 互作中找到")
+        else:
+            # 跨所有细胞类型搜索
+            for ligand in target_ligands:
+                found = result[result['ligand_complex'].str.contains(
+                    ligand, case=False, na=False
+                )]
+                if not found.empty:
+                    print(f"    ✅ {ligand}: 找到 {len(found)} 个互作")
+                    for _, row in found.head(3).iterrows():
+                        print(f"       {row['source']} → {row['target']} "
+                              f"(受体: {row['receptor_complex']}, "
+                              f"rank: {row['magnitude_rank']})")
+                else:
+                    print(f"    ❌ {ligand}: 未在任何互作中找到")
+
+    # ---------------------------------
+    # 4) 可视化
+    # ---------------------------------
+    print("\n  [可视化] 生成互作点图...")
+    try:
+        import liana as li
+
+        # 全局互作热图
+        li.pl.dotplot(
+            adata_use,
+            source_labels=['Mesenchymal cells'] if 'Mesenchymal cells' in available_types else None,
+            target_labels=['Schwann cells', 'Endothelial cells']
+                           if all(t in available_types for t in ['Schwann cells', 'Endothelial cells'])
+                           else None,
+            top_n=top_n,
+            figure_size=(12, 8),
+            show=False,
+        )
+        plt.savefig(os.path.join(OUTPUT_DIR, '14_liana_dotplot.png'), dpi=150, bbox_inches='tight')
+        plt.close()
+        print("    [保存] 14_liana_dotplot.png")
+
+        # 全部细胞类型间互作计数热图
+        if not result.empty:
+            # 构建互作计数矩阵
+            interaction_matrix = result.pivot_table(
+                index='source', columns='target',
+                values='magnitude_rank', aggfunc='count'
+            ).fillna(0)
+
+            fig, ax = plt.subplots(figsize=(10, 8))
+            sns.heatmap(interaction_matrix, annot=True, fmt='.0f', cmap='Reds',
+                        ax=ax, cbar_kws={'label': '配体-受体对数量'})
+            ax.set_title('Cell-Cell Interaction Count (LIANA+)')
+            ax.set_xlabel('Target')
+            ax.set_ylabel('Source')
+            plt.xticks(rotation=45, ha='right')
+            plt.yticks(rotation=0)
+            plt.tight_layout()
+            plt.savefig(os.path.join(OUTPUT_DIR, '15_liana_interaction_heatmap.png'),
+                        dpi=150, bbox_inches='tight')
+            plt.close()
+            print("    [保存] 15_liana_interaction_heatmap.png")
+
+    except Exception as e:
+        print(f"    [警告] 可视化失败: {e}")
+
+    # 将结果保存到原始 adata 中
+    if 'liana_res' in adata_use.uns:
+        adata.uns['liana_res'] = adata_use.uns['liana_res']
+
+    print("\n  [完成] 配体-受体互作分析")
+    print()
+    return adata
+
+
+# ============================================================
 # 主函数
 # ============================================================
 def main():
@@ -697,7 +954,12 @@ def main():
     # 11. 注释
     adata = annotate_cells(adata)
 
-    # 12. 保存
+    # 12. 配体-受体互作分析（LIANA+）
+    # NOTE: 这是论文核心分析，验证 Mesenchymal 作为配体源的主要发现
+    # FIXME: 原分析仅做到细胞注释，未涉及配体-受体互作预测
+    adata = ligand_receptor_analysis(adata)
+
+    # 13. 保存
     save_results(adata)
 
     print("=" * 60)
