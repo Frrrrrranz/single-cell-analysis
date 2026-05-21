@@ -1,0 +1,200 @@
+--- PAGE 1 ---
+Redefining the heterogeneity of peripheral nerve cells
+in health and autoimmunity
+Jolien Wolberta,1, Xiaolin Lia,1, Michael Heminga,1, Anne K. Mausbergb, Dagmar Akkermannc, Clara Frydrychowiczc,
+Robert Fledrichd, Linda Groenewege, Christian Schulzf, Mark Stettnerb, Noelia Alonso Gonzaleze, Heinz Wiendla,
+Ruth Stassartc,2, and Gerd Meyer zu Hörstea,2,3
+aDepartment of Neurology with Institute of Translational Neurology, University Hospital Münster, Münster 48149, Germany; bDepartment of Neurology,
+University Hospital Essen, University Duisburg Essen, Essen 45147, Germany; cDepartment of Neuropathology, University Hospital Leipzig, Leipzig 04103,
+Germany; dInstitute of Anatomy, Leipzig University, Leipzig 04103, Germany; eInstitute of Immunology, Westfälische Wilhelms University, Münster 48149,
+Germany; and fMedizinische Klinik und Poliklinik I, Klinikum der Universität München, Ludwig Maximilians Universität, München 81377, Germany
+Edited by Lawrence Steinman, Stanford University School of Medicine, Stanford, CA, and approved March 13, 2020 (received for review July 17, 2019)
+Peripheral nerves contain axons and their enwrapping glia cells
+named Schwann cells (SCs) that are either myelinating (mySCs) or
+nonmyelinating (nmSCs). Our understanding of other cells in the
+peripheral nervous system (PNS) remains limited. Here, we provide
+an unbiased single cell transcriptomic characterization of the
+nondiseased rodent PNS. We identified and independently con-
+firmed markers of previously underappreciated nmSCs and nerve-
+associated fibroblasts. We also found and characterized two dis-
+tinct populations of nerve-resident homeostatic myeloid cells that
+transcriptionally differed from central nervous system microglia. In
+a model of chronic autoimmune neuritis, homeostatic myeloid cells
+were outnumbered by infiltrating lymphocytes which modulated
+the local cell–cell interactome and induced a specific transcriptional
+response in glia cells. This response was partially shared between
+the peripheral and central nervous system glia, indicating common
+immunological features across different parts of the nervous sys-
+tem. Our study thus identifies subtypes and cell-type markers of
+PNS cells and a partially conserved autoimmunity module induced
+in glia cells.
+transcriptomics | single cell RNA-seq | peripheral nervous system | Schwann
+cell
+T
+he cellular composition of the peripheral nervous system
+(PNS) appears simple. Neuronal cells are absent and only
+their specialized cell protrusions termed axons extend into the
+PNS. Instead, PNS cells are mainly composed of glia cells, that
+are named Schwann cells (SCs) and morphologically are classi-
+fied as either myelinating (mySCs) or nonmyelinating (nmSCs).
+These SCs provide trophic support and electrical insulation to
+axons partly through the formation of the myelin sheath (1).
+Myelin is a cell membrane protrusion of SCs that enwraps axons
+in multiple layers and is required for the rapid conduction of
+action potentials by axons (2).
+While mySCs have been studied in considerable detail, the
+phenotype of nmSCs and other non-SC cell types, such as fi-
+broblasts and vascular endothelium in the PNS, however, re-
+mains poorly defined. Nerve-associated fibroblasts have mostly
+been defined by morphological characteristics in the PNS, but
+their function and lineage assignment remain controversial (3).
+Also, while leukocytes are clearly relevant in inflammatory and
+traumatic lesions to the PNS (4, 5), their exact composition and
+phenotype under steady-state conditions remain unknown.
+Single-cell RNA-sequencing (scRNA-seq) allows defining the
+cellular composition of complex tissues in an unbiased fashion.
+However, a single cell characterization of the nondiseased PNS
+has not been reported and only the transcriptional response to
+nerve injury has been studied (6). In addition, the cellular re-
+sponse of PNS parenchymal cells to local autoimmune reactions
+remains unknown (4, 5).
+Here, we generated an unbiased cellular map of the healthy
+PNS at single cell resolution. We identified known and other
+markers of mySCs and characterize the composition and marker
+genes of nmSCs and nerve-associated fibroblasts. We also
+identified a distinct composition of leukocytes in the PNS in-
+cluding two subsets of tissue-resident homeostatic macrophages.
+In a mouse model of chronic inflammatory neuropathy, we found
+that endoneurial lymphocytes preferentially expand and PNS
+parenchymal cells and their intercellular communication net-
+works respond extensively to autoimmune tissue damage. We
+found that this reaction to autoimmunity was partially shared
+between peripheral and central nervous system glia cells, in-
+dicating potentially conserved response mechanisms.
+Results
+Single Cell Transcriptomics Dissects the Cellular Composition of
+Peripheral Nerves. We aimed to better characterize the cellular
+composition of the PNS. First, we optimized cell extraction from
+the PNS and achieved highest cell yield and viability by
+Significance
+We here present a transcriptional map of peripheral nerve cells
+in health and autoimmunity. Identified marker genes of non-
+myelinating Schwann cells and nerve-associated fibroblasts
+will facilitate a better understanding of the complex cellular
+architecture of peripheral nerves. The two distinct populations
+of nerve-resident homeostatic myeloid cells suggest an un-
+expectedly unique and heterogeneous local immune repertoire
+in peripheral nerves with signs of heterogeneous ontogenetic
+origin. Complex changes of local cell–cell communication net-
+works indicate autoimmune neuritis as a disease affecting
+“immune networks” rather than single cell types. The findings
+also suggest that immunological features are partially shared
+and conserved across different parts of the nervous system.
+Author contributions: H.W., R.S., and G.M.z.H. designed research; J.W., X.L., A.K.M., D.A.,
+C.F., R.F., L.G., and N.A.G. performed research; C.S., M.S., and N.A.G. contributed new
+reagents/analytic tools; J.W., X.L., and M.H. analyzed data; J.W., R.S., and G.M.z.H. wrote
+the paper; C.S. provided Flt3Cre-mT/mG mice; and M.S. provided ICAM-1−/−NOD mice and
+Lewis rats.
+The authors declare no competing interest.
+This article is a PNAS Direct Submission.
+This open access article is distributed under Creative Commons Attribution-NonCommercial-
+NoDerivatives License 4.0 (CC BY-NC-ND).
+Data deposition: The raw scRNA-seq data supporting the findings in this study have been
+deposited in the Gene Expression Omnibus (GEO) repository under accession code
+GSE142541.
+1J.W., X.L., and M.H. contributed equally to this work.
+2R.S. and G.M.z.H. contributed equally to this work.
+3To whom correspondence may be addressed. Email: gerd.meyerzuhoerste@
+ukmuenster.de.
+This article contains supporting information online at https://www.pnas.org/lookup/suppl/
+doi:10.1073/pnas.1912139117/-/DCSupplemental.
+First published April 15, 2020.
+9466–9476
+|
+PNAS
+|
+April 28, 2020
+|
+vol. 117
+|
+no. 17
+www.pnas.org/cgi/doi/10.1073/pnas.1912139117
+Downloaded from https://www.pnas.org by 155.254.126.203 on April 27, 2026 from IP address 155.254.126.203.
+
+--- PAGE 2 ---
+combining enzymatic digestion (SI Appendix, Fig. S1A) with
+myelin depletion and flow cytometry-based sorting for viable
+cells (Methods) (SI Appendix, Fig. S1 B and C). On average, we
+thereby obtained 1,520 ± 453 SD viable cells from the combined
+brachial plexus and sciatic nerves of one mouse. We then pooled
+cells from multiple mice (n = 12 per batch) and three biological
+replicates (SI Appendix, Fig. S1D) as input for scRNA-seq. After
+removal of low-quality cells (Methods), this returned transcrip-
+tional information of 5,400 total high-quality PNS cells, with
+596 ± 202 SD average genes detected per cell (SI Appendix,
+Table S1). After normalization (Methods), we identified 12 total
+PNS cell clusters (Fig. 1A).
+Overall, 65% of the single cell transcriptomes were assigned to
+SC and fibroblast cell types, 20% to vascular, and 15% to he-
+matopoietic cell types (Fig. 1B). The unexpectedly high abun-
+dance
+of
+hematopoietic
+cells
+compared
+to
+morphological
+quantification (7) likely reflects their easier extraction and was
+observed previously (6). One cluster expressed pan-Schwann cell
+markers (e.g., Erbb3 and S100b) and also coexpressed myelin
+protein genes (e.g., Mbp and Plp1), while another cluster did not
+express myelin protein genes, but a known SC receptor (Ngfr/
+p75) (Fig. 1C and SI Appendix, Table S3). We named these
+clusters mySCs and nmSCs, respectively (Fig. 1A). An additional
+cluster expressed fibroblast markers (fibro; Fn1, Fgfr1, Col1a,
+and Col3a) (8). Detection of marker genes in only a proportion
+of cells of a cluster (Fig. 1D) is inherent to the method (9).
+Vascular clusters expressed canonical markers of vascular
+smooth muscle cells (vSMCs; Acta2, Tagln, and Tpm2), of peri-
+cytes (PCs; Rgs5 and Pdgrfb), of lymphatic endothelial cells
+(lymph; Lyve1 and Prox1), and of vascular endothelial cells
+(EC1s; Cldn5, Egfl7, and Pecam1) (10) (Fig. 1D and SI Appendix,
+Table S2). PCs surround endothelial cells in the vessel wall of the
+microcirculation (11). An additional endothelial cell cluster
+expressed genes associated with the blood nerve barrier (EC2s;
+Cldn1 and Slc16a1) (12). Additional transcripts in the EC2
+cluster were either novel to endothelial cells (Moxd1 and Ntng1)
+or had been described in subsets of brain or lung endothelial
+cells (e.g., Lypd2, Krt19 and Dleu7) although EC2s were tran-
+scriptionally distinct from brain/lung ECs (10). We thus identify a
+unique transcriptional phenotype of a subset of PNS endothelial
+cells.
+Four additional clusters expressed pan-hematopoietic markers
+(e.g., Ptprc/CD45) and specifically markers of the myeloid cell
+lineage (MC; Lyz2), macrophages (MP; Cd68), T cells (TCs;
+Cd3e), and B cells (BCs; Cd79) (Fig. 1D and SI Appendix, Table
+S2) (9). Blood contamination is unlikely, because mice were in-
+tracardially perfused and red blood cells (expressing Hba and
+Hbb) were absent. We thus define the heterogeneity and provide
+a census of PNS cells.
+To relate our dataset with human diseases, we plotted the
+average expression of genes associated with hereditary neurop-
+athies against the cell clusters (SI Appendix, Fig. S2A). We found
+that—except for myelin protein genes—most neuropathy genes
+were preferentially expressed in non-SC cell types (SI Appendix,
+Fig. S2A), suggesting a potential relevance of nonglia cell types
+in inherited PNS disorders. Notably, neuronal cells are not in-
+cluded in our dataset, which may exaggerate the role of these
+genes in nonglia cells.
+Detailed
+Transcriptomic
+Characterization
+of
+Schwann
+Cell
+and
+Fibroblast Clusters. Next, we characterized selected clusters in
+greater detail. The mySC cluster expressed genes encoding PNS
+myelin proteins (Plp1, Mbp, and Mpz), a key SC lineage tran-
+scription factor (Sox10), and other regulators of myelination
+(e.g., Ptn and Cryab) (13) (Fig. 1 C and D). In addition, genes

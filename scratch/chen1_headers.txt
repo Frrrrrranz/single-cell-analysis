@@ -1,0 +1,42 @@
+Sections for d:/OneDrive/Desktop/组/scratch/chen1_full_text.txt:
+Line     0: --- PAGE 1 ---
+Line     1: ARTICLE
+Line    20: OPEN
+Line    28: --- PAGE 2 ---
+Line    91: Results
+Line   158: ARTICLE
+Line   163: --- PAGE 3 ---
+Line   272: ARTICLE
+Line   276: --- PAGE 4 ---
+Line   313: ARTICLE
+Line   318: --- PAGE 5 ---
+Line   445: ARTICLE
+Line   449: --- PAGE 6 ---
+Line   551: ARTICLE
+Line   556: --- PAGE 7 ---
+Line   701: ARTICLE
+Line   705: --- PAGE 8 ---
+Line   713: ARTICLE
+Line   718: --- PAGE 9 ---
+Line   763: ARTICLE
+Line   767: --- PAGE 10 ---
+Line   851: ARTICLE
+Line   856: --- PAGE 11 ---
+Line   950: Discussion
+Line   981: ARTICLE
+Line   985: --- PAGE 12 ---
+Line   997: ARTICLE
+Line  1002: --- PAGE 13 ---
+Line  1086: CNTF
+Line  1088: CNTFR
+Line  1096: ARTICLE
+Line  1100: --- PAGE 14 ---
+Line  1146: ARTICLE
+Line  1151: --- PAGE 15 ---
+Line  1195: Methods
+Line  1294: ARTICLE
+Line  1298: --- PAGE 16 ---
+Line  1416: E5595–E5604 (2018).
+Line  1463: ARTICLE
+Line  1468: --- PAGE 17 ---
+Line  1551: ARTICLE
