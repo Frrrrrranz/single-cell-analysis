@@ -1,0 +1,11 @@
+Paper: Single-cell transcriptomics identifies peripheral nerve resident cell types and immune interactions (PNAS, 2020)
+Total pages: 11
+
+page_01.png <- PDF page 2 | labels: Fig. 1, Fig. 1A, Fig. 1B, Fig. 1C, Fig. 1D, Fig. 1E
+page_02.png <- PDF page 3 | labels: Fig. 1
+page_03.png <- PDF page 4 | labels: Fig. 1, Fig. 1E, Fig. 2, Fig. 2A, Fig. 2B, Fig. 2C, Fig. 2D, Fig. 3, Fig. 3A, Fig. 3B, Fig. 3C, Fig. 3D, Fig. 3E
+page_04.png <- PDF page 5 | labels: Fig. 2
+page_05.png <- PDF page 6 | labels: Fig. 1, Fig. 3
+page_06.png <- PDF page 7 | labels: Fig. 3, Fig. 3H, Fig. 4, Fig. 4C, Fig. 4D, Fig. 4E, Fig. 4F, Fig. 4G
+page_07.png <- PDF page 8 | labels: Fig. 4
+page_08.png <- PDF page 9 | labels: Fig. 4

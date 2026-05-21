@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文献汇报：重新定义外周神经细胞在健康和自身免疫中的异质性</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif; background: #f5f5f5; color: #222; }
+  
+  .slide { 
+    width: 100%; max-width: 1024px; margin: 20px auto; 
+    background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 24px 32px;
+    aspect-ratio: 330 / 190;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    page-break-after: always;
+    break-inside: avoid;
+  }
+  @page {
+    size: 330mm 190mm landscape;
+    margin: 0;
+  }
+  @media print {
+    body { background: #fff; }
+    .slide { 
+      box-shadow: none; margin: 0; 
+      width: 330mm; height: 190mm; 
+      padding: 20mm 25mm;
+      overflow: hidden;
+      page-break-after: always;
+      break-inside: avoid;
+    }
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    .tool-badge { color: #fff !important; }
+    .tool-badge-red { background: #d93025 !important; }
+    .tool-badge-blue { background: #1a73e8 !important; }
+    .tool-badge-green { background: #137333 !important; }
+    .tool-badge-orange { background: #e37400 !important; }
+    .tool-badge-purple { background: #7b1fa2 !important; }
+    .arrow { color: #999 !important; }
+    .highlight { background: #fff3cd !important; color: #222 !important; }
+    .key-box { background: #f0f7ff !important; border-left-color: #1a73e8 !important; }
+    th { background: #1a1a2e !important; color: #fff !important; }
+    tr:nth-child(even) { background: #f8f8f8 !important; }
+    .fig-image-area { background: #fafafa !important; }
+    .fig-sidebar .fig-note { background: #f0f7ff !important; border-left-color: #1a73e8 !important; }
+  }
+  
+  h1 { font-size: 24px; margin-bottom: 12px; color: #1a1a2e; border-bottom: 3px solid #1a1a2e; padding-bottom: 6px; flex-shrink: 0; }
+  h2 { font-size: 18px; margin: 10px 0 8px; color: #16213e; }
+  h3 { font-size: 16px; margin: 8px 0 6px; color: #0f3460; }
+  
+  .cover { text-align: center; justify-content: center; align-items: center; }
+  .cover h1 { font-size: 30px; border: none; margin-bottom: 10px; flex-shrink: 1; }
+  .cover .meta { font-size: 16px; color: #555; margin: 8px 0; line-height: 1.8; }
+  .cover .divider { width: 80px; height: 3px; background: #1a1a2e; margin: 20px auto; }
+  
+  .content-area {
+    flex: 1; display: flex; flex-direction: column;
+    overflow: hidden; min-height: 0;
+  }
+  .content-area p { font-size: 15px; line-height: 1.6; margin: 4px 0; }
+  .content-area ul, .content-area ol { margin: 4px 0 4px 18px; }
+  .content-area li { font-size: 14px; line-height: 1.5; margin: 2px 0; }
+  
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 13px; }
+  th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; }
+  th { background: #1a1a2e; color: #fff; font-weight: 600; }
+  tr:nth-child(even) { background: #f8f8f8; }
+  
+  .highlight { background: #fff3cd; padding: 2px 6px; border-radius: 3px; font-weight: 600; }
+  .highlight-red { color: #d93025; font-weight: 700; }
+  
+  .key-box { 
+    background: #f0f7ff; border-left: 4px solid #1a73e8; 
+    padding: 8px 12px; margin: 8px 0; border-radius: 0 4px 4px 0;
+    flex-shrink: 0;
+  }
+  .key-box strong { color: #1a73e8; }
+  .key-box p { font-size: 14px; line-height: 1.5; margin: 2px 0; }
+  
+  .two-col { display: flex; gap: 16px; margin: 8px 0; flex: 1; min-height: 0; }
+  .two-col > div { flex: 1; overflow-y: auto; }
+  
+  .tool-badge { 
+    display: inline-block; background: #1a1a2e; color: #fff; 
+    padding: 3px 10px; border-radius: 4px; font-size: 13px; font-weight: 600; margin: 2px;
+  }
+  .tool-badge-red { background: #d93025; }
+  .tool-badge-blue { background: #1a73e8; }
+  .tool-badge-green { background: #137333; }
+  .tool-badge-orange { background: #e37400; }
+  .tool-badge-purple { background: #7b1fa2; }
+  
+  .fig-page { padding: 12px 20px; }
+  .fig-page h1 { font-size: 18px; margin-bottom: 6px; padding-bottom: 4px; flex-shrink: 0; }
+  .fig-layout {
+    flex: 1; display: flex; gap: 14px;
+    min-height: 0; overflow: hidden;
+  }
+  .fig-image-area {
+    flex: 0 0 58%;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    min-height: 0; background: #fafafa;
+    border: 1px solid #eee; border-radius: 6px;
+    padding: 6px; overflow: hidden;
+  }
+  .fig-image-area img {
+    max-width: 100%; max-height: 100%;
+    width: auto; height: auto;
+    object-fit: contain; display: block;
+  }
+  .fig-sidebar {
+    flex: 1; display: flex; flex-direction: column;
+    justify-content: flex-start; min-height: 0;
+    overflow-y: auto; padding: 2px 0;
+  }
+  .fig-sidebar .fig-caption {
+    font-size: 12px; color: #666; margin-bottom: 6px;
+    line-height: 1.4; border-bottom: 1px solid #eee;
+    padding-bottom: 6px; flex-shrink: 0;
+  }
+  .fig-sidebar ul { margin: 0; padding-left: 14px; flex-shrink: 0; }
+  .fig-sidebar li { font-size: 13px; line-height: 1.5; margin: 3px 0; color: #333; }
+  .fig-sidebar li strong { color: #1a73e8; }
+  .fig-sidebar .fig-note {
+    margin-top: 6px; padding: 6px 10px;
+    background: #f0f7ff; border-left: 3px solid #1a73e8;
+    border-radius: 0 4px 4px 0;
+    font-size: 12px; color: #555; line-height: 1.4;
+    flex-shrink: 0;
+  }
+  
+  .flow-row {
+    display: flex; justify-content: center;
+    align-items: center; flex-wrap: wrap;
+    gap: 6px; margin: 8px 0;
+  }
+  .flow-row span.arrow { font-size: 18px; color: #999; }
+  
+  .conclusion-card { padding: 10px 14px; border-radius: 8px; margin: 6px 0; }
+  .conclusion-card h3 { margin: 0 0 4px 0; }
+  .conclusion-card p { font-size: 14px; margin: 0; }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- 第1页：封面 -->
+<!-- ============================================================ -->
+<div class="slide cover">
+  <h1>重新定义外周神经细胞<br>在健康和自身免疫中的异质性</h1>
+  <div class="divider"></div>
+  <p class="meta"><strong>Redefining the heterogeneity of peripheral nerve cells in health and autoimmunity</strong></p>
+  <p class="meta">PNAS, 2020 · Wolbert et al.</p>
+  <p style="margin-top: 30px; font-size: 14px; color: #555; line-height: 1.8;">关键词：单细胞RNA测序 · 外周神经系统 · 施万细胞标志物 · 自身免疫性神经炎 · CellPhoneDB细胞间通讯</p>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第2页：研究背景 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>1. 研究背景</h1>
+  <div class="content-area">
+    <h2>外周神经系统（PNS）细胞组成的传统认知与局限</h2>
+    <ul>
+      <li>传统观点认为PNS细胞组成简单：主要是施万细胞（有髓/无髓）和轴突</li>
+      <li>成纤维细胞等其他细胞类型的功能和谱系归属长期存在争议，缺乏可靠的分子标志物</li>
+      <li>缺乏对<strong>健康小鼠PNS</strong>的"公正"（unbiased）单细胞转录组学表征</li>
+    </ul>
+    
+    <h2>自身免疫性神经炎中细胞互作机制的空白</h2>
+    <ul>
+      <li>格林-巴利综合征（GBS）和CIDP等自身免疫性神经炎中，免疫细胞如何与PNS驻留细胞相互作用尚不明确</li>
+      <li>自身免疫反应中PNS实质细胞如何响应？细胞间互作网络如何变化？</li>
+    </ul>
+    
+    <div class="key-box">
+      <strong>核心问题：</strong>健康PNS中有哪些细胞类型？它们的分子标记物是什么？在自身免疫性神经炎中，细胞间通讯网络如何重构？
+    </div>
+    
+    <h2>研究策略</h2>
+    <ul>
+      <li>对健康小鼠PNS（臂丛+坐骨神经）进行 <strong>10X Genomics</strong> 单细胞测序，无偏鉴定所有细胞类型</li>
+      <li>提供新型细胞标志物（如Apod、Sfrp4）用于细胞区分</li>
+      <li>在ICAM-1<sup>-/-</sup>NOD小鼠（慢性自身免疫性神经炎模型）中研究细胞互作网络的变化</li>
+      <li>使用 <strong>CellPhoneDB</strong> 预测细胞间通讯网络</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第3页：技术路线 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>2. 技术路线</h1>
+  <div class="content-area">
+    <div style="text-align:center; margin: 12px 0; padding: 14px; background: #f8f9fa; border-radius: 8px; flex-shrink: 0;">
+      <div class="flow-row">
+        <span class="tool-badge tool-badge-blue">PNS组织采集</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-green">酶消化+髓鞘磁珠+流式分选</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-orange">10X Genomics scRNA-seq</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-purple">Seurat v3 聚类注释</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-red">CellPhoneDB LR互作预测</span>
+        <span class="arrow">→</span>
+        <span class="tool-badge tool-badge-blue">免疫组化/RNAscope验证</span>
+      </div>
+    </div>
+    
+    <h3>实验样本设计</h3>
+    <ul>
+      <li><strong>健康组：</strong>C57BL/6J小鼠臂丛神经+坐骨神经（灌注PBS后解剖）</li>
+      <li><strong>疾病组：</strong>ICAM-1<sup>-/-</sup>NOD小鼠——自发性慢性炎性脱髓鞘性多发性神经根神经病（CIDP）模型</li>
+      <li><strong>细胞提取优化：</strong>酶消化 → 抗髓磷脂磁珠去除髓鞘碎片 → <strong>流式分选</strong>（Zombie NIR + Calcein-AM + DAPI三重活细胞标记）</li>
+      <li><strong>测序：</strong>10X Genomics Chromium 3' Kit v2，每样本混合12只小鼠细胞，3个生物学重复</li>
+    </ul>
+
+    <h3>数据分析流程</h3>
+    <ul>
+      <li><strong>比对：</strong>CellRanger v3.0.2 → 小鼠基因组mm10</li>
+      <li><strong>标准化：</strong>正则化负二项回归（与scTransform类似）</li>
+      <li><strong>降维与聚类：</strong>UMAP + Seurat v3.0.0（30个主成分）</li>
+      <li><strong>差异表达：</strong>FindMarkers（Wilcoxon秩和检验，阈值0.25 logFC）</li>
+      <li><strong>批次校正：</strong>Harmony（用于疾病组vs对照组比较）</li>
+      <li><strong>通讯预测：</strong>CellPhoneDB（小鼠基因ID→人类同源基因转换后分析）</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第4页：Figure 1 - 健康PNS细胞图谱 -->
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 1: 健康外周神经系统的单细胞转录组图谱</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_02.png" alt="Figure 1">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">健康小鼠PNS单细胞转录组图谱（论文Figure 1，PDF第3页）</div>
+      <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
+        <strong>小图说明：</strong>
+        <ul style="margin:2px 0 2px 14px;">
+          <li><strong>A：</strong>UMAP聚类图，展示健康PNS的12个细胞簇，不同颜色标注不同细胞类型。</li>
+          <li><strong>B：</strong>饼图展示各细胞类型比例——施万+成纤维65%，血管20%，造血15%。</li>
+          <li><strong>C：</strong>特征图展示经典标志基因（Sox10, Sfrp4, Cldn5, Cd68等）在UMAP上的表达。</li>
+          <li><strong>D：</strong>热图展示12个簇的前10个差异表达基因。</li>
+        </ul>
+        <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 关键结论：</strong>健康PNS包含至少12种不同的细胞类型/亚型，造血细胞比例高于传统形态学预期。</p>
+      </div>
+      <ul>
+        <li><strong>细胞来源：</strong>健康C57BL/6J小鼠臂丛神经+坐骨神经，经酶消化+髓鞘去除+流式分选后获得<strong>5,400个高质量细胞</strong>，每细胞平均检测596个基因</li>
+        <li><strong>无监督聚类：</strong>识别出<strong>12个细胞簇</strong>，包括有髓施万细胞（mySCs）、无髓施万细胞（nmSCs）、成纤维细胞（Fibro）、血管细胞（内皮、周细胞、平滑肌）以及免疫细胞（巨噬细胞、T细胞、B细胞）</li>
+        <li><strong>细胞比例：</strong>施万细胞和成纤维细胞合计65%，血管细胞20%，造血细胞15%——高于传统组织学预期的免疫细胞比例</li>
+        <li><strong>技术说明：</strong>与外周神经其他scRNA-seq研究一致，由于神经元胞体位于DRG和脊髓中，<strong>本次测序未捕获到神经元本体</strong></li>
+      </ul>
+      <div class="fig-note">
+        <strong>鉴定到的12种细胞类型：</strong>mySCs（有髓SC）、nmSCs（无髓SC）、Fibro（成纤维细胞）、vSMCs（血管平滑肌）、PCs（周细胞）、淋巴内皮、EC1（血管内皮1）、EC2（血管内皮2/血-神经屏障）、MCs（髓系细胞）、MPs（巨噬细胞）、TCs（T细胞）、BCs（B细胞）
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第5页：细胞类型鉴定表 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>3. 测出了哪些细胞类型？—— 12种细胞亚型</h1>
+  <div class="content-area">
+    <table>
+      <tr>
+        <th>细胞大类</th><th>亚型</th><th>关键标志基因</th><th>新发现</th>
+      </tr>
+      <tr style="background: #fff3cd;">
+        <td rowspan="2"><strong>施万细胞</strong></td>
+        <td>有髓SC (mySCs)</td>
+        <td>Sox10, S100b, Mbp, Plp1, Mpz, Prx</td>
+        <td>泛施万细胞标志物Erbb3；髓鞘标志物谱完整</td>
+      </tr>
+      <tr style="background: #fff3cd;">
+        <td>无髓SC (nmSCs)</td>
+        <td>Sox10, S100b, Ngfr, <strong style="color:#d93025;">Apod</strong></td>
+        <td><strong>Apod（载脂蛋白D）</strong>被鉴定为nmSCs高特异性新型标志物</td>
+      </tr>
+      <tr>
+        <td><strong>成纤维细胞</strong></td>
+        <td>神经相关成纤维细胞</td>
+        <td>Fn1, Col1a1, <strong style="color:#d93025;">Sfrp4</strong>, Smoc2</td>
+        <td><strong>Sfrp4</strong>被鉴定为神经成纤维细胞特异性标志物</td>
+      </tr>
+      <tr>
+        <td rowspan="2"><strong>血管细胞</strong></td>
+        <td>血管内皮 (EC1s)</td>
+        <td>Cldn5, Egfl7, Pecam1</td>
+        <td>经典血管内皮特征</td>
+      </tr>
+      <tr>
+        <td>血-神经屏障内皮 (EC2s)</td>
+        <td><strong>Cldn1</strong>, Slc16a1, Moxd1</td>
+        <td><strong>鉴定出血-神经屏障特异性的新型内皮亚型</strong></td>
+      </tr>
+      <tr>
+        <td rowspan="2"><strong>驻留免疫细胞</strong></td>
+        <td>巨噬细胞MP1（外膜）</td>
+        <td>Cd68, <strong>Cxcl4/Pf4</strong>, Cd169, Lyve1</td>
+        <td>外膜驻留，与组织修复相关</td>
+      </tr>
+      <tr>
+        <td>巨噬细胞MP2（内膜）</td>
+        <td>Cd68, <strong>Cd74</strong>, MHC-II基因</td>
+        <td>内膜驻留，与抗原呈递相关</td>
+      </tr>
+      <tr>
+        <td><strong>淋巴免疫</strong></td>
+        <td>T细胞 / B细胞</td>
+        <td>Cd3e / Cd19, Cd79a</td>
+        <td>健康PNS中少量存在</td>
+      </tr>
+    </table>
+    
+    <div class="key-box">
+      <strong>核心贡献：</strong>本研究首次鉴定了无髓施万细胞（nmSCs）的可靠标志物<strong>Apod</strong>和神经相关成纤维细胞的标志物<strong>Sfrp4</strong>。同时发现外周神经存在<strong>两种转录组截然不同的驻留巨噬细胞亚群</strong>（MP1和MP2）。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第6页：Figures 2-3 - 无髓施万细胞与成纤维细胞 -->
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figures 2-3: 无髓施万细胞与成纤维细胞的分子特征鉴定</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_03.png" alt="Figures 2-3">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">无髓施万细胞（nmSCs）和成纤维细胞的新型标记物鉴定与RNAscope验证（论文Figures 2-3，PDF第4页）</div>
+      <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
+        <strong>小图说明：</strong>
+        <ul style="margin:2px 0 2px 14px;">
+          <li><strong>Figure 2(A-D)：</strong>nmSCs的UMAP特征图（Apod、S100b、Ngfr），RNAscope验证Apod在nmSCs中的特异性表达（白色箭头标记），与Sox10共定位。</li>
+          <li><strong>Figure 2(E-H)：</strong>Apod与其他标记的共标分析，确认Apod作为nmSCs特异性标志物的可靠性。</li>
+          <li><strong>Figure 1E：</strong>成纤维细胞标志物Sfrp4的UMAP特征图。</li>
+          <li><strong>Figure 2A、2D、2E：</strong>RNAscope和免疫组化验证Sfrp4+成纤维细胞在神经外膜的分布。</li>
+        </ul>
+        <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 关键结论：</strong>Apod是nmSCs的高特异性标志物，Sfrp4是神经成纤维细胞的特异性标志物，均经RNAscope空间验证。</p>
+      </div>
+      <ul>
+        <li><strong>无髓施万细胞（nmSCs）：</strong>在外周神经中长期缺乏特异性分子标记物。本研究通过scRNA-seq鉴定出<strong>Apod（载脂蛋白D）</strong>在nmSCs中高度特异性表达——RNAscope验证其在坐骨神经横切面中与Sox10共定位，且分布于小直径轴突周围，符合nmSCs的解剖位置</li>
+        <li><strong>成纤维细胞（Fibroblasts）：</strong>传统上仅以形态学（梭形、纺锤状）区分，缺乏特异性分子标记。本研究鉴定出<strong>Sfrp4（分泌型卷曲相关蛋白4）</strong>在神经成纤维细胞中特异性表达——RNAscope证实Sfrp4+细胞主要分布在神经外膜，与Sox10+施万细胞不重叠</li>
+        <li><strong>独立验证：</strong>使用hGFAP-GFP和PDGFRα-EGFP转基因小鼠进行独立免疫组化验证，确认标志物的可靠性</li>
+        <li><strong>人类PNS保守性：</strong>人腓肠神经活检标本免疫组化确认SOX10、MBP、CD34、SMA等标志物在人与小鼠间的保守性</li>
+      </ul>
+      <div class="fig-note">
+        <strong>→ 研究意义：</strong>Apod和Sfrp4为外周神经组织学病理诊断提供了全新的分子工具。
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第7页：PNS巨噬细胞 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>4. PNS驻留巨噬细胞——与CNS小胶质细胞不同的独特群体</h1>
+  <div class="content-area">
+    <h2>两种PNS驻留巨噬细胞亚群</h2>
+    <table>
+      <tr><th>特征</th><th>MP1（外膜巨噬细胞）</th><th>MP2（内膜巨噬细胞）</th></tr>
+      <tr><td>解剖位置</td><td>神经外膜（Epineurium）</td><td>神经内膜（Endoneurium）</td></tr>
+      <tr><td>标志基因</td><td><strong>Cxcl4/Pf4</strong>, Cd169, Lyve1</td><td><strong>Cd74</strong>, MHC-II基因（H2-Aa, H2-Ab1）</td></tr>
+      <tr><td>功能倾向</td><td>组织修复、伤口愈合相关</td><td>抗原呈递、免疫监测相关</td></tr>
+      <tr><td>谱系起源</td><td>混合起源（卵黄囊前体+造血干细胞）</td><td>混合起源（卵黄囊前体+造血干细胞）</td></tr>
+    </table>
+    
+    <h2>与CNS小胶质细胞的关键差异</h2>
+    <ul>
+      <li>PNS巨噬细胞<strong>不表达</strong>CNS小胶质细胞的特异性标志物：P2ry12, Tmem119, Sparc, Olfm3</li>
+      <li>PNS巨噬细胞表达Aif1/Iba1（与小胶质细胞共享），但转录组整体差异显著</li>
+      <li>PNS巨噬细胞具有<strong>混合起源</strong>（卵黄囊+造血干细胞），而CNS小胶质细胞几乎全部来源于卵黄囊前体</li>
+    </ul>
+    
+    <div class="key-box">
+      <strong>核心发现：</strong>PNS驻留巨噬细胞在转录组上<strong>显著不同于</strong>CNS小胶质细胞，具有独特的分子特征、解剖分布和谱系起源。这对理解PNS特异性免疫疾病（如格林-巴利综合征）有重要意义。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第8页：10X原理与关键技术 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>5. 关键技术原理与单细胞测序方法</h1>
+  <div class="content-area">
+    <h3>5.1 10X Genomics Chromium 单细胞测序原理</h3>
+    <ul>
+      <li><strong>核心原理：</strong>微流控芯片将单个细胞与携带独特条形码（Barcode）的凝胶微珠包裹在油包水微滴（GEM）中。每个液滴作为一个独立的"微型反应器"，完成细胞裂解、mRNA捕获和逆转录。</li>
+      <li><strong>分子标签策略：</strong>每个微珠携带大量相同的细胞条形码和独特的分子标识符（UMI）。测序后通过条形码区分每个细胞的数据。</li>
+      <li>本研究使用<strong>流式分选</strong>（而非普通10X流程）——通过Zombie NIR + Calcein-AM + DAPI三重染色，确保只捕获高质量活细胞，去除髓鞘碎片和死细胞。</li>
+    </ul>
+    
+    <h3>5.2 本研究的实验技术创新点</h3>
+    <ul>
+      <li><strong>髓鞘去除优化：</strong>使用抗髓磷脂磁珠（Myelin Removal Beads）去除富含脂质的髓鞘碎片——这是外周神经组织特有的技术挑战，因为髓磷脂会干扰微流控捕获和测序质量。</li>
+      <li><strong>多重验证：</strong>scRNA-seq筛选候选标志物 → RNAscope空间验证 → 免疫组化确认蛋白表达 → 转基因小鼠独立验证。</li>
+      <li><strong>跨物种保守性验证：</strong>使用人腓肠神经活检标本确认主要细胞类型的标志物在人与小鼠之间的保守性。</li>
+    </ul>
+
+    <div class="key-box">
+      <strong>整体分析框架：</strong>"PNS组织采集+酶消化+髓鞘去除+流式分选"（优化细胞提取）→ "10X Genomics scRNA-seq"（单细胞转录组）→ "Seurat v3 + Harmony"（聚类+批次校正）→ "CellPhoneDB"（LR通讯预测）→ "RNAscope/免疫组化"（空间与蛋白层面验证）。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第9页：CellPhoneDB详解 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>6. 细胞间通讯分析工具：CellPhoneDB</h1>
+  <div class="content-area">
+    <h2>6.1 工具概述</h2>
+    <ul>
+      <li><strong>软件包：</strong>CellPhoneDB（Python / 命令行工具）</li>
+      <li><strong>开发者：</strong>Wellcome Sanger Institute（Ventura-Traveset Lab）</li>
+      <li><strong>官方论文：</strong>Efremova et al., 2020, <em>Nature Protocols</em>; Vento-Tormo et al., 2018, <em>Nature</em></li>
+      <li><strong>官方网站：</strong>https://www.cellphonedb.org/</li>
+    </ul>
+    
+    <h2>6.2 基本原理——配体-受体（LR）共表达的统计检验</h2>
+    <ul>
+      <li><strong>核心逻辑：</strong>基于"配体-受体共表达"原理——如果细胞类型A表达配体L，细胞类型B表达受体R，则推测A和B之间可能存在通过该L-R对的旁分泌通讯。</li>
+      <li><strong>计算流程：</strong>
+        <ol>
+          <li>将单细胞数据中的细胞按细胞类型分组</li>
+          <li>对于每个配体-受体对，计算两种细胞类型中配体和受体的平均表达水平</li>
+          <li>通过<strong>随机置换检验（Permutation test）</strong>评估该LR对的表达是否显著高于随机预期（p值）</li>
+          <li>输出所有显著LR对的列表以及细胞类型之间的互作网络</li>
+        </ol>
+      </li>
+      <li><strong>配体-受体数据库来源：</strong>CellPhoneDB自带经过专家整理和<strong>人工筛选</strong>的配体-受体数据库，涵盖人类已知的配体-受体对，特别支持<strong>多亚基受体复合物</strong>（如TGF-β受体、细胞因子受体等）的匹配。</li>
+      <li><strong>本研究的适配处理：</strong>因CellPhoneDB原始数据库基于人类，本研究将小鼠基因ID通过biomaRt转换为人类同源基因后进行分析</li>
+    </ul>
+
+    <h2>6.3 与SingleCellSignalR的主要区别</h2>
+    <ul>
+      <li>CellPhoneDB使用<strong>统计检验（置换检验）</strong>评估LR相互作用显著性；SingleCellSignalR使用<strong>LR score评分</strong></li>
+      <li>CellPhoneDB特别支持<strong>多亚基复合物</strong>（配体和受体可由多个基因组成），更适用于免疫信号通路分析</li>
+    </ul>
+    
+    <div class="key-box">
+      <strong>CellPhoneDB的核心特点：</strong>使用严格的统计学检验（置换检验），特别适合分析多亚基受体复合物参与的细胞间通讯，如免疫突触信号。内置的LR数据库经过了专家人工筛选和整理。
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第10页：Figure 4 - 自身免疫神经炎通讯网络 -->
+<!-- ============================================================ -->
+<div class="slide fig-page">
+  <h1>Figure 4: 自身免疫性神经炎中的细胞间互作网络重构</h1>
+  <div class="fig-layout">
+    <div class="fig-image-area">
+      <img src="paper_figures/page_07.png" alt="Figure 4">
+    </div>
+    <div class="fig-sidebar">
+      <div class="fig-caption">ICAM-1<sup>-/-</sup>NOD小鼠慢性自身免疫性神经炎中的细胞互作网络（论文Figure 4，PDF第8页）</div>
+      <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
+        <strong>小图说明：</strong>
+        <ul style="margin:2px 0 2px 14px;">
+          <li><strong>A：</strong>健康与患病PNS的UMAP对比和细胞比例变化（淋巴细胞显著增加）。</li>
+          <li><strong>B：</strong>ICAM-1<sup>-/-</sup>NOD vs NOD的差异基因火山图分析。</li>
+          <li><strong>C：</strong>流式细胞术（flow cytometry）定量结果——验证scRNA-seq发现的细胞比例变化。</li>
+          <li><strong>D-F：</strong>差异表达基因火山图（Volcano plots）——分别展示内皮细胞（EC1）、无髓施万细胞（nmSCs）和有髓施万细胞（mySCs）中的差异表达基因。</li>
+          <li><strong>G：</strong>Venn图——比较EC1、nmSCs和mySCs三组差异表达基因的重叠情况。</li>
+          <li><strong>注：</strong>CellPhoneDB预测的细胞间互作网络图见补充材料<strong>Figure S15</strong>。</li>
+        </ul>
+        <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 关键结论：</strong>自身免疫神经炎中成纤维细胞和血管平滑肌/周细胞的通讯连接数量跃升，成为局部网络的核心枢纽。</p>
+      </div>
+      <ul>
+        <li><strong>分析工具与原理：</strong>采用<strong>CellPhoneDB</strong>（基于Python）生物信息学框架，基于"配体-受体共表达"基本原理，使用内置的经过专家整理的配体-受体数据库，通过<strong>置换检验</strong>计算相互作用显著性</li>
+        <li><strong>疾病模型背景：</strong>ICAM-1<sup>-/-</sup>NOD小鼠——一种自发性CIDP样模型，表现为T细胞和B细胞在PNS中的大量浸润</li>
+        <li><strong>细胞比例变化：</strong>患病神经中T细胞和B细胞显著增加，施万细胞、成纤维细胞和血管细胞的比例相对下降</li>
+        <li><strong>网络重构核心发现：</strong>健康PNS中，有髓施万细胞（mySCs）的互作连接性较低；但在自身免疫神经炎中，<strong>成纤维细胞（Fibro）和血管平滑肌/周细胞（vSMC/PC）</strong>获得了更多的通讯连接控制权</li>
+      </ul>
+      <div class="fig-note">
+        <strong>→ 核心结论：</strong>自身免疫性神经炎不仅仅是免疫细胞的浸润，更是整个PNS细胞间通讯网络的系统性重构。成纤维细胞和血管细胞在疾病中成为通讯网络的"枢纽"。
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第11页：神经细胞相关通讯 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>7. 有没有神经细胞相关的细胞间通讯？</h1>
+  <div class="content-area">
+    <h2>施万细胞——自身免疫炎症中的响应者</h2>
+    <p>施万细胞（Schwann cells）作为PNS的<strong>唯一驻留神经胶质细胞</strong>，在本研究的自身免疫神经炎中表现出显著的转录组响应和通讯网络变化：</p>
+    
+    <table>
+      <tr><th>细胞类型</th><th>在健康PNS中的状态</th><th>在自身免疫神经炎中的变化</th></tr>
+      <tr>
+        <td><strong>有髓施万细胞 (mySCs)</strong></td>
+        <td>稳定的髓鞘维持状态，通讯连接性较低</td>
+        <td>被浸润淋巴细胞"攻击"，上调MHC-II分子、应变激活标志物（Atf3）和炎症信号通路——表明其主动参与免疫应答</td>
+      </tr>
+      <tr>
+        <td><strong>无髓施万细胞 (nmSCs)</strong></td>
+        <td>表达Ngfr，包裹小直径轴突（Remak束），与轴突维持相关</td>
+        <td>同样参与炎症响应，与浸润T细胞、B细胞产生新的配体-受体相互作用</td>
+      </tr>
+      <tr>
+        <td><strong>成纤维细胞 (Fibro)</strong></td>
+        <td>维持细胞外基质稳态，与施万细胞有中等程度的通讯</td>
+        <td><strong>获得通讯网络控制权</strong>——在疾病中通讯连接数量跃升，成为细胞间互作网络的"枢纽"</td>
+      </tr>
+      <tr>
+        <td><strong>血管平滑肌/周细胞 (vSMC/PC)</strong></td>
+        <td>血管支持和血-神经屏障维持，通讯有限</td>
+        <td>通讯连接显著增加，与免疫细胞（T细胞、B细胞和髓系细胞）的互作增强</td>
+      </tr>
+    </table>
+    
+    <div class="key-box">
+      <strong>关键发现：</strong>自身免疫性神经炎中，虽然施万细胞（神经胶质细胞）自身也参与了免疫应答，但通讯网络的<strong>核心枢纽</strong>并不是施万细胞，而是<strong>成纤维细胞和血管平滑肌/周细胞</strong>。
+    </div>
+
+    <h2>PNS与CNS的保守免疫响应模块</h2>
+    <ul>
+      <li>本研究将PNS自身免疫数据与已发表的EAE（CNS自身免疫模型）数据进行交叉比较</li>
+      <li>发现PNS和CNS的胶质细胞共享<strong>部分保守的免疫响应模块</strong></li>
+      <li>提示外周和中枢神经系统存在<strong>通用的胶质细胞免疫响应机制</strong></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第12页：结论 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>8. 结论与展望</h1>
+  <div class="content-area">
+    <h2>核心贡献</h2>
+    <ul>
+      <li>首次在单细胞水平系统描绘了<strong>健康PNS</strong>的细胞组成——鉴定出<strong>12种细胞类型/亚型</strong></li>
+      <li>鉴定出无髓施万细胞（nmSCs）的新型标志物<strong>Apod</strong>和神经成纤维细胞的标志物<strong>Sfrp4</strong></li>
+      <li>发现两种PNS驻留巨噬细胞亚群（MP1和MP2）——在转录组上<strong>显著不同于</strong>CNS小胶质细胞</li>
+      <li>在自身免疫神经炎中，CellPhoneDB分析揭示——PNS细胞间通讯网络系统性重构，<strong>成纤维细胞和血管细胞</strong>获得通讯网络控制权</li>
+    </ul>
+    <h2>临床意义</h2>
+    <ul>
+      <li>Apod和Sfrp4为PNS病理诊断提供分子工具，可用于区分外周神经肿瘤中细胞起源</li>
+      <li>PNS驻留巨噬细胞作为潜在的免疫治疗靶点——因其与CNS小胶质细胞的不同可能允许PNS特异性靶向</li>
+      <li>成纤维细胞在自身免疫炎症中的核心枢纽地位提示其可能是CIDP等疾病的潜在治疗靶点</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 第13页：参考文献 -->
+<!-- ============================================================ -->
+<div class="slide">
+  <h1>参考文献</h1>
+  <div class="content-area">
+    <p style="font-size:13px; line-height:1.8;">
+      Wolbert et al. (2020). Redefining the heterogeneity of peripheral nerve cells in health and autoimmunity. <em>PNAS</em>, 117(17), 9466-9476.
+    </p>
+    <p style="font-size:13px; line-height:1.8; margin-top:12px;">
+      Efremova et al. (2020). CellPhoneDB: inference of cell-cell communication from combined expression of multi-subunit ligand-receptor complexes. <em>Nature Protocols</em>, 15, 1484-1506.
+    </p>
+  </div>
+</div>
+
+</body>
+</html>

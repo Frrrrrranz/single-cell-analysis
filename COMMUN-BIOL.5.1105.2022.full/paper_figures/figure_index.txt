@@ -1,0 +1,17 @@
+Paper: Single-cell transcriptional landscape of the rat sciatic nerve after chronic constriction injury (Communications Biology, 2022)
+Total pages: 17
+
+page_01.png <- PDF page 2 | labels: Fig. 1, Fig. 1a, Fig. 1b, Fig. 1c, Fig. 1f, Fig. 1g, Fig. 2a, Fig. 4, Fig. 5
+page_02.png <- PDF page 3 | labels: Fig. 1
+page_03.png <- PDF page 4 | labels: Fig. 2b, Fig. 2d, Fig. 5
+page_04.png <- PDF page 5 | labels: Fig. 2, Fig. 2a, Fig. 2e, Fig. 2f, Fig. 2g, Fig. 2h, Fig. 3a, Fig. 3c, Fig. 3e, Fig. 3f, Fig. 3m, Fig. 6, Fig. 7, Fig. 8
+page_05.png <- PDF page 6 | labels: Fig. 3b, Fig. 3h
+page_06.png <- PDF page 7 | labels: Fig. 3, Fig. 3b, Fig. 3k, Fig. 3m, Fig. 3n, Fig. 4a, Fig. 4b, Fig. 4c, Fig. 4d, Fig. 4f, Fig. 4g, Fig. 5a, Fig. 5c, Fig. 9
+page_07.png <- PDF page 8 | labels: Fig. 4
+page_08.png <- PDF page 9 | labels: Fig. 4d, Fig. 4e, Fig. 5, Fig. 5a
+page_09.png <- PDF page 10 | labels: Fig. 10, Fig. 6a, Fig. 6e
+page_10.png <- PDF page 11 | labels: Fig. 11, Fig. 6, Fig. 6c, Fig. 6f, Fig. 6g, Fig. 6k, Fig. 6l, Fig. 7a, Fig. 7c, Fig. 7f, Fig. 8a, Fig. 8b, Fig. 8c, Fig. 8d, Fig. 9a, Fig. 9d
+page_11.png <- PDF page 12 | labels: Fig. 7
+page_12.png <- PDF page 13 | labels: Fig. 8
+page_13.png <- PDF page 14 | labels: Fig. 9
+page_14.png <- PDF page 15 | labels: Fig. 2
