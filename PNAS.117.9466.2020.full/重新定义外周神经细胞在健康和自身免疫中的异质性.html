@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -250,9 +250,10 @@
         <strong>小图说明：</strong>
         <ul style="margin:2px 0 2px 14px;">
           <li><strong>A：</strong>UMAP聚类图，展示健康PNS的12个细胞簇，不同颜色标注不同细胞类型。</li>
-          <li><strong>B：</strong>饼图展示各细胞类型比例——施万+成纤维65%，血管20%，造血15%。</li>
-          <li><strong>C：</strong>特征图展示经典标志基因（Sox10, Sfrp4, Cldn5, Cd68等）在UMAP上的表达。</li>
-          <li><strong>D：</strong>热图展示12个簇的前10个差异表达基因。</li>
+          <li><strong>B：</strong>堆叠柱状图（Stacked Bar Chart）展示各细胞类型比例。</li>
+          <li><strong>C：</strong>特征图（Feature Plots）展示施万细胞谱系经典标志基因（S100b, Ngfr, Mbp, Plp1）在UMAP上的表达。</li>
+          <li><strong>D：</strong>气泡图（Dot Plot）展示12个簇中选定标志基因的平均表达水平及表达细胞百分比。</li>
+          <li><strong>E：</strong>特征图（Feature Plots）展示无髓施万细胞（nmSC）与成纤维细胞簇标志基因（Apod, Smoc2, Sfrp4, Pi16）的表达。</li>
         </ul>
         <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 关键结论：</strong>健康PNS包含至少12种不同的细胞类型/亚型，造血细胞比例高于传统形态学预期。</p>
       </div>
@@ -309,12 +310,12 @@
       </tr>
       <tr>
         <td rowspan="2"><strong>驻留免疫细胞</strong></td>
-        <td>巨噬细胞MP1（外膜）</td>
+        <td>髓系细胞MC（Cx3cr1+）</td>
         <td>Cd68, <strong>Cxcl4/Pf4</strong>, Cd169, Lyve1</td>
         <td>外膜驻留，与组织修复相关</td>
       </tr>
       <tr>
-        <td>巨噬细胞MP2（内膜）</td>
+        <td>巨噬细胞MP（Cxcl4/Pf4+）</td>
         <td>Cd68, <strong>Cd74</strong>, MHC-II基因</td>
         <td>内膜驻留，与抗原呈递相关</td>
       </tr>
@@ -327,28 +328,27 @@
     </table>
     
     <div class="key-box">
-      <strong>核心贡献：</strong>本研究首次鉴定了无髓施万细胞（nmSCs）的可靠标志物<strong>Apod</strong>和神经相关成纤维细胞的标志物<strong>Sfrp4</strong>。同时发现外周神经存在<strong>两种转录组截然不同的驻留巨噬细胞亚群</strong>（MP1和MP2）。
+      <strong>核心贡献：</strong>本研究首次鉴定了无髓施万细胞（nmSCs）的可靠标志物<strong>Apod</strong>和神经相关成纤维细胞的标志物<strong>Sfrp4</strong>。同时明确区分了<strong>髓系细胞簇（MC, Cx3cr1+）与巨噬细胞簇（MP, Cxcl4/Pf4+）</strong>。
     </div>
   </div>
 </div>
 
 <!-- ============================================================ -->
-<!-- 第6页：Figures 2-3 - 无髓施万细胞与成纤维细胞 -->
+<!-- 第6页：Figure 2 - 无髓施万细胞与成纤维细胞 -->
 <!-- ============================================================ -->
 <div class="slide fig-page">
-  <h1>Figures 2-3: 无髓施万细胞与成纤维细胞的分子特征鉴定</h1>
+  <h1>Figure 2: 无髓施万细胞与成纤维细胞标志物的组织学验证</h1>
   <div class="fig-layout">
     <div class="fig-image-area">
-      <img src="paper_figures/page_03.png" alt="Figures 2-3">
+      <img src="paper_figures/page_04.png" alt="Figure 2">
     </div>
     <div class="fig-sidebar">
-      <div class="fig-caption">无髓施万细胞（nmSCs）和成纤维细胞的新型标记物鉴定与RNAscope验证（论文Figures 2-3，PDF第4页）</div>
+      <div class="fig-caption">无髓施万细胞（nmSCs）和成纤维细胞标志物的RNA ISH/IHC组织学验证（论文Figure 2，PDF第5页）</div>
       <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
         <strong>小图说明：</strong>
         <ul style="margin:2px 0 2px 14px;">
-          <li><strong>Figure 2(A-D)：</strong>nmSCs的UMAP特征图（Apod、S100b、Ngfr），RNAscope验证Apod在nmSCs中的特异性表达（白色箭头标记），与Sox10共定位。</li>
-          <li><strong>Figure 2(E-H)：</strong>Apod与其他标记的共标分析，确认Apod作为nmSCs特异性标志物的可靠性。</li>
-          <li><strong>Figure 1E：</strong>成纤维细胞标志物Sfrp4的UMAP特征图。</li>
+          <li><strong>Figure 2A：</strong>RNA原位杂交（RNA ISH）在坐骨神经切片上展示Mbp、Apod、Smoc2和Sfrp4的表达分布。</li>
+          <li><strong>Figure 2B-E：</strong>免疫组织化学（IHC）联合RNA原位杂交（RNA ISH）展示Apod、Smoc2、Sfrp4与已知细胞谱系标志物的共定位/共染色结果。</li>
           <li><strong>Figure 2A、2D、2E：</strong>RNAscope和免疫组化验证Sfrp4+成纤维细胞在神经外膜的分布。</li>
         </ul>
         <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 关键结论：</strong>Apod是nmSCs的高特异性标志物，Sfrp4是神经成纤维细胞的特异性标志物，均经RNAscope空间验证。</p>
@@ -374,7 +374,7 @@
   <div class="content-area">
     <h2>两种PNS驻留巨噬细胞亚群</h2>
     <table>
-      <tr><th>特征</th><th>MP1（外膜巨噬细胞）</th><th>MP2（内膜巨噬细胞）</th></tr>
+      <tr><th>特征</th><th>MC（髓系细胞）</th><th>MP（巨噬细胞）</th></tr>
       <tr><td>解剖位置</td><td>神经外膜（Epineurium）</td><td>神经内膜（Endoneurium）</td></tr>
       <tr><td>标志基因</td><td><strong>Cxcl4/Pf4</strong>, Cd169, Lyve1</td><td><strong>Cd74</strong>, MHC-II基因（H2-Aa, H2-Ab1）</td></tr>
       <tr><td>功能倾向</td><td>组织修复、伤口愈合相关</td><td>抗原呈递、免疫监测相关</td></tr>
@@ -476,10 +476,10 @@
         <strong>小图说明：</strong>
         <ul style="margin:2px 0 2px 14px;">
           <li><strong>A：</strong>健康与患病PNS的UMAP对比和细胞比例变化（淋巴细胞显著增加）。</li>
-          <li><strong>B：</strong>ICAM-1<sup>-/-</sup>NOD vs NOD的差异基因火山图分析。</li>
+          <li><strong>B：</strong>气泡图（Dot Plot）展示NOD与ICAM-1<sup>-/-</sup>NOD样本中各细胞簇的细胞比例。</li>
           <li><strong>C：</strong>流式细胞术（flow cytometry）定量结果——验证scRNA-seq发现的细胞比例变化。</li>
           <li><strong>D-F：</strong>差异表达基因火山图（Volcano plots）——分别展示内皮细胞（EC1）、无髓施万细胞（nmSCs）和有髓施万细胞（mySCs）中的差异表达基因。</li>
-          <li><strong>G：</strong>Venn图——比较EC1、nmSCs和mySCs三组差异表达基因的重叠情况。</li>
+          <li><strong>G：</strong>Venn图——比较ICAM-1<sup>-/-</sup>NOD小鼠有髓施万细胞（mySCs）中的差异表达基因与实验性自身免疫性脑脊髓炎（EAE）模型中少突胶质细胞（oligodendrocytes）差异表达基因的重叠情况。</li>
           <li><strong>注：</strong>CellPhoneDB预测的细胞间互作网络图见补充材料<strong>Figure S15</strong>。</li>
         </ul>
         <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 关键结论：</strong>自身免疫神经炎中成纤维细胞和血管平滑肌/周细胞的通讯连接数量跃升，成为局部网络的核心枢纽。</p>
@@ -511,7 +511,7 @@
       <tr>
         <td><strong>有髓施万细胞 (mySCs)</strong></td>
         <td>稳定的髓鞘维持状态，通讯连接性较低</td>
-        <td>被浸润淋巴细胞"攻击"，上调MHC-II分子、应变激活标志物（Atf3）和炎症信号通路——表明其主动参与免疫应答</td>
+        <td>被浸润淋巴细胞"攻击"，上调抗原呈递分子（H2-K1, H2-D1, B2m）、免疫蛋白酶体亚基（Psmb8, Psmb10）以及与创伤后施万细胞分化和神经再生相关的 Sostdc1 和 Zeb2——表明其主动参与免疫应答</td>
       </tr>
       <tr>
         <td><strong>无髓施万细胞 (nmSCs)</strong></td>
@@ -553,7 +553,7 @@
     <ul>
       <li>首次在单细胞水平系统描绘了<strong>健康PNS</strong>的细胞组成——鉴定出<strong>12种细胞类型/亚型</strong></li>
       <li>鉴定出无髓施万细胞（nmSCs）的新型标志物<strong>Apod</strong>和神经成纤维细胞的标志物<strong>Sfrp4</strong></li>
-      <li>发现两种PNS驻留巨噬细胞亚群（MP1和MP2）——在转录组上<strong>显著不同于</strong>CNS小胶质细胞</li>
+      <li>明确区分髓系细胞簇（MC, Cx3cr1+）与巨噬细胞簇（MP, Cxcl4/Pf4+）——在转录组上<strong>显著不同于</strong>CNS小胶质细胞</li>
       <li>在自身免疫神经炎中，CellPhoneDB分析揭示——PNS细胞间通讯网络系统性重构，<strong>成纤维细胞和血管细胞</strong>获得通讯网络控制权</li>
     </ul>
     <h2>临床意义</h2>

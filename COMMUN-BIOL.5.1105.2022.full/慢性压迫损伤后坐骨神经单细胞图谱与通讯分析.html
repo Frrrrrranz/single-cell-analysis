@@ -124,7 +124,7 @@
     line-height: 1.4; border-bottom: 1px solid #eee;
     padding-bottom: 6px; flex-shrink: 0;
   }
-  .fig-sidebar ul { margin: 0; padding-left: 14px; flex-shrink: 0; }
+  .fig-sidebar ul, .fig-sidebar ol { margin: 0; padding-left: 14px; flex-shrink: 0; }
   .fig-sidebar li { font-size: 13px; line-height: 1.5; margin: 3px 0; color: #333; }
   .fig-sidebar li strong { color: #1a73e8; }
   .fig-sidebar .fig-note {
@@ -149,9 +149,6 @@
 </head>
 <body>
 
-<!-- ============================================================ -->
-<!-- 第1页：封面 -->
-<!-- ============================================================ -->
 <div class="slide cover">
   <h1>慢性压迫损伤后大鼠坐骨神经<br>单细胞转录组图谱与细胞间通讯分析</h1>
   <div class="divider"></div>
@@ -163,42 +160,36 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第2页：研究背景 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>1. 研究背景</h1>
   <div class="content-area">
     <h2>外周神经损伤与神经病理性疼痛</h2>
-    <ul>
+    <ol>
       <li>慢性神经病理性疼痛影响全球 <strong>7-10%</strong> 的人口，现有药物治疗效果有限</li>
       <li>外周神经损伤后，神经微环境发生剧烈变化——细胞浸润、增殖、通讯网络重构</li>
       <li>传统观点聚焦于神经元和施万细胞，但 <strong>非神经细胞</strong>（成纤维细胞、免疫细胞、血管细胞）在疼痛发生和维持中的作用被严重低估</li>
-    </ul>
+    </ol>
     
     <h2>研究空白</h2>
-    <ul>
+    <ol>
       <li>缺乏对外周神经不同解剖分区（神经外膜/束膜/内膜）细胞异质性的系统理解</li>
       <li>细胞间配体-受体通讯网络在损伤后的动态变化尚未明确</li>
       <li>谁在"发信号"（配体来源细胞）？谁在"接收信号"（受体表达细胞）？</li>
-    </ul>
+    </ol>
     
     <div class="key-box">
-      <strong>核心问题：</strong>坐骨神经在正常和慢性压迫损伤（CCI）后，其细胞组成如何变化？不同细胞类型之间通过哪些配体-受体相互作用进行通讯，从而驱动神经病理性疼痛？
+      <strong>核心问题：</strong>坐骨神经在正常和慢性压迫损伤 (Chronic Constriction Injury, CCI) 后，其细胞组成如何变化？不同细胞类型之间通过哪些配体-受体相互作用进行通讯，从而驱动神经病理性疼痛？
     </div>
     
     <h2>研究策略</h2>
-    <ul>
-      <li>建立大鼠CCI模型（慢性压迫损伤），采集Naive、3天、12天、60天四个时间点的坐骨神经</li>
+    <ol>
+      <li>建立大鼠CCI模型（慢性压迫损伤），采集未受损、3天、12天、60天四个时间点的坐骨神经</li>
       <li>利用 <strong>10X Genomics</strong> 单细胞转录组测序，鉴定所有细胞类型及其亚群</li>
       <li>通过 <strong>SingleCellSignalR</strong> 挖掘配体-受体相互作用网络</li>
-    </ul>
+    </ol>
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第3页：技术路线 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>2. 技术路线</h1>
   <div class="content-area">
@@ -219,29 +210,26 @@
     </div>
     
     <h3>实验样本设计</h3>
-    <ul>
+    <ol>
       <li><strong>模型：</strong>Sprague Dawley大鼠，CCI手术（4根铬肠线结扎坐骨神经，1mm间距）vs 正常对照</li>
       <li><strong>时间点：</strong>未受损（Naive） + 损伤后第3天、12天、60天</li>
       <li><strong>测序技术：</strong><span class="highlight">10X Genomics Chromium Single Cell 3' Kit v2</span>（基于微流控油包水液滴技术）</li>
       <li><strong>组织准备：</strong>心脏灌注PBS → 坐骨神经解剖 → 酶消化 → 40μm滤网过滤</li>
       <li><strong>空间验证：</strong>RNAscope 原位杂交技术验证关键标记物在组织切片中的真实空间分布</li>
-    </ul>
+    </ol>
 
     <h3>数据分析流程</h3>
-    <ul>
+    <ol>
       <li><strong>比对：</strong>CellRanger v3.0.0 → 大鼠基因组（Rn6）</li>
       <li><strong>质控：</strong>保留200-5500基因且线粒体比例<10%的细胞</li>
       <li><strong>标准化：</strong>sctransform（正则化负二项回归）</li>
       <li><strong>批次校正：</strong>Harmony（整合不同时间点和生物学重复）</li>
       <li><strong>聚类：</strong>30个主成分，分辨率0.8，Leiden聚类</li>
       <li><strong>细胞注释：</strong>基于已知标志基因的差异表达分析</li>
-    </ul>
+    </ol>
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第4页：Figure 1 - 细胞分类 -->
-<!-- ============================================================ -->
 <div class="slide fig-page">
   <h1>Figure 1: 正常与受损坐骨神经主要细胞类型的分类</h1>
   <div class="fig-layout">
@@ -252,19 +240,19 @@
       <div class="fig-caption">大鼠坐骨神经在正常和CCI损伤后的单细胞图谱（论文原图，Figure 1，PDF第3页）</div>
       <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
         <strong>小图说明：</strong>
-        <ul style="margin:2px 0 2px 14px;">
-          <li><strong>a-c：</strong>UMAP聚类图展示Naive、3d、12d、60d四个时间点的单细胞图谱及合并数据的全局聚类。</li>
-          <li><strong>d-e：</strong>气泡图/热图展示各细胞类型及其亚型的标志基因表达情况。</li>
+        <ol style="margin:2px 0 2px 14px;">
+          <li><strong>a-c：</strong>统一流形近似与投影 (Uniform Manifold Approximation and Projection, UMAP) 聚类图展示未受损、3天、12天、60天四个时间点的单细胞图谱及合并数据的全局聚类。</li>
+          <li><strong>d-e：</strong>气泡图/热图 (Heat map) 展示各细胞类型及其亚型的标志基因表达情况。</li>
           <li><strong>f-g：</strong>细胞比例条形图，展示不同时间点各类细胞的比例变化。</li>
-        </ul>
+        </ol>
         <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 关键结论：</strong>无监督聚类识别出32个细胞亚群，归纳为5大细胞群。</p>
       </div>
-      <ul>
+      <ol>
         <li><strong>实验模型：</strong>采集未受损（Naive）以及CCI手术后第3天、12天和60天的大鼠坐骨神经组织，利用<strong>10X Genomics</strong>技术进行单细胞解离与测序</li>
         <li><strong>全局细胞图谱：</strong>无监督聚类共识别出<strong>32个细胞亚群</strong>，通过经典标记基因归纳为五大主要细胞群：<strong>胶质细胞（Glia）、成纤维细胞（Fibroblasts）、骨髓免疫细胞（Myeloid）、血管细胞（Vascular）和淋巴免疫细胞（Lymphoid）</strong></li>
-        <li><strong>关键技术澄清：</strong>该外周组织测序中<strong>未捕获到神经元本体</strong>，因为外周感觉神经元的细胞体位于背根神经节（DRG）中；本研究聚焦于复杂的神经微环境及非神经细胞</li>
+        <li><strong>关键技术澄清：</strong>该外周组织测序中<strong>未捕获到神经元本体</strong>，因为外周感觉神经元的细胞体位于背根神经节 (Dorsal Root Ganglion, DRG) 中；本研究聚焦于复杂的神经微环境及非神经细胞</li>
         <li><strong>损伤动态响应：</strong>细胞比例条形图与组织学定量证实，损伤触发了剧烈的细胞群比例重构，并在第12天和60天引发显著的细胞浸润与增殖，导致组织内细胞密度大幅跃升</li>
-      </ul>
+      </ol>
       <div class="fig-note">
         <strong>五大细胞群：</strong>胶质细胞（Glia）、成纤维细胞（Fibroblasts）、骨髓免疫细胞（Myeloid）、血管细胞（Vascular）、淋巴免疫细胞（Lymphoid）
       </div>
@@ -272,9 +260,6 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第5页：细胞类型鉴定表 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>3. 测出了哪些细胞类型？—— 五大细胞群的32个亚群</h1>
   <div class="content-area">
@@ -315,18 +300,15 @@
     </table>
     
     <div class="key-box">
-      <strong>关键发现：</strong>成纤维细胞（Fibroblasts）是异质性最高的细胞群体，拥有超过9种以上的亚型，包括三个解剖位置特异性的亚群（外膜/束膜/内膜），以及损伤后大量涌现的炎症型成纤维细胞。
+      <strong>关键发现：</strong>成纤维细胞 (Fibroblast, FB) 是异质性最高的细胞群体，拥有超过9种以上的亚型，包括三个解剖位置特异性的亚群（外膜/束膜/内膜），以及损伤后大量涌现的炎症型成纤维细胞。
     </div>
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第6页：施万细胞——神经胶质细胞亚型 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>4. 施万细胞亚型——外周神经的驻留神经胶质细胞</h1>
   <div class="content-area">
-    <p>施万细胞（Schwann cells）是坐骨神经微环境中的<strong>驻留神经胶质细胞</strong>，在正常稳态和损伤响应中发挥核心作用。本研究鉴定出4种功能不同的施万细胞亚型：</p>
+    <p>施万细胞 (Schwann cell, SC) 是坐骨神经微环境中的<strong>驻留神经胶质细胞</strong>，在正常稳态和损伤响应中发挥核心作用。本研究鉴定出4种功能不同的施万细胞亚型：</p>
 
     <table>
       <tr><th>施万细胞亚型</th><th>特征</th><th>标志基因</th><th>正常占比</th><th>损伤后变化</th></tr>
@@ -366,31 +348,32 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第7页：Figure 2 - 施万细胞亚型 -->
-<!-- ============================================================ -->
 <div class="slide fig-page">
   <h1>Figure 2: 正常与受损神经中施万细胞分子亚型的鉴定</h1>
   <div class="fig-layout">
     <div class="fig-image-area">
-      <img src="paper_figures/page_04.png" alt="Figure 2">
+      <img src="paper_figures/page_03.png" alt="Figure 2">
     </div>
     <div class="fig-sidebar">
       <div class="fig-caption">施万细胞各亚型的精细分群与标志基因验证（论文原图，Figure 2，PDF第5页）</div>
       <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
-        <strong>小图说明（Figure 2诸面板）：</strong>
-        <ul style="margin:2px 0 2px 14px;">
-          <li><strong>a：</strong>UMAP图展示16,259个施万细胞的精细分群——有髓SC、Remak SC、分裂期SC、修复型SC。</li>
-          <li><strong>e-f：</strong>RNAscope原位杂交验证Sox10+施万细胞密度在不同时间点和解剖分区（外膜/内膜）的变化。</li>
-          <li><strong>g-h：</strong>小提琴图展示修复型SC特异性高表达Ngfr、Cyp2u1、Lpar3等基因。</li>
-        </ul>
+        <strong>小图说明：</strong>
+        <ol style="margin:2px 0 2px 14px;">
+          <li><strong>a：</strong>UMAP (Uniform Manifold Approximation and Projection) 图展示16,259个施万细胞 (Schwann cell, SC) 在不同时间点的分布，显示损伤诱导的强烈时间模式变化。</li>
+          <li><strong>b-c：</strong>施万细胞亚群精细分群——有髓SC、Remak SC、分裂期SC、修复型SC及过渡态SC（transition cells）。</li>
+          <li><strong>d：</strong>堆叠条形图展示各时间点施万细胞亚型的比例变化——正常神经中94%为有髓/Remak SC，损伤后修复型SC在3-12天爆发式增长。</li>
+          <li><strong>e：</strong>热图展示各施万细胞亚型之间的差异表达基因。</li>
+          <li><strong>f：</strong>有髓SC（Prx, Cldn19, Cntf等）和Remak SC（Gfap, Rxrg, Grin2b等）的特异性标志基因。</li>
+          <li><strong>g：</strong>小提琴图 (Violin plot) 展示修复型SC特异性高表达Ngfr、Cyp2u1、Lpar3等基因。</li>
+          <li><strong>h-i：</strong>RNAscope原位杂交 (In Situ Hybridization, ISH) 验证Sox10+施万细胞 (Schwann cell, SC) 密度在不同时间点和解剖分区（外膜/内膜）的变化。</li>
+        </ol>
       </div>
-      <ul>
+      <ol>
         <li><strong>亚群精细分群：</strong>对<strong>16,259个</strong>外周神经胶质细胞——施万细胞进行精细细分，成功鉴定出有髓施万细胞（Myelinating）、无髓Remak施万细胞（Remak）、分裂期施万细胞（Dividing）以及修复型施万细胞（Repair）等核心亚型</li>
         <li><strong>正常组织状态：</strong>在未受损的正常神经中，施万细胞呈现高度特化，约94%的细胞由有髓亚型（58.4%）和无髓Remak亚型（36.1%）组成</li>
         <li><strong>损伤特异性涌现：</strong>损伤打破了稳态，诱导产生了一群高表达Ngfr（p75NTR）的修复型施万细胞，该亚群在正常神经中几乎不存在（仅1个细胞），但在损伤后第3天（18%）和第12天（26%）出现爆发式一过性增长</li>
-        <li><strong>空间与转录印证：</strong>RNAscope原位杂交实验证实，损伤导致内膜中Sox10+施万细胞的核密度急剧上升；转录组筛选出Cyp2u1、Lpar3等与神经病理性疼痛和细胞分化高度相关的特异性新标记物</li>
-      </ul>
+        <li><strong>空间与转录印证：</strong>RNAscope原位杂交 (In Situ Hybridization, ISH) 实验证实，损伤导致内膜中Sox10+施万细胞的核密度急剧上升；转录组筛选出Cyp2u1、Lpar3等与神经病理性疼痛和细胞分化高度相关的新标记物</li>
+      </ol>
       <div class="fig-note">
         <strong>→ 修复型施万细胞是损伤后SC表型可塑性的核心体现，其标志物为神经病理性疼痛提供了潜在生物标志物。</strong>
       </div>
@@ -398,30 +381,27 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第8页：10X原理与关键技术 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>5. 关键技术原理与单细胞测序方法</h1>
   <div class="content-area">
     <h3>5.1 10X Genomics Chromium 单细胞测序原理</h3>
-    <ul>
-      <li><strong>核心原理：</strong>利用微流控芯片将单个细胞与携带独特条形码（Barcode）的凝胶微珠（GEM）包裹在油包水微滴中。每个液滴作为一个独立的"微型反应器"，在液滴内完成细胞裂解、mRNA捕获和逆转录。</li>
-      <li><strong>分子标签策略：</strong>每个微珠携带大量相同的细胞条形码和独特的分子标识符（UMI），使得测序后能追溯每个转录本来自哪个细胞、哪个原始mRNA分子。</li>
-      <li><strong>为什么没测出神经元？</strong>坐骨神经中只有轴突缺乏细胞核——轴突mRNA总量极低，标准10X单细胞测序只能捕获有核细胞。神经元胞体位于背根神经节（DRG）中。</li>
-    </ul>
+    <ol>
+      <li><strong>核心原理：</strong>利用微流控芯片将单个细胞与携带独特条形码的凝胶微珠 (Gel Bead in Emulsion, GEM) 包裹在油包水微滴中。每个液滴作为一个独立的"微型反应器"，在液滴内完成细胞裂解、信使核糖核酸 (messenger RNA, mRNA) 捕获和逆转录。</li>
+      <li><strong>分子标签策略：</strong>每个微珠携带大量相同的细胞条形码和唯一分子标识符 (Unique Molecular Identifier, UMI)，使得测序后能追溯每个转录本来自哪个细胞、哪个原始mRNA分子。</li>
+      <li><strong>为什么没测出神经元？</strong>坐骨神经中只有轴突缺乏细胞核——轴突mRNA总量极低，标准10X单细胞测序只能捕获有核细胞。神经元胞体位于背根神经节 (Dorsal Root Ganglion, DRG) 中。</li>
+    </ol>
     
     <h3>5.2 scTransform 标准化原理</h3>
-    <ul>
+    <ol>
       <li>使用正则化负二项回归模型对UMI计数进行建模，直接校正测序深度和基因长度的系统性偏差，保留生物学变异。</li>
       <li>比传统LogNormalize方法更有效地消除测序深度带来的影响。</li>
-    </ul>
+    </ol>
 
     <h3>5.3 Harmony 批次校正原理</h3>
-    <ul>
+    <ol>
       <li>通过"软聚类（Soft k-means）→ 计算数据集特异性偏移 → 线性校正 → 迭代收敛"的流程，消除不同时间点之间的技术偏差。</li>
       <li>校正后细胞按其生物学本质（基因表达谱）而非实验来源聚类。</li>
-    </ul>
+    </ol>
     
     <div class="key-box">
       <strong>整体分析框架：</strong>"10X Genomics单细胞测序"（捕获有核细胞转录组）→ "Seurat v3 + Harmony"（质控、标准化、批次校正、聚类）→ "SingleCellSignalR"（配体-受体通讯预测）→ "RNAscope"（空间验证）。
@@ -429,27 +409,24 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第9页：细胞间通讯工具详解 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>6. 细胞间通讯分析工具：SingleCellSignalR</h1>
   <div class="content-area">
     <h2>6.1 工具概述</h2>
-    <ul>
+    <ol>
       <li><strong>软件包：</strong>SingleCellSignalR（R语言，v1.0）</li>
       <li><strong>开发者：</strong>Cabello-Aguilar et al., 2020, <em>Nucleic Acids Research</em>（PMID: 32246835）</li>
       <li><strong>GitHub：</strong>https://github.com/SCA-IRCM/SingleCellSignalR</li>
-    </ul>
+    </ol>
     
     <h2>6.2 基本原理——配体-受体（LR）共表达分析</h2>
-    <ul>
-      <li><strong>核心逻辑：</strong>基于"配体-受体共表达"原理——如果细胞A表达配体L，细胞B表达受体R，则推测A和B之间可能存在通过该L-R对的旁分泌通讯。</li>
+    <ol>
+      <li><strong>核心逻辑：</strong>基于"配体-受体共表达"原理——如果细胞A表达配体L，细胞B表达受体R，则推测A和B之间可能存在通过该配体-受体 (Ligand-Receptor, LR) 对的旁分泌通讯。</li>
       <li><strong>配体-受体数据库来源：</strong>利用SingleCellSignalR框架内设定的一系列<strong>经过人工筛选与整理的公共数据库集（a set of curated databases）</strong>，共包含<strong>3251对</strong>已知配体-受体对，涵盖生长因子、细胞因子、趋化因子、细胞外基质成分等多种信号分子。</li>
-      <li><strong>LR Score计算：</strong>对于每对预测的L-R相互作用，计算一个相互作用评分（LR score），评分越高表示该通讯通路的可靠性越高。本研究中使用的阈值：正常神经LR > 0.05，损伤后LR > 0.5。</li>
+      <li><strong>LR Score计算：</strong>对于每对预测的LR相互作用，计算一个相互作用评分，评分越高表示该通讯通路的可靠性越高。本研究中使用的阈值：正常神经LR > 0.05，损伤后LR > 0.5。</li>
       <li><strong>输入：</strong>已经注释好的Seurat对象（包含细胞类型标签的标准化表达矩阵）。</li>
-      <li><strong>输出：</strong>细胞类型之间的配体-受体相互作用矩阵、弦图（Circos plot）、热图等可视化结果。</li>
-    </ul>
+      <li><strong>输出：</strong>细胞类型之间的配体-受体相互作用矩阵、弦图（Circos plot）、热图 (Heat map) 等可视化结果。</li>
+    </ol>
     
     <div class="key-box">
       <strong>SingleCellSignalR的核心特点：</strong>提供了从单细胞数据直接推断细胞间通讯的一站式解决方案，内置LR数据库和评分系统。其基本原理是"配体-受体共表达"，即通过配体细胞和受体细胞之间的表达匹配来推断可能的细胞间通讯。
@@ -457,9 +434,6 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第10页：Figure 8 - 正常神经LR通讯网络 -->
-<!-- ============================================================ -->
 <div class="slide fig-page">
   <h1>Figure 8: 正常未受损外周神经内的配体-受体通讯网络</h1>
   <div class="fig-layout">
@@ -470,19 +444,19 @@
       <div class="fig-caption">正常未受损神经中配体-受体信号通讯机制分析（论文原图，Figure 8，PDF第13页）</div>
       <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
         <strong>小图说明：</strong>
-        <ul style="margin:2px 0 2px 14px;">
-          <li><strong>a：</strong>热图展示正常神经中不同细胞类型间的LR互作对数（LR > 0.05）。</li>
-          <li><strong>b：</strong>弦图（Circos plot）直观展示正常施万细胞（配体）向束膜成纤维细胞（受体）的通讯。</li>
+        <ol style="margin:2px 0 2px 14px;">
+          <li><strong>a：</strong>热图 (Heat map) 展示正常神经中不同细胞类型间的配体-受体 (Ligand-Receptor, LR) 互作对数（LR > 0.05）。</li>
+          <li><strong>b：</strong>弦图（Circos plot）直观展示正常施万细胞 (Schwann cell, SC)（配体）向束膜成纤维细胞 (Fibroblast, FB)（受体）的通讯。</li>
           <li><strong>c：</strong>特征图验证细胞类型标记和LR对的表达位置。</li>
-          <li><strong>d：</strong>机制示意图——有髓SC分泌Cntf通过与束膜FB表面Cntfr结合的信号通路。</li>
-        </ul>
-        <p style="margin:4px 0 0 0; font-size:11px; color:#1a73e8;"><strong>→ 正常稳态中的关键通路：</strong>有髓施万细胞→束膜成纤维细胞（Cntf→Cntfr, LR score=0.84）。</p>
+          <li><strong>d：</strong>机制图 (Mechanistic diagram)——有髓SC分泌Cntf通过与束膜FB表面Cntfr结合的信号通路 (Signaling pathway)。</li>
+        </ol>
+        <p style="margin:4px 0 0 0; font-size:11px; color:#1a73e8;"><strong>→ 正常稳态中的关键通路：</strong>有髓施万细胞 (Schwann cell, SC)→束膜成纤维细胞 (Fibroblast, FB)（Cntf→Cntfr, LR score=0.84）。</p>
       </div>
-      <ul>
+      <ol>
         <li><strong>分析工具与原理：</strong>采用<strong>SingleCellSignalR</strong>（基于R语言）生物信息学框架，基于"配体-受体共表达"的基本原理，挖掘含有<strong>3251对</strong>已知配体-受体对的公共注释数据集，计算相互作用评分（LR score）</li>
         <li><strong>基线组织稳态：</strong>在正常未受损神经中，数千对潜在的旁分泌信号密集分布于胶质、成纤维、血管和骨髓细胞间</li>
         <li><strong>重磅常驻通路发现：</strong>弦图与机制图展示了有髓施万细胞（Myelinating SCs）通过释放配体Cntf，与解剖学相邻的束膜成纤维细胞（Perineurial FBs）表面的受体Cntfr进行直接分子对话（<strong>LR score = 0.84</strong>），该通路在神经发育及炎性痛觉中具有关键功能</li>
-      </ul>
+      </ol>
       <div class="fig-note">
         <strong>→ Cntf-Cntfr通路：</strong>这是一个在正常稳态中即存在的通迅通路，揭示施万细胞与成纤维细胞之间的"分子对话"维持着神经束膜的完整性。
       </div>
@@ -490,9 +464,6 @@
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第11页：Figure 9 - 损伤LR通讯网络 -->
-<!-- ============================================================ -->
 <div class="slide fig-page">
   <h1>Figure 9: 损伤后外周神经内配体-受体通讯网络重构</h1>
   <div class="fig-layout">
@@ -503,34 +474,31 @@
       <div class="fig-caption">CCI损伤后神经中配体-受体信号通讯机制分析（论文原图，Figure 9，PDF第14页）</div>
       <div class="fig-subnote" style="margin:8px 0; padding:8px 10px; background:#f5f5f5; border-radius:8px; font-size:0.9em;">
         <strong>小图说明：</strong>
-        <ul style="margin:2px 0 2px 14px;">
-          <li><strong>a-b：</strong>热图展示损伤后细胞类型间的LR互作对数显著增加（LR > 0.5）。</li>
-          <li><strong>c：</strong>小提琴图展示损伤后Ngf在成纤维细胞中的表达显著上调，Ngfr在修复型SC中的表达也上调。</li>
-          <li><strong>d：</strong>小提琴图展示Ptn在成纤维细胞中的表达上调，Ptprz1在修复型SC中的表达。</li>
-          <li><strong>e：</strong>机制图总结CCI损伤后神经微环境中的LR通讯网络重构。</li>
-        </ul>
-        <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 损伤诱导的痛觉触发通路：</strong>成纤维细胞→修复型施万细胞（Ngf→Ngfr），以及Ptn→Ptprz1通路。</p>
+        <ol style="margin:2px 0 2px 14px;">
+          <li><strong>a-c：</strong>热图 (Heat map) 展示损伤后细胞类型间的配体-受体 (Ligand-Receptor, LR) 互作对数显著增加（LR > 0.5）。</li>
+          <li><strong>d：</strong>热图 (Heat map) 展示第12天变异性 (Variability) 最大的前100个相互作用的缩放表达。</li>
+          <li><strong>e：</strong>热图 (Heat map) 展示成纤维细胞 (Fibroblast, FB) 和施万细胞 (Schwann cell, SC) 之间相互作用的子集 (Subset)。</li>
+          <li><strong>f：</strong>小提琴图 (Violin plot) 展示损伤后Ngf在成纤维细胞 (Fibroblast, FB) 中的表达显著上调，Ngfr在修复型施万细胞 (Schwann cell, SC) 中的表达也上调；同时展示Ptn在成纤维细胞 (Fibroblast, FB) 中的表达上调，Ptprz1在修复型施万细胞 (Schwann cell, SC) 中的表达上调。</li>
+        </ol>
+        <p style="margin:4px 0 0 0; font-size:11px; color:#d93025;"><strong>→ 损伤诱导的痛觉触发通路：</strong>成纤维细胞 (Fibroblast, FB)→修复型施万细胞 (Schwann cell, SC)（Ngf→Ngfr），以及Ptn→Ptprz1通路。</p>
       </div>
-      <ul>
+      <ol>
         <li><strong>损伤痛觉触发通路：</strong>损伤激活后，细胞间通讯网络彻底重构。分析表明，修复型施万细胞表面的神经生长因子受体（<strong>Ngfr/p75NTR</strong>）被强烈激活，其配体直接来源于成纤维细胞高分泌的神经生长因子（<strong>Ngf</strong>），这揭示了成纤维细胞可能是触发和维持损伤后外周神经病理性疼痛的药理学核心干预靶点</li>
         <li><strong>第二关键通路：</strong>成纤维细胞分泌的多效生长因子（<strong>Ptn</strong>）与修复型施万细胞表面的受体蛋白酪氨酸磷酸酶ζ1（<strong>Ptprz1</strong>）之间的相互作用，参与损伤后施万细胞的增殖与分化调控</li>
         <li><strong>网络重构程度：</strong>损伤诱导的LR互作网络较正常状态显著扩大，成纤维细胞成为通讯网络的"枢纽"，连接多种细胞类型</li>
-      </ul>
+      </ol>
       <div class="fig-note">
-        <strong>→ 核心结论：</strong>损伤使细胞间通讯网络从稳态维持模式转变为痛觉信号驱动模式，成纤维细胞（Fibroblasts）处于该转变的枢纽位置。成纤维细胞→修复型施万细胞的Ngf→Ngfr通路是关键痛觉触发通路。
+        <strong>→ 核心结论：</strong>损伤使细胞间通讯网络从稳态维持模式转变为痛觉信号驱动模式，成纤维细胞 (Fibroblast, FB) 处于该转变的枢纽位置。成纤维细胞→修复型施万细胞的Ngf→Ngfr通路是关键痛觉触发通路。
       </div>
     </div>
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第12页：神经细胞相关通讯 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>7. 有没有神经细胞相关的细胞间通讯？</h1>
   <div class="content-area">
     <h2>施万细胞——既是通讯的发送者也是接收者</h2>
-    <p>在本研究中，施万细胞（Schwann cells）作为<strong>唯一的驻留神经胶质细胞</strong>，在配体-受体通讯网络中同时扮演发送者和接收者角色：</p>
+    <p>在本研究中，施万细胞 (Schwann cell, SC) 作为<strong>唯一的驻留神经胶质细胞</strong>，在配体-受体通讯网络中同时扮演发送者和接收者角色：</p>
     
     <table>
       <tr><th>通讯角色</th><th>配体/受体</th><th>通讯伙伴</th><th>生理意义</th></tr>
@@ -561,35 +529,29 @@
     </table>
     
     <div class="key-box">
-      <strong>关键发现：</strong>施万细胞与成纤维细胞之间的双向通讯是神经微环境稳态和损伤后疼痛的核心驱动力。特别是成纤维细胞→修复型施万细胞（Ngf→Ngfr）通路，揭示了一个此前未被充分认识的上游调控机制——成纤维细胞很可能是触发和维持损伤后外周神经病理性疼痛的药理学核心干预靶点。
+      <strong>关键发现：</strong>施万细胞与成纤维细胞 (Fibroblast, FB) 之间的双向通讯是神经微环境稳态和损伤后疼痛的核心驱动力。特别是成纤维细胞→修复型施万细胞（Ngf→Ngfr）通路，揭示了一个此前未被充分认识的上游调控机制——成纤维细胞很可能是触发和维持损伤后外周神经病理性疼痛的药理学核心干预靶点。
     </div>
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第13页：结论 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>8. 结论与展望</h1>
   <div class="content-area">
     <h2>核心发现</h2>
-    <ul>
-      <li>首次在单细胞分辨率下系统描绘了大鼠坐骨神经在CCI损伤后4个时间点的细胞图谱，鉴定出 <strong>32个细胞亚群</strong></li>
-      <li><strong>施万细胞</strong>（PNS驻留的神经胶质细胞）在损伤后表现出高度可塑性：有髓→修复型去分化、分裂增殖、一过性修复型爆发</li>
-      <li><strong>成纤维细胞</strong>是异质性最高的细胞群体（≥9个正常亚型 + 损伤特异性亚型），在通讯网络中处于枢纽位置</li>
+    <ol>
+      <li>首次在单细胞分辨率下系统描绘了大鼠坐骨神经在慢性压迫损伤 (Chronic Constriction Injury, CCI) 损伤后4个时间点的细胞图谱，鉴定出 <strong>32个细胞亚群</strong></li>
+      <li><strong>施万细胞 (Schwann cell, SC)</strong> 在损伤后表现出高度可塑性：有髓→修复型去分化、分裂增殖、一过性修复型爆发</li>
+      <li><strong>成纤维细胞 (Fibroblast, FB)</strong> 是异质性最高的细胞群体（≥9个正常亚型 + 损伤特异性亚型），在通讯网络中处于枢纽位置</li>
       <li><strong>SingleCellSignalR</strong>分析揭示：正常中有Cntf→Cntfr（稳态维持），损伤后有Ngf→Ngfr和Ptn→Ptprz1（痛觉触发）</li>
-    </ul>
+    </ol>
     <h2>临床转化潜力</h2>
-    <ul>
+    <ol>
       <li>为开发靶向成纤维细胞-施万细胞通讯的镇痛药物提供了分子基础</li>
       <li>修复型施万细胞的标志物（Cyp2u1、Lpar3）可作为神经病理性疼痛的潜在生物标志物</li>
-    </ul>
+    </ol>
   </div>
 </div>
 
-<!-- ============================================================ -->
-<!-- 第14页：参考文献 -->
-<!-- ============================================================ -->
 <div class="slide">
   <h1>参考文献</h1>
   <div class="content-area">

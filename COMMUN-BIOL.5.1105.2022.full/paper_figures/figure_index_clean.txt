@@ -1,0 +1,27 @@
+﻿Paper: Single-cell transcriptional landscape of the rat sciatic nerve after chronic constriction injury (Communications Biology, 2022)
+PDF total pages: 17
+Exported figure pages: 14 (page_01.png .. page_14.png)
+
+Notes:
+- This cleaned index removes noisy labels inferred from in-text citations (e.g., "Fig. 4" mentioned in paragraphs).
+- "caption" means a full figure legend starting with "Fig. X" is visible on that page.
+- "content" means the page mainly shows panels belonging to that figure.
+
+page_01.png <- PDF page 2  | caption: none  | content: text-only (no standalone figure plate)
+page_02.png <- PDF page 3  | caption: Fig. 1 | content: Fig. 1 (a-g)
+page_03.png <- PDF page 4  | caption: none  | content: Fig. 2 panels
+page_04.png <- PDF page 5  | caption: Fig. 2 | content: Fig. 2 legend page
+page_05.png <- PDF page 6  | caption: none  | content: Fig. 3 panels
+page_06.png <- PDF page 7  | caption: Fig. 3 | content: Fig. 3 legend page
+page_07.png <- PDF page 8  | caption: Fig. 4 | content: Fig. 4
+page_08.png <- PDF page 9  | caption: Fig. 5 | content: Fig. 5
+page_09.png <- PDF page 10 | caption: none  | content: Fig. 6 panels
+page_10.png <- PDF page 11 | caption: Fig. 6 | content: Fig. 6 legend page
+page_11.png <- PDF page 12 | caption: none  | content: Fig. 7 panels
+page_12.png <- PDF page 13 | caption: Fig. 7 | content: Fig. 7 legend page + Fig. 8 panels
+page_13.png <- PDF page 14 | caption: Fig. 8 and Fig. 9 | content: Fig. 8 legend + Fig. 9
+page_14.png <- PDF page 15 | caption: none  | content: text-only (Methods/References)
+
+Not exported in paper_figures:
+- PDF page 1 (journal title/front matter)
+- PDF pages 16-17 (tail references/supplement links, no main figure legends detected in exported set)
