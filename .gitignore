@@ -13,15 +13,26 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+.Rhistory
 
-# Data
+# Large binary files (PDFs, Office docs, presentations)
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.doc
+
+# HTML reports (generated from Rmd/Jupyter)
+*.html
+
+# Data files (large)
 *.h5ad
 *.h5
 *.zip
 *.gz
 *.tar
 
-# Results images (generated)
+# Rmd outputs
 *.png
 *.jpg
 *.jpeg

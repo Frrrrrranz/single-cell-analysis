@@ -1,0 +1,208 @@
+{
+  "dataset_id": "GSE147285",
+  "dataset": {
+    "dataset_id": "GSE147285",
+    "repository": "GEO",
+    "accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147285",
+    "platform": "Drop-seq",
+    "vendor": "other",
+    "species": "rat",
+    "tissue": "sciatic nerve",
+    "condition": "healthy;nerve injury(crush)",
+    "n_cells": "13200",
+    "n_samples": "4",
+    "data_availability": "processed"
+  },
+  "cell_types": [
+    {
+      "cell_type": "Schwann cell",
+      "is_pns_cell": "true",
+      "subtype": "myelinating",
+      "markers": "Mbp;Pmp22;Plp1;Pou3f1;Egr2",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Single-cell isolation and myelin removal for Drop-seq analysis;Fig.1C;Fig.2C"
+    },
+    {
+      "cell_type": "Schwann cell",
+      "is_pns_cell": "true",
+      "subtype": "non-myelinating/Remak",
+      "markers": "Ngfr;P75Ntr;Cdh2;L1cam;Ednrb;Emp1;Sema3e",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined based on the expression of the following established marker genes;Fig.1C;Fig.2C"
+    },
+    {
+      "cell_type": "fibroblast",
+      "is_pns_cell": "false",
+      "subtype": "endoneurial mesenchymal",
+      "markers": "Pdgfra;Etv1;Wif1;Sox9;Osr2;Meox1",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined;Fig.1C;Fig.1D"
+    },
+    {
+      "cell_type": "fibroblast",
+      "is_pns_cell": "false",
+      "subtype": "epineurial mesenchymal",
+      "markers": "Pdgfra;Pcolce2;Dpp4;Dpt",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined;Fig.1C"
+    },
+    {
+      "cell_type": "fibroblast",
+      "is_pns_cell": "false",
+      "subtype": "perineurial mesenchymal",
+      "markers": "Pdgfra;Slc2a1;Casq2;Msln",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined;Fig.1C"
+    },
+    {
+      "cell_type": "fibroblast",
+      "is_pns_cell": "false",
+      "subtype": "nerve bridge differentiating",
+      "markers": "Pdgfra;Dlk1;Mest",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined;Fig.1E"
+    },
+    {
+      "cell_type": "endothelial",
+      "is_pns_cell": "false",
+      "subtype": "NA",
+      "markers": "Pecam1;Plvap;Esam",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined based on the expression of the following established marker genes;Fig.1C"
+    },
+    {
+      "cell_type": "pericyte/SMC",
+      "is_pns_cell": "false",
+      "subtype": "NA",
+      "markers": "Desmin;Mylk;Acta2;Rgs5",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined based on the expression of the following established marker genes;Fig.1C"
+    },
+    {
+      "cell_type": "macrophage/immune",
+      "is_pns_cell": "false",
+      "subtype": "macrophage",
+      "markers": "Aif1;Cd68",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined based on the expression of the following established marker genes;Fig.1C;Fig.1D"
+    },
+    {
+      "cell_type": "macrophage/immune",
+      "is_pns_cell": "false",
+      "subtype": "T-cell/NK cell",
+      "markers": "Ptprcap;Trbc2",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined based on the expression of the following established marker genes;Fig.1E"
+    },
+    {
+      "cell_type": "macrophage/immune",
+      "is_pns_cell": "false",
+      "subtype": "B-cell",
+      "markers": "Cd19",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined based on the expression of the following established marker genes;Fig.1E"
+    },
+    {
+      "cell_type": "macrophage/immune",
+      "is_pns_cell": "false",
+      "subtype": "mast cell",
+      "markers": "Cpa3",
+      "species": "rat",
+      "n_cells_or_pct": "NA",
+      "annotation_method": "manual-marker",
+      "provenance": "Results/Cell types were defined based on the expression of the following established marker genes;Fig.1C;Fig.1E"
+    }
+  ],
+  "cell_subtypes": [
+    {
+      "parent_cell_type": "Schwann cell",
+      "subtype": "myelinating",
+      "is_pns_cell": "true",
+      "species": "rat",
+      "condition_specificity": "uninjured",
+      "markers": "Mbp;Pmp22;Plp1;Pou3f1;Egr2",
+      "functional_signature": "myelinating axons/saltatory conduction",
+      "n_cells_or_pct": "NA",
+      "lineage": "NA",
+      "provenance": "Fig.3A;Fig.2C"
+    },
+    {
+      "parent_cell_type": "Schwann cell",
+      "subtype": "non-myelinating/Remak",
+      "is_pns_cell": "true",
+      "species": "rat",
+      "condition_specificity": "uninjured",
+      "markers": "Ngfr;Cdh2;L1cam;Ednrb",
+      "functional_signature": "Remak bundle formation",
+      "n_cells_or_pct": "NA",
+      "lineage": "NA",
+      "provenance": "Fig.3A;Fig.2C"
+    },
+    {
+      "parent_cell_type": "Schwann cell",
+      "subtype": "repair",
+      "is_pns_cell": "true",
+      "species": "rat",
+      "condition_specificity": "nerve injury(crush)-specific",
+      "markers": "Ngfr;Sox10;Gdnf;Bdnf;Artn",
+      "functional_signature": "de-differentiated/pro-regenerative;secretes neurotrophic factors(Gdnf/Bdnf/Artn)",
+      "n_cells_or_pct": "NA",
+      "lineage": "de-differentiated from myelinating/non-myelinating SC",
+      "provenance": "Fig.3A;Fig.3D;Results/Schwann cells"
+    },
+    {
+      "parent_cell_type": "Schwann cell",
+      "subtype": "proliferating",
+      "is_pns_cell": "true",
+      "species": "rat",
+      "condition_specificity": "neonatal-specific",
+      "markers": "Mki67;Top2a",
+      "functional_signature": "proliferating",
+      "n_cells_or_pct": "NA",
+      "lineage": "NA",
+      "provenance": "Fig.3A;Results/Computational analysis of scRNA-seq data"
+    }
+  ],
+  "processing": {
+    "qc": "low UMI count cells removed;doublets removed;high mitochondrial gene content cells removed;genes detected in less than 3 cells removed",
+    "normalization": "scran",
+    "batch_correction": "Harmony",
+    "dim_reduction": "PCA;tSNE",
+    "clustering": "Louvain(SNN modularity optimization;res=0.4)",
+    "annotation": "marker-based",
+    "diff_expr": "Wilcoxon(FWER;Holm method;p<0.01)",
+    "trajectory": "NA",
+    "cell_comm": "other",
+    "enrichment": "none",
+    "software": "Seurat v1.4.0.16;scran(R);Harmony;Drop-seq Alignment Cookbook v1.2",
+    "provenance": "Methods/Computational analysis of scRNA-seq data"
+  },
+  "_self_check": {
+    "qualified": "true",
+    "n_pns_cell_types": 2,
+    "uncontrolled_terms": ["nerve bridge differentiating(Pdgfra+ differentiating mesenchymal)(uncontrolled)", "T-cell/NK cell(grouped as immune)(uncontrolled)", "mast cell(mapped to macrophage/immune)(uncontrolled)"],
+    "notes": "1. 本数据集为大鼠(Rattus norvegicus)坐骨神经，包含4个样本：损伤后3天、新生鼠FACS分选、新生鼠磁珠法、未损伤对照。总细胞数13,200来自分析报告（单细胞分析完成报告.md），质控后12,236。\n2. 论文中细胞类型判断：施万细胞（Schwann cell）是唯一的驻留PNS神经胶质细胞（is_pns_cell=true）；神经元胞体不在坐骨神经中，不参与此数据集（神经元数据另行外部引入）；间充质细胞虽归属神经嵴源(Pdgfra+)，但按schema规定归入fibroblast(is_pns_cell=false)。\n3. 施万细胞亚群：根据论文Fig.3A，分为髓磷脂化(myelinating)、非髓磷脂化(non-myelinating/Remak)、修复型(repair)、增殖型(proliferating)共7个聚类（combined SC dataset 5331 cells，7 clusters）。\n4. 细胞通讯：论文使用的是自定义Python脚本'Cellcellinteractnet'(2.7.6)进行配体-受体匹配，并非常规CellChat等工具，归入other，并在notes中说明。\n5. 批次校正：论文明确提到对combined SC和mesenchymal datasets用Harmony进行批次校正，但对3DPI主数据集的处理文中未明确提及是否使用Harmony——从文意推断主数据集的聚类在批次校正前进行，combined analysis才用Harmony，此处按主数据集记录；batch_correction填Harmony表示combined analysis阶段使用了。\n6. 9天损伤数据（GSE120678）来自Carr et al., 2019，已另行发表，需单独入库时建议去重检查。"
+  }
+}
