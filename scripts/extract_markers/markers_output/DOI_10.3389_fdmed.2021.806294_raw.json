@@ -1,0 +1,131 @@
+{
+  "paper_id": "DOI_10.3389_fdmed.2021.806294",
+  "cell_types": [
+    {
+      "cell_type": "fibroblasts",
+      "subtype": null,
+      "markers": [
+        {
+          "gene": "THY1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "We identified a population of fibroblasts by the expression of THY1, MCAM"
+        },
+        {
+          "gene": "MCAM",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "We identified a population of fibroblasts by the expression of THY1, MCAM"
+        }
+      ]
+    },
+    {
+      "cell_type": "odontoblasts",
+      "subtype": null,
+      "markers": [
+        {
+          "gene": "ALPL",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "We identified ... odontoblasts by the expression of ALPL, OMD, and CCL2"
+        },
+        {
+          "gene": "OMD",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "We identified ... odontoblasts by the expression of ALPL, OMD, and CCL2"
+        },
+        {
+          "gene": "CCL2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "We identified ... odontoblasts by the expression of ALPL, OMD, and CCL2"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": null,
+      "markers": [
+        {
+          "gene": "SELE",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "endothelial cells were identified by the expression of SELE and PECAM1"
+        },
+        {
+          "gene": "PECAM1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "endothelial cells were identified by the expression of SELE and PECAM1"
+        }
+      ]
+    },
+    {
+      "cell_type": "Hematopoietic stem cells",
+      "subtype": null,
+      "markers": [
+        {
+          "gene": "CD34",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "HSCs were annotated by the expression of CD34, ENG and VCAM1"
+        },
+        {
+          "gene": "ENG",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "HSCs were annotated by the expression of CD34, ENG and VCAM1"
+        },
+        {
+          "gene": "VCAM1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "HSCs were annotated by the expression of CD34, ENG and VCAM1"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "markers": [
+        {
+          "gene": "CD3D",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "T cells (CD3D)"
+        }
+      ]
+    },
+    {
+      "cell_type": "NK cells",
+      "subtype": null,
+      "markers": [
+        {
+          "gene": "GNLY",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "NK cells (GNLY and FCGR3A)"
+        },
+        {
+          "gene": "FCGR3A",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "NK cells (GNLY and FCGR3A)"
+        }
+      ]
+    },
+    {
+      "cell_type": "monocytes",
+      "subtype": null,
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "monocytes (CD14)"
+        }
+      ]
+    }
+  ]
+}

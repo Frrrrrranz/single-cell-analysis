@@ -1,0 +1,60 @@
+你是一位单细胞组学专家。请从以下论文中提取所有细胞类型及其 marker 基因。
+
+【输入要求】
+- 只关注 scRNA-seq 分析的 Results、Methods（细胞注释部分）、Figure legends 和 Supplementary tables
+- 忽略参考文献页、版权声明、作者贡献等无关页面
+- 保留论文原文的基因名写法，不做任何大小写转换（原文写 Mpz 就保留 Mpz，不要转成 MPZ）
+- 特别注意：差异表达基因（DEG）不等于 marker 基因。只有论文明确用于注释/区分细胞类型的基因才算 marker
+
+【证据等级判断标准】
+请为每个 marker 标注 evidence_level，严格按以下标准：
+
+1. explicit（明确声明的 marker）：
+   - 论文明确写 "X is a marker for Y" / "X was used to identify Y"
+   - 专门的 marker 基因表（如 Table S2 列了 marker genes）
+   - Methods 中注明 "Cell types were identified based on expression of X, Y, Z"
+
+2. implied（隐含的 marker）：
+   - "X is specifically expressed in Y" / "X was enriched in Y"
+   - 热图/气泡图上作为细胞类型的标志基因展示
+   - Figure legend 强调 "X marks Y cells"
+
+3. inferred（从结果推断）：
+   - DotPlot/FeaturePlot 中明显区分该细胞类型的基因，论文未明确描述
+   - 出现在 UMAP 注释图旁边被高亮的基因
+   - 只在讨论部分提到 "X may be a marker for Y"
+
+4. imported（外部导入）：
+   - 引用其他论文的 marker 基因
+   - 领域常识性 marker（如 Schwann cell 的 S100B）
+   - 除非论文明确说明，否则不要使用此级别
+
+【输出要求】
+严格按以下 JSON 格式输出，不要添加任何额外说明：
+
+{
+  "paper_id": "自动检测的 paper_id",
+  "cell_types": [
+    {
+      "cell_type": "细胞类型名称（使用论文原文术语）",
+      "subtype": "亚型名称（如有，否则 null）",
+      "markers": [
+        {
+          "gene": "基因名（原文写法）",
+          "evidence_level": "explicit",
+          "source_section": "在论文中的位置"
+          "source_context": "包含该基因的原文句子或上下文片段"
+        }
+      ]
+    }
+  ]
+}
+
+【注意事项】
+1. 基因名禁止做任何转换——原文全大写就全大写，原文首字母大写就首字母大写
+2. cell_type 名称必须与论文原文一致，不要自创命名
+3. 同一细胞类型的不同亚型请分开列出
+4. 如果没有找到任何 marker 基因，返回空数组：{"cell_types": []}
+5. source_section 必须具体到 Table/Figure 编号或章节名（如 "Table S2" / "Results p.5" / "Fig.3A"）
+6. source_context 应包含足够的上下文以便复核者定位原文位置
+7. 同一 marker 基因如果出现多次，取证据等级最高的那次即可，不要重复
