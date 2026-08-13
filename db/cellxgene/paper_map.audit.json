@@ -1,15 +1,15 @@
 {
   "registry": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\paper_registry.json",
-  "pdf_count": 68,
-  "verified_count": 68,
+  "pdf_count": 69,
+  "verified_count": 69,
   "blocked_count": 0,
   "issue_counts": {
     "registry_path_conflict": 8,
     "registry_path_mismatch": 9
   },
   "registry_expected_paper_count": 99,
-  "content_available_paper_count": 65,
-  "missing_expected_paper_count": 34,
+  "content_available_paper_count": 66,
+  "missing_expected_paper_count": 33,
   "missing_expected_papers": [
     {
       "paper_id": "DOI_10.1016_j.celrep.2024.114247",
@@ -117,15 +117,6 @@
       "title": "Pathogenic variants damage cell composition and single cell transcription in cardiomyopathies.",
       "expected_filenames": [
         "pmid_35926050_pathogenic variants damage cell composition and single cell transcription in cardiomyopathies..pdf"
-      ]
-    },
-    {
-      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
-      "doi": "10.1164/rccm.202207-1384oc",
-      "pmid": "36796082",
-      "title": "A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.",
-      "expected_filenames": [
-        "pmid_36796082_a unique cellular organization of human distal airways and its disarray in chronic obstructive pulmonary disease..pdf"
       ]
     },
     {
@@ -1538,6 +1529,34 @@
       "issues": [
         "registry_path_conflict"
       ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+      "sha256": "1a77f6d4e1bcd335a092b289ba2197eefc42b5e1dd35fbcacc911c364692ab1f",
+      "file_size": 3314270,
+      "page_count": 12,
+      "status": "verified",
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "document_id": "DOI_10.1164_rccm.202207-1384oc",
+      "document_role": "primary",
+      "registry_doi": "10.1164/rccm.202207-1384oc",
+      "registry_pmid": "36796082",
+      "registry_title": "A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.",
+      "observed_dois": [
+        "10.1164/rccm.202207-1384oc"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "rccm.202207-1384OC.pdf",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
       "read_error": ""
     },
     {
