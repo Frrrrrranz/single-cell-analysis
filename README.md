@@ -8,11 +8,13 @@
 .
 ├── db/
 │   ├── cellxgene/              # Marker 项目的论文登记与 PDF 语料
-│   │   ├── pns_papers_summary.xlsx   # 候选论文/数据集登记表
+│   │   ├── our_marker_papers.xlsx    # 我方 44 个 marker 抓取任务
+│   │   ├── paper_registry.json       # 完整 CellxGene 论文身份登记
 │   │   └── cellxgene_filtered/
 │   │       └── downloads/             # 当前论文 PDF 库
-│   ├── pns-scrna.xlsx          # 历史累计工作簿；映射修复前不作为可靠 marker 主表
-│   └── _archive/               # 历史抓取材料及可恢复旧产物，不是活动输入
+│   ├── pns-scrna.xlsx          # 总 marker 工作簿；现有旧记录仍待映射修复和复核
+│   ├── reference/              # 原始筛选、分工及数据集参考表
+│   └── _archive/               # 非表格追溯材料；不是活动输入
 │
 ├── scripts/
 │   └── extract_markers/        # Marker 抽取、复核表生成和导入程序
@@ -28,7 +30,8 @@
 
 - 项目文献范围与 PDF 输入以 `db/cellxgene/` 为准。
 - Marker 活动代码和逐篇结果位于 `scripts/extract_markers/`。
-- `db/pns-scrna.xlsx` 含历史累计结果，但当前存在论文映射和复核完整性问题；修复前不能视为最终 marker 数据库。
+- 活动 Excel 只保留 `db/cellxgene/our_marker_papers.xlsx`（我方任务表）和 `db/pns-scrna.xlsx`（总 marker 表）；原始参考表集中放在 `db/reference/`。
+- `db/pns-scrna.xlsx` 含历史累计结果，但当前存在论文映射和复核完整性问题；修复前不能视为最终可靠 marker 数据库。
 - `papers_report/` 属于独立的旧文献汇报工作，不纳入本项目。
 
 ## CellxGene 外周神经文献抓取模块说明

@@ -503,7 +503,7 @@ def write_audit(
     papers: Sequence[RegistryPaper],
     registry_path: Path,
     json_path: Path,
-    csv_path: Path,
+    csv_path: Path | None = None,
 ) -> None:
     records = [result_to_dict(result) for result in results]
     issue_counts: dict[str, int] = defaultdict(int)
@@ -541,6 +541,9 @@ def write_audit(
     }
     json_path.parent.mkdir(parents=True, exist_ok=True)
     json_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    if csv_path is None:
+        return
 
     columns = [
         "filename", "sha256", "file_size", "page_count", "status", "paper_id", "document_id", "document_role",
@@ -585,7 +588,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--pdf-dir", type=Path, default=DEFAULT_PDF_DIR)
     parser.add_argument("--registry", type=Path, default=DEFAULT_REGISTRY)
     parser.add_argument("--audit-json", type=Path, default=DEFAULT_AUDIT_JSON)
-    parser.add_argument("--audit-csv", type=Path, default=DEFAULT_AUDIT_CSV)
+    parser.add_argument(
+        "--audit-csv",
+        type=Path,
+        default=None,
+        help=f"可选 CSV 导出路径；默认只写 JSON，避免 db 目录产生重复表格（旧默认: {DEFAULT_AUDIT_CSV}）",
+    )
     parser.add_argument("--map-output", type=Path, default=DEFAULT_MAP)
     parser.add_argument("--document-overrides", type=Path, default=DEFAULT_DOCUMENT_OVERRIDES)
     parser.add_argument("--page-limit", type=int, default=3)
@@ -632,7 +640,9 @@ def main() -> int:
 
     blocked_count = sum(result.status == "blocked" for result in results)
     logger.info("审计完成：verified=%d, blocked=%d", len(results) - blocked_count, blocked_count)
-    logger.info("审计报告：%s；%s", args.audit_json, args.audit_csv)
+    logger.info("审计报告：%s", args.audit_json)
+    if args.audit_csv is not None:
+        logger.info("可选 CSV 审计报告：%s", args.audit_csv)
     if args.write_map:
         try:
             mapping = build_paper_map(results)

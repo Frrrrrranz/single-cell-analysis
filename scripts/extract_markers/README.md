@@ -34,13 +34,13 @@ PDF ─→ 身份审计/文档角色 ─→ MarkItDown ─→ LLM schema v2 ─�
 
 ### 0. 审计 PDF 与论文映射
 
-`db/cellxgene/paper_registry.json` 是 `pns_papers_summary.xlsx` 的只读 JSON 镜像。运行：
+`db/cellxgene/paper_registry.json` 是当前完整的 CellxGene 论文身份登记；我方任务范围另见 `db/cellxgene/our_marker_papers.xlsx`。运行：
 
 ```bash
 python audit_paper_map.py
 ```
 
-审计结果写入 `db/cellxgene/paper_map.audit.json` 和 `paper_map.audit.csv`。修复所有 `blocked` 项后，再执行：
+审计结果默认只写入 `db/cellxgene/paper_map.audit.json`。如临时需要 CSV，可传入 `--audit-csv <path>`；修复所有 `blocked` 项后，再执行：
 
 ```bash
 python audit_paper_map.py --write-map
