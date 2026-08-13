@@ -179,6 +179,12 @@
     "document_role": "primary",
     "sha256": "08bf2ffca76f2f50d95371ab9422f6494d8ff91331c26c163e581a3a95b858a1"
   },
+  "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf": {
+    "paper_id": "DOI_10.1038_s41586-021-03929-x",
+    "document_id": "DOI_10.1038_s41586-021-03929-x",
+    "document_role": "primary",
+    "sha256": "881244d9d420bac9c0ed27c8b5d000e154eba7fdfa214604e6bcc82c16672137"
+  },
   "PMID_34825887_Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons..pdf": {
     "paper_id": "DOI_10.7554_elife.71752",
     "document_id": "DOI_10.7554_elife.71752",

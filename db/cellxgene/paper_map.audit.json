@@ -1,15 +1,15 @@
 {
   "registry": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\paper_registry.json",
-  "pdf_count": 65,
-  "verified_count": 65,
+  "pdf_count": 66,
+  "verified_count": 66,
   "blocked_count": 0,
   "issue_counts": {
-    "registry_path_conflict": 9,
+    "registry_path_conflict": 8,
     "registry_path_mismatch": 9
   },
   "registry_expected_paper_count": 98,
-  "content_available_paper_count": 62,
-  "missing_expected_paper_count": 36,
+  "content_available_paper_count": 63,
+  "missing_expected_paper_count": 35,
   "missing_expected_papers": [
     {
       "paper_id": "DOI_10.1016_j.celrep.2024.114247",
@@ -54,15 +54,6 @@
       "title": "Epithelial zonation along the mouse and human small intestine defines five discrete metabolic domains.",
       "expected_filenames": [
         "pmid_38321203_epithelial zonation along the mouse and human small intestine defines five discrete metabolic domain.pdf"
-      ]
-    },
-    {
-      "paper_id": "DOI_10.1038_s41586-021-03929-x",
-      "doi": "10.1038/s41586-021-03929-x",
-      "pmid": "34588693",
-      "title": "Blood and immune development in human fetal bone marrow and Down syndrome.",
-      "expected_filenames": [
-        "pmid_34887578_insulin is expressed by enteroendocrine cells during human fetal development..pdf"
       ]
     },
     {
@@ -1191,6 +1182,34 @@
       "read_error": ""
     },
     {
+      "filename": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+      "sha256": "881244d9d420bac9c0ed27c8b5d000e154eba7fdfa214604e6bcc82c16672137",
+      "file_size": 13369795,
+      "page_count": 35,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "document_id": "DOI_10.1038_s41586-021-03929-x",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-021-03929-x",
+      "registry_pmid": "34588693",
+      "registry_title": "Blood and immune development in human fetal bone marrow and Down syndrome.",
+      "observed_dois": [
+        "10.1038/s41586-021-03929-x"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Blood and immune development in human fetal bone marrow and Down syndrome",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
       "filename": "PMID_34825887_Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons..pdf",
       "sha256": "57dde365fd8b8d1ae086cf02f02905a90289dfc35176b8653085e1a85f4594ae",
       "file_size": 8143123,
@@ -1242,9 +1261,7 @@
         "registry_path",
         "strong_title"
       ],
-      "issues": [
-        "registry_path_conflict"
-      ],
+      "issues": [],
       "read_error": ""
     },
     {
