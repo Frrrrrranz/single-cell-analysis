@@ -1,0 +1,949 @@
+{
+  "summary": {
+    "original_records": 4011,
+    "after_cleaning": 3874,
+    "duplicates_removed": 137,
+    "cell_type_modified": 1885,
+    "gene_modified": 65,
+    "cell_type_variant_groups": 65,
+    "gene_variant_groups": 217
+  },
+  "cell_type_changes": {
+    "Activated fibroblasts": "Activated Fibroblasts",
+    "Adrenal cortex cells": "Adrenal Cortex Cells",
+    "Adventitial fibroblast": "Adventitial Fibroblast",
+    "Adventitial fibroblasts": "Adventitial Fibroblasts",
+    "Airway basal": "Airway Basal",
+    "Airway fibroblasts": "Airway Fibroblasts",
+    "Airway progenitors": "Airway Progenitors",
+    "Alveolar fibroblast": "Alveolar Fibroblast",
+    "Alveolar fibroblasts": "Alveolar Fibroblasts",
+    "Alveolar type 2 cell": "Alveolar Type 2 Cell",
+    "Anterior intermediate mesoderm": "Anterior Intermediate Mesoderm",
+    "Aβ neuron": "Aβ Neuron",
+    "Aδ nociceptor": "Aδ Nociceptor",
+    "B cell": "B Cell",
+    "B cells": "B Cells",
+    "B-cells": "B-Cells",
+    "Basal cell": "Basal Cell",
+    "Basal cells": "Basal Cells",
+    "Bronchial vessel endothelial cell": "Bronchial Vessel Endothelial Cell",
+    "Cancer cells": "Cancer Cells",
+    "Cardiac fibroblasts": "Cardiac Fibroblasts",
+    "Ciliated cells": "Ciliated Cells",
+    "Circulating cancer cells": "Circulating Cancer Cells",
+    "Club cells": "Club Cells",
+    "Cycling cells": "Cycling Cells",
+    "Delta cells": "Delta Cells",
+    "Dendritic cells": "Dendritic Cells",
+    "Deuterosomal cells": "Deuterosomal Cells",
+    "Developing secretory and goblet cells": "Developing Secretory And Goblet Cells",
+    "Differentiating basal cell": "Differentiating Basal Cell",
+    "Differentiating glia": "Differentiating Glia",
+    "Early fibroblasts": "Early Fibroblasts",
+    "Endoneurial endothelial cells": "Endoneurial Endothelial Cells",
+    "Endoneurial fibroblasts": "Endoneurial Fibroblasts",
+    "Endothelial cell": "Endothelial Cell",
+    "Endothelial cells": "Endothelial Cells",
+    "Endothelial subtype": "Endothelial Subtype",
+    "Enteric glia": "Enteric Glia",
+    "Enteric neuron": "Enteric Neuron",
+    "Enterochromaffin cells": "Enterochromaffin Cells",
+    "Enteroendocrine cells": "Enteroendocrine Cells",
+    "Epicardial cells": "Epicardial Cells",
+    "Epineurial endothelial cells": "Epineurial Endothelial Cells",
+    "Epithelial cells": "Epithelial Cells",
+    "Epithelial stem": "Epithelial Stem",
+    "Erythroblast-like cells": "Erythroblast-Like Cells",
+    "Esophagus mucosa fibroblasts": "Esophagus Mucosa Fibroblasts",
+    "Excitatory neuron": "Excitatory Neuron",
+    "F3+ subepithelial mesenchyme": "F3+ Subepithelial Mesenchyme",
+    "Fast myocytes": "Fast Myocytes",
+    "Foregut mesenchyme": "Foregut Mesenchyme",
+    "Glial cells": "Glial Cells",
+    "Goblet cell": "Goblet Cell",
+    "Goblet cells": "Goblet Cells",
+    "H10 neurons": "H10 Neurons",
+    "H12 neuron": "H12 Neuron",
+    "H5 neuron": "H5 Neuron",
+    "H9 neuron": "H9 Neuron",
+    "Hematopoietic stem cells": "Hematopoietic Stem Cells",
+    "Hepatic mesenchyme": "Hepatic Mesenchyme",
+    "Hillock precursor": "Hillock Precursor",
+    "Immune cell": "Immune Cell",
+    "Immune cells": "Immune Cells",
+    "Inflammatory fibroblasts": "Inflammatory Fibroblasts",
+    "Inhibitory motor neuron": "Inhibitory Motor Neuron",
+    "Innate lymphoid cells": "Innate Lymphoid Cells",
+    "Interstitial fibroblasts": "Interstitial Fibroblasts",
+    "Kidney cells": "Kidney Cells",
+    "Kupffer cells": "Kupffer Cells",
+    "L cells": "L Cells",
+    "Langerhans cells": "Langerhans Cells",
+    "Late tip cells": "Late Tip Cells",
+    "Luminal-like": "Luminal-Like",
+    "Lung fibroblasts": "Lung Fibroblasts",
+    "Lymphatic endothelial cells": "Lymphatic Endothelial Cells",
+    "Lymphoid associated glial": "Lymphoid Associated Glial",
+    "M cell": "M Cell",
+    "M cells": "M Cells",
+    "M-like cells": "M-Like Cells",
+    "Macro-intermediate": "Macro-Intermediate",
+    "Macro-intravascular": "Macro-Intravascular",
+    "Mast cell": "Mast Cell",
+    "Mast cells": "Mast Cells",
+    "Mesenchymal cells": "Mesenchymal Cells",
+    "Mid fibroblasts": "Mid Fibroblasts",
+    "Migratory dendritic cells": "Migratory Dendritic Cells",
+    "Monocyte-derived macrophages": "Monocyte-Derived Macrophages",
+    "Myeloid cell": "Myeloid Cell",
+    "Myeloid cells": "Myeloid Cells",
+    "Neural prog. cells": "Neural Prog. Cells",
+    "Neuronal cells": "Neuronal Cells",
+    "Neutrophil progenitors": "Neutrophil Progenitors",
+    "Novel epithelial cells with an inflammatory gene expression": "Novel Epithelial Cells With An Inflammatory Gene Expression",
+    "Paneth cells": "Paneth Cells",
+    "Pathological fibroblasts": "Pathological Fibroblasts",
+    "Pdgfra-positive mesenchymal cells": "Pdgfra-Positive Mesenchymal Cells",
+    "Peri- and endoneurial cell type": "Peri- And Endoneurial Cell Type",
+    "Perineurial cells": "Perineurial Cells",
+    "Plasma cells": "Plasma Cells",
+    "Posterior intermediate mesoderm": "Posterior Intermediate Mesoderm",
+    "Proximal secretory 1": "Proximal Secretory 1",
+    "Proximal secretory 2": "Proximal Secretory 2",
+    "Proximal secretory 3": "Proximal Secretory 3",
+    "Proximal secretory progenitors": "Proximal Secretory Progenitors",
+    "Proximal tubule cells": "Proximal Tubule Cells",
+    "Putative ionocytes": "Putative Ionocytes",
+    "Putative tuft cells": "Putative Tuft Cells",
+    "Red blood cells": "Red Blood Cells",
+    "Renal cortical stromal cells": "Renal Cortical Stromal Cells",
+    "Renal medullary stromal cells": "Renal Medullary Stromal Cells",
+    "S1 early immune fibroblast": "S1 Early Immune Fibroblast",
+    "S2 desmoplastic/extracellular matrix–depositing fibroblast": "S2 Desmoplastic/extracellular Matrix–depositing Fibroblast",
+    "S3 contractile fibroblast": "S3 Contractile Fibroblast",
+    "Schwann cell": "Schwann Cell",
+    "Schwann cell sub-type 1": "Schwann Cell Sub-Type 1",
+    "Schwann cell sub-type 2": "Schwann Cell Sub-Type 2",
+    "Schwann cell sub-type 3": "Schwann Cell Sub-Type 3",
+    "Schwann cell sub-type 4": "Schwann Cell Sub-Type 4",
+    "Schwann cells": "Schwann Cells",
+    "Schwann lineage cells": "Schwann Lineage Cells",
+    "Secretory cells": "Secretory Cells",
+    "Skeletal muscle fibroblasts": "Skeletal Muscle Fibroblasts",
+    "Slow myocytes": "Slow Myocytes",
+    "Smooth muscle": "Smooth Muscle",
+    "Smooth muscle cell": "Smooth Muscle Cell",
+    "Smooth muscle cells": "Smooth Muscle Cells",
+    "Squamous cells": "Squamous Cells",
+    "Stalk cells": "Stalk Cells",
+    "Stem cell major population": "Stem Cell Major Population",
+    "Stem cells": "Stem Cells",
+    "Stem-like cells": "Stem-Like Cells",
+    "Stromal lineages": "Stromal Lineages",
+    "Suprabasal cells": "Suprabasal Cells",
+    "Surface foveolar-like": "Surface Foveolar-Like",
+    "T cell": "T Cell",
+    "T cell cluster": "T Cell Cluster",
+    "T cells": "T Cells",
+    "T progenitors": "T Progenitors",
+    "T regulatory cells": "T Regulatory Cells",
+    "T-cells": "T-Cells",
+    "Tip cells": "Tip Cells",
+    "Transit epi 1": "Transit Epi 1",
+    "Transit epi 2": "Transit Epi 2",
+    "Treg cells": "Treg Cells",
+    "Tuft cells": "Tuft Cells",
+    "Uniform progenitor": "Uniform Progenitor",
+    "Urothelial cells": "Urothelial Cells",
+    "Vascular endothelial cells": "Vascular Endothelial Cells",
+    "X cells": "X Cells",
+    "a-cells": "A-Cells",
+    "acinar": "Acinar",
+    "activated phagocytic macrophages": "Activated Phagocytic Macrophages",
+    "activated stellate": "Activated Stellate",
+    "adipogenic progenitor cell": "Adipogenic Progenitor Cell",
+    "adipogenic progenitor cells": "Adipogenic Progenitor Cells",
+    "adventitial fibroblasts": "Adventitial Fibroblasts",
+    "airway cell": "Airway Cell",
+    "airway epithelial cells": "Airway Epithelial Cells",
+    "airway progenitor cells": "Airway Progenitor Cells",
+    "airway progenitors": "Airway Progenitors",
+    "airway smooth muscle": "Airway Smooth Muscle",
+    "alpha": "Alpha",
+    "alveolar epithelial cell": "Alveolar Epithelial Cell",
+    "alveolar fibroblast": "Alveolar Fibroblast",
+    "alveolar fibroblasts": "Alveolar Fibroblasts",
+    "alveolar type 0 cells": "Alveolar Type 0 Cells",
+    "arterial endothelial": "Arterial Endothelial",
+    "arterial endothelial cells": "Arterial Endothelial Cells",
+    "b-cells": "B-Cells",
+    "basal cell": "Basal Cell",
+    "basal cells": "Basal Cells",
+    "basal epithelia": "Basal Epithelia",
+    "basal urothelial cells": "Basal Urothelial Cells",
+    "basal-like cells": "Basal-Like Cells",
+    "beige adipocytes": "Beige Adipocytes",
+    "beige thermogenic cell": "Beige Thermogenic Cell",
+    "beta": "Beta",
+    "blood neutrophils": "Blood Neutrophils",
+    "c-nociceptor": "C-Nociceptor",
+    "cancer-associated fibroblasts": "Cancer-Associated Fibroblasts",
+    "cardiomyocyte": "Cardiomyocyte",
+    "cardiomyocytes": "Cardiomyocytes",
+    "chondrocyte-like cells": "Chondrocyte-Like Cells",
+    "chondrocytes": "Chondrocytes",
+    "ciliated": "Ciliated",
+    "ciliated cells": "Ciliated Cells",
+    "cluster 1": "Cluster 1",
+    "colonic stem cells": "Colonic Stem Cells",
+    "cool responsive neuron": "Cool Responsive Neuron",
+    "deep-layer neurons": "Deep-Layer Neurons",
+    "definitive endoderm": "Definitive Endoderm",
+    "delta": "Delta",
+    "dendritic cell": "Dendritic Cell",
+    "dendritic cells": "Dendritic Cells",
+    "deuterosomal cells": "Deuterosomal Cells",
+    "developing ciliated cells": "Developing Ciliated Cells",
+    "differentiating glia": "Differentiating Glia",
+    "differentiating nerve bridge mesenchymal cells": "Differentiating Nerve Bridge Mesenchymal Cells",
+    "duct": "Duct",
+    "ductal": "Ductal",
+    "endocrine progenitor/precursor": "Endocrine Progenitor/precursor",
+    "endoneurial fibroblasts": "Endoneurial Fibroblasts",
+    "endoneurial mesenchymal cells": "Endoneurial Mesenchymal Cells",
+    "endoneurial nerve-associated fibroblasts": "Endoneurial Nerve-Associated Fibroblasts",
+    "endothelia": "Endothelia",
+    "endothelial": "Endothelial",
+    "endothelial cells": "Endothelial Cells",
+    "enterocyte": "Enterocyte",
+    "enterocyte precursor": "Enterocyte Precursor",
+    "enterocyte precursors": "Enterocyte Precursors",
+    "enterocytes": "Enterocytes",
+    "enteroendocrine cell": "Enteroendocrine Cell",
+    "enteroendocrine cells": "Enteroendocrine Cells",
+    "epineurial mesenchymal cells": "Epineurial Mesenchymal Cells",
+    "epithelial stem cell": "Epithelial Stem Cell",
+    "epithelial tip progenitors": "Epithelial Tip Progenitors",
+    "epsilon": "Epsilon",
+    "erythrocytes": "Erythrocytes",
+    "esophagus mesenchyme": "Esophagus Mesenchyme",
+    "excitatory motor neuron": "Excitatory Motor Neuron",
+    "excitatory neuron": "Excitatory Neuron",
+    "extra-articular chondrocytes": "Extra-Articular Chondrocytes",
+    "fibro": "Fibro",
+    "fibroblast": "Fibroblast",
+    "fibroblast-like cells": "Fibroblast-Like Cells",
+    "fibroblasts": "Fibroblasts",
+    "fibromyocytes": "Fibromyocytes",
+    "foregut-like epithelial cell": "Foregut-Like Epithelial Cell",
+    "gamma": "Gamma",
+    "gastrointestinal epithelium": "Gastrointestinal Epithelium",
+    "glia 1": "Glia 1",
+    "glia 2": "Glia 2",
+    "glia 3": "Glia 3",
+    "glial cells": "Glial Cells",
+    "glial progenitors": "Glial Progenitors",
+    "goblet cell": "Goblet Cell",
+    "goblet cells": "Goblet Cells",
+    "hematopoietic stem cells": "Hematopoietic Stem Cells",
+    "hepatic stellate cells": "Hepatic Stellate Cells",
+    "hepatocytes": "Hepatocytes",
+    "hillock-like epithelial cells": "Hillock-Like Epithelial Cells",
+    "immune": "Immune",
+    "immune cells": "Immune Cells",
+    "immune recruiting fibroblasts": "Immune Recruiting Fibroblasts",
+    "immune recruiting perivascular cells": "Immune Recruiting Perivascular Cells",
+    "inhibitory motor neuron": "Inhibitory Motor Neuron",
+    "inhibitory motor neuron precursor": "Inhibitory Motor Neuron Precursor",
+    "inhibitory neuron": "Inhibitory Neuron",
+    "inner bulb cluster": "Inner Bulb Cluster",
+    "intermediate neuronal progenitors": "Intermediate Neuronal Progenitors",
+    "interneurons": "Interneurons",
+    "intestinal differentiated mesenchymal cell": "Intestinal Differentiated Mesenchymal Cell",
+    "intestinal differentiated mesenchymal cell cluster": "Intestinal Differentiated Mesenchymal Cell Cluster",
+    "intestinal epithelial cells": "Intestinal Epithelial Cells",
+    "intestinal epithelial stem cell": "Intestinal Epithelial Stem Cell",
+    "intestinal mesenchyme": "Intestinal Mesenchyme",
+    "intestinal stem cell": "Intestinal Stem Cell",
+    "intestinal stem cells": "Intestinal Stem Cells",
+    "intestine mesenchyme": "Intestine Mesenchyme",
+    "intraganglionic glia": "Intraganglionic Glia",
+    "intraglomerular mesangial cells": "Intraglomerular Mesangial Cells",
+    "ionocytes": "Ionocytes",
+    "late-tip cell": "Late-Tip Cell",
+    "late-tip progenitor": "Late-Tip Progenitor",
+    "leukocytes": "Leukocytes",
+    "lipofibroblast": "Lipofibroblast",
+    "lipofibroblasts": "Lipofibroblasts",
+    "luminal epithelia": "Luminal Epithelia",
+    "lung alveolar fibroblasts": "Lung Alveolar Fibroblasts",
+    "lung mesenchyme": "Lung Mesenchyme",
+    "lung/esophagus-like epithelial cell": "Lung/esophagus-Like Epithelial Cell",
+    "lung/esophagus-like epithelial cells": "Lung/esophagus-Like Epithelial Cells",
+    "lymph": "Lymph",
+    "lymphatic endothelial": "Lymphatic Endothelial",
+    "lymphoid associated glial": "Lymphoid Associated Glial",
+    "lymphoid immune cells": "Lymphoid Immune Cells",
+    "macrophage": "Macrophage",
+    "macrophage/dendritic cells": "Macrophage/dendritic Cells",
+    "macrophages": "Macrophages",
+    "macrophages/monocytes": "Macrophages/monocytes",
+    "mast": "Mast",
+    "mast cells": "Mast Cells",
+    "mature adipocyte": "Mature Adipocyte",
+    "mature adipocytes": "Mature Adipocytes",
+    "mature neutrophils": "Mature Neutrophils",
+    "mature tracheal basal cells": "Mature Tracheal Basal Cells",
+    "megakaryocyte progenitors": "Megakaryocyte Progenitors",
+    "megakaryocytes": "Megakaryocytes",
+    "melanocytes": "Melanocytes",
+    "mesenchymal cells": "Mesenchymal Cells",
+    "mesoderm or mesenchyme": "Mesoderm Or Mesenchyme",
+    "mesoderm progenitor": "Mesoderm Progenitor",
+    "mesoderm progenitor cluster": "Mesoderm Progenitor Cluster",
+    "mesoderm progenitors": "Mesoderm Progenitors",
+    "mesoderm-like cluster (c9)": "Mesoderm-Like Cluster (c9)",
+    "mesodermal progenitors": "Mesodermal Progenitors",
+    "mesothelial cell": "Mesothelial Cell",
+    "mesothelial serosa cells": "Mesothelial Serosa Cells",
+    "metaplastic cells": "Metaplastic Cells",
+    "migratory dendritic cells": "Migratory Dendritic Cells",
+    "mitotic basal cells": "Mitotic Basal Cells",
+    "monocyte": "Monocyte",
+    "monocytes": "Monocytes",
+    "monocytic cells": "Monocytic Cells",
+    "multipotent progenitors": "Multipotent Progenitors",
+    "muscle": "Muscle",
+    "muscle/myofibroblast": "Muscle/myofibroblast",
+    "myeloid cells": "Myeloid Cells",
+    "myoepithelial cells": "Myoepithelial Cells",
+    "myoepithelium": "Myoepithelium",
+    "myofibroblast": "Myofibroblast",
+    "myofibroblasts": "Myofibroblasts",
+    "neck cells": "Neck Cells",
+    "neoplastic cell": "Neoplastic Cell",
+    "neoplastic cells": "Neoplastic Cells",
+    "nerve bridge cells": "Nerve Bridge Cells",
+    "nerve-associated myeloid cells": "Nerve-Associated Myeloid Cells",
+    "neural/glial": "Neural/glial",
+    "neuroblast": "Neuroblast",
+    "neuroblast-like population": "Neuroblast-Like Population",
+    "neuroendocrine 1": "Neuroendocrine 1",
+    "neuroendocrine 2": "Neuroendocrine 2",
+    "neuroendocrine cell": "Neuroendocrine Cell",
+    "neuroendocrine cells": "Neuroendocrine Cells",
+    "neuronal cells": "Neuronal Cells",
+    "neurons": "Neurons",
+    "neutrophils": "Neutrophils",
+    "nociceptors": "Nociceptors",
+    "non-cardiac tissue": "Non-Cardiac Tissue",
+    "non-neuronal cells": "Non-Neuronal Cells",
+    "non-stem cells": "Non-Stem Cells",
+    "nonpeptidergic neurons": "Nonpeptidergic Neurons",
+    "odontoblasts": "Odontoblasts",
+    "other epithelia": "Other Epithelia",
+    "p63+ multipotent airway progenitor population": "P63+ Multipotent Airway Progenitor Population",
+    "peribronchial fibroblasts": "Peribronchial Fibroblasts",
+    "perichondrial fibroblasts": "Perichondrial Fibroblasts",
+    "pericyte": "Pericyte",
+    "pericytes": "Pericytes",
+    "perineurial cells": "Perineurial Cells",
+    "perineurial mesenchymal cells": "Perineurial Mesenchymal Cells",
+    "perineurial nerve-associated fibroblasts": "Perineurial Nerve-Associated Fibroblasts",
+    "perivascular macrophages": "Perivascular Macrophages",
+    "plasma cell": "Plasma Cell",
+    "plasmacytoid dendritic cell": "Plasmacytoid Dendritic Cell",
+    "preterminal bronchiole secretory cells": "Preterminal Bronchiole Secretory Cells",
+    "primitive streak": "Primitive Streak",
+    "primitive streak cells": "Primitive Streak Cells",
+    "proliferating cells": "Proliferating Cells",
+    "proximal basal cells": "Proximal Basal Cells",
+    "proximal ciliated cells": "Proximal Ciliated Cells",
+    "red blood cells": "Red Blood Cells",
+    "repair cells": "Repair Cells",
+    "satellite cells": "Satellite Cells",
+    "sebaceous glands": "Sebaceous Glands",
+    "secretory cells": "Secretory Cells",
+    "secretory goblet/club": "Secretory Goblet/club",
+    "sensory neurons": "Sensory Neurons",
+    "serous cell": "Serous Cell",
+    "smooth muscle": "Smooth Muscle",
+    "smooth muscle cell": "Smooth Muscle Cell",
+    "smooth muscle cells": "Smooth Muscle Cells",
+    "squamous cells": "Squamous Cells",
+    "stalk cells": "Stalk Cells",
+    "stalk progenitor": "Stalk Progenitor",
+    "stellate": "Stellate",
+    "stellate-activated": "Stellate-Activated",
+    "stellate-quiescent": "Stellate-Quiescent",
+    "stem cells": "Stem Cells",
+    "stomach-like epithelial cells": "Stomach-Like Epithelial Cells",
+    "stromal 1": "Stromal 1",
+    "stromal 2": "Stromal 2",
+    "stromal cells": "Stromal Cells",
+    "subepithelial mesenchyme": "Subepithelial Mesenchyme",
+    "submucosal glia": "Submucosal Glia",
+    "submucosal precursors": "Submucosal Precursors",
+    "subplate neurons": "Subplate Neurons",
+    "sweat glands": "Sweat Glands",
+    "tip cells": "Tip Cells",
+    "tip epithelial cells": "Tip Epithelial Cells",
+    "tip progenitor": "Tip Progenitor",
+    "tip progenitor cells": "Tip Progenitor Cells",
+    "tissue repair macrophages": "Tissue Repair Macrophages",
+    "tuft cells": "Tuft Cells",
+    "tuft-like cells": "Tuft-Like Cells",
+    "tumor cells": "Tumor Cells",
+    "umbrella cells": "Umbrella Cells",
+    "uniform progenitor cells": "Uniform Progenitor Cells",
+    "upper-layer neurons": "Upper-Layer Neurons",
+    "urothelial cells": "Urothelial Cells",
+    "urothelium": "Urothelium",
+    "vascular cells": "Vascular Cells",
+    "vascular endothelial cells": "Vascular Endothelial Cells",
+    "vascular smooth muscle cells": "Vascular Smooth Muscle Cells",
+    "venous endothelial": "Venous Endothelial",
+    "venous endothelial cells": "Venous Endothelial Cells",
+    "α": "Α",
+    "α-cell": "Α-Cell",
+    "α-cells": "Α-Cells",
+    "β-cell": "Β-Cell",
+    "β-cells": "Β-Cells",
+    "γ": "Γ",
+    "γ-cell": "Γ-Cell",
+    "γ-cells": "Γ-Cells",
+    "δ": "Δ",
+    "δ-cell": "Δ-Cell",
+    "δ-cells": "Δ-Cells",
+    "ε": "Ε",
+    "ε-cell": "Ε-Cell"
+  },
+  "gene_changes": {
+    "Bcl11b (human)": "BCL11B",
+    "C10orf99 (human)": "C10ORF99",
+    "C20orf85 (human)": "C20ORF85",
+    "CD11b (mouse)": "Cd11b",
+    "CD45 (mouse)": "Cd45",
+    "CD80 (mouse)": "Cd80",
+    "CHGA (mouse)": "Chga",
+    "Chrna5 (human)": "CHRNA5",
+    "Col15a1 (human)": "COL15A1",
+    "Col1a1 (human)": "COL1A1",
+    "DCLK1 (mouse)": "Dclk1",
+    "Eomes (human)": "EOMES",
+    "Fezf2 (human)": "FEZF2",
+    "Foxp2 (human)": "FOXP2",
+    "Frfr4 (human)": "FRFR4",
+    "H2-Aa (mouse)": "H2-aa",
+    "H2-Ab1 (mouse)": "H2-ab1",
+    "H2-Eb1 (mouse)": "H2-eb1",
+    "Hopx (human)": "HOPX",
+    "IL-1R1 (mouse)": "Il-1r1",
+    "IL7 (mouse)": "Il7",
+    "KRT5 (mouse)": "Krt5",
+    "Kcnab1 (human)": "KCNAB1",
+    "Lrig1 (human)": "LRIG1",
+    "Lyve1 (human)": "LYVE1",
+    "MHCII (mouse)": "Mhcii",
+    "MUC5AC (mouse)": "Muc5ac",
+    "MUC5B (mouse)": "Muc5b",
+    "PD-L1 (mouse)": "Pd-l1",
+    "PDGFRα (human)": "PDGFRΑ",
+    "PDPN (mouse)": "Pdpn",
+    "Pax6 (human)": "PAX6",
+    "Pecam1 (human)": "PECAM1",
+    "Pecam1/Cd31 (mouse)": "Pecam1/cd31",
+    "Pi16 (human)": "PI16",
+    "Pou3f2 (human)": "POU3F2",
+    "Pou3f3 (human)": "POU3F3",
+    "RT1-Bb (mouse)": "Rt1-bb",
+    "Runx1 (zebrafish)": "runx1",
+    "SPDEF (mouse)": "Spdef",
+    "SST (mouse)": "Sst",
+    "ST2 (mouse)": "St2",
+    "Satb2 (human)": "SATB2",
+    "Serpinf1 (human)": "SERPINF1",
+    "SiglecF (mouse)": "Siglecf",
+    "Slc7a10 (human)": "SLC7A10",
+    "Syt6 (human)": "SYT6",
+    "Tbr1 (human)": "TBR1",
+    "Trem2 (zebrafish)": "trem2",
+    "aSMA (mouse)": "Asma",
+    "claudin-1 (mouse)": "Claudin-1",
+    "moxd1 (mouse)": "Moxd1",
+    "p63 (mouse)": "P63",
+    "rpl15 (mouse)": "Rpl15",
+    "αSMA (human)": "ΑSMA"
+  },
+  "cell_type_variant_groups": {
+    "adventitial fibroblasts": [
+      "Adventitial fibroblasts",
+      "adventitial fibroblasts"
+    ],
+    "airway progenitors": [
+      "airway progenitors",
+      "Airway progenitors"
+    ],
+    "alveolar fibroblast": [
+      "Alveolar fibroblast",
+      "alveolar fibroblast"
+    ],
+    "alveolar fibroblasts": [
+      "alveolar fibroblasts",
+      "Alveolar fibroblasts"
+    ],
+    "b-cells": [
+      "b-cells",
+      "B-cells"
+    ],
+    "basal cell": [
+      "Basal cell",
+      "basal cell"
+    ],
+    "basal cells": [
+      "Basal cells",
+      "basal cells"
+    ],
+    "cardiomyocyte": [
+      "cardiomyocyte",
+      "Cardiomyocyte"
+    ],
+    "chondrocytes": [
+      "Chondrocytes",
+      "chondrocytes"
+    ],
+    "ciliated": [
+      "Ciliated",
+      "ciliated"
+    ],
+    "ciliated cells": [
+      "Ciliated cells",
+      "ciliated cells"
+    ],
+    "dendritic cells": [
+      "Dendritic cells",
+      "dendritic cells"
+    ],
+    "deuterosomal cells": [
+      "deuterosomal cells",
+      "Deuterosomal cells"
+    ],
+    "differentiating glia": [
+      "Differentiating glia",
+      "differentiating glia"
+    ],
+    "endoneurial fibroblasts": [
+      "endoneurial fibroblasts",
+      "Endoneurial fibroblasts"
+    ],
+    "endothelial": [
+      "Endothelial",
+      "endothelial"
+    ],
+    "endothelial cells": [
+      "endothelial cells",
+      "Endothelial cells"
+    ],
+    "enterocyte": [
+      "Enterocyte",
+      "enterocyte"
+    ],
+    "enterocytes": [
+      "enterocytes",
+      "Enterocytes"
+    ],
+    "enteroendocrine cells": [
+      "Enteroendocrine cells",
+      "enteroendocrine cells"
+    ],
+    "excitatory neuron": [
+      "Excitatory neuron",
+      "excitatory neuron"
+    ],
+    "fibroblast": [
+      "fibroblast",
+      "Fibroblast"
+    ],
+    "fibroblasts": [
+      "fibroblasts",
+      "Fibroblasts"
+    ],
+    "glia 1": [
+      "glia 1",
+      "Glia 1"
+    ],
+    "glia 2": [
+      "glia 2",
+      "Glia 2"
+    ],
+    "glia 3": [
+      "glia 3",
+      "Glia 3"
+    ],
+    "glial cells": [
+      "Glial cells",
+      "glial cells"
+    ],
+    "goblet cell": [
+      "goblet cell",
+      "Goblet cell"
+    ],
+    "goblet cells": [
+      "goblet cells",
+      "Goblet cells"
+    ],
+    "hematopoietic stem cells": [
+      "hematopoietic stem cells",
+      "Hematopoietic stem cells"
+    ],
+    "hepatocytes": [
+      "Hepatocytes",
+      "hepatocytes"
+    ],
+    "immune cells": [
+      "Immune cells",
+      "immune cells"
+    ],
+    "inhibitory motor neuron": [
+      "inhibitory motor neuron",
+      "Inhibitory motor neuron"
+    ],
+    "intestinal stem cell (isc)": [
+      "Intestinal stem cell (ISC)",
+      "intestinal stem cell (ISC)"
+    ],
+    "ionocytes": [
+      "Ionocytes",
+      "ionocytes"
+    ],
+    "lymphoid associated glial": [
+      "Lymphoid associated glial",
+      "lymphoid associated glial"
+    ],
+    "macrophage": [
+      "macrophage",
+      "Macrophage"
+    ],
+    "macrophages": [
+      "macrophages",
+      "Macrophages"
+    ],
+    "mast cells": [
+      "mast cells",
+      "Mast cells"
+    ],
+    "mesenchymal cells": [
+      "mesenchymal cells",
+      "Mesenchymal cells"
+    ],
+    "migratory dendritic cells": [
+      "migratory dendritic cells",
+      "Migratory dendritic cells"
+    ],
+    "monocyte": [
+      "Monocyte",
+      "monocyte"
+    ],
+    "monocytes": [
+      "monocytes",
+      "Monocytes"
+    ],
+    "myelinating schwann cells": [
+      "myelinating Schwann cells",
+      "Myelinating Schwann cells"
+    ],
+    "myeloid cells": [
+      "myeloid cells",
+      "Myeloid cells"
+    ],
+    "myofibroblast": [
+      "myofibroblast",
+      "Myofibroblast"
+    ],
+    "myofibroblasts": [
+      "myofibroblasts",
+      "Myofibroblasts"
+    ],
+    "neuroblast": [
+      "Neuroblast",
+      "neuroblast"
+    ],
+    "neuronal cells": [
+      "Neuronal cells",
+      "neuronal cells"
+    ],
+    "neutrophils": [
+      "Neutrophils",
+      "neutrophils"
+    ],
+    "pericyte": [
+      "pericyte",
+      "Pericyte"
+    ],
+    "pericytes": [
+      "Pericytes",
+      "pericytes"
+    ],
+    "perineurial cells": [
+      "Perineurial cells",
+      "perineurial cells"
+    ],
+    "red blood cells": [
+      "red blood cells",
+      "Red blood cells"
+    ],
+    "secretory cells": [
+      "Secretory cells",
+      "secretory cells"
+    ],
+    "smooth muscle": [
+      "Smooth muscle",
+      "smooth muscle"
+    ],
+    "smooth muscle cell": [
+      "smooth muscle cell",
+      "Smooth muscle cell"
+    ],
+    "smooth muscle cells": [
+      "smooth muscle cells",
+      "Smooth muscle cells"
+    ],
+    "squamous cells": [
+      "Squamous cells",
+      "squamous cells"
+    ],
+    "stalk cells": [
+      "stalk cells",
+      "Stalk cells"
+    ],
+    "stem cells": [
+      "Stem cells",
+      "stem cells"
+    ],
+    "tip cells": [
+      "Tip cells",
+      "tip cells"
+    ],
+    "tuft cells": [
+      "tuft cells",
+      "Tuft cells"
+    ],
+    "urothelial cells": [
+      "urothelial cells",
+      "Urothelial cells"
+    ],
+    "vascular endothelial cells": [
+      "vascular endothelial cells",
+      "Vascular endothelial cells"
+    ]
+  },
+  "after_stats": {
+    "unique_cell_types": 923,
+    "unique_genes": 1667,
+    "top_cell_types": [
+      [
+        "Macrophage",
+        113
+      ],
+      [
+        "Macrophages",
+        103
+      ],
+      [
+        "Fibroblasts",
+        77
+      ],
+      [
+        "Fibroblast",
+        65
+      ],
+      [
+        "Endothelial Cells",
+        61
+      ],
+      [
+        "T Cells",
+        45
+      ],
+      [
+        "Neutrophils",
+        42
+      ],
+      [
+        "B Cells",
+        38
+      ],
+      [
+        "Cancer Cells",
+        37
+      ],
+      [
+        "Schwann Cells",
+        33
+      ],
+      [
+        "Goblet Cells",
+        28
+      ],
+      [
+        "Monocytes",
+        28
+      ],
+      [
+        "Pericytes",
+        26
+      ],
+      [
+        "Enteroendocrine Cells",
+        25
+      ],
+      [
+        "Alveolar Fibroblasts",
+        24
+      ],
+      [
+        "Secretory Cells",
+        23
+      ],
+      [
+        "T Cell",
+        23
+      ],
+      [
+        "β",
+        22
+      ],
+      [
+        "Mast Cells",
+        20
+      ],
+      [
+        "Neoplastic Cell",
+        19
+      ]
+    ],
+    "top_genes": [
+      [
+        "ACTA2",
+        24
+      ],
+      [
+        "MKI67",
+        20
+      ],
+      [
+        "MS4A1",
+        20
+      ],
+      [
+        "MUC5AC",
+        17
+      ],
+      [
+        "CD14",
+        17
+      ],
+      [
+        "LGR5",
+        17
+      ],
+      [
+        "SOX9",
+        16
+      ],
+      [
+        "RGS5",
+        16
+      ],
+      [
+        "SCGB3A2",
+        15
+      ],
+      [
+        "TP63",
+        15
+      ],
+      [
+        "LYVE1",
+        15
+      ],
+      [
+        "SFTPC",
+        14
+      ],
+      [
+        "CCL19",
+        14
+      ],
+      [
+        "SPP1",
+        14
+      ],
+      [
+        "PDGFRA",
+        14
+      ],
+      [
+        "DCN",
+        14
+      ],
+      [
+        "APOE",
+        13
+      ],
+      [
+        "OLFM4",
+        13
+      ],
+      [
+        "FOXJ1",
+        13
+      ],
+      [
+        "POSTN",
+        12
+      ],
+      [
+        "IL1B",
+        12
+      ],
+      [
+        "FCGR3A",
+        12
+      ],
+      [
+        "Pecam1",
+        12
+      ],
+      [
+        "KRT5",
+        11
+      ],
+      [
+        "SOX2",
+        11
+      ],
+      [
+        "CD36",
+        11
+      ],
+      [
+        "CD68",
+        11
+      ],
+      [
+        "RAG1",
+        11
+      ],
+      [
+        "WNT2",
+        10
+      ],
+      [
+        "CD4",
+        10
+      ]
+    ]
+  }
+}

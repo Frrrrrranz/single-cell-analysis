@@ -1,0 +1,864 @@
+{
+  "paper_id": "PNAS.117.9466.2020",
+  "cell_types": [
+    {
+      "cell_type": "mySC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Erbb3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467 & Fig.1C",
+          "source_context": "One cluster expressed pan-Schwann cell markers (e.g., Erbb3 and S100b) and also coexpressed myelin protein genes (e.g., Mbp and Plp1)"
+        },
+        {
+          "gene": "S100b",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467 & Fig.1C",
+          "source_context": "One cluster expressed pan-Schwann cell markers (e.g., Erbb3 and S100b) and also coexpressed myelin protein genes (e.g., Mbp and Plp1)"
+        },
+        {
+          "gene": "Mbp",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467 & Fig.1C",
+          "source_context": "One cluster expressed pan-Schwann cell markers (e.g., Erbb3 and S100b) and also coexpressed myelin protein genes (e.g., Mbp and Plp1)"
+        },
+        {
+          "gene": "Plp1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467 & Fig.1C",
+          "source_context": "One cluster expressed pan-Schwann cell markers (e.g., Erbb3 and S100b) and also coexpressed myelin protein genes (e.g., Mbp and Plp1)"
+        },
+        {
+          "gene": "Mpz",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "The mySC cluster expressed genes encoding PNS myelin proteins (Plp1, Mbp, and Mpz)"
+        },
+        {
+          "gene": "Sox10",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "a key SC lineage transcription factor (Sox10)"
+        },
+        {
+          "gene": "Ptn",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "other regulators of myelination (e.g., Ptn and Cryab)"
+        },
+        {
+          "gene": "Cryab",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "other regulators of myelination (e.g., Ptn and Cryab)"
+        },
+        {
+          "gene": "Apoe",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "genes highly expressed in mySCs were associated with lipid metabolism (e.g., Apoe and Dbi1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "nmSC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Ngfr",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467 & Fig.1C",
+          "source_context": "another cluster did not express myelin protein genes, but a known SC receptor (Ngfr/p75)"
+        },
+        {
+          "gene": "Apod",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467 & Fig.1E",
+          "source_context": "It highly transcribed a lipoprotein gene (Apod)"
+        },
+        {
+          "gene": "Cp",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "The nmSC cluster also expressed ceruloplasmin (Cp) involved in copper metabolism and reported as a potential pan-SC marker"
+        },
+        {
+          "gene": "Matn2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "we found that expression of the genes Matn2, Myoc, Hspg2/Perlecan, Col6a, and Lama2 in nmSCs was in accordance with their known expression and/or function in the PNS"
+        },
+        {
+          "gene": "Myoc",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "we found that expression of the genes Matn2, Myoc, Hspg2/Perlecan, Col6a, and Lama2 in nmSCs was in accordance with their known expression and/or function in the PNS"
+        },
+        {
+          "gene": "Hspg2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "we found that expression of the genes Matn2, Myoc, Hspg2/Perlecan, Col6a, and Lama2 in nmSCs was in accordance with their known expression and/or function in the PNS"
+        },
+        {
+          "gene": "Col6a",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "we found that expression of the genes Matn2, Myoc, Hspg2/Perlecan, Col6a, and Lama2 in nmSCs was in accordance with their known expression and/or function in the PNS"
+        },
+        {
+          "gene": "Lama2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "we found that expression of the genes Matn2, Myoc, Hspg2/Perlecan, Col6a, and Lama2 in nmSCs was in accordance with their known expression and/or function in the PNS"
+        },
+        {
+          "gene": "Tcf4",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "Among transcription factors, expression and/or function of Tcf4, Spry2, and Cebpd have been described in SCs"
+        },
+        {
+          "gene": "Spry2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "Among transcription factors, expression and/or function of Tcf4, Spry2, and Cebpd have been described in SCs"
+        },
+        {
+          "gene": "Cebpd",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "Among transcription factors, expression and/or function of Tcf4, Spry2, and Cebpd have been described in SCs"
+        },
+        {
+          "gene": "Cspg4",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "Coexpression of Ngfr/p75, Cspg4/NG2, and Pdgfr/PDGFRβ was previously described in novel pericyte-like cells in the PNS"
+        },
+        {
+          "gene": "Pdgfr",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "Coexpression of Ngfr/p75, Cspg4/NG2, and Pdgfr/PDGFRβ was previously described in novel pericyte-like cells in the PNS"
+        },
+        {
+          "gene": "Ccl11",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "specific cell surface molecules (e.g., Ccl11 implicated in central nervous system [CNS] myelination)"
+        },
+        {
+          "gene": "Mmp2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "proteases (Mmp2)"
+        },
+        {
+          "gene": "Osr2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "the TF Osr2 not previously reported in glia cells"
+        },
+        {
+          "gene": "Smoc2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9469 & Fig.1E",
+          "source_context": "From the top genes identified in the nmSC cell cluster (SI Appendix, Table S2), we selected transcripts with high and specific expression in the nmSC cluster (Apod and Smoc2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "fibro",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Fn1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "An additional cluster expressed fibroblast markers (fibro; Fn1, Fgfr1, Col1a, and Col3a)"
+        },
+        {
+          "gene": "Fgfr1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "An additional cluster expressed fibroblast markers (fibro; Fn1, Fgfr1, Col1a, and Col3a)"
+        },
+        {
+          "gene": "Col1a",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "An additional cluster expressed fibroblast markers (fibro; Fn1, Fgfr1, Col1a, and Col3a)"
+        },
+        {
+          "gene": "Col3a",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "An additional cluster expressed fibroblast markers (fibro; Fn1, Fgfr1, Col1a, and Col3a)"
+        },
+        {
+          "gene": "Dpt",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "The fibro cluster expressed a variety of extracellular matrix (ECM) components (Dpt and Gsn) including specific collagen genes (Col1a1, Col1a2, Col3a1, and Col14a1)"
+        },
+        {
+          "gene": "Gsn",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "The fibro cluster expressed a variety of extracellular matrix (ECM) components (Dpt and Gsn) including specific collagen genes (Col1a1, Col1a2, Col3a1, and Col14a1)"
+        },
+        {
+          "gene": "Pi16",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "The cluster also expressed marker genes (Pi16, Clec3b, and Cygb) and TFs (Prrx1 and Aebp1)"
+        },
+        {
+          "gene": "Clec3b",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "The cluster also expressed marker genes (Pi16, Clec3b, and Cygb) and TFs (Prrx1 and Aebp1)"
+        },
+        {
+          "gene": "Cygb",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "The cluster also expressed marker genes (Pi16, Clec3b, and Cygb) and TFs (Prrx1 and Aebp1)"
+        },
+        {
+          "gene": "Prrx1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "TFs (Prrx1 and Aebp1)"
+        },
+        {
+          "gene": "Aebp1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "TFs (Prrx1 and Aebp1)"
+        },
+        {
+          "gene": "Sfrp4",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9469 & Fig.1E",
+          "source_context": "RNA ISH of Sfrp4 showed expression in some large epineurial cells with patchy cytosolic staining pattern"
+        }
+      ]
+    },
+    {
+      "cell_type": "vSMC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Acta2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "Vascular clusters expressed canonical markers of vascular smooth muscle cells (vSMCs; Acta2, Tagln, and Tpm2)"
+        },
+        {
+          "gene": "Tagln",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "Vascular clusters expressed canonical markers of vascular smooth muscle cells (vSMCs; Acta2, Tagln, and Tpm2)"
+        },
+        {
+          "gene": "Tpm2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "Vascular clusters expressed canonical markers of vascular smooth muscle cells (vSMCs; Acta2, Tagln, and Tpm2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "PC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Rgs5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "of pericytes (PCs; Rgs5 and Pdgrfb)"
+        },
+        {
+          "gene": "Pdgrfb",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "of pericytes (PCs; Rgs5 and Pdgrfb)"
+        }
+      ]
+    },
+    {
+      "cell_type": "lymph",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lyve1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "of lymphatic endothelial cells (lymph; Lyve1 and Prox1)"
+        },
+        {
+          "gene": "Prox1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "of lymphatic endothelial cells (lymph; Lyve1 and Prox1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "EC1",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cldn5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "of vascular endothelial cells (EC1s; Cldn5, Egfl7, and Pecam1)"
+        },
+        {
+          "gene": "Egfl7",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "of vascular endothelial cells (EC1s; Cldn5, Egfl7, and Pecam1)"
+        },
+        {
+          "gene": "Pecam1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "of vascular endothelial cells (EC1s; Cldn5, Egfl7, and Pecam1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "EC2",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cldn1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "An additional endothelial cell cluster expressed genes associated with the blood nerve barrier (EC2s; Cldn1 and Slc16a1)"
+        },
+        {
+          "gene": "Slc16a1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "An additional endothelial cell cluster expressed genes associated with the blood nerve barrier (EC2s; Cldn1 and Slc16a1)"
+        },
+        {
+          "gene": "Moxd1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "Additional transcripts in the EC2 cluster were either novel to endothelial cells (Moxd1 and Ntng1)"
+        },
+        {
+          "gene": "Ntng1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "Additional transcripts in the EC2 cluster were either novel to endothelial cells (Moxd1 and Ntng1)"
+        },
+        {
+          "gene": "Lypd2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "or had been described in subsets of brain or lung endothelial cells (e.g., Lypd2, Krt19 and Dleu7)"
+        },
+        {
+          "gene": "Krt19",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "or had been described in subsets of brain or lung endothelial cells (e.g., Lypd2, Krt19 and Dleu7)"
+        },
+        {
+          "gene": "Dleu7",
+          "evidence_level": "implied",
+          "source_section": "Results p.9467",
+          "source_context": "or had been described in subsets of brain or lung endothelial cells (e.g., Lypd2, Krt19 and Dleu7)"
+        }
+      ]
+    },
+    {
+      "cell_type": "TC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd3e",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "T cells (TCs; Cd3e) and B cells (BCs; Cd79)"
+        },
+        {
+          "gene": "Cd3d",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The TC cluster (Cd3e and Cd3d) expressed markers of both the helper T cell (Il7r) and cytotoxic (Cd8a and Cd8b1) subsets"
+        },
+        {
+          "gene": "Il7r",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The TC cluster (Cd3e and Cd3d) expressed markers of both the helper T cell (Il7r) and cytotoxic (Cd8a and Cd8b1) subsets"
+        },
+        {
+          "gene": "Cd8a",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The TC cluster (Cd3e and Cd3d) expressed markers of both the helper T cell (Il7r) and cytotoxic (Cd8a and Cd8b1) subsets"
+        },
+        {
+          "gene": "Cd8b1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The TC cluster (Cd3e and Cd3d) expressed markers of both the helper T cell (Il7r) and cytotoxic (Cd8a and Cd8b1) subsets"
+        },
+        {
+          "gene": "Klrd1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "T cell subsets and natural killer (NK) cells (Klrd1, Klrg1, and Nkg7) did not separate into subclusters due to their low total cell number"
+        },
+        {
+          "gene": "Klrg1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "T cell subsets and natural killer (NK) cells (Klrd1, Klrg1, and Nkg7) did not separate into subclusters due to their low total cell number"
+        },
+        {
+          "gene": "Nkg7",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "T cell subsets and natural killer (NK) cells (Klrd1, Klrg1, and Nkg7) did not separate into subclusters due to their low total cell number"
+        },
+        {
+          "gene": "Cd2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9469 & Fig.3G",
+          "source_context": "TCs (Cd3e and Cd2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "BC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd79",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "B cells (BCs; Cd79)"
+        },
+        {
+          "gene": "Ms4a1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The BC cluster (Cd79a and Ms4a1/Cd20) expressed markers of naive, nonclass-switched B cells (Ighd, negative for: Xbp1, Sdc1/Cd138) and genes associated with antigen presentation (e.g., H2-Aa)"
+        },
+        {
+          "gene": "Ighd",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The BC cluster (Cd79a and Ms4a1/Cd20) expressed markers of naive, nonclass-switched B cells (Ighd, negative for: Xbp1, Sdc1/Cd138) and genes associated with antigen presentation (e.g., H2-Aa)"
+        },
+        {
+          "gene": "H2-Aa",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "genes associated with antigen presentation (e.g., H2-Aa)"
+        },
+        {
+          "gene": "Cd79a",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9469 & Fig.3G",
+          "source_context": "BCs (Cd79a and Ighm)"
+        },
+        {
+          "gene": "Ighm",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9469 & Fig.3G",
+          "source_context": "BCs (Cd79a and Ighm)"
+        }
+      ]
+    },
+    {
+      "cell_type": "MC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lyz2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "specifically markers of the myeloid cell lineage (MC; Lyz2)"
+        },
+        {
+          "gene": "Fcgr3",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The MC cluster expressed markers of nonclassical monocytes (Fcgr3/CD16) and genes associated with long-lived CNS microglia (Cx3cr1)"
+        },
+        {
+          "gene": "Cx3cr1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The MC cluster expressed markers of nonclassical monocytes (Fcgr3/CD16) and genes associated with long-lived CNS microglia (Cx3cr1)"
+        },
+        {
+          "gene": "Csf1r",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "activation (Csf1r)"
+        },
+        {
+          "gene": "Cd300a",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "phagocytosis (Cd300a)"
+        },
+        {
+          "gene": "Clec4e",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "pattern recognition (Clec4e)"
+        },
+        {
+          "gene": "RT1-Bb",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The second cluster (MC) expressed high levels of antigen-presenting molecules (e.g., RT1-Bb) and alternative trafficking molecules (Ccl17, Ccl6, and Alcam)"
+        },
+        {
+          "gene": "Ccl17",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The second cluster (MC) expressed high levels of antigen-presenting molecules (e.g., RT1-Bb) and alternative trafficking molecules (Ccl17, Ccl6, and Alcam)"
+        },
+        {
+          "gene": "Alcam",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The second cluster (MC) expressed high levels of antigen-presenting molecules (e.g., RT1-Bb) and alternative trafficking molecules (Ccl17, Ccl6, and Alcam)"
+        }
+      ]
+    },
+    {
+      "cell_type": "MP",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd68",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9467",
+          "source_context": "macrophages (MP; Cd68)"
+        },
+        {
+          "gene": "Adgre1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The MP cluster (Adgre1/F4/80) expressed markers of classical monocytes (Cd14), nervous system-resident macrophages (Aif1/Iba1), and unique chemokines (e.g., Ccl6, Ccl9, and Ccl4)"
+        },
+        {
+          "gene": "Cd14",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The MP cluster (Adgre1/F4/80) expressed markers of classical monocytes (Cd14), nervous system-resident macrophages (Aif1/Iba1), and unique chemokines (e.g., Ccl6, Ccl9, and Ccl4)"
+        },
+        {
+          "gene": "Aif1",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The MP cluster (Adgre1/F4/80) expressed markers of classical monocytes (Cd14), nervous system-resident macrophages (Aif1/Iba1), and unique chemokines (e.g., Ccl6, Ccl9, and Ccl4)"
+        },
+        {
+          "gene": "Ccl6",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "unique chemokines (e.g., Ccl6, Ccl9, and Ccl4)"
+        },
+        {
+          "gene": "Ccl9",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "unique chemokines (e.g., Ccl6, Ccl9, and Ccl4)"
+        },
+        {
+          "gene": "Ccl4",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "unique chemokines (e.g., Ccl6, Ccl9, and Ccl4)"
+        },
+        {
+          "gene": "Pf4",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "The MP cluster expressed Pf4/Cxcl4"
+        },
+        {
+          "gene": "Ms4a7",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "One cluster (MPs) expressed features of classical monocytes (Cd14 and Ms4a7)"
+        },
+        {
+          "gene": "C1qb",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "complement components (e.g., C1qb)"
+        },
+        {
+          "gene": "Ccl3",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "specific chemokines (Ccl4, Ccl3, and Cxcl2)"
+        },
+        {
+          "gene": "Cxcl2",
+          "evidence_level": "implied",
+          "source_section": "Results p.9469",
+          "source_context": "specific chemokines (Ccl4, Ccl3, and Cxcl2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "pDC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Flt3",
+          "evidence_level": "implied",
+          "source_section": "Results p.9472",
+          "source_context": "pDCs (Flt3 and Siglech)"
+        },
+        {
+          "gene": "Siglech",
+          "evidence_level": "implied",
+          "source_section": "Results p.9472",
+          "source_context": "pDCs (Flt3 and Siglech)"
+        }
+      ]
+    },
+    {
+      "cell_type": "mast",
+      "subtype": null,
+      "species": "rat",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cma1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9469 & Fig.3G",
+          "source_context": "a small cluster of mast cells (Cma1 and Mcpt8)"
+        },
+        {
+          "gene": "Mcpt8",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9469 & Fig.3G",
+          "source_context": "a small cluster of mast cells (Cma1 and Mcpt8)"
+        }
+      ]
+    },
+    {
+      "cell_type": "nonmyelinating SCs",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Ccl11",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "We found considerable transcriptional differences between mySCs and nmSCs. Although nmSCs clearly expressed SC lineage markers by transcriptomics, ISH, and IHC (Figs. 1D and 2 B and C), this cluster expressed multiple transcripts (e.g., Ccl11), including a specific transcription factor (Osr2) that had not been previously associated with PNS glia cells."
+        },
+        {
+          "gene": "Osr2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "this cluster expressed multiple transcripts (e.g., Ccl11), including a specific transcription factor (Osr2) that had not been previously associated with PNS glia cells."
+        },
+        {
+          "gene": "Tcf4",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "we also identified a number of genes that were previously associated with myelination, but showed the highest expression in nmSCs rather than mySCs (e.g., Tcf4, Spry2, and Ebf1)."
+        },
+        {
+          "gene": "Spry2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "we also identified a number of genes that were previously associated with myelination, but showed the highest expression in nmSCs rather than mySCs (e.g., Tcf4, Spry2, and Ebf1)."
+        },
+        {
+          "gene": "Ebf1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "we also identified a number of genes that were previously associated with myelination, but showed the highest expression in nmSCs rather than mySCs (e.g., Tcf4, Spry2, and Ebf1)."
+        }
+      ]
+    },
+    {
+      "cell_type": "nerve-associated fibroblasts",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "nerve-associated myeloid cells",
+      "subtype": "Pf4-expressing macrophages",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pf4",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "We speculate that endoneurial Pf4-expressing vs. Cx3cr1-expressing macrophages constitute PNS-resident myeloid lineage cells of different source and ontogenetic origin."
+        }
+      ]
+    },
+    {
+      "cell_type": "nerve-associated myeloid cells",
+      "subtype": "Cx3cr1-expressing macrophages",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cx3cr1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "We speculate that endoneurial Pf4-expressing vs. Cx3cr1-expressing macrophages constitute PNS-resident myeloid lineage cells of different source and ontogenetic origin."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": true,
+      "markers": [
+        {
+          "gene": "SOX10",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        },
+        {
+          "gene": "MBP",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CD34",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        }
+      ]
+    },
+    {
+      "cell_type": "Pericyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        }
+      ]
+    },
+    {
+      "cell_type": "Leukocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CD45",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cell",
+      "subtype": "CD4+ T cell",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cell",
+      "subtype": "CD8+ T cell",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_level": "implied",
+          "source_section": "Methods: Immunofluorescence",
+          "source_context": "The following antibodies were used: CD45, CD68, CD8, CD4, CD34, SMA/ACTA2, SOX10, and MBP."
+        }
+      ]
+    }
+  ]
+}

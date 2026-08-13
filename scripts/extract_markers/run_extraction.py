@@ -48,9 +48,10 @@ PROMPT_FILE = Path(__file__).parent / "prompts" / "extract_markers.txt"
 DEFAULT_MAX_CHARS = 80_000
 
 
-def read_prompt() -> str:
+def read_prompt(prompt_path: Optional[Path] = None) -> str:
     """读取提示词模板"""
-    with open(PROMPT_FILE, "r", encoding="utf-8") as f:
+    path = prompt_path or PROMPT_FILE
+    with open(path, "r", encoding="utf-8") as f:
         return f.read()
 
 
@@ -125,23 +126,28 @@ def load_paper_map(map_path: Path) -> dict[str, str]:
 def convert_pdf_to_text(pdf_path: Path) -> Optional[str]:
     """将 PDF 转换为纯文本
 
-    优先使用 markitdown，回退到 PyPDF2 → pdfminer
+    优先使用 markitdown（小文件），回退到 PyPDF2 → pdfminer
+    大文件(>20MB)跳过 markitdown 直接用 PyPDF2，避免长时间卡住
     """
     text = None
+    file_size_mb = pdf_path.stat().st_size / 1024 / 1024
 
-    # 尝试 markitdown
-    try:
-        from markitdown import MarkItDown
-        md = MarkItDown()
-        result = md.convert(str(pdf_path))
-        text_content = result.text_content
-        if text_content and len(text_content) > 100:
-            logger.info("  使用 markitdown 转换成功")
-            return text_content
-    except ImportError:
-        logger.info("  markitdown 未安装，尝试回退方案")
-    except Exception as e:
-        logger.warning(f"  markitdown 转换失败: {e}")
+    # 大文件跳过 markitdown（太慢）
+    if file_size_mb <= 20:
+        try:
+            from markitdown import MarkItDown
+            md = MarkItDown()
+            result = md.convert(str(pdf_path))
+            text_content = result.text_content
+            if text_content and len(text_content) > 100:
+                logger.info(f"  使用 markitdown 转换成功 ({file_size_mb:.1f} MB)")
+                return text_content
+        except ImportError:
+            logger.info("  markitdown 未安装，尝试回退方案")
+        except Exception as e:
+            logger.warning(f"  markitdown 转换失败: {e}")
+    else:
+        logger.info(f"  文件较大 ({file_size_mb:.1f} MB)，跳过 markitdown，直接用 PyPDF2")
 
     # 回退 PyPDF2
     try:
@@ -177,58 +183,107 @@ def convert_pdf_to_text(pdf_path: Path) -> Optional[str]:
     return text
 
 
+# 章节标题关键词（小写匹配）
+_SECTION_KEYWORDS = [
+    "abstract", "introduction", "results", "discussion", "methods",
+    "materials and methods", "materials & methods", "experimental procedures",
+    "figure legends", "figure legends", "supplementary", "references",
+    "acknowledgments", "acknowledgements", "author contributions",
+    "conflict of interest", "competing interests", "data availability",
+    "online content", "ethics statement", "consent", "funding",
+    "supplementary information", "additional information",
+    "star methods", "key resources table", "resource availability",
+    "methodology", "materials", "experimental design",
+]
+
+# 应过滤掉的章节（不含 marker 信息）
+_SKIP_SECTIONS = {
+    "references", "acknowledgments", "acknowledgements", "author contributions",
+    "conflict of interest", "competing interests", "data availability",
+    "funding", "consent", "ethics statement", "resource availability",
+    "additional information", "supplementary information",
+}
+
+
+def _is_section_header(line: str) -> Optional[str]:
+    """判断一行是否是章节标题，返回归一化后的章节名或 None
+
+    匹配策略（按优先级）：
+    1. markdown 标题: # / ## / ### 开头
+    2. 独立行且仅由章节关键词构成（允许尾部冒号/数字/点号）
+    3. 全大写的短行（≤6 词）且匹配关键词
+    """
+    stripped = line.strip()
+    if not stripped or len(stripped) > 80:
+        return None
+
+    lower = stripped.lower().rstrip(":.").strip()
+
+    # 策略 1: markdown 标题
+    md_match = re.match(r"^#{1,4}\s+(.+)", stripped)
+    if md_match:
+        header_text = md_match.group(1).strip().lower().rstrip(":.").strip()
+        for kw in _SECTION_KEYWORDS:
+            if header_text == kw or header_text.startswith(kw):
+                return kw
+
+    # 策略 2: 独立行精确匹配关键词（允许 "Methods 2" 等尾部编号）
+    for kw in _SECTION_KEYWORDS:
+        if lower == kw or re.match(rf"^{re.escape(kw)}\s*[\d.]*(\s|$)", lower):
+            return kw
+
+    # 策略 3: 全大写短行匹配（Nature/Cell 风格：RESULTS / METHODS）
+    if stripped.isupper() and len(stripped.split()) <= 6:
+        for kw in _SECTION_KEYWORDS:
+            if lower.startswith(kw):
+                return kw
+
+    return None
+
+
 def split_into_chunks(text: str, max_chars: int = DEFAULT_MAX_CHARS) -> list[tuple[str, str]]:
     """按章节将文本分块
 
     返回: [(section_name, section_content), ...]
-    """
-    # 尝试识别常见章节标题
-    section_patterns = [
-        r"(?i)^#{1,3}\s*(Abstract|Introduction|Results|Discussion|Methods"
-        r"|Materials and Methods|Experimental Procedures|Figure Legends?"
-        r"|Supplementary|References|Acknowledgments)\b",
-        r"(?i)^(Abstract|Introduction|Results|Discussion|Methods"
-        r"|Materials and Methods|Figure Legends?|Supplementary)\s*\n",
-    ]
 
+    改进点：
+    - 支持 markdown 标题、独立行标题、全大写标题三种识别策略
+    - 自动过滤 References / Acknowledgments / Data availability 等无用章节
+    - 大块按段落二次切分，不超过 max_chars
+    """
     chunks: list[tuple[str, str]] = []
     current_section = "preamble"
     current_lines: list[str] = []
 
     for line in text.split("\n"):
-        is_section_header = False
-        for pattern in section_patterns:
-            m = re.match(pattern, line.strip())
-            if m:
-                if current_lines:
-                    content = "\n".join(current_lines).strip()
-                    if content:
-                        chunks.append((current_section, content))
-                current_section = m.group(1) if m.lastindex else m.group(0).strip()
-                current_lines = []
-                is_section_header = True
-                break
-        if not is_section_header:
+        section_name = _is_section_header(line)
+        if section_name:
+            # 保存当前块
+            if current_lines:
+                content = "\n".join(current_lines).strip()
+                if content:
+                    chunks.append((current_section, content))
+            current_section = section_name
+            current_lines = []
+        else:
             current_lines.append(line)
 
+    # 保存最后一块
     if current_lines:
         content = "\n".join(current_lines).strip()
         if content:
             chunks.append((current_section, content))
 
     # 过滤无用章节
-    skip_sections = {"References", "Acknowledgments", "Author contributions",
-                     "Conflict of interest", "Data availability"}
     filtered = [(name, content) for name, content in chunks
-                if name.lower() not in {s.lower() for s in skip_sections}]
+                if name.lower() not in _SKIP_SECTIONS]
 
-    # 如果按章节分块后还有大块超过 max_chars，则按字符数硬切
+    # 大块按段落二次切分
     result: list[tuple[str, str]] = []
     for name, content in filtered:
         if len(content) <= max_chars:
             result.append((name, content))
         else:
-            # 按段落切
             paragraphs = content.split("\n\n")
             sub_parts: list[str] = []
             sub_size = 0
@@ -320,8 +375,15 @@ def merge_json_results(results: list[Optional[str]]) -> dict:
                 cell_type_map[ct_key] = {
                     "cell_type": ct["cell_type"],
                     "subtype": ct.get("subtype"),
+                    "species": ct.get("species"),
+                    "is_pns_cell": ct.get("is_pns_cell"),
                     "markers": [],
                 }
+            else:
+                # 补洞：若已有记录缺 species/is_pns_cell，用新值补上
+                for k in ("species", "is_pns_cell"):
+                    if not cell_type_map[ct_key].get(k) and ct.get(k):
+                        cell_type_map[ct_key][k] = ct.get(k)
 
             # 去重 markers
             existing_genes: dict[str, int] = {}
@@ -382,7 +444,8 @@ def process_paper(paper_id: str, pdf_path: Path, args: argparse.Namespace) -> bo
 
     # 3. 对每块调用 LLM
     logger.info("  [3/4] 调用 LLM 提取...")
-    prompt = read_prompt()
+    prompt_path = Path(args.prompt_file) if args.prompt_file else None
+    prompt = read_prompt(prompt_path)
     results: list[Optional[str]] = []
 
     for idx, (section_name, section_content) in enumerate(chunks):
@@ -439,6 +502,8 @@ def main() -> None:
     parser.add_argument("--model", default=None,
                         help="LLM 模型名 (默认: 读取 MARKER_LLM_MODEL 环境变量)")
     parser.add_argument("--api-key", help="LLM API Key (默认: MARKER_LLM_API_KEY 环境变量)")
+    parser.add_argument("--prompt-file", default=None,
+                        help="提示词模板文件路径 (默认: prompts/extract_markers.txt)")
     # 单文件模式
     parser.add_argument("--pdf", help="直接指定单个 PDF 文件路径")
     # 扁平目录模式

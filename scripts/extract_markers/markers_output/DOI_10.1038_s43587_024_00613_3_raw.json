@@ -1,0 +1,232 @@
+{
+  "paper_id": "DOI_10.1038_s43587_024_00613_3",
+  "cell_types": [
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "Myofiber",
+      "subtype": "MF-I",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH7",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Mechanisms countering fast-twitch MF loss in aging' (Fig.4b)",
+          "source_context": "For the MF, we used immunofluorescence staining of myosin heavy chain proteins (Fig. 4b) followed by automatic image analysis (Extended Data Fig. 6a,b and Methods) to distinguish slow-twitch (type I, MYH7+), fast-twitch (type IIA, MYH2+, and type IIX, MYH1+) and hybrid (type IIA–IIX and MYH2+MYH1+) MFs."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofiber",
+      "subtype": "MF-IIA",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH2",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Mechanisms countering fast-twitch MF loss in aging' (Fig.4b)",
+          "source_context": "For the MF, we used immunofluorescence staining of myosin heavy chain proteins (Fig. 4b) followed by automatic image analysis (Extended Data Fig. 6a,b and Methods) to distinguish slow-twitch (type I, MYH7+), fast-twitch (type IIA, MYH2+, and type IIX, MYH1+) and hybrid (type IIA–IIX and MYH2+MYH1+) MFs."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofiber",
+      "subtype": "MF-IIX",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH1",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Mechanisms countering fast-twitch MF loss in aging' (Fig.4b)",
+          "source_context": "For the MF, we used immunofluorescence staining of myosin heavy chain proteins (Fig. 4b) followed by automatic image analysis (Extended Data Fig. 6a,b and Methods) to distinguish slow-twitch (type I, MYH7+), fast-twitch (type IIA, MYH2+, and type IIX, MYH1+) and hybrid (type IIA–IIX and MYH2+MYH1+) MFs."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myocyte",
+      "subtype": "MYH8+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH8",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3c)",
+          "source_context": "Among single-cell populations, we observed two myocyte states marked by MYH8 and RASA4, respectively, and five MF fragment populations (Extended Data Fig. 4c,d)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myocyte",
+      "subtype": "RASA4+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "RASA4",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3c)",
+          "source_context": "Among single-cell populations, we observed two myocyte states marked by MYH8 and RASA4, respectively, and five MF fragment populations (Extended Data Fig. 4c,d)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myonucleus",
+      "subtype": "FAM189A2+ (I-FAM/II-FAM)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FAM189A2",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3f)",
+          "source_context": "we identified reference MF-I and MF-II nuclei as well as paired FAM189A2+ (I-FAM and II-FAM) and OTUD1+ (I-OTU and II-OTU) nuclei states"
+        },
+        {
+          "gene": "NAMPT",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3f)",
+          "source_context": "Generally, the paired FAM189A2+ nuclei (I-FAM and II-FAM) showed expression of the same marker genes, including NAMPT, which encodes an enzyme involved in NAD+ metabolism, as well as stress response genes STAT3 and SOCS3, which are activated by cytokine signaling (Fig. 3f)."
+        },
+        {
+          "gene": "STAT3",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3f)",
+          "source_context": "Generally, the paired FAM189A2+ nuclei (I-FAM and II-FAM) showed expression of the same marker genes, including NAMPT, which encodes an enzyme involved in NAD+ metabolism, as well as stress response genes STAT3 and SOCS3, which are activated by cytokine signaling (Fig. 3f)."
+        },
+        {
+          "gene": "SOCS3",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3f)",
+          "source_context": "Generally, the paired FAM189A2+ nuclei (I-FAM and II-FAM) showed expression of the same marker genes, including NAMPT, which encodes an enzyme involved in NAD+ metabolism, as well as stress response genes STAT3 and SOCS3, which are activated by cytokine signaling (Fig. 3f)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myonucleus",
+      "subtype": "OTUD1+ (I-OTU/II-OTU)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OTUD1",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3h)",
+          "source_context": "However, they still showed upregulation of the same set of genes (OTUD1, CREB5, XIRP1, DNAJA4, TNFRSF12A and others), involved in muscle development, differentiation and response to damage, as compared to the baseline MF-I and MF-II states (Fig. 3h and Extended Data Fig. 4g)."
+        },
+        {
+          "gene": "CREB5",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3h)",
+          "source_context": "However, they still showed upregulation of the same set of genes (OTUD1, CREB5, XIRP1, DNAJA4, TNFRSF12A and others), involved in muscle development, differentiation and response to damage, as compared to the baseline MF-I and MF-II states (Fig. 3h and Extended Data Fig. 4g)."
+        },
+        {
+          "gene": "XIRP1",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3h)",
+          "source_context": "However, they still showed upregulation of the same set of genes (OTUD1, CREB5, XIRP1, DNAJA4, TNFRSF12A and others), involved in muscle development, differentiation and response to damage, as compared to the baseline MF-I and MF-II states (Fig. 3h and Extended Data Fig. 4g)."
+        },
+        {
+          "gene": "DNAJA4",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3h)",
+          "source_context": "However, they still showed upregulation of the same set of genes (OTUD1, CREB5, XIRP1, DNAJA4, TNFRSF12A and others), involved in muscle development, differentiation and response to damage, as compared to the baseline MF-I and MF-II states (Fig. 3h and Extended Data Fig. 4g)."
+        },
+        {
+          "gene": "TNFRSF12A",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3h)",
+          "source_context": "However, they still showed upregulation of the same set of genes (OTUD1, CREB5, XIRP1, DNAJA4, TNFRSF12A and others), involved in muscle development, differentiation and response to damage, as compared to the baseline MF-I and MF-II states (Fig. 3h and Extended Data Fig. 4g)."
+        }
+      ]
+    },
+    {
+      "cell_type": "NMJ accessory",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GRIA2",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3j)",
+          "source_context": "Among NMJ accessory marker genes were GRIA2, encoding the key subunit of ionotropic glutamate receptor; EFNA5, encoding an essential ligand involved in axon guidance to the myotube during limb development; and SORBS2, encoding an adapter protein involved in AChR cluster formation in mouse."
+        },
+        {
+          "gene": "EFNA5",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3j)",
+          "source_context": "Among NMJ accessory marker genes were GRIA2, encoding the key subunit of ionotropic glutamate receptor; EFNA5, encoding an essential ligand involved in axon guidance to the myotube during limb development; and SORBS2, encoding an adapter protein involved in AChR cluster formation in mouse."
+        },
+        {
+          "gene": "SORBS2",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3j)",
+          "source_context": "Among NMJ accessory marker genes were GRIA2, encoding the key subunit of ionotropic glutamate receptor; EFNA5, encoding an essential ligand involved in axon guidance to the myotube during limb development; and SORBS2, encoding an adapter protein involved in AChR cluster formation in mouse."
+        }
+      ]
+    },
+    {
+      "cell_type": "NMJ",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CHRNE",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'Integrated single-cell and single-nucleus MF atlas' (Fig.3k)",
+          "source_context": "By co-staining CHRNE (NMJ nuclei) and GRIA2 (NMJ accessory) with RNAscope probes, we observed groups of nuclei with co-localization of these transcripts in aged donor tissue sections, which were rare in young ones (Fig. 3k)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "M2_LYVE1+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_level": "explicit",
+          "source_section": "Results, section 'The human skeletal muscle microenvironment in aging' (Fig.5g)",
+          "source_context": "At the same time, anti-inflammatory M2-like LYVE1+ macrophages detected with LYVE1 RNAscope probes decreased with age (Fig. 5g,h), consistent with a recent mouse study showing a decrease in anti-inflammatory signals in the aged muscle."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myonuclei",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH1",
+          "evidence_level": "explicit",
+          "source_section": "Computational methods - Myonuclei typing",
+          "source_context": "Myonuclei typing was performed using single-nucleus expression measurements of MYH1, MYH2 and MYH7, which were scaled by library size and log transformed; a minimum threshold of 0.5 was used to classify myonuclei as expressing a particular gene."
+        },
+        {
+          "gene": "MYH2",
+          "evidence_level": "explicit",
+          "source_section": "Computational methods - Myonuclei typing",
+          "source_context": "Myonuclei typing was performed using single-nucleus expression measurements of MYH1, MYH2 and MYH7, which were scaled by library size and log transformed; a minimum threshold of 0.5 was used to classify myonuclei as expressing a particular gene."
+        },
+        {
+          "gene": "MYH7",
+          "evidence_level": "explicit",
+          "source_section": "Computational methods - Myonuclei typing",
+          "source_context": "Myonuclei typing was performed using single-nucleus expression measurements of MYH1, MYH2 and MYH7, which were scaled by library size and log transformed; a minimum threshold of 0.5 was used to classify myonuclei as expressing a particular gene."
+        }
+      ]
+    }
+  ]
+}

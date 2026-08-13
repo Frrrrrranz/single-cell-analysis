@@ -1,0 +1,12 @@
+﻿cell_type,subtype,species,is_pns_cell,gene_symbol,evidence_level,source_section,source_context,review_status,notes
+CA4+ capillary,,human,false,CA4,implied,Fig. 2d,Cell type name in Fig. 2d: CA4+ capillary,pending,
+CD4,,human,false,CD4,implied,Fig. 3,Cell type name in Fig. 3: CD4,pending,
+CD8/NKT,,human,false,CD8,implied,Fig. 3,Cell type name in Fig. 3: CD8/NKT,pending,
+KRT5−/KRT17+,,human,false,KRT17,implied,Fig. 3,Cell type name in Fig. 3: KRT5−/KRT17+,pending,
+Macrophage − SPP1+,,human,false,SPP1,implied,Fig. 2c,Cell type name in Fig. 2c: Macrophage − SPP1+,pending,
+Secretory—SCGB1A1+/MUC5B+,,human,false,MUC5B,implied,Fig. 3,Cell type name in Fig. 3: Secretory—SCGB1A1+/MUC5B+,pending,
+Secretory—SCGB1A1+/MUC5B+,,human,false,SCGB1A1,implied,Fig. 3,Cell type name in Fig. 3: Secretory—SCGB1A1+/MUC5B+,pending,
+Secretory—SCGB1A1+/SCGB3A2+,,human,false,SCGB1A1,implied,Fig. 3,Cell type name in Fig. 3: Secretory—SCGB1A1+/SCGB3A2+,pending,
+Secretory—SCGB1A1+/SCGB3A2+,,human,false,SCGB3A2,implied,Fig. 3,Cell type name in Fig. 3: Secretory—SCGB1A1+/SCGB3A2+,pending,
+Secretory—SCGB3A2+,,human,false,SCGB3A2,implied,Fig. 3,Cell type name in Fig. 3: Secretory—SCGB3A2+,pending,
+WNT2+ FB,,human,false,WNT2,implied,Fig. 2c,Cell type name in Fig. 2c: WNT2+ FB,pending,

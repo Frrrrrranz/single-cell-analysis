@@ -1,0 +1,45 @@
+{
+  "paper_id": "DOI_10.1038_s41556_023_01337_z",
+  "cell_types": [
+    {
+      "cell_type": "intestinal stem cell (ISC)",
+      "subtype": "region 1",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Gkn3",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 8e",
+          "source_context": "Expression of ISC region 1 genes (Gkn3 and Hmgcs2) and ISC region 3 genes (Bex1 and Hoxb6) across ISCs from 15 segments collected from the small intestines of mice fed chow, high-carbohydrate, or high-fat diets as indicated by colour."
+        },
+        {
+          "gene": "Hmgcs2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 8e",
+          "source_context": "Expression of ISC region 1 genes (Gkn3 and Hmgcs2) and ISC region 3 genes (Bex1 and Hoxb6) across ISCs from 15 segments collected from the small intestines of mice fed chow, high-carbohydrate, or high-fat diets as indicated by colour."
+        }
+      ]
+    },
+    {
+      "cell_type": "intestinal stem cell (ISC)",
+      "subtype": "region 3",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Bex1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 8e",
+          "source_context": "Expression of ISC region 1 genes (Gkn3 and Hmgcs2) and ISC region 3 genes (Bex1 and Hoxb6) across ISCs from 15 segments collected from the small intestines of mice fed chow, high-carbohydrate, or high-fat diets as indicated by colour."
+        },
+        {
+          "gene": "Hoxb6",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 8e",
+          "source_context": "Expression of ISC region 1 genes (Gkn3 and Hmgcs2) and ISC region 3 genes (Bex1 and Hoxb6) across ISCs from 15 segments collected from the small intestines of mice fed chow, high-carbohydrate, or high-fat diets as indicated by colour."
+        }
+      ]
+    }
+  ]
+}

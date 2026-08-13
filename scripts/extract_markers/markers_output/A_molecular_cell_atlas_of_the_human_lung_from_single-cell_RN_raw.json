@@ -1,0 +1,973 @@
+{
+  "paper_id": "A_molecular_cell_atlas_of_the_human_lung_from_single-cell_RN",
+  "cell_types": [
+    {
+      "cell_type": "Alveolar type 2 cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPA1",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+HHIP+CA2+) expressed higher levels of some canonical AT2 markers (SFTPA1, SFTPC and ETV5)"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+HHIP+CA2+) expressed higher levels of some canonical AT2 markers (SFTPA1, SFTPC and ETV5)"
+        },
+        {
+          "gene": "ETV5",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+HHIP+CA2+) expressed higher levels of some canonical AT2 markers (SFTPA1, SFTPC and ETV5)"
+        },
+        {
+          "gene": "WIF1",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+HHIP+CA2+) expressed higher levels of some canonical AT2 markers (SFTPA1, SFTPC and ETV5) and selectively expressed inhibitors of Wnt (WIF1) and Hedgehog (HHIP) signalling"
+        },
+        {
+          "gene": "HHIP",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+HHIP+CA2+) expressed higher levels of some canonical AT2 markers (SFTPA1, SFTPC and ETV5) and selectively expressed inhibitors of Wnt (WIF1) and Hedgehog (HHIP) signalling"
+        },
+        {
+          "gene": "CA2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.1c",
+          "source_context": "Dot plot of AT2 marker expression; CA2 is shown as a marker in the dot plot"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2-signalling cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT5A",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other, tenfold less-abundant cluster (AT2-signalling cells) selectively expressed genes involved in Wnt signalling (WNT5A, LRP5, CTNNBIP and TCF7L2) and detoxification (CP, GSTA1 and CYP4B1)"
+        },
+        {
+          "gene": "LRP5",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other, tenfold less-abundant cluster (AT2-signalling cells) selectively expressed genes involved in Wnt signalling (WNT5A, LRP5, CTNNBIP and TCF7L2) and detoxification (CP, GSTA1 and CYP4B1)"
+        },
+        {
+          "gene": "CTNNBIP",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other, tenfold less-abundant cluster (AT2-signalling cells) selectively expressed genes involved in Wnt signalling (WNT5A, LRP5, CTNNBIP and TCF7L2) and detoxification (CP, GSTA1 and CYP4B1)"
+        },
+        {
+          "gene": "TCF7L2",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other, tenfold less-abundant cluster (AT2-signalling cells) selectively expressed genes involved in Wnt signalling (WNT5A, LRP5, CTNNBIP and TCF7L2) and detoxification (CP, GSTA1 and CYP4B1)"
+        },
+        {
+          "gene": "CP",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other, tenfold less-abundant cluster (AT2-signalling cells) selectively expressed genes involved in Wnt signalling (WNT5A, LRP5, CTNNBIP and TCF7L2) and detoxification (CP, GSTA1 and CYP4B1)"
+        },
+        {
+          "gene": "GSTA1",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other, tenfold less-abundant cluster (AT2-signalling cells) selectively expressed genes involved in Wnt signalling (WNT5A, LRP5, CTNNBIP and TCF7L2) and detoxification (CP, GSTA1 and CYP4B1)"
+        },
+        {
+          "gene": "CYP4B1",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other, tenfold less-abundant cluster (AT2-signalling cells) selectively expressed genes involved in Wnt signalling (WNT5A, LRP5, CTNNBIP and TCF7L2) and detoxification (CP, GSTA1 and CYP4B1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Alveolar fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BSG",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Two clusters expressed classical fibroblast markers (BSG and COL1A2) (Fig. 1e) but one (SPINT2+FGFR4+GPC3+) localized to alveoli (‘alveolar fibroblasts’)"
+        },
+        {
+          "gene": "COL1A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Two clusters expressed classical fibroblast markers (BSG and COL1A2) (Fig. 1e) but one (SPINT2+FGFR4+GPC3+) localized to alveoli (‘alveolar fibroblasts’)"
+        },
+        {
+          "gene": "SPINT2",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "one (SPINT2+FGFR4+GPC3+) localized to alveoli (‘alveolar fibroblasts’)"
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "one (SPINT2+FGFR4+GPC3+) localized to alveoli (‘alveolar fibroblasts’)"
+        },
+        {
+          "gene": "GPC3",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "one (SPINT2+FGFR4+GPC3+) localized to alveoli (‘alveolar fibroblasts’)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Adventitial fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BSG",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Two clusters expressed classical fibroblast markers (BSG and COL1A2) (Fig. 1e) but one (SPINT2+FGFR4+GPC3+) localized to alveoli (‘alveolar fibroblasts’) and the other (SFRP2+PI16+SERPINF1+) to vascular adventitia (‘adventitial fibroblasts’)"
+        },
+        {
+          "gene": "COL1A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Two clusters expressed classical fibroblast markers (BSG and COL1A2) (Fig. 1e) but one (SPINT2+FGFR4+GPC3+) localized to alveoli (‘alveolar fibroblasts’) and the other (SFRP2+PI16+SERPINF1+) to vascular adventitia (‘adventitial fibroblasts’)"
+        },
+        {
+          "gene": "SFRP2",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "the other (SFRP2+PI16+SERPINF1+) to vascular adventitia (‘adventitial fibroblasts’)"
+        },
+        {
+          "gene": "PI16",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "the other (SFRP2+PI16+SERPINF1+) to vascular adventitia (‘adventitial fibroblasts’)"
+        },
+        {
+          "gene": "SERPINF1",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "the other (SFRP2+PI16+SERPINF1+) to vascular adventitia (‘adventitial fibroblasts’)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Two stromal clusters were enriched for ACTA2, a canonical marker of myofibroblasts (Fig. 1e)"
+        },
+        {
+          "gene": "WIF1",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+FGF18+ASPN+) is classical myofibroblasts"
+        },
+        {
+          "gene": "FGF18",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+FGF18+ASPN+) is classical myofibroblasts"
+        },
+        {
+          "gene": "ASPN",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "One cluster (WIF1+FGF18+ASPN+) is classical myofibroblasts"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibromyocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH11",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other (‘fibromyocytes’) showed higher expression of contractile genes (MYH11, CNN1 and TAGLN)"
+        },
+        {
+          "gene": "CNN1",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other (‘fibromyocytes’) showed higher expression of contractile genes (MYH11, CNN1 and TAGLN)"
+        },
+        {
+          "gene": "TAGLN",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other (‘fibromyocytes’) showed higher expression of contractile genes (MYH11, CNN1 and TAGLN)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Bronchial vessel endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VWA1",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Thus, bronchial endothelial cells are distinct from their counterparts in the pulmonary circulation, distinguished by matrix (VWA1 and HSPG2), fenestrated morphology (PLVAP) and cell cycle-associated (MYC and HBEGF) genes"
+        },
+        {
+          "gene": "HSPG2",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Thus, bronchial endothelial cells are distinct from their counterparts in the pulmonary circulation, distinguished by matrix (VWA1 and HSPG2), fenestrated morphology (PLVAP) and cell cycle-associated (MYC and HBEGF) genes"
+        },
+        {
+          "gene": "PLVAP",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Thus, bronchial endothelial cells are distinct from their counterparts in the pulmonary circulation, distinguished by matrix (VWA1 and HSPG2), fenestrated morphology (PLVAP) and cell cycle-associated (MYC and HBEGF) genes"
+        },
+        {
+          "gene": "MYC",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Thus, bronchial endothelial cells are distinct from their counterparts in the pulmonary circulation, distinguished by matrix (VWA1 and HSPG2), fenestrated morphology (PLVAP) and cell cycle-associated (MYC and HBEGF) genes"
+        },
+        {
+          "gene": "HBEGF",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Thus, bronchial endothelial cells are distinct from their counterparts in the pulmonary circulation, distinguished by matrix (VWA1 and HSPG2), fenestrated morphology (PLVAP) and cell cycle-associated (MYC and HBEGF) genes"
+        }
+      ]
+    },
+    {
+      "cell_type": "IGSF21+ dendritic cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGSF21",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "This included three novel lung dendritic populations: IGSF21+ and rare EREG+ dendritic cells express asthma genes (CCL2, CCL13 and IGSF21) and developmental signals (EREG, VEGFA, AREG), respectively"
+        },
+        {
+          "gene": "CCL2",
+          "evidence_level": "implied",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "IGSF21+ and rare EREG+ dendritic cells express asthma genes (CCL2, CCL13 and IGSF21)"
+        },
+        {
+          "gene": "CCL13",
+          "evidence_level": "implied",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "IGSF21+ and rare EREG+ dendritic cells express asthma genes (CCL2, CCL13 and IGSF21)"
+        }
+      ]
+    },
+    {
+      "cell_type": "EREG+ dendritic cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EREG",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "IGSF21+ and rare EREG+ dendritic cells express asthma genes (CCL2, CCL13 and IGSF21) and developmental signals (EREG, VEGFA, AREG), respectively"
+        },
+        {
+          "gene": "VEGFA",
+          "evidence_level": "implied",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "developmental signals (EREG, VEGFA, AREG)"
+        },
+        {
+          "gene": "AREG",
+          "evidence_level": "implied",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "developmental signals (EREG, VEGFA, AREG)"
+        }
+      ]
+    },
+    {
+      "cell_type": "TREM2+ dendritic cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TREM2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "TREM2+ dendritic cells localize to vessels and alveoli and express lipid machinery (APOC1, APOE and CYP27A1)"
+        },
+        {
+          "gene": "APOC1",
+          "evidence_level": "implied",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "TREM2+ dendritic cells localize to vessels and alveoli and express lipid machinery (APOC1, APOE and CYP27A1)"
+        },
+        {
+          "gene": "APOE",
+          "evidence_level": "implied",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "TREM2+ dendritic cells localize to vessels and alveoli and express lipid machinery (APOC1, APOE and CYP27A1)"
+        },
+        {
+          "gene": "CYP27A1",
+          "evidence_level": "implied",
+          "source_section": "Results: Lung immune cell residency signatures",
+          "source_context": "TREM2+ dendritic cells localize to vessels and alveoli and express lipid machinery (APOC1, APOE and CYP27A1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Basal cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Another cluster (differentiating basal cells) had reduced expression of KRT5 and increased expression of HES1, KRT7 and SCGB3A2"
+        },
+        {
+          "gene": "ALOX15",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other basal cell clusters are distinguished by hundreds of genes, which suggests that they are molecularly distinct cell types that differ in hormone production (ALOX15, ADH7, SNCA) and adhesion (POSTN, ISLR, PCDH7)"
+        },
+        {
+          "gene": "ADH7",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other basal cell clusters are distinguished by hundreds of genes, which suggests that they are molecularly distinct cell types that differ in hormone production (ALOX15, ADH7, SNCA) and adhesion (POSTN, ISLR, PCDH7)"
+        },
+        {
+          "gene": "SNCA",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other basal cell clusters are distinguished by hundreds of genes, which suggests that they are molecularly distinct cell types that differ in hormone production (ALOX15, ADH7, SNCA) and adhesion (POSTN, ISLR, PCDH7)"
+        },
+        {
+          "gene": "POSTN",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other basal cell clusters are distinguished by hundreds of genes, which suggests that they are molecularly distinct cell types that differ in hormone production (ALOX15, ADH7, SNCA) and adhesion (POSTN, ISLR, PCDH7)"
+        },
+        {
+          "gene": "ISLR",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other basal cell clusters are distinguished by hundreds of genes, which suggests that they are molecularly distinct cell types that differ in hormone production (ALOX15, ADH7, SNCA) and adhesion (POSTN, ISLR, PCDH7)"
+        },
+        {
+          "gene": "PCDH7",
+          "evidence_level": "implied",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "The other basal cell clusters are distinguished by hundreds of genes, which suggests that they are molecularly distinct cell types that differ in hormone production (ALOX15, ADH7, SNCA) and adhesion (POSTN, ISLR, PCDH7)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Differentiating basal cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HES1",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Another cluster (differentiating basal cells) had reduced expression of KRT5 and increased expression of HES1, KRT7 and SCGB3A2"
+        },
+        {
+          "gene": "KRT7",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Another cluster (differentiating basal cells) had reduced expression of KRT5 and increased expression of HES1, KRT7 and SCGB3A2"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: New lung cell types, subtypes and states",
+          "source_context": "Another cluster (differentiating basal cells) had reduced expression of KRT5 and increased expression of HES1, KRT7 and SCGB3A2"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1 cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYRF",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell markers, regulators and interactions",
+          "source_context": "These include what may be long-sought master regulators of AT1 cells (for example, MYRF), and of pericytes (TBX5)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Pericyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TBX5",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell markers, regulators and interactions",
+          "source_context": "These include what may be long-sought master regulators of AT1 cells (for example, MYRF), and of pericytes (TBX5)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPDEF",
+          "evidence_level": "explicit",
+          "source_section": "Results: Evolution of cell types and expression",
+          "source_context": "despite conserved expression of canonical markers and master regulator SPDEF"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5B",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.11c",
+          "source_context": "Dot plot of expression of canonical goblet cell markers MUC5B and MUC5AC and transcription factor SPDEF in mouse (left) and human (right) goblet cells."
+        },
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.11c",
+          "source_context": "Dot plot of expression of canonical goblet cell markers MUC5B and MUC5AC and transcription factor SPDEF in mouse (left) and human (right) goblet cells."
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.11c",
+          "source_context": "Dot plot of expression of canonical goblet cell markers MUC5B and MUC5AC and transcription factor SPDEF in mouse (left) and human (right) goblet cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AGER",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.5c",
+          "source_context": "Alveolar section of human lung probed by smFISH for AT1 marker AGER and transcription factor MYRF."
+        },
+        {
+          "gene": "MYRF",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Fig.5c",
+          "source_context": "MYRF is selectively expressed in AT1 cells (arrowheads; 97% of MYRF+ cells were AGER+, n = 250 scored cells)."
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.8e",
+          "source_context": "smFISH of alveolar section of adult human lung probed for COPD or emphysema gene SERPINA1 and AT2 marker SFTPC, and DAPI."
+        },
+        {
+          "gene": "HHIP",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3i",
+          "source_context": "AT2 selective markers include negative regulators of Hedgehog and Wnt signalling pathways (for example, HHIP and WIF1, highlighted red)."
+        },
+        {
+          "gene": "WIF1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3i",
+          "source_context": "AT2 selective markers include negative regulators of Hedgehog and Wnt signalling pathways (for example, HHIP and WIF1, highlighted red)."
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2-signalling",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT5A",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3i",
+          "source_context": "AT2-signalling selective markers include Wnt ligands, receptors and transcription factors (for example, WNT5A, LRP5 and TFC7L2 highlighted green)."
+        },
+        {
+          "gene": "LRP5",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3i",
+          "source_context": "AT2-signalling selective markers include Wnt ligands, receptors and transcription factors (for example, WNT5A, LRP5 and TFC7L2 highlighted green)."
+        },
+        {
+          "gene": "TFC7L2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3i",
+          "source_context": "AT2-signalling selective markers include Wnt ligands, receptors and transcription factors (for example, WNT5A, LRP5 and TFC7L2 highlighted green)."
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C20orf85",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3h",
+          "source_context": "smFISH and quantification of human pseudostratified epithelial (left) and simple epithelial (right) airways for general ciliated marker C20orf85 (white) and proximal ciliated marker DHRS9 (red)."
+        }
+      ]
+    },
+    {
+      "cell_type": "proximal ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DHRS9",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3h",
+          "source_context": "smFISH and quantification of human pseudostratified epithelial (left) and simple epithelial (right) airways for general ciliated marker C20orf85 (white) and proximal ciliated marker DHRS9 (red)."
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3c",
+          "source_context": "Immunostaining of adult human pseudostratified airway for differentiation marker HES1 (green) in basal cells (marked by KRT5, red) with DAPI counter stain (blue)."
+        }
+      ]
+    },
+    {
+      "cell_type": "proximal basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SERPINB3",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3f",
+          "source_context": "RNAscope smFISH and quantification for general basal marker KRT5 (red) and proximal basal cell marker SERPINB3 (white) with DAPI counter stain (blue)."
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ASPN",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4f",
+          "source_context": "smFISH and quantification of cell abundance in human alveolar (f) and pseudostratified epithelial airway (g) sections probed for myofibroblast and fibromyocyte marker ASPN (red)."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibromyocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ASPN",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4f",
+          "source_context": "smFISH and quantification of cell abundance in human alveolar (f) and pseudostratified epithelial airway (g) sections probed for myofibroblast and fibromyocyte marker ASPN (red)."
+        },
+        {
+          "gene": "COX4I2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4g",
+          "source_context": "probed for fibromyocyte and airway smooth muscle markers COX4I2 (white; f) and ACTG2 (white; g)."
+        },
+        {
+          "gene": "ACTG2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4g",
+          "source_context": "probed for fibromyocyte and airway smooth muscle markers COX4I2 (white; f) and ACTG2 (white; g)."
+        }
+      ]
+    },
+    {
+      "cell_type": "airway smooth muscle",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COX4I2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4g",
+          "source_context": "probed for fibromyocyte and airway smooth muscle markers COX4I2 (white; f) and ACTG2 (white; g)."
+        },
+        {
+          "gene": "ACTG2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4g",
+          "source_context": "probed for fibromyocyte and airway smooth muscle markers COX4I2 (white; f) and ACTG2 (white; g)."
+        }
+      ]
+    },
+    {
+      "cell_type": "alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL1A2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4a",
+          "source_context": "smFISH probes: general fibroblast marker COL1A2 (white) and alveolar fibroblast-selective marker GPC3 (red)."
+        },
+        {
+          "gene": "GPC3",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4a",
+          "source_context": "smFISH probes: general fibroblast marker COL1A2 (white) and alveolar fibroblast-selective marker GPC3 (red)."
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4e",
+          "source_context": "Heat map of expression of representative general, adventitial-selective, and alveolar-selective fibroblast markers in 50 randomly selected cells from adventitial (left) and alveolar (right) fibroblast clusters (SS2 dataset). Note specialization (highlighted red) in growth factors (AdvF: PDGFRL, IGFBP4; AlvF: FGFR4, VEGFD)."
+        },
+        {
+          "gene": "VEGFD",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4e",
+          "source_context": "Heat map of expression of representative general, adventitial-selective, and alveolar-selective fibroblast markers in 50 randomly selected cells from adventitial (left) and alveolar (right) fibroblast clusters (SS2 dataset). Note specialization (highlighted red) in growth factors (AdvF: PDGFRL, IGFBP4; AlvF: FGFR4, VEGFD)."
+        },
+        {
+          "gene": "Slc7a10",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4b",
+          "source_context": "smFISH probes: alveolar fibroblast-selective markers Slc7a10 (white) and Frfr4 (red)."
+        },
+        {
+          "gene": "Frfr4",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4b",
+          "source_context": "smFISH probes: alveolar fibroblast-selective markers Slc7a10 (white) and Frfr4 (red)."
+        }
+      ]
+    },
+    {
+      "cell_type": "adventitial fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL1A2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4c",
+          "source_context": "smFISH probes: general fibroblast marker COL1A2 (white) and adventitial fibroblast-selective marker SERPINF1 (red)."
+        },
+        {
+          "gene": "SERPINF1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4c",
+          "source_context": "smFISH probes: general fibroblast marker COL1A2 (white) and adventitial fibroblast-selective marker SERPINF1 (red)."
+        },
+        {
+          "gene": "PDGFRL",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4e",
+          "source_context": "Heat map of expression of representative general, adventitial-selective, and alveolar-selective fibroblast markers in 50 randomly selected cells from adventitial (left) and alveolar (right) fibroblast clusters (SS2 dataset). Note specialization (highlighted red) in growth factors (AdvF: PDGFRL, IGFBP4; AlvF: FGFR4, VEGFD)."
+        },
+        {
+          "gene": "IGFBP4",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4e",
+          "source_context": "Heat map of expression of representative general, adventitial-selective, and alveolar-selective fibroblast markers in 50 randomly selected cells from adventitial (left) and alveolar (right) fibroblast clusters (SS2 dataset). Note specialization (highlighted red) in growth factors (AdvF: PDGFRL, IGFBP4; AlvF: FGFR4, VEGFD)."
+        },
+        {
+          "gene": "SFRP2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4e",
+          "source_context": "Heat map of expression of representative general, adventitial-selective, and alveolar-selective fibroblast markers in 50 randomly selected cells from adventitial (left) and alveolar (right) fibroblast clusters (SS2 dataset). Note specialization (highlighted red) in growth factors (AdvF: PDGFRL, IGFBP4; AlvF: FGFR4, VEGFD) and morphogen (AdvF: SFRP2; AlvF: NKD1, DKK3) signalling or regulation."
+        },
+        {
+          "gene": "Pi16",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4d",
+          "source_context": "smFISH probes: adventitial fibroblast-selective markers Pi16 (white) and Serpinf1 (red)."
+        },
+        {
+          "gene": "Serpinf1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4d",
+          "source_context": "smFISH probes: adventitial fibroblast-selective markers Pi16 (white) and Serpinf1 (red)."
+        }
+      ]
+    },
+    {
+      "cell_type": "pericytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COX4I2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4h",
+          "source_context": "smFISH of human alveolar sections probed for general stromal marker COL1A2 (white), pericyte marker COX4I2 (red; h)."
+        },
+        {
+          "gene": "TBX5",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Fig.5d",
+          "source_context": "TBX5 is enriched in pericytes (arrowheads, 92% of TBX5+ cells were COX4I2+, n = 250)."
+        },
+        {
+          "gene": "KCNK3",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Fig.8c",
+          "source_context": "Note pericyte-specific expression (arrowheads, 91% of COX4I2+ pericytes were KCNK3+, n = 77)."
+        }
+      ]
+    },
+    {
+      "cell_type": "lipofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "APOE",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4i",
+          "source_context": "smFISH of human alveolar sections probed for general stromal marker COL1A2 (white), pericyte marker COX4I2 (red; h), lipofibroblast marker APOE (red; i)."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "general",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CLDN5",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3k",
+          "source_context": "smFISH for general endothelial marker CLDN5 (red, centre)."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "bronchial vessel",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYC",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3k",
+          "source_context": "bronchial vessel-specific markers MYC (green) and Bro1-specific marker ACKR1 (red, right)."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "Bro1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACKR1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3k",
+          "source_context": "bronchial vessel-specific markers MYC (green) and Bro1-specific marker ACKR1 (red, right)."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "vein",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACKR1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3l",
+          "source_context": "smFISH and quantification of vessel types indicated (dotted outlines) showing vein marker ACKR1 (red; l)."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "artery",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GJA5",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3m",
+          "source_context": "smFISH and quantification of vessel types indicated (dotted outlines) showing artery marker GJA5 (red; m)."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "lymphatic",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCL21",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.3n",
+          "source_context": "smFISH and quantification of vessel types indicated (dotted outlines) showing lymphatic marker CCL21 (red; n)."
+        }
+      ]
+    },
+    {
+      "cell_type": "dendritic cells",
+      "subtype": "general",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GPR183",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4m",
+          "source_context": "EREG+ dendritic cell marker EREG (red) and general dendritic cell marker GPR183 (white)."
+        }
+      ]
+    },
+    {
+      "cell_type": "dendritic cells",
+      "subtype": "IGSF21+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGSF21",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4l",
+          "source_context": "IGSF21+ dendritic cell markers IGSF21 (red) and GPR34 (white)."
+        },
+        {
+          "gene": "GPR34",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4l",
+          "source_context": "IGSF21+ dendritic cell markers IGSF21 (red) and GPR34 (white)."
+        }
+      ]
+    },
+    {
+      "cell_type": "dendritic cells",
+      "subtype": "EREG+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EREG",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4m",
+          "source_context": "EREG+ dendritic cell marker EREG (red) and general dendritic cell marker GPR183 (white)."
+        }
+      ]
+    },
+    {
+      "cell_type": "dendritic cells",
+      "subtype": "TREM2+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TREM2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4n",
+          "source_context": "TREM2+ dendritic cell markers TREM2 (red) and CHI3L1 (white)."
+        },
+        {
+          "gene": "CHI3L1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.4n",
+          "source_context": "TREM2+ dendritic cell markers TREM2 (red) and CHI3L1 (white)."
+        }
+      ]
+    }
+  ]
+}

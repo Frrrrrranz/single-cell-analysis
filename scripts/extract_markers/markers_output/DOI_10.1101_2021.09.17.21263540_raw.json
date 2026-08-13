@@ -1,0 +1,834 @@
+{
+  "paper_id": "DOI_10.1101_2021.09.17.21263540",
+  "cell_types": [
+    {
+      "cell_type": "stem cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LGR5",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 2E)",
+          "source_context": "Organ specificity was highlighted by stem cell markers of the stomach and intestine, LGR5 and OLFM4."
+        },
+        {
+          "gene": "OLFM4",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 2E)",
+          "source_context": "Organ specificity was highlighted by stem cell markers of the stomach and intestine, LGR5 and OLFM4."
+        }
+      ]
+    },
+    {
+      "cell_type": "intestinal stem cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LGR5",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6F)",
+          "source_context": "The ISC markers LGR5, ASCL2, and OLFM4 showed increased expression in NRG1-grown ISCs."
+        },
+        {
+          "gene": "ASCL2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6F)",
+          "source_context": "The ISC markers LGR5, ASCL2, and OLFM4 showed increased expression in NRG1-grown ISCs."
+        },
+        {
+          "gene": "OLFM4",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6F)",
+          "source_context": "The ISC markers LGR5, ASCL2, and OLFM4 showed increased expression in NRG1-grown ISCs."
+        }
+      ]
+    },
+    {
+      "cell_type": "enterocyte precursors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FABP2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "enterocyte precursors (c7, FABP2+/APOA4 low)"
+        }
+      ]
+    },
+    {
+      "cell_type": "enterocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FABP2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "enterocytes (c8, FABP2+/APOA4+)"
+        },
+        {
+          "gene": "APOA4",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "enterocytes (c8, FABP2+/APOA4+)"
+        },
+        {
+          "gene": "LCT",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 4D",
+          "source_context": "epithelial lineage markers (FABP2, CHGA, and LCT)"
+        },
+        {
+          "gene": "SI",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 4D",
+          "source_context": "brush border (SI)"
+        }
+      ]
+    },
+    {
+      "cell_type": "enteroendocrine cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CHGA",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "enteroendocrine cells (c9, CHGA+/ISL1+)"
+        },
+        {
+          "gene": "ISL1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "enteroendocrine cells (c9, CHGA+/ISL1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "M cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPIB",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "M cells (c10, SPIB+/CA7+)"
+        },
+        {
+          "gene": "CA7",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "M cells (c10, SPIB+/CA7+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "goblet cells (c11, MUC2+/SPINK4+)"
+        },
+        {
+          "gene": "SPINK4",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4G)",
+          "source_context": "goblet cells (c11, MUC2+/SPINK4+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "vascular smooth muscle cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DES",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "vascular smooth muscle cells (VSMCs; cluster 2 [c2], DES+/RGS5+)"
+        },
+        {
+          "gene": "RGS5",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "vascular smooth muscle cells (VSMCs; cluster 2 [c2], DES+/RGS5+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "interstitial cells of Cajal",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ANO1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "interstitial cells of Cajal (ICCs; c4, ANO1+/KIT+)"
+        },
+        {
+          "gene": "KIT",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "interstitial cells of Cajal (ICCs; c4, ANO1+/KIT+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "chondrocyte-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "chondrocyte-like cells (c21, SOX9+/COL9A3+)"
+        },
+        {
+          "gene": "COL9A3",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "chondrocyte-like cells (c21, SOX9+/COL9A3+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "SERPINF1-high cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SERPINF1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "SERPINF1-high (c20, SERPINF1+/ABCA8+) cells"
+        },
+        {
+          "gene": "ABCA8",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "SERPINF1-high (c20, SERPINF1+/ABCA8+) cells"
+        },
+        {
+          "gene": "PRRX1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3B/C)",
+          "source_context": "the TF PRRX1 marks chondrocyte-like SERPINF1-high cells and pericytes in the lung"
+        }
+      ]
+    },
+    {
+      "cell_type": "pericytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PRRX1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3B/C)",
+          "source_context": "the TF PRRX1 marks chondrocyte-like SERPINF1-high cells and pericytes in the lung"
+        }
+      ]
+    },
+    {
+      "cell_type": "intestinal mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NKX2-3",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3C)",
+          "source_context": "We validated the TF NKX2-3 and secreted factor WNT2 as general markers that distinguish intestine and lung mesenchyme, respectively."
+        }
+      ]
+    },
+    {
+      "cell_type": "lung mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3C)",
+          "source_context": "We validated the TF NKX2-3 and secreted factor WNT2 as general markers that distinguish intestine and lung mesenchyme, respectively."
+        }
+      ]
+    },
+    {
+      "cell_type": "subepithelial mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SALL1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3B/C)",
+          "source_context": "the TF SALL1 specifically marks F3+ subepithelial mesenchyme (c15, subepithelial, NRG1+/F3+) in the stomach and intestine"
+        },
+        {
+          "gene": "NRG1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3B/C)",
+          "source_context": "the TF SALL1 specifically marks F3+ subepithelial mesenchyme (c15, subepithelial, NRG1+/F3+) in the stomach and intestine"
+        },
+        {
+          "gene": "F3",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3B/C)",
+          "source_context": "the TF SALL1 specifically marks F3+ subepithelial mesenchyme (c15, subepithelial, NRG1+/F3+) in the stomach and intestine; also F3+/DLL1+ mesenchymal subtype (c15)"
+        },
+        {
+          "gene": "DLL1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Data S1)",
+          "source_context": "Fluorescence in situ hybridization validated subepithelial localization of the F3+/DLL1+ mesenchymal subtype (c15)"
+        }
+      ]
+    },
+    {
+      "cell_type": "CXCL14+ mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4F/G)",
+          "source_context": "CXCL14+ mesenchyme (c4, CXCL14+/NSG1+)"
+        },
+        {
+          "gene": "NSG1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4F/G)",
+          "source_context": "CXCL14+ mesenchyme (c4, CXCL14+/NSG1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "SFRP2+ mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFRP2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4F/G)",
+          "source_context": "SFRP2+ mesenchyme (c2, SFRP2+/PRRX1+)"
+        },
+        {
+          "gene": "PRRX1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 4F/G)",
+          "source_context": "SFRP2+ mesenchyme (c2, SFRP2+/PRRX1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "esophagus mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MOXD1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6G)",
+          "source_context": "a NKX2-3-depleted cluster marked by MOXD1 (c8), an esophagus mesenchymal marker"
+        }
+      ]
+    },
+    {
+      "cell_type": "SFRP1-high mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFRP1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S4A)",
+          "source_context": "At 7 PCWs, we observed two groups of precursors that showed different expression levels of SFRP1; SFRP1-high cell types (c3, c4, and c5)"
+        }
+      ]
+    },
+    {
+      "cell_type": "PITX1+ smooth muscle cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PITX1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S4C/D)",
+          "source_context": "PITX1+ smooth muscle cell (SMC, c7)"
+        }
+      ]
+    },
+    {
+      "cell_type": "GDF10+ mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GDF10",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "GDF10+ (c8, GDF10+/WNT2B+) cells"
+        },
+        {
+          "gene": "WNT2B",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 3A)",
+          "source_context": "GDF10+ (c8, GDF10+/WNT2B+) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "definitive endoderm",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EOMES",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "expressed definitive endoderm (EOMES, SOX17, and FOXA2)"
+        },
+        {
+          "gene": "SOX17",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "expressed definitive endoderm (EOMES, SOX17, and FOXA2)"
+        },
+        {
+          "gene": "FOXA2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "expressed definitive endoderm (EOMES, SOX17, and FOXA2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "primitive streak cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MIXL1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "primitive streak markers (MIXL1, GSC, and LHX1)"
+        },
+        {
+          "gene": "GSC",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "primitive streak markers (MIXL1, GSC, and LHX1)"
+        },
+        {
+          "gene": "LHX1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "primitive streak markers (MIXL1, GSC, and LHX1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "intestinal epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDX2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "HIO epithelial developmental trajectory (c0, c2, c6, c7, c11, c12, and c14) marked by co-expression of CDX2 and CDH1; also CDX2+/CDX1+ intestinal epithelial cell types"
+        },
+        {
+          "gene": "CDH1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "HIO epithelial developmental trajectory (c0, c2, c6, c7, c11, c12, and c14) marked by co-expression of CDX2 and CDH1"
+        },
+        {
+          "gene": "CDX1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6E)",
+          "source_context": "HIOs grown with high concentrations of EGF had the highest proportion of intestinal epithelial cell types (CDX2+/CDX1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "mesoderm-like cluster (c9)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HAND1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "cluster 9 was CDX2+/CDH1+ and ... exhibited mesoderm features (HAND1+/FOXF1+)"
+        },
+        {
+          "gene": "FOXF1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S3A-D)",
+          "source_context": "cluster 9 was CDX2+/CDH1+ and ... exhibited mesoderm features (HAND1+/FOXF1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "mesoderm progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDX2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S4F)",
+          "source_context": "a trajectory from mesoderm progenitors marked by CDX2, HAND1, and MKI67"
+        },
+        {
+          "gene": "HAND1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S4F)",
+          "source_context": "a trajectory from mesoderm progenitors marked by CDX2, HAND1, and MKI67"
+        },
+        {
+          "gene": "MKI67",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S4F)",
+          "source_context": "a trajectory from mesoderm progenitors marked by CDX2, HAND1, and MKI67"
+        }
+      ]
+    },
+    {
+      "cell_type": "foregut-associated PRRX1+ mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PRRX1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. S4F/G)",
+          "source_context": "foregut-associated PRRX1+ mesenchyme"
+        }
+      ]
+    },
+    {
+      "cell_type": "lung/esophagus-like epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6D/E)",
+          "source_context": "mostly lung/esophagus-like (92%), expressing SOX2 and basal cell markers (e.g., KRT4 and TP63) or the ciliated cell marker FOXJ1"
+        },
+        {
+          "gene": "KRT4",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6D/E)",
+          "source_context": "basal cell markers (e.g., KRT4 and TP63)"
+        },
+        {
+          "gene": "TP63",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6D/E)",
+          "source_context": "basal cell markers (e.g., KRT4 and TP63)"
+        },
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6D/E)",
+          "source_context": "ciliated cell marker FOXJ1"
+        }
+      ]
+    },
+    {
+      "cell_type": "stomach-like epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6E)",
+          "source_context": "22% [0E-100N] and 60% [1E-100N] are stomach like; ... (CDX2+, MUC5AC+, or CLDN18+)"
+        },
+        {
+          "gene": "CLDN18",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 6E)",
+          "source_context": "22% [0E-100N] and 60% [1E-100N] are stomach like; ... (CDX2+, MUC5AC+, or CLDN18+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC5AC+ epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 7D)",
+          "source_context": "multiple epithelial cell populations abundant in CDX2 KO organoids, such as MUC5AC+ (c7), MUC16+ (c11), and SPP1+ (c10) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC16+ epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC16",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 7D)",
+          "source_context": "multiple epithelial cell populations abundant in CDX2 KO organoids, such as MUC5AC+ (c7), MUC16+ (c11), and SPP1+ (c10) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "SPP1+ epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPP1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig. 7D)",
+          "source_context": "multiple epithelial cell populations abundant in CDX2 KO organoids, such as MUC5AC+ (c7), MUC16+ (c11), and SPP1+ (c10) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "glial clusters",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "neuronal clusters",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "neural-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "NA",
+      "markers": []
+    },
+    {
+      "cell_type": "primitive streak",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MIXL1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. S3C",
+          "source_context": "Feature plots of definitive endoderm (FOXA2 and SOX17), primitive streak (MIXL1), the gastrointestinal epithelium (CDH1 and GPX2), and mesoderm or mesenchyme (BMP4, FOXF1 and PDGFRA) markers in HIO time course and MG data."
+        }
+      ]
+    },
+    {
+      "cell_type": "gastrointestinal epithelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDH1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. S3C",
+          "source_context": "Feature plots of definitive endoderm (FOXA2 and SOX17), primitive streak (MIXL1), the gastrointestinal epithelium (CDH1 and GPX2), and mesoderm or mesenchyme (BMP4, FOXF1 and PDGFRA) markers in HIO time course and MG data."
+        },
+        {
+          "gene": "GPX2",
+          "evidence_level": "explicit",
+          "source_section": "Fig. S3C",
+          "source_context": "Feature plots of definitive endoderm (FOXA2 and SOX17), primitive streak (MIXL1), the gastrointestinal epithelium (CDH1 and GPX2), and mesoderm or mesenchyme (BMP4, FOXF1 and PDGFRA) markers in HIO time course and MG data."
+        }
+      ]
+    },
+    {
+      "cell_type": "mesoderm or mesenchyme",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BMP4",
+          "evidence_level": "explicit",
+          "source_section": "Fig. S3C",
+          "source_context": "Feature plots of definitive endoderm (FOXA2 and SOX17), primitive streak (MIXL1), the gastrointestinal epithelium (CDH1 and GPX2), and mesoderm or mesenchyme (BMP4, FOXF1 and PDGFRA) markers in HIO time course and MG data."
+        },
+        {
+          "gene": "FOXF1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. S3C",
+          "source_context": "Feature plots of definitive endoderm (FOXA2 and SOX17), primitive streak (MIXL1), the gastrointestinal epithelium (CDH1 and GPX2), and mesoderm or mesenchyme (BMP4, FOXF1 and PDGFRA) markers in HIO time course and MG data."
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Fig. S3C",
+          "source_context": "Feature plots of definitive endoderm (FOXA2 and SOX17), primitive streak (MIXL1), the gastrointestinal epithelium (CDH1 and GPX2), and mesoderm or mesenchyme (BMP4, FOXF1 and PDGFRA) markers in HIO time course and MG data."
+        }
+      ]
+    },
+    {
+      "cell_type": "intestinal stem cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LGR5",
+          "evidence_level": "implied",
+          "source_section": "Fig. S3H",
+          "source_context": "Top sidebars show the most frequent time point, average LGR5, and OLFM4 expression within each cell bin."
+        },
+        {
+          "gene": "OLFM4",
+          "evidence_level": "implied",
+          "source_section": "Fig. S3H",
+          "source_context": "Top sidebars show the most frequent time point, average LGR5, and OLFM4 expression within each cell bin."
+        }
+      ]
+    },
+    {
+      "cell_type": "enterocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "APOA4",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods, Identification of stem cell clusters, stemness genes shared by multiple organs, and functional enrichment analysis",
+          "source_context": "We excluded an enterocyte cluster which is APOA4+."
+        }
+      ]
+    },
+    {
+      "cell_type": "mesoderm progenitor",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDX2",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods, Reconstruction of regulons in duodenum intestinal stem cells, HIO mesenchymal cells and epithelial cells",
+          "source_context": "We defined intestine mesenchyme development associated regulations as the TF-target pairs where both the genes are enriched in the mesoderm progenitor cluster (CDX2+/HAND1+/MKI67+) or NKX2-3+ clusters."
+        },
+        {
+          "gene": "HAND1",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods, Reconstruction of regulons in duodenum intestinal stem cells, HIO mesenchymal cells and epithelial cells",
+          "source_context": "We defined intestine mesenchyme development associated regulations as the TF-target pairs where both the genes are enriched in the mesoderm progenitor cluster (CDX2+/HAND1+/MKI67+) or NKX2-3+ clusters."
+        },
+        {
+          "gene": "MKI67",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods, Reconstruction of regulons in duodenum intestinal stem cells, HIO mesenchymal cells and epithelial cells",
+          "source_context": "We defined intestine mesenchyme development associated regulations as the TF-target pairs where both the genes are enriched in the mesoderm progenitor cluster (CDX2+/HAND1+/MKI67+) or NKX2-3+ clusters."
+        }
+      ]
+    },
+    {
+      "cell_type": "intestinal differentiated mesenchymal cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NKX2-3",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods, Transcriptome similarity-based mapping between datasets",
+          "source_context": "We defined two NKX2-3+/MKI67- clusters that are enriched for 4-week cells as intestinal differentiated mesenchymal cell clusters."
+        }
+      ]
+    },
+    {
+      "cell_type": "PITX1+ SMC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PITX1",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods, Transcriptome similarity-based mapping between datasets",
+          "source_context": "We combined CD81-high, GDF10+ and PITX1+ SMC into one cell type (CD81-high like) in PCW 7 considering these three cell types co-clustered in the individual analysis of this sample."
+        }
+      ]
+    },
+    {
+      "cell_type": "CD81-high like cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD81",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods, Transcriptome similarity-based mapping between datasets",
+          "source_context": "We combined CD81-high, GDF10+ and PITX1+ SMC into one cell type (CD81-high like) in PCW 7 considering these three cell types co-clustered in the individual analysis of this sample."
+        }
+      ]
+    }
+  ]
+}

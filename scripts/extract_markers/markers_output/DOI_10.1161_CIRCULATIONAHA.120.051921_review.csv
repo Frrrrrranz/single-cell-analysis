@@ -1,0 +1,2 @@
+﻿cell_type,subtype,species,is_pns_cell,gene_symbol,evidence_level,source_section,source_context,review_status,notes
+cardiomyocyte,,human,false,PCM1,explicit,"Methods: PCM1 Cardiomyocyte Nuclei Enrichment, RNA-Seq Library Preparation, and Sequencing","PCM1 nuclear enrichment, RNA extraction, library preparation, and sequencing were performed as described previously with minor modifications.",pending,

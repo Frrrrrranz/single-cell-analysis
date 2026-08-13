@@ -1,0 +1,9 @@
+﻿cell_type,subtype,species,is_pns_cell,gene_symbol,evidence_level,source_section,source_context,review_status,notes
+AT1-like cells,,human,false,AGER,explicit,"Results, Fig.2C,D,F,G","the fdAT2 organoids showed upregulation of AT1 fate markers, such as AQP5, CAV1, and AGER, and downregulation of SFTPC and SFTPC-GFP",pending,
+AT1-like cells,,human,false,AQP5,explicit,"Results, Fig.2C,D,F,G","the fdAT2 organoids showed upregulation of AT1 fate markers, such as AQP5, CAV1, and AGER, and downregulation of SFTPC and SFTPC-GFP",pending,
+AT1-like cells,,human,false,CAV1,explicit,"Results, Fig.2C,D,F,G","the fdAT2 organoids showed upregulation of AT1 fate markers, such as AQP5, CAV1, and AGER, and downregulation of SFTPC and SFTPC-GFP",pending,
+AT2-like cells,,human,false,ABCA3,explicit,"Results, Fig.1G","Moreover, the organoids express proteins required for surfactant production, such as LAMP3, ABCA3, and Napsin-A, as well as typical AT2 markers HTII-280, E-cadherin and HOPX",pending,
+AT2-like cells,,human,false,HOPX,explicit,"Results, Fig.1G","Moreover, the organoids express proteins required for surfactant production, such as LAMP3, ABCA3, and Napsin-A, as well as typical AT2 markers HTII-280, E-cadherin and HOPX",pending,
+AT2-like cells,,human,false,LAMP3,explicit,"Results, Fig.1G","Moreover, the organoids express proteins required for surfactant production, such as LAMP3, ABCA3, and Napsin-A, as well as typical AT2 markers HTII-280, E-cadherin and HOPX",pending,
+AT2-like cells,,human,false,SFTPB,explicit,"Results, Fig.1G","Moreover, the organoids express proteins required for surfactant production, such as LAMP3, ABCA3, and Napsin-A, as well as typical AT2 markers HTII-280, E-cadherin and HOPX",pending,
+AT2-like cells,,human,false,SFTPC,explicit,"Results, Fig.1G","Moreover, the organoids express proteins required for surfactant production, such as LAMP3, ABCA3, and Napsin-A, as well as typical AT2 markers HTII-280, E-cadherin and HOPX",pending,

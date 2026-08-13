@@ -1,0 +1,4 @@
+﻿cell_type,subtype,species,is_pns_cell,gene_symbol,evidence_level,source_section,source_context,review_status,notes
+Schwann cell,,human,true,CDH19,explicit,Results,"Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+).",pending,
+Schwann cell,,human,true,NRXN,explicit,Results,"Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+).",pending,
+Schwann cell,,human,true,XKR4,explicit,Results,"Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+).",pending,

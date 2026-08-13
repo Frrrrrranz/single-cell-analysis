@@ -1,0 +1,1719 @@
+{
+  "paper_id": "FRONT-CELL-NEUROSCI.15.624826.2021",
+  "cell_types": [
+    {
+      "cell_type": "endothelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Egﬂ7",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        },
+        {
+          "gene": "Ecscr",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        },
+        {
+          "gene": "Pecam1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        },
+        {
+          "gene": "Cd31",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        },
+        {
+          "gene": "Tie1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        },
+        {
+          "gene": "Emcn",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        },
+        {
+          "gene": "Cdh5",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        },
+        {
+          "gene": "Esam",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Egﬂ7, Ecscr, Pecam1/Cd31, Tie1, Emcn, Cdh5, and Esam for endothelial cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "epineurial endothelial cells",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sox17",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox17, Spock2, and Rgcc for epineurial endothelial cells,"
+        },
+        {
+          "gene": "Spock2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox17, Spock2, and Rgcc for epineurial endothelial cells,"
+        },
+        {
+          "gene": "Rgcc",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox17, Spock2, and Rgcc for epineurial endothelial cells,"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "endoneurial endothelial cells",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lrg1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Lrg1 and Icam1 for endoneurial endothelial cells."
+        },
+        {
+          "gene": "Icam1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Lrg1 and Icam1 for endoneurial endothelial cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "lymphatic endothelial cells",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lyve1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Lyve1, Mmrn1, Flt4, and Prox1 for lymphatic endothelial cells."
+        },
+        {
+          "gene": "Mmrn1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Lyve1, Mmrn1, Flt4, and Prox1 for lymphatic endothelial cells."
+        },
+        {
+          "gene": "Flt4",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Lyve1, Mmrn1, Flt4, and Prox1 for lymphatic endothelial cells."
+        },
+        {
+          "gene": "Prox1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Lyve1, Mmrn1, Flt4, and Prox1 for lymphatic endothelial cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "vascular smooth muscle (VSM) cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Des",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Des, Tpm2, Myh11, Acta2, Mylk, Myom1, and Myocd for vascular smooth muscle (VSM) cells."
+        },
+        {
+          "gene": "Tpm2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Des, Tpm2, Myh11, Acta2, Mylk, Myom1, and Myocd for vascular smooth muscle (VSM) cells."
+        },
+        {
+          "gene": "Myh11",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Des, Tpm2, Myh11, Acta2, Mylk, Myom1, and Myocd for vascular smooth muscle (VSM) cells."
+        },
+        {
+          "gene": "Acta2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Des, Tpm2, Myh11, Acta2, Mylk, Myom1, and Myocd for vascular smooth muscle (VSM) cells."
+        },
+        {
+          "gene": "Mylk",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Des, Tpm2, Myh11, Acta2, Mylk, Myom1, and Myocd for vascular smooth muscle (VSM) cells."
+        },
+        {
+          "gene": "Myom1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Des, Tpm2, Myh11, Acta2, Mylk, Myom1, and Myocd for vascular smooth muscle (VSM) cells."
+        },
+        {
+          "gene": "Myocd",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Des, Tpm2, Myh11, Acta2, Mylk, Myom1, and Myocd for vascular smooth muscle (VSM) cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "pericytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Rgs5",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Rgs5, Kcnj8, and Pdgfrb for pericytes."
+        },
+        {
+          "gene": "Kcnj8",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Rgs5, Kcnj8, and Pdgfrb for pericytes."
+        },
+        {
+          "gene": "Pdgfrb",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Rgs5, Kcnj8, and Pdgfrb for pericytes."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Sox10",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox10, Plp1, and S100b for Schwann cells."
+        },
+        {
+          "gene": "Plp1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox10, Plp1, and S100b for Schwann cells."
+        },
+        {
+          "gene": "S100b",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox10, Plp1, and S100b for Schwann cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": "non-myelinating Schwann cells",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Cdh2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cdh2 and L1cam for non-myelinating Schwann cells."
+        },
+        {
+          "gene": "L1cam",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cdh2 and L1cam for non-myelinating Schwann cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": "myelinating Schwann cells",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Mbp",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Mbp, Mpz, Mag, and Egr2 for myelinating Schwann cells."
+        },
+        {
+          "gene": "Mpz",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Mbp, Mpz, Mag, and Egr2 for myelinating Schwann cells."
+        },
+        {
+          "gene": "Mag",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Mbp, Mpz, Mag, and Egr2 for myelinating Schwann cells."
+        },
+        {
+          "gene": "Egr2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Mbp, Mpz, Mag, and Egr2 for myelinating Schwann cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblasts",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Dcn",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dcn, Mfap5, Serpinf1, and Gsn for fibroblasts."
+        },
+        {
+          "gene": "Mfap5",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dcn, Mfap5, Serpinf1, and Gsn for fibroblasts."
+        },
+        {
+          "gene": "Serpinf1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dcn, Mfap5, Serpinf1, and Gsn for fibroblasts."
+        },
+        {
+          "gene": "Gsn",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dcn, Mfap5, Serpinf1, and Gsn for fibroblasts."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblasts",
+      "subtype": "epineurial fibroblasts",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sfrp2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Dpt",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Pcolce2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Adamts5",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Pi16",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Sfrp4",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Prrx1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Comp",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        },
+        {
+          "gene": "Ly6c1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sfrp2, Dpt, Pcolce2, Adamts5, Pi16, Sfrp4, Prrx1, Comp, and Ly6c1 for epineurial fibroblasts."
+        }
+      ]
+    },
+    {
+      "cell_type": "perineurial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cldn1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "claudin-1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "Lypd2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "Ntn4",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "Msln",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "Ntng1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "Slc2a1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "Glut1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        },
+        {
+          "gene": "Mpzl2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cldn1/claudin-1, Lypd2, Ntn4, Msln, Ntng1, Slc2a1/Glut1, and Mpzl2 for perineurial cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblasts",
+      "subtype": "endoneurial fibroblasts",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sox9",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 for endoneurial fibroblasts."
+        },
+        {
+          "gene": "Osr2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 for endoneurial fibroblasts."
+        },
+        {
+          "gene": "Wif1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 for endoneurial fibroblasts."
+        },
+        {
+          "gene": "Abca9",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 for endoneurial fibroblasts."
+        },
+        {
+          "gene": "Cdkn2a",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 for endoneurial fibroblasts."
+        },
+        {
+          "gene": "Cdkn2b",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 for endoneurial fibroblasts."
+        },
+        {
+          "gene": "Plxdc1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 for endoneurial fibroblasts."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblasts",
+      "subtype": "differentiating fibroblasts",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Dlk1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn for differentiating fibroblasts."
+        },
+        {
+          "gene": "Mest",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn for differentiating fibroblasts."
+        },
+        {
+          "gene": "Cilp",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn for differentiating fibroblasts."
+        },
+        {
+          "gene": "Tnc",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn for differentiating fibroblasts."
+        },
+        {
+          "gene": "Plagl1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn for differentiating fibroblasts."
+        },
+        {
+          "gene": "Ptn",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn for differentiating fibroblasts."
+        }
+      ]
+    },
+    {
+      "cell_type": "mesenchymal cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pdgfra",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Pdgfra, Thy1, and Cd34 for mesenchymal cells."
+        },
+        {
+          "gene": "Thy1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Pdgfra, Thy1, and Cd34 for mesenchymal cells."
+        },
+        {
+          "gene": "Cd34",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Pdgfra, Thy1, and Cd34 for mesenchymal cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "immune cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ptprc",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ptprc/CD45 and Cd52 as general marker for immune cells."
+        },
+        {
+          "gene": "CD45",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ptprc/CD45 and Cd52 as general marker for immune cells."
+        },
+        {
+          "gene": "Cd52",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ptprc/CD45 and Cd52 as general marker for immune cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Aif1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Aif1/Iba1, Cd68, Mrc1/Cd206, and Adgre1/F4/80 for macrophages."
+        },
+        {
+          "gene": "Iba1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Aif1/Iba1, Cd68, Mrc1/Cd206, and Adgre1/F4/80 for macrophages."
+        },
+        {
+          "gene": "Cd68",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Aif1/Iba1, Cd68, Mrc1/Cd206, and Adgre1/F4/80 for macrophages."
+        },
+        {
+          "gene": "Mrc1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Aif1/Iba1, Cd68, Mrc1/Cd206, and Adgre1/F4/80 for macrophages."
+        },
+        {
+          "gene": "Cd206",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Aif1/Iba1, Cd68, Mrc1/Cd206, and Adgre1/F4/80 for macrophages."
+        },
+        {
+          "gene": "Adgre1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Aif1/Iba1, Cd68, Mrc1/Cd206, and Adgre1/F4/80 for macrophages."
+        },
+        {
+          "gene": "F4/80",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Aif1/Iba1, Cd68, Mrc1/Cd206, and Adgre1/F4/80 for macrophages."
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": "epineurial macrophages",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Retnla",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Retnla and Clec10a for epineurial macrophages."
+        },
+        {
+          "gene": "Clec10a",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Retnla and Clec10a for epineurial macrophages."
+        }
+      ]
+    },
+    {
+      "cell_type": "monocytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ccl6",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ccl6, Fcgr3, Cx3cr1, Csf1r, Cd300a, and Clec4e for monocytes."
+        },
+        {
+          "gene": "Fcgr3",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ccl6, Fcgr3, Cx3cr1, Csf1r, Cd300a, and Clec4e for monocytes."
+        },
+        {
+          "gene": "Cx3cr1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ccl6, Fcgr3, Cx3cr1, Csf1r, Cd300a, and Clec4e for monocytes."
+        },
+        {
+          "gene": "Csf1r",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ccl6, Fcgr3, Cx3cr1, Csf1r, Cd300a, and Clec4e for monocytes."
+        },
+        {
+          "gene": "Cd300a",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ccl6, Fcgr3, Cx3cr1, Csf1r, Cd300a, and Clec4e for monocytes."
+        },
+        {
+          "gene": "Clec4e",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Ccl6, Fcgr3, Cx3cr1, Csf1r, Cd300a, and Clec4e for monocytes."
+        }
+      ]
+    },
+    {
+      "cell_type": "neutrophils",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100a8",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 for neutrophils."
+        },
+        {
+          "gene": "S100a9",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 for neutrophils."
+        },
+        {
+          "gene": "Cxcr2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 for neutrophils."
+        },
+        {
+          "gene": "Cxcl2",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 for neutrophils."
+        }
+      ]
+    },
+    {
+      "cell_type": "mast cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cma1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cma1, Mcpt4, Mcpt1, and Kit for mast cells."
+        },
+        {
+          "gene": "Mcpt4",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cma1, Mcpt4, Mcpt1, and Kit for mast cells."
+        },
+        {
+          "gene": "Mcpt1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cma1, Mcpt4, Mcpt1, and Kit for mast cells."
+        },
+        {
+          "gene": "Kit",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cma1, Mcpt4, Mcpt1, and Kit for mast cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd3g",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cd3g, Cxcr6, Trac, and Cd3e for T cells."
+        },
+        {
+          "gene": "Cxcr6",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cd3g, Cxcr6, Trac, and Cd3e for T cells."
+        },
+        {
+          "gene": "Trac",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cd3g, Cxcr6, Trac, and Cd3e for T cells."
+        },
+        {
+          "gene": "Cd3e",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Cd3g, Cxcr6, Trac, and Cd3e for T cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "natural killer (NK) cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Nkg7",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Nkg7, Klrk1, and Ncr1 for natural killer (NK) cells."
+        },
+        {
+          "gene": "Klrk1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Nkg7, Klrk1, and Ncr1 for natural killer (NK) cells."
+        },
+        {
+          "gene": "Ncr1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Nkg7, Klrk1, and Ncr1 for natural killer (NK) cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Bank1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Bank1, Cbfa2t3, Taok3, Ms4a1, Cd19, and Cd79a for B cells."
+        },
+        {
+          "gene": "Cbfa2t3",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Bank1, Cbfa2t3, Taok3, Ms4a1, Cd19, and Cd79a for B cells."
+        },
+        {
+          "gene": "Taok3",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Bank1, Cbfa2t3, Taok3, Ms4a1, Cd19, and Cd79a for B cells."
+        },
+        {
+          "gene": "Ms4a1",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Bank1, Cbfa2t3, Taok3, Ms4a1, Cd19, and Cd79a for B cells."
+        },
+        {
+          "gene": "Cd19",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Bank1, Cbfa2t3, Taok3, Ms4a1, Cd19, and Cd79a for B cells."
+        },
+        {
+          "gene": "Cd79a",
+          "evidence_level": "explicit",
+          "source_section": "Marker Genes for the Identification of Cell Clusters",
+          "source_context": "Bank1, Cbfa2t3, Taok3, Ms4a1, Cd19, and Cd79a for B cells."
+        },
+        {
+          "gene": "Cd40",
+          "evidence_level": "explicit",
+          "source_section": "explicit mention in text (citing Wolbert et al., 2020)",
+          "source_context": "Wolbert et al. showed that B cells could be identified in intact mouse sciatic nerves using marker genes such as Bank1, Ms4a1, Cd19, Cd40, and Cd79a"
+        }
+      ]
+    },
+    {
+      "cell_type": "Non-myelinating Schwann cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "Myelinating Schwann cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "Endoneurial fibroblasts",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ngfr",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9",
+          "source_context": "Due to endoneurial fibroblasts expressing Ngfr"
+        },
+        {
+          "gene": "Sox9",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        },
+        {
+          "gene": "Osr2",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        },
+        {
+          "gene": "Pdgfra",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        },
+        {
+          "gene": "Cd34",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        },
+        {
+          "gene": "Abca9",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        },
+        {
+          "gene": "Cdkn2a",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        },
+        {
+          "gene": "Cdkn2b",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        },
+        {
+          "gene": "Plxdc1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "they express marker genes for endoneurial fibroblasts such as Sox9, Osr2, Pdgfra, Cd34, Abca9, Cdkn2a, Cdkn2b, and Plxdc1"
+        }
+      ]
+    },
+    {
+      "cell_type": "Epineurial endothelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1/Cd31",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "All three new EC sub-clusters express classic EC marker genes such as Pecam1/Cd31, Tie1, and Emcn (Supplementary Figure 2)"
+        },
+        {
+          "gene": "Tie1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "All three new EC sub-clusters express classic EC marker genes such as Pecam1/Cd31, Tie1, and Emcn (Supplementary Figure 2)"
+        },
+        {
+          "gene": "Emcn",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "All three new EC sub-clusters express classic EC marker genes such as Pecam1/Cd31, Tie1, and Emcn (Supplementary Figure 2)"
+        },
+        {
+          "gene": "Spock2",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "We therefore chose Spock2 for cluster 3 and Rgcc for cluster 4 to validate their in vivo expression in ECs by immunostaining"
+        },
+        {
+          "gene": "Rgcc",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "We therefore chose Spock2 for cluster 3 and Rgcc for cluster 4 to validate their in vivo expression in ECs by immunostaining"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endoneurial endothelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1/Cd31",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "All three new EC sub-clusters express classic EC marker genes such as Pecam1/Cd31, Tie1, and Emcn (Supplementary Figure 2)"
+        },
+        {
+          "gene": "Tie1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "All three new EC sub-clusters express classic EC marker genes such as Pecam1/Cd31, Tie1, and Emcn (Supplementary Figure 2)"
+        },
+        {
+          "gene": "Emcn",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "All three new EC sub-clusters express classic EC marker genes such as Pecam1/Cd31, Tie1, and Emcn (Supplementary Figure 2)"
+        },
+        {
+          "gene": "Lrg1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "We chose Lrg1 for cluster 5 to do in vivo staining"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lymphatic endothelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lyve1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "such as Lyve1, Mmrn1, Prox1, and Flt4 (Supplementary Figure 1)"
+        },
+        {
+          "gene": "Mmrn1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "such as Lyve1, Mmrn1, Prox1, and Flt4 (Supplementary Figure 1)"
+        },
+        {
+          "gene": "Prox1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "such as Lyve1, Mmrn1, Prox1, and Flt4 (Supplementary Figure 1)"
+        },
+        {
+          "gene": "Flt4",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Epineurial and Endoneurial Endothelial Cells in Intact Mouse Sciatic Nerve",
+          "source_context": "such as Lyve1, Mmrn1, Prox1, and Flt4 (Supplementary Figure 1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Perineurial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cldn1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "Cluster 25 express high levels of Cldn1, Lypd2, Ntng1, Slc2a1, and Itgb4"
+        },
+        {
+          "gene": "Lypd2",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "Cluster 25 express high levels of Cldn1, Lypd2, Ntng1, Slc2a1, and Itgb4"
+        },
+        {
+          "gene": "Ntng1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "Cluster 25 express high levels of Cldn1, Lypd2, Ntng1, Slc2a1, and Itgb4"
+        },
+        {
+          "gene": "Slc2a1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "Cluster 25 express high levels of Cldn1, Lypd2, Ntng1, Slc2a1, and Itgb4"
+        },
+        {
+          "gene": "Itgb4",
+          "evidence_level": "explicit",
+          "source_section": "Identifying Endoneurial Fibroblasts and Perineurial Cells",
+          "source_context": "Cluster 25 express high levels of Cldn1, Lypd2, Ntng1, Slc2a1, and Itgb4"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neutrophils",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100a8",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 are effective marker genes to identify neutrophils"
+        },
+        {
+          "gene": "S100a9",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 are effective marker genes to identify neutrophils"
+        },
+        {
+          "gene": "Cxcr2",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 are effective marker genes to identify neutrophils"
+        },
+        {
+          "gene": "Cxcl2",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "S100a8, S100a9, Cxcr2, and Cxcl2 are effective marker genes to identify neutrophils"
+        },
+        {
+          "gene": "Csf3r",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "the Csf3r immunostaining confirms that Csf3r is a reliable marker gene to identify neutrophils"
+        },
+        {
+          "gene": "Trem1",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "top 10 suggested marker genes for cluster 9 are Cxcr2, Trem1, S100a9, Il1b, S100a8, Trem3, Clec4e, Nlrp3, Il1r2, and Csf3r"
+        },
+        {
+          "gene": "Il1b",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "top 10 suggested marker genes for cluster 9 are Cxcr2, Trem1, S100a9, Il1b, S100a8, Trem3, Clec4e, Nlrp3, Il1r2, and Csf3r"
+        },
+        {
+          "gene": "Trem3",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "top 10 suggested marker genes for cluster 9 are Cxcr2, Trem1, S100a9, Il1b, S100a8, Trem3, Clec4e, Nlrp3, Il1r2, and Csf3r"
+        },
+        {
+          "gene": "Clec4e",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "top 10 suggested marker genes for cluster 9 are Cxcr2, Trem1, S100a9, Il1b, S100a8, Trem3, Clec4e, Nlrp3, Il1r2, and Csf3r"
+        },
+        {
+          "gene": "Nlrp3",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "top 10 suggested marker genes for cluster 9 are Cxcr2, Trem1, S100a9, Il1b, S100a8, Trem3, Clec4e, Nlrp3, Il1r2, and Csf3r"
+        },
+        {
+          "gene": "Il1r2",
+          "evidence_level": "explicit",
+          "source_section": "Identifying the Cluster of Neutrophils in Injured Nerves",
+          "source_context": "top 10 suggested marker genes for cluster 9 are Cxcr2, Trem1, S100a9, Il1b, S100a8, Trem3, Clec4e, Nlrp3, Il1r2, and Csf3r"
+        }
+      ]
+    },
+    {
+      "cell_type": "non-myelinating Schwann cells",
+      "subtype": "nmSC",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Somc2",
+          "evidence_level": "imported",
+          "source_section": "Discussion",
+          "source_context": "Wolbert et al. (2020) suggested marker genes for endoneurial fibroblasts as marker genes for nmSC, for example Somc2 and Apod"
+        },
+        {
+          "gene": "Apod",
+          "evidence_level": "imported",
+          "source_section": "Discussion",
+          "source_context": "Wolbert et al. (2020) suggested marker genes for endoneurial fibroblasts as marker genes for nmSC, for example Somc2 and Apod"
+        }
+      ]
+    },
+    {
+      "cell_type": "endoneurial fibroblasts",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ngfr",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "endoneurial fibroblasts were named as nmSCs in Wolbert et al.'s analysis due to endoneurial fibroblasts expressing Ngfr"
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Sox10",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "Through our analysis, we show that Sox10 and Plp1 are more suitable marker genes in scRNA-seq data analysis to identify Schwann cell clusters in both intact and injured nerves (Supplementary Figure 8)."
+        },
+        {
+          "gene": "Plp1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "Through our analysis, we show that Sox10 and Plp1 are more suitable marker genes in scRNA-seq data analysis to identify Schwann cell clusters in both intact and injured nerves (Supplementary Figure 8)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cell",
+      "subtype": "myelinating",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Mbp",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "For identifying mSCs in intact nerves, Mbp, Mpz, Mag and Egr2 are all good marker genes (Supplementary Figure 8)."
+        },
+        {
+          "gene": "Mpz",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "For identifying mSCs in intact nerves, Mbp, Mpz, Mag and Egr2 are all good marker genes (Supplementary Figure 8)."
+        },
+        {
+          "gene": "Mag",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "For identifying mSCs in intact nerves, Mbp, Mpz, Mag and Egr2 are all good marker genes (Supplementary Figure 8)."
+        },
+        {
+          "gene": "Egr2",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "For identifying mSCs in intact nerves, Mbp, Mpz, Mag and Egr2 are all good marker genes (Supplementary Figure 8)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cell",
+      "subtype": "non-myelinating",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Cdh2",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "Testing marker genes used for identifying nmSCs in the intact nerve, we found that Cdh2 and L1cam are good marker genes (Supplementary Figure 8)."
+        },
+        {
+          "gene": "L1cam",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 8",
+          "source_context": "Testing marker genes used for identifying nmSCs in the intact nerve, we found that Cdh2 and L1cam are good marker genes (Supplementary Figure 8)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mfap5",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "We therefore screened DEGs and revealed that Mfap5 and Serpinf1 are better marker genes to identify fibroblast clusters in both intact and injured nerve (Supplementary Figure 10)."
+        },
+        {
+          "gene": "Serpinf1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "We therefore screened DEGs and revealed that Mfap5 and Serpinf1 are better marker genes to identify fibroblast clusters in both intact and injured nerve (Supplementary Figure 10)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": "endoneurial",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sox9",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Using these reported marker genes together with DEGs in our analysis (Supplementary Tables 1–3), we found that Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 are all good marker genes for the identification of endoneurial fibroblasts (Supplementary Figure 11)."
+        },
+        {
+          "gene": "Osr2",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Using these reported marker genes together with DEGs in our analysis (Supplementary Tables 1–3), we found that Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 are all good marker genes for the identification of endoneurial fibroblasts (Supplementary Figure 11)."
+        },
+        {
+          "gene": "Wif1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Using these reported marker genes together with DEGs in our analysis (Supplementary Tables 1–3), we found that Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 are all good marker genes for the identification of endoneurial fibroblasts (Supplementary Figure 11)."
+        },
+        {
+          "gene": "Abca9",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Using these reported marker genes together with DEGs in our analysis (Supplementary Tables 1–3), we found that Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 are all good marker genes for the identification of endoneurial fibroblasts (Supplementary Figure 11)."
+        },
+        {
+          "gene": "Cdkn2a",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Using these reported marker genes together with DEGs in our analysis (Supplementary Tables 1–3), we found that Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 are all good marker genes for the identification of endoneurial fibroblasts (Supplementary Figure 11)."
+        },
+        {
+          "gene": "Cdkn2b",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Using these reported marker genes together with DEGs in our analysis (Supplementary Tables 1–3), we found that Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 are all good marker genes for the identification of endoneurial fibroblasts (Supplementary Figure 11)."
+        },
+        {
+          "gene": "Plxdc1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Using these reported marker genes together with DEGs in our analysis (Supplementary Tables 1–3), we found that Sox9, Osr2, Wif1, Abca9, Cdkn2a, Cdkn2b, and Plxdc1 are all good marker genes for the identification of endoneurial fibroblasts (Supplementary Figure 11)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": "epineurial",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sfrp2",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Adamts5",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Pcolce2",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Clec3b",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Pi16",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Ly6c1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Dpt",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Dpp4",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Gsn",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Comp",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Sfrp4",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 10",
+          "source_context": "Epineurial fibroblasts highly express Sfrp2, Adamts5, Pcolce2, Clec3b, Pi16, Ly6c1, Dpt, Dpp4, Gsn, Comp, and Sfrp4 (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": "perineurial",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Slc2a1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Lypd2",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Sfrp5",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Ntn4",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Msln",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Ntng1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Tjp1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Perp",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Itgb4",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Itga6",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 11",
+          "source_context": "Perineurial cells express marker genes such as Slc2a1/Glut1, Lypd2, Sfrp5, Ntn4, Msln, Ntng1, the tight junction genes Tjp1/ZO-1, the desmosome protein Perp, and integrins Itgb4 and Itga6 (Theaker and Fletcher, 1989; Kucenas, 2015; Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": "differentiating",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Dlk1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 4",
+          "source_context": "In response to injury, fibroblasts in the distal nerve undergo differentiation and differentiating nerve fibroblasts could be identified using differentiating marker genes Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn (Carr et al., 2019; Toma et al., 2020)."
+        },
+        {
+          "gene": "Mest",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 4",
+          "source_context": "In response to injury, fibroblasts in the distal nerve undergo differentiation and differentiating nerve fibroblasts could be identified using differentiating marker genes Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn (Carr et al., 2019; Toma et al., 2020)."
+        },
+        {
+          "gene": "Cilp",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 4",
+          "source_context": "In response to injury, fibroblasts in the distal nerve undergo differentiation and differentiating nerve fibroblasts could be identified using differentiating marker genes Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn (Carr et al., 2019; Toma et al., 2020)."
+        },
+        {
+          "gene": "Tnc",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 4",
+          "source_context": "In response to injury, fibroblasts in the distal nerve undergo differentiation and differentiating nerve fibroblasts could be identified using differentiating marker genes Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn (Carr et al., 2019; Toma et al., 2020)."
+        },
+        {
+          "gene": "Plagl1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 4",
+          "source_context": "In response to injury, fibroblasts in the distal nerve undergo differentiation and differentiating nerve fibroblasts could be identified using differentiating marker genes Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn (Carr et al., 2019; Toma et al., 2020)."
+        },
+        {
+          "gene": "Ptn",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 4",
+          "source_context": "In response to injury, fibroblasts in the distal nerve undergo differentiation and differentiating nerve fibroblasts could be identified using differentiating marker genes Dlk1, Mest, Cilp, Tnc, Plagl1, and Ptn (Carr et al., 2019; Toma et al., 2020)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Immune cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ptprc",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 5",
+          "source_context": "We use Ptprc/CD45 and Cd52 as general marker genes to identify immune cells in intact and injured nerves (Carr et al., 2019; Wolbert et al., 2020; Ydens et al., 2020)."
+        },
+        {
+          "gene": "Cd52",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 5",
+          "source_context": "We use Ptprc/CD45 and Cd52 as general marker genes to identify immune cells in intact and injured nerves (Carr et al., 2019; Wolbert et al., 2020; Ydens et al., 2020)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Aif1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 12",
+          "source_context": "In the intact nerve, macrophage express genes Aif1/Iba1, Cd68, and Mrc1/Cd206 (Supplementary Figure 12) and these marker genes label two sub-cluster of macrophages (cluster 15 and 16 in Figure 4A)."
+        },
+        {
+          "gene": "Cd68",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 12",
+          "source_context": "In the intact nerve, macrophage express genes Aif1/Iba1, Cd68, and Mrc1/Cd206 (Supplementary Figure 12) and these marker genes label two sub-cluster of macrophages (cluster 15 and 16 in Figure 4A)."
+        },
+        {
+          "gene": "Mrc1",
+          "evidence_level": "explicit",
+          "source_section": "Results; Supplementary Figure 12",
+          "source_context": "In the intact nerve, macrophage express genes Aif1/Iba1, Cd68, and Mrc1/Cd206 (Supplementary Figure 12) and these marker genes label two sub-cluster of macrophages (cluster 15 and 16 in Figure 4A)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Mast cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cma1",
+          "evidence_level": "explicit",
+          "source_section": "Results",
+          "source_context": "We used marker genes Cma1, Mcpt4, Mcpt1, and Kit to identify mast cells as suggested in recent scRNA-seq data analysis in mouse sciatic nerve samples (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Mcpt4",
+          "evidence_level": "explicit",
+          "source_section": "Results",
+          "source_context": "We used marker genes Cma1, Mcpt4, Mcpt1, and Kit to identify mast cells as suggested in recent scRNA-seq data analysis in mouse sciatic nerve samples (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Mcpt1",
+          "evidence_level": "explicit",
+          "source_section": "Results",
+          "source_context": "We used marker genes Cma1, Mcpt4, Mcpt1, and Kit to identify mast cells as suggested in recent scRNA-seq data analysis in mouse sciatic nerve samples (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        },
+        {
+          "gene": "Kit",
+          "evidence_level": "explicit",
+          "source_section": "Results",
+          "source_context": "We used marker genes Cma1, Mcpt4, Mcpt1, and Kit to identify mast cells as suggested in recent scRNA-seq data analysis in mouse sciatic nerve samples (Carr et al., 2019; Toma et al., 2020; Wolbert et al., 2020)."
+        }
+      ]
+    },
+    {
+      "cell_type": "NK cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ncr1",
+          "evidence_level": "explicit",
+          "source_section": "Supplementary Figure 15",
+          "source_context": "NK cells could be identified by marker genes Ncr1, Nkg7, and Klrk1"
+        },
+        {
+          "gene": "Nkg7",
+          "evidence_level": "explicit",
+          "source_section": "Supplementary Figure 15",
+          "source_context": "NK cells could be identified by marker genes Ncr1, Nkg7, and Klrk1"
+        },
+        {
+          "gene": "Klrk1",
+          "evidence_level": "explicit",
+          "source_section": "Supplementary Figure 15",
+          "source_context": "NK cells could be identified by marker genes Ncr1, Nkg7, and Klrk1"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells (ECs)",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Pecam1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Classic gene markers used in scRNA-seq data analysis to identify ECs include Pecam1/Cd31, Tie1, and Emcn"
+        },
+        {
+          "gene": "Cd31",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Classic gene markers used in scRNA-seq data analysis to identify ECs include Pecam1/Cd31, Tie1, and Emcn"
+        },
+        {
+          "gene": "Tie1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Classic gene markers used in scRNA-seq data analysis to identify ECs include Pecam1/Cd31, Tie1, and Emcn"
+        },
+        {
+          "gene": "Emcn",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Classic gene markers used in scRNA-seq data analysis to identify ECs include Pecam1/Cd31, Tie1, and Emcn"
+        },
+        {
+          "gene": "Cdh5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Our investigation revealed that Cdh5, another common marker gene for ECs, could label all four EC clusters"
+        },
+        {
+          "gene": "Egfl7",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Further analysis indicates that Egfl7 and Ecscr are the better marker genes to identify all types of ECs in mouse sciatic nerve for scRNA-seq data analysis"
+        },
+        {
+          "gene": "Ecscr",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Further analysis indicates that Egfl7 and Ecscr are the better marker genes to identify all types of ECs in mouse sciatic nerve for scRNA-seq data analysis"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells (ECs)",
+      "subtype": "lymphatic ECs",
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Lyve1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Recently, Wolbert et al. also identified lymphatic ECs in the intact nerves in their scRNA-seq data analysis using lymphatic EC marker genes Lyve1 and Prox1"
+        },
+        {
+          "gene": "Prox1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Recently, Wolbert et al. also identified lymphatic ECs in the intact nerves in their scRNA-seq data analysis using lymphatic EC marker genes Lyve1 and Prox1"
+        },
+        {
+          "gene": "Mmrn1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Other scRNA-seq data analysis have shown that lymphatic ECs have distinct gene expression profiles including the expression of Lyve1, Mmrn1, Prox1, and Flt4. Therefore, we used these marker genes to identify the cluster containing lymphatic ECs."
+        },
+        {
+          "gene": "Flt4",
+          "evidence_level": "explicit",
+          "source_section": "Results p.19",
+          "source_context": "Other scRNA-seq data analysis have shown that lymphatic ECs have distinct gene expression profiles including the expression of Lyve1, Mmrn1, Prox1, and Flt4. Therefore, we used these marker genes to identify the cluster containing lymphatic ECs."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "paper_id": "DOI_10.7554_eLife.71752",
+  "cell_types": [
+    {
+      "cell_type": "peptidergic nociceptor",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "TAC1",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1C",
+          "source_context": "In the human DRG dataset, TAC1 (substance P), CALCA and CALCB (CGRP), and ADCYAP1 (PACAP), are expressed in several transcriptomic classes (H1, H2, H3, H5, and H6, Figure 1C, Figure 1—figure supplements 4 and 5)."
+        },
+        {
+          "gene": "CALCA",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1C",
+          "source_context": "In the human DRG dataset, TAC1 (substance P), CALCA and CALCB (CGRP), and ADCYAP1 (PACAP), are expressed in several transcriptomic classes (H1, H2, H3, H5, and H6, Figure 1C, Figure 1—figure supplements 4 and 5)."
+        },
+        {
+          "gene": "CALCB",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1C",
+          "source_context": "In the human DRG dataset, TAC1 (substance P), CALCA and CALCB (CGRP), and ADCYAP1 (PACAP), are expressed in several transcriptomic classes (H1, H2, H3, H5, and H6, Figure 1C, Figure 1—figure supplements 4 and 5)."
+        },
+        {
+          "gene": "ADCYAP1",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1C",
+          "source_context": "In the human DRG dataset, TAC1 (substance P), CALCA and CALCB (CGRP), and ADCYAP1 (PACAP), are expressed in several transcriptomic classes (H1, H2, H3, H5, and H6, Figure 1C, Figure 1—figure supplements 4 and 5)."
+        },
+        {
+          "gene": "NTRK1",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "Just as in mice, the putative human peptidergic nociceptors express the high affinity nerve growth factor receptor NTRK1, the capsaicin and mustard oil-gated ion channels TRPV1 and TRPA1 but generally only low levels of the stretch-gated ion channel PIEZO2 (Figure 1C, Figure 1—figure supplements 4 and 5)."
+        },
+        {
+          "gene": "TRPV1",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "Just as in mice, the putative human peptidergic nociceptors express the high affinity nerve growth factor receptor NTRK1, the capsaicin and mustard oil-gated ion channels TRPV1 and TRPA1 but generally only low levels of the stretch-gated ion channel PIEZO2 (Figure 1C, Figure 1—figure supplements 4 and 5)."
+        },
+        {
+          "gene": "TRPA1",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "Just as in mice, the putative human peptidergic nociceptors express the high affinity nerve growth factor receptor NTRK1, the capsaicin and mustard oil-gated ion channels TRPV1 and TRPA1 but generally only low levels of the stretch-gated ion channel PIEZO2 (Figure 1C, Figure 1—figure supplements 4 and 5)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Aδ nociceptor",
+      "subtype": "H3/H6",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "SCN10A",
+          "evidence_level": "implied",
+          "source_section": "Figure 1—figure supplement 5",
+          "source_context": "Some of these (including H3 and H6) also express peptidergic markers and the pain-related voltage-gated sodium channel SCN10A (Figure 1—figure supplement 5) and thus have molecular hallmarks of Aδ nociceptors."
+        },
+        {
+          "gene": "NEFH",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "Although previous localization studies have suggested that in humans the neurofilament protein NEFH is expressed in all sensory neurons (Rostock et al., 2018), this gene showed graded expression in our data (Figure 1C) and marks several classes of cells just as in mice (Figure 1—figure supplement 5). Some of these (including H3 and H6) also express peptidergic markers..."
+        }
+      ]
+    },
+    {
+      "cell_type": "Aβ neuron",
+      "subtype": "H14/H15",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NEFH",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "However, the neuronal classes H14 and H15 expressing the highest levels of NEFH are distinct from the peptidergic neurons (Figure 1C, Figure 1—figure supplements 4 and 5), likely representing different types of large diameter, fast conducting myelinated Aβ neurons."
+        },
+        {
+          "gene": "NTRK3",
+          "evidence_level": "implied",
+          "source_section": "Figure 1—figure supplements 4 and 5",
+          "source_context": "These cell types are neurotrophin three receptor NTRK3 positive, some also contain the brain derived neurotrophic factor receptor NTRK2 but exhibit little expression of NTRK1 (Figure 1—figure supplements 4 and 5)."
+        },
+        {
+          "gene": "NTRK2",
+          "evidence_level": "implied",
+          "source_section": "Figure 1—figure supplements 4 and 5",
+          "source_context": "These cell types are neurotrophin three receptor NTRK3 positive, some also contain the brain derived neurotrophic factor receptor NTRK2 but exhibit little expression of NTRK1 (Figure 1—figure supplements 4 and 5)."
+        }
+      ]
+    },
+    {
+      "cell_type": "proprioceptor",
+      "subtype": "H15",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NTRK3",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "In mice, proprioceptors are a subtype of Aβ neurons marked by the calcium binding protein parvalbumin, the transcription factor Etv1 and the voltage-gated sodium channel subunits Scn1a and Scn1b (Sharma et al., 2020; Renthal et al., 2020). In the human data, the small H15 group of NTRK3-positive cells had this expression pattern (Figure 1C, Figure 1—figure supplement 5) implying that proprioceptors have conserved transcriptomic markers in humans and mice."
+        },
+        {
+          "gene": "PVALB",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "In mice, proprioceptors are a subtype of Aβ neurons marked by the calcium binding protein parvalbumin, the transcription factor Etv1 and the voltage-gated sodium channel subunits Scn1a and Scn1b (Sharma et al., 2020; Renthal et al., 2020). In the human data, the small H15 group of NTRK3-positive cells had this expression pattern (Figure 1C, Figure 1—figure supplement 5) implying that proprioceptors have conserved transcriptomic markers in humans and mice."
+        },
+        {
+          "gene": "ETV1",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "In mice, proprioceptors are a subtype of Aβ neurons marked by the calcium binding protein parvalbumin, the transcription factor Etv1 and the voltage-gated sodium channel subunits Scn1a and Scn1b (Sharma et al., 2020; Renthal et al., 2020). In the human data, the small H15 group of NTRK3-positive cells had this expression pattern (Figure 1C, Figure 1—figure supplement 5) implying that proprioceptors have conserved transcriptomic markers in humans and mice."
+        },
+        {
+          "gene": "SCN1A",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "In mice, proprioceptors are a subtype of Aβ neurons marked by the calcium binding protein parvalbumin, the transcription factor Etv1 and the voltage-gated sodium channel subunits Scn1a and Scn1b (Sharma et al., 2020; Renthal et al., 2020). In the human data, the small H15 group of NTRK3-positive cells had this expression pattern (Figure 1C, Figure 1—figure supplement 5) implying that proprioceptors have conserved transcriptomic markers in humans and mice."
+        },
+        {
+          "gene": "SCN1B",
+          "evidence_level": "implied",
+          "source_section": "Figure 1C",
+          "source_context": "In mice, proprioceptors are a subtype of Aβ neurons marked by the calcium binding protein parvalbumin, the transcription factor Etv1 and the voltage-gated sodium channel subunits Scn1a and Scn1b (Sharma et al., 2020; Renthal et al., 2020). In the human data, the small H15 group of NTRK3-positive cells had this expression pattern (Figure 1C, Figure 1—figure supplement 5) implying that proprioceptors have conserved transcriptomic markers in humans and mice."
+        },
+        {
+          "gene": "NEFH",
+          "evidence_level": "implied",
+          "source_section": "Figure 4B",
+          "source_context": "Similarly, putative proprioceptive neurons (H15) were distinguished by their expression of NEFH, PIEZO2, and PVALB and lack of NTRK2 (Figure 4B, Figure 4—figure supplement 1)."
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "implied",
+          "source_section": "Figure 4B",
+          "source_context": "Similarly, putative proprioceptive neurons (H15) were distinguished by their expression of NEFH, PIEZO2, and PVALB and lack of NTRK2 (Figure 4B, Figure 4—figure supplement 1)."
+        }
+      ]
+    },
+    {
+      "cell_type": "cool responsive neuron",
+      "subtype": "H8",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "TRPM8",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "The ... cool sensing cells (H8) that express TRPM8, GPR26, NTM, and FOXP2 but are devoid of both the light touch receptor and the pain-related sodium channels (Figure 2B, Figure 1—figure supplement 5)."
+        },
+        {
+          "gene": "GPR26",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "The ... cool sensing cells (H8) that express TRPM8, GPR26, NTM, and FOXP2 but are devoid of both the light touch receptor and the pain-related sodium channels (Figure 2B, Figure 1—figure supplement 5)."
+        },
+        {
+          "gene": "NTM",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "The ... cool sensing cells (H8) that express TRPM8, GPR26, NTM, and FOXP2 but are devoid of both the light touch receptor and the pain-related sodium channels (Figure 2B, Figure 1—figure supplement 5)."
+        },
+        {
+          "gene": "FOXP2",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "The ... cool sensing cells (H8) that express TRPM8, GPR26, NTM, and FOXP2 but are devoid of both the light touch receptor and the pain-related sodium channels (Figure 2B, Figure 1—figure supplement 5)."
+        },
+        {
+          "gene": "NTRK2",
+          "evidence_level": "implied",
+          "source_section": "Figure 1—figure supplement 5",
+          "source_context": "in humans, the H8 putative cool responsive neurons expressing TRPM8 were strongly positive for the BDNF-receptor NTRK2 but hardly expressed the neuropeptide TAC1 (Figure 1—figure supplement 5)."
+        }
+      ]
+    },
+    {
+      "cell_type": "H9 neuron",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "TRPM8",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "One small but prominent group of human DRG neurons (H9) expresses TRPM8, PIEZO2, SCN10A, and SCN11A (Figure 1—figure supplements 4 and 5, Figure 2B) and clearly segregates from the putative cool sensing cells."
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "One small but prominent group of human DRG neurons (H9) expresses TRPM8, PIEZO2, SCN10A, and SCN11A (Figure 1—figure supplements 4 and 5, Figure 2B) and clearly segregates from the putative cool sensing cells."
+        },
+        {
+          "gene": "SCN10A",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "One small but prominent group of human DRG neurons (H9) expresses TRPM8, PIEZO2, SCN10A, and SCN11A (Figure 1—figure supplements 4 and 5, Figure 2B) and clearly segregates from the putative cool sensing cells."
+        },
+        {
+          "gene": "SCN11A",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "One small but prominent group of human DRG neurons (H9) expresses TRPM8, PIEZO2, SCN10A, and SCN11A (Figure 1—figure supplements 4 and 5, Figure 2B) and clearly segregates from the putative cool sensing cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "H12 neuron",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NTRK3",
+          "evidence_level": "explicit",
+          "source_section": "Figure 2B",
+          "source_context": "A second larger group of human neurons H12 is marked by NTRK3 and the voltage-gated ion channel SCN1A, but is only weakly positive for NEFH, expresses moderate levels of PIEZO2 (Figure 2B, Figure 1—figure supplement 5) and appears distinct from any potential mouse counterpart."
+        },
+        {
+          "gene": "SCN1A",
+          "evidence_level": "explicit",
+          "source_section": "Figure 2B",
+          "source_context": "A second larger group of human neurons H12 is marked by NTRK3 and the voltage-gated ion channel SCN1A, but is only weakly positive for NEFH, expresses moderate levels of PIEZO2 (Figure 2B, Figure 1—figure supplement 5) and appears distinct from any potential mouse counterpart."
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "A second larger group of human neurons H12 is marked by NTRK3 and the voltage-gated ion channel SCN1A, but is only weakly positive for NEFH, expresses moderate levels of PIEZO2 (Figure 2B, Figure 1—figure supplement 5) and appears distinct from any potential mouse counterpart."
+        }
+      ]
+    },
+    {
+      "cell_type": "c-nociceptor",
+      "subtype": "H4",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "SCN10A",
+          "evidence_level": "explicit",
+          "source_section": "Figure 2B",
+          "source_context": "Similarly, we designated H4 as c-nociceptors because of their expression of nociception-related SCN10A and NTRK1 and low level of NEFH (Figure 2B, Figure 1—figure supplement 5)."
+        },
+        {
+          "gene": "NTRK1",
+          "evidence_level": "explicit",
+          "source_section": "Figure 2B",
+          "source_context": "Similarly, we designated H4 as c-nociceptors because of their expression of nociception-related SCN10A and NTRK1 and low level of NEFH (Figure 2B, Figure 1—figure supplement 5)."
+        }
+      ]
+    },
+    {
+      "cell_type": "H5 neuron",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "TRPA1",
+          "evidence_level": "implied",
+          "source_section": "Figure 2B",
+          "source_context": "More strikingly, a small group of human neurons, H5, expressing TRPA1 were resolved in our clustering (Figure 2B), whereas in mouse nuclear sequencing data no direct counterpart was detected."
+        },
+        {
+          "gene": "NTRK2",
+          "evidence_level": "implied",
+          "source_section": "Figure 1—figure supplement 5",
+          "source_context": "H5 cells are essentially CALCA (CGRP) and NTRK1 negative and instead are strongly NTRK2 positive (Figure 1, Figure 1—figure supplements 4 and 5) suggesting that they may respond differently to external stimuli as well as in their signaling properties."
+        }
+      ]
+    },
+    {
+      "cell_type": "nonpeptidergic nociceptor",
+      "subtype": "H10",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "IL31RA",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "OSMR",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "HRH1",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "NPPB",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "SCN10A",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "SCN11A",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "TRPV1",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "MRGPRX1",
+          "evidence_level": "implied",
+          "source_section": "Figure 5B",
+          "source_context": "Although not prominently expressed, the human chloroquine responsive receptor MRGPRX1 (27) localized selectively to H10 neurons (Figure 5B) perhaps suggesting a relationship to mouse NP2 cells."
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "implied",
+          "source_section": "Figure 5B",
+          "source_context": "H10 cells are also distinguished from H11 and mouse pruriceptors by their prominent expression of the stretch-gated ion channel PIEZO2 (Figure 1C, Figure 2—figure supplement 2)."
+        }
+      ]
+    },
+    {
+      "cell_type": "nonpeptidergic nociceptor",
+      "subtype": "H11",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "IL31RA",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "OSMR",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "HRH1",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "NPPB",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "SCN10A",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "SCN11A",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "TRPV1",
+          "evidence_level": "implied",
+          "source_section": "Figure 2C",
+          "source_context": "these clusters were positive for the two subunits (IL31RA and OSMR) of the interleukin 31 receptor and the histamine receptor HRH1 (Figure 2C) that mediate mast cell-related scratching in mice (Solinski et al., 2019). They also express the itch-related neuropeptide NPPB (Figure 2C), nociception-related sodium channels SCN10A and SCN11A as well as TRPV1 (Figure 2—figure supplement 2A)."
+        },
+        {
+          "gene": "JAK1",
+          "evidence_level": "implied",
+          "source_section": "Figure 5B",
+          "source_context": "By contrast, Janus kinase 1 (JAK1), a mediator of itch through various types of cytokine signaling, including through OSMR (Oetjen et al., 2017), and the neuropeptide SST are particularly strongly expressed in H11 cells (Figure 5B)."
+        },
+        {
+          "gene": "SST",
+          "evidence_level": "implied",
+          "source_section": "Figure 5B",
+          "source_context": "By contrast, Janus kinase 1 (JAK1), a mediator of itch through various types of cytokine signaling, including through OSMR (Oetjen et al., 2017), and the neuropeptide SST are particularly strongly expressed in H11 cells (Figure 5B)."
+        }
+      ]
+    },
+    {
+      "cell_type": "NP1 cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Mrgprd",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "in mice NP1 cells express a large combination of diagnostic markers (Figure 5—figure supplement 2) including Mrgprd that we did not find in our sequencing of human ganglion neurons."
+        }
+      ]
+    },
+    {
+      "cell_type": "NP2 neurons",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Mrgpra3",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "Moreover, in mice, Mrgpra3 (the functional equivalent of MRGPRX1) marks the distinct NP2 neurons."
+        }
+      ]
+    },
+    {
+      "cell_type": "H10 neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "MRGPRX1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "This would fit with our co-clustering that identifies the MRGPRX1-expressing H10 neurons as related to NP1 cells."
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "We suspect that some of these stroking responsive cells may be the nonpeptidergic H10 neurons that express itch-related genes as well as high levels of PIEZO2."
+        }
+      ]
+    },
+    {
+      "cell_type": "H11 neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "nonpeptidergic neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "TRPV1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "Since in humans all nonpeptidergic neurons express TRPV1 whereas mouse NP1, NP2, and cLTMRs do not prominently express this gene, this fits well with recent data showing much broader expression of TRPV1 in humans than mice."
+        }
+      ]
+    },
+    {
+      "cell_type": "DRG neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "SNAP25",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "SCN9A",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "SCN10A",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "NEFH",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        }
+      ]
+    },
+    {
+      "cell_type": "non-neuronal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PRP1",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "MBP",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "QKI",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "LPAR1",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        },
+        {
+          "gene": "APOE",
+          "evidence_level": "explicit",
+          "source_section": "Materials and methods - Single nuclear capture, sequencing, and data analysis",
+          "source_context": "Clusters not expressing high levels of neuronal or somatosensory genes like SNAP25, SCN9A, SCN10A, PIEZO2, NEFH, etc. but instead expressing elevated levels of markers of non-neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were tagged as non-neuronal and were removed."
+        }
+      ]
+    }
+  ]
+}

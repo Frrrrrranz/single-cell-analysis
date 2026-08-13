@@ -43,3 +43,6 @@ Thumbs.db
 
 # Kilo AI configuration (tool-specific, not project code)
 .kilo/
+
+# Local agent plans and progress
+.agents/

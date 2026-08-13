@@ -1,0 +1,131 @@
+{
+  "paper_id": "NATURE.587.619.2020",
+  "cell_types": [
+    {
+      "cell_type": "goblet cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5B",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12c",
+          "source_context": "Dot plot of expression of canonical goblet cell markers MUC5B and MUC5AC and transcription factor SPDEF in mouse (left) and human (right) goblet cells."
+        },
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12c",
+          "source_context": "Dot plot of expression of canonical goblet cell markers MUC5B and MUC5AC and transcription factor SPDEF in mouse (left) and human (right) goblet cells."
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12c",
+          "source_context": "Dot plot of expression of canonical goblet cell markers MUC5B and MUC5AC and transcription factor SPDEF in mouse (left) and human (right) goblet cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2 cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sftpc",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12c",
+          "source_context": "Alveolar section of adult mouse lung probed by smFISH for general alveolar epithelial marker Nkx2-1, AT2 marker Sftpc, and transcription factor Myrf."
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1 cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Myrf",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Fig. 12c",
+          "source_context": "Note Myrf is selectively expressed in mouse AT1 cells (Nkx2-1+ Sftpc− cells), as it is in humans (Extended Data Fig. 6c)."
+        }
+      ]
+    },
+    {
+      "cell_type": "alveolar epithelial cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Nkx2-1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12c",
+          "source_context": "Alveolar section of adult mouse lung probed by smFISH for general alveolar epithelial marker Nkx2-1, AT2 marker Sftpc, and transcription factor Myrf."
+        }
+      ]
+    },
+    {
+      "cell_type": "serous cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LTF",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12g",
+          "source_context": "Dot plots of expression of serous cell markers LTF, LYZ, BPIFBP1 and HP showing switched expression (type 3 change) from mouse airway epithelial cells to human serous cells, which mice lack (asterisk)."
+        },
+        {
+          "gene": "LYZ",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12g",
+          "source_context": "Dot plots of expression of serous cell markers LTF, LYZ, BPIFBP1 and HP showing switched expression (type 3 change) from mouse airway epithelial cells to human serous cells, which mice lack (asterisk)."
+        },
+        {
+          "gene": "BPIFBP1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12g",
+          "source_context": "Dot plots of expression of serous cell markers LTF, LYZ, BPIFBP1 and HP showing switched expression (type 3 change) from mouse airway epithelial cells to human serous cells, which mice lack (asterisk)."
+        },
+        {
+          "gene": "HP",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 12g",
+          "source_context": "Dot plots of expression of serous cell markers LTF, LYZ, BPIFBP1 and HP showing switched expression (type 3 change) from mouse airway epithelial cells to human serous cells, which mice lack (asterisk)."
+        }
+      ]
+    },
+    {
+      "cell_type": "lipofibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "APOE",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Fig. 12g",
+          "source_context": "Dot plots of expression of lipid handling genes APOE, PLIN2 and FST show switched expression (type 3 change) from mouse alveolar stromal cells to human lipofibroblasts, which mice lack (asterisks)."
+        },
+        {
+          "gene": "PLIN2",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Fig. 12g",
+          "source_context": "Dot plots of expression of lipid handling genes APOE, PLIN2 and FST show switched expression (type 3 change) from mouse alveolar stromal cells to human lipofibroblasts, which mice lack (asterisks)."
+        },
+        {
+          "gene": "FST",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Fig. 12g",
+          "source_context": "Dot plots of expression of lipid handling genes APOE, PLIN2 and FST show switched expression (type 3 change) from mouse alveolar stromal cells to human lipofibroblasts, which mice lack (asterisks)."
+        }
+      ]
+    }
+  ]
+}

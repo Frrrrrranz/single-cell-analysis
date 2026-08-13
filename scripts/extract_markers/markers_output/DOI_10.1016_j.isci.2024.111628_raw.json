@@ -1,0 +1,31 @@
+{
+  "paper_id": "DOI_10.1016_j.isci.2024.111628",
+  "cell_types": [
+    {
+      "cell_type": "Schwann cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "CDH19",
+          "evidence_level": "explicit",
+          "source_section": "Results",
+          "source_context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)."
+        },
+        {
+          "gene": "NRXN",
+          "evidence_level": "explicit",
+          "source_section": "Results",
+          "source_context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)."
+        },
+        {
+          "gene": "XKR4",
+          "evidence_level": "explicit",
+          "source_section": "Results",
+          "source_context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "paper_id": "DOI_10.1126_science.abo1984",
+  "cell_types": [
+    {
+      "cell_type": "Neuronal cells",
+      "subtype": "NC1.1",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NFATC2",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.1 was distinguished by the highest up-regulation of NFATC2."
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuronal cells",
+      "subtype": "NC1.2",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "SLC35F1",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.2 up-regulated genes associated with electrocardiogram intervals (SLC35F1 and AJAP1; Fig. 5D), IGFBP5, involved in neuronal apoptosis and autophagy, and the ion channel and heart rate regulator KCNK1."
+        },
+        {
+          "gene": "AJAP1",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.2 up-regulated genes associated with electrocardiogram intervals (SLC35F1 and AJAP1; Fig. 5D), IGFBP5, involved in neuronal apoptosis and autophagy, and the ion channel and heart rate regulator KCNK1."
+        },
+        {
+          "gene": "IGFBP5",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.2 up-regulated genes associated with electrocardiogram intervals (SLC35F1 and AJAP1; Fig. 5D), IGFBP5, involved in neuronal apoptosis and autophagy, and the ion channel and heart rate regulator KCNK1."
+        },
+        {
+          "gene": "KCNK1",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.2 up-regulated genes associated with electrocardiogram intervals (SLC35F1 and AJAP1; Fig. 5D), IGFBP5, involved in neuronal apoptosis and autophagy, and the ion channel and heart rate regulator KCNK1."
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuronal cells",
+      "subtype": "NC1.3",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "GALR1",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.3 was enriched for the neuromodulator receptor GALR1 and phosphodiesterases PDE10A and PDE3B"
+        },
+        {
+          "gene": "PDE10A",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.3 was enriched for the neuromodulator receptor GALR1 and phosphodiesterases PDE10A and PDE3B"
+        },
+        {
+          "gene": "PDE3B",
+          "evidence_level": "implied",
+          "source_section": "Results, Neuronal cells",
+          "source_context": "NC1.3 was enriched for the neuromodulator receptor GALR1 and phosphodiesterases PDE10A and PDE3B"
+        }
+      ]
+    },
+    {
+      "cell_type": "Smooth muscle cells",
+      "subtype": "SMC1.1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC1.1, which had higher expression of ACTA2, MYH11, and TAGLN"
+        },
+        {
+          "gene": "MYH11",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC1.1, which had higher expression of ACTA2, MYH11, and TAGLN"
+        },
+        {
+          "gene": "TAGLN",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC1.1, which had higher expression of ACTA2, MYH11, and TAGLN"
+        }
+      ]
+    },
+    {
+      "cell_type": "Smooth muscle cells",
+      "subtype": "SMC1.2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ITGA8",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC1.2, which strongly expressed ITGA8, required for maintenance of SMC contractile phenotype, and ATP10A"
+        },
+        {
+          "gene": "ATP10A",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC1.2, which strongly expressed ITGA8, required for maintenance of SMC contractile phenotype, and ATP10A"
+        }
+      ]
+    },
+    {
+      "cell_type": "Smooth muscle cells",
+      "subtype": "SMC2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ELN",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC2 expressed high levels of genes involved in collagen and elastic fiber formation (ELN and LAMA2) and MYH10"
+        },
+        {
+          "gene": "LAMA2",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC2 expressed high levels of genes involved in collagen and elastic fiber formation (ELN and LAMA2) and MYH10"
+        },
+        {
+          "gene": "MYH10",
+          "evidence_level": "implied",
+          "source_section": "Results, Smooth muscle cells and pericytes",
+          "source_context": "SMC2 expressed high levels of genes involved in collagen and elastic fiber formation (ELN and LAMA2) and MYH10"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "subtype": "EC7",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SMOC1",
+          "evidence_level": "implied",
+          "source_section": "Results, Endothelial cells",
+          "source_context": "EC7 expressed endocardial-enriched genes [SMOC1, NPR3, and POSTN]"
+        },
+        {
+          "gene": "NPR3",
+          "evidence_level": "implied",
+          "source_section": "Results, Endothelial cells",
+          "source_context": "EC7 expressed endocardial-enriched genes [SMOC1, NPR3, and POSTN]"
+        },
+        {
+          "gene": "POSTN",
+          "evidence_level": "implied",
+          "source_section": "Results, Endothelial cells",
+          "source_context": "EC7 expressed endocardial-enriched genes [SMOC1, NPR3, and POSTN]"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "LYVE1highMHCIIlow",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_level": "implied",
+          "source_section": "Results, Myeloid cells",
+          "source_context": "The tissue-resident MPs LYVE1highMHCIIlow and LYVE1lowMHCIIhigh"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "LYVE1lowMHCIIhigh",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_level": "implied",
+          "source_section": "Results, Myeloid cells",
+          "source_context": "The tissue-resident MPs LYVE1highMHCIIlow and LYVE1lowMHCIIhigh"
+        }
+      ]
+    },
+    {
+      "cell_type": "Adipocytes",
+      "subtype": "AD3",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OSMR",
+          "evidence_level": "implied",
+          "source_section": "Results, Adipocytes",
+          "source_context": "immune AD3, expressing OSMR and cytokine-responsive genes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "paper_id": "DOI_10.1126_science.abo0510",
+  "cell_types": [
+    {
+      "cell_type": "Macrophage",
+      "subtype": "LYVE1 expressing",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOLR2",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "“LYVE1” expressing FOLR2, LYVE1, and SPP1"
+        },
+        {
+          "gene": "LYVE1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "“LYVE1” expressing FOLR2, LYVE1, and SPP1"
+        },
+        {
+          "gene": "SPP1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "“LYVE1” expressing FOLR2, LYVE1, and SPP1"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "Iron-recycling",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD5L",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "best characterized by expression of CD5L, VCAM1, and APOE"
+        },
+        {
+          "gene": "VCAM1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "best characterized by expression of CD5L, VCAM1, and APOE"
+        },
+        {
+          "gene": "APOE",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "best characterized by expression of CD5L, VCAM1, and APOE"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "MHC class II",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLA-DRA",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing the highest levels of HLA-DRA, HLA-DPA1, and CLEC7A among macrophages"
+        },
+        {
+          "gene": "HLA-DPA1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing the highest levels of HLA-DRA, HLA-DPA1, and CLEC7A among macrophages"
+        },
+        {
+          "gene": "CLEC7A",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing the highest levels of HLA-DRA, HLA-DPA1, and CLEC7A among macrophages"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "Kupffer-like",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ENG",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing endothelial transcripts ENG, KDR, and CAV"
+        },
+        {
+          "gene": "KDR",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing endothelial transcripts ENG, KDR, and CAV"
+        },
+        {
+          "gene": "CAV",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing endothelial transcripts ENG, KDR, and CAV"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "TREM2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TREM2",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "with expression of microglia-associated transcripts TREM2 and P2RY12"
+        },
+        {
+          "gene": "P2RY12",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "with expression of microglia-associated transcripts TREM2 and P2RY12"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "Osteoclasts",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MMP9",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing characteristic MMP9 and ACP35"
+        },
+        {
+          "gene": "ACP35",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Data integration and annotation",
+          "source_context": "expressing characteristic MMP9 and ACP35"
+        }
+      ]
+    },
+    {
+      "cell_type": "ENDOTHELIUM_I",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDH5",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "ENDOTHELIUM_II",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDH5",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "ENDOTHELIUM_III",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDH5",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "ENDOTHELIUM_IV",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDH5",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "ENDOTHELIUM_V",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDH5",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "PRO_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VPREB1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "RAG1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "DNTT",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "PRE_PRO_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VPREB1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "RAG1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "DNTT",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "LATE_PRO_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VPREB1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "RAG1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "DNTT",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "LARGE_PRE_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VPREB1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "RAG1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "DNTT",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "SMALL_PRE_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VPREB1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "RAG1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "DNTT",
+          "evidence_level": "explicit",
+          "source_section": "fig.S21",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "EARLY_MK",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLF1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "TESPA1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "LATE_MK",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLF1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "TESPA1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "MEP",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLF1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "TESPA1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "EARLY_ERY",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLF1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "TESPA1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "LATE_ERY",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLF1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "TESPA1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "MID_ERY",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLF1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "TESPA1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S22",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and KLF1, TESPA1 for megakaryocyte/erythroid progenitors in the human prenatal spleen at 14 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "CMP",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MPO",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "AZU1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "GMP",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MPO",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "AZU1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "MOP",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MPO",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "AZU1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "PROMYELOCYTE",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MPO",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "AZU1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "PROMONOCYTE",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MPO",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        },
+        {
+          "gene": "AZU1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S23",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and MPO and AZU1 for myeloid progenitors in the human prenatal intestine at 15 pcw and prenatal thymus at 16 pcw."
+        }
+      ]
+    },
+    {
+      "cell_type": "IMMATURE_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD19",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Immature B cells were characterized by higher expression of CD19, CD24, and VPREB3."
+        },
+        {
+          "gene": "CD24",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Immature B cells were characterized by higher expression of CD19, CD24, and VPREB3."
+        },
+        {
+          "gene": "VPREB3",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Immature B cells were characterized by higher expression of CD19, CD24, and VPREB3."
+        }
+      ]
+    },
+    {
+      "cell_type": "MATURE_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)."
+        }
+      ]
+    },
+    {
+      "cell_type": "PLASMA_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD38",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)."
+        },
+        {
+          "gene": "SDC1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)."
+        },
+        {
+          "gene": "JCHAIN",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)."
+        }
+      ]
+    },
+    {
+      "cell_type": "CYCLING_B",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MKI67",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Cycling B cells were additionally marked with MKI67."
+        }
+      ]
+    },
+    {
+      "cell_type": "B1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "fig.S25B",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)."
+        }
+      ]
+    }
+  ]
+}

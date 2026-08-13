@@ -1,0 +1,375 @@
+{
+  "paper_id": "DOI_10.1016_j.cell.2021.11.031",
+  "cell_types": [
+    {
+      "cell_type": "ASCs (AD-specific cells)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LGR5",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6265",
+          "source_context": "ASCs resembled colonic stem and progenitor cells, expressed genes indicative of WNT pathway activation (LGR5, OLFM4, ASCL2, AXIN2, RNF43, and EPHB2) (Figure 2A)"
+        },
+        {
+          "gene": "OLFM4",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6265",
+          "source_context": "ASCs resembled colonic stem and progenitor cells, expressed genes indicative of WNT pathway activation (LGR5, OLFM4, ASCL2, AXIN2, RNF43, and EPHB2) (Figure 2A)"
+        },
+        {
+          "gene": "ASCL2",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6265",
+          "source_context": "ASCs resembled colonic stem and progenitor cells, expressed genes indicative of WNT pathway activation (LGR5, OLFM4, ASCL2, AXIN2, RNF43, and EPHB2) (Figure 2A)"
+        },
+        {
+          "gene": "AXIN2",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6265",
+          "source_context": "ASCs resembled colonic stem and progenitor cells, expressed genes indicative of WNT pathway activation (LGR5, OLFM4, ASCL2, AXIN2, RNF43, and EPHB2) (Figure 2A)"
+        },
+        {
+          "gene": "RNF43",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6265",
+          "source_context": "ASCs resembled colonic stem and progenitor cells, expressed genes indicative of WNT pathway activation (LGR5, OLFM4, ASCL2, AXIN2, RNF43, and EPHB2) (Figure 2A)"
+        },
+        {
+          "gene": "EPHB2",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6265",
+          "source_context": "ASCs resembled colonic stem and progenitor cells, expressed genes indicative of WNT pathway activation (LGR5, OLFM4, ASCL2, AXIN2, RNF43, and EPHB2) (Figure 2A)"
+        }
+      ]
+    },
+    {
+      "cell_type": "SSCs (serrated-specific cells)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3D; Results p.6266",
+          "source_context": "MUC5AC, a marker of SSCs, was highly expressed in HPs and SSLs but not in normal biopsies and ADs (Figure 3D)"
+        },
+        {
+          "gene": "TFF3",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "The transcriptomic profiles of SSCs resembled absorptive-lineage cells, but SSCs also expressed functional goblet cell genes, including TFF3 and MUC2, but surprisingly without the master secretory cell TF ATOH1 (Figure 2A; Figure S2G)"
+        },
+        {
+          "gene": "MUC2",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "The transcriptomic profiles of SSCs resembled absorptive-lineage cells, but SSCs also expressed functional goblet cell genes, including TFF3 and MUC2, but surprisingly without the master secretory cell TF ATOH1 (Figure 2A; Figure S2G)"
+        },
+        {
+          "gene": "AQP5",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "SSCs highly expressed genes not normally observed in the colon (MUC5AC, AQP5, TACSTD2 [TROP2], TFF2, MUC17, and MSLN) but rather found in other endodermal organs, most notably, the gastric epithelium (Figures 2A and 2D)"
+        },
+        {
+          "gene": "TACSTD2",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "SSCs highly expressed genes not normally observed in the colon (MUC5AC, AQP5, TACSTD2 [TROP2], TFF2, MUC17, and MSLN) but rather found in other endodermal organs, most notably, the gastric epithelium (Figures 2A and 2D)"
+        },
+        {
+          "gene": "TFF2",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "SSCs highly expressed genes not normally observed in the colon (MUC5AC, AQP5, TACSTD2 [TROP2], TFF2, MUC17, and MSLN) but rather found in other endodermal organs, most notably, the gastric epithelium (Figures 2A and 2D)"
+        },
+        {
+          "gene": "MUC17",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "SSCs highly expressed genes not normally observed in the colon (MUC5AC, AQP5, TACSTD2 [TROP2], TFF2, MUC17, and MSLN) but rather found in other endodermal organs, most notably, the gastric epithelium (Figures 2A and 2D)"
+        },
+        {
+          "gene": "MSLN",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "SSCs highly expressed genes not normally observed in the colon (MUC5AC, AQP5, TACSTD2 [TROP2], TFF2, MUC17, and MSLN) but rather found in other endodermal organs, most notably, the gastric epithelium (Figures 2A and 2D)"
+        },
+        {
+          "gene": "CDX2",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "CDX2 was expressed in most colonic cell types, including ASCs; however, it was downregulated in SSCs, supporting a loss of regional identity in these cells (Figure 2A)"
+        },
+        {
+          "gene": "MDK",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "This loss of caudal identity in SSCs was accompanied by a reversion to an embryonic stage, supported by a fetal gene-expression signature, including the MDK gene (Figures 2A and 2D)"
+        }
+      ]
+    },
+    {
+      "cell_type": "colonic stem cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OLFM4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3A-3B; Results p.6266",
+          "source_context": "Stem cell markers, OLFM4 and SOX9, were abundant in ADs but were significantly reduced in HPs and SSLs (Figures 3A and 3B)"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3A-3B; Results p.6266",
+          "source_context": "Stem cell markers, OLFM4 and SOX9, were abundant in ADs but were significantly reduced in HPs and SSLs (Figures 3A and 3B)"
+        },
+        {
+          "gene": "LGR5",
+          "evidence_level": "implied",
+          "source_section": "Fig.5I; Results p.6268",
+          "source_context": "Positive MUC5AC and MSLN expression, coupled to loss of CDX2 expression, distinguished metaplastic cells from LGR5/b-catenin-expressing proliferative stem cells within the same tumor (Figures 5I, 4C, and 4E)"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TFF3",
+          "evidence_level": "implied",
+          "source_section": "Fig.2A; Results p.6266",
+          "source_context": "SSCs also expressed functional goblet cell genes, including TFF3 and MUC2, but surprisingly without the master secretory cell TF ATOH1 (Figure 2A; Figure S2G)"
+        },
+        {
+          "gene": "MUC2",
+          "evidence_level": "explicit",
+          "source_section": "Figure S7G",
+          "source_context": "Reporter co-expression with cell-type-specific markers, DCLK1 for tuft cells, MUC2 for goblet cells, and CHGA for enteroendocrine cells, after 24 hours of lineage tracing in Mist1CreERT2/+;R26RLSL-EYFP/+ mouse colons."
+        }
+      ]
+    },
+    {
+      "cell_type": "CD4+ T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.6C; Results p.6269",
+          "source_context": "Most immune cell types were increased in polyps compared to normal tissues, including CD4+ T cells, although many were not different between polyp subtypes (Figure 6C)"
+        },
+        {
+          "gene": "CD3",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods MxIF, single-cell segmentation and image analysis",
+          "source_context": "Cell types were defined by combinations of marker masks; for example, CD4+ T cells were defined by intersecting CD4 and CD3 pixel masks."
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8+ T cells",
+      "subtype": "cytotoxic cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_level": "explicit",
+          "source_section": "Fig.6C; Results p.6269",
+          "source_context": "Strikingly, CD8+ T cells, natural killer (NK) cells, and gdT cells (labeled cytotoxic cells) were significantly increased in SERs compared to ADs (Figure 6C)"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_level": "explicit",
+          "source_section": "Fig.6H; Results p.6272",
+          "source_context": "CD68+ macrophages were distributed throughout the AD stroma, while they were concentrated at the luminal surfaces of SERs, coinciding with the surface location of MUC5AC+ metaplastic cells (Figure 6H)"
+        }
+      ]
+    },
+    {
+      "cell_type": "TSCs (tumor-specific cells)",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lgr5",
+          "evidence_level": "implied",
+          "source_section": "Fig.7G-7I; Results p.6273",
+          "source_context": "tumor-specific cells (TSCs) from both tumor types formed an Lgr5-overexpressing cell population without a metaplastic gene signature (Figures 7G–7I)"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD4+ T cells",
+      "subtype": "dysfunctional",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pdcd1",
+          "evidence_level": "implied",
+          "source_section": "Fig.7N; Results p.6274",
+          "source_context": "These cells expressed immunosuppressive markers, such as Pdcd1 (PD1), Ctla4, Prdm1, and Havcr2 (TIM3), as well as genes of the Foxp3 regulon, implicating dysfunctional T cells exhibiting regulatory characteristics (Figure 7N)"
+        },
+        {
+          "gene": "Ctla4",
+          "evidence_level": "implied",
+          "source_section": "Fig.7N; Results p.6274",
+          "source_context": "These cells expressed immunosuppressive markers, such as Pdcd1 (PD1), Ctla4, Prdm1, and Havcr2 (TIM3), as well as genes of the Foxp3 regulon, implicating dysfunctional T cells exhibiting regulatory characteristics (Figure 7N)"
+        },
+        {
+          "gene": "Prdm1",
+          "evidence_level": "implied",
+          "source_section": "Fig.7N; Results p.6274",
+          "source_context": "These cells expressed immunosuppressive markers, such as Pdcd1 (PD1), Ctla4, Prdm1, and Havcr2 (TIM3), as well as genes of the Foxp3 regulon, implicating dysfunctional T cells exhibiting regulatory characteristics (Figure 7N)"
+        },
+        {
+          "gene": "Havcr2",
+          "evidence_level": "implied",
+          "source_section": "Fig.7N; Results p.6274",
+          "source_context": "These cells expressed immunosuppressive markers, such as Pdcd1 (PD1), Ctla4, Prdm1, and Havcr2 (TIM3), as well as genes of the Foxp3 regulon, implicating dysfunctional T cells exhibiting regulatory characteristics (Figure 7N)"
+        }
+      ]
+    },
+    {
+      "cell_type": "neutrophils",
+      "subtype": "Cd274+ (PDL1+)",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd274",
+          "evidence_level": "implied",
+          "source_section": "Fig.7J-7N; Results p.6274",
+          "source_context": "Lrig1 tumors... had a large infiltration of myeloid cells that include tumor-associated macrophages and myeloid derived suppressive-like cells, and distinct neutrophils expressing Cd274 (PDL1) (Figures 7J–7N)"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8+ T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods MxIF, single-cell segmentation and image analysis",
+          "source_context": "On the other hand, CD8+ T cells were defined using the CD8 marker."
+        }
+      ]
+    },
+    {
+      "cell_type": "CD68+ cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_level": "explicit",
+          "source_section": "Figure S6I",
+          "source_context": "Additional representative MxIF images of CD68+ cells and MUC5AC+ in multiple ADs and SERs."
+        }
+      ]
+    },
+    {
+      "cell_type": "stem cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OLFM4",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods MxIF and MxIHC, pixel-based image quantification",
+          "source_context": "An overlay of OLFM4, MUC5AC, and PANCK was used as a guide for identifying stem (OLFM4+) and metaplastic (MUC5AC+) epithelial (PANCK+) regions."
+        },
+        {
+          "gene": "Lrig1",
+          "evidence_level": "explicit",
+          "source_section": "Figure S7E",
+          "source_context": "Quantiﬁcation of lineage-traced glands at 28 days at homeostasis or with DSS-damage from stem (Lrig1) and non-stem (Mist1) cells using different reporters."
+        }
+      ]
+    },
+    {
+      "cell_type": "metaplastic cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods MxIF and MxIHC, pixel-based image quantification",
+          "source_context": "An overlay of OLFM4, MUC5AC, and PANCK was used as a guide for identifying stem (OLFM4+) and metaplastic (MUC5AC+) epithelial (PANCK+) regions."
+        }
+      ]
+    },
+    {
+      "cell_type": "tuft cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DCLK1",
+          "evidence_level": "explicit",
+          "source_section": "Figure S7G",
+          "source_context": "Reporter co-expression with cell-type-specific markers, DCLK1 for tuft cells, MUC2 for goblet cells, and CHGA for enteroendocrine cells, after 24 hours of lineage tracing in Mist1CreERT2/+;R26RLSL-EYFP/+ mouse colons."
+        }
+      ]
+    },
+    {
+      "cell_type": "enteroendocrine cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CHGA",
+          "evidence_level": "explicit",
+          "source_section": "Figure S7G",
+          "source_context": "Reporter co-expression with cell-type-specific markers, DCLK1 for tuft cells, MUC2 for goblet cells, and CHGA for enteroendocrine cells, after 24 hours of lineage tracing in Mist1CreERT2/+;R26RLSL-EYFP/+ mouse colons."
+        }
+      ]
+    },
+    {
+      "cell_type": "non-stem cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mist1",
+          "evidence_level": "explicit",
+          "source_section": "Figure S7E",
+          "source_context": "Quantiﬁcation of lineage-traced glands at 28 days at homeostasis or with DSS-damage from stem (Lrig1) and non-stem (Mist1) cells using different reporters."
+        }
+      ]
+    }
+  ]
+}

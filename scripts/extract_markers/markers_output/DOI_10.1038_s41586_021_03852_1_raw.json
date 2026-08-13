@@ -1,0 +1,1063 @@
+{
+  "paper_id": "DOI_10.1038_s41586_021_03852_1",
+  "cell_types": [
+    {
+      "cell_type": "ENCC/glia progenitor",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "CRYAB",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: ENCC/glia progenitor with low CRYAB/PHOX2A/ERBB3/SOX10/FOXD3."
+        },
+        {
+          "gene": "PHOX2A",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: ENCC/glia progenitor with low CRYAB/PHOX2A/ERBB3/SOX10/FOXD3."
+        },
+        {
+          "gene": "ERBB3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: ENCC/glia progenitor with low CRYAB/PHOX2A/ERBB3/SOX10/FOXD3."
+        },
+        {
+          "gene": "SOX10",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: ENCC/glia progenitor with low CRYAB/PHOX2A/ERBB3/SOX10/FOXD3."
+        },
+        {
+          "gene": "FOXD3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: ENCC/glia progenitor with low CRYAB/PHOX2A/ERBB3/SOX10/FOXD3."
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "DLL3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Neuroblast with DLL3/DLL1/MFNG."
+        },
+        {
+          "gene": "DLL1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Neuroblast with DLL3/DLL1/MFNG."
+        },
+        {
+          "gene": "MFNG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Neuroblast with DLL3/DLL1/MFNG."
+        }
+      ]
+    },
+    {
+      "cell_type": "Branch A1 (iMN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "ETV1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A1 (iMN) with ETV1/GAL/SCGN/NOS1/SPOCK1 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "GAL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A1 (iMN) with ETV1/GAL/SCGN/NOS1/SPOCK1 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "SCGN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A1 (iMN) with ETV1/GAL/SCGN/NOS1/SPOCK1 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "NOS1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A1 (iMN) with ETV1/GAL/SCGN/NOS1/SPOCK1 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "SPOCK1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A1 (iMN) with ETV1/GAL/SCGN/NOS1/SPOCK1 in both 6-11 PCW and 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Branch A2 (IPAN/IN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "ETV1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A2 (IPAN/IN) with ETV1/NTNG1/GRP/CHRM3/NXPH2 in 6-11 PCW."
+        },
+        {
+          "gene": "NTNG1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A2 (IPAN/IN) with ETV1/NTNG1/GRP/CHRM3/NXPH2 in 6-11 PCW."
+        },
+        {
+          "gene": "GRP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A2 (IPAN/IN) with ETV1/NTNG1/GRP/CHRM3/NXPH2 in 6-11 PCW."
+        },
+        {
+          "gene": "CHRM3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A2 (IPAN/IN) with ETV1/NTNG1/GRP/CHRM3/NXPH2 in 6-11 PCW."
+        },
+        {
+          "gene": "NXPH2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A2 (IPAN/IN) with ETV1/NTNG1/GRP/CHRM3/NXPH2 in 6-11 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Branch A3 (IPAN/IN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "ETV1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A3 (IPAN/IN) with ETV1/NTNG1/GRP/TAC1/RUNX1/ONECUT2/3 in 6-11 PCW."
+        },
+        {
+          "gene": "NTNG1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A3 (IPAN/IN) with ETV1/NTNG1/GRP/TAC1/RUNX1/ONECUT2/3 in 6-11 PCW."
+        },
+        {
+          "gene": "GRP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A3 (IPAN/IN) with ETV1/NTNG1/GRP/TAC1/RUNX1/ONECUT2/3 in 6-11 PCW."
+        },
+        {
+          "gene": "TAC1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A3 (IPAN/IN) with ETV1/NTNG1/GRP/TAC1/RUNX1/ONECUT2/3 in 6-11 PCW."
+        },
+        {
+          "gene": "RUNX1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A3 (IPAN/IN) with ETV1/NTNG1/GRP/TAC1/RUNX1/ONECUT2/3 in 6-11 PCW."
+        },
+        {
+          "gene": "ONECUT2/3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Marker genes for populations are listed: Branch A3 (IPAN/IN) with ETV1/NTNG1/GRP/TAC1/RUNX1/ONECUT2/3 in 6-11 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Branch B1 (eMN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "BNC2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B1 (eMN) with BNC2/RAMP1/NXPH4/NDUFA4L2 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "RAMP1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B1 (eMN) with BNC2/RAMP1/NXPH4/NDUFA4L2 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "NXPH4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B1 (eMN) with BNC2/RAMP1/NXPH4/NDUFA4L2 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "NDUFA4L2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B1 (eMN) with BNC2/RAMP1/NXPH4/NDUFA4L2 in both 6-11 PCW and 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Branch B2 (eMN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "BNC2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B2 (eMN) with BNC2/PENK/HTR7 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "PENK",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B2 (eMN) with BNC2/PENK/HTR7 in both 6-11 PCW and 12-17 PCW."
+        },
+        {
+          "gene": "HTR7",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a, Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B2 (eMN) with BNC2/PENK/HTR7 in both 6-11 PCW and 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Branch A4 (IN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "ETV1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A4 (IN) with ETV1/GAL/SCGN/GCGR/NEUROD6 in 12-17 PCW."
+        },
+        {
+          "gene": "GAL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A4 (IN) with ETV1/GAL/SCGN/GCGR/NEUROD6 in 12-17 PCW."
+        },
+        {
+          "gene": "SCGN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A4 (IN) with ETV1/GAL/SCGN/GCGR/NEUROD6 in 12-17 PCW."
+        },
+        {
+          "gene": "GCGR",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A4 (IN) with ETV1/GAL/SCGN/GCGR/NEUROD6 in 12-17 PCW."
+        },
+        {
+          "gene": "NEUROD6",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch A4 (IN) with ETV1/GAL/SCGN/GCGR/NEUROD6 in 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Branch B3 (IPAN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "BNC2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B3 (IPAN) with BNC2/DLX3/DGKG in 12-17 PCW."
+        },
+        {
+          "gene": "DLX3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B3 (IPAN) with BNC2/DLX3/DGKG in 12-17 PCW."
+        },
+        {
+          "gene": "DGKG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Branch B3 (IPAN) with BNC2/DLX3/DGKG in 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Glia 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "DHH",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 1 with DHH/RXRG/GFRA3/MAL/FGL2 in 12-17 PCW."
+        },
+        {
+          "gene": "RXRG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 1 with DHH/RXRG/GFRA3/MAL/FGL2 in 12-17 PCW."
+        },
+        {
+          "gene": "GFRA3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 1 with DHH/RXRG/GFRA3/MAL/FGL2 in 12-17 PCW."
+        },
+        {
+          "gene": "MAL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 1 with DHH/RXRG/GFRA3/MAL/FGL2 in 12-17 PCW."
+        },
+        {
+          "gene": "FGL2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 1 with DHH/RXRG/GFRA3/MAL/FGL2 in 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Glia 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "ELN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 2 with ELN/EVA1A/BMP8B in 12-17 PCW."
+        },
+        {
+          "gene": "EVA1A",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 2 with ELN/EVA1A/BMP8B in 12-17 PCW."
+        },
+        {
+          "gene": "BMP8B",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 2 with ELN/EVA1A/BMP8B in 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Glia 3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "APOE",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 3 with APOE/BCAN/PAQR6 in 12-17 PCW."
+        },
+        {
+          "gene": "BCAN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 3 with APOE/BCAN/PAQR6 in 12-17 PCW."
+        },
+        {
+          "gene": "PAQR6",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Glia 3 with APOE/BCAN/PAQR6 in 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "Differentiating glia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "MPZ",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Differentiating glia with MPZ/CRYAB/COL20A1 in 12-17 PCW."
+        },
+        {
+          "gene": "CRYAB",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Differentiating glia with MPZ/CRYAB/COL20A1 in 12-17 PCW."
+        },
+        {
+          "gene": "COL20A1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3b",
+          "source_context": "Marker genes for populations are listed: Differentiating glia with MPZ/CRYAB/COL20A1 in 12-17 PCW."
+        }
+      ]
+    },
+    {
+      "cell_type": "BEST4 epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CFTR",
+          "evidence_level": "explicit",
+          "source_section": "Results p.2",
+          "source_context": "small-intestinal BEST4 cells were marked by high expression of the gene CFTR."
+        }
+      ]
+    },
+    {
+      "cell_type": "EC cells (NPW)",
+      "subtype": "NPW-expressing enterochromaffin cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NPW",
+          "evidence_level": "explicit",
+          "source_section": "Results p.3",
+          "source_context": "We found a subpopulation of NPW-expressing enterochromaffin cells that are also specific for PRAC1 and RXFP4."
+        },
+        {
+          "gene": "PRAC1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.3",
+          "source_context": "We found a subpopulation of NPW-expressing enterochromaffin cells that are also specific for PRAC1 and RXFP4."
+        },
+        {
+          "gene": "RXFP4",
+          "evidence_level": "explicit",
+          "source_section": "Results p.3",
+          "source_context": "We found a subpopulation of NPW-expressing enterochromaffin cells that are also specific for PRAC1 and RXFP4."
+        }
+      ]
+    },
+    {
+      "cell_type": "mLTo",
+      "subtype": "mesenchymal lymphoid tissue organizer",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCL19",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.13b-f",
+          "source_context": "stromal population—marked by the expression of CCL19, CCL21 and CXCL13—that resembled the mLTo described in mouse lymph nodes."
+        },
+        {
+          "gene": "CCL21",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.13b-f",
+          "source_context": "stromal population—marked by the expression of CCL19, CCL21 and CXCL13—that resembled the mLTo described in mouse lymph nodes."
+        },
+        {
+          "gene": "CXCL13",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig.13b-f",
+          "source_context": "stromal population—marked by the expression of CCL19, CCL21 and CXCL13—that resembled the mLTo described in mouse lymph nodes."
+        }
+      ]
+    },
+    {
+      "cell_type": "inhibitory motor neurons (iMN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "GAL",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch A1 was functionally named inhibitory motor neurons (iMN) based on expression of GAL, NOS1 and VIP"
+        },
+        {
+          "gene": "NOS1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch A1 was functionally named inhibitory motor neurons (iMN) based on expression of GAL, NOS1 and VIP"
+        },
+        {
+          "gene": "VIP",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch A1 was functionally named inhibitory motor neurons (iMN) based on expression of GAL, NOS1 and VIP"
+        }
+      ]
+    },
+    {
+      "cell_type": "mixed IPAN/IN population",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NTNG1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch A2 was a mixed IPAN/IN population based on NTNG1 and NXPH2"
+        },
+        {
+          "gene": "NXPH2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch A2 was a mixed IPAN/IN population based on NTNG1 and NXPH2"
+        }
+      ]
+    },
+    {
+      "cell_type": "interneurons (IN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NEUROD6",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch A4 were annotated as interneurons (IN) based on NEUROD6 expression"
+        }
+      ]
+    },
+    {
+      "cell_type": "immature excitatory motor neurons (eMN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NXPH4",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch B1 were annotated as immature excitatory motor neurons (eMN) based on NXPH4 and NDUFA4L2"
+        },
+        {
+          "gene": "NDUFA4L2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch B1 were annotated as immature excitatory motor neurons (eMN) based on NXPH4 and NDUFA4L2"
+        }
+      ]
+    },
+    {
+      "cell_type": "second cluster of eMN",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "BNC2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch B2 was a second cluster of eMN based on expression of BNC2 and PENK"
+        },
+        {
+          "gene": "PENK",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch B2 was a second cluster of eMN based on expression of BNC2 and PENK"
+        }
+      ]
+    },
+    {
+      "cell_type": "IPAN",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "DLX3",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch B3 (IPAN) was assigned the IPAN label based on DLX3, ANO2, NOG and NTRK3"
+        },
+        {
+          "gene": "ANO2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch B3 (IPAN) was assigned the IPAN label based on DLX3, ANO2, NOG and NTRK3"
+        },
+        {
+          "gene": "NOG",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch B3 (IPAN) was assigned the IPAN label based on DLX3, ANO2, NOG and NTRK3"
+        },
+        {
+          "gene": "NTRK3",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "branch B3 (IPAN) was assigned the IPAN label based on DLX3, ANO2, NOG and NTRK3"
+        },
+        {
+          "gene": "CALB2",
+          "evidence_level": "implied",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch B3 also showed the expression of CALB2 and SST described in the human IPAN A population"
+        },
+        {
+          "gene": "SST",
+          "evidence_level": "implied",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Branch B3 also showed the expression of CALB2 and SST described in the human IPAN A population"
+        }
+      ]
+    },
+    {
+      "cell_type": "glia 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "DHH",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: glia 1 (DHH, RXRG, NTRK2, MBP)"
+        },
+        {
+          "gene": "RXRG",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: glia 1 (DHH, RXRG, NTRK2, MBP)"
+        },
+        {
+          "gene": "NTRK2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: glia 1 (DHH, RXRG, NTRK2, MBP)"
+        },
+        {
+          "gene": "MBP",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: glia 1 (DHH, RXRG, NTRK2, MBP)"
+        },
+        {
+          "gene": "S100B",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        },
+        {
+          "gene": "CRYAB",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        },
+        {
+          "gene": "MPZ",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        }
+      ]
+    },
+    {
+      "cell_type": "glia 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "ELN",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 2 (ELN, TFAP2A, SOX8, BMP8B)"
+        },
+        {
+          "gene": "TFAP2A",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 2 (ELN, TFAP2A, SOX8, BMP8B)"
+        },
+        {
+          "gene": "SOX8",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 2 (ELN, TFAP2A, SOX8, BMP8B)"
+        },
+        {
+          "gene": "BMP8B",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 2 (ELN, TFAP2A, SOX8, BMP8B)"
+        },
+        {
+          "gene": "S100B",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        },
+        {
+          "gene": "CRYAB",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        },
+        {
+          "gene": "MPZ",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        }
+      ]
+    },
+    {
+      "cell_type": "glia 3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "BCAN",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 3 (BCAN, APOE, CALCA, HES5, FRZB)"
+        },
+        {
+          "gene": "APOE",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 3 (BCAN, APOE, CALCA, HES5, FRZB)"
+        },
+        {
+          "gene": "CALCA",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 3 (BCAN, APOE, CALCA, HES5, FRZB)"
+        },
+        {
+          "gene": "HES5",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 3 (BCAN, APOE, CALCA, HES5, FRZB)"
+        },
+        {
+          "gene": "FRZB",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed: ... glia 3 (BCAN, APOE, CALCA, HES5, FRZB)"
+        },
+        {
+          "gene": "S100B",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        },
+        {
+          "gene": "CRYAB",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        },
+        {
+          "gene": "MPZ",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Three types of enteric glia (S100B, CRYAB, MPZ) were observed"
+        }
+      ]
+    },
+    {
+      "cell_type": "differentiating glia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "COL20A1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Differentiating glia (COL20A1) cluster annotation was based on expression of glial markers"
+        }
+      ]
+    },
+    {
+      "cell_type": "arterial endothelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GJA4",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into arterial (GJA4, HEY1, HEY2, EFNB2)"
+        },
+        {
+          "gene": "HEY1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into arterial (GJA4, HEY1, HEY2, EFNB2)"
+        },
+        {
+          "gene": "HEY2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into arterial (GJA4, HEY1, HEY2, EFNB2)"
+        },
+        {
+          "gene": "EFNB2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into arterial (GJA4, HEY1, HEY2, EFNB2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "venous endothelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACKR1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into ... venous (ACKR1, VWF)"
+        },
+        {
+          "gene": "VWF",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into ... venous (ACKR1, VWF)"
+        }
+      ]
+    },
+    {
+      "cell_type": "lymphatic endothelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PROX1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into ... lymphatic endothelium (PROX1, LYVE1, CCL21)"
+        },
+        {
+          "gene": "LYVE1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into ... lymphatic endothelium (PROX1, LYVE1, CCL21)"
+        },
+        {
+          "gene": "CCL21",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Endothelial lineage cells (PECAM1, CDH5) were subdivided into ... lymphatic endothelium (PROX1, LYVE1, CCL21)"
+        }
+      ]
+    },
+    {
+      "cell_type": "stromal 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADAMDEC1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Mesenchymal lineage cells included ... stromal 1 (ADAMDEC1) subset"
+        }
+      ]
+    },
+    {
+      "cell_type": "stromal 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Mesenchymal lineage cells included ... stromal 2 (PDGFRA, BMP4)"
+        },
+        {
+          "gene": "BMP4",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Mesenchymal lineage cells included ... stromal 2 (PDGFRA, BMP4)"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Myofibroblasts were identified on the basis of expression of actin (ACTA2) and transgelin (TAGLN), fibroblast characteristic decorin (DCN)"
+        },
+        {
+          "gene": "TAGLN",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Myofibroblasts were identified on the basis of expression of actin (ACTA2) and transgelin (TAGLN), fibroblast characteristic decorin (DCN)"
+        },
+        {
+          "gene": "DCN",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Myofibroblasts were identified on the basis of expression of actin (ACTA2) and transgelin (TAGLN), fibroblast characteristic decorin (DCN)"
+        }
+      ]
+    },
+    {
+      "cell_type": "smooth muscle cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DES",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Smooth muscle cells were annotated on the basis of high expression of DES, calponin (CNN1) and actin/myosin chain expression (ACTA2, MYH11)"
+        },
+        {
+          "gene": "CNN1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Smooth muscle cells were annotated on the basis of high expression of DES, calponin (CNN1) and actin/myosin chain expression (ACTA2, MYH11)"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Smooth muscle cells were annotated on the basis of high expression of DES, calponin (CNN1) and actin/myosin chain expression (ACTA2, MYH11)"
+        },
+        {
+          "gene": "MYH11",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Smooth muscle cells were annotated on the basis of high expression of DES, calponin (CNN1) and actin/myosin chain expression (ACTA2, MYH11)"
+        }
+      ]
+    },
+    {
+      "cell_type": "pericyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NOTCH3",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Pericytes were identified on the basis of expression of NOTCH3, MCAM (CD146) and RGS5"
+        },
+        {
+          "gene": "MCAM",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Pericytes were identified on the basis of expression of NOTCH3, MCAM (CD146) and RGS5"
+        },
+        {
+          "gene": "RGS5",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Pericytes were identified on the basis of expression of NOTCH3, MCAM (CD146) and RGS5"
+        }
+      ]
+    },
+    {
+      "cell_type": "mesothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT19",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Mesothelial cells were defined on the basis of KRT19, LRRN4 and UPK3B expression"
+        },
+        {
+          "gene": "LRRN4",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Mesothelial cells were defined on the basis of KRT19, LRRN4 and UPK3B expression"
+        },
+        {
+          "gene": "UPK3B",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "Mesothelial cells were defined on the basis of KRT19, LRRN4 and UPK3B expression"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "B lineage cells were defined as the cluster having positive expression of MS4A1 (encodes CD20) and CD19"
+        },
+        {
+          "gene": "CD19",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "B lineage cells were defined as the cluster having positive expression of MS4A1 (encodes CD20) and CD19"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD3D",
+          "evidence_level": "explicit",
+          "source_section": "Methods - Cell-type annotation",
+          "source_context": "T lineage cells were determined as the cluster of fetal, paediatric and adult cells with expression of T cell receptor component CD3D"
+        }
+      ]
+    }
+  ]
+}

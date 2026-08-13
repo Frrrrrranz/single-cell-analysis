@@ -1,0 +1,217 @@
+{
+  "paper_id": "CELL-STEM-CELL.30.20.2023",
+  "cell_types": [
+    {
+      "cell_type": "tip epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21 (Immunostaining)",
+          "source_context": "10–12 pcw distal tips were columnar and marked by SOX9, SOX2, and TPPP3."
+        },
+        {
+          "gene": "SOX2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21",
+          "source_context": "10–12 pcw distal tips were columnar and marked by SOX9, SOX2, and TPPP3."
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21",
+          "source_context": "10–12 pcw distal tips were columnar and marked by SOX9, SOX2, and TPPP3."
+        },
+        {
+          "gene": "CD44",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21",
+          "source_context": "CD44 marks tip epithelial cells across all stages of lung development tested."
+        }
+      ]
+    },
+    {
+      "cell_type": "tip epithelial cells",
+      "subtype": "late stage",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD36",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21",
+          "source_context": "CD36 is specific to the ≥15–22 pcw stage tips where it is co-expressed with CD44, SFTPC and SOX9."
+        }
+      ]
+    },
+    {
+      "cell_type": "stalk cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDPN",
+          "evidence_level": "implied",
+          "source_section": "Results p.21",
+          "source_context": "SOX9+/PDPN+ tip-adjacent (stalk) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "airway progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21-22",
+          "source_context": "CD44-CD36- cells had higher levels of TP63 and SOX2, indicating that they are derived from more proximal airway-lineage cells."
+        },
+        {
+          "gene": "SOX2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21-22",
+          "source_context": "CD44-CD36- cells had higher levels of TP63 and SOX2, indicating that they are derived from more proximal airway-lineage cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_level": "explicit",
+          "source_section": "Figure S1C–S1E",
+          "source_context": "co-expressed AT2 cell markers, SFTPC, and HTII-280."
+        },
+        {
+          "gene": "LAMP3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21 (qRT-PCR)",
+          "source_context": "AT2-specific LAMP3, HOPX, and ACE2"
+        },
+        {
+          "gene": "SLC34A2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.21",
+          "source_context": "alveolar lineage markers, such as SFTPC, LAMP3, and SLC34A2"
+        },
+        {
+          "gene": "ACE2",
+          "evidence_level": "explicit",
+          "source_section": "Figure 3A",
+          "source_context": "ACE2 were upregulated in AT2 differentiation"
+        },
+        {
+          "gene": "HOPX",
+          "evidence_level": "explicit",
+          "source_section": "Figure 3C",
+          "source_context": "AT2-specific LAMP3, HOPX, and ACE2"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPOCK2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.28 (Figure 4Q)",
+          "source_context": "NKX2.1+, SPOCK2+ differentiating AT1 cells emerged at the SFTPC- stalk regions"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.26 (Figure 4E)",
+          "source_context": "Isolated PDGFRA+CD141+ myofibroblasts express high levels of ACTA2, NOTUM, and LEF1."
+        },
+        {
+          "gene": "NOTUM",
+          "evidence_level": "explicit",
+          "source_section": "Results p.26",
+          "source_context": "Isolated PDGFRA+CD141+ myofibroblasts express high levels of ACTA2, NOTUM, and LEF1."
+        },
+        {
+          "gene": "LEF1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.26",
+          "source_context": "Isolated PDGFRA+CD141+ myofibroblasts express high levels of ACTA2, NOTUM, and LEF1."
+        }
+      ]
+    },
+    {
+      "cell_type": "alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.26 (Figure 4E)",
+          "source_context": "PDGFRA-CD141- fibroblasts express high levels of WNT2 and FGFR4."
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_level": "explicit",
+          "source_section": "Results p.26",
+          "source_context": "PDGFRA-CD141- fibroblasts express high levels of WNT2 and FGFR4."
+        }
+      ]
+    },
+    {
+      "cell_type": "late-tip cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD44",
+          "evidence_level": "explicit",
+          "source_section": "Results (Figure 2)",
+          "source_context": "Our LinPOS organoids are derived from the CD44+,CD36+ 17–21 pcw tips."
+        },
+        {
+          "gene": "CD36",
+          "evidence_level": "explicit",
+          "source_section": "Results (Figure 2)",
+          "source_context": "Our LinPOS organoids are derived from the CD44+,CD36+ 17–21 pcw tips."
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_level": "implied",
+          "source_section": "Results (Figure 5)",
+          "source_context": "Our independent single-cell ATAC-seq data ... showed that in vivo alveolar-fated cells ... while the basal cells have TP63 motifs."
+        }
+      ]
+    }
+  ]
+}

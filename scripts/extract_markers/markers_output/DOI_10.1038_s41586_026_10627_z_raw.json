@@ -1,0 +1,1203 @@
+{
+  "paper_id": "DOI_10.1038_s41586_026_10627_z",
+  "cell_types": [
+    {
+      "cell_type": "Epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EPCAM",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "Epithelial cells were defined by high expression of EPCAM, CDH1 and KRT19"
+        },
+        {
+          "gene": "CDH1",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "Epithelial cells were defined by high expression of EPCAM, CDH1 and KRT19"
+        },
+        {
+          "gene": "KRT19",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "Epithelial cells were defined by high expression of EPCAM, CDH1 and KRT19"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mesenchymal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL1A1",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "mesenchymal by expression of COL1A1, COL1A2, COL6A2 and VWF"
+        },
+        {
+          "gene": "COL1A2",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "mesenchymal by expression of COL1A1, COL1A2, COL6A2 and VWF"
+        },
+        {
+          "gene": "COL6A2",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "mesenchymal by expression of COL1A1, COL1A2, COL6A2 and VWF"
+        },
+        {
+          "gene": "VWF",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "mesenchymal by expression of COL1A1, COL1A2, COL6A2 and VWF"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD79A",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "B cells by expression of CD79A, MS4A1 and CD79B"
+        },
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "B cells by expression of CD79A, MS4A1 and CD79B"
+        },
+        {
+          "gene": "CD79B",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "B cells by expression of CD79A, MS4A1 and CD79B"
+        }
+      ]
+    },
+    {
+      "cell_type": "Plasma B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MZB1",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "plasma B cells by expression of MZB1 and JCHAIN"
+        },
+        {
+          "gene": "JCHAIN",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "plasma B cells by expression of MZB1 and JCHAIN"
+        },
+        {
+          "gene": "CD38",
+          "evidence_level": "implied",
+          "source_section": "Results: B cell lineages",
+          "source_context": "however these clusters show a gradient of CD38 expression, which is therefore outlined in the label"
+        }
+      ]
+    },
+    {
+      "cell_type": "T and T/ILC cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD3D",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "T and T/ILC cells by expression of CD3D, CD3E, CD3G, CCR7, IL7R, TRAC and NCAM1"
+        },
+        {
+          "gene": "CD3E",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "T and T/ILC cells by expression of CD3D, CD3E, CD3G, CCR7, IL7R, TRAC and NCAM1"
+        },
+        {
+          "gene": "CD3G",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "T and T/ILC cells by expression of CD3D, CD3E, CD3G, CCR7, IL7R, TRAC and NCAM1"
+        },
+        {
+          "gene": "CCR7",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "T and T/ILC cells by expression of CD3D, CD3E, CD3G, CCR7, IL7R, TRAC and NCAM1"
+        },
+        {
+          "gene": "IL7R",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "T and T/ILC cells by expression of CD3D, CD3E, CD3G, CCR7, IL7R, TRAC and NCAM1"
+        },
+        {
+          "gene": "TRAC",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "T and T/ILC cells by expression of CD3D, CD3E, CD3G, CCR7, IL7R, TRAC and NCAM1"
+        },
+        {
+          "gene": "NCAM1",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "T and T/ILC cells by expression of CD3D, CD3E, CD3G, CCR7, IL7R, TRAC and NCAM1"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myeloid cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ITGAM",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "myeloid cells by expression of ITGAM, CD14, CSF1R and TYROBP"
+        },
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "myeloid cells by expression of ITGAM, CD14, CSF1R and TYROBP"
+        },
+        {
+          "gene": "CSF1R",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "myeloid cells by expression of ITGAM, CD14, CSF1R and TYROBP"
+        },
+        {
+          "gene": "TYROBP",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "myeloid cells by expression of ITGAM, CD14, CSF1R and TYROBP"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mast cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TPSAB1",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "mast cells by expression of TPSAB1, TPSB2 and CPA3"
+        },
+        {
+          "gene": "TPSB2",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "mast cells by expression of TPSAB1, TPSB2 and CPA3"
+        },
+        {
+          "gene": "CPA3",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "mast cells by expression of TPSAB1, TPSB2 and CPA3"
+        }
+      ]
+    },
+    {
+      "cell_type": "Platelets",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "RUNX1",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "platelets by expression of RUNX1, GATA2, HDC and SLC24A3 (but low expressors of mast cell genes)"
+        },
+        {
+          "gene": "GATA2",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "platelets by expression of RUNX1, GATA2, HDC and SLC24A3 (but low expressors of mast cell genes)"
+        },
+        {
+          "gene": "HDC",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "platelets by expression of RUNX1, GATA2, HDC and SLC24A3 (but low expressors of mast cell genes)"
+        },
+        {
+          "gene": "SLC24A3",
+          "evidence_level": "explicit",
+          "source_section": "Annotation of cell clusters",
+          "source_context": "platelets by expression of RUNX1, GATA2, HDC and SLC24A3 (but low expressors of mast cell genes)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Stem cell major population",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LGR5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "The stem cell major population was defined by expression of LGR5, OLFM4, ASCL2, SMOC2 and RGMB."
+        },
+        {
+          "gene": "OLFM4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "The stem cell major population was defined by expression of LGR5, OLFM4, ASCL2, SMOC2 and RGMB."
+        },
+        {
+          "gene": "ASCL2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "The stem cell major population was defined by expression of LGR5, OLFM4, ASCL2, SMOC2 and RGMB."
+        },
+        {
+          "gene": "SMOC2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "The stem cell major population was defined by expression of LGR5, OLFM4, ASCL2, SMOC2 and RGMB."
+        },
+        {
+          "gene": "RGMB",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "The stem cell major population was defined by expression of LGR5, OLFM4, ASCL2, SMOC2 and RGMB."
+        }
+      ]
+    },
+    {
+      "cell_type": "Enterocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "RBP2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "grouped into the enterocyte (high expression of RBP2, ANPEP and FABP2) and colonocyte (high expression of CA2, SLC26A2 and FABP1) categories, respectively."
+        },
+        {
+          "gene": "ANPEP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "grouped into the enterocyte (high expression of RBP2, ANPEP and FABP2) and colonocyte (high expression of CA2, SLC26A2 and FABP1) categories, respectively."
+        },
+        {
+          "gene": "FABP2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "grouped into the enterocyte (high expression of RBP2, ANPEP and FABP2) and colonocyte (high expression of CA2, SLC26A2 and FABP1) categories, respectively."
+        }
+      ]
+    },
+    {
+      "cell_type": "Colonocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CA2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "grouped into the enterocyte (high expression of RBP2, ANPEP and FABP2) and colonocyte (high expression of CA2, SLC26A2 and FABP1) categories, respectively."
+        },
+        {
+          "gene": "SLC26A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "grouped into the enterocyte (high expression of RBP2, ANPEP and FABP2) and colonocyte (high expression of CA2, SLC26A2 and FABP1) categories, respectively."
+        },
+        {
+          "gene": "FABP1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "grouped into the enterocyte (high expression of RBP2, ANPEP and FABP2) and colonocyte (high expression of CA2, SLC26A2 and FABP1) categories, respectively."
+        }
+      ]
+    },
+    {
+      "cell_type": "Epithelial progenitor OLFM4hi",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OLFM4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "with high expression of OLFM4, thus referred to as 'epithelial progenitor OLFM4hi'."
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "goblet cells were identified by expression of MUC2, CLCA1 and FCGBP;"
+        },
+        {
+          "gene": "CLCA1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "goblet cells were identified by expression of MUC2, CLCA1 and FCGBP;"
+        },
+        {
+          "gene": "FCGBP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "goblet cells were identified by expression of MUC2, CLCA1 and FCGBP;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Tuft cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "POU2F3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "tuft cells by expression of POU2F3, SH2D6, LRMP and TRPM5;"
+        },
+        {
+          "gene": "SH2D6",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "tuft cells by expression of POU2F3, SH2D6, LRMP and TRPM5;"
+        },
+        {
+          "gene": "LRMP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "tuft cells by expression of POU2F3, SH2D6, LRMP and TRPM5;"
+        },
+        {
+          "gene": "TRPM5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "tuft cells by expression of POU2F3, SH2D6, LRMP and TRPM5;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Paneth cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DEFA5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "Paneth cells by expression of DEFA5 and DEFA6;"
+        },
+        {
+          "gene": "DEFA6",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "Paneth cells by expression of DEFA5 and DEFA6;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Enteroendocrine cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTS",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "enteroendocrine cells by expression of NTS, PYY, GCG, ISL1;"
+        },
+        {
+          "gene": "PYY",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "enteroendocrine cells by expression of NTS, PYY, GCG, ISL1;"
+        },
+        {
+          "gene": "GCG",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "enteroendocrine cells by expression of NTS, PYY, GCG, ISL1;"
+        },
+        {
+          "gene": "ISL1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "enteroendocrine cells by expression of NTS, PYY, GCG, ISL1;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Enterochromaffin cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TPS1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "and enterochromaffin cells by expression of TPS1 and CES1."
+        },
+        {
+          "gene": "CES1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Epithelial cell lineages",
+          "source_context": "and enterochromaffin cells by expression of TPS1 and CES1."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADAMDEC1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Fibroblast clusters were identified by their expression of ADAMDEC1, PDGFRA, BMP4, LUM, COL1A2, COL3A1 and COL1A1, subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast), and tissue specificity."
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Fibroblast clusters were identified by their expression of ADAMDEC1, PDGFRA, BMP4, LUM, COL1A2, COL3A1 and COL1A1, subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast), and tissue specificity."
+        },
+        {
+          "gene": "BMP4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Fibroblast clusters were identified by their expression of ADAMDEC1, PDGFRA, BMP4, LUM, COL1A2, COL3A1 and COL1A1, subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast), and tissue specificity."
+        },
+        {
+          "gene": "LUM",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Fibroblast clusters were identified by their expression of ADAMDEC1, PDGFRA, BMP4, LUM, COL1A2, COL3A1 and COL1A1, subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast), and tissue specificity."
+        },
+        {
+          "gene": "COL1A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Fibroblast clusters were identified by their expression of ADAMDEC1, PDGFRA, BMP4, LUM, COL1A2, COL3A1 and COL1A1, subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast), and tissue specificity."
+        },
+        {
+          "gene": "COL3A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Fibroblast clusters were identified by their expression of ADAMDEC1, PDGFRA, BMP4, LUM, COL1A2, COL3A1 and COL1A1, subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast), and tissue specificity."
+        },
+        {
+          "gene": "COL1A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Fibroblast clusters were identified by their expression of ADAMDEC1, PDGFRA, BMP4, LUM, COL1A2, COL3A1 and COL1A1, subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast), and tissue specificity."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": "Lamina propria fibroblast",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PI16",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast)"
+        },
+        {
+          "gene": "C3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast)"
+        },
+        {
+          "gene": "CPM",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast)"
+        },
+        {
+          "gene": "NPY",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast)"
+        },
+        {
+          "gene": "GRIN2A",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast)"
+        },
+        {
+          "gene": "ADAMDEC1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "subsets of which were then delineated by their expression of PI16, C3, CPM, NPY, GRIN2A and ADAMDEC1 (lamina propria fibroblast)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Glial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NRXN1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Glial cells were identified by expression of NRXN1;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Smooth muscle cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "smooth muscle cells by expression of ACTA2;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Pericytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRB",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "pericytes by expression of PDGFRB, RGS5 and NDUFA4L2;"
+        },
+        {
+          "gene": "RGS5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "pericytes by expression of PDGFRB, RGS5 and NDUFA4L2;"
+        },
+        {
+          "gene": "NDUFA4L2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "pericytes by expression of PDGFRB, RGS5 and NDUFA4L2;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PECAM1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "endothelial cells by expression of PECAM1, VWF, PLVAP, ACKR1 and CD36."
+        },
+        {
+          "gene": "VWF",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "endothelial cells by expression of PECAM1, VWF, PLVAP, ACKR1 and CD36."
+        },
+        {
+          "gene": "PLVAP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "endothelial cells by expression of PECAM1, VWF, PLVAP, ACKR1 and CD36."
+        },
+        {
+          "gene": "ACKR1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "endothelial cells by expression of PECAM1, VWF, PLVAP, ACKR1 and CD36."
+        },
+        {
+          "gene": "CD36",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "endothelial cells by expression of PECAM1, VWF, PLVAP, ACKR1 and CD36."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Myofibroblasts were identified by expression of ACTA2 and MYH11, which were then delineated by relative expression of GREM2 and ADGRL3."
+        },
+        {
+          "gene": "MYH11",
+          "evidence_level": "explicit",
+          "source_section": "Results: Mesenchymal cell lineages",
+          "source_context": "Myofibroblasts were identified by expression of ACTA2 and MYH11, which were then delineated by relative expression of GREM2 and ADGRL3."
+        }
+      ]
+    },
+    {
+      "cell_type": "Atypical B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCRL2",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "atypical B cells were identified by their expression of FCRL2, ITGAX and TBX21;"
+        },
+        {
+          "gene": "ITGAX",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "atypical B cells were identified by their expression of FCRL2, ITGAX and TBX21;"
+        },
+        {
+          "gene": "TBX21",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "atypical B cells were identified by their expression of FCRL2, ITGAX and TBX21;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Naive B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGHD",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "naive B cells by expression of IGHD and FCER2;"
+        },
+        {
+          "gene": "FCER2",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "naive B cells by expression of IGHD and FCER2;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Germinal centre/plasmablast B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD19",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "germinal centre/plasmablast B cells by expression of CD19 and TCL1A"
+        },
+        {
+          "gene": "TCL1A",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "germinal centre/plasmablast B cells by expression of CD19 and TCL1A"
+        }
+      ]
+    },
+    {
+      "cell_type": "Memory B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BANK1",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "memory B cells by expression of BANK1 and FCRL2."
+        },
+        {
+          "gene": "FCRL2",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "memory B cells by expression of BANK1 and FCRL2."
+        },
+        {
+          "gene": "CD27",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "The several clusters of memory B cells were also distinguished by the relative expression of marker genes; CD27, HIVEP3, PTPRJ, PDE4D and TEX9."
+        },
+        {
+          "gene": "HIVEP3",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "The several clusters of memory B cells were also distinguished by the relative expression of marker genes; CD27, HIVEP3, PTPRJ, PDE4D and TEX9."
+        },
+        {
+          "gene": "PTPRJ",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "The several clusters of memory B cells were also distinguished by the relative expression of marker genes; CD27, HIVEP3, PTPRJ, PDE4D and TEX9."
+        },
+        {
+          "gene": "PDE4D",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "The several clusters of memory B cells were also distinguished by the relative expression of marker genes; CD27, HIVEP3, PTPRJ, PDE4D and TEX9."
+        },
+        {
+          "gene": "TEX9",
+          "evidence_level": "explicit",
+          "source_section": "Results: B cell lineages",
+          "source_context": "The several clusters of memory B cells were also distinguished by the relative expression of marker genes; CD27, HIVEP3, PTPRJ, PDE4D and TEX9."
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A8",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Monocytes were defined by high expression of S100A8 and S100A9"
+        },
+        {
+          "gene": "S100A9",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Monocytes were defined by high expression of S100A8 and S100A9"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocytes",
+      "subtype": "Blood monocytes",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Blood monocytes were distinguished by expression of CD14 and FCGR3A"
+        },
+        {
+          "gene": "FCGR3A",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Blood monocytes were distinguished by expression of CD14 and FCGR3A"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocytes",
+      "subtype": "Tissue monocytes",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOD2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "tissue monocytes by expression of SOD2, CXCL9 and CXCL10."
+        },
+        {
+          "gene": "CXCL9",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "tissue monocytes by expression of SOD2, CXCL9 and CXCL10."
+        },
+        {
+          "gene": "CXCL10",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "tissue monocytes by expression of SOD2, CXCL9 and CXCL10."
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ITGA4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophages were predominantly identified in the terminal ileum and rectum and were identified by high expression of ITGA4, CSF1R and MAF."
+        },
+        {
+          "gene": "CSF1R",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophages were predominantly identified in the terminal ileum and rectum and were identified by high expression of ITGA4, CSF1R and MAF."
+        },
+        {
+          "gene": "MAF",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophages were predominantly identified in the terminal ileum and rectum and were identified by high expression of ITGA4, CSF1R and MAF."
+        },
+        {
+          "gene": "C1QA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophage subpopulations could thereafter be distinguished by relative expression of C1QA/B/C, CD163, MRC1, SELENOP and HLA-DRA."
+        },
+        {
+          "gene": "C1QB",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophage subpopulations could thereafter be distinguished by relative expression of C1QA/B/C, CD163, MRC1, SELENOP and HLA-DRA."
+        },
+        {
+          "gene": "C1QC",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophage subpopulations could thereafter be distinguished by relative expression of C1QA/B/C, CD163, MRC1, SELENOP and HLA-DRA."
+        },
+        {
+          "gene": "CD163",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophage subpopulations could thereafter be distinguished by relative expression of C1QA/B/C, CD163, MRC1, SELENOP and HLA-DRA."
+        },
+        {
+          "gene": "MRC1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophage subpopulations could thereafter be distinguished by relative expression of C1QA/B/C, CD163, MRC1, SELENOP and HLA-DRA."
+        },
+        {
+          "gene": "SELENOP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophage subpopulations could thereafter be distinguished by relative expression of C1QA/B/C, CD163, MRC1, SELENOP and HLA-DRA."
+        },
+        {
+          "gene": "HLA-DRA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "Macrophage subpopulations could thereafter be distinguished by relative expression of C1QA/B/C, CD163, MRC1, SELENOP and HLA-DRA."
+        }
+      ]
+    },
+    {
+      "cell_type": "cDC1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CLEC9A",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "cDC1s were identifiable from expression of CLEC9A and XCR1,"
+        },
+        {
+          "gene": "XCR1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "cDC1s were identifiable from expression of CLEC9A and XCR1,"
+        }
+      ]
+    },
+    {
+      "cell_type": "cDC2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CLEC10A",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "cDC2s were identified by expression of CLEC10A,"
+        }
+      ]
+    },
+    {
+      "cell_type": "pDC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL3RA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid cell lineages",
+          "source_context": "pDCs identified by IL3RA."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD3D",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "T cells were defined by expression of CD3D, CD3E, CD3G, TRAC, TRBC1 and CD96"
+        },
+        {
+          "gene": "CD3E",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "T cells were defined by expression of CD3D, CD3E, CD3G, TRAC, TRBC1 and CD96"
+        },
+        {
+          "gene": "CD3G",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "T cells were defined by expression of CD3D, CD3E, CD3G, TRAC, TRBC1 and CD96"
+        },
+        {
+          "gene": "TRAC",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "T cells were defined by expression of CD3D, CD3E, CD3G, TRAC, TRBC1 and CD96"
+        },
+        {
+          "gene": "TRBC1",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "T cells were defined by expression of CD3D, CD3E, CD3G, TRAC, TRBC1 and CD96"
+        },
+        {
+          "gene": "CD96",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "T cells were defined by expression of CD3D, CD3E, CD3G, TRAC, TRBC1 and CD96"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "Naive",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SELL",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "Naive subsets were identified by high expression of SELL;"
+        }
+      ]
+    },
+    {
+      "cell_type": "γδ T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TRGC2",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "γδ (GD) by expression of TRGC2 and TRDC"
+        },
+        {
+          "gene": "TRDC",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "γδ (GD) by expression of TRGC2 and TRDC"
+        }
+      ]
+    },
+    {
+      "cell_type": "Treg cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXP3",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "Treg cells by expression of FOXP3 and CTLA4;"
+        },
+        {
+          "gene": "CTLA4",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "Treg cells by expression of FOXP3 and CTLA4;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Effector memory T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TIGIT",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "Effector memory subsets divided by expression of TIGIT and THEMIS;"
+        },
+        {
+          "gene": "THEMIS",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "Effector memory subsets divided by expression of TIGIT and THEMIS;"
+        }
+      ]
+    },
+    {
+      "cell_type": "Tissue resident memory T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TRGC2",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "tissue resident memory with high expression of TRGC2."
+        }
+      ]
+    },
+    {
+      "cell_type": "NK1 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CX3CR1",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "NK1 cells were identified by expression of CX3CR1 and FCGR3A,"
+        },
+        {
+          "gene": "FCGR3A",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "NK1 cells were identified by expression of CX3CR1 and FCGR3A,"
+        }
+      ]
+    },
+    {
+      "cell_type": "NK2 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "XCL1",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "NK2 cells by XCL1, XCL2 and CD44."
+        },
+        {
+          "gene": "XCL2",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "NK2 cells by XCL1, XCL2 and CD44."
+        },
+        {
+          "gene": "CD44",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "NK2 cells by XCL1, XCL2 and CD44."
+        }
+      ]
+    },
+    {
+      "cell_type": "ILCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL1R1",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "ILCs were identified by expression of IL1R1, ALDOC, LST1 and RORC."
+        },
+        {
+          "gene": "ALDOC",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "ILCs were identified by expression of IL1R1, ALDOC, LST1 and RORC."
+        },
+        {
+          "gene": "LST1",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "ILCs were identified by expression of IL1R1, ALDOC, LST1 and RORC."
+        },
+        {
+          "gene": "RORC",
+          "evidence_level": "explicit",
+          "source_section": "Results: T cell and ILC lineages",
+          "source_context": "ILCs were identified by expression of IL1R1, ALDOC, LST1 and RORC."
+        }
+      ]
+    }
+  ]
+}

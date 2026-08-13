@@ -1,56 +1,35 @@
-# PNS scRNA-seq 数据库
+# PNS scRNA-seq Marker 提取
 
-> 外周神经系统（PNS）单细胞 RNA 测序文献数据收集与结构化数据库
+> 从 CellxGene 候选论文及论文 PDF 中提取、复核和整理外周神经系统（PNS）细胞 marker。
 
 ## 项目结构
 
 ```
 .
-├── db/                         # 数据库
-│   ├── pns-scrna.xlsx          # 主数据库（5表：papers/datasets/cell_types/cell_subtypes/processing）
-│   └── cellxgene/              # CellxGene 外周神经文献抓取模块
-│       ├── cellxgene_all_details/    # API 原始元数据抓取与粗筛结果
-│       └── cellxgene_filtered/       # 过滤后的候选文献集
-│           ├── pns_papers_summary.xlsx  # 82个候选数据集状态汇总表
-│           ├── manual_download_helper.html # 26篇待手动下载/损坏文献的可视化看板
-│           └── downloads/            # 已下载归库且通过二次核对的规范 PDF 文献库
+├── db/
+│   ├── cellxgene/              # Marker 项目的论文登记与 PDF 语料
+│   │   ├── pns_papers_summary.xlsx   # 候选论文/数据集登记表
+│   │   └── cellxgene_filtered/
+│   │       └── downloads/             # 当前论文 PDF 库
+│   ├── pns-scrna.xlsx          # 历史累计工作簿；映射修复前不作为可靠 marker 主表
+│   └── _archive/               # 历史抓取材料及可恢复旧产物，不是活动输入
 │
-├── papers/                     # 文献资料
-│   ├── ENEURO.0066-20.2020/    # Toma et al. 2020, eNeuro（坐骨神经Drop-seq）
-│   ├── COMMUN-BIOL.5.1105.2022/ # 施万细胞相关文献（Commun Biol 2022）
-│   └── PNAS.117.9466.2020/     # PNAS 2020 外周神经文献
+├── scripts/
+│   └── extract_markers/        # Marker 抽取、复核表生成和导入程序
 │
-├── pns-scrna-database/         # 数据库设计 Skill（Schema + 提取SOP + 脚本）
-│   ├── SKILL.md
-│   └── design/
-│       ├── 01_schema.md        # 5表字段定义（唯一真源）
-│       ├── 02_controlled_vocab.md  # 受控词表
-│       ├── 05_extraction.md    # 提取 SOP + prompt + few-shot
-│       └── 07_scripts/         # 校验/入库/统计 Python 脚本
+├── .agents/
+│   ├── plan/                   # 当前实施计划
+│   └── progress/               # 按日期汇总的进度
 │
-├── reports/                    # 分析报告
-│   └── GSE181316-assessment.md # GSE181316 表格评估报告
-│
-├── scripts/                    # 分析脚本
-│   └── step1_scRNA.Rmd         # 单细胞分析 R 脚本
-│
-└── scratch/                    # 自动化抓取、剪切及纠错校验脚本库 [NEW]
-    ├── download_batch.py       # 联动 OpenTabs 的 1-75 篇文献流式自动检索与触发下载脚本
-    ├── organize_cellxgene_downloads.py # 关联 OpenTabs 下载记录对 PDF 剪切并重命名归库脚本
-    └── verify_and_update.py    # 提取 PDF 内容二次核对、回写 Excel 并重构看板的终端大闭环脚本
+└── papers_report/              # 旧文献汇报项目，与 marker 提取无关
 ```
 
-## 数据库说明
+## 当前任务边界
 
-`db/pns-scrna.xlsx` 为主数据库，采用 5 表结构：
-
-| Sheet | 说明 | 当前条目 |
-|-------|------|---------|
-| papers | 文章登记表 | P0006（Direder 2022）、P0007（Toma 2020） |
-| datasets | 数据集去重主表 | GSE181316、GSE147285 |
-| cell_types | 细胞类型表 | 23 条（含 is_pns_cell 标注） |
-| cell_subtypes | 细胞亚群详表 | 10 条（施万细胞亚型） |
-| processing | 分析流程表 | 2 条 |
+- 项目文献范围与 PDF 输入以 `db/cellxgene/` 为准。
+- Marker 活动代码和逐篇结果位于 `scripts/extract_markers/`。
+- `db/pns-scrna.xlsx` 含历史累计结果，但当前存在论文映射和复核完整性问题；修复前不能视为最终 marker 数据库。
+- `papers_report/` 属于独立的旧文献汇报工作，不纳入本项目。
 
 ## CellxGene 外周神经文献抓取模块说明
 
@@ -68,14 +47,10 @@
 
 ---
 
-## 设计规范
+## Marker 证据原则
 
-数据库设计遵循 `pns-scrna-database/SKILL.md` 中的规范：
-- 以 `dataset_id`（GSE 号）为去重主键
-- 缺失值统一填 `NA`，布尔值为 `true`/`false`
-- 多值字段用英文分号 `;` 分隔
-- `provenance` 必填（可溯源到原文图表）
+正式 marker 应能定位到论文正文、图表或补充材料，并区分作者明确声明/用于细胞注释的 marker 与普通差异表达基因。详细实施方案见 `.agents/plan/marker-extraction-plan.md`。
 
 ---
 
-*最后更新：2026-07-08*
+*最后更新：2026-08-13*

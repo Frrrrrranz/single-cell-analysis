@@ -1,0 +1,33 @@
+{
+  "paper_id": "DOI_10.1038_s41588_025_02182_6",
+  "cell_types": [
+    {
+      "cell_type": "Neuron",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "Schwann cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "PNS neuron",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "PNS glia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    }
+  ]
+}

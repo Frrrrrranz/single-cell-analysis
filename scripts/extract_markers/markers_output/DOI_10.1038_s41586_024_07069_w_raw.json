@@ -1,0 +1,311 @@
+{
+  "paper_id": "DOI_10.1038_s41586_024_07069_w",
+  "cell_types": [
+    {
+      "cell_type": "Posterior intermediate mesoderm",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Gdnf",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 3b",
+          "source_context": "posterior (Gdnf+) and anterior (Ret+) intermediate mesoderm"
+        }
+      ]
+    },
+    {
+      "cell_type": "Anterior intermediate mesoderm",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Ret",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 3b",
+          "source_context": "posterior (Gdnf+) and anterior (Ret+) intermediate mesoderm"
+        }
+      ]
+    },
+    {
+      "cell_type": "Renal cortical stromal cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Foxd1",
+          "evidence_level": "implied",
+          "source_section": "Article text (paragraph: 'Two subtypes spatially mapped to the kidney...')",
+          "source_context": "Although both express Foxd1+, focused analyses suggest distinct origins"
+        }
+      ]
+    },
+    {
+      "cell_type": "Renal medullary stromal cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Foxd1",
+          "evidence_level": "implied",
+          "source_section": "Article text (paragraph: 'Two subtypes spatially mapped to the kidney...')",
+          "source_context": "Although both express Foxd1+, focused analyses suggest distinct origins"
+        }
+      ]
+    },
+    {
+      "cell_type": "Hepatic mesenchyme",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Gata4",
+          "evidence_level": "explicit",
+          "source_section": "Article text (Results: 'hepatic and foregut mesenchyme are distinguished...')",
+          "source_context": "hepatic and foregut mesenchyme are distinguished both from one another as well as from their inferred progenitors by Gata4 and Barx1 expression, respectively"
+        }
+      ]
+    },
+    {
+      "cell_type": "Foregut mesenchyme",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Barx1",
+          "evidence_level": "explicit",
+          "source_section": "Article text (Results: 'hepatic and foregut mesenchyme are distinguished...')",
+          "source_context": "hepatic and foregut mesenchyme are distinguished both from one another as well as from their inferred progenitors by Gata4 and Barx1 expression, respectively"
+        }
+      ]
+    },
+    {
+      "cell_type": "Vascular SMCs",
+      "subtype": "Pparg+",
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Pparg",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 3d",
+          "source_context": "Vascular SMCs (Pparg+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neural prog. cells",
+      "subtype": "Neurod1+",
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Neurod1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 4a legend",
+          "source_context": "Neural prog. cells (Neurod1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Hypothalamic Sim1 neurons",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Sim1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 4a legend",
+          "source_context": "Hypothalamic Sim1 neurons"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myelinating Schwann cells",
+      "subtype": "Tgfb2+",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Tgfb2",
+          "evidence_level": "inferred",
+          "source_section": "Fig.5g",
+          "source_context": "Cell type name listed as 'Myelinating Schwann cells (Tgfb2+)' in the tree node labels."
+        }
+      ]
+    },
+    {
+      "cell_type": "HSCs",
+      "subtype": "Cd34+",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd34",
+          "evidence_level": "inferred",
+          "source_section": "Fig.5g",
+          "source_context": "Cell type name listed as 'HSCs (Cd34+)' in the tree node labels."
+        }
+      ]
+    },
+    {
+      "cell_type": "HSCs",
+      "subtype": "Mpo+",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mpo",
+          "evidence_level": "inferred",
+          "source_section": "Fig.5g",
+          "source_context": "Cell type name listed as 'HSCs (Mpo+)' in the tree node labels."
+        }
+      ]
+    },
+    {
+      "cell_type": "NMPs",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "T",
+          "evidence_level": "explicit",
+          "source_section": "Methods",
+          "source_context": "cells are labelled as NMPs if they are both strongly T+ (raw count ≥5) and Meis1− (raw count = 0)"
+        },
+        {
+          "gene": "Meis1",
+          "evidence_level": "explicit",
+          "source_section": "Methods",
+          "source_context": "cells are labelled as NMPs if they are both strongly T+ (raw count ≥5) and Meis1− (raw count = 0)"
+        }
+      ]
+    },
+    {
+      "cell_type": "mesodermal progenitors",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "Tbx6",
+          "evidence_level": "explicit",
+          "source_section": "Methods",
+          "source_context": "mesodermal progenitors (Tbx6+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "intermediate neuronal progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Eomes",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: intermediate neuronal progenitors (Eomes+, Pax6+)"
+        },
+        {
+          "gene": "Pax6",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: intermediate neuronal progenitors (Eomes+, Pax6+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "upper-layer neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Satb2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: upper-layer neurons (Satb2+, Pou3f2+, Pou3f3+)"
+        },
+        {
+          "gene": "Pou3f2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: upper-layer neurons (Satb2+, Pou3f2+, Pou3f3+)"
+        },
+        {
+          "gene": "Pou3f3",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: upper-layer neurons (Satb2+, Pou3f2+, Pou3f3+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "deep-layer neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Tbr1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: deep-layer neurons (Tbr1+, Bcl11b+, Fezf2+)"
+        },
+        {
+          "gene": "Bcl11b",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: deep-layer neurons (Tbr1+, Bcl11b+, Fezf2+)"
+        },
+        {
+          "gene": "Fezf2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: deep-layer neurons (Tbr1+, Bcl11b+, Fezf2+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "subplate neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Kcnab1",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: subplate neurons (Kcnab1+, Chrna5+, Syt6+, Foxp2+)"
+        },
+        {
+          "gene": "Chrna5",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: subplate neurons (Kcnab1+, Chrna5+, Syt6+, Foxp2+)"
+        },
+        {
+          "gene": "Syt6",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: subplate neurons (Kcnab1+, Chrna5+, Syt6+, Foxp2+)"
+        },
+        {
+          "gene": "Foxp2",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 10b",
+          "source_context": "UMAP colored by gene expression of marker genes: subplate neurons (Kcnab1+, Chrna5+, Syt6+, Foxp2+)"
+        }
+      ]
+    }
+  ]
+}

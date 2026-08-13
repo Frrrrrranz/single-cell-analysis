@@ -1,0 +1,807 @@
+{
+  "paper_id": "DOI_10.1038_s41586_024_08560_0",
+  "cell_types": [
+    {
+      "cell_type": "Cancer cells",
+      "subtype": "colonocyte-like",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FABP1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "colonocyte-like (FABP1, CEACAM7, ANPEP, SI)"
+        },
+        {
+          "gene": "CEACAM7",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "colonocyte-like (FABP1, CEACAM7, ANPEP, SI)"
+        },
+        {
+          "gene": "ANPEP",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "colonocyte-like (FABP1, CEACAM7, ANPEP, SI)"
+        },
+        {
+          "gene": "SI",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "colonocyte-like (FABP1, CEACAM7, ANPEP, SI)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cancer cells",
+      "subtype": "BEST4",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BEST4",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "BEST4 (BEST4, OTOP2, SPIB)"
+        },
+        {
+          "gene": "OTOP2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "BEST4 (BEST4, OTOP2, SPIB)"
+        },
+        {
+          "gene": "SPIB",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "BEST4 (BEST4, OTOP2, SPIB)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cancer cells",
+      "subtype": "Goblet-like",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "Goblet-like (MUC2, FCGBP, ZG16, and ATOH1)"
+        },
+        {
+          "gene": "FCGBP",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "Goblet-like (MUC2, FCGBP, ZG16, and ATOH1)"
+        },
+        {
+          "gene": "ZG16",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "Goblet-like (MUC2, FCGBP, ZG16, and ATOH1)"
+        },
+        {
+          "gene": "ATOH1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "Goblet-like (MUC2, FCGBP, ZG16, and ATOH1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cancer cells",
+      "subtype": "Crypt-like",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LGR5",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "Crypt-like (LGR5, SMOC2)"
+        },
+        {
+          "gene": "SMOC2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "Crypt-like (LGR5, SMOC2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cancer cells",
+      "subtype": "transit-amplifying-like",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TOP2A",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "transit-amplifying-like (TOP2A, UBE2C, PCLAF, HELLS, TK1)"
+        },
+        {
+          "gene": "UBE2C",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "transit-amplifying-like (TOP2A, UBE2C, PCLAF, HELLS, TK1)"
+        },
+        {
+          "gene": "PCLAF",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "transit-amplifying-like (TOP2A, UBE2C, PCLAF, HELLS, TK1)"
+        },
+        {
+          "gene": "HELLS",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "transit-amplifying-like (TOP2A, UBE2C, PCLAF, HELLS, TK1)"
+        },
+        {
+          "gene": "TK1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "transit-amplifying-like (TOP2A, UBE2C, PCLAF, HELLS, TK1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Circulating cancer cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EPCAM",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1D)",
+          "source_context": "EPCAM expressing cells in the blood of patients with CRC were annotated as circulating cancer cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "CD4",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "T cells - CD4 (CD4)"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "CD8",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8A",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "CD8 (CD8A)"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "T regulatory",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXP3",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "T regulatory cells (FOXP3)"
+        }
+      ]
+    },
+    {
+      "cell_type": "NK cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NKG7",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "NK cells (NKG7, TYROBP)"
+        },
+        {
+          "gene": "TYROBP",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "NK cells (NKG7, TYROBP)"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "naive",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGHD",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "naive (IGHD, TCL1A)"
+        },
+        {
+          "gene": "TCL1A",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "naive (IGHD, TCL1A)"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "memory",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD27",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "memory (CD27, CD44)"
+        },
+        {
+          "gene": "CD44",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "memory (CD27, CD44)"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "activated",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD69",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "activated (CD69, CD83)"
+        },
+        {
+          "gene": "CD83",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "activated (CD69, CD83)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Plasma cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "JCHAIN",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "plasma cells (JCHAIN) express immunoglobulins such as IgA (IGHA1), IgG (IGHG1), and IgM (IGHM)"
+        },
+        {
+          "gene": "IGHA1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "plasma cells (JCHAIN) express immunoglobulins such as IgA (IGHA1), IgG (IGHG1), and IgM (IGHM)"
+        },
+        {
+          "gene": "IGHG1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "plasma cells (JCHAIN) express immunoglobulins such as IgA (IGHA1), IgG (IGHG1), and IgM (IGHM)"
+        },
+        {
+          "gene": "IGHM",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "plasma cells (JCHAIN) express immunoglobulins such as IgA (IGHA1), IgG (IGHG1), and IgM (IGHM)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VCAN",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "monocytes (VCAN, CD14)"
+        },
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "monocytes (VCAN, CD14)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1QA",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "macrophages (C1QA, C1QB)"
+        },
+        {
+          "gene": "C1QB",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "macrophages (C1QA, C1QB)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mast cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TPSB2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "mast cells (TPSB2, CPA3)"
+        },
+        {
+          "gene": "CPA3",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "mast cells (TPSB2, CPA3)"
+        }
+      ]
+    },
+    {
+      "cell_type": "cDC1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CLEC9A",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "conventional DC type 1 (cDC1, CLEC9A, XCR1)"
+        },
+        {
+          "gene": "XCR1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "conventional DC type 1 (cDC1, CLEC9A, XCR1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "cDC2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD1C",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "cDC2 (CD1C, CLEC10A)"
+        },
+        {
+          "gene": "CLEC10A",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "cDC2 (CD1C, CLEC10A)"
+        }
+      ]
+    },
+    {
+      "cell_type": "pDC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL3RA",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "plasmacytoid DC (pDC, IL3RA, GZMB)"
+        },
+        {
+          "gene": "GZMB",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "plasmacytoid DC (pDC, IL3RA, GZMB)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Eosinophils",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CLC",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "eosinophils (CLC, CCR3)"
+        },
+        {
+          "gene": "CCR3",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "eosinophils (CLC, CCR3)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neutrophils",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCR2",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "neutrophils (CXCR2, FCGR3B)"
+        },
+        {
+          "gene": "FCGR3B",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "neutrophils (CXCR2, FCGR3B)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neutrophils",
+      "subtype": "tumor-associated neutrophil",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OLR1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Table S2)",
+          "source_context": "tumor-associated neutrophil (TAN) markers like OLR1, VEGFA, and PLAU (Table S2)"
+        },
+        {
+          "gene": "VEGFA",
+          "evidence_level": "explicit",
+          "source_section": "Results (Table S2)",
+          "source_context": "tumor-associated neutrophil (TAN) markers like OLR1, VEGFA, and PLAU (Table S2)"
+        },
+        {
+          "gene": "PLAU",
+          "evidence_level": "explicit",
+          "source_section": "Results (Table S2)",
+          "source_context": "tumor-associated neutrophil (TAN) markers like OLR1, VEGFA, and PLAU (Table S2)"
+        },
+        {
+          "gene": "IL1A",
+          "evidence_level": "implied",
+          "source_section": "Results (Fig.2D)",
+          "source_context": "The consensus program neutrophils were characterized by inflammatory genes such as IL1A and IL1B, together with tumor-associated neutrophil (TAN) markers like OLR1, VEGFA, and PLAU"
+        },
+        {
+          "gene": "IL1B",
+          "evidence_level": "implied",
+          "source_section": "Results (Fig.2D)",
+          "source_context": "The consensus program neutrophils were characterized by inflammatory genes such as IL1A and IL1B, together with tumor-associated neutrophil (TAN) markers like OLR1, VEGFA, and PLAU"
+        }
+      ]
+    },
+    {
+      "cell_type": "Gamma-delta T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TRDV1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "gamma-delta T cells (TRDV1, TRGC1)"
+        },
+        {
+          "gene": "TRGC1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "gamma-delta T cells (TRDV1, TRGC1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "ILCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL4I1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "innate lymphoid cells (ILCs; IL4I1, KIT)"
+        },
+        {
+          "gene": "KIT",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "innate lymphoid cells (ILCs; IL4I1, KIT)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD24",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "progenitors (CD24, AXL)"
+        },
+        {
+          "gene": "AXL",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "progenitors (CD24, AXL)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Stem-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LEF1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "stem-like cells (LEF1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cycling cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MKI67",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "cycling states (MKI67, CDK1)"
+        },
+        {
+          "gene": "CDK1",
+          "evidence_level": "explicit",
+          "source_section": "Results (Fig.1E)",
+          "source_context": "cycling states (MKI67, CDK1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "tumor-associated neutrophils (TAN)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OLR1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.152, Fig.4F",
+          "source_context": "TAN markers (OLR1, PLAU, and VEGFA) were highly upregulated in TAN of patients with CRC, whereas CXCR2, a marker of mature neutrophils, was highly expressed in blood neutrophils but downregulated in TAN."
+        },
+        {
+          "gene": "PLAU",
+          "evidence_level": "explicit",
+          "source_section": "Results p.152, Fig.4F",
+          "source_context": "TAN markers (OLR1, PLAU, and VEGFA) were highly upregulated in TAN of patients with CRC, whereas CXCR2, a marker of mature neutrophils, was highly expressed in blood neutrophils but downregulated in TAN."
+        },
+        {
+          "gene": "VEGFA",
+          "evidence_level": "explicit",
+          "source_section": "Results p.152, Fig.4F",
+          "source_context": "TAN markers (OLR1, PLAU, and VEGFA) were highly upregulated in TAN of patients with CRC, whereas CXCR2, a marker of mature neutrophils, was highly expressed in blood neutrophils but downregulated in TAN."
+        }
+      ]
+    },
+    {
+      "cell_type": "blood neutrophils",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCR2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.152, Fig.4F",
+          "source_context": "TAN markers (OLR1, PLAU, and VEGFA) were highly upregulated in TAN of patients with CRC, whereas CXCR2, a marker of mature neutrophils, was highly expressed in blood neutrophils but downregulated in TAN."
+        }
+      ]
+    },
+    {
+      "cell_type": "TAN4",
+      "subtype": "pro-tumor TAN phenotype",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL1A",
+          "evidence_level": "explicit",
+          "source_section": "Results p.152",
+          "source_context": "From TAN1, neutrophils diverged into two trajectories: one leading to a putative pro-tumor TAN phenotype (TAN4) characterized by the high expression of IL1A and IL1B."
+        },
+        {
+          "gene": "IL1B",
+          "evidence_level": "explicit",
+          "source_section": "Results p.152",
+          "source_context": "From TAN1, neutrophils diverged into two trajectories: one leading to a putative pro-tumor TAN phenotype (TAN4) characterized by the high expression of IL1A and IL1B."
+        }
+      ]
+    },
+    {
+      "cell_type": "TAN2/TAN3",
+      "subtype": "antigen-presenting neutrophils",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLA-DRA",
+          "evidence_level": "explicit",
+          "source_section": "Results p.152",
+          "source_context": "The other trajectory was leading toward a phenotype defined by the high expression of antigen-presentation-associated markers, such as HLA-DRA (TAN2/TAN3)."
+        }
+      ]
+    },
+    {
+      "cell_type": "neutrophils",
+      "subtype": "activated",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SiglecF",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.6D-6G",
+          "source_context": "Analysis of neutrophil activation markers such as SiglecF, CD11b, CD80, and PD-L1, further showed a progressive activation of neutrophils from the blood to the tumor (Figures 6D–6G)."
+        },
+        {
+          "gene": "CD11b",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.6D-6G",
+          "source_context": "Analysis of neutrophil activation markers such as SiglecF, CD11b, CD80, and PD-L1, further showed a progressive activation of neutrophils from the blood to the tumor (Figures 6D–6G)."
+        },
+        {
+          "gene": "CD80",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.6D-6G",
+          "source_context": "Analysis of neutrophil activation markers such as SiglecF, CD11b, CD80, and PD-L1, further showed a progressive activation of neutrophils from the blood to the tumor (Figures 6D–6G)."
+        },
+        {
+          "gene": "PD-L1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.6D-6G",
+          "source_context": "Analysis of neutrophil activation markers such as SiglecF, CD11b, CD80, and PD-L1, further showed a progressive activation of neutrophils from the blood to the tumor (Figures 6D–6G)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Siglec-F+ neutrophils",
+      "subtype": "mature long-lived tumor-promoting cells",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SiglecF",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156",
+          "source_context": "Siglec-F+ neutrophils are mature, long-lived tumor-promoting cells, and the selective depletion of Siglec-F+ neutrophils could be of importance for the development of immunotherapies targeting myeloid cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "mature neutrophils",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100a8",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.S7F",
+          "source_context": "For example, GMPs expressed higher levels of the mature neutrophil markers S100a8 and S100a9 (Figure S7F), and ProNeutro expressed lower levels of the progenitor specific genes Elane and Prtn3 (Figure S7G)."
+        },
+        {
+          "gene": "S100a9",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.S7F",
+          "source_context": "For example, GMPs expressed higher levels of the mature neutrophil markers S100a8 and S100a9 (Figure S7F), and ProNeutro expressed lower levels of the progenitor specific genes Elane and Prtn3 (Figure S7G)."
+        }
+      ]
+    },
+    {
+      "cell_type": "neutrophil progenitors (ProNeutro)",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Elane",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.S7G",
+          "source_context": "For example, GMPs expressed higher levels of the mature neutrophil markers S100a8 and S100a9 (Figure S7F), and ProNeutro expressed lower levels of the progenitor specific genes Elane and Prtn3 (Figure S7G)."
+        },
+        {
+          "gene": "Prtn3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.156, Fig.S7G",
+          "source_context": "For example, GMPs expressed higher levels of the mature neutrophil markers S100a8 and S100a9 (Figure S7F), and ProNeutro expressed lower levels of the progenitor specific genes Elane and Prtn3 (Figure S7G)."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL1R1",
+          "evidence_level": "implied",
+          "source_section": "Results p.154, Fig.5F",
+          "source_context": "Further analysis of the main cell types within the neutrophil niche revealed that the receptor for IL1B, IL1R1, was specifically expressed in fibroblasts (Figure 5F)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Neutrophil",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100a8",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Single-cell RNA sequencing of mouse neutrophils - data analysis",
+          "source_context": "Neutrophil clusters were identified using on the one hand neutrophil specific marker genes (S100a8, S100a9) and an automatic annotation approach called SingleR with the murine ImmGen as reference."
+        },
+        {
+          "gene": "S100a9",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Single-cell RNA sequencing of mouse neutrophils - data analysis",
+          "source_context": "Neutrophil clusters were identified using on the one hand neutrophil specific marker genes (S100a8, S100a9) and an automatic annotation approach called SingleR with the murine ImmGen as reference."
+        }
+      ]
+    }
+  ]
+}

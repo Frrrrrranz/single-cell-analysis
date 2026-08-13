@@ -1,0 +1,207 @@
+{
+  "paper_id": "DOI_10.1038_s41586_021_03710_0",
+  "cell_types": [
+    {
+      "cell_type": "Microglia",
+      "subtype": "Homeostatic",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "P2RY12",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Cells are coloured by cell-type subcluster (red cluster defined by homeostatic markers; light blue cluster defined by activation markers). Homeostatic markers include P2RY12, IRAK3, CX3CR1, MEF2C."
+        },
+        {
+          "gene": "IRAK3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Cells are coloured by cell-type subcluster (red cluster defined by homeostatic markers; light blue cluster defined by activation markers). Homeostatic markers include P2RY12, IRAK3, CX3CR1, MEF2C."
+        },
+        {
+          "gene": "CX3CR1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Cells are coloured by cell-type subcluster (red cluster defined by homeostatic markers; light blue cluster defined by activation markers). Homeostatic markers include P2RY12, IRAK3, CX3CR1, MEF2C."
+        },
+        {
+          "gene": "MEF2C",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Cells are coloured by cell-type subcluster (red cluster defined by homeostatic markers; light blue cluster defined by activation markers). Homeostatic markers include P2RY12, IRAK3, CX3CR1, MEF2C."
+        }
+      ]
+    },
+    {
+      "cell_type": "Microglia",
+      "subtype": "COVID-19-associated",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1QC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "COVID-19-enriched markers include C1QC, FTL, CD14, FTH1, RIPK1 in the light blue cluster."
+        },
+        {
+          "gene": "FTL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "COVID-19-enriched markers include C1QC, FTL, CD14, FTH1, RIPK1 in the light blue cluster."
+        },
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "COVID-19-enriched markers include C1QC, FTL, CD14, FTH1, RIPK1 in the light blue cluster."
+        },
+        {
+          "gene": "FTH1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "COVID-19-enriched markers include C1QC, FTL, CD14, FTH1, RIPK1 in the light blue cluster."
+        },
+        {
+          "gene": "RIPK1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "COVID-19-enriched markers include C1QC, FTL, CD14, FTH1, RIPK1 in the light blue cluster."
+        },
+        {
+          "gene": "CD68",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3g",
+          "source_context": "Immunohistochemical staining for the microglial activation marker CD68 (brown) in the frontal medial cortex of a patient with COVID-19."
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "Perivascular",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MRC1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.569",
+          "source_context": "perivascular macrophages (MRC1+, which encodes macrophage-specific mannose receptor CD20634)"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD247",
+          "evidence_level": "explicit",
+          "source_section": "Results p.569",
+          "source_context": "T cells (CD247+, which encodes the T cell receptor CD3ζ protein)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Excitatory neuron",
+      "subtype": "NRGN neuron",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NRGN",
+          "evidence_level": "inferred",
+          "source_section": "Fig.4a",
+          "source_context": "Cell type label 'NRGN neuron' shown in the dot plot, indicating NRGN as a distinguishing marker."
+        }
+      ]
+    },
+    {
+      "cell_type": "Interneuron",
+      "subtype": "IN-VIP",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VIP",
+          "evidence_level": "inferred",
+          "source_section": "Fig.4a",
+          "source_context": "Cell type label 'IN-VIP' shown in the dot plot, indicating VIP as a distinguishing marker."
+        }
+      ]
+    },
+    {
+      "cell_type": "Interneuron",
+      "subtype": "IN-SST",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SST",
+          "evidence_level": "inferred",
+          "source_section": "Fig.4a",
+          "source_context": "Cell type label 'IN-SST' shown in the dot plot, indicating SST as a distinguishing marker."
+        }
+      ]
+    },
+    {
+      "cell_type": "Interneuron",
+      "subtype": "IN-PV",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PV",
+          "evidence_level": "inferred",
+          "source_section": "Fig.4a",
+          "source_context": "Cell type label 'IN-PV' shown in the dot plot, indicating PV as a distinguishing marker."
+        }
+      ]
+    },
+    {
+      "cell_type": "Interneuron",
+      "subtype": "IN-SV2C",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SV2C",
+          "evidence_level": "inferred",
+          "source_section": "Fig.4a",
+          "source_context": "Cell type label 'IN-SV2C' shown in the dot plot, indicating SV2C as a distinguishing marker."
+        }
+      ]
+    },
+    {
+      "cell_type": "perivascular macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MRC1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Cell annotations",
+          "source_context": "To distinguish between confounding (perivascular) macrophages and T cells and pure microglia in the larger cortex immune population, we subset the cluster and repeated the standard steps of Seurat for dimension reduction and unsupervised clustering. Then, to yield pure microglia by requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD247",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Cell annotations",
+          "source_context": "To distinguish between confounding (perivascular) macrophages and T cells and pure microglia in the larger cortex immune population, we subset the cluster and repeated the standard steps of Seurat for dimension reduction and unsupervised clustering. Then, to yield pure microglia by requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1."
+        }
+      ]
+    }
+  ]
+}

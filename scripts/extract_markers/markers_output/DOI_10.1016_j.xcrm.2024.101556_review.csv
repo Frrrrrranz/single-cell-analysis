@@ -1,0 +1,2 @@
+﻿cell_type,subtype,species,is_pns_cell,gene_symbol,evidence_level,source_section,source_context,review_status,notes
+Schwann cells,,human,true,MPZ,explicit,Fig.1G,"Spatial expression (Resolve Biosciences) of the CM (CHRM2), EEC (PCDH7), FB (ABCA6), MESO (PRG4), and Schwann cell (SC) (MPZ) marker genes in the right atrial tissue of IHD sample.",pending,

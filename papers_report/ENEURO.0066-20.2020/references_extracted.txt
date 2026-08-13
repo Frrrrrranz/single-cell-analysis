@@ -1,0 +1,308 @@
+--- PAGE 69 ---
+of the three has been studied as a positive factor within
+the context of the injured nerve, although ANGPT1 has
+been shown to promote growth of cultured sensory neu-
+rons (Kosacka et al., 2006), VEGFC promotes growth of
+developing motor neurons in zebrafish (Kwon et al.,
+2013), and CCL11 inhibits Schwann cell differentiation
+(Büttner et al., 2018). Based on our predictive models, we
+tested these ligands and found that all three (1) were ex-
+pressed by endoneurial mesenchymal cells in the injured
+nerve, as shown by both scRNA-seq and FISH analyses;
+(2) were synthesized and secreted by cultured nerve-de-
+rived PDGFRa-positive mesenchymal cells; and (3) en-
+hanced sympathetic axon outgrowth when applied locally
+in the presence of minimal NGF. While we recognize that
+additional studies will be required to show that these
+three ligands are secreted by mesenchymal cells in vivo,
+our data indicate that they are highly expressed following
+nerve injury, raising the possibility that they are important
+for nerve repair. In this regard, ANGPT1, CCL11, and
+VEGFC were not as potent as NGF in promoting growth of
+sympathetic axons in culture, but they did enhance
+growth and thus could be important factors for peripheral
+axon growth in a regenerating nerve context. We therefore
+feel that our studies validate the predictive value of the
+modeling approach and provide support for the idea that
+mesenchymal cells within the nerve are important ligand
+sources, particularly within the context of nerve repair and
+regeneration.
+The data presented here reinforce the importance of
+Schwann cells as sources of growth promoting factors
+and provide evidence that mesenchymal cells also play
+an important role in determining the ligand environment of
+the developing and injured nerve. Notably, some well-
+known nerve regeneration ligands such as GDNF and
+BDNF were expressed at the highest levels in Schwann
+cells, while others, such as NGF and HGF, were instead
+highest in mesenchymal cells. In addition, both cell types
+express ligands that are not well-characterized as nerve
+injury ligands, including BTC and UCN2 for Schwann
+cells, and ANGPT1, CCL11, and VEGFC for mesenchymal
+cells. While the relative contributions of growth factors
+from these two cell types to nerve growth and repair re-
+main unknown, our study does highlight mesenchymal
+cells as a previously overlooked reservoir of growth
+factors for axon growth and potentially for nerve tissue re-
+generation, an area we are only now starting to under-
+stand (for examples, see Parrinello et al., 2010; Cattin et
+al., 2015). The data presented here thus provide an impor-
+tant step toward defining nerve paracrine interactions not
+only with regard to axon growth and peripheral nerve re-
+generation, but also with regard to the paracrine roles of
+the nerve during repair and regeneration of target tissues.
+References
+Ansari N, Ho PW, Crimeen-Irwin B, Poulton IJ, Brunt AR, Forwood
+MR, Divieti Pajevic P, Gooi JH, Martin TJ, Sims NA (2018)
+Autocrine and paracrine regulation of the murine skeleton by os-
+teocyte-derived parathyroid hormone-related protein. J Bone
+Miner Res 33:137–153.
+Arthur-Farraj PJ, Morgan CC, Adamowicz M, Gomez-Sanchez JA,
+Fazal SV, Beucher A, Razzaghi B, Mirsky R, Jessen KR, Aitman TJ
+(2017) Changes in the coding and non-coding transcriptome and
+DNA methylome that define the Schwann cell repair phenotype
+after nerve injury. Cell Rep 20:2719–2734.
+Benowitz LI, He Z, Goldberg JL (2017) Reaching the brain: advances
+in optic nerve regeneration. Exp Neurol 287:365–373.
+Blanco-Suarez E, Liu TF, Kopelevich A, Allen NJ (2018) Astrocyte-se-
+creted chordin-like 1 drives synapse maturation and limits plasticity by
+increasing synaptic GluA2 AMPA receptors. Neuron 100:1116–1132.
+Brownell I, Guevara E, Bai CB, Loomis CA, Joyner AL (2011) Nerve-de-
+rived sonic hedgehog defines a niche for hair follicle stem cells capa-
+ble of becoming epidermal stem cells. Cell Stem Cell 8:552–565.
+Brushart TM, Aspalter M, Griffin JW, Redett R, Hameed H, Zhou C,
+Wright M, Vyas A, Höke A (2013) Schwann cell phenotype is regu-
+lated by axon modality and central-peripheral location, and per-
+sists in vitro. Exp Neurol 247:272–281.
+Bunge MB (2016) Efficacy of Schwann cell transplantation for spinal
+cord repair is improved with combinatorial strategies. J Physiol
+594:3533–3538.
+Butler A, Hoffman P, Smibert P, Papalexi E, Satija R (2018)
+Integrating single-cell transcriptomic data across different condi-
+tions, technologies, and species. Nat Biotechnol 36:411–420.
+Büttner R, Schulz A, Reuter M, Akula AK, Mindos T, Carlstedt A,
+Riecken LB, Baader SL, Bauer R, Morrison H (2018) Inflammaging
+impairs peripheral nerve maintenance and regeneration. Aging
+Cell 17:e12833.
+Campenot RB, Walji AH, Draker DD (1991) Effects of sphingosine, stau-
+rosporine, and phorbol ester on neurites of rat sympathetic neurons
+growing in compartmented cultures. J Neurosci 11:1126–1139.
+Carr MJ, Toma JS, Johnston APW, Steadman PE, Yuzwa SA,
+Mahmud
+N,
+Frankland
+PW,
+Kaplan
+DR,
+Miller
+FD
+(2019)
+Mesenchymal precursor cells in adult nerves contribute to mam-
+malian tissue repair and regeneration. Cell Stem Cell 24:240–256.
+Cattin AL, Burden JJ, Van Emmenis L, Mackenzie FE, Hoving JJ,
+Garcia Calavia N, Guo Y, McLaughlin M, Rosenberg LH, Quereda V,
+Jamecna D, Napoli I, Parrinello S, Enver T, Ruhrberg C, Lloyd AC
+(2015) Macrophage-induced blood vessels guide Schwann cell-
+mediated regeneration of peripheral nerves. Cell 162:1127–1139.
+Cattin AL, Lloyd AC (2016) The multicellular complexity of peripheral
+nerve regeneration. Curr Opin Neurobiol 39:38–46.
+Chen ZL, Yu WM, Strickland S (2007) Peripheral regeneration. Annu
+Rev Neurosci 30:209–233.
+Clements MP, Byrne E, Camarillo Guerrero LF, Cattin AL, Zakka L,
+Ashraf A, Burden JJ, Khadayate S, Lloyd AC, Marguerat S,
+Parrinello S (2017) The wound microenvironment reprograms
+Schwann cells to invasive mesenchymal-like cells to drive periph-
+eral nerve regeneration. Neuron 96:98–114.
+David S, Aguayo AJ (1981) Axonal elongation into peripheral nervous
+system “bridges” after central nervous system injury in adult rats.
+Science 214:931–933.
+Dumont CE, Muff R, Flühmann B, Fischer JA, Born W (2002)
+Paracrine/autocrine
+function
+of
+adrenomedullin
+in
+peripheral
+nerves of rats. Brain Res 955:64–71.
+Elefteriou F, Campbell P, Ma Y (2014) Control of bone remodeling by
+the peripheral sympathetic nervous system. Calcif Tissue Int
+94:140–151.
+Feinberg K, Eshed-Eisenbach Y, Frechter S, Amor V, Salomon D,
+Sabanay H, Dupree JL, Grumet M, Brophy PJ, Shrager P, Peles E
+(2010) A glial signal consisting of gliomedin and NrCAM clusters
+axonal Na1 channels during the formation of nodes of Ranvier.
+Neuron 65:490–502.
+Feinberg K, Kolaj A, Wu C, Grinshtein N, Krieger JR, Moran MF,
+Rubin LL, Miller FD, Kaplan DR (2017) A neuroprotective agent
+that inactivates prodegenerative TrkA and preserves mitochon-
+dria. J Cell Biol 216:3655–3675.
+Fledrich R, Kungl T, Nave KA, Stassart RM (2019) Axo-glial interde-
+pendence in peripheral nerve development. Development 146:
+dev151704.
+Gardiner NJ (2011) Integrins and the extracellular matrix: key media-
+tors of development and regeneration of the sensory nervous sys-
+tem. Dev Neurobiol 71:1054–1072.
+Research Article: New Research
+69 of 70
+May/June 2020, 7(3) ENEURO.0066-20.2020
+eNeuro.org
+
+--- PAGE 70 ---
+Gerber T, Murawala P, Knapp D, Masselink W, Schuez M, Hermann
+S, Gac-Santel M, Nowoshilow S, Kageyama J, Khattak S, Currie
+JD, Camp JG, Tanaka EM, Treutlein B (2018) Single-cell analysis
+uncovers convergence of cell identities during axolotl limb regen-
+eration. Science 362:eaaq0681.
+Gomez-Sanchez JA, Pilch KS, van der Lans M, Fazal SV, Benito C,
+Wagstaff LJ, Mirsky R, Jessen KR (2017) After nerve injury, lineage
+tracing shows that myelin and remak Schwann cells elongate ex-
+tensively and branch to form repair Schwann cells, which shorten
+radically on remyelination. J Neurosci 37:9086–9099.
+Hamilton
+TG,
+Klinghoffer
+RA,
+Corrin
+PD,
+Soriano
+P
+(2003)
+Evolutionary divergence of platelet-derived growth factor alpha re-
+ceptor signaling mechanisms. Mol Cell Biol 23:4013–4025.
+Höke A, Redett R, Hameed H, Jari R, Zhou C, Li ZB, Griffin JW,
+Brushart TM (2006) Schwann cells express motor and sensory
+phenotypes that regulate axon regeneration. J Neurosci 26:9646–
+9655.
+Innes BT, Bader GD (2019) scClustViz – Single-cell RNAseq cluster
+assessment and visualization. F1000Res 7:1522.
+Jessen KR, Mirsky R (2019) The success and failure of the Schwann
+cell response to nerve injury. Front Cell Neurosci 13:33.
+Johnston APW, Naska S, Jones K, Jinno H, Kaplan DR, Miller FD
+(2013) Sox2-mediated regulation of adult neural crest precursors
+and skin repair. Stem Cell Reports 1:38–45.
+Johnston AP, Yuzwa SA, Carr MJ, Mahmud N, Storer MA, Krause
+MP, Jones K, Paul S, Kaplan DR, Miller FD (2016) Dedifferentiated
+Schwann cell precursors secreting paracrine factors are required
+for regeneration of the mammalian digit tip. Cell Stem Cell 19:433–
+448.
+Jose PJ, Griffiths-Johnson DA, Collins PD, Walsh DT, Moqbel R,
+Totty NF, Truong O, Hsuan JJ, Williams TJ (1994) Eotaxin: a potent
+eosinophil chemoattractant cytokine detected in a guinea pig
+model of allergic airways inflammation. J Exp Med 179:881–887.
+Joseph NM, Mukouyama YS, Mosher JT, Jaegle M, Crone SA,
+Dormand EL, Lee KF, Meijer D, Anderson DJ, Morrison SJ (2004)
+Neural crest stem cells undergo multilineage differentiation in de-
+veloping peripheral nerves to generate endoneurial fibroblasts in
+addition to Schwann cells. Development 131:5599–5612.
+Kaplan A, Spiller KJ, Towne C, Kanning KC, Choe GT, Geber A, Akay
+T, Aebischer P, Henderson CE (2014) Neuronal matrix metallopro-
+teinase-9 is a determinant of selective neurodegeneration. Neuron
+81:333–348.
+Korsunsky I, Millard N, Fan J, Slowikowski K, Zhang F, Wei K,
+Bablaenko Y, Brenner M, Loh PR, Raychaudhuri S (2019) Fast,
+sensitive
+and
+accurate
+integration
+of
+single-cell
+data
+with
+Harmony. Nat Methods 16:1289–1296.
+Kosacka J, Nowicki M, Kacza J, Borlak J, Engele J, Spanel-Borowski
+K (2006) Adipocyte-derived angiopoietin-1 supports neurite out-
+growth and synaptogenesis of sensory neurons. J Neurosci Res
+83:1160–1169.
+Kumar A, Brockes JP (2012) Nerve dependence in tissue, organ, and
+appendage regeneration. Trends Neurosci 35:691–699.
+Kumar A, Godwin JW, Gates PB, Garza-Garcia AA, Brockes JP
+(2007) Molecular basis for the nerve dependence of limb regenera-
+tion in an adult vertebrate. Science 318:772–777.
+Kwon HB, Fukuhara S, Asakawa K, Ando K, Kashiwada T, Kawakami
+K, Hibi M, Kwon YG, Kim KW, Alitalo K, Mochizuki N (2013) The
+parallel growth of motoneuron axons with the dorsal aorta de-
+pends on Vegfc/Vegfr3 signaling in zebrafish. Development
+140:4081–4090.
+Leibrock J, Lottspeich F, Hohn A, Hofer M, Hengerer B, Masiakowski
+P, Thoenen H, Barde YA (1989) Molecular cloning and expression
+of brain-derived neurotrophic factor. Nature 341:149–152.
+Lindsay RM (1988) Nerve growth factors (NGF, BDNF) enhance axo-
+nal regeneration but are not required for survival of adult sensory
+neurons. J Neurosci 8:2394–2405.
+Liu X, Zhao Y, Peng S, Zhang S, Wang M, Chen Y, Zhang S, Yang Y,
+Sun C (2016) BMP7 retards peripheral myelination by activating
+p38 MAPK in Schwann cells. Sci Rep 6:31049.
+Lun AT, McCarthy DJ, Marioni JC (2016) A step-by-step workflow for
+low-level analysis of single-cell RNA-seq data with Bioconductor.
+F1000Res 5:2122.
+Macosko EZ, Basu A, Satija R, Nemesh J, Shekhar K, Goldman M,
+Tirosh I, Bialas AR, Kamitaki N, Martersteck EM, Trombetta JJ,
+Weitz DA, Sanes JR, Shalek AK, Regev A, McCarroll SA (2015)
+Highly parallel genome-wide expression profiling of individual cells
+using nanoliter droplets. Cell 161:1202–1214.
+Mahmoud AI, O’Meara CC, Gemberling M, Zhao L, Bryant DM,
+Zheng R, Gannon JB, Cai L, Choi W-Y, Egnaczyk GF, Burns CE,
+Burns CG, MacRae CA, Poss KD, Lee RT (2015) Nerves regulate
+cardiomyocyte proliferation and heart regeneration. Dev Cell
+34:387–399.
+McDonald CA, Yang JY, Marathe V, Yen TY, Macher BA (2009)
+Combining results from lectin affinity chromatography and glyco-
+capture approaches substantially improves the coverage of the
+glycoproteome. Mol Cell Proteomics 8:287–301.
+Micallef L, Rodgers P (2014) eulerAPE: drawing area-proportional 3-
+Venn diagrams using ellipses. PLoS One 9:e101717.
+Muir D (2010) The potentiation of peripheral nerve sheaths in regen-
+eration and repair. Exp Neurol 223:102–111.
+Naveilhan P, ElShamy WM, Ernfors P (1997) Differential regulation of
+mRNAs for GDNF and its receptors Ret and GDNFR alpha after
+sciatic nerve lesion in the mouse. Eur J Neurosci 9:1450–1460.
+Park KJ, Grosso CA, Aubert I, Kaplan DR, Miller FD (2010) p75NTR-
+dependent, myelin-mediated axonal degeneration regulates neural
+connectivity in the adult brain. Nat Neurosci 13:559-566.
+Parrinello S, Napoli I, Ribeiro S, Wingfield Digby P, Fedorova M,
+Parkinson DB, Doddrell RD, Nakayama M, Adams RH, Lloyd AC
+(2010) EphB signaling directs peripheral nerve regeneration
+through Sox2-dependent Schwann cell sorting. Cell 143:145–155.
+Politis MJ, Spencer PS (1986) Regeneration of rat optic axons into
+peripheral nerve grafts. Exp Neurol 91:52–59.
+Schiess R, Mueller LN, Schmidt A, Mueller M, Wollscheid B,
+Aebersold R (2009) Analysis of cell surface proteome changes via
+label-free, quantitative mass spectrometry. Mol Cell Proteomics
+8:624–638.
+Storer MA, Mahmud N, Karamboulas K, Borrett MJ, Yuzwa SA, Gont
+A, Androschuk A, Sefton MV, Kaplan DR, Miller FD (2020)
+Acquisition of a unique mesenchymal precursor-like blastema
+state underlies successful adult mammalian digit tip regeneration.
+Dev Cell 52:509–524.
+Stratton JA, Holmes A, Rosin NL, Sinha S, Vohra M, Burma NE,
+Trang T, Midha R, Biernaskie J (2018) Macrophages regulate
+Schwann cell maturation after nerve injury. Cell Rep 24:2561–
+2572.
+Terenghi G (1999) Peripheral nerve regeneration and neurotrophic
+factors. J Anat 194:1–14.
+Trupp M, Rydén M, Jörnvall H, Funakoshi H, Timmusk T, Arenas E,
+Ibáñez CF (1995) Peripheral expression and biological activities of
+GDNF, a new neurotrophic factor for avian and mammalian periph-
+eral neurons. J Cell Biol 130:137–148.
+Voronova A, Yuzwa SA, Wang BS, Zahr S, Syal C, Wang J, Kaplan
+DR, Miller FD (2017) Migrating interneurons secrete fractalkine to
+promote oligodendrocyte formation in the developing mammalian
+brain. Neuron 94:500–516.
+Yamazaki S, Ema H, Karlsson G, Yamaguchi T, Miyoshi H, Shioda S,
+Taketo MM, Karlsson S, Iwama A, Nakauchi H (2011) Nonmyelinating
+Schwann cells maintain hematopoietic stem cell hibernation in the
+bone marrow niche. Cell 147:1146–1158.
+Yu L, Han M, Yan M, Lee EC, Lee J, Muneoka K (2010) BMP signaling in-
+duces digit regeneration in neonatal mice. Development 137:551–559.
+Yuzwa SA, Yang G, Borrett MJ, Clarke G, Cancino GI, Zahr SK,
+Zandstra PW, Kaplan DR, Miller FD (2016) Proneurogenic ligands
+defined by modeling developing cortex growth factor communica-
+tion networks. Neuron 91:988–1004.
+Yuzwa SA, Borrett MJ, Innes BT, Voronova A, Ketela T, Kaplan DR,
+Bader GD, Miller FD (2017) Developmental emergence of adult
+neural stem cells as revealed by single-cell transcriptional profil-
+ing. Cell Rep 21:3970–3986.
+Research Article: New Research
+70 of 70
+May/June 2020, 7(3) ENEURO.0066-20.2020
+eNeuro.org

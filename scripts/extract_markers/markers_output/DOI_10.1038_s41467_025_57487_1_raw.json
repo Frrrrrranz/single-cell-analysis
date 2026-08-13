@@ -1,0 +1,493 @@
+{
+  "paper_id": "DOI_10.1038_s41467_025_57487_1",
+  "cell_types": [
+    {
+      "cell_type": "NMJ myonuclei",
+      "subtype": "subsynaptic myonuclei",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Chrne",
+          "evidence_level": "implied",
+          "source_section": "Article p.1 (Introduction)",
+          "source_context": "They express transcripts whose products are enriched at the postsynapse and are often of functional importance for the NMJ. Examples are the acetylcholine receptor (AChR) subunits Chrne, Chrna1, Chrnd, Chrnb1, which encode the AChRε, AChRα, AChRδ and AChRβ subunits, respectively, and Musk, which encodes the muscle-specific kinase (MuSK) that is essential for NMJ formation and maintenance."
+        },
+        {
+          "gene": "Chrna1",
+          "evidence_level": "implied",
+          "source_section": "Article p.1 (Introduction)",
+          "source_context": "They express transcripts whose products are enriched at the postsynapse and are often of functional importance for the NMJ. Examples are the acetylcholine receptor (AChR) subunits Chrne, Chrna1, Chrnd, Chrnb1, which encode the AChRε, AChRα, AChRδ and AChRβ subunits, respectively, and Musk, which encodes the muscle-specific kinase (MuSK) that is essential for NMJ formation and maintenance."
+        },
+        {
+          "gene": "Chrnd",
+          "evidence_level": "implied",
+          "source_section": "Article p.1 (Introduction)",
+          "source_context": "They express transcripts whose products are enriched at the postsynapse and are often of functional importance for the NMJ. Examples are the acetylcholine receptor (AChR) subunits Chrne, Chrna1, Chrnd, Chrnb1, which encode the AChRε, AChRα, AChRδ and AChRβ subunits, respectively, and Musk, which encodes the muscle-specific kinase (MuSK) that is essential for NMJ formation and maintenance."
+        },
+        {
+          "gene": "Chrnb1",
+          "evidence_level": "implied",
+          "source_section": "Article p.1 (Introduction)",
+          "source_context": "They express transcripts whose products are enriched at the postsynapse and are often of functional importance for the NMJ. Examples are the acetylcholine receptor (AChR) subunits Chrne, Chrna1, Chrnd, Chrnb1, which encode the AChRε, AChRα, AChRδ and AChRβ subunits, respectively, and Musk, which encodes the muscle-specific kinase (MuSK) that is essential for NMJ formation and maintenance."
+        },
+        {
+          "gene": "Musk",
+          "evidence_level": "implied",
+          "source_section": "Article p.1 (Introduction)",
+          "source_context": "They express transcripts whose products are enriched at the postsynapse and are often of functional importance for the NMJ. Examples are the acetylcholine receptor (AChR) subunits Chrne, Chrna1, Chrnd, Chrnb1, which encode the AChRε, AChRα, AChRδ and AChRβ subunits, respectively, and Musk, which encodes the muscle-specific kinase (MuSK) that is essential for NMJ formation and maintenance."
+        }
+      ]
+    },
+    {
+      "cell_type": "Myonuclei",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ttn",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1c, Supplementary Fig. S1b",
+          "source_context": "Myonuclei were identified based on the expression of Ttn and Neb"
+        },
+        {
+          "gene": "Neb",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1c, Supplementary Fig. S1b",
+          "source_context": "Myonuclei were identified based on the expression of Ttn and Neb"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myonuclei",
+      "subtype": "Type IIB myonuclei",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Myh4",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1b, c",
+          "source_context": "Within the myonuclei population type IIB, IIX and IIA myonuclei were distinguishable based on the expression of Myh4, Myh1 and Myh2, respectively"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myonuclei",
+      "subtype": "Type IIX myonuclei",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Myh1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1b, c",
+          "source_context": "Within the myonuclei population type IIB, IIX and IIA myonuclei were distinguishable based on the expression of Myh4, Myh1 and Myh2, respectively"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myonuclei",
+      "subtype": "Type IIA myonuclei",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Myh2",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1b, c",
+          "source_context": "Within the myonuclei population type IIB, IIX and IIA myonuclei were distinguishable based on the expression of Myh4, Myh1 and Myh2, respectively"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial subtype",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mmrn1",
+          "evidence_level": "explicit",
+          "source_section": "Supplementary Data 2, Fig. 1b, Supplementary Fig. S1a",
+          "source_context": "By differential expression analysis, we identified Mmrn1 and Tenm2 as transcriptional markers for these two populations; Mmrn1-expressing nuclei localized near larger blood vessels; As Mmrn1+ nuclei also express Pecam1, we concluded that they represent a subtype of endothelial cells."
+        },
+        {
+          "gene": "Pecam1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1b",
+          "source_context": "As Mmrn1+ nuclei also express Pecam1 (Fig. 1b), we concluded that they represent a subtype of endothelial cells."
+        }
+      ]
+    },
+    {
+      "cell_type": "Peri- and endoneurial cell type",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "NA",
+      "markers": [
+        {
+          "gene": "Tenm2",
+          "evidence_level": "explicit",
+          "source_section": "Supplementary Data 2, Supplementary Fig. S1a",
+          "source_context": "By differential expression analysis, we identified Mmrn1 and Tenm2 as transcriptional markers for these two populations; Tenm2-expressing nuclei were located close to motor neuron axons; Tenm2+ nuclei were also identified in a single-cell sciatic nerve atlas, suggesting that they represent a peri- and endoneurial cell type."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Mbp",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Peri- and Endoneurial",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Tenm2",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Smooth muscle",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Myh11",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial Mmrn1+",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mmrn1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.1a",
+          "source_context": "Cell type named 'Endothelial Mmrn1+' in UMAP legend"
+        }
+      ]
+    },
+    {
+      "cell_type": "Tenocytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mkx",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        },
+        {
+          "gene": "Col22a1",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "NMJ",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Chrne",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Adipocytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Plin1",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "MuSCs",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pax7",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Pericytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lin7a",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "MTJ",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Col22a1",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Type IIA",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Myh2",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Immune cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ptprc",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Type IIX",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Myh1",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "FAPs",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pdgfra",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "Type IIB",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mylk4",
+          "evidence_level": "inferred",
+          "source_section": "Fig.1b",
+          "source_context": "Dot-plot of marker genes used for cell/nuclear type identification"
+        }
+      ]
+    },
+    {
+      "cell_type": "NMJ myonuclei",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Musk",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "These included the well-characterized NMJ-associated genes Musk, Lrp4, Ache, Colq, Ncam1, Etv5, and the different Chrn subunits, which validated our approach."
+        },
+        {
+          "gene": "Lrp4",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "These included the well-characterized NMJ-associated genes Musk, Lrp4, Ache, Colq, Ncam1, Etv5, and the different Chrn subunits, which validated our approach."
+        },
+        {
+          "gene": "Ache",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "These included the well-characterized NMJ-associated genes Musk, Lrp4, Ache, Colq, Ncam1, Etv5, and the different Chrn subunits, which validated our approach."
+        },
+        {
+          "gene": "Colq",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "These included the well-characterized NMJ-associated genes Musk, Lrp4, Ache, Colq, Ncam1, Etv5, and the different Chrn subunits, which validated our approach."
+        },
+        {
+          "gene": "Ncam1",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "These included the well-characterized NMJ-associated genes Musk, Lrp4, Ache, Colq, Ncam1, Etv5, and the different Chrn subunits, which validated our approach."
+        },
+        {
+          "gene": "Etv5",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "These included the well-characterized NMJ-associated genes Musk, Lrp4, Ache, Colq, Ncam1, Etv5, and the different Chrn subunits, which validated our approach."
+        },
+        {
+          "gene": "Lama2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "For example, transcripts for laminin-α2 (Lama2) and collagen IV (Col4a1 and Col4a2) were enriched in both nuclei populations."
+        },
+        {
+          "gene": "Col4a1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "For example, transcripts for laminin-α2 (Lama2) and collagen IV (Col4a1 and Col4a2) were enriched in both nuclei populations."
+        },
+        {
+          "gene": "Col4a2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "For example, transcripts for laminin-α2 (Lama2) and collagen IV (Col4a1 and Col4a2) were enriched in both nuclei populations."
+        },
+        {
+          "gene": "Lamb2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "In contrast, other members of the laminin and collagen protein family, such as Lamb2, Col13a1, and Colq, were selectively transcribed in NMJ nuclei."
+        },
+        {
+          "gene": "Col13a1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "In contrast, other members of the laminin and collagen protein family, such as Lamb2, Col13a1, and Colq, were selectively transcribed in NMJ nuclei."
+        },
+        {
+          "gene": "Etv4",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "To gain further insights into the molecular mechanisms of NMJ maintenance, we addressed the function of Etv4, Lrtm1, and Pdzrn4, three NMJ-specific genes whose function has not been studied."
+        },
+        {
+          "gene": "Lrtm1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "To gain further insights into the molecular mechanisms of NMJ maintenance, we addressed the function of Etv4, Lrtm1, and Pdzrn4, three NMJ-specific genes whose function has not been studied."
+        },
+        {
+          "gene": "Pdzrn4",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "To gain further insights into the molecular mechanisms of NMJ maintenance, we addressed the function of Etv4, Lrtm1, and Pdzrn4, three NMJ-specific genes whose function has not been studied."
+        }
+      ]
+    },
+    {
+      "cell_type": "MTJ myonuclei",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lama2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "For example, transcripts for laminin-α2 (Lama2) and collagen IV (Col4a1 and Col4a2) were enriched in both nuclei populations."
+        },
+        {
+          "gene": "Col4a1",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "For example, transcripts for laminin-α2 (Lama2) and collagen IV (Col4a1 and Col4a2) were enriched in both nuclei populations."
+        },
+        {
+          "gene": "Col4a2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "For example, transcripts for laminin-α2 (Lama2) and collagen IV (Col4a1 and Col4a2) were enriched in both nuclei populations."
+        },
+        {
+          "gene": "Col22a1",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "Similarly, Col22a1 is selectively expressed in MTJ nuclei, and the protein is well-known to be a specific marker for MTJs."
+        }
+      ]
+    }
+  ]
+}

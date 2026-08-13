@@ -32,6 +32,8 @@ DEFAULT_DIR = Path(__file__).parent / "markers_output"
 REVIEW_HEADERS = [
     "cell_type",
     "subtype",
+    "species",
+    "is_pns_cell",
     "gene_symbol",
     "evidence_level",
     "source_section",
@@ -66,6 +68,8 @@ def generate_review_sheet(json_path: Path, output_dir: Path) -> Optional[Path]:
             rows.append({
                 "cell_type": cell_type,
                 "subtype": subtype,
+                "species": ct.get("species", ""),
+                "is_pns_cell": ct.get("is_pns_cell", ""),
                 "gene_symbol": m.get("gene", ""),
                 "evidence_level": m.get("evidence_level", "inferred"),
                 "source_section": m.get("source_section", ""),

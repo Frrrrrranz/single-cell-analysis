@@ -1,0 +1,235 @@
+{
+  "paper_id": "DOI_10.1158_2159_8290.CD_22_0824",
+  "cell_types": [
+    {
+      "cell_type": "S1 early immune fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment."
+        },
+        {
+          "gene": "PDPN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment."
+        },
+        {
+          "gene": "CD34",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment."
+        },
+        {
+          "gene": "CXCL12",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment (cytokines: CXCL12; complement factors: CFD, C3, C1S, CFH)."
+        },
+        {
+          "gene": "CFD",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment (cytokines: CXCL12; complement factors: CFD, C3, C1S, CFH)."
+        },
+        {
+          "gene": "C3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment (cytokines: CXCL12; complement factors: CFD, C3, C1S, CFH)."
+        },
+        {
+          "gene": "C1S",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment (cytokines: CXCL12; complement factors: CFD, C3, C1S, CFH)."
+        },
+        {
+          "gene": "CFH",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S1 population (PDGFRAhi PDPNhi CD34hi) was characterized by the expression of genes involved in the regulation of immune cell recruitment (cytokines: CXCL12; complement factors: CFD, C3, C1S, CFH)."
+        }
+      ]
+    },
+    {
+      "cell_type": "S2 desmoplastic/extracellular matrix–depositing fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S2 cell population (PDGFRAhi PDPNhi CD34lo) was characterized by the expression of extracellular matrix components (CXCL14, POSTN, COL6A1, and COL6A2)."
+        },
+        {
+          "gene": "PDPN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S2 cell population (PDGFRAhi PDPNhi CD34lo) was characterized by the expression of extracellular matrix components (CXCL14, POSTN, COL6A1, and COL6A2)."
+        },
+        {
+          "gene": "CD34",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S2 cell population (PDGFRAhi PDPNhi CD34lo) was characterized by the expression of extracellular matrix components (CXCL14, POSTN, COL6A1, and COL6A2)."
+        },
+        {
+          "gene": "CXCL14",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S2 cell population (PDGFRAhi PDPNhi CD34lo) was characterized by the expression of extracellular matrix components (CXCL14, POSTN, COL6A1, and COL6A2)."
+        },
+        {
+          "gene": "POSTN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S2 cell population (PDGFRAhi PDPNhi CD34lo) was characterized by the expression of extracellular matrix components (CXCL14, POSTN, COL6A1, and COL6A2)."
+        },
+        {
+          "gene": "COL6A1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S2 cell population (PDGFRAhi PDPNhi CD34lo) was characterized by the expression of extracellular matrix components (CXCL14, POSTN, COL6A1, and COL6A2)."
+        },
+        {
+          "gene": "COL6A2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S2 cell population (PDGFRAhi PDPNhi CD34lo) was characterized by the expression of extracellular matrix components (CXCL14, POSTN, COL6A1, and COL6A2)."
+        },
+        {
+          "gene": "FOS",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "Furthermore, one of the subclusters of the S2 population (cluster 4) was characterized by transcription of immediate early genes (FOS, JUN, and FOSB)."
+        },
+        {
+          "gene": "JUN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "Furthermore, one of the subclusters of the S2 population (cluster 4) was characterized by transcription of immediate early genes (FOS, JUN, and FOSB)."
+        },
+        {
+          "gene": "FOSB",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "Furthermore, one of the subclusters of the S2 population (cluster 4) was characterized by transcription of immediate early genes (FOS, JUN, and FOSB)."
+        }
+      ]
+    },
+    {
+      "cell_type": "S3 contractile fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S3 population expressed markers of contractile fibroblasts (ACTA2, MYL9, and ACTG2)."
+        },
+        {
+          "gene": "MYL9",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S3 population expressed markers of contractile fibroblasts (ACTA2, MYL9, and ACTG2)."
+        },
+        {
+          "gene": "ACTG2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5B–E; Results",
+          "source_context": "The S3 population expressed markers of contractile fibroblasts (ACTA2, MYL9, and ACTG2)."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblast-like cells",
+      "subtype": "S1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD34",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5H",
+          "source_context": "Representative IF staining of E-GM, BE-IM, and GIM of S1 (CD34+CD31-), S2 (POSTN+aSMA−), and S3 (aSMA+) fibroblasts."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblast-like cells",
+      "subtype": "S2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "POSTN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5H",
+          "source_context": "Representative IF staining of E-GM, BE-IM, and GIM of S1 (CD34+CD31-), S2 (POSTN+aSMA−), and S3 (aSMA+) fibroblasts."
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblast-like cells",
+      "subtype": "S3",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "αSMA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.5H",
+          "source_context": "Representative IF staining of E-GM, BE-IM, and GIM of S1 (CD34+CD31-), S2 (POSTN+aSMA−), and S3 (aSMA+) fibroblasts."
+        }
+      ]
+    },
+    {
+      "cell_type": "neck cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC6",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.1357",
+          "source_context": "the stem-like cells of NAG/CAG (MUC6+ neck cells) expressed recently identified marker genes (CD44, AQP5, TFF2, and LYZ) of SPEM"
+        },
+        {
+          "gene": "CD44",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.1357",
+          "source_context": "the stem-like cells of NAG/CAG (MUC6+ neck cells) expressed recently identified marker genes (CD44, AQP5, TFF2, and LYZ) of SPEM"
+        },
+        {
+          "gene": "AQP5",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.1357",
+          "source_context": "the stem-like cells of NAG/CAG (MUC6+ neck cells) expressed recently identified marker genes (CD44, AQP5, TFF2, and LYZ) of SPEM"
+        },
+        {
+          "gene": "TFF2",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.1357",
+          "source_context": "the stem-like cells of NAG/CAG (MUC6+ neck cells) expressed recently identified marker genes (CD44, AQP5, TFF2, and LYZ) of SPEM"
+        },
+        {
+          "gene": "LYZ",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.1357",
+          "source_context": "the stem-like cells of NAG/CAG (MUC6+ neck cells) expressed recently identified marker genes (CD44, AQP5, TFF2, and LYZ) of SPEM"
+        }
+      ]
+    }
+  ]
+}

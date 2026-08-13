@@ -48,19 +48,40 @@ def get_next_marker_id(ws) -> str:
 def match_ct_id(ws_cell_types, paper_id: str, cell_type: str) -> Optional[str]:
     """在 cell_types sheet 中按 paper_id + cell_type 匹配 ct_id
 
-    当前阶段做论文内的精确匹配。
+    当前阶段做论文内的精确匹配（大小写不敏感）。
     后续可扩展为模糊匹配或同义词表。
     """
     headers = [c.value for c in ws_cell_types[1]]
     col_map = {h: i + 1 for i, h in enumerate(headers)}
 
+    # cell_types 的 paper_id 列可能叫 paper_id
+    pid_col = col_map.get("paper_id")
+    ct_col = col_map.get("cell_type")
+    if pid_col is None or ct_col is None:
+        return None
+
     for row in ws_cell_types.iter_rows(min_row=2, max_row=ws_cell_types.max_row,
                                        values_only=False):
-        row_paper = row[col_map["paper_id"] - 1].value
-        row_ct = row[col_map["cell_type"] - 1].value
+        row_paper = row[pid_col - 1].value
+        row_ct = row[ct_col - 1].value
         if row_paper == paper_id and row_ct and row_ct.lower() == cell_type.lower():
             return row[col_map["ct_id"] - 1].value
     return None
+
+
+def normalize_gene_casing(gene: str, species: str) -> str:
+    """按物种决定基因名大小写：human 全大写；mouse/rat 首字母大写其余小写。
+
+    species 为空或非 human/mouse/rat 时原样返回（交人工）。
+    """
+    if not gene:
+        return gene
+    sp = (species or "").strip().lower()
+    if sp == "human":
+        return gene.upper()
+    if sp in ("mouse", "rat"):
+        return gene[:1].upper() + gene[1:].lower()
+    return gene
 
 
 def update_mark_status(ws_cell_types, paper_id: str):
@@ -128,46 +149,86 @@ def import_review_csv(csv_path: Path, db_path: Path) -> None:
     marker_headers = [c.value for c in ws_markers[1]]
     marker_col_map = {h: i + 1 for i, h in enumerate(marker_headers)}
 
+    # 幂等去重：读取该 paper_id 已有的 (cell_type, gene_symbol) 集合
+    pid_col_idx = marker_col_map.get("paper_id")
+    ct_col_idx = marker_col_map.get("cell_type")
+    gene_col_idx = marker_col_map.get("gene_symbol")
+    existing_keys: set[tuple] = set()
+    if pid_col_idx and ct_col_idx and gene_col_idx:
+        for row in ws_markers.iter_rows(min_row=2, max_row=ws_markers.max_row,
+                                        values_only=True):
+            row_pid = row[pid_col_idx - 1]
+            row_ct = row[ct_col_idx - 1]
+            row_gene = row[gene_col_idx - 1]
+            if row_pid == paper_id and row_ct and row_gene:
+                existing_keys.add((str(row_ct).strip().lower(),
+                                   str(row_gene).strip().lower()))
+
     imported_count = 0
+    ct_unmatched = 0
+    skipped_dup = 0
     for i, row in enumerate(rows_to_import):
         cell_type = row.get("cell_type", "").strip()
+        species = row.get("species", "").strip()
         gene_symbol = row.get("gene_symbol", "").strip()
-        original_symbol = row.get("gene_symbol", "").strip()
+        # 按物种决定大小写（修复原 .upper() 误伤鼠源基因的 bug）
+        gene_symbol_norm = normalize_gene_casing(gene_symbol, species)
+        original_symbol = gene_symbol
         evidence_level = row.get("evidence_level", "imported").strip()
         source_section = row.get("source_section", "").strip()
         source_context = row.get("source_context", "").strip()
         review_status = row.get("review_status", "approved").strip()
         notes = row.get("notes", "").strip()
 
-        # 匹配 ct_id
-        ct_id = match_ct_id(ws_cell_types, paper_id, cell_type)
-
-        if not ct_id:
-            logger.warning(f"  无法匹配 ct_id: paper={paper_id}, cell_type={cell_type}，跳过")
+        # 幂等检查：paper_id + cell_type + gene_symbol 已存在则跳过
+        dedup_key = (cell_type.lower(), gene_symbol_norm.lower())
+        if dedup_key in existing_keys:
+            skipped_dup += 1
             continue
+
+        # 匹配 ct_id（D4：匹配失败不跳过，ct_id 留空待回填）
+        ct_id = match_ct_id(ws_cell_types, paper_id, cell_type)
+        if not ct_id:
+            ct_unmatched += 1
+            if notes:
+                notes = notes + "; ct_id待回填"
+            else:
+                notes = "ct_id待回填"
 
         # 写入 markers sheet
         new_row_num = ws_markers.max_row + 1
         row_data = {
             "marker_id": next_marker_id,
-            "ct_id": ct_id,
+            "ct_id": ct_id,                   # 可能为 None
             "subtype_id": row.get("subtype", "").strip() or None,
-            "gene_symbol": gene_symbol.upper() if gene_symbol else gene_symbol,
+            "gene_symbol": gene_symbol_norm,  # 按物种大小写
             "original_symbol": original_symbol,
             "evidence_level": evidence_level,
             "source_section": source_section,
             "source_context": source_context,
             "review_status": review_status,
             "notes": notes,
+            # 新增列（D4 解耦 ct_id）
+            "paper_id": paper_id,
+            "cell_type": cell_type,
+            "species": species or "NA",
         }
         for col_name, value in row_data.items():
             col_idx = marker_col_map.get(col_name)
             if col_idx:
                 ws_markers.cell(row=new_row_num, column=col_idx, value=value)
 
+        # 登记新写入的 key，防止同批次 CSV 内重复
+        existing_keys.add(dedup_key)
+
         # 自增 ID
         next_marker_id = f"M{int(next_marker_id[1:]) + 1:05d}"
         imported_count += 1
+
+    if skipped_dup:
+        logger.info(f"  跳过 {skipped_dup} 条重复 marker（paper_id+cell_type+gene 已存在）")
+    if ct_unmatched:
+        logger.warning(f"  ⚠️ {ct_unmatched} 条 ct_id 未匹配（已写入 paper_id+cell_type，待回填）")
 
     # 更新 cell_types 的 mark_status
     update_mark_status(ws_cell_types, paper_id)

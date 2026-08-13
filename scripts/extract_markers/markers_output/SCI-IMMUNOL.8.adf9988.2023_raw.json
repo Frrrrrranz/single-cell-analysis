@@ -1,0 +1,497 @@
+{
+  "paper_id": "SCI-IMMUNOL.8.adf9988.2023",
+  "cell_types": [
+    {
+      "cell_type": "LMPP/ELP",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD34",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "pre-pro-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EBF1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "SPINK2",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "VPREB1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "pro-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DNTT",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "large pre-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL7R",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "MKI67",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "small pre-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL7R",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "SPIB",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "immature B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "IGHD",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "IGHM",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "VPREB3",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "mature B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "IGHD",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        },
+        {
+          "gene": "IGHM",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "including LMPP/ELP (CD34+EBF1-), pre-pro-B (EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature B (MS4A1+IGHDhiIGHMhiVPREB3lo) cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD5+ mature B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD5",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22"
+        },
+        {
+          "gene": "CD27",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22"
+        },
+        {
+          "gene": "SPN",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22"
+        },
+        {
+          "gene": "CCR10",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22"
+        },
+        {
+          "gene": "CCL22",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22"
+        }
+      ]
+    },
+    {
+      "cell_type": "late pro-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NEIL1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "NEIL1+MKI67- late pro-B cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "pro-B/pre-B transition cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "RAG1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "RAG1+MS4A1+ pro-B/pre-B transition cells"
+        },
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "RAG1+MS4A1+ pro-B/pre-B transition cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "late pre-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "MS4A1+ late pre-B cells that expressed the marker for surrogate light chain, IGLL1"
+        },
+        {
+          "gene": "IGLL1",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "MS4A1+ late pre-B cells that expressed the marker for surrogate light chain, IGLL1"
+        }
+      ]
+    },
+    {
+      "cell_type": "IGKC+ small pre-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGKC",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "small pre-B cell clusters, expressing either immunoglobulin kappa (IGKC+) or lambda (IGLC2+IGLC3+) light chain genes"
+        }
+      ]
+    },
+    {
+      "cell_type": "IGLC2+IGLC3+ small pre-B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGLC2",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "small pre-B cell clusters, expressing either immunoglobulin kappa (IGKC+) or lambda (IGLC2+IGLC3+) light chain genes"
+        },
+        {
+          "gene": "IGLC3",
+          "evidence_level": "explicit",
+          "source_section": "B cell developmental niche in human fetal lungs",
+          "source_context": "small pre-B cell clusters, expressing either immunoglobulin kappa (IGKC+) or lambda (IGLC2+IGLC3+) light chain genes"
+        }
+      ]
+    },
+    {
+      "cell_type": "T progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PTCRA",
+          "evidence_level": "explicit",
+          "source_section": "T, NK and innate lymphoid cells in fetal lungs",
+          "source_context": "a very small cluster of T progenitors (PTCRA+RAG1+RAG2+) that are likely contaminants from the thymus"
+        },
+        {
+          "gene": "RAG1",
+          "evidence_level": "explicit",
+          "source_section": "T, NK and innate lymphoid cells in fetal lungs",
+          "source_context": "a very small cluster of T progenitors (PTCRA+RAG1+RAG2+) that are likely contaminants from the thymus"
+        },
+        {
+          "gene": "RAG2",
+          "evidence_level": "explicit",
+          "source_section": "T, NK and innate lymphoid cells in fetal lungs",
+          "source_context": "a very small cluster of T progenitors (PTCRA+RAG1+RAG2+) that are likely contaminants from the thymus"
+        }
+      ]
+    },
+    {
+      "cell_type": "ILCP",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HPN",
+          "evidence_level": "explicit",
+          "source_section": "T, NK and innate lymphoid cells in fetal lungs",
+          "source_context": "A cluster of ILCPs was identified by expression of marker genes (HPN and SCN1B (28))"
+        },
+        {
+          "gene": "SCN1B",
+          "evidence_level": "explicit",
+          "source_section": "T, NK and innate lymphoid cells in fetal lungs",
+          "source_context": "A cluster of ILCPs was identified by expression of marker genes (HPN and SCN1B (28))"
+        }
+      ]
+    },
+    {
+      "cell_type": "myeloid cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "Most myeloid cells, defined by their expression of CD68, were tissue-resident"
+        }
+      ]
+    },
+    {
+      "cell_type": "S100A12hi CD14+ monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A12",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)"
+        },
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "S100A12lo CD14+ monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A12",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)"
+        },
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD16+ monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD16",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "CXCL2+ macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL2",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "followed by maturing macrophage (MΦ) cell types (CXCL2+ macrophages, APOE+ macrophages, macrophages)"
+        }
+      ]
+    },
+    {
+      "cell_type": "APOE+ macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "APOE",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "followed by maturing macrophage (MΦ) cell types (CXCL2+ macrophages, APOE+ macrophages, macrophages)"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD206",
+          "evidence_level": "explicit",
+          "source_section": "Myeloid cells secrete IL-1β in fetal lungs",
+          "source_context": "CD206, the macrophage mannose receptor, as a marker for macrophages"
+        },
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "whilst the fetal MΦ populations expressed markers (CD14+ CD36+ MRC1+) characteristic of postnatal and adult interstitial macrophages"
+        },
+        {
+          "gene": "CD36",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "whilst the fetal MΦ populations expressed markers (CD14+ CD36+ MRC1+) characteristic of postnatal and adult interstitial macrophages"
+        },
+        {
+          "gene": "MRC1",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "whilst the fetal MΦ populations expressed markers (CD14+ CD36+ MRC1+) characteristic of postnatal and adult interstitial macrophages"
+        }
+      ]
+    },
+    {
+      "cell_type": "DC2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD1C",
+          "evidence_level": "explicit",
+          "source_section": "Myeloid cells secrete IL-1β in fetal lungs",
+          "source_context": "utilizing CD1C as a marker for DC2 cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "HSC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SMIM24",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "rare SMIM24+SPINK2+ cells, likely HSCs"
+        },
+        {
+          "gene": "SPINK2",
+          "evidence_level": "explicit",
+          "source_section": "Development of the myeloid compartment in fetal lungs",
+          "source_context": "rare SMIM24+SPINK2+ cells, likely HSCs"
+        }
+      ]
+    }
+  ]
+}

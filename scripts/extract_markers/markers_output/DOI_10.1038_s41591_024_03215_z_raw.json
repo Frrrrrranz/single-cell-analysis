@@ -1,0 +1,121 @@
+{
+  "paper_id": "DOI_10.1038_s41591_024_03215_z",
+  "cell_types": [
+    {
+      "cell_type": "MBC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EPCAM",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "established epithelial BC marker genes: EPCAM, KRT8, KRT18, KRT19 and TRPS1"
+        },
+        {
+          "gene": "KRT8",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "established epithelial BC marker genes: EPCAM, KRT8, KRT18, KRT19 and TRPS1"
+        },
+        {
+          "gene": "KRT18",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "established epithelial BC marker genes: EPCAM, KRT8, KRT18, KRT19 and TRPS1"
+        },
+        {
+          "gene": "KRT19",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "established epithelial BC marker genes: EPCAM, KRT8, KRT18, KRT19 and TRPS1"
+        },
+        {
+          "gene": "TRPS1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "established epithelial BC marker genes: EPCAM, KRT8, KRT18, KRT19 and TRPS1"
+        },
+        {
+          "gene": "ESR1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "disease-relevant BC biomarkers, including ESR1, PGR and ERBB2"
+        },
+        {
+          "gene": "PGR",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "disease-relevant BC biomarkers, including ESR1, PGR and ERBB2"
+        },
+        {
+          "gene": "ERBB2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2g",
+          "source_context": "disease-relevant BC biomarkers, including ESR1, PGR and ERBB2"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLA-DRA",
+          "evidence_level": "implied",
+          "source_section": "Fig.5a",
+          "source_context": "UMAPs of macrophages colored by log-normalized expression of HLA-DRA"
+        },
+        {
+          "gene": "CD163",
+          "evidence_level": "explicit",
+          "source_section": "Results: Spatial profiling of tumor-associated macrophages",
+          "source_context": "CD163, a key macrophage marker"
+        },
+        {
+          "gene": "CD68",
+          "evidence_level": "explicit",
+          "source_section": "Results: Spatial profiling of tumor-associated macrophages",
+          "source_context": "although CD68+ leukocyte density alone was not found to be a prognostic biomarker in primary treatment-naive BC"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCRL5",
+          "evidence_level": "explicit",
+          "source_section": "Methods - De novo cell type annotation of the cell-segmented MERFISH data",
+          "source_context": "the typical B cell marker FCRL5"
+        }
+      ]
+    },
+    {
+      "cell_type": "regulatory B cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXP3",
+          "evidence_level": "explicit",
+          "source_section": "Methods - De novo cell type annotation of the cell-segmented MERFISH data",
+          "source_context": "a small population of potentially regulatory B cells expressing FOXP3 in addition to the typical B cell marker FCRL5"
+        },
+        {
+          "gene": "FCRL5",
+          "evidence_level": "explicit",
+          "source_section": "Methods - De novo cell type annotation of the cell-segmented MERFISH data",
+          "source_context": "a small population of potentially regulatory B cells expressing FOXP3 in addition to the typical B cell marker FCRL5"
+        }
+      ]
+    }
+  ]
+}

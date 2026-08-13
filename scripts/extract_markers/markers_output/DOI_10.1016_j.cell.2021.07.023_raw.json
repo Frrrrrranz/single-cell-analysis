@@ -1,0 +1,1473 @@
+{
+  "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+  "cell_types": [
+    {
+      "cell_type": "basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Among epithelial cell types, we identified basal cells by their expression of TP63, KRT15, and KRT5"
+        },
+        {
+          "gene": "KRT15",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Among epithelial cell types, we identified basal cells by their expression of TP63, KRT15, and KRT5"
+        },
+        {
+          "gene": "KRT5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Among epithelial cell types, we identified basal cells by their expression of TP63, KRT15, and KRT5"
+        },
+        {
+          "gene": "LGR5",
+          "evidence_level": "inferred",
+          "source_section": "Results p.6",
+          "source_context": "When considering only basal, goblet, and secretory cell subtypes, we found LGR5, TP63, EGFR, and KRT5 expression gradually decline across basal and developing secretory and goblet cells"
+        },
+        {
+          "gene": "EGFR",
+          "evidence_level": "inferred",
+          "source_section": "Results p.6",
+          "source_context": "When considering only basal, goblet, and secretory cell subtypes, we found LGR5, TP63, EGFR, and KRT5 expression gradually decline across basal and developing secretory and goblet cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "mitotic basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MKI67",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "mitotic basal cells using genes involved in the cell cycle (MKI67, TOP2A)"
+        },
+        {
+          "gene": "TOP2A",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "mitotic basal cells using genes involved in the cell cycle (MKI67, TOP2A)"
+        }
+      ]
+    },
+    {
+      "cell_type": "secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT7",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "large populations of secretory cells and goblet cells (KRT7, CXCL17, F3, AQP5, CP)"
+        },
+        {
+          "gene": "CXCL17",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "large populations of secretory cells and goblet cells (KRT7, CXCL17, F3, AQP5, CP)"
+        },
+        {
+          "gene": "F3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "large populations of secretory cells and goblet cells (KRT7, CXCL17, F3, AQP5, CP)"
+        },
+        {
+          "gene": "AQP5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "large populations of secretory cells and goblet cells (KRT7, CXCL17, F3, AQP5, CP)"
+        },
+        {
+          "gene": "CP",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "large populations of secretory cells and goblet cells (KRT7, CXCL17, F3, AQP5, CP)"
+        },
+        {
+          "gene": "BPIFA1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "distinguished between goblet and secretory cells based on expression of MUC5AC-expressing goblet, and BPIFA1-expressing secretory cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "distinguished between goblet and secretory cells based on expression of MUC5AC-expressing goblet, and BPIFA1-expressing secretory cells"
+        },
+        {
+          "gene": "KRT7",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6",
+          "source_context": "expression of secretory and goblet cell-specific markers (KRT7, AQP5) progressively increase"
+        },
+        {
+          "gene": "AQP5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6",
+          "source_context": "expression of secretory and goblet cell-specific markers (KRT7, AQP5) progressively increase"
+        }
+      ]
+    },
+    {
+      "cell_type": "ionocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXI1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "resolved a population of ionocytes (FOXI1, FOXI2, CFTR)"
+        },
+        {
+          "gene": "FOXI2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "resolved a population of ionocytes (FOXI1, FOXI2, CFTR)"
+        },
+        {
+          "gene": "CFTR",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "resolved a population of ionocytes (FOXI1, FOXI2, CFTR)"
+        }
+      ]
+    },
+    {
+      "cell_type": "squamous cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCEL",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Squamous cells were identified by expression of SCEL, as well as multiple SPRR genes"
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Ciliated cells (FOXJ1 and a ciliogenesis gene program, e.g., DLEC1, DNAH11, CFAP43)"
+        },
+        {
+          "gene": "DLEC1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Ciliated cells (FOXJ1 and a ciliogenesis gene program, e.g., DLEC1, DNAH11, CFAP43)"
+        },
+        {
+          "gene": "DNAH11",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Ciliated cells (FOXJ1 and a ciliogenesis gene program, e.g., DLEC1, DNAH11, CFAP43)"
+        },
+        {
+          "gene": "CFAP43",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Ciliated cells (FOXJ1 and a ciliogenesis gene program, e.g., DLEC1, DNAH11, CFAP43)"
+        }
+      ]
+    },
+    {
+      "cell_type": "developing ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "'developing ciliated cells,' expressed canonical ciliated cell genes such as FOXJ1, CAPSL, and PIFO"
+        },
+        {
+          "gene": "CAPSL",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "'developing ciliated cells,' expressed canonical ciliated cell genes such as FOXJ1, CAPSL, and PIFO"
+        },
+        {
+          "gene": "PIFO",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "'developing ciliated cells,' expressed canonical ciliated cell genes such as FOXJ1, CAPSL, and PIFO"
+        }
+      ]
+    },
+    {
+      "cell_type": "deuterosomal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DEUP1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "deuterosomal cells (DEUP1, CCNO, CDC20B, FOXN4, HES6)"
+        },
+        {
+          "gene": "CCNO",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "deuterosomal cells (DEUP1, CCNO, CDC20B, FOXN4, HES6)"
+        },
+        {
+          "gene": "CDC20B",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "deuterosomal cells (DEUP1, CCNO, CDC20B, FOXN4, HES6)"
+        },
+        {
+          "gene": "FOXN4",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "deuterosomal cells (DEUP1, CCNO, CDC20B, FOXN4, HES6)"
+        },
+        {
+          "gene": "HES6",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "deuterosomal cells (DEUP1, CCNO, CDC20B, FOXN4, HES6)"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD3E",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Among lymphoid cells, we recovered T cells (CD3E, CD2, TRBC2)"
+        },
+        {
+          "gene": "CD2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Among lymphoid cells, we recovered T cells (CD3E, CD2, TRBC2)"
+        },
+        {
+          "gene": "TRBC2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "Among lymphoid cells, we recovered T cells (CD3E, CD2, TRBC2)"
+        },
+        {
+          "gene": "CD69",
+          "evidence_level": "implied",
+          "source_section": "Methods p.29",
+          "source_context": "T cells are largely CD69 and CD8A positive, with significantly-enriched expression of ITGAE, ITGB7 and CD44"
+        },
+        {
+          "gene": "CD8A",
+          "evidence_level": "implied",
+          "source_section": "Methods p.29",
+          "source_context": "T cells are largely CD69 and CD8A positive, with significantly-enriched expression of ITGAE, ITGB7 and CD44"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "B cells (MS4A1, CD79A, CD79B)"
+        },
+        {
+          "gene": "CD79A",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "B cells (MS4A1, CD79A, CD79B)"
+        },
+        {
+          "gene": "CD79B",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "B cells (MS4A1, CD79A, CD79B)"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "a large population of macrophages (CD14, FCGR3A, VCAN)"
+        },
+        {
+          "gene": "FCGR3A",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "a large population of macrophages (CD14, FCGR3A, VCAN)"
+        },
+        {
+          "gene": "VCAN",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "a large population of macrophages (CD14, FCGR3A, VCAN)"
+        }
+      ]
+    },
+    {
+      "cell_type": "dendritic cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR7",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "dendritic cells (CCR7, CD86)"
+        },
+        {
+          "gene": "CD86",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "dendritic cells (CCR7, CD86)"
+        }
+      ]
+    },
+    {
+      "cell_type": "plasmacytoid DCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IRF7",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "plasmacytoid DCs (IRF7, IL3RA)"
+        },
+        {
+          "gene": "IL3RA",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "plasmacytoid DCs (IRF7, IL3RA)"
+        }
+      ]
+    },
+    {
+      "cell_type": "mast cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GATA2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "mast cells (GATA2, TPSB2, PTGS2)"
+        },
+        {
+          "gene": "TPSB2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "mast cells (GATA2, TPSB2, PTGS2)"
+        },
+        {
+          "gene": "PTGS2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.4",
+          "source_context": "mast cells (GATA2, TPSB2, PTGS2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "SERPINB11high secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SERPINB11",
+          "evidence_level": "implied",
+          "source_section": "Results p.6",
+          "source_context": "significant expansion of SERPINB11high secretory cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "BPIFA1high secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BPIFA1",
+          "evidence_level": "implied",
+          "source_section": "Results p.6",
+          "source_context": "significant expansion of ... BPIFA1high secretory cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "KRT24highKRT13high secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT24",
+          "evidence_level": "implied",
+          "source_section": "Results p.6",
+          "source_context": "significant expansion of ... KRT24highKRT13high secretory cells"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_level": "implied",
+          "source_section": "Results p.6",
+          "source_context": "significant expansion of ... KRT24highKRT13high secretory cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "FOXJ1high ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "implied",
+          "source_section": "Results p.8",
+          "source_context": "The velocity pseudotime predicts progression from developing ciliated cells to FOXJ1high ciliated cells, to BEST4high ciliahigh ciliated cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "BEST4high ciliahigh ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BEST4",
+          "evidence_level": "implied",
+          "source_section": "Results p.8",
+          "source_context": "The velocity pseudotime predicts progression from developing ciliated cells to FOXJ1high ciliated cells, to BEST4high ciliahigh ciliated cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "early-response FOXJ1high ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "implied",
+          "source_section": "Results p.8",
+          "source_context": "IFN-responsive ciliated cells and early response FOXJ1high ciliated cells represent phenotypic deviations"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC5AChigh goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "implied",
+          "source_section": "Results p.10",
+          "source_context": "MUC5AChigh goblet cells, early-response FOXJ1high ciliated cells, FOXJ1high ciliated cells, MUC5AChigh goblet cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "AZGP1high goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AZGP1",
+          "evidence_level": "implied",
+          "source_section": "Results p.10",
+          "source_context": "AZGP1high goblet cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "ITGAXhigh macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ITGAX",
+          "evidence_level": "implied",
+          "source_section": "Results p.8",
+          "source_context": "ITGAXhigh macrophages, FFAR4high macrophages, inflammatory macrophages, and IFN-responsive macrophages"
+        }
+      ]
+    },
+    {
+      "cell_type": "FFAR4high macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FFAR4",
+          "evidence_level": "implied",
+          "source_section": "Results p.8",
+          "source_context": "ITGAXhigh macrophages, FFAR4high macrophages, inflammatory macrophages, and IFN-responsive macrophages"
+        }
+      ]
+    },
+    {
+      "cell_type": "CCL5high squamous cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCL5",
+          "evidence_level": "implied",
+          "source_section": "Fig.5",
+          "source_context": "MUC5AChigh goblet cells, AZGP1high goblet cells, BPIFA1high secretory cells, KRT24highKRT13high secretory cells, CCL5high squamous cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Basal cells represent the main stem/progenitor cells of the nasal epithelium, and are classically defined by TP63, KRT5, and KRT15 expression"
+        },
+        {
+          "gene": "KRT5",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Basal cells represent the main stem/progenitor cells of the nasal epithelium, and are classically defined by TP63, KRT5, and KRT15 expression"
+        },
+        {
+          "gene": "KRT15",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Basal cells represent the main stem/progenitor cells of the nasal epithelium, and are classically defined by TP63, KRT5, and KRT15 expression"
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Goblet cells generate the contents of mucus via secretion of mucin proteins (e.g., MUC5AC, MUC5B)"
+        },
+        {
+          "gene": "MUC5B",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Goblet cells generate the contents of mucus via secretion of mucin proteins (e.g., MUC5AC, MUC5B)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "BPIFA1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Secretory cells are a distinct exocrine cell of the nasal epithelium, and are distinguished from goblet cells by the absence of mucin production and preferential expression of antimicrobial molecules (e.g., BPIFA1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Deuterosomal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "DEUP1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Deuterosomes are cellular structures that produce the numerous centrioles required to nucleate multi-ciliated structures on ciliated cells; the genes to produce deuterosomes are upregulated within deuterosomal cells, such as DEUP1 and CCNO"
+        },
+        {
+          "gene": "CCNO",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Deuterosomes are cellular structures that produce the numerous centrioles required to nucleate multi-ciliated structures on ciliated cells; the genes to produce deuterosomes are upregulated within deuterosomal cells, such as DEUP1 and CCNO"
+        }
+      ]
+    },
+    {
+      "cell_type": "Developing secretory and goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "COL7A1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "We designated a small population of cells 'developing secretory and goblet cells' based on their lower expression of classic secretory/goblet cell genes, as well as persistent expression of some basal cell markers (e.g., persistent COL7A1 and DST expression, but diminishing KRT5, KRT15 expression)"
+        },
+        {
+          "gene": "DST",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "We designated a small population of cells 'developing secretory and goblet cells' based on their lower expression of classic secretory/goblet cell genes, as well as persistent expression of some basal cell markers (e.g., persistent COL7A1 and DST expression, but diminishing KRT5, KRT15 expression)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ionocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CFTR",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "A specialized subtype of secretory/club cell, ionocytes, were recently discovered in lung tissue, and regulate mucus viscosity and are the major expressors of CFTR"
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet cells",
+      "subtype": "SCGB1A1high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "SCGB1A1high goblet cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet cells",
+      "subtype": "AZGP1high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "AZGP1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "AZGP1high goblet cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet cells",
+      "subtype": "AZGP1highSCGB3A1highLTFhigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "AZGP1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "AZGP1highSCGB3A1highLTFhigh goblet cells"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "AZGP1highSCGB3A1highLTFhigh goblet cells"
+        },
+        {
+          "gene": "LTF",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "AZGP1highSCGB3A1highLTFhigh goblet cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory cells",
+      "subtype": "SERPINB11high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "SERPINB11",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "Secretory cells were divided into 6 distinct detailed subtypes: SERPINB11high secretory cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory cells",
+      "subtype": "BPIFA1high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "BPIFA1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "BPIFA1high secretory cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory cells",
+      "subtype": "early response",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "JUN",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "early response secretory cells (which expressed genes such as JUN, EGR1, FOS, NR4A1)"
+        },
+        {
+          "gene": "EGR1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "early response secretory cells (which expressed genes such as JUN, EGR1, FOS, NR4A1)"
+        },
+        {
+          "gene": "FOS",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "early response secretory cells (which expressed genes such as JUN, EGR1, FOS, NR4A1)"
+        },
+        {
+          "gene": "NR4A1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "early response secretory cells (which expressed genes such as JUN, EGR1, FOS, NR4A1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory cells",
+      "subtype": "KRT24highKRT13high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "KRT24",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "KRT24highKRT13high secretory cells"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "KRT24highKRT13high secretory cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory cells",
+      "subtype": "BPIFA1highchemokinehigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "BPIFA1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "BPIFA1high chemokinehigh secretory cells (chemokines include CXCL8, CXCL2, CXCL1, and CXCL3)"
+        },
+        {
+          "gene": "CXCL8",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "BPIFA1high chemokinehigh secretory cells (chemokines include CXCL8, CXCL2, CXCL1, and CXCL3)"
+        },
+        {
+          "gene": "CXCL2",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "BPIFA1high chemokinehigh secretory cells (chemokines include CXCL8, CXCL2, CXCL1, and CXCL3)"
+        },
+        {
+          "gene": "CXCL1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "BPIFA1high chemokinehigh secretory cells (chemokines include CXCL8, CXCL2, CXCL1, and CXCL3)"
+        },
+        {
+          "gene": "CXCL3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "BPIFA1high chemokinehigh secretory cells (chemokines include CXCL8, CXCL2, CXCL1, and CXCL3)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory cells",
+      "subtype": "interferon responsive",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "IFITM3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "interferon responsive secretory cells (defined by higher expression of broad anti-viral genes including IFITM3, IFI6, and MX1)"
+        },
+        {
+          "gene": "IFI6",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "interferon responsive secretory cells (defined by higher expression of broad anti-viral genes including IFITM3, IFI6, and MX1)"
+        },
+        {
+          "gene": "MX1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28-29",
+          "source_context": "interferon responsive secretory cells (defined by higher expression of broad anti-viral genes including IFITM3, IFI6, and MX1)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ciliated cells",
+      "subtype": "interferon responsive",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "IFIT1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "interferon responsive ciliated cells (expressing anti-viral genes similar to other 'interferon responsive' subsets, such as IFIT1, IFIT3, IFI6)"
+        },
+        {
+          "gene": "IFIT3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "interferon responsive ciliated cells (expressing anti-viral genes similar to other 'interferon responsive' subsets, such as IFIT1, IFIT3, IFI6)"
+        },
+        {
+          "gene": "IFI6",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "interferon responsive ciliated cells (expressing anti-viral genes similar to other 'interferon responsive' subsets, such as IFIT1, IFIT3, IFI6)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ciliated cells",
+      "subtype": "FOXJ1high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "FOXJ1high ciliated cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ciliated cells",
+      "subtype": "early response FOXJ1high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "early response FOXJ1high ciliated cells (which, in addition to high FOXJ1, also express higher abundances of genes such as JUN, EGR1, FOS)"
+        },
+        {
+          "gene": "JUN",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "early response FOXJ1high ciliated cells (which, in addition to high FOXJ1, also express higher abundances of genes such as JUN, EGR1, FOS)"
+        },
+        {
+          "gene": "EGR1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "early response FOXJ1high ciliated cells (which, in addition to high FOXJ1, also express higher abundances of genes such as JUN, EGR1, FOS)"
+        },
+        {
+          "gene": "FOS",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "early response FOXJ1high ciliated cells (which, in addition to high FOXJ1, also express higher abundances of genes such as JUN, EGR1, FOS)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ciliated cells",
+      "subtype": "ciliahigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "DLEC1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "ciliahigh ciliated cells (which broadly express the highest abundances of structural cilia genes, such as DLEC1 and CFAP100)"
+        },
+        {
+          "gene": "CFAP100",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "ciliahigh ciliated cells (which broadly express the highest abundances of structural cilia genes, such as DLEC1 and CFAP100)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ciliated cells",
+      "subtype": "BEST4highciliahigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "BEST4",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "BEST4high ciliahigh ciliated cells (in addition to cilia components, also express the ion channel BEST4)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Squamous cells",
+      "subtype": "CCL5high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CCL5",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Subsets of squamous cells were also found – detailed squamous cell subtypes include CCL5high squamous cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Squamous cells",
+      "subtype": "VEGFAhigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "VEGFA",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "VEGFAhigh squamous cells (which express multiple vascular endothelial genes including VEGFA and VWF)"
+        },
+        {
+          "gene": "VWF",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "VEGFAhigh squamous cells (which express multiple vascular endothelial genes including VEGFA and VWF)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Squamous cells",
+      "subtype": "SPRR2Dhigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "SPRR2D",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "SPRR2Dhigh squamous cells (which, in addition to SPRR2D, express the highest abundances of multiple SPRR- genes including SPRR2A, SPRR1B, SPRR2E, and SPRR3)"
+        },
+        {
+          "gene": "SPRR2A",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "SPRR2Dhigh squamous cells (which, in addition to SPRR2D, express the highest abundances of multiple SPRR- genes including SPRR2A, SPRR1B, SPRR2E, and SPRR3)"
+        },
+        {
+          "gene": "SPRR1B",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "SPRR2Dhigh squamous cells (which, in addition to SPRR2D, express the highest abundances of multiple SPRR- genes including SPRR2A, SPRR1B, SPRR2E, and SPRR3)"
+        },
+        {
+          "gene": "SPRR2E",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "SPRR2Dhigh squamous cells (which, in addition to SPRR2D, express the highest abundances of multiple SPRR- genes including SPRR2A, SPRR1B, SPRR2E, and SPRR3)"
+        },
+        {
+          "gene": "SPRR3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "SPRR2Dhigh squamous cells (which, in addition to SPRR2D, express the highest abundances of multiple SPRR- genes including SPRR2A, SPRR1B, SPRR2E, and SPRR3)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Squamous cells",
+      "subtype": "HOPXhigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "HOPX",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "HOPXhigh squamous cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Enteroendocrine cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "GIP",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "We also recovered a very small population of cells we term 'enteroendocrine cells,' based on unique expression of gastric inhibitory polypeptide (GIP)"
+        },
+        {
+          "gene": "LGR5",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and LGR5, which classically marks stem cell populations"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "FFAR4high",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "FFAR4",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "FFAR4high macrophages are defined by expression of FFAR4, MRC1, CHIT1, and SIGLEC11"
+        },
+        {
+          "gene": "MRC1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "FFAR4high macrophages are defined by expression of FFAR4, MRC1, CHIT1, and SIGLEC11"
+        },
+        {
+          "gene": "CHIT1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "FFAR4high macrophages are defined by expression of FFAR4, MRC1, CHIT1, and SIGLEC11"
+        },
+        {
+          "gene": "SIGLEC11",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "FFAR4high macrophages are defined by expression of FFAR4, MRC1, CHIT1, and SIGLEC11"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "interferon responsive",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "IFIT3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Interferon responsive macrophages are distinguished by elevated expression of anti-viral genes such as IFIT3, IFIT2, ISG15, and MX1, along with CXCL9, CXCL10, CXCL11"
+        },
+        {
+          "gene": "IFIT2",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Interferon responsive macrophages are distinguished by elevated expression of anti-viral genes such as IFIT3, IFIT2, ISG15, and MX1, along with CXCL9, CXCL10, CXCL11"
+        },
+        {
+          "gene": "ISG15",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Interferon responsive macrophages are distinguished by elevated expression of anti-viral genes such as IFIT3, IFIT2, ISG15, and MX1, along with CXCL9, CXCL10, CXCL11"
+        },
+        {
+          "gene": "MX1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Interferon responsive macrophages are distinguished by elevated expression of anti-viral genes such as IFIT3, IFIT2, ISG15, and MX1, along with CXCL9, CXCL10, CXCL11"
+        },
+        {
+          "gene": "CXCL9",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Interferon responsive macrophages are distinguished by elevated expression of anti-viral genes such as IFIT3, IFIT2, ISG15, and MX1, along with CXCL9, CXCL10, CXCL11"
+        },
+        {
+          "gene": "CXCL10",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Interferon responsive macrophages are distinguished by elevated expression of anti-viral genes such as IFIT3, IFIT2, ISG15, and MX1, along with CXCL9, CXCL10, CXCL11"
+        },
+        {
+          "gene": "CXCL11",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Interferon responsive macrophages are distinguished by elevated expression of anti-viral genes such as IFIT3, IFIT2, ISG15, and MX1, along with CXCL9, CXCL10, CXCL11"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "MSR1highC1QBhigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "MSR1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "C1QB",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "CTSD",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "CTSL",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "CTSB",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "C1QA",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "C1QC",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "APOE",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "APOC",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        },
+        {
+          "gene": "NPC2",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "MSR1highC1QBhigh macrophages are defined by cathepsin expression (CTSD, CTSL, CTSB) and elevated expression of complement (C1QB, C1QA, C1QC), and lipid binding proteins (APOE, APOC, and NPC2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "inflammatory",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "CCL3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "inflammatory macrophages, which uniquely express inflammatory cytokines such as CCL3, CCL3L1, IL1B, CXCL2, and CXCL3"
+        },
+        {
+          "gene": "CCL3L1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "inflammatory macrophages, which uniquely express inflammatory cytokines such as CCL3, CCL3L1, IL1B, CXCL2, and CXCL3"
+        },
+        {
+          "gene": "IL1B",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "inflammatory macrophages, which uniquely express inflammatory cytokines such as CCL3, CCL3L1, IL1B, CXCL2, and CXCL3"
+        },
+        {
+          "gene": "CXCL2",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "inflammatory macrophages, which uniquely express inflammatory cytokines such as CCL3, CCL3L1, IL1B, CXCL2, and CXCL3"
+        },
+        {
+          "gene": "CXCL3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "inflammatory macrophages, which uniquely express inflammatory cytokines such as CCL3, CCL3L1, IL1B, CXCL2, and CXCL3"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "ITGAXhigh",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "ITGAX",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "The remaining 'ITGAXhigh' macrophages are distinguished from other immune cell types by ITGAX, VCAN, PSAP, FTL, FTH1 and CD163"
+        },
+        {
+          "gene": "VCAN",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "The remaining 'ITGAXhigh' macrophages are distinguished from other immune cell types by ITGAX, VCAN, PSAP, FTL, FTH1 and CD163"
+        },
+        {
+          "gene": "PSAP",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "The remaining 'ITGAXhigh' macrophages are distinguished from other immune cell types by ITGAX, VCAN, PSAP, FTL, FTH1 and CD163"
+        },
+        {
+          "gene": "FTL",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "The remaining 'ITGAXhigh' macrophages are distinguished from other immune cell types by ITGAX, VCAN, PSAP, FTL, FTH1 and CD163"
+        },
+        {
+          "gene": "FTH1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "The remaining 'ITGAXhigh' macrophages are distinguished from other immune cell types by ITGAX, VCAN, PSAP, FTL, FTH1 and CD163"
+        },
+        {
+          "gene": "CD163",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "The remaining 'ITGAXhigh' macrophages are distinguished from other immune cell types by ITGAX, VCAN, PSAP, FTL, FTH1 and CD163"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8 T cells",
+      "subtype": "early response",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "FOSB",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Two specialized subtypes of CD8 T cells are annotated from this dataset: one defined by exceptionally high expression of early response genes (FOSB, NR4A2, and CCL5)"
+        },
+        {
+          "gene": "NR4A2",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Two specialized subtypes of CD8 T cells are annotated from this dataset: one defined by exceptionally high expression of early response genes (FOSB, NR4A2, and CCL5)"
+        },
+        {
+          "gene": "CCL5",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "Two specialized subtypes of CD8 T cells are annotated from this dataset: one defined by exceptionally high expression of early response genes (FOSB, NR4A2, and CCL5)"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8 T cells",
+      "subtype": "interferon responsive cytotoxic",
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "GZMB",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "GZMA",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "GNLY",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "PRF1",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "GZMH",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "ISG20",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "IFIT3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "APOBEC3C",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "GBP5",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "LAG3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "IL2RB",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "IKZF3",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        },
+        {
+          "gene": "TBX21",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.29",
+          "source_context": "and the other termed 'interferon responsive cytotoxic CD8 T cells,' defined by granzyme and perforin expression (GZMB, GZMA, GNLY, PRF1, GZMH), anti-viral genes (ISG20, IFIT3, APOBEC3C, GBP5) and genes associated with effector CD8 T cell function (LAG3, IL2RB, IKZF3, TBX21)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Erythroblast-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": false,
+      "markers": [
+        {
+          "gene": "HBB",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Among two samples, we recovered erythroblast-like cells, defined by expression of hemoglobin subunits including HBB and HBA2"
+        },
+        {
+          "gene": "HBA2",
+          "evidence_level": "explicit",
+          "source_section": "Methods p.28",
+          "source_context": "Among two samples, we recovered erythroblast-like cells, defined by expression of hemoglobin subunits including HBB and HBA2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "paper_id": "DOI_10.1038_s42255_023_00876_x",
+  "cell_types": [
+    {
+      "cell_type": "Schwann",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Cryab",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Plp1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Sox10",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        }
+      ]
+    },
+    {
+      "cell_type": "α",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ttr",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ttr, Gcg, Irx2 and Slc7a2 for α-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Gcg",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ttr, Gcg, Irx2 and Slc7a2 for α-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Irx2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ttr, Gcg, Irx2 and Slc7a2 for α-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Slc7a2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ttr, Gcg, Irx2 and Slc7a2 for α-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Wnk3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Wnk3 and Nxph1 for α-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Nxph1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Wnk3 and Nxph1 for α-cells; Fig. 3a)."
+        }
+      ]
+    },
+    {
+      "cell_type": "β",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ins1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Ins2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells; Fig. 3a)."
+        },
+        {
+          "gene": "G6pc2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Iapp",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Cytip",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Cytip and Spock2 for β-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Spock2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Cytip and Spock2 for β-cells; Fig. 3a)."
+        }
+      ]
+    },
+    {
+      "cell_type": "δ",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sst",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Sst and Rbp4 for δ-cell; Fig. 3a)."
+        },
+        {
+          "gene": "Rbp4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Sst and Rbp4 for δ-cell; Fig. 3a)."
+        },
+        {
+          "gene": "Slc2a3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Slc2a3, Nrsn1 and Spock3 for δ-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Nrsn1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Slc2a3, Nrsn1 and Spock3 for δ-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Spock3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Slc2a3, Nrsn1 and Spock3 for δ-cells; Fig. 3a)."
+        }
+      ]
+    },
+    {
+      "cell_type": "γ",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ppy",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ppy for γ-cells; Fig. 3a)."
+        },
+        {
+          "gene": "Vsig1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Furthermore, we detected several new cell-type-specific genes at different developmental stages (for example, Vsig1 for γ-cells; Fig. 3a)."
+        }
+      ]
+    },
+    {
+      "cell_type": "ε",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ghrl",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs for ε-cells) and in other publications (Ghrl and Irs4 for ε-cells)."
+        },
+        {
+          "gene": "Irs4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3a",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs for ε-cells) and in other publications (Ghrl and Irs4 for ε-cells)."
+        }
+      ]
+    },
+    {
+      "cell_type": "E endo.",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "E non-endo.",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Endo. prolif.",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Acinar",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Ductal",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Endothelial",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Immune",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Stellate a.",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Stellate q.",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "β-cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ucn3",
+          "evidence_level": "explicit",
+          "source_section": "Page 12 (Results)",
+          "source_context": "we validated that islets contain expected healthy and dysfunctional β-cell states by profiling the protein expression of insulin, an established maturation marker Ucn3 (ref. 9) and a dedifferentiation marker Aldh1a3 (refs. 113,114) (Fig. 6d,e and Supplementary Note 10)."
+        },
+        {
+          "gene": "Aldh1a3",
+          "evidence_level": "explicit",
+          "source_section": "Page 12 (Results)",
+          "source_context": "we validated that islets contain expected healthy and dysfunctional β-cell states by profiling the protein expression of insulin, an established maturation marker Ucn3 (ref. 9) and a dedifferentiation marker Aldh1a3 (refs. 113,114) (Fig. 6d,e and Supplementary Note 10)."
+        },
+        {
+          "gene": "Nucb2",
+          "evidence_level": "explicit",
+          "source_section": "Page 12 (Results)",
+          "source_context": "We next profiled three new markers of the T2D model: Nucb2, which is involved in insulin secretion115,116 and whose mutations were reported to be associated with diabetes risk117, Fkbp11, an ER-located chaperone previously reported to be upregulated in certain mouse T2D models118,119 and Mt3, which was reported to be associated with β-cell death120."
+        },
+        {
+          "gene": "Fkbp11",
+          "evidence_level": "explicit",
+          "source_section": "Page 12 (Results)",
+          "source_context": "We next profiled three new markers of the T2D model: Nucb2, which is involved in insulin secretion115,116 and whose mutations were reported to be associated with diabetes risk117, Fkbp11, an ER-located chaperone previously reported to be upregulated in certain mouse T2D models118,119 and Mt3, which was reported to be associated with β-cell death120."
+        },
+        {
+          "gene": "Mt3",
+          "evidence_level": "explicit",
+          "source_section": "Page 12 (Results)",
+          "source_context": "We next profiled three new markers of the T2D model: Nucb2, which is involved in insulin secretion115,116 and whose mutations were reported to be associated with diabetes risk117, Fkbp11, an ER-located chaperone previously reported to be upregulated in certain mouse T2D models118,119 and Mt3, which was reported to be associated with β-cell death120."
+        },
+        {
+          "gene": "Ins1",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Ins2",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Pdx1",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Nkx6-1",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Mafa",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Slc2a2",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Chga",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Chgb",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        },
+        {
+          "gene": "Iapp",
+          "evidence_level": "implied",
+          "source_section": "Fig.5b",
+          "source_context": "Expression of known markers (marker groups are specified on the top of the plot), quality control metrics and sex ratios across coarse β-cell states displayed in separate dot-plot panels."
+        }
+      ]
+    },
+    {
+      "cell_type": "α-cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Gcg",
+          "evidence_level": "explicit",
+          "source_section": "Page 10 (Results)",
+          "source_context": "Upregulated genes were enriched for ER stress, whereas downregulated genes were enriched for gene sets related to membrane depolarization and ion transport (Supplementary Table 9) and contained hormone genes (Gcg in α-cells, Ppy in γ-cells and Sst in δ-cells) (Supplementary Table 9)."
+        },
+        {
+          "gene": "Ttr",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 3c",
+          "source_context": "Arrows indicate Ttr and Gcg double-positive α-cells (left)"
+        }
+      ]
+    },
+    {
+      "cell_type": "γ-cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ppy",
+          "evidence_level": "explicit",
+          "source_section": "Page 10 (Results)",
+          "source_context": "Upregulated genes were enriched for ER stress, whereas downregulated genes were enriched for gene sets related to membrane depolarization and ion transport (Supplementary Table 9) and contained hormone genes (Gcg in α-cells, Ppy in γ-cells and Sst in δ-cells) (Supplementary Table 9)."
+        }
+      ]
+    },
+    {
+      "cell_type": "δ-cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sst",
+          "evidence_level": "explicit",
+          "source_section": "Page 10 (Results)",
+          "source_context": "Upregulated genes were enriched for ER stress, whereas downregulated genes were enriched for gene sets related to membrane depolarization and ion transport (Supplementary Table 9) and contained hormone genes (Gcg in α-cells, Ppy in γ-cells and Sst in δ-cells) (Supplementary Table 9)."
+        },
+        {
+          "gene": "Rbp4",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 3c",
+          "source_context": "Arrows indicate ... Rbp4 and Sst double-positive δ-cells (right)"
+        }
+      ]
+    },
+    {
+      "cell_type": "acinar",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cpa1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Prss2",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        }
+      ]
+    },
+    {
+      "cell_type": "ductal",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Krt19",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Muc1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Sox9",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Plvap",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        }
+      ]
+    },
+    {
+      "cell_type": "immune",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd52",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Lyz2",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Ptprc",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        }
+      ]
+    },
+    {
+      "cell_type": "stellate-activated",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Col1a2",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Bicc1",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Pdgfra",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        }
+      ]
+    },
+    {
+      "cell_type": "stellate-quiescent",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ndufa4l2",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Acta2",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Cspg4",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        },
+        {
+          "gene": "Rgs5",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Dataset-wise cell annotation",
+          "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg ; β: Ins1, Ins2; δ: Sst; ductal: Krt19 , Muc1, Sox9; endothelial: Pecam1, Plvap; ε: Ghrl; γ: Ppy; immune: Cd52, Lyz2 , Ptprc; stellate-activated: Col1a2, Bicc1, Pdgfra; stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "stellate activated",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "endocrine progenitor/precursor",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Fev",
+          "evidence_level": "explicit",
+          "source_section": "Extended Data Fig. 3e",
+          "source_context": "Expression of embryonic Fev+ EP markers from Bastidas-Ponce et al. (2019) across endocrine cell groups."
+        }
+      ]
+    }
+  ]
+}

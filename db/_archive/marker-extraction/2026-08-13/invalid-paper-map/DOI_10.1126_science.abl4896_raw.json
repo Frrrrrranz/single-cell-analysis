@@ -1,0 +1,277 @@
+{
+  "paper_id": "DOI_10.1126_science.abl4896",
+  "cell_types": [
+    {
+      "cell_type": "B cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd79a",
+          "evidence_level": "explicit",
+          "source_section": "Page 4; Figure 2j; Supplementary Table 6",
+          "source_context": "This is supported by upregulation of B/plasma cell markers (Cd79a, Igj; Figure 2j; Supplementary Table 6) and downregulation of Cd3d."
+        }
+      ]
+    },
+    {
+      "cell_type": "Plasma cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Igj",
+          "evidence_level": "explicit",
+          "source_section": "Page 4; Figure 2j; Supplementary Table 6",
+          "source_context": "This is supported by upregulation of B/plasma cell markers (Cd79a, Igj; Figure 2j; Supplementary Table 6) and downregulation of Cd3d."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd3d",
+          "evidence_level": "implied",
+          "source_section": "Page 4; Figure 2j; Supplementary Table 6",
+          "source_context": "This is supported by upregulation of B/plasma cell markers (Cd79a, Igj; Figure 2j; Supplementary Table 6) and downregulation of Cd3d."
+        }
+      ]
+    },
+    {
+      "cell_type": "Hepatocytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Alb",
+          "evidence_level": "implied",
+          "source_section": "Page 4; Extended Data Figure 6e; Supplementary Table 6",
+          "source_context": "The liver also displays changing tissue compositions with age, as the relative number of hepatocytes decreases with age (Extended Data Figure 6a-d), which is supported by the reduction in the expression of albumin (Alb; Extended Data Figure 6e; Supplementary Table 6)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Kupffer cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Clec4f",
+          "evidence_level": "explicit",
+          "source_section": "Page 4; Extended Data Figure 6g",
+          "source_context": "We stained liver Kupffer cells (Extended Data Figure 6g) with Clec4f and found the number of Clec4f+ cells does not change with age"
+        },
+        {
+          "gene": "Il1b",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Figure 6f",
+          "source_context": "Gene expression of Il1b and Clec4f (f) ... in the liver droplet dataset for the six ages. Staining of Kupffer cells across age (g)"
+        }
+      ]
+    },
+    {
+      "cell_type": "LSEC",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1",
+          "evidence_level": "explicit",
+          "source_section": "Page 4; Supplementary Table 7; Extended Data Figure 6l",
+          "source_context": "By performing in situ RNA staining for Mrc1 alongside classical LSEC marker Pecam1 (Supplementary Table 7; Extended Data Figure 6l), we found that the number of Mrc1 expressing LSECs increased with age."
+        },
+        {
+          "gene": "Mrc1",
+          "evidence_level": "implied",
+          "source_section": "Page 4; Supplementary Table 7; Extended Data Figure 6l",
+          "source_context": "LSECs play a unique role, being the main carriers of the mannose receptor (Mrc1) in the liver ... By performing in situ RNA staining for Mrc1 alongside classical LSEC marker Pecam1"
+        }
+      ]
+    },
+    {
+      "cell_type": "loop of Henle thick ascending limb epithelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Umod",
+          "evidence_level": "implied",
+          "source_section": "Page 3",
+          "source_context": "uromodulin (Umod), the most abundant protein in urine, is also reduced in expression across the tissue. Umod is produced by the epithelial cells that line the thick ascending limb"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "M2",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Il10",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "H2-Eb1",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "H2-Ab1",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "H2-Aa",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "Cd74",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "C1qa",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "Cxcl16",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "Hexb",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "Cd81",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "C1qb",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        },
+        {
+          "gene": "Cd72",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 10 is enriched for an M2-macrophage gene signature (e.g. Il10, H2-Eb1, H2-Ab1, H2-Aa, Cd74, C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": "M1",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Hp",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 13 resembles a M1-proinflammatory macrophage state (e.g. Hp, Itgal, Spex1, Gngt2)"
+        },
+        {
+          "gene": "Itgal",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 13 resembles a M1-proinflammatory macrophage state (e.g. Hp, Itgal, Spex1, Gngt2)"
+        },
+        {
+          "gene": "Spex1",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 13 resembles a M1-proinflammatory macrophage state (e.g. Hp, Itgal, Spex1, Gngt2)"
+        },
+        {
+          "gene": "Gngt2",
+          "evidence_level": "implied",
+          "source_section": "Page 6; Extended Data Figure 11f",
+          "source_context": "Differential gene expression revealed that cluster 13 resembles a M1-proinflammatory macrophage state (e.g. Hp, Itgal, Spex1, Gngt2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "liver",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1",
+          "evidence_level": "implied",
+          "source_section": "Extended Data Figure 6k",
+          "source_context": "Gene expression of Pecam1 and Mrc1 (k) in the liver droplet dataset for the six ages. Staining of liver endothelial cells across ages (l)"
+        }
+      ]
+    },
+    {
+      "cell_type": "hepatocytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "brain myeloid microglia cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "kidney macrophage",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "mammary gland T cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "marrow precursor B cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "skin keratinocyte stem cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": []
+    }
+  ]
+}

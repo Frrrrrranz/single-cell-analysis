@@ -1,0 +1,976 @@
+{
+  "paper_id": "DOI_10.1084_jem.20191130",
+  "cell_types": [
+    {
+      "cell_type": "adipogenic progenitor cells (APC)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRα",
+          "evidence_level": "explicit",
+          "source_section": "Introduction",
+          "source_context": "Lineage-tracing and cell-sorting studies have demonstrated that hyperplastic adipose expansion relies on differentiation of APCs in the SVF6,7, broadly marked by expression of PDGFRα8-10."
+        }
+      ]
+    },
+    {
+      "cell_type": "mature adipocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1D",
+          "source_context": "cell populations with significant expression of adiponectin (ADIPOQ) are annotated as mature adipocytes"
+        },
+        {
+          "gene": "PPARG",
+          "evidence_level": "explicit",
+          "source_section": "Results, Identification of two subpopulations of mature adipocytes",
+          "source_context": "based on robust expression of multiple adipocyte markers, including ADIPOQ, PPARG, PLIN, and LEP"
+        },
+        {
+          "gene": "PLIN",
+          "evidence_level": "explicit",
+          "source_section": "Results, Identification of two subpopulations of mature adipocytes",
+          "source_context": "based on robust expression of multiple adipocyte markers, including ADIPOQ, PPARG, PLIN, and LEP"
+        },
+        {
+          "gene": "LEP",
+          "evidence_level": "explicit",
+          "source_section": "Results, Identification of two subpopulations of mature adipocytes",
+          "source_context": "based on robust expression of multiple adipocyte markers, including ADIPOQ, PPARG, PLIN, and LEP"
+        },
+        {
+          "gene": "PLIN1",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2Q",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "PLIN4",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2Q",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        }
+      ]
+    },
+    {
+      "cell_type": "adipogenic progenitor cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 1D",
+          "source_context": "whereas those with robust PDGFRA expression are annotated as adipogenic progenitor cells (APC)"
+        }
+      ]
+    },
+    {
+      "cell_type": "NeuroCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "NA",
+      "markers": [
+        {
+          "gene": "CNTNAP",
+          "evidence_level": "explicit",
+          "source_section": "Results, Cell type identification",
+          "source_context": "one with neuronal ontology was enriched for multiple members of the contactin-associated protein-like family (CNTNAP), thus termed neuronal-associated cells (NeuroCs, cluster 9)"
+        },
+        {
+          "gene": "CNTNAP2",
+          "evidence_level": "explicit",
+          "source_section": "Supplementary Figure 1H",
+          "source_context": "UMAP Plot showing expression of CNTNAP2 for all biopsies (upper left panel), expression of CNTNAP2 divided by anatomical location (IAT: left, SAT: right), and pathway enrichment ontology analysis of NeuroCs cell population. Violin Plot showing expression of CNTNAP2 divided by anatomical location and percentage of CNTNAP+ cells within NeuroCs cell population."
+        }
+      ]
+    },
+    {
+      "cell_type": "PRM1+ cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "NA",
+      "markers": [
+        {
+          "gene": "PRM1",
+          "evidence_level": "explicit",
+          "source_section": "Results, Cell type identification",
+          "source_context": "one with protamine 1 (PRM1) as its top marker, termed PRM1+ cells (cluster 8)"
+        }
+      ]
+    },
+    {
+      "cell_type": "beige adipocytes",
+      "subtype": "subpopulation 5",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EBF2",
+          "evidence_level": "explicit",
+          "source_section": "Results, Identification of ADIPOMATlo subpopulations",
+          "source_context": "one subpopulation of EBF2+/PRDM16+ “beige” adipocytes (subpopulation 5)"
+        },
+        {
+          "gene": "PRDM16",
+          "evidence_level": "explicit",
+          "source_section": "Results, Identification of ADIPOMATlo subpopulations",
+          "source_context": "The EBF2+ population represents thermogenic beige adipocytes, as evidence by enriched expression of PPARGC1A and PRDM16"
+        },
+        {
+          "gene": "PPARGC1A",
+          "evidence_level": "explicit",
+          "source_section": "Results, Identification of ADIPOMATlo subpopulations",
+          "source_context": "The EBF2+ population represents thermogenic beige adipocytes, as evidence by enriched expression of PPARGC1A and PRDM16"
+        }
+      ]
+    },
+    {
+      "cell_type": "adipocyte",
+      "subtype": "ADIPOMATlo",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "adipocyte",
+      "subtype": "ADIPOMAThi",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "beige thermogenic cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EBF2",
+          "evidence_level": "explicit",
+          "source_section": "Discussion, paragraph 5",
+          "source_context": "These cells express established transcriptional regulators of the thermogenic program (e.g. EBF2, PPARGC1A, and PRDM16) as well as newly identified marker transcripts such as DPP6, ZNF804A, GIPR, and KCNJ3."
+        },
+        {
+          "gene": "PPARGC1A",
+          "evidence_level": "explicit",
+          "source_section": "Discussion, paragraph 5",
+          "source_context": "These cells express established transcriptional regulators of the thermogenic program (e.g. EBF2, PPARGC1A, and PRDM16) as well as newly identified marker transcripts such as DPP6, ZNF804A, GIPR, and KCNJ3."
+        },
+        {
+          "gene": "PRDM16",
+          "evidence_level": "explicit",
+          "source_section": "Discussion, paragraph 5",
+          "source_context": "These cells express established transcriptional regulators of the thermogenic program (e.g. EBF2, PPARGC1A, and PRDM16) as well as newly identified marker transcripts such as DPP6, ZNF804A, GIPR, and KCNJ3."
+        },
+        {
+          "gene": "DPP6",
+          "evidence_level": "explicit",
+          "source_section": "Discussion, paragraph 5",
+          "source_context": "These cells express established transcriptional regulators of the thermogenic program (e.g. EBF2, PPARGC1A, and PRDM16) as well as newly identified marker transcripts such as DPP6, ZNF804A, GIPR, and KCNJ3."
+        },
+        {
+          "gene": "ZNF804A",
+          "evidence_level": "explicit",
+          "source_section": "Discussion, paragraph 5",
+          "source_context": "These cells express established transcriptional regulators of the thermogenic program (e.g. EBF2, PPARGC1A, and PRDM16) as well as newly identified marker transcripts such as DPP6, ZNF804A, GIPR, and KCNJ3."
+        },
+        {
+          "gene": "GIPR",
+          "evidence_level": "explicit",
+          "source_section": "Discussion, paragraph 5",
+          "source_context": "These cells express established transcriptional regulators of the thermogenic program (e.g. EBF2, PPARGC1A, and PRDM16) as well as newly identified marker transcripts such as DPP6, ZNF804A, GIPR, and KCNJ3."
+        },
+        {
+          "gene": "KCNJ3",
+          "evidence_level": "explicit",
+          "source_section": "Discussion, paragraph 5",
+          "source_context": "These cells express established transcriptional regulators of the thermogenic program (e.g. EBF2, PPARGC1A, and PRDM16) as well as newly identified marker transcripts such as DPP6, ZNF804A, GIPR, and KCNJ3."
+        }
+      ]
+    },
+    {
+      "cell_type": "APC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DCN",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "COL6A3",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "PRRX1",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "DCLK1",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "CAMK1D",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "ATP11A",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        },
+        {
+          "gene": "ARHGEF3",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2P",
+          "source_context": "Violin Plots showing expression of DCN, PDGFRA, COL6A3, PRRX1, DCLK1, CAMK1D, ATP11A, ARHGEF3, PLIN1, PLIN4, LEP, and ADIPOQ in the three identified APC populations (P) and in all subpopulations of mature adipocytes (Q)."
+        }
+      ]
+    },
+    {
+      "cell_type": "mature adipocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Fig.1D",
+          "source_context": "Single-nucleus gene expression (upper: Feature Plot, lower: Violin Plot) of ADIPOQ and PDGFRA in all captured nuclei"
+        }
+      ]
+    },
+    {
+      "cell_type": "adipogenic progenitor cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.1D",
+          "source_context": "Single-nucleus gene expression (upper: Feature Plot, lower: Violin Plot) of ADIPOQ and PDGFRA in all captured nuclei"
+        }
+      ]
+    },
+    {
+      "cell_type": "PRM1+ cell population",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "NA",
+      "markers": [
+        {
+          "gene": "PRM1",
+          "evidence_level": "explicit",
+          "source_section": "Supplementary Figure 1G",
+          "source_context": "UMAP plot showing expression of PRM1 for all biopsies (upper left panel), expression of PRM1 divided by anatomical location (IAT: left, SAT: right) and pathway enrichment ontology analysis of PRM1+ cell population (lower)."
+        }
+      ]
+    },
+    {
+      "cell_type": "mature adipocytes",
+      "subtype": "beige adipocytes",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PPARGC1A",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2N",
+          "source_context": "Feature Plot of mature adipocytes showing expression of PPARGC1A, EBF2, and PRDM16, followed by percentage of beige adipocytes."
+        },
+        {
+          "gene": "EBF2",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2N",
+          "source_context": "Feature Plot of mature adipocytes showing expression of PPARGC1A, EBF2, and PRDM16, followed by percentage of beige adipocytes."
+        },
+        {
+          "gene": "PRDM16",
+          "evidence_level": "implied",
+          "source_section": "Supplementary Figure 2N",
+          "source_context": "Feature Plot of mature adipocytes showing expression of PPARGC1A, EBF2, and PRDM16, followed by percentage of beige adipocytes."
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "CNTNAP+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "CNTNAP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.1",
+          "source_context": "Cell cluster labeled CNTNAP+ in Figure 1, indicating CNTNAP is a marker for this cluster."
+        }
+      ]
+    },
+    {
+      "cell_type": "PRM1+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "NA",
+      "markers": [
+        {
+          "gene": "PRM1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.1",
+          "source_context": "Cell cluster labeled PRM1+ in Figure 1, indicating PRM1 is a marker for this cluster."
+        }
+      ]
+    },
+    {
+      "cell_type": "ADIPOMAThi",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including ADIPOQ."
+        },
+        {
+          "gene": "PPARG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PPARG."
+        },
+        {
+          "gene": "LEP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including LEP."
+        },
+        {
+          "gene": "PLIN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PLIN1."
+        },
+        {
+          "gene": "PLIN4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PLIN4."
+        },
+        {
+          "gene": "PLIN5",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PLIN5."
+        },
+        {
+          "gene": "FABP4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including FABP4."
+        },
+        {
+          "gene": "CIDEA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including CIDEA."
+        },
+        {
+          "gene": "CIDEC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including CIDEC."
+        },
+        {
+          "gene": "DGAT2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including DGAT2."
+        },
+        {
+          "gene": "LIPE",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including LIPE."
+        },
+        {
+          "gene": "LPL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including LPL."
+        },
+        {
+          "gene": "PDE3B",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PDE3B."
+        },
+        {
+          "gene": "GHR",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including GHR."
+        },
+        {
+          "gene": "AQP7",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including AQP7."
+        }
+      ]
+    },
+    {
+      "cell_type": "ADIPOMATlo",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including ADIPOQ."
+        },
+        {
+          "gene": "PPARG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PPARG."
+        },
+        {
+          "gene": "LEP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including LEP."
+        },
+        {
+          "gene": "PLIN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PLIN1."
+        },
+        {
+          "gene": "PLIN4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PLIN4."
+        },
+        {
+          "gene": "PLIN5",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PLIN5."
+        },
+        {
+          "gene": "FABP4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including FABP4."
+        },
+        {
+          "gene": "CIDEA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including CIDEA."
+        },
+        {
+          "gene": "CIDEC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including CIDEC."
+        },
+        {
+          "gene": "DGAT2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including DGAT2."
+        },
+        {
+          "gene": "LIPE",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including LIPE."
+        },
+        {
+          "gene": "LPL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including LPL."
+        },
+        {
+          "gene": "PDE3B",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including PDE3B."
+        },
+        {
+          "gene": "GHR",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including GHR."
+        },
+        {
+          "gene": "AQP7",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Figure 2D lists documented adipocyte markers including AQP7."
+        }
+      ]
+    },
+    {
+      "cell_type": "Adipo1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "PPARG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "LEP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "PLIN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "PLIN4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "PLIN5",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "FABP4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "CIDEA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "CIDEC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "DGAT2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "LIPE",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "LPL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "PDE3B",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "GHR",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        },
+        {
+          "gene": "AQP7",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo1."
+        }
+      ]
+    },
+    {
+      "cell_type": "Adipo2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "PPARG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "LEP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "PLIN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "PLIN4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "PLIN5",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "FABP4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "CIDEA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "CIDEC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "DGAT2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "LIPE",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "LPL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "PDE3B",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "GHR",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        },
+        {
+          "gene": "AQP7",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo2."
+        }
+      ]
+    },
+    {
+      "cell_type": "Adipo3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "PPARG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "LEP",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "PLIN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "PLIN4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "PLIN5",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "FABP4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "CIDEA",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "CIDEC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "DGAT2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "LIPE",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "LPL",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "PDE3B",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "GHR",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        },
+        {
+          "gene": "AQP7",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2D",
+          "source_context": "Adipocyte markers from Figure 2D apply to adipocyte clusters including Adipo3."
+        }
+      ]
+    },
+    {
+      "cell_type": "APC1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "APC2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "APC3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Macro1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Macro2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Macro3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "MastCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "EndoVCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "LECs1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "LECs2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "MesoCs1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "MesoCs2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "SMCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Pericy",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Eryth",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Unknown",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    }
+  ]
+}

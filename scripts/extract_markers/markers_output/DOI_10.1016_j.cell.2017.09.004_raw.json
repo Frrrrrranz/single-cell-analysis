@@ -1,0 +1,54 @@
+{
+  "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+  "cell_types": [
+    {
+      "cell_type": "a-cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GCG",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2A",
+          "source_context": "Expression of cell-typical ( INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise."
+        }
+      ]
+    },
+    {
+      "cell_type": "b-cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "INS",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2A",
+          "source_context": "Expression of cell-typical ( INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise."
+        }
+      ]
+    },
+    {
+      "cell_type": "d-cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "pancreatic polypeptide (PP) cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "acinar cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    }
+  ]
+}

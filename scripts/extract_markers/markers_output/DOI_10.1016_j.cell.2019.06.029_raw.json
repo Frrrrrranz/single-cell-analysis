@@ -1,0 +1,182 @@
+{
+  "paper_id": "DOI_10.1016_j.cell.2019.06.029",
+  "cell_types": [
+    {
+      "cell_type": "BEST4+ enterocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BEST4",
+          "evidence_level": "explicit",
+          "source_section": "Abstract",
+          "source_context": "revealing 51 epithelial, stromal, and immune cell subsets, including BEST4+ enterocytes, microfold-like cells, and IL13RA2+IL11+ inflammatory fibroblasts"
+        },
+        {
+          "gene": "OTOP2",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G-1H, Results p.716",
+          "source_context": "These include the otopetrins 2 and 3 (OTOP2/3), proton channels that detect pH and underlie sour taste perception"
+        },
+        {
+          "gene": "OTOP3",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G-1H, Results p.716",
+          "source_context": "These include the otopetrins 2 and 3 (OTOP2/3), proton channels that detect pH and underlie sour taste perception"
+        },
+        {
+          "gene": "CA7",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G-1H, Results p.716",
+          "source_context": "carbonic anhydrase VII (CA7), which catalyzes bicarbonate formation"
+        }
+      ]
+    },
+    {
+      "cell_type": "microfold-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "IL13RA2+IL11+ inflammatory fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL13RA2",
+          "evidence_level": "explicit",
+          "source_section": "Abstract",
+          "source_context": "revealing 51 epithelial, stromal, and immune cell subsets, including BEST4+ enterocytes, microfold-like cells, and IL13RA2+IL11+ inflammatory fibroblasts"
+        },
+        {
+          "gene": "IL11",
+          "evidence_level": "explicit",
+          "source_section": "Abstract",
+          "source_context": "revealing 51 epithelial, stromal, and immune cell subsets, including BEST4+ enterocytes, microfold-like cells, and IL13RA2+IL11+ inflammatory fibroblasts"
+        }
+      ]
+    },
+    {
+      "cell_type": "inflammatory monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T cells that co-express CD8 and IL-17",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_level": "explicit",
+          "source_section": "Abstract",
+          "source_context": "Inflammatory fibroblasts, inflammatory monocytes, microfold-like cells, and T cells that co-express CD8 and IL-17 expand with disease"
+        },
+        {
+          "gene": "IL-17",
+          "evidence_level": "explicit",
+          "source_section": "Abstract",
+          "source_context": "Inflammatory fibroblasts, inflammatory monocytes, microfold-like cells, and T cells that co-express CD8 and IL-17 expand with disease"
+        }
+      ]
+    },
+    {
+      "cell_type": "RSPO3+ fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "RSPO3",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G-1I, Results p.717",
+          "source_context": "One subset of WNT2B+ fibroblasts may support the ISC niche by expression of R-spondin-3 (validated in situ, Figures 1G–1I)"
+        }
+      ]
+    },
+    {
+      "cell_type": "IAFs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL11",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "IAFs are enriched for expression of many genes associated with colitis, fibrosis, and cancer, including IL11, IL24, and IL13RA2"
+        },
+        {
+          "gene": "IL24",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "IAFs are enriched for expression of many genes associated with colitis, fibrosis, and cancer, including IL11, IL24, and IL13RA2"
+        },
+        {
+          "gene": "IL13RA2",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "IAFs are enriched for expression of many genes associated with colitis, fibrosis, and cancer, including IL11, IL24, and IL13RA2"
+        },
+        {
+          "gene": "FAP",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "IAFs express markers of cancer-associated fibroblasts (CAFs), including FAP, TWIST1, and WNT2"
+        },
+        {
+          "gene": "TWIST1",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "IAFs express markers of cancer-associated fibroblasts (CAFs), including FAP, TWIST1, and WNT2"
+        },
+        {
+          "gene": "WNT2",
+          "evidence_level": "explicit",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "IAFs express markers of cancer-associated fibroblasts (CAFs), including FAP, TWIST1, and WNT2"
+        },
+        {
+          "gene": "OSMR",
+          "evidence_level": "implied",
+          "source_section": "Results p.721",
+          "source_context": "One of the most enriched genes in IAFs is OSMR, a putative risk gene"
+        }
+      ]
+    },
+    {
+      "cell_type": "M-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCL20",
+          "evidence_level": "implied",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "They highly express several chemokines (e.g., CCL20 and CCL23)"
+        },
+        {
+          "gene": "CCL23",
+          "evidence_level": "implied",
+          "source_section": "Figure 1G, Results p.718",
+          "source_context": "They highly express several chemokines (e.g., CCL20 and CCL23)"
+        }
+      ]
+    },
+    {
+      "cell_type": "glial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    }
+  ]
+}

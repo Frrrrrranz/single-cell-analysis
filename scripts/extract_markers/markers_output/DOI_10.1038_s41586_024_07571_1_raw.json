@@ -1,0 +1,101 @@
+{
+  "paper_id": "DOI_10.1038_s41586_024_07571_1",
+  "cell_types": [
+    {
+      "cell_type": "INFLARE",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC6",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3f-h and Extended Data Fig.7g,h",
+          "source_context": "We located INFLAREs (MUC6+AQP5+BPIFB1+) at the crypt base..."
+        },
+        {
+          "gene": "AQP5",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3f-h and Extended Data Fig.7g,h",
+          "source_context": "We located INFLAREs (MUC6+AQP5+BPIFB1+) at the crypt base..."
+        },
+        {
+          "gene": "BPIFB1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3f-h and Extended Data Fig.7g,h",
+          "source_context": "We located INFLAREs (MUC6+AQP5+BPIFB1+) at the crypt base..."
+        },
+        {
+          "gene": "PGC",
+          "evidence_level": "implied",
+          "source_section": "Fig.4f",
+          "source_context": "cNMF_42 MGN/INFLARE factor genes: PGC, TFF2, AQP5, MUC6, CXCL17, GP2, BPIFB1, TCN1"
+        },
+        {
+          "gene": "TFF2",
+          "evidence_level": "implied",
+          "source_section": "Fig.4f",
+          "source_context": "cNMF_42 MGN/INFLARE factor genes: PGC, TFF2, AQP5, MUC6, CXCL17, GP2, BPIFB1, TCN1"
+        },
+        {
+          "gene": "CXCL17",
+          "evidence_level": "implied",
+          "source_section": "Fig.4f",
+          "source_context": "cNMF_42 MGN/INFLARE factor genes: PGC, TFF2, AQP5, MUC6, CXCL17, GP2, BPIFB1, TCN1"
+        },
+        {
+          "gene": "GP2",
+          "evidence_level": "implied",
+          "source_section": "Fig.4f",
+          "source_context": "cNMF_42 MGN/INFLARE factor genes: PGC, TFF2, AQP5, MUC6, CXCL17, GP2, BPIFB1, TCN1"
+        },
+        {
+          "gene": "TCN1",
+          "evidence_level": "implied",
+          "source_section": "Fig.4f",
+          "source_context": "cNMF_42 MGN/INFLARE factor genes: PGC, TFF2, AQP5, MUC6, CXCL17, GP2, BPIFB1, TCN1"
+        }
+      ]
+    },
+    {
+      "cell_type": "Surface foveolar-like",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3f-h and Extended Data Fig.7g,h",
+          "source_context": "surface foveolar cells (MUC5AC+) at the crypt top of metaplastic glands"
+        }
+      ]
+    },
+    {
+      "cell_type": "Epithelial stem",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LGR5",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4b",
+          "source_context": "Stem markers: LGR5, OLFM4, SOX9"
+        },
+        {
+          "gene": "OLFM4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4b",
+          "source_context": "Stem markers: LGR5, OLFM4, SOX9"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4b",
+          "source_context": "Stem markers: LGR5, OLFM4, SOX9"
+        }
+      ]
+    }
+  ]
+}

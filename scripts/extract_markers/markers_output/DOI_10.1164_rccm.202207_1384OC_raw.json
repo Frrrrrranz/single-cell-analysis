@@ -1,0 +1,1136 @@
+{
+  "paper_id": "DOI_10.1164_rccm.202207_1384OC",
+  "cell_types": [
+    {
+      "cell_type": "multipotent progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_level": "explicit",
+          "source_section": "Introduction",
+          "source_context": "The bud tip epithelium comprises SOX9+, ID2+ multipotent progenitors that self-renew during branching."
+        },
+        {
+          "gene": "ID2",
+          "evidence_level": "explicit",
+          "source_section": "Introduction",
+          "source_context": "The bud tip epithelium comprises SOX9+, ID2+ multipotent progenitors that self-renew during branching."
+        }
+      ]
+    },
+    {
+      "cell_type": "Peripheral nervous system (PNS) cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "Tip cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+) at all stages sampled"
+        },
+        {
+          "gene": "ETV5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+) at all stages sampled"
+        },
+        {
+          "gene": "TESC",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+) at all stages sampled"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+) at all stages sampled"
+        },
+        {
+          "gene": "STC1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+) at all stages sampled"
+        }
+      ]
+    },
+    {
+      "cell_type": "Stalk cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDPN",
+          "evidence_level": "explicit",
+          "source_section": "Results: Predicted airway epithelial differentiation trajectories",
+          "source_context": "Stalk cells lose some tip markers, including FOXP2 and SOX9, and gain a small number of genes, including PDPN and AGER."
+        },
+        {
+          "gene": "AGER",
+          "evidence_level": "explicit",
+          "source_section": "Results: Predicted airway epithelial differentiation trajectories",
+          "source_context": "Stalk cells lose some tip markers, including FOXP2 and SOX9, and gain a small number of genes, including PDPN and AGER."
+        }
+      ]
+    },
+    {
+      "cell_type": "Airway progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CYTL1",
+          "evidence_level": "explicit",
+          "source_section": "Results: A differentiation trajectory of airway progenitor states lies along the developing lung distal-to-proximal axis",
+          "source_context": "airway progenitors ( CYTL1LO/+,PCP4+,SCGB3A2+/LO)"
+        },
+        {
+          "gene": "PCP4",
+          "evidence_level": "explicit",
+          "source_section": "Results: A differentiation trajectory of airway progenitor states lies along the developing lung distal-to-proximal axis",
+          "source_context": "airway progenitors ( CYTL1LO/+,PCP4+,SCGB3A2+/LO)"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: A differentiation trajectory of airway progenitor states lies along the developing lung distal-to-proximal axis",
+          "source_context": "airway progenitors ( CYTL1LO/+,PCP4+,SCGB3A2+/LO)"
+        },
+        {
+          "gene": "CLDN4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Predicted airway epithelial differentiation trajectories",
+          "source_context": "the newly defined airway progenitors upregulate marker genes associated with airway fates, including CYTL1, CLDN4, and SCGB3A2"
+        }
+      ]
+    },
+    {
+      "cell_type": "Pulmonary NE cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GRP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Two subtypes of neuroendocrine cells are present in the developing airways",
+          "source_context": "classical pulmonary NE cells ( GRP+) and GHRL+NE cells ( TTR+,GHRL+)"
+        },
+        {
+          "gene": "CHGA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Transcriptional control of neuroendocrine cell subtype formation",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers ( CHGA , SYP)"
+        },
+        {
+          "gene": "SYP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Transcriptional control of neuroendocrine cell subtype formation",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers ( CHGA , SYP)"
+        }
+      ]
+    },
+    {
+      "cell_type": "GHRL+ NE cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GHRL",
+          "evidence_level": "explicit",
+          "source_section": "Results: Two subtypes of neuroendocrine cells are present in the developing airways",
+          "source_context": "GHRL+NE cells ( TTR+,GHRL+)"
+        },
+        {
+          "gene": "TTR",
+          "evidence_level": "explicit",
+          "source_section": "Results: Two subtypes of neuroendocrine cells are present in the developing airways",
+          "source_context": "GHRL+NE cells ( TTR+,GHRL+)"
+        },
+        {
+          "gene": "CHGA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Transcriptional control of neuroendocrine cell subtype formation",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers ( CHGA , SYP)"
+        },
+        {
+          "gene": "SYP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Transcriptional control of neuroendocrine cell subtype formation",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers ( CHGA , SYP)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Intermediate NE cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NEUROG3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Transcriptional control of neuroendocrine cell subtype formation",
+          "source_context": "A third NE population (intermediate NE) clustered between pulmonary and GHRL+NE cells with intermediate gene expression, although it did contain a small number of cells expressing the unique marker NEUROG3."
+        },
+        {
+          "gene": "CHGA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Transcriptional control of neuroendocrine cell subtype formation",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers ( CHGA , SYP)"
+        },
+        {
+          "gene": "SYP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Transcriptional control of neuroendocrine cell subtype formation",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers ( CHGA , SYP)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Proximal secretory progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "proximal secretory progenitors ( SCGB3A2+,SCGB1A1-,SCGB3A1-/LO,CYTL1+)"
+        },
+        {
+          "gene": "CYTL1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "proximal secretory progenitors ( SCGB3A2+,SCGB1A1-,SCGB3A1-/LO,CYTL1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Club cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Club cells (SCGB3A2+,SCGB1A1+,SCGB3A1-,SPDEF-,MUC16-)"
+        },
+        {
+          "gene": "SCGB1A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Club cells (SCGB3A2+,SCGB1A1+,SCGB3A1-,SPDEF-,MUC16-)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Submucosal gland (SMG) secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LTF",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Submucosal gland (SMG) secretory cells ( LTF+,SCGB3A1+,SPDEF+)"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Submucosal gland (SMG) secretory cells ( LTF+,SCGB3A1+,SPDEF+)"
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Submucosal gland (SMG) secretory cells ( LTF+,SCGB3A1+,SPDEF+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Proximal secretory 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Proximal secretory 1 ( SCGB1A1LO,SCGB3A2+,SCGB3A1+)"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Proximal secretory 1 ( SCGB1A1LO,SCGB3A2+,SCGB3A1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Proximal secretory 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Proximal secretory 2 ( SCGB1A1+,SCGB3A2+,SCGB3A1+)"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Proximal secretory 2 ( SCGB1A1+,SCGB3A2+,SCGB3A1+)"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "Proximal secretory 2 ( SCGB1A1+,SCGB3A2+,SCGB3A1+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Proximal secretory 3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "proximal secretory 3 ( SCGB1A1+,SCGB3A2LO/-,SCGB3A1+) was detected from 15 pcw and was SPDEF-, but CYP2F1+,MUC4+, and KRT4+"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "proximal secretory 3 ( SCGB1A1+,SCGB3A2LO/-,SCGB3A1+) was detected from 15 pcw and was SPDEF-, but CYP2F1+,MUC4+, and KRT4+"
+        },
+        {
+          "gene": "CYP2F1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "proximal secretory 3 ( SCGB1A1+,SCGB3A2LO/-,SCGB3A1+) was detected from 15 pcw and was SPDEF-, but CYP2F1+,MUC4+, and KRT4+"
+        },
+        {
+          "gene": "MUC4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "proximal secretory 3 ( SCGB1A1+,SCGB3A2LO/-,SCGB3A1+) was detected from 15 pcw and was SPDEF-, but CYP2F1+,MUC4+, and KRT4+"
+        },
+        {
+          "gene": "KRT4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Multiple secretory cell subtypes in the proximal cartilaginous airways",
+          "source_context": "proximal secretory 3 ( SCGB1A1+,SCGB3A2LO/-,SCGB3A1+) was detected from 15 pcw and was SPDEF-, but CYP2F1+,MUC4+, and KRT4+"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "ciliated cells ( FOXJ1+,ALOX15+)"
+        },
+        {
+          "gene": "ALOX15",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "ciliated cells ( FOXJ1+,ALOX15+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Deuterosomal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "Rarer deuterosomal cells ( FOXJ1+,CDC20B+)"
+        },
+        {
+          "gene": "CDC20B",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "Rarer deuterosomal cells ( FOXJ1+,CDC20B+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC16+ ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "MUC16+ciliated cells ( FOXJ1+,DNAH+,MUC16LO)"
+        },
+        {
+          "gene": "DNAH",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "MUC16+ciliated cells ( FOXJ1+,DNAH+,MUC16LO)"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "MUC16+ciliated cells ( FOXJ1+,DNAH+,MUC16LO)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "Basal cells ( TP63+,F3+)"
+        },
+        {
+          "gene": "F3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "Basal cells ( TP63+,F3+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Putative ionocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXI1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "putative ionocytes ( FOXI1+; 4/4 lungs)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Putative tuft cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "POU2F3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "putative tuft cells (POU2F3+; 2/4 lungs)"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC5AC+ ASCL1+ cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "a small population of MUC5AC+,ASCL1+cells in 9–11 pcw lungs"
+        },
+        {
+          "gene": "ASCL1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Other airway cells",
+          "source_context": "a small population of MUC5AC+,ASCL1+cells in 9–11 pcw lungs"
+        }
+      ]
+    },
+    {
+      "cell_type": "Late tip cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "late-tip cells ( SOX9+,TPPP3+,SFTPC+) were clearly visualized in the tissue"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "late-tip cells ( SOX9+,TPPP3+,SFTPC+) were clearly visualized in the tissue"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "By 15 pcw the AT2 markers SFTPC andSFTPA were detected readily in late-tip cells"
+        },
+        {
+          "gene": "SFTPA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "By 15 pcw the AT2 markers SFTPC andSFTPA were detected readily in late-tip cells"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fetal AT2 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "AT2 cells ( SOX9-,SFTPC+,NASPA+,ETV5+)"
+        },
+        {
+          "gene": "SFTPA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "By 15 pcw the AT2 markers SFTPC andSFTPA were detected readily in late-tip cells"
+        },
+        {
+          "gene": "NASPA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "AT2 cells ( SOX9-,SFTPC+,NASPA+,ETV5+)"
+        },
+        {
+          "gene": "ETV5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "AT2 cells ( SOX9-,SFTPC+,NASPA+,ETV5+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fetal AT1 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPOCK2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Late epithelial tip cells acquire alveolar identity prior to alveolar differentiation",
+          "source_context": "AT1 cells ( SPOCK2+,SFTPC-) were interspersed with AT2 cells"
+        },
+        {
+          "gene": "MMP28",
+          "evidence_level": "explicit",
+          "source_section": "Fig.3I",
+          "source_context": "fetal AT1 SFTPC-/MMP28+/SPOCK2+"
+        }
+      ]
+    },
+    {
+      "cell_type": "earlyCap cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "THY1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "capillary (earlyCap: THY1+,CD24+)"
+        },
+        {
+          "gene": "CD24",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "capillary (earlyCap: THY1+,CD24+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "GRIA2+ arterial ECs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GRIA2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "GRIA2+arterial ( GRIA2+,GJA5+)"
+        },
+        {
+          "gene": "GJA5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "GRIA2+arterial ( GRIA2+,GJA5+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lymphatic ECs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PROX1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "lymphatic ECs ( PROX1+,STAB1+, and UCP2LO)"
+        },
+        {
+          "gene": "STAB1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "lymphatic ECs ( PROX1+,STAB1+, and UCP2LO)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Aerocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CA4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "Aerocytes ( CA4LO,S100A3+)"
+        },
+        {
+          "gene": "S100A3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "Aerocytes ( CA4LO,S100A3+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "DKK2+ arterial ECs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DKK2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "GRIA2+and arterial ECs (DKK2+,SSUH2+)"
+        },
+        {
+          "gene": "SSUH2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "GRIA2+and arterial ECs (DKK2+,SSUH2+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "OMD+ ECs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OMD",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "The OMD+ECs ( GJA5+,DKK2+,PTGIS+, and OMD+)"
+        },
+        {
+          "gene": "GJA5",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "The OMD+ECs ( GJA5+,DKK2+,PTGIS+, and OMD+)"
+        },
+        {
+          "gene": "DKK2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "The OMD+ECs ( GJA5+,DKK2+,PTGIS+, and OMD+)"
+        },
+        {
+          "gene": "PTGIS",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "The OMD+ECs ( GJA5+,DKK2+,PTGIS+, and OMD+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Venous ECs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PVLAP",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "venous ECs ( PVLAP+,ACKR3+, and HDAC9+)"
+        },
+        {
+          "gene": "ACKR3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "venous ECs ( PVLAP+,ACKR3+, and HDAC9+)"
+        },
+        {
+          "gene": "HDAC9",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "venous ECs ( PVLAP+,ACKR3+, and HDAC9+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "SCG3+ lymphatic ECs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PROX1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "SCG3+lymphatic ECs ( PROX1+,SCG3+)"
+        },
+        {
+          "gene": "SCG3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Lung endothelial cells exhibit early specialization into arterial and venous identities",
+          "source_context": "SCG3+lymphatic ECs ( PROX1+,SCG3+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Airway smooth muscle (ASM) cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4G",
+          "source_context": "smooth muscle (ACTA2 green, dashed line)"
+        }
+      ]
+    },
+    {
+      "cell_type": "vSMC1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTRK3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "vSMC1 ( NTRK3+,NTN4+, and PLN-)"
+        },
+        {
+          "gene": "NTN4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "vSMC1 ( NTRK3+,NTN4+, and PLN-)"
+        }
+      ]
+    },
+    {
+      "cell_type": "vSMC2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTRK3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "vSMC2 ( NTRK3+,NTN4+, and PLN+)"
+        },
+        {
+          "gene": "NTN4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "vSMC2 ( NTRK3+,NTN4+, and PLN+)"
+        },
+        {
+          "gene": "PLN",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "vSMC2 ( NTRK3+,NTN4+, and PLN+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Pericytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FAM162B",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Pericytes ( FAM162B+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Early fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFRP2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "early fibroblasts ( SFRP2+,WNT2+)"
+        },
+        {
+          "gene": "WNT2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "early fibroblasts ( SFRP2+,WNT2+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mid fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "mid fibroblasts ( WNT2+,FGFR4LO)"
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "mid fibroblasts ( WNT2+,FGFR4LO)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Adventitial fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFRP2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "adventitial ( SFRP2+,PI16+)"
+        },
+        {
+          "gene": "PI16",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "adventitial ( SFRP2+,PI16+)"
+        },
+        {
+          "gene": "SERPINF1",
+          "evidence_level": "implied",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Adventitial and alveolar fibroblasts expressed shared and unique genes (adventitial: SERPINF1, SFRP2, and PI16; alveolar: FGFR4, VEGFD)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Airway fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AGTR2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "airway ( AGTR2+,S100A4+)"
+        },
+        {
+          "gene": "S100A4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "airway ( AGTR2+,S100A4+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "alveolar ( WNT2+,FGFR4+)"
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "alveolar ( WNT2+,FGFR4+)"
+        },
+        {
+          "gene": "VEGFD",
+          "evidence_level": "implied",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Adventitial and alveolar fibroblasts expressed shared and unique genes (adventitial: SERPINF1, SFRP2, and PI16; alveolar: FGFR4, VEGFD)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblast 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 1 ( CXCL14+,KCNK17+,CT45A3+, and THBDLO)"
+        },
+        {
+          "gene": "KCNK17",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 1 ( CXCL14+,KCNK17+,CT45A3+, and THBDLO)"
+        },
+        {
+          "gene": "CT45A3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 1 ( CXCL14+,KCNK17+,CT45A3+, and THBDLO)"
+        },
+        {
+          "gene": "THBD",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 1 ( CXCL14+,KCNK17+,CT45A3+, and THBDLO)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblast 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 2 ( CXCL14+,KCNK17+,CT45A3+, and THBDHI)"
+        },
+        {
+          "gene": "KCNK17",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 2 ( CXCL14+,KCNK17+,CT45A3+, and THBDHI)"
+        },
+        {
+          "gene": "CT45A3",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 2 ( CXCL14+,KCNK17+,CT45A3+, and THBDHI)"
+        },
+        {
+          "gene": "THBD",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 2 ( CXCL14+,KCNK17+,CT45A3+, and THBDHI)"
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "myofibroblast 2 (PDGFRA+, THBDHI, and NOTUM+)"
+        },
+        {
+          "gene": "NOTUM",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "myofibroblast 2 (PDGFRA+, THBDHI, and NOTUM+)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblast 3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 3 ( CXCL14+,KCNK17+,CT45A3-, and THBD-)"
+        },
+        {
+          "gene": "KCNK17",
+          "evidence_level": "explicit",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "Myofibroblast 3 ( CXCL14+,KCNK17+,CT45A3-, and THBD-)"
+        },
+        {
+          "gene": "C7",
+          "evidence_level": "implied",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "myofibroblast 3 has higher expression of genes associated with ECM organization and a variety of signaling molecules, including C7,RSPO2 , and BMPER"
+        },
+        {
+          "gene": "RSPO2",
+          "evidence_level": "implied",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "myofibroblast 3 has higher expression of genes associated with ECM organization and a variety of signaling molecules, including C7,RSPO2 , and BMPER"
+        },
+        {
+          "gene": "BMPER",
+          "evidence_level": "implied",
+          "source_section": "Results: Developmental trajectories of mesenchymal cells",
+          "source_context": "myofibroblast 3 has higher expression of genes associated with ECM organization and a variety of signaling molecules, including C7,RSPO2 , and BMPER"
+        }
+      ]
+    },
+    {
+      "cell_type": "Chondrocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ASPN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4D",
+          "source_context": "ASPN+chondrocytes on 17 and 20 pcw lung sections"
+        }
+      ]
+    },
+    {
+      "cell_type": "HMOX1+ erythroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HMOX1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Hematopoietic cell types in the developing lung",
+          "source_context": "embryonic erythrocytes, HMOX1+erythroblasts, and a small number of macrophages"
+        }
+      ]
+    },
+    {
+      "cell_type": "neuroendocrine cell",
+      "subtype": "GHRL+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GHRL",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "We find that GHRL+ NE cells are transcriptionally similar to the NEUROD1+ N subtype of SCLC (Figure 7)."
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NOTUM",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "Similarly, we characterize a population of myofibroblasts that contacts the developing epithelial stalk region and expresses high levels of the secreted Wnt-inhibitor, NOTUM (Figure S7O)."
+        }
+      ]
+    },
+    {
+      "cell_type": "alveolar fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_level": "implied",
+          "source_section": "Discussion",
+          "source_context": "whereas alveolar fibroblasts express high levels of the canonical WNT2 ligand (Figure 4)."
+        }
+      ]
+    },
+    {
+      "cell_type": "airway cell",
+      "subtype": "SCGB3A2+ distal/proximal",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "STAR Methods",
+          "source_context": "Isolation and airway differentiation of SCGB3A2+ distal and proximal airway cells"
+        }
+      ]
+    }
+  ]
+}

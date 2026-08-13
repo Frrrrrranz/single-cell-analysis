@@ -1,0 +1,2 @@
+﻿cell_type,subtype,species,is_pns_cell,gene_symbol,evidence_level,source_section,source_context,review_status,notes
+nociceptors,SST,mouse,true,SST,implied,Introduction,"Those neurons are of different subtypes that are classified as peptidergic (PEPs), non-peptidergic (NPs), C-Low Threshold mechanoreceptor (C-LTMRs), and a subtype of somatostatin positive neurons (SST)4–6.",pending,

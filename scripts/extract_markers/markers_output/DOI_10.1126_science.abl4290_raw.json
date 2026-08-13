@@ -1,0 +1,659 @@
+{
+  "paper_id": "DOI_10.1126_science.abl4290",
+  "cell_types": [
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "enteric neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "neurons",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "satellite cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Pericytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Smooth muscle cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "CD16+ monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD16",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid populations across tissues (Fig. 3B)",
+          "source_context": "These included CD16+ monocytes, CD14+ monocytes, two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations with coexpression of both monocyte and macrophage markers"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD14+ monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid populations across tissues (Fig. 3B)",
+          "source_context": "These included CD16+ monocytes, CD14+ monocytes, two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations with coexpression of both monocyte and macrophage markers"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mo/MΦ FCGR3Alow",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCGR3A",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid populations across tissues (Fig. 3B)",
+          "source_context": "These included CD16+ monocytes, CD14+ monocytes, two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations with coexpression of both monocyte and macrophage markers"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mo/MΦ FCGR3Ahigh",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCGR3A",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid populations across tissues (Fig. 3B)",
+          "source_context": "These included CD16+ monocytes, CD14+ monocytes, two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations with coexpression of both monocyte and macrophage markers"
+        }
+      ]
+    },
+    {
+      "cell_type": "Langerhans cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD207",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid populations across tissues (Fig. 3C)",
+          "source_context": "CD207/Langerin+ Langerhans cells, which were present only (97%) in skin and esophagus mucosa, consistent with their role in antigen sampling within stratified epithelia"
+        }
+      ]
+    },
+    {
+      "cell_type": "PPARGhigh lung macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PPARG",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid populations across tissues (Fig. 3C)",
+          "source_context": "notable exceptions included PPARGhigh lung macrophages, which were present only in lung"
+        }
+      ]
+    },
+    {
+      "cell_type": "MΦ LYVE1high",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Myeloid populations across tissues (Fig. 3C)",
+          "source_context": "Macrophage types and proportions varied by tissue, with breast, esophagus mucosa, esophagus muscularis, heart, and skeletal muscle having significantly higher proportions of MΦ LYVE1high macrophages"
+        }
+      ]
+    },
+    {
+      "cell_type": "LAM-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CHIT1",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (Fig. 3H, fig. S17F)",
+          "source_context": "both CHIT1 and CTSK were highly expressed in LAMs from leprosy skin samples (but had very low expression in other skin LAMs)"
+        },
+        {
+          "gene": "CTSK",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (Fig. 3H, fig. S17F)",
+          "source_context": "both CHIT1 and CTSK were highly expressed in LAMs from leprosy skin samples (but had very low expression in other skin LAMs)"
+        },
+        {
+          "gene": "FABP4",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (Fig. 3H, fig. S17F)",
+          "source_context": "Select lipid pathway genes, including fatty-acid binding protein FABP4, lipoprotein lipase LPL, and phagocytic lipid receptor CD36, were highly expressed in LAMs from tissues with high adipose content, including adipose, atherosclerotic lesions, and intestine creeping fat samples"
+        },
+        {
+          "gene": "LPL",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (Fig. 3H, fig. S17F)",
+          "source_context": "Select lipid pathway genes, including fatty-acid binding protein FABP4, lipoprotein lipase LPL, and phagocytic lipid receptor CD36, were highly expressed in LAMs from tissues with high adipose content, including adipose, atherosclerotic lesions, and intestine creeping fat samples"
+        },
+        {
+          "gene": "CD36",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (Fig. 3H, fig. S17F)",
+          "source_context": "Select lipid pathway genes, including fatty-acid binding protein FABP4, lipoprotein lipase LPL, and phagocytic lipid receptor CD36, were highly expressed in LAMs from tissues with high adipose content, including adipose, atherosclerotic lesions, and intestine creeping fat samples"
+        },
+        {
+          "gene": "IL1B",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (fig. S17F)",
+          "source_context": "LAMs in creeping fat from Crohn’s intestine and atherosclerotic lesions were additionally characterized by higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)"
+        },
+        {
+          "gene": "CXCL8",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (fig. S17F)",
+          "source_context": "LAMs in creeping fat from Crohn’s intestine and atherosclerotic lesions were additionally characterized by higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)"
+        },
+        {
+          "gene": "CXCL3",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (fig. S17F)",
+          "source_context": "LAMs in creeping fat from Crohn’s intestine and atherosclerotic lesions were additionally characterized by higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)"
+        },
+        {
+          "gene": "CCL4",
+          "evidence_level": "implied",
+          "source_section": "Results: LAM-like macrophages (fig. S17F)",
+          "source_context": "LAMs in creeping fat from Crohn’s intestine and atherosclerotic lesions were additionally characterized by higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)"
+        },
+        {
+          "gene": "PPARG",
+          "evidence_level": "inferred",
+          "source_section": "Discussion p.17-18",
+          "source_context": "The inferred role for PPARG and NR1H3 in driving the LAM expression program suggests a model in which signaling through lipid-bound receptors on macrophages, such as TREM2 or CD36, up-regulates the expression of more lipid receptors"
+        },
+        {
+          "gene": "NR1H3",
+          "evidence_level": "inferred",
+          "source_section": "Discussion p.17-18",
+          "source_context": "The inferred role for PPARG and NR1H3 in driving the LAM expression program suggests a model in which signaling through lipid-bound receptors on macrophages, such as TREM2 or CD36, up-regulates the expression of more lipid receptors"
+        },
+        {
+          "gene": "TREM2",
+          "evidence_level": "inferred",
+          "source_section": "Discussion p.17-18",
+          "source_context": "signaling through lipid-bound receptors on macrophages, such as TREM2 or CD36, up-regulates the expression of more lipid receptors"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL6A2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Cell-composition and cell-intrinsic secondary effects in muscle disease tissue (fig. S26)",
+          "source_context": "up-regulation of hallmark fibroblast, adipocyte, and immune genes, likely because of changes in cell proportions (e.g., COL6A2, ADIPOQ, and HLA-A, respectively)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Esophagus mucosa fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTN1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8, fig. S18E)",
+          "source_context": "The esophagus mucosa fibroblast signature (table S8) included genes involved in neuron and axon development (e.g., NTN1, PLXNB1, FGF13), suggesting interactions with the enteric nervous system"
+        },
+        {
+          "gene": "PLXNB1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8, fig. S18E)",
+          "source_context": "The esophagus mucosa fibroblast signature (table S8) included genes involved in neuron and axon development (e.g., NTN1, PLXNB1, FGF13), suggesting interactions with the enteric nervous system"
+        },
+        {
+          "gene": "FGF13",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8, fig. S18E)",
+          "source_context": "The esophagus mucosa fibroblast signature (table S8) included genes involved in neuron and axon development (e.g., NTN1, PLXNB1, FGF13), suggesting interactions with the enteric nervous system"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cardiac fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GATA4",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8)",
+          "source_context": "The cardiac fibroblast signature genes included TFs involved in cardiac development (e.g., GATA4 and GATA6), revealing that expression of these developmental TFs is retained in the adult cardiac fibroblast compartment"
+        },
+        {
+          "gene": "GATA6",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8)",
+          "source_context": "The cardiac fibroblast signature genes included TFs involved in cardiac development (e.g., GATA4 and GATA6), revealing that expression of these developmental TFs is retained in the adult cardiac fibroblast compartment"
+        }
+      ]
+    },
+    {
+      "cell_type": "Skeletal muscle fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8)",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME), which regulate skeletal muscle mass"
+        },
+        {
+          "gene": "CXCL12",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8)",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME), which regulate skeletal muscle mass"
+        },
+        {
+          "gene": "AGTR1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8)",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME), which regulate skeletal muscle mass"
+        },
+        {
+          "gene": "MME",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (table S8)",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME), which regulate skeletal muscle mass"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lung fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NPNT",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4, F and G)",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ... including multiple components of the basement membrane that are required for epithelial-mesenchymal adhesion [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]"
+        },
+        {
+          "gene": "FRAS1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4, F and G)",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ... including multiple components of the basement membrane that are required for epithelial-mesenchymal adhesion [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]"
+        },
+        {
+          "gene": "HMCN1",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4, F and G)",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ... including multiple components of the basement membrane that are required for epithelial-mesenchymal adhesion [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]"
+        },
+        {
+          "gene": "ITGA8",
+          "evidence_level": "explicit",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4, F and G)",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ... including multiple components of the basement membrane that are required for epithelial-mesenchymal adhesion [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]"
+        }
+      ]
+    },
+    {
+      "cell_type": "Alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FGFR4",
+          "evidence_level": "implied",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4B)",
+          "source_context": "Alveolar fibroblasts also specifically expressed FGFR4, which is essential for alveologenesis in mice"
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "implied",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4G)",
+          "source_context": "lung alveolar fibroblasts distinctively expressed a calcium signaling and actomyosin contractility program ... including the mechanosensitive calcium ion channel PIEZO2"
+        },
+        {
+          "gene": "CACNA1D",
+          "evidence_level": "implied",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4G)",
+          "source_context": "multiple calcium channels and adrenergic and purinergic receptors, which have been implicated in stimulating calcium release from intracellular stores (CACNA1D, TRPC6, MCOLN2/TRPML2)"
+        },
+        {
+          "gene": "TRPC6",
+          "evidence_level": "implied",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4G)",
+          "source_context": "multiple calcium channels and adrenergic and purinergic receptors, which have been implicated in stimulating calcium release from intracellular stores (CACNA1D, TRPC6, MCOLN2/TRPML2)"
+        },
+        {
+          "gene": "MCOLN2",
+          "evidence_level": "implied",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4G)",
+          "source_context": "multiple calcium channels and adrenergic and purinergic receptors, which have been implicated in stimulating calcium release from intracellular stores (CACNA1D, TRPC6, MCOLN2/TRPML2)"
+        },
+        {
+          "gene": "MYLK",
+          "evidence_level": "implied",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (Fig. 4G)",
+          "source_context": "and myosin light chain kinase (MYLK), which is involved in mediating calcium-induced actomyosin contraction"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_level": "implied",
+          "source_section": "Results: Shared and tissue-specific features of fibroblasts (fig. S18D)",
+          "source_context": "alveolar fibroblasts express myofibroblast markers (e.g., ACTA2; fig. S18D)"
+        }
+      ]
+    },
+    {
+      "cell_type": "Adipocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_level": "explicit",
+          "source_section": "Results: Cell-composition and cell-intrinsic secondary effects in muscle disease tissue (fig. S26)",
+          "source_context": "up-regulation of hallmark fibroblast, adipocyte, and immune genes, likely because of changes in cell proportions (e.g., COL6A2, ADIPOQ, and HLA-A, respectively)"
+        },
+        {
+          "gene": "DPT",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell-composition and cell-intrinsic secondary effects in muscle disease tissue",
+          "source_context": "dermatopontin (DPT), an adipokine that promotes ECM remodeling and inflammation, is expressed in adipocytes but is not correlated with ADIPOQ expression across adipocytes from different tissues"
+        },
+        {
+          "gene": "ANGPTL8",
+          "evidence_level": "implied",
+          "source_section": "Results: Associating GWAS genes with gene programs across cell types reveals six main trait groups (Fig. 7E, table S20)",
+          "source_context": "a group of HDL cholesterol traits was associated with adipocytes in all three muscle tissues and enriched for fatty acid, triglyceride, and lipid homeostasis and related metabolic processes, including ANGPTL8 and PNPLA3"
+        },
+        {
+          "gene": "PNPLA3",
+          "evidence_level": "implied",
+          "source_section": "Results: Associating GWAS genes with gene programs across cell types reveals six main trait groups (Fig. 7E, table S20)",
+          "source_context": "a group of HDL cholesterol traits was associated with adipocytes in all three muscle tissues and enriched for fatty acid, triglyceride, and lipid homeostasis and related metabolic processes, including ANGPTL8 and PNPLA3"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ELK3",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell-composition and cell-intrinsic secondary effects in muscle disease tissue",
+          "source_context": "ELK3, which is expressed in endothelial cells, suppresses angiogenesis and may contribute to functional muscle ischemia in muscle disease"
+        }
+      ]
+    },
+    {
+      "cell_type": "Slow myocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH7",
+          "evidence_level": "implied",
+          "source_section": "Results: Differences between slow and fast myocyte subsets (fig. S9, E and F)",
+          "source_context": "As expected, slow myocytes preferentially expressed type 1 fiber markers (36, 128) and disease genes MYH7 (FDR < 10−15 in cytoplasmic myonuclei) and PPARGC1A (FDR < 10−15 in regular myonuclei)."
+        },
+        {
+          "gene": "PPARGC1A",
+          "evidence_level": "implied",
+          "source_section": "Results: Differences between slow and fast myocyte subsets (fig. S9, E and F)",
+          "source_context": "As expected, slow myocytes preferentially expressed type 1 fiber markers (36, 128) and disease genes MYH7 (FDR < 10−15 in cytoplasmic myonuclei) and PPARGC1A (FDR < 10−15 in regular myonuclei)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fast myocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH2",
+          "evidence_level": "explicit",
+          "source_section": "Results: Differences between slow and fast myocyte subsets (fig. S9, E and F)",
+          "source_context": "Fast myocytes specifically expressed the type 2 fiber marker MYH2"
+        }
+      ]
+    },
+    {
+      "cell_type": "NMJ-localized myonuclei",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CHRNE",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell type–specific enrichment of monogenic disease genes (tables S2 and S12)",
+          "source_context": "genes linked to congenital myasthenic syndrome, a disorder affecting neuromuscular transmission, were specifically expressed in NMJ-localized myonuclei but not in other skeletal myonuclei. These included acetylcholine receptor subunits (CHRNE, CHRNA1, CHRND), the NMJ-organizing receptor tyrosine kinase MUSK, and NMJ-enriched ECM components (COL13A1, LAMA2)."
+        },
+        {
+          "gene": "CHRNA1",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell type–specific enrichment of monogenic disease genes (tables S2 and S12)",
+          "source_context": "genes linked to congenital myasthenic syndrome, a disorder affecting neuromuscular transmission, were specifically expressed in NMJ-localized myonuclei but not in other skeletal myonuclei. These included acetylcholine receptor subunits (CHRNE, CHRNA1, CHRND), the NMJ-organizing receptor tyrosine kinase MUSK, and NMJ-enriched ECM components (COL13A1, LAMA2)."
+        },
+        {
+          "gene": "CHRND",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell type–specific enrichment of monogenic disease genes (tables S2 and S12)",
+          "source_context": "genes linked to congenital myasthenic syndrome, a disorder affecting neuromuscular transmission, were specifically expressed in NMJ-localized myonuclei but not in other skeletal myonuclei. These included acetylcholine receptor subunits (CHRNE, CHRNA1, CHRND), the NMJ-organizing receptor tyrosine kinase MUSK, and NMJ-enriched ECM components (COL13A1, LAMA2)."
+        },
+        {
+          "gene": "MUSK",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell type–specific enrichment of monogenic disease genes (tables S2 and S12)",
+          "source_context": "genes linked to congenital myasthenic syndrome, a disorder affecting neuromuscular transmission, were specifically expressed in NMJ-localized myonuclei but not in other skeletal myonuclei. These included acetylcholine receptor subunits (CHRNE, CHRNA1, CHRND), the NMJ-organizing receptor tyrosine kinase MUSK, and NMJ-enriched ECM components (COL13A1, LAMA2)."
+        },
+        {
+          "gene": "COL13A1",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell type–specific enrichment of monogenic disease genes (tables S2 and S12)",
+          "source_context": "genes linked to congenital myasthenic syndrome, a disorder affecting neuromuscular transmission, were specifically expressed in NMJ-localized myonuclei but not in other skeletal myonuclei. These included acetylcholine receptor subunits (CHRNE, CHRNA1, CHRND), the NMJ-organizing receptor tyrosine kinase MUSK, and NMJ-enriched ECM components (COL13A1, LAMA2)."
+        },
+        {
+          "gene": "LAMA2",
+          "evidence_level": "implied",
+          "source_section": "Results: Cell type–specific enrichment of monogenic disease genes (tables S2 and S12)",
+          "source_context": "genes linked to congenital myasthenic syndrome, a disorder affecting neuromuscular transmission, were specifically expressed in NMJ-localized myonuclei but not in other skeletal myonuclei. These included acetylcholine receptor subunits (CHRNE, CHRNA1, CHRND), the NMJ-organizing receptor tyrosine kinase MUSK, and NMJ-enriched ECM components (COL13A1, LAMA2)."
+        }
+      ]
+    },
+    {
+      "cell_type": "sensory neurons",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Piezo2",
+          "evidence_level": "implied",
+          "source_section": "Discussion p.18",
+          "source_context": "mechanosensing of alveolar tension, which so far has been mainly attributed to Piezo2+ sensory neurons in mice"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": "LYVE1-expressing (tissue support)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.17",
+          "source_context": "for LYVE1- and HLAII–expressing macrophages, our results reinforce the notion of functional specification of these two macrophage states into tissue support and tissue immunity, respectively"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": "HLAII-expressing (tissue immunity)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLAII",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.17",
+          "source_context": "for LYVE1- and HLAII–expressing macrophages, our results reinforce the notion of functional specification of these two macrophage states into tissue support and tissue immunity, respectively"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": "Lyve1high (perivascular)",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lyve1",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.17",
+          "source_context": "In mice, Lyve1high macrophages are localized perivascularly, whereas MHCIIhigh macrophages are found in proximity to neurons"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": "MHCIIhigh (proximal to neurons)",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MHCII",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.17",
+          "source_context": "In mice, Lyve1high macrophages are localized perivascularly, whereas MHCIIhigh macrophages are found in proximity to neurons"
+        }
+      ]
+    },
+    {
+      "cell_type": "lung alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ITGA8",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.18",
+          "source_context": "PIEZO2+/ITGA8+ alveolar fibroblasts may contribute to mechanosensing of alveolar tension"
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "explicit",
+          "source_section": "Discussion p.18",
+          "source_context": "PIEZO2+/ITGA8+ alveolar fibroblasts may contribute to mechanosensing of alveolar tension"
+        },
+        {
+          "gene": "NPNT",
+          "evidence_level": "implied",
+          "source_section": "Discussion p.18",
+          "source_context": "BM adhesion genes, including ITGA8 and its interacting partner NPNT"
+        },
+        {
+          "gene": "MYLK",
+          "evidence_level": "implied",
+          "source_section": "Discussion p.18",
+          "source_context": "an actomyosin contractility program that features MYLK and mediates cytosolic calcium-induced cytoskeletal contraction"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FGF18",
+          "evidence_level": "inferred",
+          "source_section": "Discussion p.18",
+          "source_context": "possibly through FGFR4 in alveolar fibroblasts and its ligand FGF18 in myofibroblasts"
+        }
+      ]
+    },
+    {
+      "cell_type": "intraglomerular mesangial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PIEZO2",
+          "evidence_level": "implied",
+          "source_section": "Discussion p.18",
+          "source_context": "PIEZO2 and ITGA8 are also coexpressed in intraglomerular mesangial cells, where PIEZO2 may sense mechanical forces resulting from changes in blood flow"
+        },
+        {
+          "gene": "ITGA8",
+          "evidence_level": "implied",
+          "source_section": "Discussion p.18",
+          "source_context": "PIEZO2 and ITGA8 are also coexpressed in intraglomerular mesangial cells, where ITGA8 confers contractility and adhesion"
+        }
+      ]
+    }
+  ]
+}

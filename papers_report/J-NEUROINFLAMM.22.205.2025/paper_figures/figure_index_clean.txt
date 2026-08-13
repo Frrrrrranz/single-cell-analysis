@@ -1,0 +1,17 @@
+Paper: J-NEUROINFLAMM.22.205.2025.full
+Exported figure pages: 9
+
+Notes:
+- 请对照 PDF 原文和 Gemini 标注信息，确认每张图片对应的 Figure 编号
+- "caption" 表示该页面包含 Figure 图注
+- "content" 表示该页面主要展示 Figure 面板
+
+page_07.png <- PDF page 7 | caption: ? | content: ?
+page_09.png <- PDF page 9 | caption: ? | content: ?
+page_12.png <- PDF page 12 | caption: ? | content: ?
+page_13.png <- PDF page 13 | caption: ? | content: ?
+page_15.png <- PDF page 15 | caption: ? | content: ?
+page_17.png <- PDF page 17 | caption: ? | content: ?
+page_18.png <- PDF page 18 | caption: ? | content: ?
+page_20.png <- PDF page 20 | caption: ? | content: ?
+page_22.png <- PDF page 22 | caption: ? | content: ?

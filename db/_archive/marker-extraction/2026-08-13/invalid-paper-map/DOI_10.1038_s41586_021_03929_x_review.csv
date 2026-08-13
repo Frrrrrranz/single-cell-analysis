@@ -1,0 +1,10 @@
+﻿cell_type,subtype,species,is_pns_cell,gene_symbol,evidence_level,source_section,source_context,review_status,notes
+Delta cells,,human,false,SST,explicit,Abstract; Fig.1a-c,Delta cells expressing somatostatin (SST),pending,
+Enterochromaffin (EC) cells,,human,false,TPH1,explicit,Abstract; Fig.1a-c,Enterochromaffin (EC) cells expressing the serotonin catalyzing enzyme Tryptophan hydroxylase 1 (TPH1),pending,
+FIKL cells,,human,false,INS,explicit,Methods: Single cell RNA sequencing analysis,FIKL cells were defined as fetal K/L cells with insulin expression above zero.,pending,
+Fetal INS+ K/L (FIKL) cells,Fetal INS+ K/L,human,false,INS,explicit,Abstract; Fig.1d,"We identified high expression levels of INS, encoding the insulin protein, in a subset of the fetal K/L cells ... We denoted these cells as Fetal INS+ K/L (FIKL) cells.",pending,
+K/L cells,,human,false,GCG,explicit,Abstract; Fig.1a-c,K/L cells expressing gastric inhibitory polypeptide (GIP) and the gene encoding glucagon/glucagon-like-peptides (GCG),pending,
+K/L cells,,human,false,GIP,explicit,Abstract; Fig.1a-c,K/L cells expressing gastric inhibitory polypeptide (GIP) and the gene encoding glucagon/glucagon-like-peptides (GCG),pending,
+N/I cells,,human,false,CCK,explicit,Abstract; Fig.1a-c,N/I cells expressing Neurotensin (NTS) and Cholecystokinin (CCK),pending,
+N/I cells,,human,false,NTS,explicit,Abstract; Fig.1a-c,N/I cells expressing Neurotensin (NTS) and Cholecystokinin (CCK),pending,
+X cells,,human,false,GHRL,explicit,Abstract; Fig.1a-c,X cells expressing Ghrelin (GHRL),pending,

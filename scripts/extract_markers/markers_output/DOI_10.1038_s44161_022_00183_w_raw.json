@@ -1,0 +1,367 @@
+{
+  "paper_id": "DOI_10.1038_s44161_022_00183_w",
+  "cell_types": [
+    {
+      "cell_type": "Epicardial_cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WT1",
+          "evidence_level": "explicit",
+          "source_section": "Page 2 (Introduction)",
+          "source_context": "epicardial cells across many species and humans are identified using WT1, TBX18 and TCF21"
+        },
+        {
+          "gene": "TBX18",
+          "evidence_level": "explicit",
+          "source_section": "Page 2 (Introduction)",
+          "source_context": "epicardial cells across many species and humans are identified using WT1, TBX18 and TCF21"
+        },
+        {
+          "gene": "TCF21",
+          "evidence_level": "explicit",
+          "source_section": "Page 2 (Introduction)",
+          "source_context": "epicardial cells across many species and humans are identified using WT1, TBX18 and TCF21"
+        }
+      ]
+    },
+    {
+      "cell_type": "Epicardial_cells",
+      "subtype": "adult",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BNC1",
+          "evidence_level": "explicit",
+          "source_section": "Page 2 (Introduction)",
+          "source_context": "adult human epicardium may be identified through its co-expression of BNC1 and MSLN"
+        },
+        {
+          "gene": "MSLN",
+          "evidence_level": "explicit",
+          "source_section": "Page 2 (Introduction)",
+          "source_context": "adult human epicardium may be identified through its co-expression of BNC1 and MSLN"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuronal_cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "STMN2",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 2c",
+          "source_context": "Differential expression analysis between clusters with the top upregulated genes in c shows marker genes used in cluster annotation and identification; STMN2, NRXN1, TUBB3, XKR4 and TUBB2B are listed for the Neuronal_cells cluster."
+        },
+        {
+          "gene": "NRXN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 2c",
+          "source_context": "Differential expression analysis between clusters with the top upregulated genes in c shows marker genes used in cluster annotation and identification; STMN2, NRXN1, TUBB3, XKR4 and TUBB2B are listed for the Neuronal_cells cluster."
+        },
+        {
+          "gene": "TUBB3",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 2c",
+          "source_context": "Differential expression analysis between clusters with the top upregulated genes in c shows marker genes used in cluster annotation and identification; STMN2, NRXN1, TUBB3, XKR4 and TUBB2B are listed for the Neuronal_cells cluster."
+        },
+        {
+          "gene": "XKR4",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 2c",
+          "source_context": "Differential expression analysis between clusters with the top upregulated genes in c shows marker genes used in cluster annotation and identification; STMN2, NRXN1, TUBB3, XKR4 and TUBB2B are listed for the Neuronal_cells cluster."
+        },
+        {
+          "gene": "TUBB2B",
+          "evidence_level": "explicit",
+          "source_section": "Fig. 2c",
+          "source_context": "Differential expression analysis between clusters with the top upregulated genes in c shows marker genes used in cluster annotation and identification; STMN2, NRXN1, TUBB3, XKR4 and TUBB2B are listed for the Neuronal_cells cluster."
+        }
+      ]
+    },
+    {
+      "cell_type": "Epicardium_Mesothelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT19",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "The three epicardial subclusters expressed well-established epicardial signature genes KRT19, RARRES2, UPK3B, WT1 and BNC1 (Supplementary Tables 3 and 4)."
+        },
+        {
+          "gene": "RARRES2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "The three epicardial subclusters expressed well-established epicardial signature genes KRT19, RARRES2, UPK3B, WT1 and BNC1 (Supplementary Tables 3 and 4)."
+        },
+        {
+          "gene": "UPK3B",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "The three epicardial subclusters expressed well-established epicardial signature genes KRT19, RARRES2, UPK3B, WT1 and BNC1 (Supplementary Tables 3 and 4)."
+        },
+        {
+          "gene": "WT1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "The three epicardial subclusters expressed well-established epicardial signature genes KRT19, RARRES2, UPK3B, WT1 and BNC1 (Supplementary Tables 3 and 4)."
+        },
+        {
+          "gene": "BNC1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "The three epicardial subclusters expressed well-established epicardial signature genes KRT19, RARRES2, UPK3B, WT1 and BNC1 (Supplementary Tables 3 and 4)."
+        },
+        {
+          "gene": "PRG4",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c / Results p.6",
+          "source_context": "Mesothelial-specific PRG4 and ITLN1 suggest spatial separation of epicardial cell types; other mesothelial genes were AQP1, PLA2G2A, SBSPON and TM4SF1."
+        },
+        {
+          "gene": "ITLN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c / Results p.6",
+          "source_context": "Mesothelial-specific PRG4 and ITLN1 suggest spatial separation of epicardial cell types; other mesothelial genes were AQP1, PLA2G2A, SBSPON and TM4SF1."
+        },
+        {
+          "gene": "AQP1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c / Results p.6",
+          "source_context": "Mesothelial-specific PRG4 and ITLN1 suggest spatial separation of epicardial cell types; other mesothelial genes were AQP1, PLA2G2A, SBSPON and TM4SF1."
+        },
+        {
+          "gene": "PLA2G2A",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c / Results p.6",
+          "source_context": "Mesothelial-specific PRG4 and ITLN1 suggest spatial separation of epicardial cell types; other mesothelial genes were AQP1, PLA2G2A, SBSPON and TM4SF1."
+        },
+        {
+          "gene": "SBSPON",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c / Results p.6",
+          "source_context": "Mesothelial-specific PRG4 and ITLN1 suggest spatial separation of epicardial cell types; other mesothelial genes were AQP1, PLA2G2A, SBSPON and TM4SF1."
+        },
+        {
+          "gene": "TM4SF1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c / Results p.6",
+          "source_context": "Mesothelial-specific PRG4 and ITLN1 suggest spatial separation of epicardial cell types; other mesothelial genes were AQP1, PLA2G2A, SBSPON and TM4SF1."
+        }
+      ]
+    },
+    {
+      "cell_type": "Epicardium_FB-like",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DCN",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "We labeled cluster 8 as Epicardium_FB-like in light of its expression of fibroblast genes, including DCN, COL1A1 and POSTN."
+        },
+        {
+          "gene": "COL1A1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "We labeled cluster 8 as Epicardium_FB-like in light of its expression of fibroblast genes, including DCN, COL1A1 and POSTN."
+        },
+        {
+          "gene": "POSTN",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "We labeled cluster 8 as Epicardium_FB-like in light of its expression of fibroblast genes, including DCN, COL1A1 and POSTN."
+        },
+        {
+          "gene": "TWIST1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "The Epicardium_FB-like cluster appeared to have low TBX18 expression, unlike the other epicardial clusters, but expressed genes TWIST1 and SPARC, which are strongly associated with EMT."
+        },
+        {
+          "gene": "SPARC",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "The Epicardium_FB-like cluster appeared to have low TBX18 expression, unlike the other epicardial clusters, but expressed genes TWIST1 and SPARC, which are strongly associated with EMT."
+        },
+        {
+          "gene": "SEMA3D",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6",
+          "source_context": "In the EPDCs, we found SEMA3D, involved in concerted endothelial cell migration; CCBE1, important in mouse cardiac development; EGFL6, associated with angiogenesis; and GPC3, reported to modulate WNT signaling."
+        },
+        {
+          "gene": "CCBE1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6",
+          "source_context": "In the EPDCs, we found SEMA3D, involved in concerted endothelial cell migration; CCBE1, important in mouse cardiac development; EGFL6, associated with angiogenesis; and GPC3, reported to modulate WNT signaling."
+        },
+        {
+          "gene": "EGFL6",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6",
+          "source_context": "In the EPDCs, we found SEMA3D, involved in concerted endothelial cell migration; CCBE1, important in mouse cardiac development; EGFL6, associated with angiogenesis; and GPC3, reported to modulate WNT signaling."
+        },
+        {
+          "gene": "GPC3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6",
+          "source_context": "In the EPDCs, we found SEMA3D, involved in concerted endothelial cell migration; CCBE1, important in mouse cardiac development; EGFL6, associated with angiogenesis; and GPC3, reported to modulate WNT signaling."
+        },
+        {
+          "gene": "C1QTNF3",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c",
+          "source_context": "Top-scoring predictive markers for epicardial subtypes list EPDC genes C1QTNF3, CPB1, SEMA3D, CCBE1, EGFL6 and GPC3."
+        },
+        {
+          "gene": "CPB1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.4c",
+          "source_context": "Top-scoring predictive markers for epicardial subtypes list EPDC genes C1QTNF3, CPB1, SEMA3D, CCBE1, EGFL6 and GPC3."
+        }
+      ]
+    },
+    {
+      "cell_type": "Epicardium_Proliferating",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CENPF",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "Cluster 10 as Epicardium_Proliferating with its expression of cell cycle and mitotic genes CENPF and HMGB2."
+        },
+        {
+          "gene": "HMGB2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "Cluster 10 as Epicardium_Proliferating with its expression of cell cycle and mitotic genes CENPF and HMGB2."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DCN",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5 / Fig.2d",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; fibroblast markers include DCN, COL5A1, COL1A1 and POSTN."
+        },
+        {
+          "gene": "COL5A1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2d",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; fibroblast markers include DCN, COL5A1, COL1A1 and POSTN."
+        },
+        {
+          "gene": "COL1A1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5 / Fig.2d",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; fibroblast markers include DCN, COL5A1, COL1A1 and POSTN."
+        },
+        {
+          "gene": "POSTN",
+          "evidence_level": "explicit",
+          "source_section": "Results p.5",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; fibroblast markers include DCN, COL5A1, COL1A1 and POSTN."
+        }
+      ]
+    },
+    {
+      "cell_type": "Smooth_muscle_cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CNN1",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2d",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; SMC markers include CNN1, TAGLN, ACTA2 and MYH11."
+        },
+        {
+          "gene": "TAGLN",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2d",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; SMC markers include CNN1, TAGLN, ACTA2 and MYH11."
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2d",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; SMC markers include CNN1, TAGLN, ACTA2 and MYH11."
+        },
+        {
+          "gene": "MYH11",
+          "evidence_level": "explicit",
+          "source_section": "Fig.2d",
+          "source_context": "Fig.2d shows expression of established markers of epicardial, fibroblast, smooth muscle cell (SMC) and EMT markers within epicardial subpopulations; SMC markers include CNN1, TAGLN, ACTA2 and MYH11."
+        }
+      ]
+    },
+    {
+      "cell_type": "EPDC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TWIST1",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "human EPDC transcriptomes have been described at a single-cell resolution, as determined by their expression of mesenchymal genes TWIST1 and SPARC as well as the combined expression of known epicardial and fibroblast genes."
+        },
+        {
+          "gene": "SPARC",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "human EPDC transcriptomes have been described at a single-cell resolution, as determined by their expression of mesenchymal genes TWIST1 and SPARC as well as the combined expression of known epicardial and fibroblast genes."
+        },
+        {
+          "gene": "POSTN",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "Additionally, the position of these cells was consistent with migrating EPDCs using immunohistochemistry using antibodies for POSTN, TM4SF1 and established epicardial markers."
+        },
+        {
+          "gene": "TM4SF1",
+          "evidence_level": "explicit",
+          "source_section": "Discussion",
+          "source_context": "Additionally, the position of these cells was consistent with migrating EPDCs using immunohistochemistry using antibodies for POSTN, TM4SF1 and established epicardial markers."
+        }
+      ]
+    },
+    {
+      "cell_type": "Epicardial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "UPK3B",
+          "evidence_level": "explicit",
+          "source_section": "Methods: Epicardial markers and epicardial markers library (p.11)",
+          "source_context": "To further enrich this library distinguishing between epicardial cell types ‘FB-like’ and ‘Mesothelial’, we restricted the dataset to UPK3B+ cells as UPK3B."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "paper_id": "DOI_10.1016_j.cell.2023.11.026",
+  "cell_types": [
+    {
+      "cell_type": "Aberrant_Basaloid",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3A",
+          "source_context": "the aberrant basaloid cells (\"Aberrant_Basaloid\") ... were aligned with the distal alveolar epithelial population (\"KRT5-/KRT17+\") ... verified their presence by combinatorial expression of multiple marker genes (Figure 3A)."
+        },
+        {
+          "gene": "KRT17",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3A",
+          "source_context": "the aberrant basaloid cells (\"Aberrant_Basaloid\") ... were aligned with the distal alveolar epithelial population (\"KRT5-/KRT17+\") ... verified their presence by combinatorial expression of multiple marker genes (Figure 3A)."
+        }
+      ]
+    },
+    {
+      "cell_type": "KRT5-/KRT17+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3A",
+          "source_context": "the distal alveolar epithelial population (\"KRT5-/KRT17+\") enriched in pulmonary fibrosis ... verified their presence by combinatorial expression of multiple marker genes (Figure 3A)."
+        },
+        {
+          "gene": "KRT17",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3A",
+          "source_context": "the distal alveolar epithelial population (\"KRT5-/KRT17+\") enriched in pulmonary fibrosis ... verified their presence by combinatorial expression of multiple marker genes (Figure 3A)."
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet cells",
+      "subtype": "MUC5B+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5B",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3B",
+          "source_context": "goblet cells in the diseased state ... were demonstrated to be heterogeneous, divisible into MUC5B+ and SCGB3A2+SCGB1A1+ populations (Figure 3B)."
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet cells",
+      "subtype": "SCGB3A2+SCGB1A1+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3B",
+          "source_context": "goblet cells in the diseased state ... were demonstrated to be heterogeneous, divisible into MUC5B+ and SCGB3A2+SCGB1A1+ populations (Figure 3B)."
+        },
+        {
+          "gene": "SCGB1A1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3B",
+          "source_context": "goblet cells in the diseased state ... were demonstrated to be heterogeneous, divisible into MUC5B+ and SCGB3A2+SCGB1A1+ populations (Figure 3B)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": "lipofibroblast-like",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HAS1",
+          "evidence_level": "implied",
+          "source_section": "Results p.6, Fig.S4D",
+          "source_context": "the IPF \"Fibroblast\" in Adams et al. was shown to align with the lipofibroblast-like subpopulation, as supported by its overexpression of HAS1 and PLIN2 (Figure S4D)."
+        },
+        {
+          "gene": "PLIN2",
+          "evidence_level": "implied",
+          "source_section": "Results p.6, Fig.S4D",
+          "source_context": "the IPF \"Fibroblast\" in Adams et al. was shown to align with the lipofibroblast-like subpopulation, as supported by its overexpression of HAS1 and PLIN2 (Figure S4D)."
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblast",
+      "subtype": "activated myofibroblast",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.6, Fig.3C",
+          "source_context": "The IPF \"Fibroblast\" in Morse et al., on the other hand, was ACTA2+ and corresponded to the activated myofibroblasts during pulmonary fibrosis (Figure 3C)."
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "peribronchial/IPF endothelial cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL15A1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.8, Fig.S5B",
+          "source_context": "In the lung endothelium, we located a match between the peribronchial endothelial cells from Adams et al. and all IPF endothelial cells in the other three datasets that were COL15A1+, a marker suggestive of a widespread bronchiolization occurring in endothelial cells of the distal lung in IPF (Figure S5B)."
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophage",
+      "subtype": "SPP1+ macrophage",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPP1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.8, Fig.S5C",
+          "source_context": "we assessed the distribution of the proﬁbrotic gene signature across harmonized immune cells and found its enrichment in the SPP1+ macrophages and, to a lesser extent, the F13A1+ macrophages in comparison with the FCN1+ macrophages (Figure S5C)."
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophage",
+      "subtype": "F13A1+ macrophage",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "F13A1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.8, Fig.S5C",
+          "source_context": "we assessed the distribution of the proﬁbrotic gene signature across harmonized immune cells and found its enrichment in the SPP1+ macrophages and, to a lesser extent, the F13A1+ macrophages in comparison with the FCN1+ macrophages (Figure S5C)."
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophage",
+      "subtype": "FCN1+ macrophage",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCN1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.8, Fig.S5C",
+          "source_context": "we assessed the distribution of the proﬁbrotic gene signature across harmonized immune cells and found its enrichment in the SPP1+ macrophages and, to a lesser extent, the F13A1+ macrophages in comparison with the FCN1+ macrophages (Figure S5C)."
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AGER",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9, Fig.4E",
+          "source_context": "We also observed a partial loss of the AT1 cell identity speciﬁcally in PM, illustrated by the deﬁciency in expression of AT1 markers AGER and RTKN2, as well as a gain of expression in known pulmonary ﬁbrosis marker MMP7."
+        },
+        {
+          "gene": "RTKN2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.9, Fig.4E",
+          "source_context": "We also observed a partial loss of the AT1 cell identity speciﬁcally in PM, illustrated by the deﬁciency in expression of AT1 markers AGER and RTKN2, as well as a gain of expression in known pulmonary ﬁbrosis marker MMP7."
+        }
+      ]
+    },
+    {
+      "cell_type": "NK cells",
+      "subtype": "CD16+ NK (NK_FCGR3Apos)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCGR3A",
+          "evidence_level": "implied",
+          "source_section": "Results p.4, Fig.S2A",
+          "source_context": "CellHint harmonized seven NK annotations into two subtypes as supported by their respective gene signatures, that is, the CD16+ (\"NK_FCGR3Apos,\" \"NK_CD16+,\" and \"mature NK\") and CD16- (\"NK_CD160pos,\" \"NK_CD56bright_CD16-,\" \"NK,\" and \"CD56 bright NK\") NK cells (Figure S2A)."
+        }
+      ]
+    },
+    {
+      "cell_type": "NK cells",
+      "subtype": "CD16- NK (NK_CD160pos)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD160",
+          "evidence_level": "implied",
+          "source_section": "Results p.4, Fig.S2A",
+          "source_context": "CellHint harmonized seven NK annotations into two subtypes as supported by their respective gene signatures, that is, the CD16+ (\"NK_FCGR3Apos,\" \"NK_CD16+,\" and \"mature NK\") and CD16- (\"NK_CD160pos,\" \"NK_CD56bright_CD16-,\" \"NK,\" and \"CD56 bright NK\") NK cells (Figure S2A)."
+        }
+      ]
+    },
+    {
+      "cell_type": "neuroblast-like population",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SLC17A7",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.6B",
+          "source_context": "These cells were excitatory (SLC17A7+GAD2-), precluding the possible contamination of early inhibitory neurons from the adjacent neurogenic olfactory epithelium (Figure S8D)."
+        },
+        {
+          "gene": "GAD2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.6B",
+          "source_context": "These cells were excitatory (SLC17A7+GAD2-), precluding the possible contamination of early inhibitory neurons from the adjacent neurogenic olfactory epithelium (Figure S8D)."
+        },
+        {
+          "gene": "DCX",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.6B",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "SOX11",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.6B",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "SOX4",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.6B",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "BHLHE22",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.6B",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "NNAT",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.S8D",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "STMN1",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.S8D",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "STMN2",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.S8D",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "STMN4",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.S8D",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "DPYSL3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.S8D",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        },
+        {
+          "gene": "TUBB3",
+          "evidence_level": "explicit",
+          "source_section": "Results p.12, Fig.S8D",
+          "source_context": "Multiple neuroblast-related biomarkers were overrepresented in these cells, including DCX, SOX11, SOX4, and BHLHE22 (Figure 6B), as well as other markers characteristic of neuroblasts or immature neurons (e.g., NNAT, STMN1/2/4, DPYSL3, and TUBB3) (Figure S8D)."
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "cytotoxic",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8A",
+          "evidence_level": "explicit",
+          "source_section": "Figure S4E",
+          "source_context": "UMAP representations overlaid by expression of marker genes of cytotoxic (CD8A+, GZMB+) and regulatory (FOXP3+, CTLA4+) T cell populations"
+        },
+        {
+          "gene": "GZMB",
+          "evidence_level": "explicit",
+          "source_section": "Figure S4E",
+          "source_context": "UMAP representations overlaid by expression of marker genes of cytotoxic (CD8A+, GZMB+) and regulatory (FOXP3+, CTLA4+) T cell populations"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "regulatory",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXP3",
+          "evidence_level": "explicit",
+          "source_section": "Figure S4E",
+          "source_context": "UMAP representations overlaid by expression of marker genes of cytotoxic (CD8A+, GZMB+) and regulatory (FOXP3+, CTLA4+) T cell populations"
+        },
+        {
+          "gene": "CTLA4",
+          "evidence_level": "explicit",
+          "source_section": "Figure S4E",
+          "source_context": "UMAP representations overlaid by expression of marker genes of cytotoxic (CD8A+, GZMB+) and regulatory (FOXP3+, CTLA4+) T cell populations"
+        }
+      ]
+    },
+    {
+      "cell_type": "excitatory neuron",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SLC17A7",
+          "evidence_level": "explicit",
+          "source_section": "Figure S8D",
+          "source_context": "markers related to the excitatory neuron (SLC17A7), inhibitory neuron (GAD2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "inhibitory neuron",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GAD2",
+          "evidence_level": "explicit",
+          "source_section": "Figure S8D",
+          "source_context": "markers related to the excitatory neuron (SLC17A7), inhibitory neuron (GAD2)"
+        }
+      ]
+    },
+    {
+      "cell_type": "PLIN2+ Fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PLIN2",
+          "evidence_level": "implied",
+          "source_section": "Figure S4D",
+          "source_context": "highlighting a correspondence between \"PLIN2+ Fibroblasts\" and \"Fibroblast.\""
+        }
+      ]
+    }
+  ]
+}

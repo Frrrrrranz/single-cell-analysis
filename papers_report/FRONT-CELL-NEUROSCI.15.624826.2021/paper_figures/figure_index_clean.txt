@@ -1,0 +1,19 @@
+Paper: FRONT-CELL-NEUROSCI.15.624826.2021.full
+Exported figure pages: 11
+
+Notes:
+- 请对照 PDF 原文和 Gemini 标注信息，确认每张图片对应的 Figure 编号
+- "caption" 表示该页面包含 Figure 图注
+- "content" 表示该页面主要展示 Figure 面板
+
+page_05.png <- PDF page 5 | caption: ? | content: ?
+page_06.png <- PDF page 6 | caption: ? | content: ?
+page_07.png <- PDF page 7 | caption: ? | content: ?
+page_08.png <- PDF page 8 | caption: ? | content: ?
+page_09.png <- PDF page 9 | caption: ? | content: ?
+page_10.png <- PDF page 10 | caption: ? | content: ?
+page_11.png <- PDF page 11 | caption: ? | content: ?
+page_12.png <- PDF page 12 | caption: ? | content: ?
+page_13.png <- PDF page 13 | caption: ? | content: ?
+page_14.png <- PDF page 14 | caption: ? | content: ?
+page_16.png <- PDF page 16 | caption: ? | content: ?

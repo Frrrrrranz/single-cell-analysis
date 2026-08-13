@@ -1,0 +1,381 @@
+{
+  "paper_id": "DOI_10.1038_s41588_024_01702_0",
+  "cell_types": [
+    {
+      "cell_type": "Pericyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Mesothelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Alveolar FB",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Adventitial FB",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "SMC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "General capillary",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Aerocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Lymphatic",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Systemic venous",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Venule",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Arteriole",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Alveolar type 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Transitional alveolar type 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Alveolar type 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Proliferating—Epithelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Basal",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Secretory—SCGB1A1+/SCGB3A2+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: Secretory—SCGB1A1+/SCGB3A2+"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: Secretory—SCGB1A1+/SCGB3A2+"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory—SCGB1A1+/MUC5B+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: Secretory—SCGB1A1+/MUC5B+"
+        },
+        {
+          "gene": "MUC5B",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: Secretory—SCGB1A1+/MUC5B+"
+        }
+      ]
+    },
+    {
+      "cell_type": "Secretory—SCGB3A2+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: Secretory—SCGB3A2+"
+        }
+      ]
+    },
+    {
+      "cell_type": "Differentiating ciliated",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Ciliated",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "KRT5−/KRT17+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT17",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: KRT5−/KRT17+"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Plasma",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "NK",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "CD4",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: CD4"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8/NKT",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_level": "implied",
+          "source_section": "Fig. 3",
+          "source_context": "Cell type name in Fig. 3: CD8/NKT"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "pDC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "cDC1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "cDC2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "moDC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Proliferating—Immune",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Interstitial macrophage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Alveolar macrophage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Monocyte-derived macrophage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Monocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Inflammatory monocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Macrophage − SPP1+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPP1",
+          "evidence_level": "implied",
+          "source_section": "Fig. 2c",
+          "source_context": "Cell type name in Fig. 2c: Macrophage − SPP1+"
+        }
+      ]
+    },
+    {
+      "cell_type": "CA4+ capillary",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CA4",
+          "evidence_level": "implied",
+          "source_section": "Fig. 2d",
+          "source_context": "Cell type name in Fig. 2d: CA4+ capillary"
+        }
+      ]
+    },
+    {
+      "cell_type": "WNT2+ FB",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_level": "implied",
+          "source_section": "Fig. 2c",
+          "source_context": "Cell type name in Fig. 2c: WNT2+ FB"
+        }
+      ]
+    },
+    {
+      "cell_type": "Peribronchiolar",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Matrix FB",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    }
+  ]
+}
