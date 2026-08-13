@@ -19,6 +19,7 @@ run_extraction.py — PDF → LLM → JSON 提取管线
     pip install markitdown openai python-dotenv
 """
 import argparse
+import hashlib
 import json
 import logging
 import os
@@ -26,9 +27,12 @@ import re
 import sys
 import time
 from pathlib import Path
+from collections import Counter
 from typing import Optional
 
 from dotenv import load_dotenv
+
+from marker_schema import EVIDENCE_RANK, MarkerSchemaError, SCHEMA_VERSION, apply_evidence_guardrail, validate_payload
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -41,8 +45,8 @@ if dotenv_path.exists():
 
 PROJECT_ROOT = Path(r"D:\OneDrive\Desktop\组")
 PAPERS_DIR = PROJECT_ROOT / "papers"
-OUTPUT_DIR = Path(__file__).parent / "markers_output"
-PROMPT_FILE = Path(__file__).parent / "prompts" / "extract_markers.txt"
+OUTPUT_DIR = Path(__file__).parent / "markers_output_v2"
+PROMPT_FILE = Path(__file__).parent / "prompts" / "extract_markers_v4.txt"
 
 # 用于分块的最大字符数（~80k chars ≈ 20k tokens 的中英文混合文本）
 DEFAULT_MAX_CHARS = 80_000
@@ -55,12 +59,12 @@ def read_prompt(prompt_path: Optional[Path] = None) -> str:
         return f.read()
 
 
-def find_pdf_files(papers_dir: Path, paper_id: Optional[str] = None) -> list[tuple[str, Path]]:
+def find_pdf_files(papers_dir: Path, paper_id: Optional[str] = None) -> list[tuple[str, str, str, Path]]:
     """遍历 papers/ 目录，找到所有 .full.pdf 文件
 
     返回: [(paper_id, pdf_path), ...]
     """
-    pdfs: list[tuple[str, Path]] = []
+    pdfs: list[tuple[str, str, str, Path]] = []
     if not papers_dir.exists():
         logger.error(f"论文目录不存在: {papers_dir}")
         return pdfs
@@ -72,7 +76,7 @@ def find_pdf_files(papers_dir: Path, paper_id: Optional[str] = None) -> list[tup
             continue
         pdf_file = subdir / f"{subdir.name}.full.pdf"
         if pdf_file.exists():
-            pdfs.append((subdir.name, pdf_file))
+            pdfs.append((subdir.name, subdir.name, "primary", pdf_file))
             logger.info(f"  发现: {subdir.name}")
 
     if paper_id and not pdfs:
@@ -81,19 +85,19 @@ def find_pdf_files(papers_dir: Path, paper_id: Optional[str] = None) -> list[tup
             if paper_id in subdir.name:
                 pdf_file = subdir / f"{subdir.name}.full.pdf"
                 if pdf_file.exists():
-                    pdfs.append((subdir.name, pdf_file))
+                    pdfs.append((subdir.name, subdir.name, "primary", pdf_file))
                     break
 
     return pdfs
 
 
-def find_pdf_files_flat(pdf_dir: Path, paper_map: dict[str, str],
-                        paper_id: Optional[str] = None) -> list[tuple[str, Path]]:
+def find_pdf_files_flat(pdf_dir: Path, paper_map: dict[str, dict[str, str]],
+                        paper_id: Optional[str] = None) -> list[tuple[str, str, str, Path]]:
     """遍历扁平 PDF 目录，用映射表匹配 paper_id
 
-    paper_map: {pdf_filename: paper_id}
+    paper_map: {pdf_filename: {paper_id, document_id, document_role, sha256}}
     """
-    pdfs: list[tuple[str, Path]] = []
+    pdfs: list[tuple[str, str, str, Path]] = []
     if not pdf_dir.exists():
         logger.error(f"PDF 目录不存在: {pdf_dir}")
         return pdfs
@@ -101,53 +105,92 @@ def find_pdf_files_flat(pdf_dir: Path, paper_map: dict[str, str],
     for pdf_file in sorted(pdf_dir.iterdir()):
         if pdf_file.suffix.lower() != '.pdf':
             continue
-        pid = paper_map.get(pdf_file.name)
-        if pid is None:
+        entry = paper_map.get(pdf_file.name)
+        if entry is None:
             continue
-        if paper_id and pid != paper_id:
+        pid = entry["paper_id"]
+        document_id = entry["document_id"]
+        document_role = entry["document_role"]
+        if paper_id and paper_id not in {pid, document_id}:
             continue
-        pdfs.append((pid, pdf_file))
-        logger.info(f"  发现: {pid} -> {pdf_file.name}")
+        expected_sha256 = entry.get("sha256", "")
+        if expected_sha256:
+            digest = hashlib.sha256()
+            with pdf_file.open("rb") as stream:
+                for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+                    digest.update(chunk)
+            actual_sha256 = digest.hexdigest()
+            if actual_sha256 != expected_sha256:
+                raise ValueError(
+                    f"PDF 哈希与审计映射不一致: {pdf_file.name} "
+                    f"(expected={expected_sha256}, actual={actual_sha256})"
+                )
+        pdfs.append((pid, document_id, document_role, pdf_file))
+        logger.info("  发现: %s [%s] -> %s", document_id, document_role, pdf_file.name)
 
     if not pdfs:
         logger.warning(f"  未找到匹配的 PDF（共 {len(list(pdf_dir.glob('*.pdf')))} 个 PDF 文件）")
     return pdfs
 
 
-def load_paper_map(map_path: Path) -> dict[str, str]:
-    """加载 paper_id 映射 JSON"""
+def load_paper_map(map_path: Path) -> dict[str, dict[str, str]]:
+    """加载结构化文档映射；兼容旧的字符串 paper_id 值。"""
     if not map_path.exists():
         logger.error(f"映射表不存在: {map_path}")
         return {}
     with open(map_path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError("paper_map 必须是 {pdf_filename: paper_id} 对象")
+    mapping: dict[str, dict[str, str]] = {}
+    valid_roles = {"primary", "supplement", "extended_data", "correction"}
+    for filename, value in data.items():
+        if not isinstance(filename, str) or not filename.lower().endswith(".pdf"):
+            raise ValueError(f"无效 PDF 文件名: {filename!r}")
+        if isinstance(value, str):
+            paper_id = value.strip()
+            entry = {"paper_id": paper_id, "document_id": paper_id, "document_role": "primary", "sha256": ""}
+        elif isinstance(value, dict):
+            entry = {
+                "paper_id": str(value.get("paper_id") or "").strip(),
+                "document_id": str(value.get("document_id") or "").strip(),
+                "document_role": str(value.get("document_role") or "").strip(),
+                "sha256": str(value.get("sha256") or "").strip(),
+            }
+        else:
+            raise ValueError(f"无效映射值: {filename} -> {value!r}")
+        if not entry["paper_id"] or not entry["document_id"]:
+            raise ValueError(f"映射缺少 paper_id/document_id: {filename}")
+        if entry["document_role"] not in valid_roles:
+            raise ValueError(f"无效 document_role: {filename} -> {entry['document_role']!r}")
+        mapping[filename] = entry
+    document_id_counts = Counter(entry["document_id"] for entry in mapping.values())
+    duplicate_ids = sorted(document_id for document_id, count in document_id_counts.items() if count > 1)
+    if duplicate_ids:
+        raise ValueError(f"paper_map 中存在重复 document_id: {duplicate_ids}")
+    return mapping
 
 
 def convert_pdf_to_text(pdf_path: Path) -> Optional[str]:
     """将 PDF 转换为纯文本
 
-    优先使用 markitdown（小文件），回退到 PyPDF2 → pdfminer
-    大文件(>20MB)跳过 markitdown 直接用 PyPDF2，避免长时间卡住
+    无论文件大小均优先使用 MarkItDown，失败后回退到 PyPDF2 → pdfminer。
     """
     text = None
     file_size_mb = pdf_path.stat().st_size / 1024 / 1024
 
-    # 大文件跳过 markitdown（太慢）
-    if file_size_mb <= 20:
-        try:
-            from markitdown import MarkItDown
-            md = MarkItDown()
-            result = md.convert(str(pdf_path))
-            text_content = result.text_content
-            if text_content and len(text_content) > 100:
-                logger.info(f"  使用 markitdown 转换成功 ({file_size_mb:.1f} MB)")
-                return text_content
-        except ImportError:
-            logger.info("  markitdown 未安装，尝试回退方案")
-        except Exception as e:
-            logger.warning(f"  markitdown 转换失败: {e}")
-    else:
-        logger.info(f"  文件较大 ({file_size_mb:.1f} MB)，跳过 markitdown，直接用 PyPDF2")
+    try:
+        from markitdown import MarkItDown
+        md = MarkItDown()
+        result = md.convert(str(pdf_path))
+        text_content = result.text_content
+        if text_content and len(text_content) > 100:
+            logger.info(f"  使用 MarkItDown 转换成功 ({file_size_mb:.1f} MB)")
+            return text_content
+    except ImportError:
+        logger.info("  MarkItDown 未安装，尝试回退方案")
+    except Exception as e:
+        logger.warning(f"  MarkItDown 转换失败: {e}")
 
     # 回退 PyPDF2
     try:
@@ -352,11 +395,9 @@ def merge_json_results(results: list[Optional[str]]) -> dict:
 
     处理去重：同一 cell_type + subtype + gene 组合只保留证据等级最高的
     """
-    merged: dict = {"paper_id": "", "cell_types": []}
+    merged: dict = {"schema_version": SCHEMA_VERSION, "paper_id": "", "cell_types": []}
 
     cell_type_map: dict[str, dict] = {}
-    evidence_rank = {"explicit": 4, "implied": 3, "inferred": 2, "imported": 1}
-
     for result_str in results:
         if not result_str:
             continue
@@ -366,11 +407,20 @@ def merge_json_results(results: list[Optional[str]]) -> dict:
             logger.warning(f"  跳过无效 JSON: {result_str[:200]}")
             continue
 
+        try:
+            validate_payload(data)
+        except MarkerSchemaError as exc:
+            logger.warning("  跳过 schema 无效的提取块: %s", exc)
+            continue
+
         if not merged["paper_id"] and data.get("paper_id"):
             merged["paper_id"] = data["paper_id"]
 
         for ct in data.get("cell_types", []):
-            ct_key = f"{ct.get('cell_type', '')}|{ct.get('subtype', '')}"
+            ct_key = (
+                f"{ct.get('cell_type', '')}|{ct.get('subtype', '')}|"
+                f"{ct.get('species', '')}"
+            )
             if ct_key not in cell_type_map:
                 cell_type_map[ct_key] = {
                     "cell_type": ct["cell_type"],
@@ -388,35 +438,44 @@ def merge_json_results(results: list[Optional[str]]) -> dict:
             # 去重 markers
             existing_genes: dict[str, int] = {}
             for m in cell_type_map[ct_key]["markers"]:
-                existing_genes[m["gene"]] = evidence_rank.get(m["evidence_level"], 0)
+                marker_key = f"{m['gene']}|{m.get('marker_polarity', 'unknown')}"
+                existing_genes[marker_key] = EVIDENCE_RANK.get(m["evidence_type"], 0)
 
             for m in ct.get("markers", []):
+                m = apply_evidence_guardrail(m)
                 gene = m["gene"]
-                new_rank = evidence_rank.get(m["evidence_level"], 0)
-                if gene in existing_genes:
-                    if new_rank > existing_genes[gene]:
+                marker_key = f"{gene}|{m.get('marker_polarity', 'unknown')}"
+                new_rank = EVIDENCE_RANK.get(m["evidence_type"], 0)
+                if marker_key in existing_genes:
+                    if new_rank > existing_genes[marker_key]:
                         # 替换为更高证据等级
                         cell_type_map[ct_key]["markers"] = [
                             x for x in cell_type_map[ct_key]["markers"]
-                            if x["gene"] != gene
+                            if f"{x['gene']}|{x.get('marker_polarity', 'unknown')}" != marker_key
                         ]
                         cell_type_map[ct_key]["markers"].append(m)
-                        existing_genes[gene] = new_rank
+                        existing_genes[marker_key] = new_rank
                 else:
                     cell_type_map[ct_key]["markers"].append(m)
-                    existing_genes[gene] = new_rank
+                    existing_genes[marker_key] = new_rank
 
     merged["cell_types"] = list(cell_type_map.values())
     return merged
 
 
-def process_paper(paper_id: str, pdf_path: Path, args: argparse.Namespace) -> bool:
+def process_paper(
+    paper_id: str,
+    document_id: str,
+    document_role: str,
+    pdf_path: Path,
+    args: argparse.Namespace,
+) -> bool:
     """处理单篇论文，返回是否成功"""
     logger.info(f"\n{'='*60}")
-    logger.info(f"处理论文: {paper_id}")
+    logger.info("处理文档: %s (%s, paper=%s)", document_id, document_role, paper_id)
     logger.info(f"  PDF: {pdf_path}")
 
-    output_file = OUTPUT_DIR / f"{paper_id}_raw.json"
+    output_file = Path(args.output_dir) / f"{document_id}_raw.json"
     if args.skip_existing and output_file.exists():
         logger.info(f"  跳过（已存在）: {output_file}")
         return True
@@ -451,7 +510,9 @@ def process_paper(paper_id: str, pdf_path: Path, args: argparse.Namespace) -> bo
     for idx, (section_name, section_content) in enumerate(chunks):
         logger.info(f"  处理块 {idx+1}/{len(chunks)}: {section_name}")
         user_content = (
-            f"以下论文文本来自 [{paper_id}] 的 {section_name} 章节。\n"
+            f"以下文本来自论文 [{paper_id}] 的 [{document_role}] 文档，文档 ID 为 [{document_id}]，"
+            f"当前为 {section_name} 章节。\n"
+            f"请在输出顶层原样填写 paper_id、document_id 和 document_role。\n"
             f"请从中提取所有细胞类型及其 marker 基因。\n\n"
             f"论文文本:\n{section_content}"
         )
@@ -466,16 +527,23 @@ def process_paper(paper_id: str, pdf_path: Path, args: argparse.Namespace) -> bo
         if idx < len(chunks) - 1:
             time.sleep(1)
 
-    if not results:
-        logger.error("  LLM 提取全部失败")
+    if len(results) != len(chunks):
+        logger.error(
+            "  LLM 提取不完整：成功 %d/%d 块；为避免生成残缺论文结果，本次不保存",
+            len(results),
+            len(chunks),
+        )
         return False
 
     # 4. 合并 & 保存
     logger.info("  [4/4] 合并并保存结果...")
     merged = merge_json_results(results)
     merged["paper_id"] = paper_id
+    merged["document_id"] = document_id
+    merged["document_role"] = document_role
+    merged["source_pdf"] = pdf_path.name
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False, indent=2)
 
@@ -522,19 +590,27 @@ def main() -> None:
             sys.exit(1)
         paper_id = args.paper_id or pdf_path.stem
         logger.info(f"单文件模式: {paper_id} -> {pdf_path}")
-        pdfs = [(paper_id, pdf_path)]
+        pdfs = [(paper_id, paper_id, "primary", pdf_path)]
 
     # 模式 2: 扁平目录模式
     elif args.flat_pdf_dir:
         if not args.paper_map:
             logger.error("扁平目录模式需要 --paper-map 参数")
             sys.exit(1)
-        paper_map = load_paper_map(Path(args.paper_map))
+        try:
+            paper_map = load_paper_map(Path(args.paper_map))
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            logger.error("映射表校验失败: %s", exc)
+            sys.exit(1)
         if not paper_map:
             sys.exit(1)
         logger.info(f"扁平目录模式: {args.flat_pdf_dir} (映射表: {len(paper_map)} 项)")
-        pdfs = find_pdf_files_flat(Path(args.flat_pdf_dir), paper_map,
-                                   paper_id=args.paper_id)
+        try:
+            pdfs = find_pdf_files_flat(Path(args.flat_pdf_dir), paper_map,
+                                       paper_id=args.paper_id)
+        except (OSError, ValueError) as exc:
+            logger.error("PDF 与映射校验失败: %s", exc)
+            sys.exit(1)
 
     # 模式 3: 传统 papers/ 目录模式
     else:
@@ -549,12 +625,14 @@ def main() -> None:
 
     # 处理每篇论文
     success = 0
-    for paper_id, pdf_path in pdfs:
-        if process_paper(paper_id, pdf_path, args):
+    for paper_id, document_id, document_role, pdf_path in pdfs:
+        if process_paper(paper_id, document_id, document_role, pdf_path, args):
             success += 1
 
     logger.info(f"\n{'='*60}")
     logger.info(f"完成: {success}/{len(pdfs)} 篇论文成功处理")
+    if success != len(pdfs):
+        sys.exit(1)
 
 
 if __name__ == "__main__":

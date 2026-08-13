@@ -1,0 +1,392 @@
+{
+  "10.1016_j.cell.2019.06.029_PublisherDirect.pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2019.06.029",
+    "document_id": "DOI_10.1016_j.cell.2019.06.029",
+    "document_role": "primary",
+    "sha256": "e59dc4d405201fcce68ea965903f5a1dea66b2ec76d343be9f4b38281b2eee4e"
+  },
+  "10.1038_s41586-020-2496-1_CrossrefPage.pdf": {
+    "paper_id": "DOI_10.1038_s41586-020-2496-1",
+    "document_id": "DOI_10.1038_s41586-020-2496-1__supplement_01",
+    "document_role": "supplement",
+    "sha256": "b6a70103963b8e7316d70d8f5baa1b417a8d74b64bfdd63b87f33b4a4d8e9764"
+  },
+  "10.1158_2159-8290.CD-22-0824_PublisherDirect.pdf": {
+    "paper_id": "DOI_10.1158_2159-8290.cd-22-0824",
+    "document_id": "DOI_10.1158_2159-8290.cd-22-0824",
+    "document_role": "primary",
+    "sha256": "38cc06e4f16647c188f18e20e1a4850e51c5fdb7c15ad1bd3782799a7b7b43a9"
+  },
+  "A_molecular_cell_atlas_of_the_human_lung_from_single-cell_RNA_sequencing(科研通-ablesci.com).pdf": {
+    "paper_id": "DOI_10.1038_s41586-020-2922-4",
+    "document_id": "DOI_10.1038_s41586-020-2922-4",
+    "document_role": "primary",
+    "sha256": "cd262a5d138cafc0e65d260e7232e5e342e7b24a93fd54230216e6332b9abdd6"
+  },
+  "DOI_10.1016_j.jcf.2025.01.016_Cystic Fibrosis and healthy control biopsy.pdf": {
+    "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+    "document_id": "DOI_10.1016_j.jcf.2025.01.016",
+    "document_role": "primary",
+    "sha256": "011493f8607576f90fa5cedd963be74f633117207d5a9c7a9d3c678e1d940864"
+  },
+  "DOI_10.1038_s44318-024-00328-6_A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant .pdf": {
+    "paper_id": "DOI_10.1038_s44318-024-00328-6",
+    "document_id": "DOI_10.1038_s44318-024-00328-6",
+    "document_role": "primary",
+    "sha256": "c690f7c2d16a0e99c1f614d0fa994db3ead8fb2a21e16b5bd3193bb1c5334a07"
+  },
+  "DOI_10.1101_2024.03.05.583423_Transcriptional dynamics of the murine heart during perinatal development at single-cell resolution.pdf": {
+    "paper_id": "DOI_10.1101_2024.03.05.583423",
+    "document_id": "DOI_10.1101_2024.03.05.583423",
+    "document_role": "primary",
+    "sha256": "2aebaaaf9c6af138905929eb54a81c0d76c7215f7839ec346c7c7cf370e351ef"
+  },
+  "DOI_10.1101_2024.10.23.619925_Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localis.pdf": {
+    "paper_id": "DOI_10.1101_2024.10.23.619925",
+    "document_id": "DOI_10.1101_2024.10.23.619925",
+    "document_role": "primary",
+    "sha256": "c80250ff2b657838703580a3f9b2b921d95a63db9eca0b93c68b5c33840b910e"
+  },
+  "DOI_10.1101_2025.01.17.633590_A pancreatic islet scRNA-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals.pdf": {
+    "paper_id": "DOI_10.1101_2025.01.17.633590",
+    "document_id": "DOI_10.1101_2025.01.17.633590",
+    "document_role": "primary",
+    "sha256": "022b74fa07c3aa736e2dbe6ccff6ed6b875885558fbc8c483818ea270dc1cbed"
+  },
+  "DOI_10.1101_2025.09.14.673351_Single-Nucleus Analysis of Human White Adipose Tissue Reveals Adipocyte Subsets with Distinct Metabo.pdf": {
+    "paper_id": "DOI_10.1101_2025.09.14.673351",
+    "document_id": "DOI_10.1101_2025.09.14.673351",
+    "document_role": "primary",
+    "sha256": "f8e91b6dbe7d5b2fa7555ad92acb6ca48a47d48ba023cf95820ef08c7b379e68"
+  },
+  "DOI_10.1101_2025.09.26.678707_Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney.pdf": {
+    "paper_id": "DOI_10.1101_2025.09.26.678707",
+    "document_id": "DOI_10.1101_2025.09.26.678707",
+    "document_role": "primary",
+    "sha256": "cc68fc0097f8f1c0b4121ce69808e920fc43f8deae0bfe5d973ecd59df060882"
+  },
+  "DOI_10.3389_fdmed.2021.806294_Single-Cell Transcriptomic Profiling of Human Dental Pulp in Sound and Carious Teeth_ A Pilot Study.pdf": {
+    "paper_id": "DOI_10.3389_fdmed.2021.806294",
+    "document_id": "DOI_10.3389_fdmed.2021.806294",
+    "document_role": "primary",
+    "sha256": "2457d1df789924ec93059d555688fa5026f3a01795ec8877440a9b1e76e2194c"
+  },
+  "DOI_10.64898_2025.12.18.695268_A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder.pdf": {
+    "paper_id": "DOI_10.64898_2025.12.18.695268",
+    "document_id": "DOI_10.64898_2025.12.18.695268",
+    "document_role": "primary",
+    "sha256": "66dba92905e9e1f26204069c721cdf7f7583f0dbadd1b0102ed8e0cf3550e9a4"
+  },
+  "Early_human_lung_immune_cell_development_and_its_role_in_epithelial_cell_fate(科研通-ablesci.com) (1).pdf": {
+    "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+    "document_id": "DOI_10.1126_sciimmunol.adf9988",
+    "document_role": "primary",
+    "sha256": "9e44d9641ef26e86782ccdfe33068545706e66d23d99313decc9426add3c3d19"
+  },
+  "PMID_28965763_Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutat.pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+    "document_id": "DOI_10.1016_j.cell.2017.09.004",
+    "document_role": "primary",
+    "sha256": "cae18b3fbd0707809f7c46037ad5213640e907d76501b5a383d45ca8f44ffb9c"
+  },
+  "PMID_30566875_A Cellular Anatomy of the Normal Adult Human Prostate and Prostatic Urethra..pdf": {
+    "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+    "document_id": "DOI_10.1016_j.celrep.2018.11.086",
+    "document_role": "primary",
+    "sha256": "86c9ccc967d28725de47e9ad4fbee24054adc3dc6be2059b8b2aa105f41044e8"
+  },
+  "PMID_31474370_Single-Cell Analysis of Crohn's Disease Lesions Identifies a Pathogenic Cellular Module Associated w.pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2019.08.008",
+    "document_id": "DOI_10.1016_j.cell.2019.08.008",
+    "document_role": "primary",
+    "sha256": "172caf71580ba0626fc0ca8b1f159186912e409411619f8942ac1c9d202a5e23"
+  },
+  "PMID_32669714_A single-cell transcriptomic atlas characterizes ageing tissues in the mouse..pdf": {
+    "paper_id": "DOI_10.1038_s41586-020-2496-1",
+    "document_id": "DOI_10.1038_s41586-020-2496-1",
+    "document_role": "primary",
+    "sha256": "f6cc15b1b46e5501e0653d6a8ba06da6bf63d98f1cc8ece316385b5f63a70dd1"
+  },
+  "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf": {
+    "paper_id": "DOI_10.7554_elife.62522",
+    "document_id": "DOI_10.7554_elife.62522",
+    "document_role": "primary",
+    "sha256": "9574dee534ed8b4bc3bb859d8e79d6f42e216ea728b4e56d6860adab3533dc1b"
+  },
+  "PMID_33290721_Single-Cell Sequencing of Developing Human Gut Reveals Transcriptional Links to Childhood Crohn's Di.pdf": {
+    "paper_id": "DOI_10.1016_j.devcel.2020.11.010",
+    "document_id": "DOI_10.1016_j.devcel.2020.11.010",
+    "document_role": "primary",
+    "sha256": "dfc28f4d0d3bccae28f751a555bbe63d78f8445e3a8a41763ba85ee99b68cd66"
+  },
+  "PMID_33406409_Spatiotemporal analysis of human intestinal development at single-cell resolution..pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2020.12.016",
+    "document_id": "DOI_10.1016_j.cell.2020.12.016",
+    "document_role": "primary",
+    "sha256": "6ab5e5e0d26f3164456875606f4e5996cbb6bc7a4ef10855233b862c0dc083be"
+  },
+  "PMID_33682422_Sex-Specific Control of Human Heart Maturation by the Progesterone Receptor..pdf": {
+    "paper_id": "DOI_10.1161_circulationaha.120.051921",
+    "document_id": "DOI_10.1161_circulationaha.120.051921",
+    "document_role": "primary",
+    "sha256": "8c4945bd753c2fd3d99ce1a6e7abf79bad1858c30ee52bcc51c8bfaaa5f61279"
+  },
+  "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf": {
+    "paper_id": "DOI_10.1038_s41467-021-21783-3",
+    "document_id": "DOI_10.1038_s41467-021-21783-3",
+    "document_role": "primary",
+    "sha256": "e62cecfb9d60910d3d07b825aa978c588bcf5277ce323d624563954a95b3e49a"
+  },
+  "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf": {
+    "paper_id": "DOI_10.1038_s41586-021-03569-1",
+    "document_id": "DOI_10.1038_s41586-021-03569-1",
+    "document_role": "primary",
+    "sha256": "d37697c5c4c1557dd863652fb91ff61aca00208a286baeae9486cd8c57fb56e2"
+  },
+  "PMID_34019796_Charting human development using a multi-endodermal organ atlas and organoid models..pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2021.04.028",
+    "document_id": "DOI_10.1016_j.cell.2021.04.028",
+    "document_role": "primary",
+    "sha256": "8891b691762ba4d33015ca4a2b99074e33b00ff94b362049c1709274f5f84b6b"
+  },
+  "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf": {
+    "paper_id": "DOI_10.1038_s41586-021-03710-0",
+    "document_id": "DOI_10.1038_s41586-021-03710-0",
+    "document_role": "primary",
+    "sha256": "7392b687958fe275312256e2d51a363c63711dc84653fe7e8d904aa56250c4a4"
+  },
+  "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+    "document_id": "DOI_10.1016_j.cell.2021.07.023",
+    "document_role": "primary",
+    "sha256": "05e59f45176a7aa48dcc24a5f9ac73e546ac9d153ed6945678cc2b8d14916766"
+  },
+  "PMID_34450029_Spatially organized multicellular immune hubs in human colorectal cancer..pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2021.08.003",
+    "document_id": "DOI_10.1016_j.cell.2021.08.003",
+    "document_role": "primary",
+    "sha256": "f920a9d872157fcc7b7c4a7334c3121e1a75fcba8f1914450b7f1dc26b2e67b3"
+  },
+  "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell seq.pdf": {
+    "paper_id": "DOI_10.1038_s42003-021-02562-8",
+    "document_id": "DOI_10.1038_s42003-021-02562-8",
+    "document_role": "primary",
+    "sha256": "8118d25397e66a80ee55b6aec37034446bdf8013a43214004f364c467ee06c84"
+  },
+  "PMID_34497389_Cells of the human intestinal tract mapped across space and time..pdf": {
+    "paper_id": "DOI_10.1038_s41586-021-03852-1",
+    "document_id": "DOI_10.1038_s41586-021-03852-1",
+    "document_role": "primary",
+    "sha256": "08bf2ffca76f2f50d95371ab9422f6494d8ff91331c26c163e581a3a95b858a1"
+  },
+  "PMID_34825887_Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons..pdf": {
+    "paper_id": "DOI_10.7554_elife.71752",
+    "document_id": "DOI_10.7554_elife.71752",
+    "document_role": "primary",
+    "sha256": "57dde365fd8b8d1ae086cf02f02905a90289dfc35176b8653085e1a85f4594ae"
+  },
+  "PMID_34887578_Insulin is expressed by enteroendocrine cells during human fetal development..pdf": {
+    "paper_id": "DOI_10.1038_s41591-021-01586-1",
+    "document_id": "DOI_10.1038_s41591-021-01586-1",
+    "document_role": "primary",
+    "sha256": "e074a422eb2f41634e72ce924d551f75ff499f351a7f7bd3b2bef1212ffdcd41"
+  },
+  "PMID_34910928_Differential pre-malignant programs and microenvironment chart distinct paths to malignancy in human.pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2021.11.031",
+    "document_id": "DOI_10.1016_j.cell.2021.11.031",
+    "document_role": "primary",
+    "sha256": "9272ba636b92cc182111de01594e78f7439295bb2b9a3b4f2011f21b25f4cbdd"
+  },
+  "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf": {
+    "paper_id": "DOI_10.1038_s41586-021-04345-x",
+    "document_id": "DOI_10.1038_s41586-021-04345-x",
+    "document_role": "primary",
+    "sha256": "5145d2228f9ffe67d74da9d701aa7f09834ffe97e36d7d3de8f527150429518d"
+  },
+  "PMID_35549310_Mapping the developing human immune system across organs..pdf": {
+    "paper_id": "DOI_10.1126_science.abo0510",
+    "document_id": "DOI_10.1126_science.abo0510",
+    "document_role": "primary",
+    "sha256": "53e8f4e92f4a09f8fa3257271585d524776764eef36f699e71300db01a4c9b2c"
+  },
+  "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf": {
+    "paper_id": "DOI_10.1126_science.abl4290",
+    "document_id": "DOI_10.1126_science.abl4290",
+    "document_role": "primary",
+    "sha256": "0b6fb8dd093a3f35ea54eb9e1e4f77912b99f5cb6e435362f6a4f9cd8eb91e86"
+  },
+  "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+    "document_id": "DOI_10.1016_j.cell.2022.11.005",
+    "document_role": "primary",
+    "sha256": "c9c34d0e335aab6aca19f36664f2107a69acba3d1ab77e8a48581bee449f53c5"
+  },
+  "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf": {
+    "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+    "document_id": "DOI_10.1016_j.stem.2022.11.013",
+    "document_role": "primary",
+    "sha256": "766f1e360bbbb0bf42b785254b20e4d94e67a24bd4017103762fea02117aa756"
+  },
+  "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf": {
+    "paper_id": "DOI_10.1038_s41588-022-01243-4",
+    "document_id": "DOI_10.1038_s41588-022-01243-4",
+    "document_role": "primary",
+    "sha256": "1cfbf70662925e2ed2a6b149052f8e519be31477707e6055cf66f3799e4801b1"
+  },
+  "PMID_36720220_The landscape of immune dysregulation in Crohn's disease revealed through single-cell transcriptomic.pdf": {
+    "paper_id": "DOI_10.1016_j.immuni.2023.01.002",
+    "document_id": "DOI_10.1016_j.immuni.2023.01.002",
+    "document_role": "primary",
+    "sha256": "d0fe5ca5677c02553c3ddbf1f3f2f356bca74ae9652b4730510253245d78f997"
+  },
+  "PMID_36938497_A single-cell comparison of adult and fetal human epicardium defines the age-associated changes in e.pdf": {
+    "paper_id": "DOI_10.1038_s44161-022-00183-w",
+    "document_id": "DOI_10.1038_s44161-022-00183-w",
+    "document_role": "primary",
+    "sha256": "ffc4eea1c7eb308aa2a2e1eb639e50140c4bb3fd4e6923b8a52c8635bd185456"
+  },
+  "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf": {
+    "paper_id": "DOI_10.1038_s41591-023-02327-2",
+    "document_id": "DOI_10.1038_s41591-023-02327-2",
+    "document_role": "primary",
+    "sha256": "0de1bb67ea58de19c48035892b4c5d7b44333e9b237c8916a5a88029cf261448"
+  },
+  "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf": {
+    "paper_id": "DOI_10.1038_s41467-023-40173-5",
+    "document_id": "DOI_10.1038_s41467-023-40173-5",
+    "document_role": "primary",
+    "sha256": "ed49ee6ff38b8c10bd50b59af5b753d0ebccd6ca159edc8e81d8c20beb2f4eac"
+  },
+  "PMID_37591828_Single-cell genomics improves the discovery of risk variants and genes of atrial fibrillation..pdf": {
+    "paper_id": "DOI_10.1038_s41467-023-40505-5",
+    "document_id": "DOI_10.1038_s41467-023-40505-5",
+    "document_role": "primary",
+    "sha256": "c561f8b5d5732b4775806ca236def455c9f96e05e6242c6beb24f49f2d0cffcb"
+  },
+  "PMID_37697055_Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas..pdf": {
+    "paper_id": "DOI_10.1038_s42255-023-00876-x",
+    "document_id": "DOI_10.1038_s42255-023-00876-x",
+    "document_role": "primary",
+    "sha256": "fe484ebf5ef0a5103f8c1b3125978857f10e83fd4fd6499b373f030e50823c7a"
+  },
+  "PMID_37809094_Inflammation-mediated fibroblast activation and immune dysregulation in collagen VII-deficient skin..pdf": {
+    "paper_id": "DOI_10.3389_fimmu.2023.1211505",
+    "document_id": "DOI_10.3389_fimmu.2023.1211505",
+    "document_role": "primary",
+    "sha256": "aba4b5c3b04310c663b25b6ce0cb537a279fc39875a332b643f22d49a6ba5c05"
+  },
+  "PMID_38134877_Automatic cell-type harmonization and integration across Human Cell Atlas datasets..pdf": {
+    "paper_id": "DOI_10.1016_j.cell.2023.11.026",
+    "document_id": "DOI_10.1016_j.cell.2023.11.026",
+    "document_role": "primary",
+    "sha256": "ece6041309834e0e9c7020609230ca26cd1ddff90cbaa9bc55e820daa12ea707"
+  },
+  "PMID_38165934_Multiscale spatial mapping of cell populations across anatomical sites in healthy human skin and bas.pdf": {
+    "paper_id": "DOI_10.1073_pnas.2313326120",
+    "document_id": "DOI_10.1073_pnas.2313326120",
+    "document_role": "primary",
+    "sha256": "949674dafbaad8681fc8ef85ec5f1c134a78c494d7b973afce54a01da3ca1bda"
+  },
+  "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf": {
+    "paper_id": "DOI_10.1038_s41586-024-07069-w",
+    "document_id": "DOI_10.1038_s41586-024-07069-w",
+    "document_role": "primary",
+    "sha256": "f1f497004f3c446deeeba2ee8362ad0ad11f91697f94fafe67a6c23338ed0d7a"
+  },
+  "PMID_38548990_Cell-type-specific and disease-associated expression quantitative trait loci in the human lung..pdf": {
+    "paper_id": "DOI_10.1038_s41588-024-01702-0",
+    "document_id": "DOI_10.1038_s41588-024-01702-0",
+    "document_role": "primary",
+    "sha256": "db0b47f7f1b3b98d1787dd1f8704dd963584e41d82a8cf76aa98574b23729354"
+  },
+  "PMID_38622407_Human skeletal muscle aging atlas..pdf": {
+    "paper_id": "DOI_10.1038_s43587-024-00613-3",
+    "document_id": "DOI_10.1038_s43587-024-00613-3",
+    "document_role": "primary",
+    "sha256": "a4ef3d5540e8a63f270c4be9aa5152753bff6507fcb4386b6fe96aa8b3a8b366"
+  },
+  "PMID_38776872_Transcriptomic and spatial dissection of human ex vivo right atrial tissue reveals proinflammatory m.pdf": {
+    "paper_id": "DOI_10.1016_j.xcrm.2024.101556",
+    "document_id": "DOI_10.1016_j.xcrm.2024.101556",
+    "document_role": "primary",
+    "sha256": "036e42d167bd25e4fa5942020236ad0c9dff70101454a1b0a62b39643a8621d4"
+  },
+  "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf": {
+    "paper_id": "DOI_10.1038_s41467-024-52052-8",
+    "document_id": "DOI_10.1038_s41467-024-52052-8",
+    "document_role": "primary",
+    "sha256": "4ea56f9a7eb5e9744e1f998584b359394d7fb536529c04013beb40aa90801a62"
+  },
+  "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf": {
+    "paper_id": "DOI_10.1038_s41591-024-03215-z",
+    "document_id": "DOI_10.1038_s41591-024-03215-z",
+    "document_role": "primary",
+    "sha256": "70a4d590049fdfc8bc112d5c02efecba8ca2b7f4c463dc1b9b9888e1d4d41681"
+  },
+  "PMID_39567783_Single-cell integration reveals metaplasia in inflammatory gut diseases..pdf": {
+    "paper_id": "DOI_10.1038_s41586-024-07571-1",
+    "document_id": "DOI_10.1038_s41586-024-07571-1",
+    "document_role": "primary",
+    "sha256": "0a2dd40ebc5337e9cb64a6464b6ddf57e76f685267feb710e130d756d4ef9468"
+  },
+  "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac .pdf": {
+    "paper_id": "DOI_10.1038_s42003-024-07315-x",
+    "document_id": "DOI_10.1038_s42003-024-07315-x",
+    "document_role": "primary",
+    "sha256": "b403386f35c12af2ed44c75d200e4931b72f95a5f91c04c7e86e0cff5b8a27d6"
+  },
+  "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf": {
+    "paper_id": "DOI_10.1016_j.isci.2024.111628",
+    "document_id": "DOI_10.1016_j.isci.2024.111628",
+    "document_role": "primary",
+    "sha256": "722300ca8de227e2ade604e847ecf091bc926a04ab3e7240a269aedbcc9d6830"
+  },
+  "PMID_39994453_The cellular and molecular cardiac tissue responses in human inflammatory cardiomyopathies after SAR.pdf": {
+    "paper_id": "DOI_10.1038_s44161-025-00612-6",
+    "document_id": "DOI_10.1038_s44161-025-00612-6",
+    "document_role": "primary",
+    "sha256": "b75785520a8c3de255f66ba3b87991eb88da4d0ea33d1ad0ca9cbd961fafd0d4"
+  },
+  "PMID_40044687_Single-nuclei sequencing of skeletal muscle reveals subsynaptic-specific transcripts involved in neu.pdf": {
+    "paper_id": "DOI_10.1038_s41467-025-57487-1",
+    "document_id": "DOI_10.1038_s41467-025-57487-1",
+    "document_role": "primary",
+    "sha256": "d270b8cbe31797fa5636337fd3c3dd942c2a31e16b7cba306baddf4bc39cce07"
+  },
+  "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf": {
+    "paper_id": "DOI_10.1038_s41588-025-02158-6",
+    "document_id": "DOI_10.1038_s41588-025-02158-6",
+    "document_role": "primary",
+    "sha256": "b83a39ee38aeef42264f00282611c5691ad19d11d5691ec212435e12c67fbe69"
+  },
+  "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf": {
+    "paper_id": "DOI_10.1038_s41588-025-02182-6",
+    "document_id": "DOI_10.1038_s41588-025-02182-6",
+    "document_role": "primary",
+    "sha256": "a90a4b4f9b4eb930f3f4b8345a69eeb3138a3a09ba18a0aa8685de0c7a08eebf"
+  },
+  "PMID_41529665_Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neu.pdf": {
+    "paper_id": "DOI_10.1016_j.ccell.2025.12.003",
+    "document_id": "DOI_10.1016_j.ccell.2025.12.003",
+    "document_role": "primary",
+    "sha256": "4f25d74ffeab38c23d54e0b647d5c7cb530757912785b83649094e4a72d3d7c7"
+  },
+  "PMID_41741455_Multi-modal skin atlas identifies a multicellular immune-stromal community associated with disrupted.pdf": {
+    "paper_id": "DOI_10.1038_s41467-026-69587-7",
+    "document_id": "DOI_10.1038_s41467-026-69587-7",
+    "document_role": "primary",
+    "sha256": "08a3462768c562ed53203a47641f2ff5b815a451d860cf35b31a616b37560f67"
+  },
+  "PMID_42236949_Cell-type-resolved genetic variation shapes inflammatory bowel disease risk..pdf": {
+    "paper_id": "DOI_10.1038_s41586-026-10627-z",
+    "document_id": "DOI_10.1038_s41586-026-10627-z",
+    "document_role": "primary",
+    "sha256": "5beac666baa1caf8f0a92bf39d0dfc2d0a3e212972111933300ed77b4d2bce4b"
+  },
+  "s41467-025-60371-7.pdf": {
+    "paper_id": "TITLE_s41467_025_60371_7",
+    "document_id": "TITLE_s41467_025_60371_7",
+    "document_role": "primary",
+    "sha256": "a59963f44f46b439dedc9c7cb5f397d01cf32ddab5900b3d2b7f4a40cabfa9a2"
+  }
+}

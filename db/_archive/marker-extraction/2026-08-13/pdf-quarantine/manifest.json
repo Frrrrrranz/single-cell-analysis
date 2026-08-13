@@ -1,0 +1,208 @@
+{
+  "source_audit": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\paper_map.audit.json",
+  "action_count": 20,
+  "invalid_content_count": 7,
+  "exact_duplicate_count": 13,
+  "actions": [
+    {
+      "filename": "10.1038_s41586-021-03852-1_PublisherDirect.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "08bf2ffca76f2f50d95371ab9422f6494d8ff91331c26c163e581a3a95b858a1",
+      "paper_id": "DOI_10.1038_s41586-021-03852-1",
+      "canonical_filename": "PMID_34497389_Cells of the human intestinal tract mapped across space and time..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\10.1038_s41586-021-03852-1_PublisherDirect.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\10.1038_s41586-021-03852-1_PublisherDirect.pdf"
+    },
+    {
+      "filename": "10.1038_s41586-024-07069-w_PublisherDirect.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "f1f497004f3c446deeeba2ee8362ad0ad11f91697f94fafe67a6c23338ed0d7a",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "canonical_filename": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\10.1038_s41586-024-07069-w_PublisherDirect.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\10.1038_s41586-024-07069-w_PublisherDirect.pdf"
+    },
+    {
+      "filename": "10.1038_s41586-024-07571-1_PublisherDirect.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "0a2dd40ebc5337e9cb64a6464b6ddf57e76f685267feb710e130d756d4ef9468",
+      "paper_id": "DOI_10.1038_s41586-024-07571-1",
+      "canonical_filename": "PMID_39567783_Single-cell integration reveals metaplasia in inflammatory gut diseases..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\10.1038_s41586-024-07571-1_PublisherDirect.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\10.1038_s41586-024-07571-1_PublisherDirect.pdf"
+    },
+    {
+      "filename": "10.1038_s41586-026-10627-z_PublisherDirect.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "5beac666baa1caf8f0a92bf39d0dfc2d0a3e212972111933300ed77b4d2bce4b",
+      "paper_id": "DOI_10.1038_s41586-026-10627-z",
+      "canonical_filename": "PMID_42236949_Cell-type-resolved genetic variation shapes inflammatory bowel disease risk..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\10.1038_s41586-026-10627-z_PublisherDirect.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\10.1038_s41586-026-10627-z_PublisherDirect.pdf"
+    },
+    {
+      "filename": "10.1038_s41588-025-02182-6_PublisherDirect.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "a90a4b4f9b4eb930f3f4b8345a69eeb3138a3a09ba18a0aa8685de0c7a08eebf",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "canonical_filename": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\10.1038_s41588-025-02182-6_PublisherDirect.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\10.1038_s41588-025-02182-6_PublisherDirect.pdf"
+    },
+    {
+      "filename": "DOI_10.1038_s41467-023-40173-5_Human CellCards Multi-Study CellRef 1.0 Atlas.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "ed49ee6ff38b8c10bd50b59af5b753d0ebccd6ca159edc8e81d8c20beb2f4eac",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "canonical_filename": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\DOI_10.1038_s41467-023-40173-5_Human CellCards Multi-Study CellRef 1.0 Atlas.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\DOI_10.1038_s41467-023-40173-5_Human CellCards Multi-Study CellRef 1.0 Atlas.pdf"
+    },
+    {
+      "filename": "DOI_10.1038_s41588-024-01702-0_Single-cell RNA-seq analysis of Interstitial Lung Disease (ILD) subtypes.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "db0b47f7f1b3b98d1787dd1f8704dd963584e41d82a8cf76aa98574b23729354",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "canonical_filename": "PMID_38548990_Cell-type-specific and disease-associated expression quantitative trait loci in the human lung..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\DOI_10.1038_s41588-024-01702-0_Single-cell RNA-seq analysis of Interstitial Lung Disease (ILD) subtypes.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\DOI_10.1038_s41588-024-01702-0_Single-cell RNA-seq analysis of Interstitial Lung Disease (ILD) subtypes.pdf"
+    },
+    {
+      "filename": "DOI_10.1038_s41591-024-03215-z_HTANHTAPP Broad - Spatio-molecular dissection of the breast cancer metastatic microenvironment.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "70a4d590049fdfc8bc112d5c02efecba8ca2b7f4c463dc1b9b9888e1d4d41681",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "canonical_filename": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\DOI_10.1038_s41591-024-03215-z_HTANHTAPP Broad - Spatio-molecular dissection of the breast cancer metastatic microenvironment.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\DOI_10.1038_s41591-024-03215-z_HTANHTAPP Broad - Spatio-molecular dissection of the breast cancer metastatic microenvironment.pdf"
+    },
+    {
+      "filename": "DOI_10.1038_s42003-024-07315-x_Single cell transcriptomic analyses of the dynamic local and systemic response to cardiac injury in mice and zebrafish.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "b403386f35c12af2ed44c75d200e4931b72f95a5f91c04c7e86e0cff5b8a27d6",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "canonical_filename": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac .pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\DOI_10.1038_s42003-024-07315-x_Single cell transcriptomic analyses of the dynamic local and systemic response to cardiac injury in mice and zebrafish.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\DOI_10.1038_s42003-024-07315-x_Single cell transcriptomic analyses of the dynamic local and systemic response to cardiac injury in mice and zebrafish.pdf"
+    },
+    {
+      "filename": "DOI_10.1038_s42255-023-00876-x_Mouse pancreatic islet scRNA-seq atlas across sexes, ages, and stress conditions including diabetes.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "fe484ebf5ef0a5103f8c1b3125978857f10e83fd4fd6499b373f030e50823c7a",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "canonical_filename": "PMID_37697055_Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\DOI_10.1038_s42255-023-00876-x_Mouse pancreatic islet scRNA-seq atlas across sexes, ages, and stress conditions including diabetes.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\DOI_10.1038_s42255-023-00876-x_Mouse pancreatic islet scRNA-seq atlas across sexes, ages, and stress conditions including diabetes.pdf"
+    },
+    {
+      "filename": "DOI_10.7554_eLife.62522_LungMAP - Human data from a broad age healthy donor group.pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "9574dee534ed8b4bc3bb859d8e79d6f42e216ea728b4e56d6860adab3533dc1b",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "canonical_filename": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\DOI_10.7554_eLife.62522_LungMAP - Human data from a broad age healthy donor group.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\DOI_10.7554_eLife.62522_LungMAP - Human data from a broad age healthy donor group.pdf"
+    },
+    {
+      "filename": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease..pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "c9c34d0e335aab6aca19f36664f2107a69acba3d1ab77e8a48581bee449f53c5",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "canonical_filename": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease..pdf"
+    },
+    {
+      "filename": "PMID_39789339_Author Correction_ Progressive plasticity during colorectal cancer metastasis..pdf",
+      "reason": "byte_identical_duplicate",
+      "sha256": "4f25d74ffeab38c23d54e0b647d5c7cb530757912785b83649094e4a72d3d7c7",
+      "paper_id": "DOI_10.1016_j.ccell.2025.12.003",
+      "canonical_filename": "PMID_41529665_Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neu.pdf",
+      "subdirectory": "exact-duplicates",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_39789339_Author Correction_ Progressive plasticity during colorectal cancer metastasis..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\exact-duplicates\\PMID_39789339_Author Correction_ Progressive plasticity during colorectal cancer metastasis..pdf"
+    },
+    {
+      "filename": "PMID_31604275_Spatiotemporal immune zonation of the human kidney..pdf",
+      "reason": "invalid_pdf_content",
+      "sha256": "a3c09386fad6c0c3c9e2e0857b72082e31de08904ac1f66fec70692eea451f3b",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "canonical_filename": "",
+      "subdirectory": "invalid-content",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_31604275_Spatiotemporal immune zonation of the human kidney..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\invalid-content\\PMID_31604275_Spatiotemporal immune zonation of the human kidney..pdf"
+    },
+    {
+      "filename": "PMID_33479125_Developmental cell programs are co-opted in inflammatory skin disease..pdf",
+      "reason": "invalid_pdf_content",
+      "sha256": "8c85ef5bc7f1261fc9a612aee527a307557ecd39bd95fc43ac8ac751ccd49d7a",
+      "paper_id": "DOI_10.1126_science.aba6500",
+      "canonical_filename": "",
+      "subdirectory": "invalid-content",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_33479125_Developmental cell programs are co-opted in inflammatory skin disease..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\invalid-content\\PMID_33479125_Developmental cell programs are co-opted in inflammatory skin disease..pdf"
+    },
+    {
+      "filename": "PMID_35926050_Pathogenic variants damage cell composition and single cell transcription in cardiomyopathies..pdf",
+      "reason": "invalid_pdf_content",
+      "sha256": "e1834bd6d8f6c6619ebbbd81ca06b25f2980a9eb937ec2bb1ebe707ce2858b5c",
+      "paper_id": "DOI_10.1126_science.abo1984",
+      "canonical_filename": "",
+      "subdirectory": "invalid-content",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_35926050_Pathogenic variants damage cell composition and single cell transcription in cardiomyopathies..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\invalid-content\\PMID_35926050_Pathogenic variants damage cell composition and single cell transcription in cardiomyopathies..pdf"
+    },
+    {
+      "filename": "PMID_35948637_Spatial multi-omic map of human myocardial infarction..pdf",
+      "reason": "invalid_pdf_content",
+      "sha256": "1779eda4934edd093669e5ac2234e24dcffe8191fe1b6addaa81dcbf7127917b",
+      "paper_id": "DOI_10.1038_s41586-022-05060-x",
+      "canonical_filename": "",
+      "subdirectory": "invalid-content",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_35948637_Spatial multi-omic map of human myocardial infarction..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\invalid-content\\PMID_35948637_Spatial multi-omic map of human myocardial infarction..pdf"
+    },
+    {
+      "filename": "PMID_38321203_Epithelial zonation along the mouse and human small intestine defines five discrete metabolic domain.pdf",
+      "reason": "invalid_pdf_content",
+      "sha256": "0af3dccbfaa48c729d68864d911b806342e43f31e324e68c41a1f2ebb646c0eb",
+      "paper_id": "DOI_10.1038_s41556-023-01337-z",
+      "canonical_filename": "",
+      "subdirectory": "invalid-content",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_38321203_Epithelial zonation along the mouse and human small intestine defines five discrete metabolic domain.pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\invalid-content\\PMID_38321203_Epithelial zonation along the mouse and human small intestine defines five discrete metabolic domain.pdf"
+    },
+    {
+      "filename": "PMID_41115527_An Epigenetic Basis for Sustained Inflammatory Epithelial Progenitor Cell States in Crohn's Disease..pdf",
+      "reason": "invalid_pdf_content",
+      "sha256": "1cc21490b8bf767fd1bd1e51b47d66b624a43ff3400a84a705a79cff358261be",
+      "paper_id": "DOI_10.1016_j.jcmgh.2025.101665",
+      "canonical_filename": "",
+      "subdirectory": "invalid-content",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_41115527_An Epigenetic Basis for Sustained Inflammatory Epithelial Progenitor Cell States in Crohn's Disease..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\invalid-content\\PMID_41115527_An Epigenetic Basis for Sustained Inflammatory Epithelial Progenitor Cell States in Crohn's Disease..pdf"
+    },
+    {
+      "filename": "PMID_41740941_Human lung allografts experience persistent fibrogenic shift following acute cellular rejection..pdf",
+      "reason": "invalid_pdf_content",
+      "sha256": "d85e7f788c9299a66dcbf86ce1dcabcea9719a07ac3b17d146eb51eba59911e7",
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "canonical_filename": "",
+      "subdirectory": "invalid-content",
+      "source": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\cellxgene_filtered\\downloads\\PMID_41740941_Human lung allografts experience persistent fibrogenic shift following acute cellular rejection..pdf",
+      "destination": "D:\\OneDrive\\Desktop\\组\\db\\_archive\\marker-extraction\\2026-08-13\\pdf-quarantine\\invalid-content\\PMID_41740941_Human lung allografts experience persistent fibrogenic shift following acute cellular rejection..pdf"
+    }
+  ]
+}

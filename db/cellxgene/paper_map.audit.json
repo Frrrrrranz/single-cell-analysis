@@ -1,0 +1,2189 @@
+{
+  "registry": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\paper_registry.json",
+  "pdf_count": 65,
+  "verified_count": 65,
+  "blocked_count": 0,
+  "issue_counts": {
+    "registry_path_conflict": 9,
+    "registry_path_mismatch": 9
+  },
+  "registry_expected_paper_count": 98,
+  "content_available_paper_count": 62,
+  "missing_expected_paper_count": 36,
+  "missing_expected_papers": [
+    {
+      "paper_id": "DOI_10.1016_j.celrep.2024.114247",
+      "doi": "10.1016/j.celrep.2024.114247",
+      "pmid": "38907996",
+      "title": "An iPSC-derived small intestine-on-chip with self-organizing epithelial, mesenchymal, and neural cells.",
+      "expected_filenames": [
+        "pmid_38321203_epithelial zonation along the mouse and human small intestine defines five discrete metabolic domain.pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "doi": "10.1016/j.healun.2026.02.1666",
+      "pmid": "41740941",
+      "title": "Human lung allografts experience persistent fibrogenic shift following acute cellular rejection.",
+      "expected_filenames": [
+        "pmid_41740941_human lung allografts experience persistent fibrogenic shift following acute cellular rejection..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1016_j.jcmgh.2022.02.007",
+      "doi": "10.1016/j.jcmgh.2022.02.007",
+      "pmid": "35176508",
+      "title": "A Proximal-to-Distal Survey of Healthy Adult Human Small Intestine and Colon Epithelium by Single-Cell Transcriptomics.",
+      "expected_filenames": [
+        "pmid_36493756_a human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1016_j.jcmgh.2025.101665",
+      "doi": "10.1016/j.jcmgh.2025.101665",
+      "pmid": "41115527",
+      "title": "An Epigenetic Basis for Sustained Inflammatory Epithelial Progenitor Cell States in Crohn's Disease.",
+      "expected_filenames": [
+        "pmid_41115527_an epigenetic basis for sustained inflammatory epithelial progenitor cell states in crohn's disease..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1038_s41556-023-01337-z",
+      "doi": "10.1038/s41556-023-01337-z",
+      "pmid": "38321203",
+      "title": "Epithelial zonation along the mouse and human small intestine defines five discrete metabolic domains.",
+      "expected_filenames": [
+        "pmid_38321203_epithelial zonation along the mouse and human small intestine defines five discrete metabolic domain.pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "doi": "10.1038/s41586-021-03929-x",
+      "pmid": "34588693",
+      "title": "Blood and immune development in human fetal bone marrow and Down syndrome.",
+      "expected_filenames": [
+        "pmid_34887578_insulin is expressed by enteroendocrine cells during human fetal development..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-022-05060-x",
+      "doi": "10.1038/s41586-022-05060-x",
+      "pmid": "35948637",
+      "title": "Spatial multi-omic map of human myocardial infarction.",
+      "expected_filenames": [
+        "pmid_35948637_spatial multi-omic map of human myocardial infarction..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-024-08560-0",
+      "doi": "10.1038/s41586-024-08560-0",
+      "pmid": "39789339",
+      "title": "Author Correction: Progressive plasticity during colorectal cancer metastasis.",
+      "expected_filenames": [
+        "pmid_39789339_author correction_ progressive plasticity during colorectal cancer metastasis..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1084_jem.20191130",
+      "doi": "10.1084/jem.20191130",
+      "pmid": "31753849",
+      "title": "Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine.",
+      "expected_filenames": [
+        "doi_10.1101_2025.09.14.673351_single-nucleus analysis of human white adipose tissue reveals adipocyte subsets with distinct metabo.pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1101_2021.09.17.21263540",
+      "doi": "10.1101/2021.09.17.21263540",
+      "pmid": "",
+      "title": "Concerted changes in the pediatric single-cell intestinal ecosystem before and after anti-TNF blockade",
+      "expected_filenames": [
+        "doi_10.1101_2021.09.17.21263540_concerted changes in the pediatric single-cell intestinal ecosystem before and after anti-tnf blocka.pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "doi": "10.1126/science.aat5031",
+      "pmid": "31604275",
+      "title": "Spatiotemporal immune zonation of the human kidney.",
+      "expected_filenames": [
+        "pmid_31604275_spatiotemporal immune zonation of the human kidney..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1126_science.aba6500",
+      "doi": "10.1126/science.aba6500",
+      "pmid": "33479125",
+      "title": "Developmental cell programs are co-opted in inflammatory skin disease.",
+      "expected_filenames": [
+        "pmid_33479125_developmental cell programs are co-opted in inflammatory skin disease..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1126_science.abl4896",
+      "doi": "10.1126/science.abl4896",
+      "pmid": "35549404",
+      "title": "The Tabula Sapiens: A multiple-organ, single-cell transcriptomic atlas of humans.",
+      "expected_filenames": [
+        "pmid_32669714_a single-cell transcriptomic atlas characterizes ageing tissues in the mouse..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1126_science.abo1984",
+      "doi": "10.1126/science.abo1984",
+      "pmid": "35926050",
+      "title": "Pathogenic variants damage cell composition and single cell transcription in cardiomyopathies.",
+      "expected_filenames": [
+        "pmid_35926050_pathogenic variants damage cell composition and single cell transcription in cardiomyopathies..pdf"
+      ]
+    },
+    {
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "doi": "10.1164/rccm.202207-1384oc",
+      "pmid": "36796082",
+      "title": "A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.",
+      "expected_filenames": [
+        "pmid_36796082_a unique cellular organization of human distal airways and its disarray in chronic obstructive pulmonary disease..pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_2025_01_17_633590_a_pancreatic_islet_scrna_seq_atlas_from_48_non_diabetic_predia",
+      "doi": "",
+      "pmid": "",
+      "title": "2025.01.17.633590_A pancreatic islet scRNA-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals",
+      "expected_filenames": [
+        "doi_10.1101_2025.01.17.633590_a pancreatic islet scrna-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_2025_09_26_678707_cellular_and_spatial_drivers_of_unresolved_injury_and_function",
+      "doi": "",
+      "pmid": "",
+      "title": "2025.09.26.678707_Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney",
+      "expected_filenames": [
+        "doi_10.1101_2025.09.26.678707_cellular and spatial drivers of unresolved injury and functional decline in the human kidney.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_2159_8290_cd_22_0824_publisherdirect",
+      "doi": "",
+      "pmid": "",
+      "title": "2159-8290.CD-22-0824_PublisherDirect",
+      "expected_filenames": [
+        "10.1158_2159-8290.cd-22-0824_publisherdirect.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_a_molecular_cell_atlas_of_the_human_lung_from_single_cell_rna_sequencing",
+      "doi": "",
+      "pmid": "",
+      "title": "A_molecular_cell_atlas_of_the_human_lung_from_single-cell_RNA_sequencing",
+      "expected_filenames": [
+        "a_molecular_cell_atlas_of_the_human_lung_from_single-cell_rna_sequencing(科研通-ablesci.com).pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_early_human_lung_immune_cell_development_and_its_role_in_epithelial_cell_fate",
+      "doi": "",
+      "pmid": "",
+      "title": "Early_human_lung_immune_cell_development_and_its_role_in_epithelial_cell_fate",
+      "expected_filenames": [
+        "early_human_lung_immune_cell_development_and_its_role_in_epithelial_cell_fate(科研通-ablesci.com) (1).pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_elife_62522_lungmap_human_data_from_a_broad_age_healthy_donor_group",
+      "doi": "",
+      "pmid": "",
+      "title": "eLife.62522_LungMAP - Human data from a broad age healthy donor group",
+      "expected_filenames": [
+        "doi_10.7554_elife.62522_lungmap - human data from a broad age healthy donor group.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_j_cell_2019_06_029_publisherdirect",
+      "doi": "",
+      "pmid": "",
+      "title": "j.cell.2019.06.029_PublisherDirect",
+      "expected_filenames": [
+        "10.1016_j.cell.2019.06.029_publisherdirect.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_j_jcf_2025_01_016_cystic_fibrosis_and_healthy_control_biopsy",
+      "doi": "",
+      "pmid": "",
+      "title": "j.jcf.2025.01.016_Cystic Fibrosis and healthy control biopsy",
+      "expected_filenames": [
+        "doi_10.1016_j.jcf.2025.01.016_cystic fibrosis and healthy control biopsy.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_organoid_modeling_of_human_fetal_lung_alveolar_development_reveals_mechanisms_of",
+      "doi": "",
+      "pmid": "",
+      "title": "Organoid_modeling_of_human_fetal_lung_alveolar_development_reveals_mechanisms_of_cell_fate_patterning_and_neonatal_respiratory_d",
+      "expected_filenames": [
+        "organoid_modeling_of_human_fetal_lung_alveolar_development_reveals_mechanisms_of_cell_fate_patterning_and_neonatal_respiratory_d(科研通-ablesci.com).pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41467_023_40173_5_human_cellcards_multi_study_cellref_1_0_atlas",
+      "doi": "",
+      "pmid": "",
+      "title": "s41467-023-40173-5_Human CellCards Multi-Study CellRef 1.0 Atlas",
+      "expected_filenames": [
+        "doi_10.1038_s41467-023-40173-5_human cellcards multi-study cellref 1.0 atlas.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41586_021_03852_1_publisherdirect",
+      "doi": "",
+      "pmid": "",
+      "title": "s41586-021-03852-1_PublisherDirect",
+      "expected_filenames": [
+        "10.1038_s41586-021-03852-1_publisherdirect.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41586_024_07069_w_publisherdirect",
+      "doi": "",
+      "pmid": "",
+      "title": "s41586-024-07069-w_PublisherDirect",
+      "expected_filenames": [
+        "10.1038_s41586-024-07069-w_publisherdirect.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41586_024_07571_1_publisherdirect",
+      "doi": "",
+      "pmid": "",
+      "title": "s41586-024-07571-1_PublisherDirect",
+      "expected_filenames": [
+        "10.1038_s41586-024-07571-1_publisherdirect.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41586_026_10627_z_publisherdirect",
+      "doi": "",
+      "pmid": "",
+      "title": "s41586-026-10627-z_PublisherDirect",
+      "expected_filenames": [
+        "10.1038_s41586-026-10627-z_publisherdirect.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41588_024_01702_0_single_cell_rna_seq_analysis_of_interstitial_lung_disease_ild",
+      "doi": "",
+      "pmid": "",
+      "title": "s41588-024-01702-0_Single-cell RNA-seq analysis of Interstitial Lung Disease (ILD) subtypes",
+      "expected_filenames": [
+        "doi_10.1038_s41588-024-01702-0_single-cell rna-seq analysis of interstitial lung disease (ild) subtypes.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41588_025_02182_6_publisherdirect",
+      "doi": "",
+      "pmid": "",
+      "title": "s41588-025-02182-6_PublisherDirect",
+      "expected_filenames": [
+        "10.1038_s41588-025-02182-6_publisherdirect.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s41591_024_03215_z_htanhtapp_broad_spatio_molecular_dissection_of_the_breast_can",
+      "doi": "",
+      "pmid": "",
+      "title": "s41591-024-03215-z_HTANHTAPP Broad - Spatio-molecular dissection of the breast cancer metastatic microenvironment",
+      "expected_filenames": [
+        "doi_10.1038_s41591-024-03215-z_htanhtapp broad - spatio-molecular dissection of the breast cancer metastatic microenvironment.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s42003_024_07315_x_single_cell_transcriptomic_analyses_of_the_dynamic_local_and",
+      "doi": "",
+      "pmid": "",
+      "title": "s42003-024-07315-x_Single cell transcriptomic analyses of the dynamic local and systemic response to cardiac injury in mice and zebrafish",
+      "expected_filenames": [
+        "doi_10.1038_s42003-024-07315-x_single cell transcriptomic analyses of the dynamic local and systemic response to cardiac injury in mice and zebrafish.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s42255_023_00876_x_mouse_pancreatic_islet_scrna_seq_atlas_across_sexes_ages_and",
+      "doi": "",
+      "pmid": "",
+      "title": "s42255-023-00876-x_Mouse pancreatic islet scRNA-seq atlas across sexes, ages, and stress conditions including diabetes",
+      "expected_filenames": [
+        "doi_10.1038_s42255-023-00876-x_mouse pancreatic islet scrna-seq atlas across sexes, ages, and stress conditions including diabetes.pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_s44318_024_00328_6_a_novel_human_fetal_lung_derived_alveolar_organoid_model_reve",
+      "doi": "",
+      "pmid": "",
+      "title": "s44318-024-00328-6_A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant",
+      "expected_filenames": [
+        "doi_10.1038_s44318-024-00328-6_a novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein c maturation relevant .pdf"
+      ]
+    },
+    {
+      "paper_id": "TITLE_single_cell_atlas_of_the_human_optic_nerve",
+      "doi": "",
+      "pmid": "",
+      "title": "Single cell atlas of the human optic nerve",
+      "expected_filenames": [
+        "doi_10.64898_2025.12.18.695268_a poly(a) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder.pdf"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "filename": "10.1016_j.cell.2019.06.029_PublisherDirect.pdf",
+      "sha256": "e59dc4d405201fcce68ea965903f5a1dea66b2ec76d343be9f4b38281b2eee4e",
+      "file_size": 10387585,
+      "page_count": 40,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2019.06.029",
+      "document_id": "DOI_10.1016_j.cell.2019.06.029",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2019.06.029",
+      "registry_pmid": "31348891",
+      "registry_title": "Intra- and Inter-cellular Rewiring of the Human Colon during Ulcerative Colitis.",
+      "observed_dois": [
+        "10.1016/j.cell.2019.06.029"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Intra- and Inter-cellular Rewiring of the Human Colon during Ulcerative Colitis",
+      "score": 440,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "10.1038_s41586-020-2496-1_CrossrefPage.pdf",
+      "sha256": "b6a70103963b8e7316d70d8f5baa1b417a8d74b64bfdd63b87f33b4a4d8e9764",
+      "file_size": 630277,
+      "page_count": 2,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "document_id": "DOI_10.1038_s41586-020-2496-1__supplement_01",
+      "document_role": "supplement",
+      "registry_doi": "10.1038/s41586-020-2496-1",
+      "registry_pmid": "32669714",
+      "registry_title": "A single-cell transcriptomic atlas characterizes ageing tissues in the mouse.",
+      "observed_dois": [
+        "10.1038/s41586-020-2496-1"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "SpringerNature_Nature_2496_supplement.indd",
+      "score": 440,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "10.1158_2159-8290.CD-22-0824_PublisherDirect.pdf",
+      "sha256": "38cc06e4f16647c188f18e20e1a4850e51c5fdb7c15ad1bd3782799a7b7b43a9",
+      "file_size": 16855946,
+      "page_count": 18,
+      "status": "verified",
+      "paper_id": "DOI_10.1158_2159-8290.cd-22-0824",
+      "document_id": "DOI_10.1158_2159-8290.cd-22-0824",
+      "document_role": "primary",
+      "registry_doi": "10.1158/2159-8290.cd-22-0824",
+      "registry_pmid": "36929873",
+      "registry_title": "Single-Cell RNA Sequencing Unifies Developmental Programs of Esophageal and Gastric Intestinal Metaplasia.",
+      "observed_dois": [
+        "10.1158/2159-8290.cd-22-0824"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 440,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "A_molecular_cell_atlas_of_the_human_lung_from_single-cell_RNA_sequencing(科研通-ablesci.com).pdf",
+      "sha256": "cd262a5d138cafc0e65d260e7232e5e342e7b24a93fd54230216e6332b9abdd6",
+      "file_size": 24850008,
+      "page_count": 37,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-020-2922-4",
+      "document_id": "DOI_10.1038_s41586-020-2922-4",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-020-2922-4",
+      "registry_pmid": "33208946",
+      "registry_title": "A molecular cell atlas of the human lung from single-cell RNA sequencing.",
+      "observed_dois": [
+        "10.1038/s41586-020-2922-4"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 320,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.1016_j.jcf.2025.01.016_Cystic Fibrosis and healthy control biopsy.pdf",
+      "sha256": "011493f8607576f90fa5cedd963be74f633117207d5a9c7a9d3c678e1d940864",
+      "file_size": 4313490,
+      "page_count": 12,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+      "document_id": "DOI_10.1016_j.jcf.2025.01.016",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.jcf.2025.01.016",
+      "registry_pmid": "39947933",
+      "registry_title": "Evidence for altered immune-structural cell crosstalk in cystic fibrosis revealed by single cell transcriptomics.",
+      "observed_dois": [
+        "10.1016/j.jcf.2025.01.016"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Evidence for altered immune-structural cell crosstalk in cystic fibrosis revealed by single cell transcriptomics",
+      "score": 440,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.1038_s44318-024-00328-6_A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant .pdf",
+      "sha256": "c690f7c2d16a0e99c1f614d0fa994db3ead8fb2a21e16b5bd3193bb1c5334a07",
+      "file_size": 10784094,
+      "page_count": 26,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s44318-024-00328-6",
+      "document_id": "DOI_10.1038_s44318-024-00328-6",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s44318-024-00328-6",
+      "registry_pmid": "39815007",
+      "registry_title": "A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant to interstitial lung disease.",
+      "observed_dois": [
+        "10.1038/s44318-024-00328-6received"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant to interstitial lung disease",
+      "score": 220,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.1101_2024.03.05.583423_Transcriptional dynamics of the murine heart during perinatal development at single-cell resolution.pdf",
+      "sha256": "2aebaaaf9c6af138905929eb54a81c0d76c7215f7839ec346c7c7cf370e351ef",
+      "file_size": 19833465,
+      "page_count": 59,
+      "status": "verified",
+      "paper_id": "DOI_10.1101_2024.03.05.583423",
+      "document_id": "DOI_10.1101_2024.03.05.583423",
+      "document_role": "primary",
+      "registry_doi": "10.1101/2024.03.05.583423",
+      "registry_pmid": "",
+      "registry_title": "Transcriptional dynamics of the murine heart during perinatal development at single-cell resolution",
+      "observed_dois": [
+        "10.1101/2024.03.05.583423doi"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Transcriptional dynamics of the murine heart during perinatal development at single-cell resolution",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_doi",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.1101_2024.10.23.619925_Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localis.pdf",
+      "sha256": "c80250ff2b657838703580a3f9b2b921d95a63db9eca0b93c68b5c33840b910e",
+      "file_size": 3501253,
+      "page_count": 64,
+      "status": "verified",
+      "paper_id": "DOI_10.1101_2024.10.23.619925",
+      "document_id": "DOI_10.1101_2024.10.23.619925",
+      "document_role": "primary",
+      "registry_doi": "10.1101/2024.10.23.619925",
+      "registry_pmid": "",
+      "registry_title": "Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localised prostate cancer",
+      "observed_dois": [
+        "10.1101/2024.10.23.619925doi"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localised prostate cancer",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_doi",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.1101_2025.01.17.633590_A pancreatic islet scRNA-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals.pdf",
+      "sha256": "022b74fa07c3aa736e2dbe6ccff6ed6b875885558fbc8c483818ea270dc1cbed",
+      "file_size": 4613942,
+      "page_count": 60,
+      "status": "verified",
+      "paper_id": "DOI_10.1101_2025.01.17.633590",
+      "document_id": "DOI_10.1101_2025.01.17.633590",
+      "document_role": "primary",
+      "registry_doi": "10.1101/2025.01.17.633590",
+      "registry_pmid": "",
+      "registry_title": "Single-cell decoding of human islet cell type-specific alterations in type 2 diabetes reveals converging genetic- and state-driven β-cell gene expression defects",
+      "observed_dois": [
+        "10.1101/2025.01.17.633590doi"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "36130572",
+      "score": 220,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.1101_2025.09.14.673351_Single-Nucleus Analysis of Human White Adipose Tissue Reveals Adipocyte Subsets with Distinct Metabo.pdf",
+      "sha256": "f8e91b6dbe7d5b2fa7555ad92acb6ca48a47d48ba023cf95820ef08c7b379e68",
+      "file_size": 9442912,
+      "page_count": 52,
+      "status": "verified",
+      "paper_id": "DOI_10.1101_2025.09.14.673351",
+      "document_id": "DOI_10.1101_2025.09.14.673351",
+      "document_role": "primary",
+      "registry_doi": "10.1101/2025.09.14.673351",
+      "registry_pmid": "",
+      "registry_title": "Single-Nucleus Analysis of Human White Adipose Tissue Reveals Adipocyte Subsets with Distinct Metabolic Profiles",
+      "observed_dois": [
+        "10.1101/2025.09.14.673351doi"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-Nucleus Analysis of Human White Adipose Tissue Reveals Adipocyte Subsets with Distinct Metabolic Profiles",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_doi",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.1101_2025.09.26.678707_Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney.pdf",
+      "sha256": "cc68fc0097f8f1c0b4121ce69808e920fc43f8deae0bfe5d973ecd59df060882",
+      "file_size": 39940889,
+      "page_count": 101,
+      "status": "verified",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "document_id": "DOI_10.1101_2025.09.26.678707",
+      "document_role": "primary",
+      "registry_doi": "10.1101/2025.09.26.678707",
+      "registry_pmid": "",
+      "registry_title": "Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney",
+      "observed_dois": [
+        "10.1101/2025.09.26.678707doi"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "29947990",
+      "score": 220,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.3389_fdmed.2021.806294_Single-Cell Transcriptomic Profiling of Human Dental Pulp in Sound and Carious Teeth_ A Pilot Study.pdf",
+      "sha256": "2457d1df789924ec93059d555688fa5026f3a01795ec8877440a9b1e76e2194c",
+      "file_size": 2641535,
+      "page_count": 10,
+      "status": "verified",
+      "paper_id": "DOI_10.3389_fdmed.2021.806294",
+      "document_id": "DOI_10.3389_fdmed.2021.806294",
+      "document_role": "primary",
+      "registry_doi": "10.3389/fdmed.2021.806294",
+      "registry_pmid": "",
+      "registry_title": "Single-Cell Transcriptomic Profiling of Human Dental Pulp in Sound and Carious Teeth: A Pilot Study",
+      "observed_dois": [
+        "10.3389/fdmed.2021.806294",
+        "10.3389/fdmed.2021.806294single-cell"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-Cell Transcriptomic Profiling of Human Dental Pulp in Sound and Carious Teeth: A Pilot Study",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_doi",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "DOI_10.64898_2025.12.18.695268_A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder.pdf",
+      "sha256": "66dba92905e9e1f26204069c721cdf7f7583f0dbadd1b0102ed8e0cf3550e9a4",
+      "file_size": 17044355,
+      "page_count": 45,
+      "status": "verified",
+      "paper_id": "DOI_10.64898_2025.12.18.695268",
+      "document_id": "DOI_10.64898_2025.12.18.695268",
+      "document_role": "primary",
+      "registry_doi": "10.64898/2025.12.18.695268",
+      "registry_pmid": "",
+      "registry_title": "A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder",
+      "observed_dois": [
+        "10.64898/2025.12.18.695268doi"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_doi",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "Early_human_lung_immune_cell_development_and_its_role_in_epithelial_cell_fate(科研通-ablesci.com) (1).pdf",
+      "sha256": "9e44d9641ef26e86782ccdfe33068545706e66d23d99313decc9426add3c3d19",
+      "file_size": 4165887,
+      "page_count": 39,
+      "status": "verified",
+      "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+      "document_id": "DOI_10.1126_sciimmunol.adf9988",
+      "document_role": "primary",
+      "registry_doi": "10.1126/sciimmunol.adf9988",
+      "registry_pmid": "38100545",
+      "registry_title": "Early human lung immune cell development and its role in epithelial cell fate.",
+      "observed_dois": [
+        "10.1126/sciimmunol.adf9988"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Early human lung immune cell development and its role in epithelial cell fate",
+      "score": 320,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_mismatch"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_28965763_Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutat.pdf",
+      "sha256": "cae18b3fbd0707809f7c46037ad5213640e907d76501b5a383d45ca8f44ffb9c",
+      "file_size": 4502919,
+      "page_count": 25,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+      "document_id": "DOI_10.1016_j.cell.2017.09.004",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2017.09.004",
+      "registry_pmid": "28965763",
+      "registry_title": "Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns.",
+      "observed_dois": [
+        "10.1016/j.cell.2017.09.004"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_30566875_A Cellular Anatomy of the Normal Adult Human Prostate and Prostatic Urethra..pdf",
+      "sha256": "86c9ccc967d28725de47e9ad4fbee24054adc3dc6be2059b8b2aa105f41044e8",
+      "file_size": 7429581,
+      "page_count": 19,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "document_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.celrep.2018.11.086",
+      "registry_pmid": "30566875",
+      "registry_title": "A Cellular Anatomy of the Normal Adult Human Prostate and Prostatic Urethra.",
+      "observed_dois": [
+        "10.1016/j.celrep.2018.11.086"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A Cellular Anatomy of the Normal Adult Human Prostate and Prostatic Urethra",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_31474370_Single-Cell Analysis of Crohn's Disease Lesions Identifies a Pathogenic Cellular Module Associated w.pdf",
+      "sha256": "172caf71580ba0626fc0ca8b1f159186912e409411619f8942ac1c9d202a5e23",
+      "file_size": 12341651,
+      "page_count": 37,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2019.08.008",
+      "document_id": "DOI_10.1016_j.cell.2019.08.008",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2019.08.008",
+      "registry_pmid": "31474370",
+      "registry_title": "Single-Cell Analysis of Crohn's Disease Lesions Identifies a Pathogenic Cellular Module Associated with Resistance to Anti-TNF Therapy.",
+      "observed_dois": [
+        "10.1016/j.cell.2019.08.008"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-Cell Analysis of Crohn's Disease Lesions Identifies a Pathogenic Cellular Module Associated with Resistance to Anti-TNF Therapy",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_32669714_A single-cell transcriptomic atlas characterizes ageing tissues in the mouse..pdf",
+      "sha256": "f6cc15b1b46e5501e0653d6a8ba06da6bf63d98f1cc8ece316385b5f63a70dd1",
+      "file_size": 5855501,
+      "page_count": 36,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "document_id": "DOI_10.1038_s41586-020-2496-1",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-020-2496-1",
+      "registry_pmid": "32669714",
+      "registry_title": "A single-cell transcriptomic atlas characterizes ageing tissues in the mouse.",
+      "observed_dois": [
+        "10.1038/s41586-020-2496-1",
+        "10.6084/m9.figshare.8273102.v2"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A Single Cell Transcriptomic Atlas Characterizes Aging Tissues in the Mouse",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+      "sha256": "9574dee534ed8b4bc3bb859d8e79d6f42e216ea728b4e56d6860adab3533dc1b",
+      "file_size": 3827308,
+      "page_count": 28,
+      "status": "verified",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "document_id": "DOI_10.7554_elife.62522",
+      "document_role": "primary",
+      "registry_doi": "10.7554/elife.62522",
+      "registry_pmid": "33164753",
+      "registry_title": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes.",
+      "observed_dois": [
+        "10.7554/elife.62522"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "16063080976867 1..28",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_33290721_Single-Cell Sequencing of Developing Human Gut Reveals Transcriptional Links to Childhood Crohn's Di.pdf",
+      "sha256": "dfc28f4d0d3bccae28f751a555bbe63d78f8445e3a8a41763ba85ee99b68cd66",
+      "file_size": 23369896,
+      "page_count": 28,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.devcel.2020.11.010",
+      "document_id": "DOI_10.1016_j.devcel.2020.11.010",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.devcel.2020.11.010",
+      "registry_pmid": "33290721",
+      "registry_title": "Single-Cell Sequencing of Developing Human Gut Reveals Transcriptional Links to Childhood Crohn's Disease.",
+      "observed_dois": [
+        "10.1016/j.devcel.2020.11.010"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-Cell Sequencing of Developing Human Gut Reveals Transcriptional Links to Childhood Crohn's Disease",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_33406409_Spatiotemporal analysis of human intestinal development at single-cell resolution..pdf",
+      "sha256": "6ab5e5e0d26f3164456875606f4e5996cbb6bc7a4ef10855233b862c0dc083be",
+      "file_size": 16512492,
+      "page_count": 41,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2020.12.016",
+      "document_id": "DOI_10.1016_j.cell.2020.12.016",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2020.12.016",
+      "registry_pmid": "33406409",
+      "registry_title": "Spatiotemporal analysis of human intestinal development at single-cell resolution.",
+      "observed_dois": [
+        "10.1016/j.cell.2020.12.016"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Spatiotemporal analysis of human intestinal development at single-cell resolution",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_33682422_Sex-Specific Control of Human Heart Maturation by the Progesterone Receptor..pdf",
+      "sha256": "8c4945bd753c2fd3d99ce1a6e7abf79bad1858c30ee52bcc51c8bfaaa5f61279",
+      "file_size": 2930662,
+      "page_count": 15,
+      "status": "verified",
+      "paper_id": "DOI_10.1161_circulationaha.120.051921",
+      "document_id": "DOI_10.1161_circulationaha.120.051921",
+      "document_role": "primary",
+      "registry_doi": "10.1161/circulationaha.120.051921",
+      "registry_pmid": "33682422",
+      "registry_title": "Sex-Specific Control of Human Heart Maturation by the Progesterone Receptor.",
+      "observed_dois": [
+        "10.1161/circulationaha.120.051921"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Sex-Specific Control of Human Heart Maturation by the Progesterone Receptor",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+      "sha256": "e62cecfb9d60910d3d07b825aa978c588bcf5277ce323d624563954a95b3e49a",
+      "file_size": 5071364,
+      "page_count": 11,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "document_id": "DOI_10.1038_s41467-021-21783-3",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41467-021-21783-3",
+      "registry_pmid": "33686070",
+      "registry_title": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation of luminal progenitors.",
+      "observed_dois": [
+        "10.1038/s41467-021-21783-3"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation of luminal progenitors",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+      "sha256": "d37697c5c4c1557dd863652fb91ff61aca00208a286baeae9486cd8c57fb56e2",
+      "file_size": 20688925,
+      "page_count": 33,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "document_id": "DOI_10.1038_s41586-021-03569-1",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-021-03569-1",
+      "registry_pmid": "33915568",
+      "registry_title": "A molecular single-cell lung atlas of lethal COVID-19.",
+      "observed_dois": [
+        "10.1038/s41586-021-03569-1"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34019796_Charting human development using a multi-endodermal organ atlas and organoid models..pdf",
+      "sha256": "8891b691762ba4d33015ca4a2b99074e33b00ff94b362049c1709274f5f84b6b",
+      "file_size": 14515232,
+      "page_count": 41,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2021.04.028",
+      "document_id": "DOI_10.1016_j.cell.2021.04.028",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2021.04.028",
+      "registry_pmid": "34019796",
+      "registry_title": "Charting human development using a multi-endodermal organ atlas and organoid models.",
+      "observed_dois": [
+        "10.1016/j.cell.2021.04.028"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Charting human development using a multi-endodermal organ atlas and organoid models",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+      "sha256": "7392b687958fe275312256e2d51a363c63711dc84653fe7e8d904aa56250c4a4",
+      "file_size": 15753777,
+      "page_count": 26,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-021-03710-0",
+      "document_id": "DOI_10.1038_s41586-021-03710-0",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-021-03710-0",
+      "registry_pmid": "34153974",
+      "registry_title": "Dysregulation of brain and choroid plexus cell types in severe COVID-19.",
+      "observed_dois": [
+        "10.1038/s41586-021-03710-0"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Dysregulation of brain and choroid plexus cell types in severe COVID-19",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+      "sha256": "05e59f45176a7aa48dcc24a5f9ac73e546ac9d153ed6945678cc2b8d14916766",
+      "file_size": 39155374,
+      "page_count": 44,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "document_id": "DOI_10.1016_j.cell.2021.07.023",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2021.07.023",
+      "registry_pmid": "34352228",
+      "registry_title": "Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19.",
+      "observed_dois": [
+        "10.1016/j.cell.2021.07.023"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34450029_Spatially organized multicellular immune hubs in human colorectal cancer..pdf",
+      "sha256": "f920a9d872157fcc7b7c4a7334c3121e1a75fcba8f1914450b7f1dc26b2e67b3",
+      "file_size": 15737777,
+      "page_count": 40,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2021.08.003",
+      "document_id": "DOI_10.1016_j.cell.2021.08.003",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2021.08.003",
+      "registry_pmid": "34450029",
+      "registry_title": "Spatially organized multicellular immune hubs in human colorectal cancer.",
+      "observed_dois": [
+        "10.1016/j.cell.2021.08.003",
+        "10.1016/j.cell.2021.08.003ll"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Spatially organized multicellular immune hubs in human colorectal cancer",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell seq.pdf",
+      "sha256": "8118d25397e66a80ee55b6aec37034446bdf8013a43214004f364c467ee06c84",
+      "file_size": 7073265,
+      "page_count": 14,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "document_id": "DOI_10.1038_s42003-021-02562-8",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s42003-021-02562-8",
+      "registry_pmid": "34497364",
+      "registry_title": "Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequencing in hepatoblastoma.",
+      "observed_dois": [
+        "10.1038/s42003-021-02562-8"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequencing in hepatoblastoma",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34497389_Cells of the human intestinal tract mapped across space and time..pdf",
+      "sha256": "08bf2ffca76f2f50d95371ab9422f6494d8ff91331c26c163e581a3a95b858a1",
+      "file_size": 21961281,
+      "page_count": 40,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-021-03852-1",
+      "document_id": "DOI_10.1038_s41586-021-03852-1",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-021-03852-1",
+      "registry_pmid": "34497389",
+      "registry_title": "Cells of the human intestinal tract mapped across space and time.",
+      "observed_dois": [
+        "10.1038/s41586-021-03852-1"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34825887_Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons..pdf",
+      "sha256": "57dde365fd8b8d1ae086cf02f02905a90289dfc35176b8653085e1a85f4594ae",
+      "file_size": 8143123,
+      "page_count": 21,
+      "status": "verified",
+      "paper_id": "DOI_10.7554_elife.71752",
+      "document_id": "DOI_10.7554_elife.71752",
+      "document_role": "primary",
+      "registry_doi": "10.7554/elife.71752",
+      "registry_pmid": "34825887",
+      "registry_title": "Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons.",
+      "observed_dois": [
+        "10.7554/elife.71752"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34887578_Insulin is expressed by enteroendocrine cells during human fetal development..pdf",
+      "sha256": "e074a422eb2f41634e72ce924d551f75ff499f351a7f7bd3b2bef1212ffdcd41",
+      "file_size": 18139986,
+      "page_count": 14,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41591-021-01586-1",
+      "document_id": "DOI_10.1038_s41591-021-01586-1",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41591-021-01586-1",
+      "registry_pmid": "34887578",
+      "registry_title": "Insulin is expressed by enteroendocrine cells during human fetal development.",
+      "observed_dois": [
+        "10.1101/2021.06.07.447234doi"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34910928_Differential pre-malignant programs and microenvironment chart distinct paths to malignancy in human.pdf",
+      "sha256": "9272ba636b92cc182111de01594e78f7439295bb2b9a3b4f2011f21b25f4cbdd",
+      "file_size": 20835465,
+      "page_count": 46,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2021.11.031",
+      "document_id": "DOI_10.1016_j.cell.2021.11.031",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2021.11.031",
+      "registry_pmid": "34910928",
+      "registry_title": "Differential pre-malignant programs and microenvironment chart distinct paths to malignancy in human colorectal polyps.",
+      "observed_dois": [
+        "10.1016/j.cell.2021.11.031"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Differential pre-malignant programs and microenvironment chart distinct paths to malignancy in human colorectal polyps",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+      "sha256": "5145d2228f9ffe67d74da9d701aa7f09834ffe97e36d7d3de8f527150429518d",
+      "file_size": 5079560,
+      "page_count": 59,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "document_id": "DOI_10.1038_s41586-021-04345-x",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-021-04345-x",
+      "registry_pmid": "34937051",
+      "registry_title": "Local and systemic responses to SARS-CoV-2 infection in children and adults.",
+      "observed_dois": [],
+      "observed_pmids": [],
+      "metadata_title": "Yoshida et al Accepted.pdf",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_35549310_Mapping the developing human immune system across organs..pdf",
+      "sha256": "53e8f4e92f4a09f8fa3257271585d524776764eef36f699e71300db01a4c9b2c",
+      "file_size": 44309115,
+      "page_count": 72,
+      "status": "verified",
+      "paper_id": "DOI_10.1126_science.abo0510",
+      "document_id": "DOI_10.1126_science.abo0510",
+      "document_role": "primary",
+      "registry_doi": "10.1126/science.abo0510",
+      "registry_pmid": "35549310",
+      "registry_title": "Mapping the developing human immune system across organs.",
+      "observed_dois": [
+        "10.1126/sci"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+      "sha256": "0b6fb8dd093a3f35ea54eb9e1e4f77912b99f5cb6e435362f6a4f9cd8eb91e86",
+      "file_size": 3856486,
+      "page_count": 38,
+      "status": "verified",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "document_id": "DOI_10.1126_science.abl4290",
+      "document_role": "primary",
+      "registry_doi": "10.1126/science.abl4290",
+      "registry_pmid": "35549429",
+      "registry_title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function.",
+      "observed_dois": [
+        "10.1126/science.abl4290"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+      "sha256": "c9c34d0e335aab6aca19f36664f2107a69acba3d1ab77e8a48581bee449f53c5",
+      "file_size": 26074390,
+      "page_count": 46,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "document_id": "DOI_10.1016_j.cell.2022.11.005",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2022.11.005",
+      "registry_pmid": "36493756",
+      "registry_title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates.",
+      "observed_dois": [
+        "10.1016/j.cell.2022.11.005"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+      "sha256": "766f1e360bbbb0bf42b785254b20e4d94e67a24bd4017103762fea02117aa756",
+      "file_size": 30681310,
+      "page_count": 46,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "document_id": "DOI_10.1016_j.stem.2022.11.013",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.stem.2022.11.013",
+      "registry_pmid": "36493780",
+      "registry_title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and neonatal respiratory disease.",
+      "observed_dois": [
+        "10.1016/j.stem.2022.11.013"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and neonatal respiratory disease",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+      "sha256": "1cfbf70662925e2ed2a6b149052f8e519be31477707e6055cf66f3799e4801b1",
+      "file_size": 19652587,
+      "page_count": 39,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "document_id": "DOI_10.1038_s41588-022-01243-4",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41588-022-01243-4",
+      "registry_pmid": "36543915",
+      "registry_title": "A spatially resolved atlas of the human lung characterizes a gland-associated immune niche.",
+      "observed_dois": [
+        "10.1038/s41588-022-01243-4",
+        "10.1038/s41588-022-01243-4new",
+        "10.1038/s41588-022-01243-4surrounding"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A spatially resolved atlas of the human lung characterizes a gland-associated immune niche",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_36720220_The landscape of immune dysregulation in Crohn's disease revealed through single-cell transcriptomic.pdf",
+      "sha256": "d0fe5ca5677c02553c3ddbf1f3f2f356bca74ae9652b4730510253245d78f997",
+      "file_size": 10022283,
+      "page_count": 34,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.immuni.2023.01.002",
+      "document_id": "DOI_10.1016_j.immuni.2023.01.002",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.immuni.2023.01.002",
+      "registry_pmid": "36720220",
+      "registry_title": "The landscape of immune dysregulation in Crohn's disease revealed through single-cell transcriptomic profiling in the ileum and colon.",
+      "observed_dois": [
+        "10.1016/j.immuni.2023.01.002"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "The landscape of immune dysregulation in Crohn's disease revealed through single-cell transcriptomic profiling in the ileum and colon",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [
+        "registry_path_conflict"
+      ],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_36938497_A single-cell comparison of adult and fetal human epicardium defines the age-associated changes in e.pdf",
+      "sha256": "ffc4eea1c7eb308aa2a2e1eb639e50140c4bb3fd4e6923b8a52c8635bd185456",
+      "file_size": 25152528,
+      "page_count": 30,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s44161-022-00183-w",
+      "document_id": "DOI_10.1038_s44161-022-00183-w",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s44161-022-00183-w",
+      "registry_pmid": "36938497",
+      "registry_title": "A single-cell comparison of adult and fetal human epicardium defines the age-associated changes in epicardial activity.",
+      "observed_dois": [
+        "10.1038/s44161-022-00183-w",
+        "10.1038/s44161-022-00183-woffers",
+        "10.1038/s44161-022-00183-wusing"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A single-cell comparison of adult and fetal human epicardium defines the age-associated changes in epicardial activity",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+      "sha256": "0de1bb67ea58de19c48035892b4c5d7b44333e9b237c8916a5a88029cf261448",
+      "file_size": 21570970,
+      "page_count": 47,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "document_id": "DOI_10.1038_s41591-023-02327-2",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41591-023-02327-2",
+      "registry_pmid": "37291214",
+      "registry_title": "An integrated cell atlas of the lung in health and disease.",
+      "observed_dois": [
+        "10.1038/s41591-023-02327-2",
+        "10.1038/s41591-023-02327-2across",
+        "10.1038/s41591-023-02327-2expert"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "An integrated cell atlas of the lung in health and disease",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+      "sha256": "ed49ee6ff38b8c10bd50b59af5b753d0ebccd6ca159edc8e81d8c20beb2f4eac",
+      "file_size": 11404221,
+      "page_count": 20,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "document_id": "DOI_10.1038_s41467-023-40173-5",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41467-023-40173-5",
+      "registry_pmid": "37516747",
+      "registry_title": "Guided construction of single cell reference for human and mouse lung.",
+      "observed_dois": [
+        "10.1038/s41467-023-40173-5"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Guided construction of single cell reference for human and mouse lung",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_37591828_Single-cell genomics improves the discovery of risk variants and genes of atrial fibrillation..pdf",
+      "sha256": "c561f8b5d5732b4775806ca236def455c9f96e05e6242c6beb24f49f2d0cffcb",
+      "file_size": 3756029,
+      "page_count": 18,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41467-023-40505-5",
+      "document_id": "DOI_10.1038_s41467-023-40505-5",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41467-023-40505-5",
+      "registry_pmid": "37591828",
+      "registry_title": "Single-cell genomics improves the discovery of risk variants and genes of atrial fibrillation.",
+      "observed_dois": [
+        "10.1038/s41467-023-40505-5"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-cell genomics improves the discovery of risk variants and genes of atrial fibrillation",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_37697055_Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+      "sha256": "fe484ebf5ef0a5103f8c1b3125978857f10e83fd4fd6499b373f030e50823c7a",
+      "file_size": 26632519,
+      "page_count": 42,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "document_id": "DOI_10.1038_s42255-023-00876-x",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s42255-023-00876-x",
+      "registry_pmid": "37697055",
+      "registry_title": "Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas.",
+      "observed_dois": [
+        "10.1038/s42255-023-00876-x",
+        "10.1038/s42255-023-00876-xsenescence-associated",
+        "10.1038/s42255-023-00876-xmultiple"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_37809094_Inflammation-mediated fibroblast activation and immune dysregulation in collagen VII-deficient skin..pdf",
+      "sha256": "aba4b5c3b04310c663b25b6ce0cb537a279fc39875a332b643f22d49a6ba5c05",
+      "file_size": 17085853,
+      "page_count": 20,
+      "status": "verified",
+      "paper_id": "DOI_10.3389_fimmu.2023.1211505",
+      "document_id": "DOI_10.3389_fimmu.2023.1211505",
+      "document_role": "primary",
+      "registry_doi": "10.3389/fimmu.2023.1211505",
+      "registry_pmid": "37809094",
+      "registry_title": "Inflammation-mediated fibroblast activation and immune dysregulation in collagen VII-deficient skin.",
+      "observed_dois": [
+        "10.3389/fimmu.2023.1211505"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "",
+      "score": 440,
+      "title_score": 0.934,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_38134877_Automatic cell-type harmonization and integration across Human Cell Atlas datasets..pdf",
+      "sha256": "ece6041309834e0e9c7020609230ca26cd1ddff90cbaa9bc55e820daa12ea707",
+      "file_size": 15717983,
+      "page_count": 37,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.cell.2023.11.026",
+      "document_id": "DOI_10.1016_j.cell.2023.11.026",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.cell.2023.11.026",
+      "registry_pmid": "38134877",
+      "registry_title": "Automatic cell-type harmonization and integration across Human Cell Atlas datasets.",
+      "observed_dois": [
+        "10.1016/j.cell.2023.11.026"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Automatic cell-type harmonization and integration across Human Cell Atlas datasets",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_38165934_Multiscale spatial mapping of cell populations across anatomical sites in healthy human skin and bas.pdf",
+      "sha256": "949674dafbaad8681fc8ef85ec5f1c134a78c494d7b973afce54a01da3ca1bda",
+      "file_size": 9519392,
+      "page_count": 10,
+      "status": "verified",
+      "paper_id": "DOI_10.1073_pnas.2313326120",
+      "document_id": "DOI_10.1073_pnas.2313326120",
+      "document_role": "primary",
+      "registry_doi": "10.1073/pnas.2313326120",
+      "registry_pmid": "38165934",
+      "registry_title": "Multiscale spatial mapping of cell populations across anatomical sites in healthy human skin and basal cell carcinoma.",
+      "observed_dois": [
+        "10.1073/pnas.2313326120",
+        "10.1073/pnas"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Multiscale spatial mapping of cell populations across anatomical sites in healthy human skin and basal cell carcinoma",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+      "sha256": "f1f497004f3c446deeeba2ee8362ad0ad11f91697f94fafe67a6c23338ed0d7a",
+      "file_size": 66210352,
+      "page_count": 39,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "document_id": "DOI_10.1038_s41586-024-07069-w",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-024-07069-w",
+      "registry_pmid": "38355799",
+      "registry_title": "A single-cell time-lapse of mouse prenatal development from gastrula to birth.",
+      "observed_dois": [
+        "10.1038/s41586-024-07069-w"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A single-cell time-lapse of mouse prenatal development from gastrula to birth",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_38548990_Cell-type-specific and disease-associated expression quantitative trait loci in the human lung..pdf",
+      "sha256": "db0b47f7f1b3b98d1787dd1f8704dd963584e41d82a8cf76aa98574b23729354",
+      "file_size": 2713602,
+      "page_count": 17,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "document_id": "DOI_10.1038_s41588-024-01702-0",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41588-024-01702-0",
+      "registry_pmid": "38548990",
+      "registry_title": "Cell-type-specific and disease-associated expression quantitative trait loci in the human lung.",
+      "observed_dois": [
+        "10.1038/s41588-024-01702-0",
+        "10.1038/s41588-024-01702-0for"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Cell-type-specific and disease-associated expression quantitative trait loci in the human lung",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_38622407_Human skeletal muscle aging atlas..pdf",
+      "sha256": "a4ef3d5540e8a63f270c4be9aa5152753bff6507fcb4386b6fe96aa8b3a8b366",
+      "file_size": 29426506,
+      "page_count": 35,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s43587-024-00613-3",
+      "document_id": "DOI_10.1038_s43587-024-00613-3",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s43587-024-00613-3",
+      "registry_pmid": "38622407",
+      "registry_title": "Human skeletal muscle aging atlas.",
+      "observed_dois": [
+        "10.1038/s43587-024-00613-3",
+        "10.1038/s43587-024-00613-3and"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Human skeletal muscle aging atlas",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_38776872_Transcriptomic and spatial dissection of human ex vivo right atrial tissue reveals proinflammatory m.pdf",
+      "sha256": "036e42d167bd25e4fa5942020236ad0c9dff70101454a1b0a62b39643a8621d4",
+      "file_size": 18403999,
+      "page_count": 27,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.xcrm.2024.101556",
+      "document_id": "DOI_10.1016_j.xcrm.2024.101556",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.xcrm.2024.101556",
+      "registry_pmid": "38776872",
+      "registry_title": "Transcriptomic and spatial dissection of human ex vivo right atrial tissue reveals proinflammatory microvascular changes in ischemic heart disease.",
+      "observed_dois": [
+        "10.1016/j.xcrm.2024.101556"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Transcriptomic and spatial dissection of human ex vivo right atrial tissue reveals proinflammatory microvascular changes in ischemic heart disease",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+      "sha256": "4ea56f9a7eb5e9744e1f998584b359394d7fb536529c04013beb40aa90801a62",
+      "file_size": 4739481,
+      "page_count": 15,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "document_id": "DOI_10.1038_s41467-024-52052-8",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41467-024-52052-8",
+      "registry_pmid": "39362841",
+      "registry_title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.",
+      "observed_dois": [
+        "10.1038/s41467-024-52052-8"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+      "sha256": "70a4d590049fdfc8bc112d5c02efecba8ca2b7f4c463dc1b9b9888e1d4d41681",
+      "file_size": 20211798,
+      "page_count": 38,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "document_id": "DOI_10.1038_s41591-024-03215-z",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41591-024-03215-z",
+      "registry_pmid": "39478111",
+      "registry_title": "A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features.",
+      "observed_dois": [
+        "10.1038/s41591-024-03215-z",
+        "10.1038/s41591-024-03215-zentire",
+        "10.1038/s41591-024-03215-zthe"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_39567783_Single-cell integration reveals metaplasia in inflammatory gut diseases..pdf",
+      "sha256": "0a2dd40ebc5337e9cb64a6464b6ddf57e76f685267feb710e130d756d4ef9468",
+      "file_size": 22039741,
+      "page_count": 35,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-024-07571-1",
+      "document_id": "DOI_10.1038_s41586-024-07571-1",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-024-07571-1",
+      "registry_pmid": "39567783",
+      "registry_title": "Single-cell integration reveals metaplasia in inflammatory gut diseases.",
+      "observed_dois": [
+        "10.1038/s41586-024-07571-1"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-cell integration reveals metaplasia in inflammatory gut diseases",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac .pdf",
+      "sha256": "b403386f35c12af2ed44c75d200e4931b72f95a5f91c04c7e86e0cff5b8a27d6",
+      "file_size": 5390903,
+      "page_count": 20,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "document_id": "DOI_10.1038_s42003-024-07315-x",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s42003-024-07315-x",
+      "registry_pmid": "39627536",
+      "registry_title": "Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac inflammatory responses upon heart injury.",
+      "observed_dois": [
+        "10.1038/s42003-024-07315-x"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac inflammatory responses upon heart injury",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+      "sha256": "722300ca8de227e2ade604e847ecf091bc926a04ab3e7240a269aedbcc9d6830",
+      "file_size": 5935498,
+      "page_count": 16,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "document_id": "DOI_10.1016_j.isci.2024.111628",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.isci.2024.111628",
+      "registry_pmid": "39850354",
+      "registry_title": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq.",
+      "observed_dois": [
+        "10.1016/j.isci.2024.111628"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_39994453_The cellular and molecular cardiac tissue responses in human inflammatory cardiomyopathies after SAR.pdf",
+      "sha256": "b75785520a8c3de255f66ba3b87991eb88da4d0ea33d1ad0ca9cbd961fafd0d4",
+      "file_size": 23181240,
+      "page_count": 32,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s44161-025-00612-6",
+      "document_id": "DOI_10.1038_s44161-025-00612-6",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s44161-025-00612-6",
+      "registry_pmid": "39994453",
+      "registry_title": "The cellular and molecular cardiac tissue responses in human inflammatory cardiomyopathies after SARS-CoV-2 infection and COVID-19 vaccination.",
+      "observed_dois": [
+        "10.1038/s44161-025-00612-6",
+        "10.1038/s44161-025-00612-6100"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "The cellular and molecular cardiac tissue responses in human inflammatory cardiomyopathies after SARS-CoV-2 infection and COVID-19 vaccination",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_40044687_Single-nuclei sequencing of skeletal muscle reveals subsynaptic-specific transcripts involved in neu.pdf",
+      "sha256": "d270b8cbe31797fa5636337fd3c3dd942c2a31e16b7cba306baddf4bc39cce07",
+      "file_size": 5990312,
+      "page_count": 19,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41467-025-57487-1",
+      "document_id": "DOI_10.1038_s41467-025-57487-1",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41467-025-57487-1",
+      "registry_pmid": "40044687",
+      "registry_title": "Single-nuclei sequencing of skeletal muscle reveals subsynaptic-specific transcripts involved in neuromuscular junction maintenance.",
+      "observed_dois": [
+        "10.1038/s41467-025-57487-1"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Single-nuclei sequencing of skeletal muscle reveals subsynaptic-specific transcripts involved in neuromuscular junction maintenance",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+      "sha256": "b83a39ee38aeef42264f00282611c5691ad19d11d5691ec212435e12c67fbe69",
+      "file_size": 32385765,
+      "page_count": 40,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "document_id": "DOI_10.1038_s41588-025-02158-6",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41588-025-02158-6",
+      "registry_pmid": "40229600",
+      "registry_title": "Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tumor microenvironment rewiring.",
+      "observed_dois": [
+        "10.1038/s41588-025-02158-6",
+        "10.1038/s41588-025-02158-6were",
+        "10.1038/s41588-025-02158-6consistently"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tumor microenvironment rewiring",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+      "sha256": "a90a4b4f9b4eb930f3f4b8345a69eeb3138a3a09ba18a0aa8685de0c7a08eebf",
+      "file_size": 31998570,
+      "page_count": 34,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "document_id": "DOI_10.1038_s41588-025-02182-6",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41588-025-02182-6",
+      "registry_pmid": "40355592",
+      "registry_title": "An integrated transcriptomic cell atlas of human endoderm-derived organoids.",
+      "observed_dois": [
+        "10.1038/s41588-025-02182-6",
+        "10.1038/s41588-025-02182-6thyroid"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "An integrated transcriptomic cell atlas of human endoderm-derived organoids",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_41529665_Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neu.pdf",
+      "sha256": "4f25d74ffeab38c23d54e0b647d5c7cb530757912785b83649094e4a72d3d7c7",
+      "file_size": 20543629,
+      "page_count": 35,
+      "status": "verified",
+      "paper_id": "DOI_10.1016_j.ccell.2025.12.003",
+      "document_id": "DOI_10.1016_j.ccell.2025.12.003",
+      "document_role": "primary",
+      "registry_doi": "10.1016/j.ccell.2025.12.003",
+      "registry_pmid": "41529665",
+      "registry_title": "Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neutrophils in colorectal cancer.",
+      "observed_dois": [],
+      "observed_pmids": [],
+      "metadata_title": "Single-cell integration and multi-modal profiling reveals phenotypes and spatial organization of neutrophils in colorectal cancer",
+      "score": 260,
+      "title_score": 1.0,
+      "match_basis": [
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_41741455_Multi-modal skin atlas identifies a multicellular immune-stromal community associated with disrupted.pdf",
+      "sha256": "08a3462768c562ed53203a47641f2ff5b815a451d860cf35b31a616b37560f67",
+      "file_size": 3980127,
+      "page_count": 20,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41467-026-69587-7",
+      "document_id": "DOI_10.1038_s41467-026-69587-7",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41467-026-69587-7",
+      "registry_pmid": "41741455",
+      "registry_title": "Multi-modal skin atlas identifies a multicellular immune-stromal community associated with disrupted cornification and specific T cell expansion in atopic dermatitis.",
+      "observed_dois": [
+        "10.1038/s41467-026-69587-7"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Multi-modal skin atlas identifies a multicellular immune-stromal community associated with disrupted cornification and specific T cell expansion in atopic dermatitis",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_42236949_Cell-type-resolved genetic variation shapes inflammatory bowel disease risk..pdf",
+      "sha256": "5beac666baa1caf8f0a92bf39d0dfc2d0a3e212972111933300ed77b4d2bce4b",
+      "file_size": 11777214,
+      "page_count": 28,
+      "status": "verified",
+      "paper_id": "DOI_10.1038_s41586-026-10627-z",
+      "document_id": "DOI_10.1038_s41586-026-10627-z",
+      "document_role": "primary",
+      "registry_doi": "10.1038/s41586-026-10627-z",
+      "registry_pmid": "42236949",
+      "registry_title": "Cell-type-resolved genetic variation shapes inflammatory bowel disease risk.",
+      "observed_dois": [
+        "10.1038/s41586-026-10627-z"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Cell-type-resolved genetic variation shapes inflammatory bowel disease risk",
+      "score": 480,
+      "title_score": 1.0,
+      "match_basis": [
+        "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "s41467-025-60371-7.pdf",
+      "sha256": "a59963f44f46b439dedc9c7cb5f397d01cf32ddab5900b3d2b7f4a40cabfa9a2",
+      "file_size": 9230185,
+      "page_count": 14,
+      "status": "verified",
+      "paper_id": "TITLE_s41467_025_60371_7",
+      "document_id": "TITLE_s41467_025_60371_7",
+      "document_role": "primary",
+      "registry_doi": "",
+      "registry_pmid": "",
+      "registry_title": "s41467-025-60371-7",
+      "observed_dois": [
+        "10.1038/s41467-025-60371-7"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Bronchopulmonary dysplasia with pulmonary hypertension associates with semaphorin signaling loss and functionally decreased FOXF1 expression",
+      "score": 140,
+      "title_score": 1.0,
+      "match_basis": [
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    }
+  ]
+}

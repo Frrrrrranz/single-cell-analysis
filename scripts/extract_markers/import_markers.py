@@ -23,6 +23,8 @@ from typing import Optional
 
 from openpyxl import load_workbook
 
+from marker_schema import FORMAL_EVIDENCE_TYPES, MARKER_POLARITIES
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
@@ -30,6 +32,17 @@ DB_PATH = Path(r"D:\OneDrive\Desktop\组\db\pns-scrna.xlsx")
 
 # 允许导入的 review_status 值
 ALLOWED_STATUSES = {"approved", "modified"}
+REQUIRED_REVIEW_COLUMNS = {
+    "paper_id", "document_id", "document_role", "cell_type", "subtype", "species",
+    "gene_symbol", "evidence_type", "marker_polarity", "candidate_class",
+    "source_locator", "source_context", "review_status",
+}
+REQUIRED_MARKER_COLUMNS = {
+    "marker_id", "paper_id", "document_id", "document_role", "ct_id", "subtype_id",
+    "cell_type", "species", "gene_symbol", "original_symbol", "evidence_type",
+    "marker_polarity", "candidate_class", "source_locator", "source_context",
+    "review_status", "notes",
+}
 
 
 def get_next_marker_id(ws) -> str:
@@ -112,20 +125,29 @@ def update_mark_status(ws_cell_types, paper_id: str):
 
 def import_review_csv(csv_path: Path, db_path: Path) -> None:
     """将复核通过的 CSV 数据导入 markers sheet"""
-    # 从 CSV 文件名提取 paper_id
-    paper_id = csv_path.stem.replace("_review", "")
     logger.info(f"=" * 60)
     logger.info(f"导入: {csv_path.name}")
-    logger.info(f"  paper_id: {paper_id}")
 
     # 读取 CSV
     rows_to_import: list[dict] = []
     try:
         with open(csv_path, "r", encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
+            missing_columns = REQUIRED_REVIEW_COLUMNS - set(reader.fieldnames or [])
+            if missing_columns:
+                raise ValueError(f"复核 CSV 缺少新 schema 列: {sorted(missing_columns)}")
             for row in reader:
                 status = row.get("review_status", "").strip().lower()
                 if status in ALLOWED_STATUSES:
+                    evidence_type = row.get("evidence_type", "").strip()
+                    candidate_class = row.get("candidate_class", "").strip()
+                    marker_polarity = row.get("marker_polarity", "").strip()
+                    if evidence_type not in FORMAL_EVIDENCE_TYPES or candidate_class != "formal_candidate":
+                        raise ValueError(
+                            f"非正式 marker 证据不可批准入库: {row.get('gene_symbol')} ({evidence_type})"
+                        )
+                    if marker_polarity not in MARKER_POLARITIES:
+                        raise ValueError(f"无效 marker_polarity: {marker_polarity!r}")
                     rows_to_import.append(row)
     except FileNotFoundError:
         logger.error(f"文件不存在: {csv_path}")
@@ -134,6 +156,17 @@ def import_review_csv(csv_path: Path, db_path: Path) -> None:
     if not rows_to_import:
         logger.info("  没有待导入的行（所有行状态都不是 approved/modified）")
         return
+
+    paper_ids = {row["paper_id"].strip() for row in rows_to_import}
+    document_ids = {row["document_id"].strip() for row in rows_to_import}
+    if len(paper_ids) != 1 or "" in paper_ids:
+        raise ValueError(f"单个复核 CSV 必须且只能包含一个 paper_id: {sorted(paper_ids)}")
+    if len(document_ids) != 1 or "" in document_ids:
+        raise ValueError(f"单个复核 CSV 必须且只能包含一个 document_id: {sorted(document_ids)}")
+    paper_id = next(iter(paper_ids))
+    document_id = next(iter(document_ids))
+    logger.info("  paper_id: %s", paper_id)
+    logger.info("  document_id: %s", document_id)
 
     logger.info(f"  待导入: {len(rows_to_import)} 行")
 
@@ -148,11 +181,20 @@ def import_review_csv(csv_path: Path, db_path: Path) -> None:
     # headers for markers sheet
     marker_headers = [c.value for c in ws_markers[1]]
     marker_col_map = {h: i + 1 for i, h in enumerate(marker_headers)}
+    missing_db_columns = REQUIRED_MARKER_COLUMNS - set(marker_col_map)
+    if missing_db_columns:
+        wb.close()
+        raise ValueError(
+            "markers sheet 尚未升级到 marker schema v2，缺少列: "
+            f"{sorted(missing_db_columns)}。为防止证据丢失，本次拒绝导入。"
+        )
 
-    # 幂等去重：读取该 paper_id 已有的 (cell_type, gene_symbol) 集合
+    # 幂等去重：同一论文、细胞、亚型、基因和极性只保留一条正式 marker。
     pid_col_idx = marker_col_map.get("paper_id")
     ct_col_idx = marker_col_map.get("cell_type")
     gene_col_idx = marker_col_map.get("gene_symbol")
+    subtype_col_idx = marker_col_map.get("subtype_id")
+    polarity_col_idx = marker_col_map.get("marker_polarity")
     existing_keys: set[tuple] = set()
     if pid_col_idx and ct_col_idx and gene_col_idx:
         for row in ws_markers.iter_rows(min_row=2, max_row=ws_markers.max_row,
@@ -162,7 +204,9 @@ def import_review_csv(csv_path: Path, db_path: Path) -> None:
             row_gene = row[gene_col_idx - 1]
             if row_pid == paper_id and row_ct and row_gene:
                 existing_keys.add((str(row_ct).strip().lower(),
-                                   str(row_gene).strip().lower()))
+                                   str(row[subtype_col_idx - 1] or "").strip().lower(),
+                                   str(row_gene).strip().lower(),
+                                   str(row[polarity_col_idx - 1] or "unknown").strip().lower()))
 
     imported_count = 0
     ct_unmatched = 0
@@ -174,14 +218,17 @@ def import_review_csv(csv_path: Path, db_path: Path) -> None:
         # 按物种决定大小写（修复原 .upper() 误伤鼠源基因的 bug）
         gene_symbol_norm = normalize_gene_casing(gene_symbol, species)
         original_symbol = gene_symbol
-        evidence_level = row.get("evidence_level", "imported").strip()
-        source_section = row.get("source_section", "").strip()
+        evidence_type = row["evidence_type"].strip()
+        marker_polarity = row["marker_polarity"].strip()
+        candidate_class = row["candidate_class"].strip()
+        source_locator = row["source_locator"].strip()
         source_context = row.get("source_context", "").strip()
         review_status = row.get("review_status", "approved").strip()
         notes = row.get("notes", "").strip()
 
         # 幂等检查：paper_id + cell_type + gene_symbol 已存在则跳过
-        dedup_key = (cell_type.lower(), gene_symbol_norm.lower())
+        subtype = row.get("subtype", "").strip()
+        dedup_key = (cell_type.lower(), subtype.lower(), gene_symbol_norm.lower(), marker_polarity.lower())
         if dedup_key in existing_keys:
             skipped_dup += 1
             continue
@@ -200,16 +247,20 @@ def import_review_csv(csv_path: Path, db_path: Path) -> None:
         row_data = {
             "marker_id": next_marker_id,
             "ct_id": ct_id,                   # 可能为 None
-            "subtype_id": row.get("subtype", "").strip() or None,
+            "subtype_id": subtype or None,
             "gene_symbol": gene_symbol_norm,  # 按物种大小写
             "original_symbol": original_symbol,
-            "evidence_level": evidence_level,
-            "source_section": source_section,
+            "evidence_type": evidence_type,
+            "marker_polarity": marker_polarity,
+            "candidate_class": candidate_class,
+            "source_locator": source_locator,
             "source_context": source_context,
             "review_status": review_status,
             "notes": notes,
             # 新增列（D4 解耦 ct_id）
             "paper_id": paper_id,
+            "document_id": document_id,
+            "document_role": row["document_role"].strip(),
             "cell_type": cell_type,
             "species": species or "NA",
         }
@@ -257,7 +308,10 @@ def main() -> None:
         logger.error(f"数据库文件不存在: {db_path}")
         return
 
-    import_review_csv(csv_path, db_path)
+    try:
+        import_review_csv(csv_path, db_path)
+    except ValueError as exc:
+        logger.error("导入校验失败: %s", exc)
 
 
 if __name__ == "__main__":
