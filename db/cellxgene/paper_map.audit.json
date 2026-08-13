@@ -1,15 +1,15 @@
 {
   "registry": "D:\\OneDrive\\Desktop\\组\\db\\cellxgene\\paper_registry.json",
-  "pdf_count": 67,
-  "verified_count": 67,
+  "pdf_count": 68,
+  "verified_count": 68,
   "blocked_count": 0,
   "issue_counts": {
     "registry_path_conflict": 8,
     "registry_path_mismatch": 9
   },
   "registry_expected_paper_count": 99,
-  "content_available_paper_count": 64,
-  "missing_expected_paper_count": 35,
+  "content_available_paper_count": 65,
+  "missing_expected_paper_count": 34,
   "missing_expected_papers": [
     {
       "paper_id": "DOI_10.1016_j.celrep.2024.114247",
@@ -90,15 +90,6 @@
       "title": "Concerted changes in the pediatric single-cell intestinal ecosystem before and after anti-TNF blockade",
       "expected_filenames": [
         "doi_10.1101_2021.09.17.21263540_concerted changes in the pediatric single-cell intestinal ecosystem before and after anti-tnf blocka.pdf"
-      ]
-    },
-    {
-      "paper_id": "DOI_10.1126_science.aat5031",
-      "doi": "10.1126/science.aat5031",
-      "pmid": "31604275",
-      "title": "Spatiotemporal immune zonation of the human kidney.",
-      "expected_filenames": [
-        "pmid_31604275_spatiotemporal immune zonation of the human kidney..pdf"
       ]
     },
     {
@@ -802,6 +793,35 @@
       "title_score": 1.0,
       "match_basis": [
         "primary_pdf_doi",
+        "filename_pmid",
+        "registry_path",
+        "strong_title"
+      ],
+      "issues": [],
+      "read_error": ""
+    },
+    {
+      "filename": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+      "sha256": "ef9faf14b74315670fd8d95925e13caaf837c1d734d74d05e257d263a9ce7845",
+      "file_size": 2276423,
+      "page_count": 19,
+      "status": "verified",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "document_id": "DOI_10.1126_science.aat5031",
+      "document_role": "primary",
+      "registry_doi": "10.1126/science.aat5031",
+      "registry_pmid": "31604275",
+      "registry_title": "Spatiotemporal immune zonation of the human kidney.",
+      "observed_dois": [
+        "10.5281/zenodo.3245841",
+        "10.1126/science.aat5031"
+      ],
+      "observed_pmids": [],
+      "metadata_title": "Spatio-temporal immune zonation of the human kidney",
+      "score": 350,
+      "title_score": 0.9901,
+      "match_basis": [
+        "secondary_pdf_doi",
         "filename_pmid",
         "registry_path",
         "strong_title"

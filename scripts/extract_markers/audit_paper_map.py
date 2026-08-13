@@ -158,6 +158,67 @@ class MatchResult:
         return "verified"
 
 
+def load_cached_results(
+    audit_path: Path,
+    papers: Sequence[RegistryPaper],
+) -> dict[str, MatchResult]:
+    """复用已验证且登记身份未变化的 PDF 证据，避免反复解析大型旧文件。"""
+    if not audit_path.exists():
+        return {}
+
+    payload = json.loads(audit_path.read_text(encoding="utf-8"))
+    records = payload.get("records", [])
+    if not isinstance(records, list):
+        raise ValueError("缓存审计 JSON 的 records 必须是数组")
+
+    papers_by_id = {paper.paper_id: paper for paper in papers}
+    cached: dict[str, MatchResult] = {}
+    cross_file_issues = {"duplicate_content", "duplicate_paper_id"}
+    for record in records:
+        if not isinstance(record, dict) or record.get("status") != "verified":
+            continue
+        filename = str(record.get("filename") or "")
+        paper = papers_by_id.get(str(record.get("paper_id") or ""))
+        if not filename or paper is None:
+            continue
+        registry_identity = (
+            str(record.get("registry_doi") or ""),
+            str(record.get("registry_pmid") or ""),
+            str(record.get("registry_title") or ""),
+        )
+        if registry_identity != (paper.doi, paper.pmid, paper.title):
+            continue
+
+        evidence = PdfEvidence(
+            filename=filename,
+            sha256=str(record.get("sha256") or ""),
+            file_size=int(record.get("file_size") or 0),
+            page_count=int(record.get("page_count") or 0),
+            metadata_title=str(record.get("metadata_title") or ""),
+            first_pages_text="",
+            observed_dois=[str(value) for value in record.get("observed_dois", [])],
+            observed_pmids=[str(value) for value in record.get("observed_pmids", [])],
+            filename_pmids=ordered_unique(
+                match.group(1) for match in FILENAME_PMID_PATTERN.finditer(filename)
+            ),
+            read_error=str(record.get("read_error") or ""),
+        )
+        issues = [
+            str(issue)
+            for issue in record.get("issues", [])
+            if str(issue) not in cross_file_issues
+        ]
+        cached[filename] = MatchResult(
+            evidence=evidence,
+            paper=paper,
+            score=int(record.get("score") or 0),
+            title_score=float(record.get("title_score") or 0.0),
+            match_basis=[str(value) for value in record.get("match_basis", [])],
+            issues=issues,
+        )
+    return cached
+
+
 def load_registry(registry_path: Path) -> list[RegistryPaper]:
     payload = json.loads(registry_path.read_text(encoding="utf-8"))
     records = payload.get("records")
@@ -528,6 +589,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--map-output", type=Path, default=DEFAULT_MAP)
     parser.add_argument("--document-overrides", type=Path, default=DEFAULT_DOCUMENT_OVERRIDES)
     parser.add_argument("--page-limit", type=int, default=3)
+    parser.add_argument(
+        "--reuse-audit",
+        action="store_true",
+        help="复用 --audit-json 中 SHA256 和登记身份均未变化的 verified 结果",
+    )
     parser.add_argument("--write-map", action="store_true", help="仅在全部 PDF 通过时写出正式映射")
     return parser.parse_args()
 
@@ -537,12 +603,27 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
     papers = load_registry(args.registry)
     overrides = load_document_overrides(args.document_overrides)
+    cached_results = load_cached_results(args.audit_json, papers) if args.reuse_audit else {}
     pdf_paths = sorted(args.pdf_dir.glob("*.pdf"), key=lambda path: path.name.casefold())
-    logger.info("登记论文身份: %d；PDF: %d", len(papers), len(pdf_paths))
+    logger.info(
+        "登记论文身份: %d；PDF: %d；可复用审计: %d",
+        len(papers),
+        len(pdf_paths),
+        len(cached_results),
+    )
 
     results: list[MatchResult] = []
     for index, pdf_path in enumerate(pdf_paths, start=1):
         logger.info("[%d/%d] 审计 %s", index, len(pdf_paths), pdf_path.name)
+        cached = cached_results.get(pdf_path.name)
+        if (
+            cached is not None
+            and cached.evidence.file_size == pdf_path.stat().st_size
+            and cached.evidence.sha256 == sha256_file(pdf_path)
+        ):
+            logger.info("复用已验证审计证据: %s", pdf_path.name)
+            results.append(cached)
+            continue
         evidence = extract_pdf_evidence(pdf_path, page_limit=args.page_limit)
         results.append(match_pdf(evidence, papers))
     apply_document_overrides(results, overrides)

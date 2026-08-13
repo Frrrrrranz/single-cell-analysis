@@ -17,6 +17,7 @@ from audit_paper_map import (  # noqa: E402
     apply_document_overrides,
     build_paper_map,
     canonical_paper_id,
+    load_cached_results,
     match_pdf,
     normalize_doi,
 )
@@ -156,6 +157,49 @@ class MappingTests(unittest.TestCase):
         self.assertNotIn("duplicate_paper_id", primary.issues)
         self.assertNotIn("duplicate_paper_id", supplement.issues)
         self.assertNotEqual(primary.document_id, supplement.document_id)
+
+    def test_loads_only_verified_cache_with_unchanged_registry_identity(self) -> None:
+        temp_dir = tempfile.TemporaryDirectory()
+        self.addCleanup(temp_dir.cleanup)
+        audit_path = Path(temp_dir.name) / "audit.json"
+        audit_path.write_text(
+            json.dumps({
+                "records": [{
+                    "filename": "paper.pdf",
+                    "sha256": "a" * 64,
+                    "file_size": 100,
+                    "page_count": 10,
+                    "status": "verified",
+                    "paper_id": self.actual.paper_id,
+                    "registry_doi": self.actual.doi,
+                    "registry_pmid": self.actual.pmid,
+                    "registry_title": self.actual.title,
+                    "observed_dois": [self.actual.doi],
+                    "observed_pmids": [],
+                    "metadata_title": self.actual.title,
+                    "score": 220,
+                    "title_score": 1.0,
+                    "match_basis": ["primary_pdf_doi", "strong_title"],
+                    "issues": ["duplicate_paper_id", "registry_path_mismatch"],
+                    "read_error": "",
+                }]
+            }),
+            encoding="utf-8",
+        )
+
+        cached = load_cached_results(audit_path, [self.actual])
+
+        self.assertEqual(cached["paper.pdf"].paper, self.actual)
+        self.assertNotIn("duplicate_paper_id", cached["paper.pdf"].issues)
+        self.assertIn("registry_path_mismatch", cached["paper.pdf"].issues)
+
+        changed = RegistryPaper(
+            key=self.actual.key,
+            doi=self.actual.doi,
+            pmid=self.actual.pmid,
+            title=f"{self.actual.title} revised",
+        )
+        self.assertEqual(load_cached_results(audit_path, [changed]), {})
 
 
 class QuarantinePlanTests(unittest.TestCase):
