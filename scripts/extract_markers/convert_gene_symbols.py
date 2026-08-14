@@ -8,7 +8,7 @@ convert_gene_symbols.py — HGNC 批量基因名标准化（独立后处理步�
 4. 无法匹配的标记为 'unverified'
 
 使用方式：
-    python convert_gene_symbols.py [--db PATH] [--dry-run]
+    python convert_gene_symbols.py --db PATH [--dry-run]
 
 依赖：
     pip install mygene
@@ -27,9 +27,6 @@ from openpyxl import load_workbook
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
-
-DB_PATH = Path(r"D:\OneDrive\Desktop\组\db\pns-scrna.xlsx")
-
 
 def collect_unverified_genes(ws_markers) -> list[tuple[int, str]]:
     """收集待标准化的基因
@@ -143,13 +140,17 @@ def mark_unverified(ws_markers, genes: list[tuple[int, str]],
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="HGNC 批量基因名标准化")
-    parser.add_argument("--db", default=str(DB_PATH),
-                        help=f"数据库路径 (默认: {DB_PATH})")
+    parser.add_argument(
+        "--db",
+        type=Path,
+        required=True,
+        help="目标 schema v2 marker 工作簿路径；必须显式指定，防止误写旧数据库",
+    )
     parser.add_argument("--dry-run", action="store_true",
                         help="仅显示要转换的基因，不写入")
     args = parser.parse_args()
 
-    db_path = Path(args.db)
+    db_path = args.db
     if not db_path.exists():
         logger.error(f"数据库文件不存在: {db_path}")
         return

@@ -25,7 +25,7 @@ PDF ─→ 身份审计/文档角色 ─→ MarkItDown ─→ LLM schema v2 ─�
 | `marker_schema.py` | marker schema v2 枚举、证据分层和校验规则 |
 | `normalize_marker_output.py` | 对既有 schema v2 JSON 应用确定性证据护栏并保留模型原判 |
 | `gen_review_sheet.py` | 将 LLM 输出的 JSON 转为复核 CSV（按阅读顺序排列） |
-| `import_markers.py` | 将复核通过的 CSV 导入 pns-scrna.xlsx 的 markers sheet |
+| `import_markers.py` | 将复核通过的 CSV 导入显式指定的 schema v2 `markers` sheet |
 | `convert_gene_symbols.py` | **可选后处理**。用 mygene 将基因名标准化为 HGNC 符号 |
 | `prompts/extract_markers_v4.txt` | 默认提示词，区分作者声明、注释、图表、补充材料与普通 DEG |
 | `markers_output_v2/` | schema v2 输出目录（原始 JSON + 复核 CSV） |
@@ -102,16 +102,16 @@ python gen_review_sheet.py --input-dir markers_output_v2 --output-dir markers_ou
 
 ### 4. 导入数据库
 
-当前旧 `db/pns-scrna.xlsx` 尚未具备 schema v2 所需列，导入器会主动拒绝写入，防止丢失 document/evidence/polarity 信息。完成干净主表重建后再运行：
+当前尚未建立正式总 marker 工作簿。完成干净的 schema v2 主表重建后，必须通过 `--db` 显式指定目标；导入器仍会校验必需列，防止证据字段丢失：
 
 ```bash
-python import_markers.py markers_output_v2/{document_id}_review.csv
+python import_markers.py markers_output_v2/{document_id}_review.csv --db <schema-v2-marker-workbook.xlsx>
 ```
 
 ### 5. HGNC 标准化（可选）
 
 ```bash
-python convert_gene_symbols.py
+python convert_gene_symbols.py --db <schema-v2-marker-workbook.xlsx>
 ```
 
 ## 环境变量

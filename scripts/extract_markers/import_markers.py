@@ -9,10 +9,10 @@ import_markers.py — 复核后数据入库
 5. 更新 cell_types 对应行的 mark_status
 
 用法：
-    python import_markers.py <review_csv_path> [--db PATH]
+    python import_markers.py <review_csv_path> --db PATH
 
 输入：{paper_id}_review.csv（仅 review_status 为 approved / modified 的行）
-输出：pns-scrna.xlsx → markers sheet（追加写入）
+输出：通过 --db 显式指定的 schema v2 工作簿 → markers sheet（追加写入）
 """
 import argparse
 import csv
@@ -27,8 +27,6 @@ from marker_schema import FORMAL_EVIDENCE_TYPES, MARKER_POLARITIES
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
-
-DB_PATH = Path(r"D:\OneDrive\Desktop\组\db\pns-scrna.xlsx")
 
 # 允许导入的 review_status 值
 ALLOWED_STATUSES = {"approved", "modified"}
@@ -293,12 +291,16 @@ def import_review_csv(csv_path: Path, db_path: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="复核数据入库")
     parser.add_argument("csv_path", help="复核 CSV 文件路径")
-    parser.add_argument("--db", default=str(DB_PATH),
-                        help=f"数据库路径 (默认: {DB_PATH})")
+    parser.add_argument(
+        "--db",
+        type=Path,
+        required=True,
+        help="目标 schema v2 marker 工作簿路径；必须显式指定，防止误写旧数据库",
+    )
     args = parser.parse_args()
 
     csv_path = Path(args.csv_path)
-    db_path = Path(args.db)
+    db_path = args.db
 
     if not csv_path.exists():
         logger.error(f"CSV 文件不存在: {csv_path}")

@@ -12,7 +12,6 @@
 
 ## 使用限制
 
-1. 不要从本目录向 `db/pns-scrna.xlsx` 或新的 marker 主表执行导入。
+1. 不要从本目录向未来新建的 marker 主表执行导入。
 2. 需要历史对照时，可读取 raw JSON 和报告，但必须以论文 PDF、正确 DOI 和新映射重新核验。
 3. 新的 `paper_map.json` 应由 PDF 指纹、标题、DOI/PMID 校验后重新生成，不应复制本目录中的旧文件。
-
