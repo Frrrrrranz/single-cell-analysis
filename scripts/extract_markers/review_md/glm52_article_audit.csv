@@ -1,0 +1,28 @@
+task_no,paper_id,md_file,review_status,candidate_count,notes
+2,DOI_10.1038_s41586-021-03710-0,DOI_10.1038_s41586-021-03710-0.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+39,DOI_10.1038_s41586-020-2922-4,DOI_10.1038_s41586-020-2922-4.md,candidates_found,2,2 PNS marker candidates; PNS cell types mentioned 4 times
+42,DOI_10.1038_s41586-021-04345-x,DOI_10.1038_s41586-021-04345-x.md,needs_manual_review,0,PNS cell types mentioned 6 times but no genes captured; likely in figures/tables not converted to text
+43,DOI_10.1016_j.jcf.2025.01.016,DOI_10.1016_j.jcf.2025.01.016.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+44,DOI_10.1016_j.cell.2022.11.005,DOI_10.1016_j.cell.2022.11.005.md,candidates_found,5,5 PNS marker candidates; PNS cell types mentioned 25 times
+46,DOI_10.7554_elife.62522,DOI_10.7554_elife.62522.md,needs_manual_review,0,PNS cell types mentioned 2 times but no genes captured; likely in figures/tables not converted to text
+47,DOI_10.1038_s44318-024-00328-6,DOI_10.1038_s44318-024-00328-6.md,candidates_found,3,3 PNS marker candidates; PNS cell types mentioned 2 times
+48,DOI_10.1126_sciimmunol.adf9988,DOI_10.1126_sciimmunol.adf9988.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+50,DOI_10.1038_s41467-023-40173-5,DOI_10.1038_s41467-023-40173-5.md,needs_manual_review,0,PNS cell types mentioned 2 times but no genes captured; likely in figures/tables not converted to text
+51,DOI_10.1038_s41588-024-01702-0,DOI_10.1038_s41588-024-01702-0.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+52,DOI_10.1038_s41586-021-03569-1,DOI_10.1038_s41586-021-03569-1.md,needs_manual_review,0,PNS cell types mentioned 1 times but no genes captured; likely in figures/tables not converted to text
+53,DOI_10.1016_j.stem.2022.11.013,DOI_10.1016_j.stem.2022.11.013.md,candidates_found,1,1 PNS marker candidates; PNS cell types mentioned 2 times
+55,DOI_10.1016_j.cell.2021.07.023,DOI_10.1016_j.cell.2021.07.023.md,needs_manual_review,0,PNS cell types mentioned 3 times but no genes captured; likely in figures/tables not converted to text
+56,DOI_10.64898_2025.12.18.695268,DOI_10.64898_2025.12.18.695268.md,candidates_found,5,5 PNS marker candidates; PNS cell types mentioned 8 times
+57,DOI_10.1126_science.aat5031,DOI_10.1126_science.aat5031.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+59,DOI_10.1002_pros.24020,DOI_10.1002_pros.24020.md,candidates_found,1,1 PNS marker candidates; PNS cell types mentioned 2 times
+63,DOI_10.1016_j.cell.2017.09.004,DOI_10.1016_j.cell.2017.09.004.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+66,DOI_10.1038_s41591-024-03215-z,DOI_10.1038_s41591-024-03215-z.md,candidates_found,2,2 PNS marker candidates; PNS cell types mentioned 2 times
+67,DOI_10.1038_s42003-021-02562-8,DOI_10.1038_s42003-021-02562-8.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+69,DOI_10.1038_s41586-021-03929-x,DOI_10.1038_s41586-021-03929-x.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+70,DOI_10.1038_s41588-025-02182-6,DOI_10.1038_s41588-025-02182-6.md,needs_manual_review,0,PNS cell types mentioned 20 times but no genes captured; likely in figures/tables not converted to text
+71,DOI_10.1126_science.abl4290,DOI_10.1126_science.abl4290.md,candidates_found,1,1 PNS marker candidates; PNS cell types mentioned 17 times
+72,DOI_10.1126_science.abo0510,DOI_10.1126_science.abo0510.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+82,DOI_10.1101_2025.09.26.678707,DOI_10.1101_2025.09.26.678707.md,needs_manual_review,0,PNS cell types mentioned 1 times but no genes captured; likely in figures/tables not converted to text
+83,DOI_10.1038_s41467-021-21783-3,DOI_10.1038_s41467-021-21783-3.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+87,DOI_10.1038_s41586-020-2496-1,DOI_10.1038_s41586-020-2496-1.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
+88,DOI_10.1038_s42003-024-07315-x,DOI_10.1038_s42003-024-07315-x.md,no_formal_pns_marker,0,No PNS cell types found in markdown text
