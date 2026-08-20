@@ -1,0 +1,1025 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+  "cell_types": [
+    {
+      "cell_type": "myofibroblasts",
+      "subtype": "NOTUM+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NOTUM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Highlights",
+          "source_context": "NOTUM+ myofibroblasts spatially pattern differentiating human alveolar-type-2 cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "human lung tip progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, paragraph 2",
+          "source_context": "We find that SOX9+ human lung tip progenitors acquire an AT2 gene expression signature by 15 pcw...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, paragraph 2",
+          "source_context": "The human tip epithelium is SOX9/SOX2 dual-positive during airway branching...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "tip progenitor cells",
+      "subtype": "distal tip epithelium",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "10–12 pcw distal tips were columnar and marked by SOX9, SOX2, and TPPP3.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "10–12 pcw distal tips were columnar and marked by SOX9, SOX2, and TPPP3.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "10–12 pcw distal tips were columnar and marked by SOX9, SOX2, and TPPP3.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD44",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, surface-marker paragraph",
+          "source_context": "CD44 marks tip epithelial cells across all stages of lung development tested.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "late-stage tip epithelial cells",
+      "subtype": "alveolar-stage tip (CD44+CD36+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD44",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, surface-marker paragraph",
+          "source_context": "dual expression of CD44 and CD36 marks the tip epithelial population in the 15–21 pcw stage lung",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD36",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, surface-marker paragraph",
+          "source_context": "CD36 is specific to the ≥15–22 pcw stage tips where it is co-expressed with CD44, SFTPC and SOX9",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "late-stage tip cells co-expressed alveolar lineage markers, such as SFTPC, LAMP3, and SLC34A2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "LAMP3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "late-stage tip cells co-expressed alveolar lineage markers, such as SFTPC, LAMP3, and SLC34A2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SLC34A2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "late-stage tip cells co-expressed alveolar lineage markers, such as SFTPC, LAMP3, and SLC34A2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, surface-marker paragraph",
+          "source_context": "CD36 is specific to the ≥15–22 pcw stage tips where it is co-expressed with CD44, SFTPC and SOX9",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "17–22 pcw distal tip epithelium contained more cuboidal SOX2+, SOX9+, TPPP3+ cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "17–22 pcw distal tip epithelium contained more cuboidal SOX2+, SOX9+, TPPP3+ cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HTII-280",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "co-expressed AT2 cell markers, SFTPC, and HTII-280",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PORCN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "expressed SFTPC, HTII-280, SOX9, PORCN, CD44, and KI67",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KI67",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "expressed SFTPC, HTII-280, SOX9, PORCN, CD44, and KI67",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "stalk cells",
+      "subtype": "tip-adjacent stalk cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDPN",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, surface-marker paragraph",
+          "source_context": "SOX9−/PDPN+ tip-adjacent (stalk) cells",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, surface-marker paragraph",
+          "source_context": "SOX9−/PDPN+ tip-adjacent (stalk) cells",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "airway-lineage cells",
+      "subtype": "airway progenitors",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "the airway markers, TP63 and SOX2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "the airway markers, TP63 and SOX2",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "distal airway cells",
+      "subtype": "SCGB3A2+ distal airway regions",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NKX2.1 section",
+          "source_context": "SCGB3A2+ distal airway regions",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2 cells",
+      "subtype": "alveolar type 2 cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "AT2 cell markers, SFTPC, and HTII-280",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "HTII-280",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, first paragraph",
+          "source_context": "AT2 cell markers, SFTPC, and HTII-280",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "LAMP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, AT2 differentiation section",
+          "source_context": "AT2-specific LAMP3, HOPX, and ACE2 proteins increased",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HOPX",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, AT2 differentiation section",
+          "source_context": "AT2-specific LAMP3, HOPX, and ACE2 proteins increased",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACE2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, AT2 differentiation section",
+          "source_context": "AT2-specific LAMP3, HOPX, and ACE2 proteins increased",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SLC34A2",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 3D legend",
+          "source_context": "AT2 lineage markers, SFTPC, HOPX, SLC34A2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SCL34A2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NKX2.1 section",
+          "source_context": "other AT2 markers including SCL34A2, LAMP3, CEBPD, HOPX, and AXIN2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CEBPD",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NKX2.1 section",
+          "source_context": "other AT2 markers including SCL34A2, LAMP3, CEBPD, HOPX, and AXIN2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "AXIN2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NKX2.1 section",
+          "source_context": "other AT2 markers including SCL34A2, LAMP3, CEBPD, HOPX, and AXIN2",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1 cells",
+      "subtype": "differentiating AT1 cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NKX2.1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "NKX2.1+, SPOCK2+ differentiating AT1 cells emerged at the SFTPC− stalk regions",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPOCK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "NKX2.1+, SPOCK2+ differentiating AT1 cells emerged at the SFTPC− stalk regions",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cells",
+      "subtype": "basal-like cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63/P63",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NKX2.1 section",
+          "source_context": "basal cell markers TP63/P63, KRT5, and NGFR",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KRT5",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NKX2.1 section",
+          "source_context": "basal cell markers TP63/P63, KRT5, and NGFR",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NGFR",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NKX2.1 section",
+          "source_context": "basal cell markers TP63/P63, KRT5, and NGFR",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblasts",
+      "subtype": "NOTUM+ myofibroblasts (PDGFRA+CD141+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "PDGFRA+CD141+ myofibroblasts express high levels of ACTA2, NOTUM, and LEF1",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD141",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "PDGFRA+CD141+ myofibroblasts express high levels of ACTA2, NOTUM, and LEF1",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 4M legend",
+          "source_context": "ACTA2+NOTUM+ myofibroblasts and SFTPC+ tip epithelium",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NOTUM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 4M legend",
+          "source_context": "ACTA2+NOTUM+ myofibroblasts and SFTPC+ tip epithelium",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "LEF1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "express high levels of ACTA2, NOTUM, and LEF1",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "alveolar fibroblasts",
+      "subtype": "PDGFRA−CD141− fibroblasts",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "PDGFRA−CD141− fibroblasts express high levels of WNT2 and FGFR4",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD141",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "PDGFRA−CD141− fibroblasts express high levels of WNT2 and FGFR4",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "WNT2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "express high levels of WNT2 and FGFR4",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, NOTUM section",
+          "source_context": "express high levels of WNT2 and FGFR4",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD44+CD36− cells",
+      "subtype": "stalk-like cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD44",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "the CD44+CD36− cells had the highest level of SOX9 and a moderate level of SOX2",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD36",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, late-tip section",
+          "source_context": "the CD44+CD36− cells had the highest level of SOX9 and a moderate level of SOX2",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "the CD44+CD36− cells had the highest level of SOX9 and a moderate level of SOX2",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "the CD44+CD36− cells had the highest level of SOX9 and a moderate level of SOX2",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD44−CD36− cells",
+      "subtype": "airway-lineage cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD44",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, late-tip section",
+          "source_context": "CD44−CD36− cells had the highest levels of airway markers TP63 and SOX2",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD36",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, late-tip section",
+          "source_context": "CD44−CD36− cells had the highest levels of airway markers TP63 and SOX2",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TP63",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "airway markers TP63 and SOX2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, late-tip section",
+          "source_context": "airway markers TP63 and SOX2",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Tip epithelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD44",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Main text; STAR Methods - Isolation of tip epithelial cells",
+          "source_context": "Our LinPOS organoids are derived from the CD44+,CD36+17-21pcw tips. For isolation of CD44+, or CD44+CD36+, tip epithelium directly from the distal lung tissues ... EPCAM+ epithelial cells were sorted by CD44 and/or CD36 expression by FACS.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD36",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Main text; STAR Methods - Isolation of tip epithelial cells",
+          "source_context": "Our LinPOS organoids are derived from the CD44+,CD36+17-21pcw tips. For isolation of CD44+, or CD44+CD36+, tip epithelium directly from the distal lung tissues ... EPCAM+ epithelial cells were sorted by CD44 and/or CD36 expression by FACS.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "E-cadherin",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S1D legend",
+          "source_context": "Tip epithelium (arrowheads) is marked by E-cadherin, SFTPC, HTII-280, and SOX9.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S1D legend",
+          "source_context": "Tip epithelium (arrowheads) is marked by E-cadherin, SFTPC, HTII-280, and SOX9.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HTII-280",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S1D legend",
+          "source_context": "Tip epithelium (arrowheads) is marked by E-cadherin, SFTPC, HTII-280, and SOX9.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S1D legend",
+          "source_context": "Tip epithelium (arrowheads) is marked by E-cadherin, SFTPC, HTII-280, and SOX9.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S1F legend",
+          "source_context": "Stained for CD36, E-cadherin and PDPN ... Arrowheads indicate CD36+PDPN- tips.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Early-stage tip epithelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S1E legend",
+          "source_context": "The early-stage tip epithelium at 10 pcw expresses SOX9 and TPPP3, and gains the expression of the alveolar lineage marker, SFTPC, at late stages.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S1E legend",
+          "source_context": "The early-stage tip epithelium at 10 pcw expresses SOX9 and TPPP3, and gains the expression of the alveolar lineage marker, SFTPC, at late stages.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fetal AT2 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5O/P legend",
+          "source_context": "SFTPC, green, AT2 cell marker. The fetal AT2 cells are located at the stalk regions, next to the fetal AT1 cells.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "negative",
+          "source_locator": "Figure S1E legend",
+          "source_context": "The SFTPC+ stalk cells (hereafter, fetal AT2 cells) at 15 and 19 pcw lack SOX9 and TPPP3 expression (SOX9-TPPP3-SFTPC+).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "negative",
+          "source_locator": "Figure S1E legend",
+          "source_context": "The SFTPC+ stalk cells (hereafter, fetal AT2 cells) at 15 and 19 pcw lack SOX9 and TPPP3 expression (SOX9-TPPP3-SFTPC+).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fetal AT1 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPOCK2",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5O/P legend",
+          "source_context": "SPOCK2, red, AT1 cell marker; SFTPC, green, AT2 cell marker; white, NKX2.1, lung epithelial cell marker.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S5O/P legend",
+          "source_context": "SFTPC-/SPOCK2+ stalk cells (hereafter, fetal AT1 cells) ... SFTPC, green, AT2 cell marker.",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "LinPOS organoids",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S2A/B legend",
+          "source_context": "showing the alveolar lineage markers, SFTPC, HTII-280 (A) and LAMP3 (B, lower panel) were expressed in the LinPOS organoids, but not in the LinNEG organoids.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "HTII-280",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S2A/B legend",
+          "source_context": "showing the alveolar lineage markers, SFTPC, HTII-280 (A) and LAMP3 (B, lower panel) were expressed in the LinPOS organoids, but not in the LinNEG organoids.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "LAMP3",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S2A/B legend",
+          "source_context": "showing the alveolar lineage markers, SFTPC, HTII-280 (A) and LAMP3 (B, lower panel) were expressed in the LinPOS organoids, but not in the LinNEG organoids.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NOTUM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5N legend",
+          "source_context": "Time course analysis of NOTUM+ myofibroblasts, SCGB3A2+ terminal airway cells, and SFTPC+ tip and stalk cells from early (11 pcw) to late stages.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5M legend",
+          "source_context": "Summary diagram showing the spatial regulation of Wnt signalling mediated by ACTA2+PDGFRa+CD141+ myofibroblasts in the distal regions of human lung tissues during the late-stage.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDGFRa",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5M legend",
+          "source_context": "ACTA2+PDGFRa+CD141+ myofibroblasts",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD141",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5M legend",
+          "source_context": "ACTA2+PDGFRa+CD141+ myofibroblasts",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5E legend",
+          "source_context": "WNT2, alveolar fibroblasts, white; NOTUM, myofibroblasts, red; CD44, tip epithelium, green.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "STAR Methods - In vitro coculture experiments",
+          "source_context": "freshly sorted 2x105 PDGFRA+CD141+ myofibroblasts or PDGFRA-CD141- fibroblasts were mixed with SFTPC-eGFP+ LinPOS organoids...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD141",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "STAR Methods - In vitro coculture experiments",
+          "source_context": "freshly sorted 2x105 PDGFRA+CD141+ myofibroblasts or PDGFRA-CD141- fibroblasts were mixed with SFTPC-eGFP+ LinPOS organoids...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Terminal airway cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5N legend",
+          "source_context": "Time course analysis of NOTUM+ myofibroblasts, SCGB3A2+ terminal airway cells, and SFTPC+ tip and stalk cells from early (11 pcw) to late stages.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Airway epithelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S1D legend",
+          "source_context": "SOX2, airway epithelium (C). DAPI, nuclei.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lung epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NKX2.1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S5O/P legend",
+          "source_context": "SPOCK2, red, AT1 cell marker; SFTPC, green, AT2 cell marker; white, NKX2.1, lung epithelial cell marker.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "tip epithelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GATA6",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. S6F legend",
+          "source_context": "Fluorescence imaging of tip epithelium in 10 and 17 pcw lung tissues, by immunostaining. Red, GATA6; white, SOX9; green, CD44.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. S6F legend",
+          "source_context": "Fluorescence imaging of tip epithelium in 10 and 17 pcw lung tissues, by immunostaining. Red, GATA6; white, SOX9; green, CD44.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD44",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. S6F legend",
+          "source_context": "Fluorescence imaging of tip epithelium in 10 and 17 pcw lung tissues, by immunostaining. Red, GATA6; white, SOX9; green, CD44.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "stalk epithelial tube",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NKX2.1",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. S6J legend",
+          "source_context": "In situ HCR analysis of human fetal lung tissues at 18 pcw. NKX2.1, white; NOTUM, red; SCGB3A2, green. Dashed line indicates the boundary of the stalk epithelial tube.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NOTUM",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. S6J legend",
+          "source_context": "In situ HCR analysis of human fetal lung tissues at 18 pcw. NKX2.1, white; NOTUM, red; SCGB3A2, green. Dashed line indicates the boundary of the stalk epithelial tube.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. S6J legend",
+          "source_context": "In situ HCR analysis of human fetal lung tissues at 18 pcw. NKX2.1, white; NOTUM, red; SCGB3A2, green. Dashed line indicates the boundary of the stalk epithelial tube.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "EPCAM+ cells",
+      "subtype": "tip tissue cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EPCAM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. S6N legend",
+          "source_context": "Data was normalized to EPCAM+ positive cells freshly isolated from 20 pcw tip tissues.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1016_j.stem.2022.11.013",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1016_j.stem.2022.11.013.md"
+}

@@ -1,0 +1,1306 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+  "cell_types": [
+    {
+      "cell_type": "immune cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD45",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.4",
+          "source_context": "IHC showed that CD45+ immune cells were present in human fetal lungs throughout early development",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5",
+          "source_context": "total T cells (CD3+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "CD4+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5",
+          "source_context": "CD4+, CD8+ and regulatory T cells with age",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": "CD8+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5",
+          "source_context": "CD4+, CD8+ and regulatory T cells with age",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PTCRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7-8",
+          "source_context": "a very small cluster of T progenitors (PTCRA+RAG1+RAG2+; Fig S6D)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RAG1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7-8",
+          "source_context": "a very small cluster of T progenitors (PTCRA+RAG1+RAG2+; Fig S6D)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RAG2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7-8",
+          "source_context": "a very small cluster of T progenitors (PTCRA+RAG1+RAG2+; Fig S6D)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "ILCPs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HPN",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8",
+          "source_context": "A cluster of ILCPs was identified by expression of marker genes (HPN and SCN1B (28); Fig S6E)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SCN1B",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8",
+          "source_context": "A cluster of ILCPs was identified by expression of marker genes (HPN and SCN1B (28); Fig S6E)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "LMPP/ELP",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD34",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "LMPP/ELP (CD34+EBF1-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "EBF1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.6",
+          "source_context": "LMPP/ELP (CD34+EBF1-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "pre-pro-B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EBF1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "pre-pro-B (EBF1+SPINK2+VPREB1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPINK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "pre-pro-B (EBF1+SPINK2+VPREB1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "VPREB1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "pre-pro-B (EBF1+SPINK2+VPREB1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IL7R",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "observed the acquisition of B cell markers such as IL7R at the pre-pro-B cell stage",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "pro-B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DNTT",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "pro-B (DNTT+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "VPREB1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6-7",
+          "source_context": "RNAscope showed VPREB1+DNTT+ cells representing pro-B cell stages",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "late pro-B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NEIL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "NEIL1+MKI67- late pro-B cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MKI67",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.6",
+          "source_context": "NEIL1+MKI67- late pro-B cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "pro-B/pre-B transition",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "RAG1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "RAG1+MS4A1+ pro-B/pre-B transition cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "RAG1+MS4A1+ pro-B/pre-B transition cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "large pre-B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL7R",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "large pre-B (IL7R+MS4A1+MKI67+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "large pre-B (IL7R+MS4A1+MKI67+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MKI67",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "large pre-B (IL7R+MS4A1+MKI67+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "small pre-B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL7R",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "small pre-B (IL7R+SPIB+MKI67-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPIB",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "small pre-B (IL7R+SPIB+MKI67-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MKI67",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.6",
+          "source_context": "small pre-B (IL7R+SPIB+MKI67-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "BEST3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6-7",
+          "source_context": "RNAscope showed ... RAG1+BEST3+ small pre-B cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "small pre-B, Ig kappa+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGKC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "small pre-B cell clusters, expressing either immunoglobulin kappa (IGKC+) or lambda (IGLC2+IGLC3+) light chain genes",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "small pre-B, Ig lambda+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IGLC2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "small pre-B cell clusters, expressing either immunoglobulin kappa (IGKC+) or lambda (IGLC2+IGLC3+) light chain genes",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IGLC3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "small pre-B cell clusters, expressing either immunoglobulin kappa (IGKC+) or lambda (IGLC2+IGLC3+) light chain genes",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "late pre-B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "MS4A1+ late pre-B cells that expressed the marker for surrogate light chain, IGLL1",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "IGLL1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "MS4A1+ late pre-B cells that expressed the marker for surrogate light chain, IGLL1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "immature B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "immature B (MS4A1+IGHDloIGHMhiVPREB3hi)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IGHD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.6",
+          "source_context": "immature B (MS4A1+IGHDloIGHMhiVPREB3hi)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IGHM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "immature B (MS4A1+IGHDloIGHMhiVPREB3hi)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "VPREB3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "immature B (MS4A1+IGHDloIGHMhiVPREB3hi)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "mature B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "mature B (MS4A1+IGHDhiIGHMhiVPREB3lo)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IGHD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "mature B (MS4A1+IGHDhiIGHMhiVPREB3lo)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IGHM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "mature B (MS4A1+IGHDhiIGHMhiVPREB3lo)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "VPREB3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.6",
+          "source_context": "mature B (MS4A1+IGHDhiIGHMhiVPREB3lo)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "CD5+ mature B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.6",
+          "source_context": "CD5- versus CD5+ mature B cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "CD5- mature B",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.6",
+          "source_context": "CD5- versus CD5+ mature B cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B-1-like cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22 (Fig 3C), representative of putative human B-1-like cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD27",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22 (Fig 3C), representative of putative human B-1-like cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22 (Fig 3C), representative of putative human B-1-like cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCR10",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22 (Fig 3C), representative of putative human B-1-like cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCL22",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7",
+          "source_context": "The final stage of mature CD5+ cells was marked by CD5, CD27, SPN (CD43), CCR10 and CCL22 (Fig 3C), representative of putative human B-1-like cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "plasma cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PRDM1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7",
+          "source_context": "Absence of the expression of the transcription factor PRDM1 (Fig 3C) confirmed that our dataset does not contain any plasma cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myeloid cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9",
+          "source_context": "Most myeloid cells, defined by their expression of CD68, were tissue-resident",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "monocytes",
+      "subtype": "S100A12hi CD14+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A12",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "monocytes",
+      "subtype": "S100A12lo CD14+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A12",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "monocytes",
+      "subtype": "CD16+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "pro-monocyte and monocyte populations (S100A12hi CD14+, S100A12loCD14+ and CD16+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "classical monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "CD14, a marker gene of classical monocytes and macrophages (34), increased",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9",
+          "source_context": "Most myeloid cells, defined by their expression of CD68, were tissue-resident",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD206",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.11",
+          "source_context": "CD206, the macrophage mannose receptor, as a marker for macrophages",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD14",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "CD14, a marker gene of classical monocytes and macrophages (34), increased",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "interstitial macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9",
+          "source_context": "fetal MΦ populations expressed markers (CD14+ CD36+ MRC1+) characteristic of postnatal and adult interstitial macrophages",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD36",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9",
+          "source_context": "fetal MΦ populations expressed markers (CD14+ CD36+ MRC1+) characteristic of postnatal and adult interstitial macrophages",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MRC1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9",
+          "source_context": "fetal MΦ populations expressed markers (CD14+ CD36+ MRC1+) characteristic of postnatal and adult interstitial macrophages",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": "APOE+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "APOE",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "maturing macrophage (MΦ) cell types (CXCL2+ macrophages, APOE+ macrophages, macrophages)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophages",
+      "subtype": "CXCL2+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8-9",
+          "source_context": "maturing macrophage (MΦ) cell types (CXCL2+ macrophages, APOE+ macrophages, macrophages)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "HSCs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SMIM24",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9",
+          "source_context": "rare SMIM24+SPINK2+ cells, likely HSCs",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPINK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9",
+          "source_context": "rare SMIM24+SPINK2+ cells, likely HSCs",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "DC2 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD1C",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.11",
+          "source_context": "utilizing CD1C as a marker for DC2 cells",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "distal epithelial tip progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.9-10",
+          "source_context": "the distal epithelial tips are composed of SOX9+ progenitors",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "we utilized SOX2 and SOX9 as markers to investigate the effects of our cytokine panel",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "airway progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.10",
+          "source_context": "to become SOX9-/SOX2+ airway progenitors",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "to become SOX9-/SOX2+ airway progenitors",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "TP63 and a non-significant increase in KRT5 (both markers of basal cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KRT5",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "TP63 and a non-significant increase in KRT5 (both markers of basal cells)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "no effect on the expression of secretory cell markers such as SCGB3A1, SCGB3A2, MUC5AC",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "no effect on the expression of secretory cell markers such as SCGB3A1, SCGB3A2, MUC5AC",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "no effect on the expression of secretory cell markers such as SCGB3A1, SCGB3A2, MUC5AC",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.10",
+          "source_context": "or the ciliated cell marker FOXJ1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "perivascular IL-7+ mesenchymal progenitor cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL-7",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.13",
+          "source_context": "Extensive analysis in mouse bone marrow highlighted the role of perivascular IL-7+ mesenchymal progenitor cells and endothelial cells in supporting B cell development (51).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "p63+ multipotent airway progenitor population",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "p63",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.14",
+          "source_context": "In mouse lung development, a p63+ multipotent airway progenitor population emerges at E9.0 (embryonic stage), followed by p63hi cells acquiring cytokeratin KRT5 to become mature tracheal basal cells at E14.5-15.5 (pseudoglandular stage) (65).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "p63hi cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "p63",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.14",
+          "source_context": "In mouse lung development, a p63+ multipotent airway progenitor population emerges at E9.0 (embryonic stage), followed by p63hi cells acquiring cytokeratin KRT5 to become mature tracheal basal cells at E14.5-15.5 (pseudoglandular stage) (65).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "mature tracheal basal cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.14",
+          "source_context": "In mouse lung development, a p63+ multipotent airway progenitor population emerges at E9.0 (embryonic stage), followed by p63hi cells acquiring cytokeratin KRT5 to become mature tracheal basal cells at E14.5-15.5 (pseudoglandular stage) (65).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SOX9+ tip progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.14",
+          "source_context": "spatially detected IL-1β-expressing immune cells in close proximity to the SOX9+ tip progenitors in these developmental stages (Fig 7A,D,E,F).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "TP63+ basal-fated airway cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.14",
+          "source_context": "indicating their potential involvement in the emergence of TP63+ basal-fated airway cells (Fig 7G).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC5AC+ early progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.14",
+          "source_context": "IL-13 exhibits a similar effect on tip progenitor cells as IL-1β but promotes a distinct differentiation trajectory that notably diminishes the population of MUC5AC+ early progenitors.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD45+ immune cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD45",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Immune cell IHC quantification / Quantification of tissue-resident immune cells, Page 15-16",
+          "source_context": "determining the number of CD45+ (Fig 1E) or CD68+ (Fig 5J) immune cells outside versus inside the CD31+ vasculature",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD68+ immune cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Quantification of tissue-resident immune cells, Page 15-16",
+          "source_context": "determining the number of CD45+ (Fig 1E) or CD68+ (Fig 5J) immune cells outside versus inside the CD31+ vasculature",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD31+ vasculature",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD31",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Quantification of tissue-resident immune cells, Page 15-16",
+          "source_context": "determining the number of CD45+ (Fig 1E) or CD68+ (Fig 5J) immune cells outside versus inside the CD31+ vasculature",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLA-DR",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Macrophage and DC culture and cytokine array, Page 18",
+          "source_context": "Macrophages (HLA-DR+CD14+CD206+CD169-) or DC (HLA-DR+CD123-CD11c+) were isolated from human fetal lung tissue by FACS",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Macrophage and DC culture and cytokine array, Page 18",
+          "source_context": "Macrophages (HLA-DR+CD14+CD206+CD169-) or DC (HLA-DR+CD123-CD11c+) were isolated from human fetal lung tissue by FACS",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD206",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Macrophage and DC culture and cytokine array, Page 18",
+          "source_context": "Macrophages (HLA-DR+CD14+CD206+CD169-) or DC (HLA-DR+CD123-CD11c+) were isolated from human fetal lung tissue by FACS",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD169",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, Macrophage and DC culture and cytokine array, Page 18",
+          "source_context": "Macrophages (HLA-DR+CD14+CD206+CD169-) or DC (HLA-DR+CD123-CD11c+) were isolated from human fetal lung tissue by FACS",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "DC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLA-DR",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Macrophage and DC culture and cytokine array, Page 18",
+          "source_context": "Macrophages (HLA-DR+CD14+CD206+CD169-) or DC (HLA-DR+CD123-CD11c+) were isolated from human fetal lung tissue by FACS",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD123",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, Macrophage and DC culture and cytokine array, Page 18",
+          "source_context": "Macrophages (HLA-DR+CD14+CD206+CD169-) or DC (HLA-DR+CD123-CD11c+) were isolated from human fetal lung tissue by FACS",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD11c",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Macrophage and DC culture and cytokine array, Page 18",
+          "source_context": "Macrophages (HLA-DR+CD14+CD206+CD169-) or DC (HLA-DR+CD123-CD11c+) were isolated from human fetal lung tissue by FACS",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1126_sciimmunol.adf9988",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1126_sciimmunol.adf9988.md"
+}

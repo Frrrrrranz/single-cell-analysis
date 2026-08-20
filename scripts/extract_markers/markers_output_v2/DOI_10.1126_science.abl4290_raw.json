@@ -1,0 +1,685 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1126_science.abl4290",
+  "cell_types": [
+    {
+      "cell_type": "CD16+ monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3B",
+          "source_context": "These included CD16+ monocytes, CD14+ monocytes, two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD14+ monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3B",
+          "source_context": "These included CD16+ monocytes, CD14+ monocytes, two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mo/MΦ FCGR3Alow",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCGR3A",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3B",
+          "source_context": "two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations with coexpression of both monocyte and macrophage markers",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mo/MΦ FCGR3Ahigh",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FCGR3A",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3B",
+          "source_context": "two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations with coexpression of both monocyte and macrophage markers",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "MΦ LYVE1high",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3B",
+          "source_context": "two additional macrophage subsets: MΦ LYVE1high and MΦ HLAIIhigh (Fig. 3B), where HLAII is HLA class II",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MΦ HLAIIhigh",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLAII",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3B",
+          "source_context": "two additional macrophage subsets: MΦ LYVE1high and MΦ HLAIIhigh (Fig. 3B), where HLAII is HLA class II",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "APOE",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 9, fig. S16C-D",
+          "source_context": "HLAIIhigh cells were enriched for immune-related processes and expressed higher levels of complement components APOE and C1QA, C1QB, and C1QC",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "C1QA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 9, fig. S16C-D",
+          "source_context": "HLAIIhigh cells were enriched for immune-related processes and expressed higher levels of complement components APOE and C1QA, C1QB, and C1QC",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "C1QB",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 9, fig. S16C-D",
+          "source_context": "HLAIIhigh cells were enriched for immune-related processes and expressed higher levels of complement components APOE and C1QA, C1QB, and C1QC",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "C1QC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 9, fig. S16C-D",
+          "source_context": "HLAIIhigh cells were enriched for immune-related processes and expressed higher levels of complement components APOE and C1QA, C1QB, and C1QC",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "PPARGhigh lung macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PPARG",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3C",
+          "source_context": "notable exceptions included PPARGhigh lung macrophages, which were present only in lung, and CD207/Langerin+ Langerhans cells...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD207/Langerin+ Langerhans cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD207/Langerin",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 8, Fig. 3C",
+          "source_context": "CD207/Langerin+ Langerhans cells, which were present only (97%) in skin and esophagus mucosa...",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "LAM-like macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FABP4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Fig. 3H/fig. S17F",
+          "source_context": "Select lipid pathway genes, including fatty-acid binding protein FABP4, lipoprotein lipase LPL, and phagocytic lipid receptor CD36, were highly expressed in LAMs...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "LPL",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Fig. 3H/fig. S17F",
+          "source_context": "Select lipid pathway genes, including fatty-acid binding protein FABP4, lipoprotein lipase LPL, and phagocytic lipid receptor CD36, were highly expressed in LAMs...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD36",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Fig. 3H/fig. S17F",
+          "source_context": "Select lipid pathway genes, including fatty-acid binding protein FABP4, lipoprotein lipase LPL, and phagocytic lipid receptor CD36, were highly expressed in LAMs...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CHIT1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Fig. 3H/fig. S17F",
+          "source_context": "both CHIT1 and CTSK were highly expressed in LAMs from leprosy skin samples...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CTSK",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Fig. 3H/fig. S17F",
+          "source_context": "both CHIT1 and CTSK were highly expressed in LAMs from leprosy skin samples...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IL1B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, fig. S17F",
+          "source_context": "LAMs in creeping fat from Crohn’s intestine and atherosclerotic lesions were additionally characterized by higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CXCL8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, fig. S17F",
+          "source_context": "higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CXCL3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, fig. S17F",
+          "source_context": "higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCL4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, fig. S17F",
+          "source_context": "higher expression of interleukin IL1B and multiple chemokines (CXCL8, CXCL3, CCL4)...",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL6A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 14, fig. S26",
+          "source_context": "up-regulation of hallmark fibroblast, adipocyte, and immune genes, likely because of changes in cell proportions (e.g., COL6A2, ADIPOQ, and HLA-A, respectively)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Adipocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIPOQ",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 14, fig. S26",
+          "source_context": "up-regulation of hallmark fibroblast, adipocyte, and immune genes, likely because of changes in cell proportions (e.g., COL6A2, ADIPOQ, and HLA-A, respectively)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ANGPTL8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 17, Fig. 7E/table S20",
+          "source_context": "HDL cholesterol traits was associated with adipocytes in all three muscle tissues and enriched for fatty acid, triglyceride, and lipid homeostasis... including ANGPTL8 and PNPLA3",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PNPLA3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 17, Fig. 7E/table S20",
+          "source_context": "HDL cholesterol traits was associated with adipocytes in all three muscle tissues and enriched for fatty acid, triglyceride, and lipid homeostasis... including ANGPTL8 and PNPLA3",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Immune cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLA-A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 14, fig. S26",
+          "source_context": "up-regulation of hallmark fibroblast, adipocyte, and immune genes, likely because of changes in cell proportions (e.g., COL6A2, ADIPOQ, and HLA-A, respectively)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FGFR4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4B",
+          "source_context": "Alveolar fibroblasts also specifically expressed FGFR4 (Fig. 4B), which is essential for alveologenesis in mice",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PIEZO2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4E-G/fig. S18D",
+          "source_context": "lung alveolar fibroblasts distinctively expressed a calcium signaling and actomyosin contractility program ... including ... PIEZO2 ...",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CACNA1D",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4E-G/fig. S18D",
+          "source_context": "multiple calcium channels and adrenergic and purinergic receptors ... (CACNA1D, TRPC6, MCOLN2/TRPML2)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TRPC6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4E-G/fig. S18D",
+          "source_context": "multiple calcium channels and adrenergic and purinergic receptors ... (CACNA1D, TRPC6, MCOLN2/TRPML2)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MCOLN2/TRPML2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4E-G/fig. S18D",
+          "source_context": "multiple calcium channels and adrenergic and purinergic receptors ... (CACNA1D, TRPC6, MCOLN2/TRPML2)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MYLK",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4E-G/fig. S18D",
+          "source_context": "myosin light chain kinase (MYLK), which is involved in mediating calcium-induced actomyosin contraction",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, fig. S18D",
+          "source_context": "alveolar fibroblasts express myofibroblast markers (e.g., ACTA2; fig. S18D), they are distinct from previously reported myofibroblasts",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, fig. S18D",
+          "source_context": "alveolar fibroblasts express myofibroblast markers (e.g., ACTA2; fig. S18D)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Esophagus mucosa fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTN1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Table S8",
+          "source_context": "the esophagus mucosa fibroblast signature (table S8) included genes involved in neuron and axon development (e.g., NTN1, PLXNB1, FGF13)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PLXNB1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Table S8",
+          "source_context": "the esophagus mucosa fibroblast signature (table S8) included genes involved in neuron and axon development (e.g., NTN1, PLXNB1, FGF13)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FGF13",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Table S8",
+          "source_context": "the esophagus mucosa fibroblast signature (table S8) included genes involved in neuron and axon development (e.g., NTN1, PLXNB1, FGF13)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cardiac fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GATA4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Table S8",
+          "source_context": "The cardiac fibroblast signature genes included TFs involved in cardiac development (e.g., GATA4 and GATA6)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "GATA6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10, Table S8",
+          "source_context": "The cardiac fibroblast signature genes included TFs involved in cardiac development (e.g., GATA4 and GATA6)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Skeletal muscle fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10-11, Table S8",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CXCL12",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10-11, Table S8",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "AGTR1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10-11, Table S8",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MME",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 10-11, Table S8",
+          "source_context": "The skeletal muscle signature showed increased expression of the CXCL14 and CXCL12 chemokines and of components of the renin-angiotensin-aldosterone system (AGTR1 and MME)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lung fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NPNT",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4F-G",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ..., including multiple components of the basement membrane ... [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FRAS1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4F-G",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ..., including multiple components of the basement membrane ... [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HMCN1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4F-G",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ..., including multiple components of the basement membrane ... [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ITGA8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Page 11, Fig. 4F-G",
+          "source_context": "Lung fibroblast signatures were enriched for ECM, cation transport, and contractile functions ..., including multiple components of the basement membrane ... [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fast myocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Page 13, fig. S9",
+          "source_context": "Fast myocytes specifically expressed the type 2 fiber marker MYH2 (FDR < 10−15 in cytoplasmic myonuclei)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "LYVE1-expressing macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "For example, for LYVE1- and HLAII–expressing macrophages, our results reinforce the notion of functional specification of these two macrophage states into tissue support and tissue immunity, respectively (47).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "HLAII-expressing macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLAII",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "For example, for LYVE1- and HLAII–expressing macrophages, our results reinforce the notion of functional specification of these two macrophage states into tissue support and tissue immunity, respectively (47).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lyve1high macrophages",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Lyve1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "In mice, Lyve1high macrophages are localized perivascularly, whereas MHCIIhigh macrophages are found in proximity to neurons (47).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MHCIIhigh macrophages",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MHCII",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "In mice, Lyve1high macrophages are localized perivascularly, whereas MHCIIhigh macrophages are found in proximity to neurons (47).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "lung alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PIEZO2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "PIEZO2+/ITGA8+ alveolar fibroblasts may contribute to mechanosensing of alveolar tension",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ITGA8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "PIEZO2+/ITGA8+ alveolar fibroblasts may contribute to mechanosensing of alveolar tension",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "intraglomerular mesangial cells",
+      "subtype": null,
+      "species": "unknown",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PIEZO2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "PIEZO2 and ITGA8 are also coexpressed in intraglomerular mesangial cells (170, 171)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ITGA8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "PIEZO2 and ITGA8 are also coexpressed in intraglomerular mesangial cells (170, 171)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "sensory neurons",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Piezo2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion p.18",
+          "source_context": "which so far has been mainly attributed to Piezo2+ sensory neurons in mice (111)",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1126_science.abl4290",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1126_science.abl4290.md"
+}

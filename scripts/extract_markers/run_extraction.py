@@ -4,15 +4,17 @@ run_extraction.py — PDF → LLM → JSON 提取管线
 功能：
 1. 遍历 papers/ 目录下的所有 .full.pdf 文件（传统模式）
 2. 或从扁平 PDF 目录读取文件（--flat-pdf-dir + --paper-map 模式）
-3. 用 markitdown 将 PDF 转为 Markdown 文本
-4. (可选) 按章节分块，防止超过 LLM 上下文窗口
-5. 使用 LLM API 提取细胞类型和 marker 基因
-6. 保存结构化 JSON 到 markers_output/ 目录
+3. 直接读取已经转换好的 Markdown（--markdown 模式）
+4. 用 markitdown 将 PDF 转为 Markdown 文本
+5. (可选) 按章节分块，防止超过 LLM 上下文窗口
+6. 使用 LLM API 提取细胞类型和 marker 基因
+7. 保存结构化 JSON 到 markers_output/ 目录
 
 用法：
     python run_extraction.py [--paper-dir DIR] [--output-dir DIR] [--paper-id PID]
                               [--skip-existing] [--dry-run] [--max-chars 80000]
     python run_extraction.py --pdf PATH [--paper-id PID] ...
+    python run_extraction.py --markdown PATH --paper-id PID [--document-id DID] ...
     python run_extraction.py --flat-pdf-dir DIR --paper-map MAP.json [--paper-id PID] ...
 
 依赖：
@@ -46,7 +48,7 @@ if dotenv_path.exists():
 PROJECT_ROOT = Path(r"D:\OneDrive\Desktop\组")
 PAPERS_DIR = PROJECT_ROOT / "papers"
 OUTPUT_DIR = Path(__file__).parent / "markers_output_v2"
-PROMPT_FILE = Path(__file__).parent / "prompts" / "extract_markers_v4.txt"
+PROMPT_FILE = Path(__file__).parent / "prompts" / "extract_markers_v4.md"
 
 # 用于分块的最大字符数（~80k chars ≈ 20k tokens 的中英文混合文本）
 DEFAULT_MAX_CHARS = 80_000
@@ -224,6 +226,16 @@ def convert_pdf_to_text(pdf_path: Path) -> Optional[str]:
         logger.warning(f"  pdfminer 转换失败: {e}")
 
     return text
+
+
+def read_markdown_text(markdown_path: Path) -> Optional[str]:
+    """读取已经完成转换的 Markdown，避免重复处理 PDF。"""
+    try:
+        text = markdown_path.read_text(encoding="utf-8")
+    except OSError as exc:
+        logger.error("读取 Markdown 失败: %s (%s)", markdown_path, exc)
+        return None
+    return text if len(text.strip()) > 100 else None
 
 
 # 章节标题关键词（小写匹配）
@@ -467,22 +479,27 @@ def process_paper(
     paper_id: str,
     document_id: str,
     document_role: str,
-    pdf_path: Path,
+    source_path: Path,
     args: argparse.Namespace,
+    source_kind: str = "pdf",
 ) -> bool:
     """处理单篇论文，返回是否成功"""
     logger.info(f"\n{'='*60}")
     logger.info("处理文档: %s (%s, paper=%s)", document_id, document_role, paper_id)
-    logger.info(f"  PDF: {pdf_path}")
+    logger.info("  %s: %s", source_kind.upper(), source_path)
 
     output_file = Path(args.output_dir) / f"{document_id}_raw.json"
     if args.skip_existing and output_file.exists():
         logger.info(f"  跳过（已存在）: {output_file}")
         return True
 
-    # 1. 转换 PDF → 文本
-    logger.info("  [1/4] 转换 PDF → 文本...")
-    text = convert_pdf_to_text(pdf_path)
+    # 1. 读取 Markdown 或转换 PDF → 文本
+    if source_kind == "markdown":
+        logger.info("  [1/4] 读取已有 Markdown...")
+        text = read_markdown_text(source_path)
+    else:
+        logger.info("  [1/4] 转换 PDF → 文本...")
+        text = convert_pdf_to_text(source_path)
     if not text:
         logger.error(f"  无法提取文本: {paper_id}")
         return False
@@ -541,7 +558,10 @@ def process_paper(
     merged["paper_id"] = paper_id
     merged["document_id"] = document_id
     merged["document_role"] = document_role
-    merged["source_pdf"] = pdf_path.name
+    if source_kind == "markdown":
+        merged["source_markdown"] = source_path.name
+    else:
+        merged["source_pdf"] = source_path.name
 
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
@@ -555,7 +575,7 @@ def process_paper(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="PDF → LLM → JSON Marker 提取管线")
+    parser = argparse.ArgumentParser(description="PDF/Markdown → LLM → JSON Marker 提取管线")
     parser.add_argument("--paper-dir", default=str(PAPERS_DIR),
                         help=f"论文目录 (默认: {PAPERS_DIR})")
     parser.add_argument("--output-dir", default=str(OUTPUT_DIR),
@@ -571,9 +591,14 @@ def main() -> None:
                         help="LLM 模型名 (默认: 读取 MARKER_LLM_MODEL 环境变量)")
     parser.add_argument("--api-key", help="LLM API Key (默认: MARKER_LLM_API_KEY 环境变量)")
     parser.add_argument("--prompt-file", default=None,
-                        help="提示词模板文件路径 (默认: prompts/extract_markers.txt)")
+                        help="提示词模板文件路径 (默认: prompts/extract_markers_v4.md)")
+    parser.add_argument("--document-id", help="Markdown 输入时指定文档 ID；默认使用 paper_id")
+    parser.add_argument("--document-role", default="primary",
+                        choices=["primary", "supplement", "extended_data", "correction"],
+                        help="文档角色（默认: primary）")
     # 单文件模式
     parser.add_argument("--pdf", help="直接指定单个 PDF 文件路径")
+    parser.add_argument("--markdown", help="直接指定已经转换好的 Markdown 文件路径")
     # 扁平目录模式
     parser.add_argument("--flat-pdf-dir", help="扁平 PDF 目录（所有 PDF 在同一层）")
     parser.add_argument("--paper-map", help="paper_id 映射 JSON 文件路径")
@@ -582,15 +607,26 @@ def main() -> None:
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # 模式 1: 单 PDF 文件
-    if args.pdf:
+    # 模式 1: 已有 Markdown 文件
+    if args.markdown:
+        markdown_path = Path(args.markdown)
+        if not markdown_path.exists():
+            logger.error(f"Markdown 文件不存在: {markdown_path}")
+            sys.exit(1)
+        paper_id = args.paper_id or markdown_path.stem
+        document_id = args.document_id or paper_id
+        logger.info("Markdown 模式: %s -> %s", paper_id, markdown_path)
+        documents = [(paper_id, document_id, args.document_role, markdown_path, "markdown")]
+
+    # 模式 2: 单 PDF 文件
+    elif args.pdf:
         pdf_path = Path(args.pdf)
         if not pdf_path.exists():
             logger.error(f"PDF 文件不存在: {pdf_path}")
             sys.exit(1)
         paper_id = args.paper_id or pdf_path.stem
         logger.info(f"单文件模式: {paper_id} -> {pdf_path}")
-        pdfs = [(paper_id, paper_id, "primary", pdf_path)]
+        documents = [(paper_id, paper_id, "primary", pdf_path, "pdf")]
 
     # 模式 2: 扁平目录模式
     elif args.flat_pdf_dir:
@@ -611,27 +647,36 @@ def main() -> None:
         except (OSError, ValueError) as exc:
             logger.error("PDF 与映射校验失败: %s", exc)
             sys.exit(1)
+        documents = [(*item, "pdf") for item in pdfs]
 
     # 模式 3: 传统 papers/ 目录模式
     else:
         papers_dir = Path(args.paper_dir)
         logger.info(f"扫描论文目录: {papers_dir}")
         pdfs = find_pdf_files(papers_dir, paper_id=args.paper_id)
+        documents = [(*item, "pdf") for item in pdfs]
 
-    if not pdfs:
-        logger.error("未找到任何 PDF 文件")
+    if not documents:
+        logger.error("未找到任何输入文档")
         sys.exit(1)
-    logger.info(f"找到 {len(pdfs)} 篇论文")
+    logger.info(f"找到 {len(documents)} 篇论文")
 
     # 处理每篇论文
     success = 0
-    for paper_id, document_id, document_role, pdf_path in pdfs:
-        if process_paper(paper_id, document_id, document_role, pdf_path, args):
+    for paper_id, document_id, document_role, source_path, source_kind in documents:
+        if process_paper(
+            paper_id,
+            document_id,
+            document_role,
+            source_path,
+            args,
+            source_kind=source_kind,
+        ):
             success += 1
 
     logger.info(f"\n{'='*60}")
-    logger.info(f"完成: {success}/{len(pdfs)} 篇论文成功处理")
-    if success != len(pdfs):
+    logger.info(f"完成: {success}/{len(documents)} 篇论文成功处理")
+    if success != len(documents):
         sys.exit(1)
 
 

@@ -1,0 +1,209 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s41586-021-03710-0",
+  "cell_types": [
+    {
+      "cell_type": "perivascular macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MRC1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell annotations",
+          "source_context": "To distinguish between confounding (perivascular) macrophages and T cells and pure microglia ... specific cell-type markers MRC1 and CD247",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD247",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell annotations",
+          "source_context": "To distinguish between confounding (perivascular) macrophages and T cells and pure microglia ... specific cell-type markers MRC1 and CD247",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "microglia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MRC1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "unknown",
+          "source_locator": "Methods, Cell annotations",
+          "source_context": "to yield pure microglia by requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD247",
+          "evidence_type": "author_declared",
+          "marker_polarity": "unknown",
+          "source_locator": "Methods, Cell annotations",
+          "source_context": "to yield pure microglia by requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD68",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Immunohistochemistry",
+          "source_context": "anti-human CD68 (mouse, Dako M0876, PG-M1 clone, 1:100) for determining microglial reactivity",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "microglia",
+      "subtype": "homeostatic",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "P2RY12",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, paragraph beginning 'We clustered 1,814 MRC1− microglia…'",
+          "source_context": "This subpopulation was marked by expression of microglial activation genes previously associated with human disease, such as complement C1QC, CD74, FTL and FTH1, and downregulation of the homeostatic markers including P2RY12.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "microglia",
+      "subtype": "COVID-19-associated",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1QC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, paragraph beginning 'We clustered 1,814 MRC1− microglia…'",
+          "source_context": "This subpopulation was marked by expression of microglial activation genes previously associated with human disease, such as complement C1QC, CD74, FTL and FTH1, and downregulation of the homeostatic markers including P2RY12.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD74",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, paragraph beginning 'We clustered 1,814 MRC1− microglia…'",
+          "source_context": "This subpopulation was marked by expression of microglial activation genes previously associated with human disease, such as complement C1QC, CD74, FTL and FTH1, and downregulation of the homeostatic markers including P2RY12.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FTL",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, paragraph beginning 'We clustered 1,814 MRC1− microglia…'",
+          "source_context": "This subpopulation was marked by expression of microglial activation genes previously associated with human disease, such as complement C1QC, CD74, FTL and FTH1, and downregulation of the homeostatic markers including P2RY12.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FTH1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, paragraph beginning 'We clustered 1,814 MRC1− microglia…'",
+          "source_context": "This subpopulation was marked by expression of microglial activation genes previously associated with human disease, such as complement C1QC, CD74, FTL and FTH1, and downregulation of the homeostatic markers including P2RY12.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "P2RY12",
+          "evidence_type": "author_declared",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, paragraph beginning 'We clustered 1,814 MRC1− microglia…'",
+          "source_context": "This subpopulation was marked by expression of microglial activation genes previously associated with human disease, such as complement C1QC, CD74, FTL and FTH1, and downregulation of the homeostatic markers including P2RY12.",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD68",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 3g legend",
+          "source_context": "Immunohistochemical staining for the microglial activation marker CD68 (brown) in the frontal medial cortex of a patient with COVID-19.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "microglia",
+      "subtype": "Alzheimer's disease-associated microglia",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1QC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion",
+          "source_context": "C1QC and CD14 (which mark microglia associated with Alzheimer’s disease)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion",
+          "source_context": "C1QC and CD14 (which mark microglia associated with Alzheimer’s disease)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "astrocyte",
+      "subtype": "COVID-19-associated astrocyte cluster",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IFITM3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion",
+          "source_context": "astrocyte cluster associated with COVID-19 that is marked by established inflammation and astrogliosis genes (such as IFITM3 and GFAP)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "GFAP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion",
+          "source_context": "astrocyte cluster associated with COVID-19 that is marked by established inflammation and astrogliosis genes (such as IFITM3 and GFAP)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s41586-021-03710-0",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s41586-021-03710-0.md"
+}

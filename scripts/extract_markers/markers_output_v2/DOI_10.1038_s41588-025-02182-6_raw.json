@@ -1,0 +1,279 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s41588-025-02182-6",
+  "cell_types": [
+    {
+      "cell_type": "stem cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "OLFM4",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Article p.1202, Fig. 1j and Supplementary Table 5",
+          "source_context": "We identified consistent markers for each integrated cell type across datasets and protocols, such as OLFM4 for stem cells and TP63 for basal cells (Fig. 1j and Supplementary Table 5).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "ASCL2",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Fig. 6e,f",
+          "source_context": "Expression profiles along the pseudotime trajectory from stem cells to enterocytes of ASCL2 (stem cell) and SI (enterocytes); from stem cells to colonocytes of ASCL2 (stem cell) and CEACAM7 (colonocytes).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Article p.1202, Fig. 1j and Supplementary Table 5",
+          "source_context": "We identified consistent markers for each integrated cell type across datasets and protocols, such as OLFM4 for stem cells and TP63 for basal cells (Fig. 1j and Supplementary Table 5).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Stromal 1 (ADAMDEC1)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADAMDEC1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1f/h, Fig.3d cell type labels",
+          "source_context": "Cell type is named 'Stromal 1 (ADAMDEC1)' in the atlas, using ADAMDEC1 as the annotating marker.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Stromal 2 (NPY)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NPY",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1f/h, Fig.3d cell type labels",
+          "source_context": "Cell type is named 'Stromal 2 (NPY)' in the atlas, using NPY as the annotating marker.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Stromal 3 (C7)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C7",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1f/h, Fig.3d cell type labels",
+          "source_context": "Cell type is named 'Stromal 3 (C7)' in the atlas, using C7 as the annotating marker.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mesoderm 1 (HAND1)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HAND1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1f/h, Fig.3d cell type labels",
+          "source_context": "Cell type is named 'Mesoderm 1 (HAND1)' in the atlas, using HAND1 as the annotating marker.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mesoderm 2 (ZEB2)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ZEB2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1f/h, Fig.3d cell type labels",
+          "source_context": "Cell type is named 'Mesoderm 2 (ZEB2)' in the atlas, using ZEB2 as the annotating marker.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "BEST4+ epithelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BEST4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1f/h cell type label",
+          "source_context": "Level 2 cell type is labeled 'BEST4+ epithelial' in the atlas.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC2+ goblet",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.2a/b cell type label",
+          "source_context": "Reference atlas cell type is labeled 'MUC2+ goblet'.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Progenitor cells",
+      "subtype": "early endoderm development",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FABP1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1206, Fig.4d",
+          "source_context": "Organoids from PSCs displayed a higher proportion of early endoderm development marker genes such as FABP1 and AFP-defined progenitor cells.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "AFP",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1206, Fig.4d",
+          "source_context": "Organoids from PSCs displayed a higher proportion of early endoderm development marker genes such as FABP1 and AFP-defined progenitor cells.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Airway progenitor cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1207, Fig.5e",
+          "source_context": "Lung progenitor organoids differentiated toward the airway were mapped to airway-specific identities, including SCGB3A2+ airway progenitors.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cancer colonocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CEACAM6",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1210, Fig.7i",
+          "source_context": "DEG analysis revealed higher expression levels of CRC markers such as CEACAM6, SPINK1, TGFBI and RSPO3 in the cancer cell group.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SPINK1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1210, Fig.7i",
+          "source_context": "DEG analysis revealed higher expression levels of CRC markers such as CEACAM6, SPINK1, TGFBI and RSPO3 in the cancer cell group.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TGFBI",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1210, Fig.7i",
+          "source_context": "DEG analysis revealed higher expression levels of CRC markers such as CEACAM6, SPINK1, TGFBI and RSPO3 in the cancer cell group.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "RSPO3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1210, Fig.7i",
+          "source_context": "DEG analysis revealed higher expression levels of CRC markers such as CEACAM6, SPINK1, TGFBI and RSPO3 in the cancer cell group.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "enterocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SI",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Fig. 6e",
+          "source_context": "Expression profiles along the pseudotime trajectory from stem cells to enterocytes of ASCL2 (stem cell) and SI (enterocytes).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "colonocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CEACAM7",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Fig. 6f",
+          "source_context": "Expression profiles along the pseudotime trajectory from stem cells to colonocytes of ASCL2 (stem cell) and CEACAM7 (colonocytes).",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s41588-025-02182-6",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s41588-025-02182-6.md"
+}

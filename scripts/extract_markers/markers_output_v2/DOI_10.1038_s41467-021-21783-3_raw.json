@@ -1,0 +1,204 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s41467-021-21783-3",
+  "cell_types": [
+    {
+      "cell_type": "Alveolar cells (Avd)",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Csn2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, paragraph describing Fig. 2c,d",
+          "source_context": "This was accompanied by the expression of known markers of alveologenesis such as the milk protein beta-casein (Csn2) and the transcription factor Elf5 (Fig. 2c, d).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Elf5",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, paragraph describing Fig. 2c,d",
+          "source_context": "This was accompanied by the expression of known markers of alveologenesis such as the milk protein beta-casein (Csn2) and the transcription factor Elf5 (Fig. 2c, d).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Spp1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, CellPhoneDB analysis paragraph near Fig. 4e",
+          "source_context": "Spp1 is up-regulated specifically in Avd during tumourigenesis and ultimately also highly expressed by the tumour (Fig. 4e and Supplementary Fig. 6e).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Regulatory T cells (Tregs)",
+      "subtype": "tissue-resident",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Klrg1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Treg paragraph near Fig. 4g",
+          "source_context": "Compared to wild-type animals, Tregs from stage1 show reduced expression of Klrg1 and Il1rl1, two markers of tissue resident Tregs, suggesting an early influx of Tregs from the circulatory system preceding tumour formation (Fig. 4g).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Il1rl1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Treg paragraph near Fig. 4g",
+          "source_context": "Compared to wild-type animals, Tregs from stage1 show reduced expression of Klrg1 and Il1rl1, two markers of tissue resident Tregs, suggesting an early influx of Tregs from the circulatory system preceding tumour formation (Fig. 4g).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Tumour-associated macrophages",
+      "subtype": "Tam1",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Arg1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Spp1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Trem2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Tumour-associated macrophages",
+      "subtype": "Tam2",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1qb",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "C1qc",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Lgmn",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Apoe",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "alveolar cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Csn2",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.4c legend",
+          "source_context": "Gene expression for the paracrine signalling factors Rankl and Igf2 in hormone-sensing cells and the alveolar markers Csn2 and Wap in luminal progenitors and alveolar cells.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Wap",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.4c legend",
+          "source_context": "Gene expression for the paracrine signalling factors Rankl and Igf2 in hormone-sensing cells and the alveolar markers Csn2 and Wap in luminal progenitors and alveolar cells.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "luminal progenitors",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD49b",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Methods: Cell labelling followed by flow cytometry and sorting",
+          "source_context": "mouse CD49b+, Sca1− luminal progenitors were sorted for ATAC-Seq experiments.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Sca1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Methods: Cell labelling followed by flow cytometry and sorting",
+          "source_context": "mouse CD49b+, Sca1− luminal progenitors were sorted for ATAC-Seq experiments.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s41467-021-21783-3",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s41467-021-21783-3.md"
+}

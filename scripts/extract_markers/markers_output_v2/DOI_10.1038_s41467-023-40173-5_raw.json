@@ -1,0 +1,580 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s41467-023-40173-5",
+  "cell_types": [
+    {
+      "cell_type": "Alveolar type 1 cells (AT1)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AGER",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1B",
+          "source_context": "Dictionary (LungMAP CellCards): Alveolar type 1 cells (AT1) | Marker genes AGER, RTKN2, SEMA3B",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "RTKN2",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1B",
+          "source_context": "Dictionary (LungMAP CellCards): Alveolar type 1 cells (AT1) | Marker genes AGER, RTKN2, SEMA3B",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SEMA3B",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1B",
+          "source_context": "Dictionary (LungMAP CellCards): Alveolar type 1 cells (AT1) | Marker genes AGER, RTKN2, SEMA3B",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Inflammatory monocytes (iMON)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1B",
+          "source_context": "Dictionary (LungMAP CellCards): Inflammatory monocytes (iMON) | CD14, FCN1, VCAN, no FCGR3A",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FCN1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1B",
+          "source_context": "Dictionary (LungMAP CellCards): Inflammatory monocytes (iMON) | CD14, FCN1, VCAN, no FCGR3A",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "VCAN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.1B",
+          "source_context": "Dictionary (LungMAP CellCards): Inflammatory monocytes (iMON) | CD14, FCN1, VCAN, no FCGR3A",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FCGR3A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Fig.1B",
+          "source_context": "Dictionary (LungMAP CellCards): Inflammatory monocytes (iMON) | CD14, FCN1, VCAN, no FCGR3A",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "lung goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "We utilized both positive and negative markers to improve sensitivity to distinguish cell types sharing similar gene expression patterns and marker genes, for example, lung goblet cells (MUC5AC+/MUC5B+) and SMG mucous (MUC5AC-/MUC5B+).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MUC5B",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "We utilized both positive and negative markers to improve sensitivity to distinguish cell types sharing similar gene expression patterns and marker genes, for example, lung goblet cells (MUC5AC+/MUC5B+) and SMG mucous (MUC5AC-/MUC5B+).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "SMG mucous",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "negative",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "We utilized both positive and negative markers to improve sensitivity to distinguish cell types sharing similar gene expression patterns and marker genes, for example, lung goblet cells (MUC5AC+/MUC5B+) and SMG mucous (MUC5AC-/MUC5B+).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MUC5B",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "We utilized both positive and negative markers to improve sensitivity to distinguish cell types sharing similar gene expression patterns and marker genes, for example, lung goblet cells (MUC5AC+/MUC5B+) and SMG mucous (MUC5AC-/MUC5B+).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "deuterosomal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DEUP1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "we extended the dictionary to incorporate 7 cell types that are not yet in the CellCards but have marker genes reported in recent scRNA-seq studies and are selectively expressed in our unbiasedly identified cell clusters, including deuterosomal cells14 (DEUP1, FOXN4, CDC20B)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FOXN4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "we extended the dictionary to incorporate 7 cell types that are not yet in the CellCards but have marker genes reported in recent scRNA-seq studies and are selectively expressed in our unbiasedly identified cell clusters, including deuterosomal cells14 (DEUP1, FOXN4, CDC20B)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CDC20B",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "we extended the dictionary to incorporate 7 cell types that are not yet in the CellCards but have marker genes reported in recent scRNA-seq studies and are selectively expressed in our unbiasedly identified cell clusters, including deuterosomal cells14 (DEUP1, FOXN4, CDC20B)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "suprabasal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SERPINB4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "suprabasal cells14 (SERPINB4, KRT19, NOTCH3)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT19",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "suprabasal cells14 (SERPINB4, KRT19, NOTCH3)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NOTCH3",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "suprabasal cells14 (SERPINB4, KRT19, NOTCH3)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "systemic venous endothelial cells (SVEC)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL15A1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "systemic venous endothelial cells21 (SVEC;markergenes:COL15A1,ABCB1,ACKR1)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ABCB1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "systemic venous endothelial cells21 (SVEC;markergenes:COL15A1,ABCB1,ACKR1)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACKR1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "systemic venous endothelial cells21 (SVEC;markergenes:COL15A1,ABCB1,ACKR1)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "mature dendritic cell subset (maDC)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR7",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "maturedendritic cell subset (maDC; marker genes: CCR7, CCL19, LAD1)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCL19",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "maturedendritic cell subset (maDC; marker genes: CCR7, CCL19, LAD1)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "LAD1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "maturedendritic cell subset (maDC; marker genes: CCR7, CCL19, LAD1)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "megakaryocyte/platelets",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ITGA2B",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "megakaryocyte/platelets15,22 (ITGA2B, ITGB3)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ITGB3",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "megakaryocyte/platelets15,22 (ITGA2B, ITGB3)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SMG duct cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MIA",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "SMGductcells (MIA, ALDH1A3, RARRES1)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ALDH1A3",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "SMGductcells (MIA, ALDH1A3, RARRES1)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RARRES1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "SMGductcells (MIA, ALDH1A3, RARRES1)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "respiratory airway secretory cells (RAS)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "respiratory airway secretory cells (RAS; marker genes: SCGB3A2, KLK11, SOX4)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KLK11",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "respiratory airway secretory cells (RAS; marker genes: SCGB3A2, KLK11, SOX4)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3 (LungMAP Human Lung CellRef section)",
+          "source_context": "respiratory airway secretory cells (RAS; marker genes: SCGB3A2, KLK11, SOX4)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Sox9+/Id2+ distal epithelial progenitor cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sox9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "including, Sox9+/Id2+ distal epithelial progenitor cell23,24",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Id2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "including, Sox9+/Id2+ distal epithelial progenitor cell23,24",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1/AT2 cell population",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ager",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Hopx",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Lamp3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Sftpc",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Abca3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Cldn4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Krt19",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Krt8",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Foxf1+/Kit+ endothelial progenitor cells (EPC)",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Foxf1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "Foxf1+/Kit+ endothelial progenitor cells (EPC)29",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Kit",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+          "source_context": "Foxf1+/Kit+ endothelial progenitor cells (EPC)29",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "KRT5-/KRT17+ pathologic epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "unknown",
+          "source_locator": "Results p.8 (Application to scRNA-seq of human lung diseases)",
+          "source_context": "Habermann et al. reported the identification of 31 cell types including a previously unrecognized KRT5-/KRT17+ pathologic, ECM-producing epithelial cell population that was highly enriched in IPF lungs11",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT17",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.8 (Application to scRNA-seq of human lung diseases)",
+          "source_context": "Habermann et al. reported the identification of 31 cell types including a previously unrecognized KRT5-/KRT17+ pathologic, ECM-producing epithelial cell population that was highly enriched in IPF lungs11",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.4A,B legend",
+          "source_context": "In (A) and (B), FOXJ1 expression was shown as example. In (C) and (D), Ciliated cells were used as example.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "distal epithelial cell",
+      "subtype": "Sox9+/Id2+",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sox9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Construction of the LungMAP Mouse Lung Development CellRef, p.16",
+          "source_context": "we extended the mouse lung cell type dictionary to include progenitor and transitional cells reported in recent single-cell studies, including Sox9+/Id2+ distal epithelial cells23,24, AT1/AT2 cell, Foxf1+/Kit+ endothelial progenitor cells29, and proliferative mesenchymal progenitor cells30,31.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Id2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Construction of the LungMAP Mouse Lung Development CellRef, p.16",
+          "source_context": "we extended the mouse lung cell type dictionary to include progenitor and transitional cells reported in recent single-cell studies, including Sox9+/Id2+ distal epithelial cells23,24, AT1/AT2 cell, Foxf1+/Kit+ endothelial progenitor cells29, and proliferative mesenchymal progenitor cells30,31.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial progenitor cell",
+      "subtype": "Foxf1+/Kit+",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Foxf1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Construction of the LungMAP Mouse Lung Development CellRef, p.16",
+          "source_context": "we extended the mouse lung cell type dictionary to include progenitor and transitional cells reported in recent single-cell studies, including Sox9+/Id2+ distal epithelial cells23,24, AT1/AT2 cell, Foxf1+/Kit+ endothelial progenitor cells29, and proliferative mesenchymal progenitor cells30,31.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Kit",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Construction of the LungMAP Mouse Lung Development CellRef, p.16",
+          "source_context": "we extended the mouse lung cell type dictionary to include progenitor and transitional cells reported in recent single-cell studies, including Sox9+/Id2+ distal epithelial cells23,24, AT1/AT2 cell, Foxf1+/Kit+ endothelial progenitor cells29, and proliferative mesenchymal progenitor cells30,31.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s41467-023-40173-5",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s41467-023-40173-5.md"
+}

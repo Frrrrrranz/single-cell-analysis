@@ -1,0 +1,2030 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s41586-021-04345-x",
+  "cell_types": [
+    {
+      "cell_type": "Hillock-like populations",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Novel cell subtypes in airway epithelia'",
+          "source_context": "we identify three Hillock-like populations14,26,27. The latter are all marked by KRT14, KRT6A and KRT13",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT6A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Novel cell subtypes in airway epithelia'",
+          "source_context": "The latter are all marked by KRT14, KRT6A and KRT13",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Novel cell subtypes in airway epithelia'",
+          "source_context": "The latter are all marked by KRT14, KRT6A and KRT13",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "mono IL-6+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL-6",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Novel cell subtypes in airway epithelia'",
+          "source_context": "monocytes fall into clearly distinct clusters, annotated by their highly expressed markers as mono IL-6+, mono GPBAR1+ and mono CXCL10+",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "mono GPBAR1+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GPBAR1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Novel cell subtypes in airway epithelia'",
+          "source_context": "monocytes fall into clearly distinct clusters, annotated by their highly expressed markers as mono IL-6+, mono GPBAR1+ and mono CXCL10+",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "mono CXCL10+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL10",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Novel cell subtypes in airway epithelia'",
+          "source_context": "monocytes fall into clearly distinct clusters, annotated by their highly expressed markers as mono IL-6+, mono GPBAR1+ and mono CXCL10+",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "EPCAM",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Fig. 2g validation paragraph",
+          "source_context": "staining for both calprotectin subunit S100A9 and the epithelial marker EPCAM in a posterior nasal space biopsy of an adult COVID-19 patient",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8+ cytotoxic T lymphocytes (CTLs)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Reduced cytotoxic response in children'",
+          "source_context": "adult COVID-19 patients is characterised by an increased cytotoxic compartment, where CD8+ cytotoxic T lymphocytes (CTLs) and effector memory cells re-expressing CD45RA are significantly more abundant",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "effector memory cells re-expressing CD45RA",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD45RA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Reduced cytotoxic response in children'",
+          "source_context": "CD8+ cytotoxic T lymphocytes (CTLs) and effector memory cells re-expressing CD45RA are significantly more abundant in adults",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD4+ CTLs",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Reduced cytotoxic response in children'",
+          "source_context": "the latter populations, natural killer cells and CD4+ CTLs are reduced in paediatric COVID-19 patients",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "NK CD56 lo",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD56",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Distinct changes in children and adults'",
+          "source_context": "particularly NK CD56 lo, NKT cells, neutrophils, mono CXCL10+ and some CD8+ T cell subsets for IFN-α",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD4 CCR4+ T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Distinct changes in children and adults'",
+          "source_context": "including in the already expanded IL6+ monocytes, CD4 CCR4+ T cells and Tfh cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCR4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, section 'Distinct changes in children and adults'",
+          "source_context": "including in the already expanded IL6+ monocytes, CD4 CCR4+ T cells and Tfh cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "transit epithelial 1 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, GO term enrichment paragraph",
+          "source_context": "For transit epithelial cells, this highlighted the type I and II IFN response as well as neutrophil chemotaxis ... driven by S100A8 and S100A9 expression (calprotectin)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "S100A9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, GO term enrichment paragraph",
+          "source_context": "For transit epithelial cells, this highlighted the type I and II IFN response as well as neutrophil chemotaxis ... driven by S100A8 and S100A9 expression (calprotectin)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Novel epithelial cells with an inflammatory gene expression",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 4 legend",
+          "source_context": "Novel epithelial cells with an inflammatory gene expression (S100A8/A9) are found enriched in COVID-19 patients",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "S100A9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 4 legend",
+          "source_context": "Novel epithelial cells with an inflammatory gene expression (S100A8/A9) are found enriched in COVID-19 patients",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KHDRBS2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "In addition, KHDRBS2 marked a distinct basal 1 population",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DAPL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "basal 2 cells are high in DAPL1 and NOTCH1",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NOTCH1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "basal 2 cells are high in DAPL1 and NOTCH1",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "club cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "more differentiated club cells (SCGB1A1, SCGB3A1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "more differentiated club cells (SCGB1A1, SCGB3A1)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "secretory",
+      "subtype": "GALNT4+ distinct subtype",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GALNT4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "GALNT4 marks a distinct secretory subtype",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "Goblet cells have high MUC5AC expression and were subdivided into TFF1-hi goblet 1 and three distinct goblet 2 populations",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet 1",
+      "subtype": "TFF1-hi",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TFF1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "subdivided into TFF1-hi goblet 1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet 2",
+      "subtype": "BPIFA2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BPIFA2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "three distinct goblet 2 populations (BPIFA2, PLAU, and goblet 2 inflammatory cells)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "goblet 2",
+      "subtype": "PLAU",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PLAU",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "three distinct goblet 2 populations (BPIFA2, PLAU, and goblet 2 inflammatory cells)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "squamous cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPRR3",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "we detect squamous cells (SPRR3, KRT78)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KRT78",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "we detect squamous cells (SPRR3, KRT78)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Hillock",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT6A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "cycling Hillock",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT6A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Hillock precursor",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT6A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PIFO",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "the differentiation trajectory points from ciliated 1 (PIFO, OMG) to ciliated 2 (CFAP54, DZIP1L) cells",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "OMG",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "the differentiation trajectory points from ciliated 1 (PIFO, OMG) to ciliated 2 (CFAP54, DZIP1L) cells",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CFAP54",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "the differentiation trajectory points from ciliated 1 (PIFO, OMG) to ciliated 2 (CFAP54, DZIP1L) cells",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "DZIP1L",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "the differentiation trajectory points from ciliated 1 (PIFO, OMG) to ciliated 2 (CFAP54, DZIP1L) cells",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "deuterosomal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDC20",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "we observe deuterosomal cells as intermediates marked by CDC20 and FOXN4",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FOXN4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "we observe deuterosomal cells as intermediates marked by CDC20 and FOXN4",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Transit epi 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PIFO",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MUC2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FP671120.4",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "Distinguishing markers for these two clusters are two long non-coding RNAs, FP671120.4 and FP236383.2 for both",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FP236383.2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "Distinguishing markers for these two clusters are two long non-coding RNAs, FP671120.4 and FP236383.2 for both",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Transit epi 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PIFO",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MUC2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FP671120.4",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "Distinguishing markers for these two clusters are two long non-coding RNAs, FP671120.4 and FP236383.2 for both",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FP236383.2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "Distinguishing markers for these two clusters are two long non-coding RNAs, FP671120.4 and FP236383.2 for both",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "HIST1H1E",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "and HIST1H1E for Transit epi 2",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+          "source_context": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Basal 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Basal 1 KHDRBS2+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KHDRBS2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal epithelial cell population)",
+          "source_context": "Cell type label 'Basal 1 KHDRBS2+' in nasal epithelial cell population",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Basal 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Cycling basal",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Cycling hillock",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Squamous",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Secretory",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Secretory GALNT4+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GALNT4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal epithelial cell population)",
+          "source_context": "Cell type label 'Secretory GALNT4+' in nasal epithelial cell population",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Duct",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Club",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Goblet 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Goblet 2 BPIFA2+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BPIFA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal epithelial cell population)",
+          "source_context": "Cell type label 'Goblet 2 BPIFA2+' in nasal epithelial cell population",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet 2 PLAU+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PLAU",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal epithelial cell population)",
+          "source_context": "Cell type label 'Goblet 2 PLAU+' in nasal epithelial cell population",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Goblet 2 inflammatory",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Deuterosomal",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Ciliated 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Ciliated 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Ionocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Brush",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Neuroendocrine",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Melanocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T CD4 CCR4+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'T CD4 CCR4+' in nasal resident immune cell population",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T naive",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T reg",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T fh",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T CD4 mem",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label includes 'CD4' in 'T CD4 mem'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MAIT",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T cycling",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T CD8 mem 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label includes 'CD8' in 'T CD8 mem 1'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 mem 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label includes 'CD8' in 'T CD8 mem 2'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 mem 3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label includes 'CD8' in 'T CD8 mem 3'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 exhausted",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label includes 'CD8' in 'T CD8 exhausted'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T gd",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "NKT",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "NK cd56hi",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "cd56",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'NK cd56hi' includes 'cd56'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "NK cd56lo",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "cd56",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'NK cd56lo' includes 'cd56'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "ILC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B naive",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B mem",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B mem exhausted",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B mem activated",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B cycling",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Plasma IgK",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IgK",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'Plasma IgK' includes 'IgK'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Plasma IgL",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IgL",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'Plasma IgL' includes 'IgL'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mac",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Mac activated",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "LC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Mono CXCL10+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL10",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'Mono CXCL10+' includes 'CXCL10'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mono GPBAR1+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GPBAR1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'Mono GPBAR1+' includes 'GPBAR1'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mono IL6+",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 8 (nasal resident immune cell population)",
+          "source_context": "Cell type label 'Mono IL6+' includes 'IL6'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neut",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "cDC activated",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "pDC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "fDC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Mast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T CD4 naive",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD4 naive' includes 'CD4'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD4 helper",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD4 helper' includes 'CD4'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD4 CTL",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD4 CTL' includes 'CD4'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 naive",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD8 naive' includes 'CD8'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 CM",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD8 CM' includes 'CD8'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 EM",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD8 EM' includes 'CD8'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 EMRA",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD8 EMRA' includes 'CD8'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 CTL",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD8 CTL' includes 'CD8'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T g/d",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "NK",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "NK CD56",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD56",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'NK CD56' includes 'CD56'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocyte CD14",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'Monocyte CD14' includes 'CD14'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocyte CD14 IL6",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'Monocyte CD14 IL6' includes 'CD14'",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IL6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'Monocyte CD14 IL6' includes 'IL6'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocyte CD16",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'Monocyte CD16' includes 'CD16'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocyte CD16+C1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'Monocyte CD16+C1' includes 'CD16'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AS-DC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "cDC1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "cDC2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B n-sw mem",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B sw mem",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B invar",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Plasma cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Plasmablasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "HPC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Baso/Eos",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Cycling",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Platelets",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "RBC",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T CD4 naive IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD4 naive IFN stim' includes 'CD4'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "T CD8 CTL IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'T CD8 CTL IFN stim' includes 'CD8'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "NK IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Monocyte CD14 IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'Monocyte CD14 IFN stim' includes 'CD14'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocyte CD16 IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 7a",
+          "source_context": "Cell type label 'Monocyte CD16 IFN stim' includes 'CD16'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B naive IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B n-sw mem IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "HPC IFN stim",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "SERPINB11 high Secretory Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SERPINB11",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'SERPINB11 high Secretory Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MSR1 C1QB high Macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MSR1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'MSR1 C1QB high Macrophages'",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "C1QB",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'MSR1 C1QB high Macrophages'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SCGB1A1 high Goblet Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'SCGB1A1 high Goblet Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SPRR2D high Squamous Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPRR2D",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'SPRR2D high Squamous Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "ITGAX high Macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ITGAX",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'ITGAX high Macrophages'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "BEST4 high Cilia high Ciliated Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BEST4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'BEST4 high Cilia high Ciliated Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "KRT24 KRT13 high Secretory Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT24",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'KRT24 KRT13 high Secretory Cells'",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'KRT24 KRT13 high Secretory Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AZGP1 high Goblet Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AZGP1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'AZGP1 high Goblet Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AZGP1 SCGB3A1 LTF high Goblet Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AZGP1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'AZGP1 SCGB3A1 LTF high Goblet Cells'",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'AZGP1 SCGB3A1 LTF high Goblet Cells'",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "LTF",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'AZGP1 SCGB3A1 LTF high Goblet Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "BPIFA1 high Secretory Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BPIFA1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'BPIFA1 high Secretory Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC5AC high Goblet Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'MUC5AC high Goblet Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "HOPX high Squamous Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HOPX",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'HOPX high Squamous Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "VEGFA high Squamous Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VEGFA",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'VEGFA high Squamous Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "BPIFA1 and Chemokine high Secretory Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "BPIFA1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'BPIFA1 and Chemokine high Secretory Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "FOXJ1 high Ciliated Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'FOXJ1 high Ciliated Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "FFAR4 high Macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FFAR4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'FFAR4 high Macrophages'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CCL5 high Squamous Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCL5",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'CCL5 high Squamous Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Early Response FOXJ1 high Ciliated Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'Early Response FOXJ1 high Ciliated Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Interferon Responsive Cytotoxic CD8 T Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'Interferon Responsive Cytotoxic CD8 T Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8 T Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Extended Data Figure 3d",
+          "source_context": "Reference label transfer cell type 'CD8 T Cells'",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s41586-021-04345-x",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s41586-021-04345-x.md"
+}

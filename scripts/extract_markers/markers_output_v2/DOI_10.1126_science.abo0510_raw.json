@@ -1,0 +1,776 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1126_science.abo0510",
+  "cell_types": [
+    {
+      "cell_type": "human embryonic mesodermal progenitors (hEMPs)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD326",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, Cell cultures for artificial thymic organoid (ATO), p.3",
+          "source_context": "Cells were harvested 3.5 days later, and isolated by FACS for CD326–CD56+ ... human embryonic mesodermal progenitors (hEMPs).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD56",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, Cell cultures for artificial thymic organoid (ATO), p.3",
+          "source_context": "Cells were harvested 3.5 days later, and isolated by FACS for CD326–CD56+ ... human embryonic mesodermal progenitors (hEMPs).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "LYVE1hi macrophages",
+      "subtype": "LYVE1hi",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "F13A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "Macrophage subsets were annotated by analysis of marker genes ... groupings were defined as follows: “LYVE1hi” expressing F13A1, LYVE1, and SPP1;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "LYVE1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "Macrophage subsets were annotated by analysis of marker genes ... groupings were defined as follows: “LYVE1hi” expressing F13A1, LYVE1, and SPP1;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SPP1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "Macrophage subsets were annotated by analysis of marker genes ... groupings were defined as follows: “LYVE1hi” expressing F13A1, LYVE1, and SPP1;",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Iron-recycling macrophages",
+      "subtype": "Iron-recycling",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SLC40A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Iron-recycling” expressing the highest levels of ferroportin (SLC40A1) and phosphatidylserine receptor TIMD4 but best characterized by expression of CD5L, VCAM1, and APOE;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TIMD4",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Iron-recycling” expressing the highest levels of ferroportin (SLC40A1) and phosphatidylserine receptor TIMD4 but best characterized by expression of CD5L, VCAM1, and APOE;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD5L",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Iron-recycling” expressing the highest levels of ferroportin (SLC40A1) and phosphatidylserine receptor TIMD4 but best characterized by expression of CD5L, VCAM1, and APOE;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "VCAM1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Iron-recycling” expressing the highest levels of ferroportin (SLC40A1) and phosphatidylserine receptor TIMD4 but best characterized by expression of CD5L, VCAM1, and APOE;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "APOE",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Iron-recycling” expressing the highest levels of ferroportin (SLC40A1) and phosphatidylserine receptor TIMD4 but best characterized by expression of CD5L, VCAM1, and APOE;",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "MHC class IIhi macrophages",
+      "subtype": "MHC class IIhi",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HLA-DRA",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“MHC class IIhi” expressing the highest levels of HLA-DRA, HLA-DPA1, and CLEC7A among macrophages;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "HLA-DPA1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“MHC class IIhi” expressing the highest levels of HLA-DRA, HLA-DPA1, and CLEC7A among macrophages;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CLEC7A",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“MHC class IIhi” expressing the highest levels of HLA-DRA, HLA-DPA1, and CLEC7A among macrophages;",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Kupffer-like macrophages",
+      "subtype": "Kupffer-like",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ENG",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Kupffer-like” expressing endothelial transcripts ENG, KDR, and CAV;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KDR",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Kupffer-like” expressing endothelial transcripts ENG, KDR, and CAV;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CAV",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Kupffer-like” expressing endothelial transcripts ENG, KDR, and CAV;",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "TREM2 macrophages",
+      "subtype": "TREM2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TREM2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“TREM2” with expression of microglia-associated transcripts TREM2 and P2RY12;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "P2RY12",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“TREM2” with expression of microglia-associated transcripts TREM2 and P2RY12;",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Osteoclasts",
+      "subtype": "Osteoclasts",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MMP9",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Osteoclasts” expressing characteristic MMP9 and ACP5;",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "ACP5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, scRNA-seq analysis, Data integration and annotation, p.6",
+          "source_context": "“Osteoclasts” expressing characteristic MMP9 and ACP5;",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "B cells were gated as singlet DAPI–CD3–CD20+ cells.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD20",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "B cells were gated as singlet DAPI–CD3–CD20+ cells.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Plasma cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD20",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "Plasma cells should generally be CD20lo and therefore not included.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD38",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "To further exclude plasma cell contamination, we also gated out the top 1% of B cells expressing the highest level of CD38.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "CCR10hi",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR10",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "CCR10loCD27+CD43+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR10",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD27",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD43",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "CCR10loCD27–CD43+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR10",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD27",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD43",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": "CCR10loCD27–CD43–",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR10",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD27",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD43",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Materials and Methods, B1 functional validation experiment, p.14",
+          "source_context": "The rest of the B cells were then sorted into four fractions: CCR10hi, CCR10loCD27+CD43+, CCR10loCD27–CD43+, and CCR10loCD27–CD43–.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDH5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S21 legend",
+          "source_context": "Multiplex smFISH staining of DAPI, CDH5 for endothelial cells, and VPREB1, RAG1 with/without DNTT for B cell progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cell progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VPREB1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S21 legend",
+          "source_context": "VPREB1, RAG1 with/without DNTT for B cell progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RAG1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S21 legend",
+          "source_context": "VPREB1, RAG1 with/without DNTT for B cell progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "DNTT",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S21 legend",
+          "source_context": "VPREB1, RAG1 with/without DNTT for B cell progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "megakaryocyte/erythroid progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLF1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S22 legend",
+          "source_context": "KLF1, TESPA1 for megakaryocyte/erythroid progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TESPA1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S22 legend",
+          "source_context": "KLF1, TESPA1 for megakaryocyte/erythroid progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myeloid progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MPO",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S23 legend",
+          "source_context": "MPO and AZU1 for myeloid progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "AZU1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S23 legend",
+          "source_context": "MPO and AZU1 for myeloid progenitors",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Immature B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD19",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "Marker gene expression patterns overlaid onto the same UMAP plot. Immature B cells were characterized by higher expression of CD19, CD24, and VPREB3.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD24",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "Immature B cells were characterized by higher expression of CD19, CD24, and VPREB3.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "VPREB3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "Immature B cells were characterized by higher expression of CD19, CD24, and VPREB3.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mature B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Cycling B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MKI67",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "Cycling B cells were additionally marked with MKI67.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Plasma B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "fig. S25 legend",
+          "source_context": "plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD38",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SDC1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "JCHAIN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Putative B1 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MS4A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S25 legend",
+          "source_context": "Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Proliferating macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MKI67",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S11 legend",
+          "source_context": "proliferating (MKI67+TOP2A+) macrophages identified in myeloid clustering",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TOP2A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S11 legend",
+          "source_context": "proliferating (MKI67+TOP2A+) macrophages identified in myeloid clustering",
+          "model_evidence_type": "supplementary_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "LYVE1hi macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S14B legend",
+          "source_context": "LYVE1hi macrophages and proliferating macrophages",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CCR2hi monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S16B legend",
+          "source_context": "bone marrow CCR2hi monocytes",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD4+ effector T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SELL",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S17D legend",
+          "source_context": "adult CD4+ effector T cells ... show increased expression of naive markers (SELL, CCR7) and CD4+T effector markers (KLRB1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CCR7",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S17D legend",
+          "source_context": "adult CD4+ effector T cells ... show increased expression of naive markers (SELL, CCR7) and CD4+T effector markers (KLRB1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KLRB1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "fig. S17D legend",
+          "source_context": "adult CD4+ effector T cells ... show increased expression of naive markers (SELL, CCR7) and CD4+T effector markers (KLRB1)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1126_science.abo0510",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1126_science.abo0510.md"
+}
