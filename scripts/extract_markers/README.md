@@ -5,8 +5,8 @@
 ## 架构
 
 ```
-PDF ─→ 身份审计/文档角色 ─→ MarkItDown ─→ LLM schema v2 ─→ 人工复核
-         paper_map.json        转 Markdown       raw JSON       review CSV
+PDF/Markdown ─→ 身份审计/文档角色 ─→ LLM schema v2 ─→ 人工复核
+       paper_map.json/已有Markdown             raw JSON       review CSV
                                           ↓                          ↓
                                     import_markers.py ←──── approved/modified
                                         (入库)
@@ -19,7 +19,7 @@ PDF ─→ 身份审计/文档角色 ─→ MarkItDown ─→ LLM schema v2 ─�
 
 | 文件 | 用途 |
 |------|------|
-| `run_extraction.py` | **主入口**。校验结构化映射和 PDF 哈希，优先用 MarkItDown 解析，再调用 LLM |
+| `run_extraction.py` | **主入口**。支持直接读取已有 Markdown，也支持校验结构化映射和 PDF 哈希后调用 LLM |
 | `audit_paper_map.py` | 审计 PDF 的 SHA-256、DOI、PMID、标题及登记路径；仅在零冲突时生成正式映射 |
 | `quarantine_pdf_issues.py` | 将损坏/伪 PDF 和字节完全相同的冗余副本移入可恢复隔离区 |
 | `marker_schema.py` | marker schema v2 枚举、证据分层和校验规则 |
@@ -27,7 +27,7 @@ PDF ─→ 身份审计/文档角色 ─→ MarkItDown ─→ LLM schema v2 ─�
 | `gen_review_sheet.py` | 将 LLM 输出的 JSON 转为复核 CSV（按阅读顺序排列） |
 | `import_markers.py` | 将复核通过的 CSV 导入显式指定的 schema v2 `markers` sheet |
 | `convert_gene_symbols.py` | **可选后处理**。用 mygene 将基因名标准化为 HGNC 符号 |
-| `prompts/extract_markers_v4.txt` | 默认提示词，区分作者声明、注释、图表、补充材料与普通 DEG |
+| `prompts/extract_markers_v4.md` | 默认提示词，区分作者声明、注释、图表、补充材料与普通 DEG |
 | `markers_output_v2/` | schema v2 输出目录（原始 JSON + 复核 CSV） |
 
 ## 完整使用流程
@@ -72,7 +72,7 @@ python run_extraction.py \
 # 处理全部活动文档时去掉 --paper-id 和 --dry-run
 ```
 
-程序会核验 PDF SHA-256；文件在审计后被替换或修改时会拒绝提取。无论 PDF 大小，正文转换均优先使用 MarkItDown。任一分块调用失败时整篇不落盘，避免把残缺结果误当成完整提取。
+程序会核验 PDF SHA-256；文件在审计后被替换或修改时会拒绝提取。已有 Markdown 优先直接读取，没有 Markdown 时才转换 PDF。任一分块调用失败时整篇不落盘，避免把残缺结果误当成完整提取。
 
 合并结果还会经过确定性证据护栏：只有原文定位或上下文含作者的 marker/注释措辞，才能保留为正式候选；仅在图中出现表达信号的基因会降为 `cluster_enriched`。模型原判和降级原因会保留，供人工追溯。
 
