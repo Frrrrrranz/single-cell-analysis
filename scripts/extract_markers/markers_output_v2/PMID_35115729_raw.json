@@ -3,8 +3,8 @@
   "paper_id": "PMID_35115729",
   "cell_types": [
     {
-      "cell_type": "myelinating-SC subtype",
-      "subtype": "motor-associated",
+      "cell_type": "Schwann cell",
+      "subtype": "myelinating-SC",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
@@ -13,7 +13,7 @@
           "evidence_type": "annotation_marker",
           "marker_polarity": "positive",
           "source_locator": "Abstract",
-          "source_context": "We identified a distinct myelinating-SC subtype that expresses Cldn14, Adamtsl1, and Pmp2 and preferentially ensheathes motor axons. The number of these motor-associated, Pmp2+ SCs is reduced in both ALS SOD1G93A mouse model and human ALS nerve samples.",
+          "source_context": "We identified a distinct myelinating-SC subtype that expresses Cldn14, Adamtsl1, and Pmp2",
           "candidate_class": "formal_candidate"
         },
         {
@@ -21,7 +21,7 @@
           "evidence_type": "annotation_marker",
           "marker_polarity": "positive",
           "source_locator": "Abstract",
-          "source_context": "We identified a distinct myelinating-SC subtype that expresses Cldn14, Adamtsl1, and Pmp2 and preferentially ensheathes motor axons. The number of these motor-associated, Pmp2+ SCs is reduced in both ALS SOD1G93A mouse model and human ALS nerve samples.",
+          "source_context": "We identified a distinct myelinating-SC subtype that expresses Cldn14, Adamtsl1, and Pmp2",
           "candidate_class": "formal_candidate"
         },
         {
@@ -29,7 +29,7 @@
           "evidence_type": "annotation_marker",
           "marker_polarity": "positive",
           "source_locator": "Abstract",
-          "source_context": "We identified a distinct myelinating-SC subtype that expresses Cldn14, Adamtsl1, and Pmp2 and preferentially ensheathes motor axons. The number of these motor-associated, Pmp2+ SCs is reduced in both ALS SOD1G93A mouse model and human ALS nerve samples.",
+          "source_context": "We identified a distinct myelinating-SC subtype that expresses Cldn14, Adamtsl1, and Pmp2; The number of these motor-associated, Pmp2+ SCs is reduced...",
           "candidate_class": "formal_candidate"
         }
       ]
@@ -44,8 +44,8 @@
           "gene": "Prx",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
-          "source_context": "mSCs, marked by expression of Prx, Qk and Mbp",
+          "source_locator": "Results p.2, Fig. 1e-f",
+          "source_context": "Among the cells identified, mSCs, marked by expression of Prx, Qk and Mbp",
           "model_evidence_type": "author_declared",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -54,8 +54,8 @@
           "gene": "Qk",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
-          "source_context": "mSCs, marked by expression of Prx, Qk and Mbp",
+          "source_locator": "Results p.2, Fig. 1e-f",
+          "source_context": "Among the cells identified, mSCs, marked by expression of Prx, Qk and Mbp",
           "model_evidence_type": "author_declared",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -64,8 +64,8 @@
           "gene": "Mbp",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
-          "source_context": "mSCs, marked by expression of Prx, Qk and Mbp",
+          "source_locator": "Results p.2, Fig. 1e-f",
+          "source_context": "Among the cells identified, mSCs, marked by expression of Prx, Qk and Mbp",
           "model_evidence_type": "author_declared",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -74,23 +74,23 @@
     },
     {
       "cell_type": "myelinating Schwann cell (mSC)",
-      "subtype": "Cluster 0",
+      "subtype": "cluster 8 (Slit2-high)",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
         {
-          "gene": "Cnp",
+          "gene": "Slit2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
-          "source_context": "Cluster 0, which expressed high levels of Cnp",
+          "source_locator": "Results p.2, Fig. 1e-f",
+          "source_context": "mSCs were separated into three clusters; Cluster 8, which expressed high levels of Slit2 a chemorepellent factor",
           "candidate_class": "context_only"
         }
       ]
     },
     {
       "cell_type": "myelinating Schwann cell (mSC)",
-      "subtype": "Cluster 3",
+      "subtype": "cluster 0 (global Cnp-high)",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
@@ -98,7 +98,23 @@
           "gene": "Cnp",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
+          "source_locator": "Results p.2, Fig. 1e-f",
+          "source_context": "Cluster 0, which expressed high levels of Cnp, the myelin-associated enzyme",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myelinating Schwann cell (mSC)",
+      "subtype": "cluster 3 (global Cnp/Plp1/Slit2 moderate)",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Cnp",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.2, Fig. 1e-f",
           "source_context": "Cluster 3, which expressed moderate levels of Cnp, Plp1 and Slit2",
           "candidate_class": "context_only"
         },
@@ -106,7 +122,7 @@
           "gene": "Plp1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
+          "source_locator": "Results p.2, Fig. 1e-f",
           "source_context": "Cluster 3, which expressed moderate levels of Cnp, Plp1 and Slit2",
           "candidate_class": "context_only"
         },
@@ -114,7 +130,7 @@
           "gene": "Slit2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
+          "source_locator": "Results p.2, Fig. 1e-f",
           "source_context": "Cluster 3, which expressed moderate levels of Cnp, Plp1 and Slit2",
           "candidate_class": "context_only"
         }
@@ -122,47 +138,23 @@
     },
     {
       "cell_type": "myelinating Schwann cell (mSC)",
-      "subtype": "Cluster 8",
+      "subtype": "cluster 0 (SC-enriched Plp1-high)",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
         {
-          "gene": "Slit2",
+          "gene": "Plp1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
-          "source_context": "Cluster 8, which expressed high levels of Slit2",
+          "source_locator": "Results p.5, Fig. 4a",
+          "source_context": "cluster 0 expressing high levels of Plp1",
           "candidate_class": "context_only"
         }
       ]
     },
     {
       "cell_type": "myelinating Schwann cell (mSC)",
-      "subtype": "SC re-cluster 1",
-      "species": "mouse",
-      "is_pns_cell": "true",
-      "markers": [
-        {
-          "gene": "Lmna",
-          "evidence_type": "cluster_enriched",
-          "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
-          "source_context": "cluster 1 expressing Lmna and myelination-related transcription factor Egr2",
-          "candidate_class": "context_only"
-        },
-        {
-          "gene": "Egr2",
-          "evidence_type": "cluster_enriched",
-          "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
-          "source_context": "cluster 1 expressing Lmna and myelination-related transcription factor Egr2",
-          "candidate_class": "context_only"
-        }
-      ]
-    },
-    {
-      "cell_type": "myelinating Schwann cell (mSC)",
-      "subtype": "SC re-cluster 2",
+      "subtype": "cluster 2 (SC-enriched Col23a1)",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
@@ -170,7 +162,7 @@
           "gene": "Col23a1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 2 expressing collagen protein Col23a1",
           "candidate_class": "context_only"
         }
@@ -178,7 +170,39 @@
     },
     {
       "cell_type": "myelinating Schwann cell (mSC)",
-      "subtype": "SC re-cluster 3 (PMP2+ mSC)",
+      "subtype": "cluster 1 (SC-enriched Slit2-high population)",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Slit2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5, Fig. 4a",
+          "source_context": "The Slit2-high population from global analysis further separated into two clusters, with cluster 1 expressing Lmna and Egr2",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Lmna",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5, Fig. 4a",
+          "source_context": "cluster 1 expressing Lmna and myelination-related transcription factor Egr2",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Egr2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5, Fig. 4a",
+          "source_context": "cluster 1 expressing Lmna and myelination-related transcription factor Egr2",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myelinating Schwann cell (mSC)",
+      "subtype": "cluster 3 (SC-enriched Cldn14/Adamtsl1/Pmp2)",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
@@ -186,7 +210,7 @@
           "gene": "Cldn14",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 3, which is defined by co-expression of the integral membrane protein Cldn14, the secreted protein Adamtsl1, and the myelin protein Pmp2",
           "candidate_class": "formal_candidate"
         },
@@ -194,7 +218,7 @@
           "gene": "Adamtsl1",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 3, which is defined by co-expression of the integral membrane protein Cldn14, the secreted protein Adamtsl1, and the myelin protein Pmp2",
           "candidate_class": "formal_candidate"
         },
@@ -202,7 +226,7 @@
           "gene": "Pmp2",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 3, which is defined by co-expression of the integral membrane protein Cldn14, the secreted protein Adamtsl1, and the myelin protein Pmp2",
           "candidate_class": "formal_candidate"
         }
@@ -218,7 +242,7 @@
           "gene": "Ncam1",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
+          "source_locator": "Results p.2, Fig. 1e-f",
           "source_context": "nmSCs, marked by canonical markers such as Ncam1 and Slc35f1, as well as additional markers Scn7a and Csmd1",
           "candidate_class": "formal_candidate"
         },
@@ -226,7 +250,7 @@
           "gene": "Slc35f1",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
+          "source_locator": "Results p.2, Fig. 1e-f",
           "source_context": "nmSCs, marked by canonical markers such as Ncam1 and Slc35f1, as well as additional markers Scn7a and Csmd1",
           "candidate_class": "formal_candidate"
         },
@@ -234,7 +258,7 @@
           "gene": "Scn7a",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
+          "source_locator": "Results p.2, Fig. 1e-f",
           "source_context": "nmSCs, marked by canonical markers such as Ncam1 and Slc35f1, as well as additional markers Scn7a and Csmd1",
           "candidate_class": "formal_candidate"
         },
@@ -242,7 +266,7 @@
           "gene": "Csmd1",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq of sciatic nerve reveals robust SC signatures' (paragraph 3)",
+          "source_locator": "Results p.2, Fig. 1e-f",
           "source_context": "nmSCs, marked by canonical markers such as Ncam1 and Slc35f1, as well as additional markers Scn7a and Csmd1",
           "candidate_class": "formal_candidate"
         },
@@ -250,7 +274,7 @@
           "gene": "Dbi",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 3)",
+          "source_locator": "Results p.5, Fig. 4c",
           "source_context": "nmSC markers identified by peripheral nerve snRNAseq, including Scn7a, Prnp, Dbi, and Marcks",
           "candidate_class": "formal_candidate"
         },
@@ -258,7 +282,7 @@
           "gene": "Prnp",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 3)",
+          "source_locator": "Results p.5, Fig. 4c",
           "source_context": "nmSC markers identified by peripheral nerve snRNAseq, including Scn7a, Prnp, Dbi, and Marcks",
           "candidate_class": "formal_candidate"
         },
@@ -266,23 +290,39 @@
           "gene": "Marcks",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 3)",
+          "source_locator": "Results p.5, Fig. 4c",
           "source_context": "nmSC markers identified by peripheral nerve snRNAseq, including Scn7a, Prnp, Dbi, and Marcks",
           "candidate_class": "formal_candidate"
         },
         {
-          "gene": "Ntrk3",
+          "gene": "Ngfr",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.4, Fig. 2c",
+          "source_context": "EFs express the fibroblast marker Pdgfra as well as the stem cell markers Cd34 and nmSC marker Ngfr",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NTRK3",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Unique cellular compositions exist across nerve types' (paragraph 3)",
-          "source_context": "In the nerve, both of these genes are also specifically expressed in nmSCs",
+          "source_locator": "Results p.5, Fig. 3e",
+          "source_context": "two other disease-associated SNPs ... located within NTRK3 and CSMD1 genes, respectively. In the nerve, both of these genes are also specifically expressed in nmSCs",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CSMD1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.5, Fig. 3e",
+          "source_context": "two other disease-associated SNPs ... located within NTRK3 and CSMD1 genes, respectively. In the nerve, both of these genes are also specifically expressed in nmSCs",
           "candidate_class": "context_only"
         }
       ]
     },
     {
       "cell_type": "non-myelinating Schwann cell (nmSC)",
-      "subtype": "Cluster 4",
+      "subtype": "cluster 4",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
@@ -290,7 +330,7 @@
           "gene": "Scn7a",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 4 expressing Scn7a and Csmd1",
           "candidate_class": "context_only"
         },
@@ -298,7 +338,7 @@
           "gene": "Csmd1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 4 expressing Scn7a and Csmd1",
           "candidate_class": "context_only"
         }
@@ -306,31 +346,47 @@
     },
     {
       "cell_type": "non-myelinating Schwann cell (nmSC)",
-      "subtype": "Cluster 5",
+      "subtype": "cluster 5",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
         {
           "gene": "Marcks",
-          "evidence_type": "cluster_enriched",
+          "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 5 expressing additional unique markers including Marcks and Prnp",
-          "candidate_class": "context_only"
+          "candidate_class": "formal_candidate"
         },
         {
           "gene": "Prnp",
-          "evidence_type": "cluster_enriched",
+          "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Novel SC subtypes identified by analysis of Mpz+ cell profiles' (paragraph 1)",
+          "source_locator": "Results p.5, Fig. 4a",
           "source_context": "cluster 5 expressing additional unique markers including Marcks and Prnp",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cell precursor (SCP)",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Mpz",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.4, Fig. 2a-b",
+          "source_context": "In the mouse, SCPs are detectable at E12.5 and express Mpz34",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "nerve-associated microvascular endothelial cell",
-      "subtype": "Cluster 5",
+      "cell_type": "nerve-associated microvascular endothelial cells",
+      "subtype": null,
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
@@ -338,7 +394,7 @@
           "gene": "Cldn5",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 1)",
+          "source_locator": "Results p.3, Fig. 1e-f",
           "source_context": "nerve-associated microvascular endothelial cells (Cluster 5: 1,329 nuclei) that express Cldn5",
           "candidate_class": "context_only"
         },
@@ -346,15 +402,15 @@
           "gene": "Nostrin",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Unique cellular compositions exist across nerve types' (paragraph 3)",
+          "source_locator": "Results p.5, Fig. 3e",
           "source_context": "Nostrin that is expressed in microvascular endoethelial cells",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "lymphatic endothelial cell",
-      "subtype": "Cluster 14",
+      "cell_type": "lymphatic endothelial cells",
+      "subtype": null,
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
@@ -362,7 +418,7 @@
           "gene": "Prox1",
           "evidence_type": "annotation_marker",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 1)",
+          "source_locator": "Results p.3, Fig. 1e-f",
           "source_context": "lymphatic endothelial cells (Cluster 14; 331 nuclei) identified by Prox1 and Lyve1",
           "candidate_class": "formal_candidate"
         },
@@ -370,15 +426,15 @@
           "gene": "Lyve1",
           "evidence_type": "annotation_marker",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 1)",
+          "source_locator": "Results p.3, Fig. 1e-f",
           "source_context": "lymphatic endothelial cells (Cluster 14; 331 nuclei) identified by Prox1 and Lyve1",
           "candidate_class": "formal_candidate"
         }
       ]
     },
     {
-      "cell_type": "vascular smooth muscle cell (VSMC)",
-      "subtype": "Cluster 11",
+      "cell_type": "vasculature-associated smooth muscle cells (VSMCs)",
+      "subtype": null,
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
@@ -386,23 +442,23 @@
           "gene": "Acta2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 1)",
-          "source_context": "vasculature-associated smooth muscle cells (VSMCs, Cluster 11; 659 nuclei), which express Acta2",
+          "source_locator": "Results p.3, Fig. 1e-f",
+          "source_context": "VSMCs, Cluster 11; 659 nuclei, which express Acta2",
           "candidate_class": "context_only"
         },
         {
           "gene": "Slc38a11",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'Unique cellular compositions exist across nerve types' (paragraph 3)",
+          "source_locator": "Results p.5, Fig. 3e",
           "source_context": "Slc38a11, which is detected in VSMCs",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "pericyte",
-      "subtype": "Cluster 12",
+      "cell_type": "pericytes",
+      "subtype": null,
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
@@ -410,7 +466,7 @@
           "gene": "Pdgfrb",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 1)",
+          "source_locator": "Results p.3, Fig. 1e-f",
           "source_context": "pericytes (Cluster 12; 635 nuclei), which express Pdgfrb",
           "candidate_class": "context_only"
         }
@@ -426,15 +482,15 @@
           "gene": "Cd45",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 2)",
-          "source_context": "used the global immune marker Cd45 to FACS purify immune cells",
+          "source_locator": "Results p.3, Extended Fig. 1g",
+          "source_context": "we used the global immune marker Cd45 to FACS purify immune cells from sciatic nerves",
           "candidate_class": "formal_candidate"
         }
       ]
     },
     {
-      "cell_type": "resident endoneurial macrophage",
-      "subtype": "Cluster 4",
+      "cell_type": "macrophages",
+      "subtype": "resident endoneurial macrophages",
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
@@ -442,7 +498,7 @@
           "gene": "Cx3cr1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 2)",
+          "source_locator": "Results p.3, Fig. 1g",
           "source_context": "cluster 4 macrophages express both Cx3cr1 and Trem2 and comprise the resident endoneurial macrophages",
           "candidate_class": "context_only"
         },
@@ -450,15 +506,15 @@
           "gene": "Trem2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 2)",
+          "source_locator": "Results p.3, Fig. 1g",
           "source_context": "cluster 4 macrophages express both Cx3cr1 and Trem2 and comprise the resident endoneurial macrophages",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "epineurial fibroblast",
-      "subtype": "Cluster 9",
+      "cell_type": "epineurial fibroblasts",
+      "subtype": null,
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
@@ -466,55 +522,47 @@
           "gene": "Pdgfra",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
-          "source_context": "Epineurial fibroblasts ... express Pdgfra and Pcolce",
+          "source_locator": "Results p.4, Fig. 1e-f",
+          "source_context": "Epineurial fibroblasts, which surround the outermost layer of the nerve, express Pdgfra and Pcolce",
           "candidate_class": "context_only"
         },
         {
           "gene": "Pcolce",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
-          "source_context": "Epineurial fibroblasts ... express Pdgfra and Pcolce",
-          "candidate_class": "context_only"
-        },
-        {
-          "gene": "Opcml",
-          "evidence_type": "cluster_enriched",
-          "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
-          "source_context": "Cluster 9 expressing Opcml",
+          "source_locator": "Results p.4, Fig. 1e-f",
+          "source_context": "Epineurial fibroblasts, which surround the outermost layer of the nerve, express Pdgfra and Pcolce",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "epineurial fibroblast",
-      "subtype": "Cluster 6",
+      "cell_type": "epineurial fibroblasts",
+      "subtype": "cluster 9",
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
         {
-          "gene": "Pdgfra",
+          "gene": "Opcml",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
-          "source_context": "Epineurial fibroblasts ... express Pdgfra and Pcolce",
+          "source_locator": "Results p.4, Fig. 1e-f",
+          "source_context": "were further divided into two populations, with Cluster 9 expressing Opcml",
           "candidate_class": "context_only"
-        },
-        {
-          "gene": "Pcolce",
-          "evidence_type": "cluster_enriched",
-          "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
-          "source_context": "Epineurial fibroblasts ... express Pdgfra and Pcolce",
-          "candidate_class": "context_only"
-        },
+        }
+      ]
+    },
+    {
+      "cell_type": "epineurial fibroblasts",
+      "subtype": "cluster 6 (Ccbe1+)",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
         {
           "gene": "Pi16",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Fig. 1e-f",
           "source_context": "Cluster 6 expressing Pi16 and Ccbe1",
           "candidate_class": "context_only"
         },
@@ -522,7 +570,7 @@
           "gene": "Ccbe1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Fig. 1e-f",
           "source_context": "Cluster 6 expressing Pi16 and Ccbe1",
           "candidate_class": "context_only"
         },
@@ -530,15 +578,15 @@
           "gene": "Adamts3",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Extended Fig. 1h",
           "source_context": "Ccbe1+ epineurial fibroblasts also expressed Adamts3",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "perineurial fibroblast",
-      "subtype": "Cluster 10",
+      "cell_type": "perineurial fibroblasts",
+      "subtype": null,
       "species": "mouse",
       "is_pns_cell": "false",
       "markers": [
@@ -546,7 +594,7 @@
           "gene": "Itgb4",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Fig. 1e-f",
           "source_context": "Perineurial fibroblasts (Cluster 10) ... were notable for their lack of Pdgfra expression and their expression of markers Itgb4 and Slc2a1",
           "candidate_class": "formal_candidate"
         },
@@ -554,7 +602,7 @@
           "gene": "Slc2a1",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Fig. 1e-f",
           "source_context": "Perineurial fibroblasts (Cluster 10) ... were notable for their lack of Pdgfra expression and their expression of markers Itgb4 and Slc2a1",
           "candidate_class": "formal_candidate"
         },
@@ -562,16 +610,16 @@
           "gene": "Pdgfra",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "negative",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Fig. 1e-f",
           "source_context": "Perineurial fibroblasts (Cluster 10) ... were notable for their lack of Pdgfra expression",
-          "model_evidence_type": "annotation_marker",
+          "model_evidence_type": "author_declared",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "endoneurial fibroblast",
+      "cell_type": "endoneurial fibroblasts (EFs)",
       "subtype": null,
       "species": "mouse",
       "is_pns_cell": "false",
@@ -580,31 +628,15 @@
           "gene": "Pdgfra",
           "evidence_type": "author_declared",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 4)",
-          "source_context": "found they express the fibroblast marker Pdgfra as well as the stem cell markers Cd34 and nmSC marker Ngfr",
-          "candidate_class": "formal_candidate"
-        },
-        {
-          "gene": "Cd34",
-          "evidence_type": "author_declared",
-          "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 4)",
-          "source_context": "found they express the fibroblast marker Pdgfra as well as the stem cell markers Cd34 and nmSC marker Ngfr",
-          "candidate_class": "formal_candidate"
-        },
-        {
-          "gene": "Ngfr",
-          "evidence_type": "author_declared",
-          "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 4)",
-          "source_context": "found they express the fibroblast marker Pdgfra as well as the stem cell markers Cd34 and nmSC marker Ngfr",
+          "source_locator": "Results p.4, Fig. 2c",
+          "source_context": "EFs express the fibroblast marker Pdgfra as well as the stem cell markers Cd34 and nmSC marker Ngfr",
           "candidate_class": "formal_candidate"
         },
         {
           "gene": "Cspg4",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Fig. 1e-f",
           "source_context": "Endoneurial fibroblasts ... express Pdgfra as well as Cspg4 (also known as NG2) and Enpp2",
           "candidate_class": "context_only"
         },
@@ -612,15 +644,49 @@
           "gene": "Enpp2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Results, 'snRNA-seq uncovers cell type diversity in sciatic nerve' (paragraph 3)",
+          "source_locator": "Results p.4, Fig. 1e-f",
           "source_context": "Endoneurial fibroblasts ... express Pdgfra as well as Cspg4 (also known as NG2) and Enpp2",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Cd34",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.4, Fig. 2c",
+          "source_context": "EFs express the fibroblast marker Pdgfra as well as the stem cell markers Cd34 and nmSC marker Ngfr",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Ngfr",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.4, Fig. 2c",
+          "source_context": "EFs express the fibroblast marker Pdgfra as well as the stem cell markers Cd34 and nmSC marker Ngfr",
           "candidate_class": "context_only"
         }
       ]
     },
     {
-      "cell_type": "non-myelinating Schwann cells (nmSCs)",
+      "cell_type": "motor neuron (ChAT+ axon)",
       "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "NA",
+      "markers": [
+        {
+          "gene": "ChAT",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.7, Fig. 6e-h",
+          "source_context": "we crossed choline acetyl transferase (ChAT)-Cre mice, which express Cre recombinase primarily in motor neurons, with ROSA-tdTomato reporter mice to produce reporter mice that express tdTomato in motor axons; Motor axons are generally ChAT+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "nmSCs (non-myelinating Schwann cells)",
+      "subtype": "two subtypes based on Marcks expression",
       "species": "mouse",
       "is_pns_cell": "true",
       "markers": [
@@ -628,7 +694,7 @@
           "gene": "Marcks",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "unknown",
-          "source_locator": "Discussion, first paragraph",
+          "source_locator": "Discussion p.9",
           "source_context": "The nmSCs could be separated into two subtypes based on Marcks expression.",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
@@ -637,7 +703,7 @@
       ]
     },
     {
-      "cell_type": "myelinating Schwann cells (mSCs)",
+      "cell_type": "mSC (myelinating Schwann cells)",
       "subtype": "Lmna+ group",
       "species": "mouse",
       "is_pns_cell": "true",
@@ -646,7 +712,7 @@
           "gene": "Lmna",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, first paragraph",
+          "source_locator": "Discussion p.9",
           "source_context": "The mSC population contained more subtypes, including a Lmna+ group that was associated with Tnf, and Tgfb signaling",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
@@ -655,7 +721,7 @@
       ]
     },
     {
-      "cell_type": "myelinating Schwann cells (mSCs)",
+      "cell_type": "mSC (myelinating Schwann cells)",
       "subtype": "Cldn14+ Adamtsl1+ Pmp2+ group",
       "species": "mouse",
       "is_pns_cell": "true",
@@ -664,8 +730,8 @@
           "gene": "Cldn14",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, first paragraph",
-          "source_context": "a Cldn14+ Adamtsl1+ Pmp2+ group associated with NAD and pyruvate metabolism",
+          "source_locator": "Discussion p.9",
+          "source_context": "The mSC population contained more subtypes, including ... a Cldn14+ Adamtsl1+ Pmp2+ group associated with NAD and pyruvate metabolism.",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -674,8 +740,8 @@
           "gene": "Adamtsl1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, first paragraph",
-          "source_context": "a Cldn14+ Adamtsl1+ Pmp2+ group associated with NAD and pyruvate metabolism",
+          "source_locator": "Discussion p.9",
+          "source_context": "The mSC population contained more subtypes, including ... a Cldn14+ Adamtsl1+ Pmp2+ group associated with NAD and pyruvate metabolism.",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -684,8 +750,8 @@
           "gene": "Pmp2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, first paragraph",
-          "source_context": "a Cldn14+ Adamtsl1+ Pmp2+ group associated with NAD and pyruvate metabolism",
+          "source_locator": "Discussion p.9",
+          "source_context": "The mSC population contained more subtypes, including ... a Cldn14+ Adamtsl1+ Pmp2+ group associated with NAD and pyruvate metabolism.",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -693,7 +759,7 @@
       ]
     },
     {
-      "cell_type": "motor-associated Schwann cells",
+      "cell_type": "motor-associated SCs",
       "subtype": null,
       "species": "mouse",
       "is_pns_cell": "true",
@@ -702,8 +768,8 @@
           "gene": "Pmp2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, PMP2 paragraph",
-          "source_context": "Along with Pmp2, RNA-FISH experiments showed that the motor-associated SCs co-express Cldn14, and Adamtsl1",
+          "source_locator": "Discussion p.9-10",
+          "source_context": "Along with Pmp2, RNA-FISH experiments showed that the motor-associated SCs co-express Cldn14 ... and Adamtsl1 ... ; maintenance of PMP2+ motor-SC identity is dependent on contact with motor axons.",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -712,8 +778,8 @@
           "gene": "Cldn14",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, PMP2 paragraph",
-          "source_context": "RNA-FISH experiments showed that the motor-associated SCs co-express Cldn14",
+          "source_locator": "Discussion p.9",
+          "source_context": "Along with Pmp2, RNA-FISH experiments showed that the motor-associated SCs co-express Cldn14, a component of tight junctions, and Adamtsl1...",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -722,8 +788,8 @@
           "gene": "Adamtsl1",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, PMP2 paragraph",
-          "source_context": "RNA-FISH experiments showed that the motor-associated SCs co-express ... Adamtsl1",
+          "source_locator": "Discussion p.9",
+          "source_context": "Along with Pmp2, RNA-FISH experiments showed that the motor-associated SCs co-express Cldn14 ... and Adamtsl1...",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -731,8 +797,8 @@
       ]
     },
     {
-      "cell_type": "motor-associated Schwann cells",
-      "subtype": null,
+      "cell_type": "Schwann cells (human sciatic nerve)",
+      "subtype": "PMP2+ population",
       "species": "human",
       "is_pns_cell": "true",
       "markers": [
@@ -740,7 +806,7 @@
           "gene": "PMP2",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, PMP2 paragraph",
+          "source_locator": "Discussion p.9",
           "source_context": "we found that PMP2 marks a SC population in human sciatic nerves with similar features to those in mouse.",
           "model_evidence_type": "author_declared",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
@@ -749,17 +815,17 @@
       ]
     },
     {
-      "cell_type": "ChAT+ axons",
+      "cell_type": "Cd45+ cells",
       "subtype": null,
       "species": "mouse",
-      "is_pns_cell": "true",
+      "is_pns_cell": "false",
       "markers": [
         {
-          "gene": "ChAT",
+          "gene": "CD45",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Discussion, paragraph on motor axon regeneration",
-          "source_context": "We noted that PMP2+ vs. PMP2- ChAT+ axons, particularly in the sciatic nerve, are clustered together",
+          "source_locator": "Materials & Methods, Immune cell isolation and generation of sciatic nerve single-cell immune cell atlas",
+          "source_context": "sorted twice into 5uL TCL buffer containing 5% PBS/BSA with RNase inhibitors using the CD45 antibody (Biolegend cat #103101, dilution 1:200). Cd45+ cells were loaded to one lane of the 10X Chip for preparation of one single-cell library.",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
@@ -767,7 +833,7 @@
       ]
     },
     {
-      "cell_type": "SCs",
+      "cell_type": "Mpz-expressing cells",
       "subtype": null,
       "species": "mouse",
       "is_pns_cell": "true",
@@ -776,26 +842,8 @@
           "gene": "Mpz",
           "evidence_type": "cluster_enriched",
           "marker_polarity": "positive",
-          "source_locator": "Methods: Sciatic and vagus Ribo-tag RNA extraction",
-          "source_context": "we generated Mpz-Cre:RiboTag mice that, upon the expression of Mpz, cells would express HA-tagged ribosomal protein RPL22",
-          "model_evidence_type": "annotation_marker",
-          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
-          "candidate_class": "context_only"
-        }
-      ]
-    },
-    {
-      "cell_type": "immune cells",
-      "subtype": "Cd45+",
-      "species": "mouse",
-      "is_pns_cell": "false",
-      "markers": [
-        {
-          "gene": "CD45",
-          "evidence_type": "cluster_enriched",
-          "marker_polarity": "positive",
-          "source_locator": "Methods: Immune cell isolation and generation of sciatic nerve single-cell immune cell atlas",
-          "source_context": "cells were sorted twice into 5uL TCL buffer containing 5% PBS/BSA with RNase inhibitors using the CD45 antibody ... Cd45+ cells were loaded to one lane",
+          "source_locator": "Materials & Methods, Sciatic and vagus Ribo-tag RNA extraction",
+          "source_context": "we generated Mpz-Cre:Ribo-Tag mice that, upon the expression of Mpz, cells would express HA-tagged ribosomal protein RPL22. The mRNA of Mpz-expressing cells from the nerve was then isolated by immunoprecipitation of polyribosomes with anti-HA and subjected to RNA-seq.",
           "model_evidence_type": "annotation_marker",
           "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
           "candidate_class": "context_only"
