@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+  "cell_types": [
+    {
+      "cell_type": "myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Fibrogenic shift driven by mesenchymal state transition' section, near Figure 3A (p.1153-1154)",
+          "source_context": "accompanied by upregulation of myofibroblast markers α-SMA (ACTA2) and TAGLN27 (Figure 3A).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TAGLN",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Fibrogenic shift driven by mesenchymal state transition' section, near Figure 3A (p.1153-1154)",
+          "source_context": "accompanied by upregulation of myofibroblast markers α-SMA (ACTA2) and TAGLN27 (Figure 3A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VE-Cadherin",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'IFN-γ-mediated signaling and inflammation in ACR' section (p.1155)",
+          "source_context": "IF analysis ... revealed decreased pSTAT1+ cells specifically within VE-Cadherin+ cells ... However, VE-cadherin expression was reduced in ACR ... consistent with IFN-γ-mediated endothelial injury.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "p-S6RP+ cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "p-S6RP",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 2D legend and Table 3 (p.1154)",
+          "source_context": "Percentage of cells positive for COL3A1 (TGF-β-induced collagen), p-S6RP (mTOR activation marker), and double-positive cells (COL3A1+/p-S6RP+).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "COL3A1+ cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL3A1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Table 3, Marker Comparison rows (p.1154)",
+          "source_context": "Table 3 lists COL3A1 as Marker in mixed-effects logistic regression comparing ACR or Resolved to Never for percentage of positive cells.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1016_j.healun.2026.02.1666",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1016_j.healun.2026.02.1666.md"
+}

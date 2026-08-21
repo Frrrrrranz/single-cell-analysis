@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s41467-024-52052-8",
+  "cell_types": [
+    {
+      "cell_type": "nociceptors",
+      "subtype": null,
+      "species": "unknown",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "peptidergic neurons",
+      "subtype": "PEPs",
+      "species": "unknown",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "non-peptidergic neurons",
+      "subtype": "NPs",
+      "species": "unknown",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "C-LowThreshold mechanoreceptor neurons",
+      "subtype": "C-LTMRs",
+      "species": "unknown",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "somatostatin positive neurons",
+      "subtype": "SST",
+      "species": "unknown",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "SST",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Article p.1, Introduction",
+          "source_context": "Those neurons are of different subtypes that are classified as peptidergic (PEPs), non-peptidergic (NPs), C-LowThreshold mechanoreceptor (C-LTMRs), and a subtype of somatostatin positive neurons (SST)4–6.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "senescent nociceptors",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NeuN",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results section 'Development and persistence of pain and senescence of pain-sensing neurons', Fig.3i",
+          "source_context": "We identified a senescent phenotype in a subset of nociceptors, which were characterized by high expression of the neuronal nuclei marker (NeuN) and their smaller size (Fig.3i).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "p21",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results section 'Development and persistence of pain and senescence of pain-sensing neurons', Supplementary Fig.5g,h",
+          "source_context": "the injury was accompanied by an increased nuclear expression of the senescence marker p21 starting from day 7 post-injury (Supplementary Fig. 5g, h).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "peripherin-positive neurons",
+      "subtype": "small diameter",
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "peripherin",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results section 'Targeting senescent cells treats chronic pain', Fig.5c,d",
+          "source_context": "the selective removal of at least 50% of SA-β-galactosidase positive cells, on average, among the small diameter, peripherin-positives neurons for all drugs (Fig.5c,d).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "neurons",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Peripherin",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.5 legend",
+          "source_context": "Images of DRG ... stained with Peripherin (top) ... Arrows indicate some double-positive neurons for peripherin and SA-β-Galactosidase as an example.",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NeuN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Fluorescent-activated nuclei sorting; Fig.3i legend",
+          "source_context": "To enable sorting of nuclei derived from neurons, nuclei suspension was incubated with anti-NeuN PE-conjugated antibody ... Single NeuN+ and DAPI+ nuclei were sorted; Staining images representing the co-staining of SA-β-Galactosidase and NeuN when merged.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s41467-024-52052-8",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s41467-024-52052-8.md"
+}

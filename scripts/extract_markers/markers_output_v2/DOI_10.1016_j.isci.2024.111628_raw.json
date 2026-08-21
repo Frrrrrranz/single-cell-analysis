@@ -1,0 +1,997 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1016_j.isci.2024.111628",
+  "cell_types": [
+    {
+      "cell_type": "basal urothelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Classification of the urothelial cells' section",
+          "source_context": "The differential gene expression analysis (DEA) showed that each cluster corresponded to one of the general urothelial layers: the basal urothelium (KRT5+/KRT13+/KRT17+/",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KRT13",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Classification of the urothelial cells' section",
+          "source_context": "The differential gene expression analysis (DEA) showed that each cluster corresponded to one of the general urothelial layers: the basal urothelium (KRT5+/KRT13+/KRT17+/",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KRT17",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Classification of the urothelial cells' section",
+          "source_context": "The differential gene expression analysis (DEA) showed that each cluster corresponded to one of the general urothelial layers: the basal urothelium (KRT5+/KRT13+/KRT17+/",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DCN",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, stromal compartment assignment section",
+          "source_context": "...and DCN for fibroblasts.15 As a result, we could assign all remaining clusters (2,3,5,6,9–11,13) to the stromal compartment.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Uroepithelial basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3, Fig. 1B feature plots",
+          "source_context": "For the urothelium, we previewed KRT5, a marker for uroepithelial basal cells, and UPK1A, a marker for umbrella cells.13,14",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Umbrella cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "UPK1A",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3, Fig. 1B feature plots",
+          "source_context": "For the urothelium, we previewed KRT5, a marker for uroepithelial basal cells, and UPK1A, a marker for umbrella cells.13,14",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "UPK3B",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of urothelial cells, Fig. 1C Dot Plot",
+          "source_context": "UPK3B+/KRT20+), and the intermediate or transitional urothelium (AKR1C2+/IL1RAPL2+/TP63+/GATA3+/CDHR5+) (Figure 1C, Dot Plot).13,16",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KRT20",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of urothelial cells, Fig. 1C Dot Plot",
+          "source_context": "UPK3B+/KRT20+), and the intermediate or transitional urothelium (AKR1C2+/IL1RAPL2+/TP63+/GATA3+/CDHR5+) (Figure 1C, Dot Plot).13,16",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Intermediate (transitional) urothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AKR1C2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of urothelial cells, Fig. 1C Dot Plot",
+          "source_context": "the intermediate or transitional urothelium (AKR1C2+/IL1RAPL2+/TP63+/GATA3+/CDHR5+) (Figure 1C, Dot Plot).13,16",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "IL1RAPL2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of urothelial cells, Fig. 1C Dot Plot",
+          "source_context": "the intermediate or transitional urothelium (AKR1C2+/IL1RAPL2+/TP63+/GATA3+/CDHR5+) (Figure 1C, Dot Plot).13,16",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TP63",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of urothelial cells, Fig. 1C Dot Plot",
+          "source_context": "the intermediate or transitional urothelium (AKR1C2+/IL1RAPL2+/TP63+/GATA3+/CDHR5+) (Figure 1C, Dot Plot).13,16",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "GATA3",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of urothelial cells, Fig. 1C Dot Plot",
+          "source_context": "the intermediate or transitional urothelium (AKR1C2+/IL1RAPL2+/TP63+/GATA3+/CDHR5+) (Figure 1C, Dot Plot).13,16",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CDHR5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of urothelial cells, Fig. 1C Dot Plot",
+          "source_context": "the intermediate or transitional urothelium (AKR1C2+/IL1RAPL2+/TP63+/GATA3+/CDHR5+) (Figure 1C, Dot Plot).13,16",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Urothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "UPK2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of single-cell and single-nucleus expression profiles in the urothelium, Fig. 2A Heatmaps",
+          "source_context": "the top markers based on single-cell data included canonical urothelial markers (e.g., UPK2, UPK3B, KRT20, and CEACAM1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "UPK3B",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of single-cell and single-nucleus expression profiles in the urothelium, Fig. 2A Heatmaps",
+          "source_context": "the top markers based on single-cell data included canonical urothelial markers (e.g., UPK2, UPK3B, KRT20, and CEACAM1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "KRT20",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of single-cell and single-nucleus expression profiles in the urothelium, Fig. 2A Heatmaps",
+          "source_context": "the top markers based on single-cell data included canonical urothelial markers (e.g., UPK2, UPK3B, KRT20, and CEACAM1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CEACAM1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of single-cell and single-nucleus expression profiles in the urothelium, Fig. 2A Heatmaps",
+          "source_context": "the top markers based on single-cell data included canonical urothelial markers (e.g., UPK2, UPK3B, KRT20, and CEACAM1)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Immune cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PTPRC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3, Fig. 1B feature plots",
+          "source_context": "For the immune compartment, we plotted PTPRC, the leukocyte common antigen, and IL7R, a marker of lymphoid and developing immune cells,14,15",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "IL7R",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3, Fig. 1B feature plots",
+          "source_context": "For the immune compartment, we plotted PTPRC, the leukocyte common antigen, and IL7R, a marker of lymphoid and developing immune cells,14,15",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "B Cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD79A",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "we identified one cluster each of B Cells (CD79A+/CD79B+/MS4A1+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD79B",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "we identified one cluster each of B Cells (CD79A+/CD79B+/MS4A1+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MS4A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "we identified one cluster each of B Cells (CD79A+/CD79B+/MS4A1+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Plasma cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "JCHAIN",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "plasma cells (JCHAIN+/SLAMF7+/CD27+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SLAMF7",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "plasma cells (JCHAIN+/SLAMF7+/CD27+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD27",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "plasma cells (JCHAIN+/SLAMF7+/CD27+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1QA",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "macrophage (C1QA+/C1QB+/C1QC+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "C1QB",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "macrophage (C1QA+/C1QB+/C1QC+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "C1QC",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "macrophage (C1QA+/C1QB+/C1QC+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "LYVE1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of immune cells, Fig. 2B Heatmaps",
+          "source_context": "For single-nucleus top DEGs, notable markers included LYVE1 and RNASE1 for macrophage, TLR2 for monocytes, and IL7R for T cells.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "RNASE1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of immune cells, Fig. 2B Heatmaps",
+          "source_context": "For single-nucleus top DEGs, notable markers included LYVE1 and RNASE1 for macrophage, TLR2 for monocytes, and IL7R for T cells.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Dendritic cells (DC)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CLEC10A",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "dendritic cells (DC) (CLEC10A+/CIITA+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CIITA",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "dendritic cells (DC) (CLEC10A+/CIITA+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Monocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A8",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "monocytes (S100A8+/S100A9+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "S100A9",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "monocytes (S100A8+/S100A9+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TLR2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of immune cells, Fig. 2B Heatmaps",
+          "source_context": "For single-nucleus top DEGs, notable markers included LYVE1 and RNASE1 for macrophage, TLR2 for monocytes, and IL7R for T cells.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neutrophils",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GK",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "neutrophils (GK+/AQP9+/TREM1+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "AQP9",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "neutrophils (GK+/AQP9+/TREM1+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TREM1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "neutrophils (GK+/AQP9+/TREM1+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Il7R",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "T cells (Il7R+/CD8A+/CD8B+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD8A",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "T cells (Il7R+/CD8A+/CD8B+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD8B",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "T cells (Il7R+/CD8A+/CD8B+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "IL7R",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of immune cells, Fig. 2B Heatmaps",
+          "source_context": "For single-nucleus top DEGs, notable markers included LYVE1 and RNASE1 for macrophage, TLR2 for monocytes, and IL7R for T cells.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD3D",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of immune cells, Fig. 2B Heatmaps",
+          "source_context": "canonical markers were prominent in single-cell top DEGs for T cells (IL7R, CD3D, CD3E, CD69)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD3E",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of immune cells, Fig. 2B Heatmaps",
+          "source_context": "canonical markers were prominent in single-cell top DEGs for T cells (IL7R, CD3D, CD3E, CD69)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD69",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of immune cells, Fig. 2B Heatmaps",
+          "source_context": "canonical markers were prominent in single-cell top DEGs for T cells (IL7R, CD3D, CD3E, CD69)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Natural killer (NK) cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KLRD1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "natural killer (NK) cells (KLRD1+/CD247+/GZMB+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD247",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "natural killer (NK) cells (KLRD1+/CD247+/GZMB+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "GZMB",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "natural killer (NK) cells (KLRD1+/CD247+/GZMB+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Mast cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KIT",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "mast cells (KIT+/TPSAB1+/TPSB2+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TPSAB1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "mast cells (KIT+/TPSAB1+/TPSB2+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TPSB2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of immune cells, Fig. 1D Dot Plot",
+          "source_context": "mast cells (KIT+/TPSAB1+/TPSB2+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "several distinct fibroblast clusters (PDGFRA+/DCN+/COL1A1+) were observed",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "DCN",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "several distinct fibroblast clusters (PDGFRA+/DCN+/COL1A1+) were observed",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "COL1A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "several distinct fibroblast clusters (PDGFRA+/DCN+/COL1A1+) were observed",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYLK",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "we identified five clusters which we refer to as myofibroblast (MYLK+/MYH11+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MYH11",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "we identified five clusters which we refer to as myofibroblast (MYLK+/MYH11+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Peri-urothelial fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LAMC3",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "peri-urothelial fibroblast (LAMC3+/PTCH1+/APOE+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PTCH1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "peri-urothelial fibroblast (LAMC3+/PTCH1+/APOE+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "APOE",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "peri-urothelial fibroblast (LAMC3+/PTCH1+/APOE+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lamina propria fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GAS1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "lamina propria fibroblast (GAS1+/PCOLCE2+/PI16+/MFAP5+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PCOLCE2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "lamina propria fibroblast (GAS1+/PCOLCE2+/PI16+/MFAP5+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PI16",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "lamina propria fibroblast (GAS1+/PCOLCE2+/PI16+/MFAP5+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MFAP5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "lamina propria fibroblast (GAS1+/PCOLCE2+/PI16+/MFAP5+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Intra-muscular fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C7",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "intra-muscular fibroblast (C7+/PCOLCE2-)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PCOLCE2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "intra-muscular fibroblast (C7+/PCOLCE2-)",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "CXCL14hi fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GPC3",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "CXCL14hi fibroblast (GPC3+/NFGR+/CXCL14+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NFGR",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "CXCL14hi fibroblast (GPC3+/NFGR+/CXCL14+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CXCL14",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "CXCL14hi fibroblast (GPC3+/NFGR+/CXCL14+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "General endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PECAM1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "The endothelial cell population comprised a more general endothelial cluster (PECAM1+/GJA5-/SELP-/LYVE1-)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "GJA5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "The endothelial cell population comprised a more general endothelial cluster (PECAM1+/GJA5-/SELP-/LYVE1-)",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SELP",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "The endothelial cell population comprised a more general endothelial cluster (PECAM1+/GJA5-/SELP-/LYVE1-)",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "LYVE1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "The endothelial cell population comprised a more general endothelial cluster (PECAM1+/GJA5-/SELP-/LYVE1-)",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Venous endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SELP",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "a venous cluster (SELP+/NRP1+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NRP1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "a venous cluster (SELP+/NRP1+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Arterial endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GJA5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "an arterial cluster (GJA5+/BMX+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "BMX",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "an arterial cluster (GJA5+/BMX+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Lymphatic endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LYVE1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "a lymphatic cluster (LYVE1+/TFF3+/CD36+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TFF3",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "a lymphatic cluster (LYVE1+/TFF3+/CD36+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD36",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "a lymphatic cluster (LYVE1+/TFF3+/CD36+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Smooth muscle cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYLK",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.3, Fig. 1B feature plots",
+          "source_context": "we plotted MYLK for smooth muscle cells",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "general smooth muscle cells (ACTA2+/ACTG2+/DES+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "ACTG2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "general smooth muscle cells (ACTA2+/ACTG2+/DES+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "DES",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "general smooth muscle cells (ACTA2+/ACTG2+/DES+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MYH11",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of single-cell and single-nucleus expression profiles in stromal cells, Fig. 3/Table S4",
+          "source_context": "canonical markers such as ACTA2, ACTG2, or MYH11 were absent in top single-nucleus DEGs but present in single-cell top DEGs",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Vascular smooth muscle cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "RGS5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "vascular smooth muscle cells (RGS5+/NOTCH3+/MCAM+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NOTCH3",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "vascular smooth muscle cells (RGS5+/NOTCH3+/MCAM+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MCAM",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "vascular smooth muscle cells (RGS5+/NOTCH3+/MCAM+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "RGS",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of single-cell and single-nucleus expression profiles in stromal cells, Table S4",
+          "source_context": "canonical markers such as PDGFRA and RGS, respectively, were absent in top single-nucleus DEGs but present in single-cell top DEGs (Table S4)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "VSMC2 resembling pericytes",
+      "subtype": "VSMC2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CSPG4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Assessment of single-cell and single-nucleus expression profiles in stromal cells, Figs. S2A/S2B",
+          "source_context": "an additional VSMC resembling pericytes (VSMC2; positive for CSPG4)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "CDH19",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NRXN",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "XKR4",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+          "source_context": "we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1016_j.isci.2024.111628",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1016_j.isci.2024.111628.md"
+}

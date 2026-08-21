@@ -1,0 +1,497 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1101_2025.01.17.633590",
+  "cell_types": [
+    {
+      "cell_type": "β cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "INS",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, line 96",
+          "source_context": "In addition to classic hormone-encoding marker genes such as INS, GCG, SST, PPY, and GHRL, we identified 270 α-, 272 β-, 173 δ-, 130 γ-, and 194 ε-cell signature genes...",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "α cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GCG",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, line 96",
+          "source_context": "In addition to classic hormone-encoding marker genes such as INS, GCG, SST, PPY, and GHRL...",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "δ cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SST",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, line 96",
+          "source_context": "In addition to classic hormone-encoding marker genes such as INS, GCG, SST, PPY, and GHRL...",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "γ cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PPY",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, line 96",
+          "source_context": "In addition to classic hormone-encoding marker genes such as INS, GCG, SST, PPY, and GHRL...",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "ε cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GHRL",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, line 96",
+          "source_context": "In addition to classic hormone-encoding marker genes such as INS, GCG, SST, PPY, and GHRL...",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "exocrine cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "REG1A",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, lines 626-629",
+          "source_context": "the most prominent of which included famous endocrine and exocrine markers such as Insulin (INS), Glucagon (GCG), Somatostatin (SST), Pancreatic Polypeptide (PPY), Regenerating Family Member 1 Alpha (REG1A), Serine Protease 2 (PRSS2)...",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PRSS2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, lines 626-629",
+          "source_context": "the most prominent of which included famous endocrine and exocrine markers such as Insulin (INS), Glucagon (GCG), Somatostatin (SST), Pancreatic Polypeptide (PPY), Regenerating Family Member 1 Alpha (REG1A), Serine Protease 2 (PRSS2)...",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "β cells",
+      "subtype": "putative high functional β-cell subpopulation (cluster 1)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ABCC8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 391-394",
+          "source_context": "we detected a putative β-cell subpopulation with high functional capacity and/or output exhibiting elevated expression of genes enriched in the ‘insulin secretion’ pathway ... – ABCC8, G6PC2, PDX1, SLC30A8, RBP4 (cluster 1).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "G6PC2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 391-394",
+          "source_context": "we detected a putative β-cell subpopulation with high functional capacity and/or output exhibiting elevated expression of genes enriched in the ‘insulin secretion’ pathway ... – ABCC8, G6PC2, PDX1, SLC30A8, RBP4 (cluster 1).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDX1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 391-394",
+          "source_context": "we detected a putative β-cell subpopulation with high functional capacity and/or output exhibiting elevated expression of genes enriched in the ‘insulin secretion’ pathway ... – ABCC8, G6PC2, PDX1, SLC30A8, RBP4 (cluster 1).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SLC30A8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 391-394",
+          "source_context": "we detected a putative β-cell subpopulation with high functional capacity and/or output exhibiting elevated expression of genes enriched in the ‘insulin secretion’ pathway ... – ABCC8, G6PC2, PDX1, SLC30A8, RBP4 (cluster 1).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RBP4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 391-394",
+          "source_context": "we detected a putative β-cell subpopulation with high functional capacity and/or output exhibiting elevated expression of genes enriched in the ‘insulin secretion’ pathway ... – ABCC8, G6PC2, PDX1, SLC30A8, RBP4 (cluster 1).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β cells",
+      "subtype": "putative β-cell subpopulation cluster 4 (proliferative/mature cells)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CFAP126",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 394-397",
+          "source_context": "heat shock proteins (cluster 4, proliferative vs. mature cells with elevated CFAP126 (Fltp in mice) expression77)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β cells",
+      "subtype": "putative β-cell subpopulation cluster 5 (CD63hi cells)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD63",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 396-397",
+          "source_context": "regulation of signaling receptor activity (cluster 5, CD63hi cells with enhanced glucose-stimulated insulin secretion78)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β cells",
+      "subtype": "putative β-cell subpopulation cluster 7 (cellular senescence)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CDKN2A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 397-398",
+          "source_context": "cellular senescence (e.g., CDKN2A, CDKN2B, PLK2, B2M expression, cluster 7)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CDKN2B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 397-398",
+          "source_context": "cellular senescence (e.g., CDKN2A, CDKN2B, PLK2, B2M expression, cluster 7)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PLK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 397-398",
+          "source_context": "cellular senescence (e.g., CDKN2A, CDKN2B, PLK2, B2M expression, cluster 7)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "B2M",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 397-398",
+          "source_context": "cellular senescence (e.g., CDKN2A, CDKN2B, PLK2, B2M expression, cluster 7)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β cells",
+      "subtype": "ER-stressed β-cell subpopulation",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DDIT3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 388-390",
+          "source_context": "ER stressed β-cells with elevated DDIT3, HSPA5, HERPUD1, and TRIB3 expression have been previously documented (Supplementary Figure 10d)74,75,76.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HSPA5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 388-390",
+          "source_context": "ER stressed β-cells with elevated DDIT3, HSPA5, HERPUD1, and TRIB3 expression have been previously documented (Supplementary Figure 10d)74,75,76.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HERPUD1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 388-390",
+          "source_context": "ER stressed β-cells with elevated DDIT3, HSPA5, HERPUD1, and TRIB3 expression have been previously documented (Supplementary Figure 10d)74,75,76.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TRIB3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, lines 388-390",
+          "source_context": "ER stressed β-cells with elevated DDIT3, HSPA5, HERPUD1, and TRIB3 expression have been previously documented (Supplementary Figure 10d)74,75,76.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "beta",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "INS",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "alpha",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GCG",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "delta",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SST",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "gamma",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PPY",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "epsilon",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GHRL",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "ductal",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT19",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "acinar",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "REG1B",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "stellate",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "COL1A1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "activated stellate",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FABP4",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PLVAP",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "NGFR",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "immune",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1QC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "mast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TPSB2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "proliferating cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TOP2A",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+          "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1101_2025.01.17.633590",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1101_2025.01.17.633590.md"
+}

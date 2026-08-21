@@ -1,0 +1,730 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+  "cell_types": [
+    {
+      "cell_type": "basal epithelia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "cytokeratin5",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Summary/Introduction (p.3530)",
+          "source_context": "Basal epithelia express cytokeratin 5 and the transcription factor p63.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "p63",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Summary/Introduction (p.3530)",
+          "source_context": "Basal epithelia express cytokeratin 5 and the transcription factor p63.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "DKK1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "DKK1, characterize CD271+ basal epithelia.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD271",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "Several other options exist for identifying basal epithelia, including Podoplanin, CD104, and CD271",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD104",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "Several other options exist for identifying basal epithelia, including Podoplanin, CD104, and CD271",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Single-Cell Sequencing Data Improves FACS of Human Prostate Cell Types, p.3534",
+          "source_context": "PDPN was used to mark BE, which we previously showed largely overlaps with CD271",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 3E legend, p.3535",
+          "source_context": "Immunofluorescent labeling of smooth muscle (MYH11), fibroblasts (DCN), and basal epithelia (KRT5).",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Epithelial Cell Subtypes, p.3537",
+          "source_context": "DEGs of each cluster confirm four epithelial cell types (luminal KLK3+, basal KRT14+, OE1 SCGB1A1+, and OE2 KRT13+)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD49f",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "Some groups employ a pan-epithelial marker (CD326, CD324, or TROP2) with a positive basal marker like CD49f",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "luminal epithelia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "cytokeratin8",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Summary/Introduction (p.3530)",
+          "source_context": "Luminal epithelia express cytokeratin 8 and androgen-regulated secretory proteins such as KLK3.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD26",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "The CD26+ luminal epithelia are marked by familiar DEGs such as KLK3, ACPP, MSMB, as well as lesser-known genes, including GP2, NEFH, and NPY.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KLK3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "The CD26+ luminal epithelia are marked by familiar DEGs such as KLK3, ACPP, MSMB, as well as lesser-known genes, including GP2, NEFH, and NPY.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACPP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "The CD26+ luminal epithelia are marked by familiar DEGs such as KLK3, ACPP, MSMB, as well as lesser-known genes, including GP2, NEFH, and NPY.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MSMB",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "The CD26+ luminal epithelia are marked by familiar DEGs such as KLK3, ACPP, MSMB, as well as lesser-known genes, including GP2, NEFH, and NPY.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "GP2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "The CD26+ luminal epithelia are marked by familiar DEGs such as KLK3, ACPP, MSMB, as well as lesser-known genes, including GP2, NEFH, and NPY.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NEFH",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "The CD26+ luminal epithelia are marked by familiar DEGs such as KLK3, ACPP, MSMB, as well as lesser-known genes, including GP2, NEFH, and NPY.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NPY",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "The CD26+ luminal epithelia are marked by familiar DEGs such as KLK3, ACPP, MSMB, as well as lesser-known genes, including GP2, NEFH, and NPY.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "DHRS7",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Epithelial Cell Subtypes, p.3537",
+          "source_context": "DHRS7 was an undiscovered gene detected in KLK3+ LE and marks a portion of KRT18+ LE.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PSCA",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Single-Cell Sequencing Data Improves FACS of Human Prostate Cell Types, p.3534",
+          "source_context": "PSCA was identified as a potential cell surface marker of both OE cell types (as well as a subpopulation of LE)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "neuroendocrine (NE)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Club epithelia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "Hillock epithelia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "NE epithelia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "chromogranin A",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, first paragraph (near beginning)",
+          "source_context": "NE epithelia express markers such as chromogranin A",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Luminal epithelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD26",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, later paragraph (description of FACS strategy)",
+          "source_context": "Luminal (CD26+) and basal (CD271+) epithelial transcriptomes from our study were highly concordant with those from other studies",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Basal epithelial",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD271",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, later paragraph (description of FACS strategy)",
+          "source_context": "Luminal (CD26+) and basal (CD271+) epithelial transcriptomes from our study were highly concordant with those from other studies",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Stromal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD326",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "negative",
+          "source_locator": "Introduction, later paragraph (description of stromal gate)",
+          "source_context": "The stromal gate includes all cells negative for CD326 (pan-epithelia), CD45 (pan-leukocyte), and CD31 (endothelia).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD45",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "negative",
+          "source_locator": "Introduction, later paragraph (description of stromal gate)",
+          "source_context": "The stromal gate includes all cells negative for CD326 (pan-epithelia), CD45 (pan-leukocyte), and CD31 (endothelia).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD31",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "negative",
+          "source_locator": "Introduction, later paragraph (description of stromal gate)",
+          "source_context": "The stromal gate includes all cells negative for CD326 (pan-epithelia), CD45 (pan-leukocyte), and CD31 (endothelia).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Epithelial cells",
+      "subtype": "pan-epithelia",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD326",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, later paragraph (description of stromal gate)",
+          "source_context": "CD326 (pan-epithelia)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Leukocytes",
+      "subtype": "pan-leukocyte",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD45",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, later paragraph (description of stromal gate)",
+          "source_context": "CD45 (pan-leukocyte)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD31",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, later paragraph (description of stromal gate)",
+          "source_context": "CD31 (endothelia)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "club epithelia (OE1)",
+      "subtype": "OE1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Epithelial Cell Subtypes, p.3537",
+          "source_context": "DEGs of each cluster confirm four epithelial cell types (luminal KLK3+, basal KRT14+, OE1 SCGB1A1+, and OE2 KRT13+)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PSCA",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Single-Cell Sequencing Data Improves FACS of Human Prostate Cell Types, p.3534",
+          "source_context": "PSCA was identified as a potential cell surface marker of both OE cell types (as well as a subpopulation of LE)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "hillock epithelia (OE2)",
+      "subtype": "OE2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT13",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Epithelial Cell Subtypes, p.3537",
+          "source_context": "DEGs of each cluster confirm four epithelial cell types (luminal KLK3+, basal KRT14+, OE1 SCGB1A1+, and OE2 KRT13+)",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PSCA",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Single-Cell Sequencing Data Improves FACS of Human Prostate Cell Types, p.3534",
+          "source_context": "PSCA was identified as a potential cell surface marker of both OE cell types (as well as a subpopulation of LE)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "AKR1C1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Anatomical Location of Epithelial and Stromal Cell Types..., p.3538",
+          "source_context": "The top genes associated with the KRT13+ cell type are members of the androgen metabolism pathway (AKR1C1 and AKR1C2)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "AKR1C2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Anatomical Location of Epithelial and Stromal Cell Types..., p.3538",
+          "source_context": "The top genes associated with the KRT13+ cell type are members of the androgen metabolism pathway (AKR1C1 and AKR1C2)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "neuroendocrine cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CHGA",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "classic neuroendocrine lineage markers such as CHGA and CHGB",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CHGB",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Bulk Sequencing of the Human Prostate Cells Sorted by FACS, p.3531",
+          "source_context": "classic neuroendocrine lineage markers such as CHGA and CHGB",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCG2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Single-Cell Sequencing of the Normal Human Prostate..., p.3532",
+          "source_context": "A marker gene for NE cells that was discovered in our dataset (SCG2) was tested in combination with a known NE cell marker (CHGA) and confirmed in situ.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelia",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD31",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Single-Cell Sequencing Data Improves FACS of Human Prostate Cell Types, p.3534",
+          "source_context": "CD31 is an inefficient endothelial marker in human prostate",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD200",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Single-Cell Sequencing Data Improves FACS of Human Prostate Cell Types, p.3534",
+          "source_context": "CD200 labels 93% of endothelia that CD31 labels.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DCN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 3E legend, p.3535",
+          "source_context": "Immunofluorescent labeling of smooth muscle (MYH11), fibroblasts (DCN), and basal epithelia (KRT5).",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FGF2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative fibroblast cell type expressed high levels of paracrine signaling factors such as growth factors (FGF2 and FGF7), prostaglandins (PTGDS and PTGS2), and WNT pathway regulators (RSPO3 and SFRP2).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FGF7",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative fibroblast cell type expressed high levels of paracrine signaling factors such as growth factors (FGF2 and FGF7), prostaglandins (PTGDS and PTGS2), and WNT pathway regulators (RSPO3 and SFRP2).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PTGDS",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative fibroblast cell type expressed high levels of paracrine signaling factors such as growth factors (FGF2 and FGF7), prostaglandins (PTGDS and PTGS2), and WNT pathway regulators (RSPO3 and SFRP2).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PTGS2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative fibroblast cell type expressed high levels of paracrine signaling factors such as growth factors (FGF2 and FGF7), prostaglandins (PTGDS and PTGS2), and WNT pathway regulators (RSPO3 and SFRP2).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RSPO3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative fibroblast cell type expressed high levels of paracrine signaling factors such as growth factors (FGF2 and FGF7), prostaglandins (PTGDS and PTGS2), and WNT pathway regulators (RSPO3 and SFRP2).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFRP2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative fibroblast cell type expressed high levels of paracrine signaling factors such as growth factors (FGF2 and FGF7), prostaglandins (PTGDS and PTGS2), and WNT pathway regulators (RSPO3 and SFRP2).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3540",
+          "source_context": "scRNA-seq also revealed PDPN as a positive marker of fibroblasts, which was used again on optimized FACS gates to confirm 91% purity of PDPN+ fibroblasts and 93% purity of PDPN- smooth muscle.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Gli1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3540",
+          "source_context": "including a population of interstitial fibroblasts marked by Gli1 (Peng et al., 2013).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "smooth muscle",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MYH11",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 3E legend, p.3535",
+          "source_context": "Immunofluorescent labeling of smooth muscle (MYH11), fibroblasts (DCN), and basal epithelia (KRT5).",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative smooth muscle cluster expressed high levels of actin (ACTA2) and myosin (MYH11, MYL9, and TPM2) genes",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MYL9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative smooth muscle cluster expressed high levels of actin (ACTA2) and myosin (MYH11, MYL9, and TPM2) genes",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPM2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: Identification and Isolation of Prostate Stromal Cell Subtypes, p.3535",
+          "source_context": "The putative smooth muscle cluster expressed high levels of actin (ACTA2) and myosin (MYH11, MYL9, and TPM2) genes",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "unknown",
+          "source_locator": "Discussion, p.3540",
+          "source_context": "scRNA-seq also revealed PDPN as a positive marker of fibroblasts, which was used again on optimized FACS gates to confirm 91% purity of PDPN+ fibroblasts and 93% purity of PDPN- smooth muscle.",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal epithelial (BE)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD271",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3539-3540",
+          "source_context": "The gating of BE with either CD271 or PDPN produces >91% purity.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3539-3540",
+          "source_context": "The gating of BE with either CD271 or PDPN produces >91% purity.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "luminal epithelial (LE)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD26",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3539-3540",
+          "source_context": "The initial gating of LE with CD26 yielded a surprisingly low purity at 57%, largely because of contamination with SCGB1A1+ club cells.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "club cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3539-3540",
+          "source_context": "The initial gating of LE with CD26 yielded a surprisingly low purity at 57%, largely because of contamination with SCGB1A1+ club cells.",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PSCA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3539",
+          "source_context": "Prostate club and hillock cells express high levels of PSCA (Figure2).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "hillock cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PSCA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3539",
+          "source_context": "Prostate club and hillock cells express high levels of PSCA (Figure2).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "stromal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD200",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.3540",
+          "source_context": "Our first scRNA-seq experiment confirmed a 29% endothelial cell contamination of the stroma and revealed CD200 as a potentially superior marker. The replacement of CD31 with CD200 improved the purity of the stromal gate from 69% to 93% (Figure 2).",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1016_j.celrep.2018.11.086",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1016_j.celrep.2018.11.086.md"
+}

@@ -1,0 +1,453 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1002_pros.24020",
+  "cell_types": [
+    {
+      "cell_type": "basal epithelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.2A legend",
+          "source_context": "KRT5 (in green, labels basal cells)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Tp63",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.1",
+          "source_context": "mouse basal cell cluster ... enriched for Krt5 and Tp63 transcripts",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.3 / Methods 2.4",
+          "source_context": "epithelia are gated into prostate secretory luminal (CD26+), basal (PDPN+), and nonbasal/nonprostate luminal (PDPN-/CD26-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD49f",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "Antibodies to CD49f and Sca-1 are commonly used to isolate prostate basal (CD49fhi/Sca-1hi)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Sca-1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "Antibodies to CD49f and Sca-1 are commonly used to isolate prostate basal (CD49fhi/Sca-1hi)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.2B legend",
+          "source_context": "KRT5 (in green, labels basal cells)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "prostate secretory luminal cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Nkx3.1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.2A legend",
+          "source_context": "NKX3.1 (in red, labels prostate secretory luminal cells)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Dpp4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.3 / Methods 2.4",
+          "source_context": "prostate secretory luminal (CD26+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD24",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.3",
+          "source_context": "cell surface marker CD24 (Cd24a) labels prostate luminal cells, but also luminal cells of the ejaculatory ducts and urethra",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CD49f",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "Antibodies to CD49f and Sca-1 are commonly used to isolate prostate luminal (CD49flo/Sca-1lo) epithelia",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Sca-1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "Antibodies to CD49f and Sca-1 are commonly used to isolate prostate luminal (CD49flo/Sca-1lo) epithelia",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "prostate secretory luminal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACPP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.2B legend",
+          "source_context": "ACPP (in red, labels prostate secretory luminal cells)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "urethral luminal cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Abstract",
+          "source_context": "previously identified facultative progenitors marked by Trop2, Sca-1, KRT4, and PSCA are actually luminal epithelial cells of the urethra",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Trop2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Abstract",
+          "source_context": "previously identified facultative progenitors marked by Trop2, Sca-1, KRT4, and PSCA are actually luminal epithelial cells of the urethra",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Sca-1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Abstract",
+          "source_context": "previously identified facultative progenitors marked by Trop2, Sca-1, KRT4, and PSCA are actually luminal epithelial cells of the urethra",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PSCA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Abstract",
+          "source_context": "previously identified facultative progenitors marked by Trop2, Sca-1, KRT4, and PSCA are actually luminal epithelial cells of the urethra",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "LY6D",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "According to previous studies, prostate epithelia ... display markers such as Sca-1 (LY6A), Trop2 (TACSTD2), LY6D, and KRT4",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Krt19",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "Krt19 expression ... is highly enriched in urethral luminal epithelia",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "human urethral luminal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PSCA",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.5",
+          "source_context": "We previously established PSCA as a highly specific cell surface marker capable of capturing a 94% pure population of urethral luminal cells in humans.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "club urethral luminal cells",
+      "subtype": "club",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.4",
+          "source_context": "club and hillock urethral luminal cells marked by SCGB1A1 and KRT13, respectively",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "hillock urethral luminal cells",
+      "subtype": "hillock",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT13",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.4",
+          "source_context": "club and hillock urethral luminal cells marked by SCGB1A1 and KRT13, respectively",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "neuroendocrine cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CGRP",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.1",
+          "source_context": "neuroendocrine epithelia ... can be identified using known markers such as CGRP and CHGA",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CHGA",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.1",
+          "source_context": "neuroendocrine epithelia ... can be identified using known markers such as CGRP and CHGA",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "seminal vesicle and ejaculatory duct luminal cells",
+      "subtype": "SV/ED",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Svs2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.1",
+          "source_context": "Given the enrichment of the seminal vesicle-specific gene Svs2, we labeled one of the urethral clusters as seminal vesicle and ejaculatory duct luminal cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Prom1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "proposed progenitor cell markers such as CD133 (Prom1) are enriched in luminal cells of the seminal vesicle and ejaculatory ducts",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "luminal epithelial cells",
+      "subtype": "dorsolateral prostate (DLP)",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Msmb",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.1",
+          "source_context": "lobe-specific gene expression of Msmb (dorsolateral, DLP)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "luminal epithelial cells",
+      "subtype": "anterior prostate (AP)",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Tgm4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.1",
+          "source_context": "lobe-specific gene expression of Tgm4 (anterior, AP)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "luminal epithelial cells",
+      "subtype": "ventral prostate (VP)",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sbp",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.1",
+          "source_context": "lobe-specific gene expression of Sbp (ventral, VP)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "intermediate cells",
+      "subtype": "basal-to-luminal transitioning",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "KRT5+/KRT8+ intermediate cells transitioning from basal to luminal",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT8",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.2",
+          "source_context": "KRT5+/KRT8+ intermediate cells transitioning from basal to luminal",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "leukocytes",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD45",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.3 / Methods 2.4",
+          "source_context": "scheme first separates leukocytes (CD45+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "epithelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD326",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results 3.3 / Methods 2.4",
+          "source_context": "epithelia (CD326+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "stromal cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD45",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results 3.3 / Methods 2.4",
+          "source_context": "stroma (CD45-/CD326-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD326",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results 3.3 / Methods 2.4",
+          "source_context": "stroma (CD45-/CD326-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1002_pros.24020",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1002_pros.24020.md"
+}

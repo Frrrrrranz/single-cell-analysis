@@ -1,0 +1,651 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+  "cell_types": [
+    {
+      "cell_type": "terminal airway-enriched secretory cells (TASCs)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Abstract (p.1171)",
+          "source_context": "includingSCGB3A21SFTPB1terminalairway-enrichedsecretorycells(TASCs)uniquetodistalairways",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPB",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Abstract (p.1171)",
+          "source_context": "includingSCGB3A21SFTPB1terminalairway-enrichedsecretorycells(TASCs)uniquetodistalairways",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "CD8+ T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD8",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Abstract (p.1171)",
+          "source_context": "increasedfrequencyofCD81Tcellsnormallyenrichedinproximalairways",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "endothelial capillary cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "IC",
+      "subtype": "intermediate cell",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SERPINB3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "ASE family included BCs, intermediate cells (ICs; SERPINB3high)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT6A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'IFN-γ Inhibits TASC Regeneration by Distal Airway BCs'",
+          "source_context": "increased proportion of KRT6+ ICs in IFN-γ-treated ALI epithelia",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "BC",
+      "subtype": "basal cell",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'IFN-γ Inhibits TASC Regeneration by Distal Airway BCs'",
+          "source_context": "without consistent changes in KRT5+ BCs/ICs",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "S1",
+      "subtype": "common secretory",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Regional Heterogeneity of Epithelial Cells'",
+          "source_context": "SCGB1A1 protein, a marker of common S cells",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Altered Cellular Composition of Distal Airways in COPD'",
+          "source_context": "common S cell genes SCGB1A1 and SCGB3A1 also expressed by TASCs",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "S-Muc",
+      "subtype": "mucus-producing secretory",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Distal Airway BCs Are a Cellular Origin of TASCs'",
+          "source_context": "Muc5AC+ S cells were more frequent in P airway BC-derived epithelia",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "C",
+      "subtype": "ciliated",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TUBB4",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure 2E legend",
+          "source_context": "Immunofluorescence images showing expression of SCGB3A2 and tubulin b4 (TUBB4; cilia marker)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "C-s",
+      "subtype": "SAA+ ciliated",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SAA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "serum amyloid A [SAA] gene-expressing [C-s]",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Squamous cell",
+      "subtype": "ALI-induced",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "KRT6A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Distal Airway BCs Are a Cellular Origin of TASCs'",
+          "source_context": "squamous (KRT6A, SPRR1B)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPRR1B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Distal Airway BCs Are a Cellular Origin of TASCs'",
+          "source_context": "squamous (KRT6A, SPRR1B)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "TASC",
+      "subtype": "terminal airway-enriched secretory cell",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Altered Cellular Composition of Distal Airways in COPD'",
+          "source_context": "TASC markers SCGB3A2 and SFTPB",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTPB",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Altered Cellular Composition of Distal Airways in COPD'",
+          "source_context": "TASC markers SCGB3A2 and SFTPB",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTA2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Distal Airway BCs Are a Cellular Origin of TASCs'",
+          "source_context": "TASC marker genes (e.g., SFTPB, SCGB3A2, SFTA2, RNASE1, and SFTPA2)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "RNASE1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Distal Airway BCs Are a Cellular Origin of TASCs'",
+          "source_context": "TASC marker genes (e.g., SFTPB, SCGB3A2, SFTA2, RNASE1, and SFTPA2)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTPA2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Distal Airway BCs Are a Cellular Origin of TASCs'",
+          "source_context": "TASC marker genes (e.g., SFTPB, SCGB3A2, SFTA2, RNASE1, and SFTPA2)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MGP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Regional Heterogeneity of Epithelial Cells'",
+          "source_context": "SCGB3A2 and MGP were expressed in TASCs at higher levels than in both S and AT2 cells",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "negative",
+          "source_locator": "Results, 'Regional Heterogeneity of Epithelial Cells'",
+          "source_context": "TASCs were typically SFTPC-negative",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2",
+      "subtype": "alveolar type 2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Regional Heterogeneity of Epithelial Cells'",
+          "source_context": "AT2 markers SFTPC, SFTPA1, and SFTPA2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTPA1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Regional Heterogeneity of Epithelial Cells'",
+          "source_context": "AT2 markers SFTPC, SFTPA1, and SFTPA2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTPA2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Regional Heterogeneity of Epithelial Cells'",
+          "source_context": "AT2 markers SFTPC, SFTPA1, and SFTPA2",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Chondrocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SNORC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "chondrocytes (SNORC)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fb2",
+      "subtype": "CCL19+ adventitial fibroblast",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCL19",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "CCL19+ [Fb2 including SFRP2+ Fbs(25)]",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFRP2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "CCL19+ [Fb2 including SFRP2+ Fbs(25)]",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fb3",
+      "subtype": "matrix fibroblast / myofibroblast",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ELN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "matrix (Fb3, ELN, COL1A1, including ACTA2+ myoFbs)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "COL1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "matrix (Fb3, ELN, COL1A1, including ACTA2+ myoFbs)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "matrix (Fb3, ELN, COL1A1, including ACTA2+ myoFbs)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fb4",
+      "subtype": "alveolar-enriched fibroblast",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GPC3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "Fb4 containing GPC3+ FGFR4+ alveolar Fbs(25)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "Fb4 containing GPC3+ FGFR4+ alveolar Fbs(25)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SM1/SM2",
+      "subtype": "vascular smooth muscle",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ADIRF",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "SM1 and SM2 expressing vascular SM markers ADIRF, NOTCH3, PDGFRB",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NOTCH3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "SM1 and SM2 expressing vascular SM markers ADIRF, NOTCH3, PDGFRB",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PDGFRB",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "SM1 and SM2 expressing vascular SM markers ADIRF, NOTCH3, PDGFRB",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "SM3",
+      "subtype": "airway smooth muscle / fibromyocyte",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DES",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "SM3 expressing airway SM markers DES and CNN1",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CNN1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "SM3 expressing airway SM markers DES and CNN1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Gli",
+      "subtype": "glial / Schwann cell",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "CDH19",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "Cells expressing markers of neuronal and glial/Schwann cells (Gli; CDH19, MPZ, NRXN1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MPZ",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "Cells expressing markers of neuronal and glial/Schwann cells (Gli; CDH19, MPZ, NRXN1)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NRXN1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "Cells expressing markers of neuronal and glial/Schwann cells (Gli; CDH19, MPZ, NRXN1)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "En-v",
+      "subtype": "venous / fenestrated endothelial",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACKR1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "venous (En-v, including cells expressing fenestrated En-c markers ACKR1 and PLVAP)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PLVAP",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "venous (En-v, including cells expressing fenestrated En-c markers ACKR1 and PLVAP)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "M1 macrophage",
+      "subtype": "inflammatory",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPP1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "macrophages (inflammatory [M1; SPP1, CCL3]",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCL3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "macrophages (inflammatory [M1; SPP1, CCL3]",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "M2 macrophage",
+      "subtype": "noninflammatory",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MSR1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "noninflammatory [M2; MSR1, CCL18]",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCL18",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "noninflammatory [M2; MSR1, CCL18]",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Tcn",
+      "subtype": "central/naive T cell",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCR7",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "T cells expressing markers of central and naive T cells (Tcn; CCR7, IL7R)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "IL7R",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "T cells expressing markers of central and naive T cells (Tcn; CCR7, IL7R)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Trm",
+      "subtype": "resident memory CD8 T cell",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCR6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "resident memory [Trm; CXCR6, CCL5]",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CCL5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+          "source_context": "resident memory [Trm; CXCR6, CCL5]",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1164_rccm.202207-1384oc",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1164_rccm.202207-1384oc.md"
+}

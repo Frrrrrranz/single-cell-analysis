@@ -1,0 +1,3066 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+  "cell_types": [
+    {
+      "cell_type": "multipotent progenitors",
+      "subtype": "bud tip epithelium",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, p.4841",
+          "source_context": "The bud tip epithelium comprises SOX9+, ID2+ multipotent progenitors that self-renew during branching.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ID2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, p.4841",
+          "source_context": "The bud tip epithelium comprises SOX9+, ID2+ multipotent progenitors that self-renew during branching.",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "bronchiolar epithelium",
+      "subtype": "airway",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "alveolar epithelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "fibroblast lineage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "epithelial lineage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD326",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Introduction, p.4842",
+          "source_context": "Epithelial cells were mostly derived from the trypsin-treated and CD326-enriched samples",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial lineage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "erythrocyte/leukocyte lineage",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "NK cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "airway smooth muscle",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "myofibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "alveolar fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7O legend",
+          "source_context": "local Wnt signals from alveolar fibroblasts (white, WNT2)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "PNS cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": []
+    },
+    {
+      "cell_type": "chondrocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "neuroendocrine cell",
+      "subtype": "related to SCLC subtype",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": []
+    },
+    {
+      "cell_type": "tip cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "ETV5",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TESC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "STC1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "Tip cells express a core set of tip-specific markers (SOX9+, ETV5+, TESC+, TPPP3+, and STC1+).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FOXP2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Predicted airway epithelial differentiation trajectories'",
+          "source_context": "Stalk cells lose some tip markers, including FOXP2 and SOX9.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "tip cell",
+      "subtype": "late",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...' / Fig. 3F",
+          "source_context": "late-tip cells (SOX9+, TPPP3+, SFTPC+) were clearly visualized in the tissue",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...' / Fig. 3F",
+          "source_context": "late-tip cells (SOX9+, TPPP3+, SFTPC+) were clearly visualized in the tissue",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...' / Fig. 3F",
+          "source_context": "late-tip cells (SOX9+, TPPP3+, SFTPC+) were clearly visualized in the tissue",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "stalk cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'The most immature epithelial progenitors...'",
+          "source_context": "adjacent stalk cells (SOX9LO/-, PDPNLO, HOPXLO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'The most immature epithelial progenitors...'",
+          "source_context": "adjacent stalk cells (SOX9LO/-, PDPNLO, HOPXLO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HOPX",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'The most immature epithelial progenitors...'",
+          "source_context": "adjacent stalk cells (SOX9LO/-, PDPNLO, HOPXLO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "AGER",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Predicted airway epithelial differentiation trajectories'",
+          "source_context": "late-stalk cells turn off tip markers and acquire PDPN/AGER",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "airway progenitor",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CYTL1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Predicted airway epithelial differentiation trajectories'",
+          "source_context": "airway progenitors upregulate marker genes associated with airway fates, including CYTL1, CLDN4, and SCGB3A2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CLDN4",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Predicted airway epithelial differentiation trajectories'",
+          "source_context": "airway progenitors upregulate marker genes associated with airway fates, including CYTL1, CLDN4, and SCGB3A2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Predicted airway epithelial differentiation trajectories'",
+          "source_context": "airway progenitors upregulate marker genes associated with airway fates, including CYTL1, CLDN4, and SCGB3A2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PCP4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'The most immature epithelial progenitors...'",
+          "source_context": "airway progenitors (CYTL1LO/+, PCP4+, SCGB3A+/LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'The most immature epithelial progenitors...'",
+          "source_context": "airway progenitors (CYTL1LO/+, PCP4+, SCGB3A+/LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "neuroendocrine cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CHGA",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers (CHGA, SYP)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SYP",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "they were both observed along a maturation trajectory and shared classical NE markers (CHGA, SYP)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PROX1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "the pan-NE PROX1",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "pulmonary neuroendocrine cell",
+      "subtype": "classical",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GRP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Two subtypes of neuroendocrine cells are present in the developing airways'",
+          "source_context": "classical pulmonary NE cells (GRP+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ASCL1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "these two TFs coincide with the scRNA-seq marker genes and scATAC-seq TF motif enrichment of our fetal NE cells; ASCL1 was co-expressed with GRP",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "GHRL+ neuroendocrine cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GHRL",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Two subtypes of neuroendocrine cells are present in the developing airways'",
+          "source_context": "GHRL+ NE cells (TTR+, GHRL+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TTR",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Two subtypes of neuroendocrine cells are present in the developing airways'",
+          "source_context": "GHRL+ NE cells (TTR+, GHRL+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NEUROD1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "these two TFs coincide with the scRNA-seq marker genes and scATAC-seq TF motif enrichment of our fetal NE cells; NEUROD1 was co-expressed with GHRL",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "RFX6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "the GHRL+NE-specific RFX6",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "intermediate neuroendocrine cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NEUROG3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "a small number of cells expressing the unique marker NEUROG3",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "proximal secretory progenitor",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory progenitors (SCGB3A2+, SCGB1A1-, SCGB3A1-/LO, CYTL1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory progenitors (SCGB3A2+, SCGB1A1-, SCGB3A1-/LO, CYTL1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory progenitors (SCGB3A2+, SCGB1A1-, SCGB3A1-/LO, CYTL1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CYTL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory progenitors (SCGB3A2+, SCGB1A1-, SCGB3A1-/LO, CYTL1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "club cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Club cells (SCGB3A2+, SCGB1A1+, SCGB3A1-, SPDEF-, MUC16-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Club cells (SCGB3A2+, SCGB1A1+, SCGB3A1-, SPDEF-, MUC16-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Club cells (SCGB3A2+, SCGB1A1+, SCGB3A1-, SPDEF-, MUC16-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Club cells (SCGB3A2+, SCGB1A1+, SCGB3A1-, SPDEF-, MUC16-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Club cells (SCGB3A2+, SCGB1A1+, SCGB3A1-, SPDEF-, MUC16-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SMG secretory cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LTF",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "SMG secretory cells (LTF+, SCGB3A1+, SPDEF+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "SMG secretory cells (LTF+, SCGB3A1+, SPDEF+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "SMG secretory cells (LTF+, SCGB3A1+, SPDEF+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "proximal secretory 1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 1 (SCGB1A1LO, SCGB3A2+, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 1 (SCGB1A1LO, SCGB3A2+, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 1 (SCGB1A1LO, SCGB3A2+, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Both were SPDEF+, MUC5B+, SERPINA1+",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC5B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Both were SPDEF+, MUC5B+, SERPINA1+",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SERPINA1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Both were SPDEF+, MUC5B+, SERPINA1+",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "The three proximal luminal proximal secretory cell populations were located in the proximal cartilaginous airways and were MUC16+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3E legend",
+          "source_context": "Proximal secretory 1 ... marked by SCGB3A1+/SCGB1A1low/-/MUC16low/-",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "proximal secretory 2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 2 (SCGB1A1+, SCGB3A2+, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 2 (SCGB1A1+, SCGB3A2+, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 2 (SCGB1A1+, SCGB3A2+, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Both were SPDEF+, MUC5B+, SERPINA1+",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC5B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Both were SPDEF+, MUC5B+, SERPINA1+",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SERPINA1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Both were SPDEF+, MUC5B+, SERPINA1+",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "The three proximal luminal proximal secretory cell populations were located in the proximal cartilaginous airways and were MUC16+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3F legend",
+          "source_context": "Proximal secretory 2 ... marked by SCGB3A2+/SCGB1A1+/MUC16low/+",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "proximal secretory 3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 3 (SCGB1A1+, SCGB3A2LO/-, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 3 (SCGB1A1+, SCGB3A2LO/-, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 3 (SCGB1A1+, SCGB3A2LO/-, SCGB3A1+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPDEF",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "proximal secretory 3 was detected from 15 pcw and was SPDEF-",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CYP2F1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "CYP2F1+, MUC4+, and KRT4+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "CYP2F1+, MUC4+, and KRT4+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KRT4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "CYP2F1+, MUC4+, and KRT4+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "The three proximal luminal proximal secretory cell populations were located in the proximal cartilaginous airways and were MUC16+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "We detected ciliated cells (FOXJ1+, ALOX15+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ALOX15",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "We detected ciliated cells (FOXJ1+, ALOX15+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "deuterosomal cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "Rarer deuterosomal cells (FOXJ1+, CDC20B+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CDC20B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "Rarer deuterosomal cells (FOXJ1+, CDC20B+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC16+ ciliated cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "MUC16+ ciliated cells (FOXJ1+, DNAH+, MUC16LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "DNAH",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "MUC16+ ciliated cells (FOXJ1+, DNAH+, MUC16LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "MUC16+ ciliated cells (FOXJ1+, DNAH+, MUC16LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "Basal cells (TP63+, F3+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "F3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "Basal cells (TP63+, F3+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "DeltaNTP63",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "basal cell-specific TFs DeltaNTP63, TFAP2A, PAX9",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TFAP2A",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "basal cell-specific TFs DeltaNTP63, TFAP2A, PAX9",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PAX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "basal cell-specific TFs DeltaNTP63, TFAP2A, PAX9",
+          "model_evidence_type": "author_declared",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "putative ionocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXI1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "putative ionocytes (FOXI1+; 4/4 lungs)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "putative tuft cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "POU2F3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "putative tuft cells (POU2F3+;2/4 lungs)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC5AC+ ASCL1+ cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "a small population of MUC5AC+, ASCL1+ cells in 9–11 pcw lungs",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ASCL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "a small population of MUC5AC+, ASCL1+ cells in 9–11 pcw lungs",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT2 cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "AT2 markers SFTPC and SFTPA were detected readily in late-tip cells",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SFTPA",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "AT2 markers SFTPC and SFTPA were detected readily in late-tip cells",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "NASPA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "AT2 cells (SOX9-, SFTPC+, NASPA+, ETV5+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ETV5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "AT2 cells (SOX9-, SFTPC+, NASPA+, ETV5+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "AT2 cells (SOX9-, SFTPC+, NASPA+, ETV5+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "AT1 cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SPOCK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "AT1 cells (SPOCK2+, SFTPC-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Late epithelial tip cells acquire alveolar identity...'",
+          "source_context": "AT1 cells (SPOCK2+, SFTPC-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MMP28",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 3I legend",
+          "source_context": "fetal AT1 SFTPC-/MMP28+/SPOCK2+",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "early capillary endothelial cell",
+      "subtype": "early Cap",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "THY1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "capillary (early Cap: THY1+, CD24+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD24",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "capillary (early Cap: THY1+, CD24+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "GRIA2+ arterial endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GRIA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "GRIA2+ arterial (GRIA2+, GJA5+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "GJA5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "GRIA2+ arterial (GRIA2+, GJA5+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "arterial endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DKK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "arterial ECs (DKK2+, SSUH2+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SSUH2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "arterial ECs (DKK2+, SSUH2+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "OMD+ endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GJA5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "OMD+ ECs (GJA5+, DKK2+, PTGIS+, and OMD+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "DKK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "OMD+ ECs (GJA5+, DKK2+, PTGIS+, and OMD+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PTGIS",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "OMD+ ECs (GJA5+, DKK2+, PTGIS+, and OMD+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "OMD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "OMD+ ECs (GJA5+, DKK2+, PTGIS+, and OMD+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "venous endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PVLAP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "venous ECs (PVLAP+, ACKR3+, and HDAC9+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACKR3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "venous ECs (PVLAP+, ACKR3+, and HDAC9+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "HDAC9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "venous ECs (PVLAP+, ACKR3+, and HDAC9+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "lymphatic endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PROX1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "lymphatic ECs (PROX1+, STAB1+, and UCP2LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "STAB1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "lymphatic ECs (PROX1+, STAB1+, and UCP2LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "UCP2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "lymphatic ECs (PROX1+, STAB1+, and UCP2LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SCG3+ lymphatic endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PROX1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "SCG3+ lymphatic ECs (PROX1+, SCG3+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCG3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "SCG3+ lymphatic ECs (PROX1+, SCG3+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "aerocyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CA4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "Aerocytes (CA4LO, S100A3+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "S100A3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "Aerocytes (CA4LO, S100A3+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "vascular smooth muscle cell",
+      "subtype": "vSMC1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTRK3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "vSMC1 (NTRK3+, NTN4+, and PLN-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NTN4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "vSMC1 (NTRK3+, NTN4+, and PLN-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PLN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "vSMC1 (NTRK3+, NTN4+, and PLN-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "vascular smooth muscle cell",
+      "subtype": "vSMC2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTRK3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "vSMC2 (NTRK3+, NTN4+, and PLN+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NTN4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "vSMC2 (NTRK3+, NTN4+, and PLN+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PLN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "vSMC2 (NTRK3+, NTN4+, and PLN+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "pericyte",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FAM162B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Pericytes (FAM162B+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "early fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFRP2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "early fibroblasts (SFRP2+, WNT2+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "WNT2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "early fibroblasts (SFRP2+, WNT2+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "mid fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "mid fibroblasts (WNT2+, FGFR4LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "mid fibroblasts (WNT2+, FGFR4LO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "adventitial fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFRP2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "adventitial (SFRP2+, PI16+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PI16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "adventitial (SFRP2+, PI16+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "airway fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "AGTR2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "airway (AGTR2+, S100A4+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "S100A4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "airway (AGTR2+, S100A4+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "alveolar fibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "WNT2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "alveolar (WNT2+, FGFR4+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FGFR4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "alveolar (WNT2+, FGFR4+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Throughout development, myofibroblasts (CXCL14+, KCNK17+) were visualized surrounding the developing stalk region",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KCNK17",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Throughout development, myofibroblasts (CXCL14+, KCNK17+) were visualized surrounding the developing stalk region",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NOTUM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.4856; Figure S7O",
+          "source_context": "we characterize a population of myofibroblasts that contacts the developing epithelial stalk region and expresses high levels of the secreted Wnt-inhibitor, NOTUM (Figure S7O)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast",
+      "subtype": "myofibroblast 1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast1 (CXCL14+, KCNK17+, CT45A3+, and THBDLO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KCNK17",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast1 (CXCL14+, KCNK17+, CT45A3+, and THBDLO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CT45A3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast1 (CXCL14+, KCNK17+, CT45A3+, and THBDLO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "THBD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast1 (CXCL14+, KCNK17+, CT45A3+, and THBDLO)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast",
+      "subtype": "myofibroblast 2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast 2 (CXCL14+, KCNK17+, CT45A3+, and THBDHI)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KCNK17",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast 2 (CXCL14+, KCNK17+, CT45A3+, and THBDHI)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CT45A3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast 2 (CXCL14+, KCNK17+, CT45A3+, and THBDHI)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "THBD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Myofibroblast 2 (CXCL14+, KCNK17+, CT45A3+, and THBDHI)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "myofibroblast2 (PDGFRA+, THBDHI, and NOTUM+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NOTUM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "myofibroblast2 (PDGFRA+, THBDHI, and NOTUM+)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast",
+      "subtype": "myofibroblast 3",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CXCL14",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "myofibroblast 3 (CXCL14+, KCNK17+, CT45A3-, and THBD-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "KCNK17",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "myofibroblast 3 (CXCL14+, KCNK17+, CT45A3-, and THBD-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CT45A3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "myofibroblast 3 (CXCL14+, KCNK17+, CT45A3-, and THBD-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "THBD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "myofibroblast 3 (CXCL14+, KCNK17+, CT45A3-, and THBD-)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "HMOX1+ erythroblast",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HMOX1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results: 'Hematopoietic cell types in the developing lung'",
+          "source_context": "HMOX1+ erythroblasts",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "NE cell",
+      "subtype": "GHRL+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GHRL",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.4856",
+          "source_context": "We find that GHRL+ NE cells are transcriptionally similar to the NEUROD1+ N subtype of SCLC (Figure 7).",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "SCLC subtype",
+      "subtype": "NEUROD1+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NEUROD1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Discussion, p.4856",
+          "source_context": "We find that GHRL+ NE cells are transcriptionally similar to the NEUROD1+ N subtype of SCLC (Figure 7).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "distal airway cell",
+      "subtype": "SCGB3A2+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Method details",
+          "source_context": "Isolation and airway differentiation of SCGB3A2+ distal and proximal airway cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "proximal airway cell",
+      "subtype": "SCGB3A2+",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Method details",
+          "source_context": "Isolation and airway differentiation of SCGB3A2+ distal and proximal airway cells",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "cardiomyocytes (contaminant)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTN2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Single-cell RNA-seq processing and cell type annotation",
+          "source_context": "These were cardiomyocytes (ACTN2+ MYH6+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MYH6",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Single-cell RNA-seq processing and cell type annotation",
+          "source_context": "These were cardiomyocytes (ACTN2+ MYH6+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "esophagus epithelial cells (contaminant)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Single-cell RNA-seq processing and cell type annotation",
+          "source_context": "esophagus epithelial cells (SOX2+ TP63+ TRH+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TP63",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Single-cell RNA-seq processing and cell type annotation",
+          "source_context": "esophagus epithelial cells (SOX2+ TP63+ TRH+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TRH",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Single-cell RNA-seq processing and cell type annotation",
+          "source_context": "esophagus epithelial cells (SOX2+ TP63+ TRH+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "cytotrophoblasts (contaminant)",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PAGE4",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Single-cell RNA-seq processing and cell type annotation",
+          "source_context": "cytotrophoblasts from the placenta (PAGE4+GSTA3+)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "GSTA3",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "STAR Methods, Single-cell RNA-seq processing and cell type annotation",
+          "source_context": "cytotrophoblasts from the placenta (PAGE4+GSTA3+)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "E-cadherin",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3A legend",
+          "source_context": "E-cadherin (epithelium, cyan)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "tip epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD36",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3A legend",
+          "source_context": "immunostained using antibodies against CD36 (tip epithelial cells, red)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3C legend",
+          "source_context": "SFTPC indicates tip epithelial cells (white)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "stalk epithelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDPN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3A legend",
+          "source_context": "PDPN (stalk epithelial cells, white)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "airway progenitor cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3B/B' legend",
+          "source_context": "Airway progenitor cells marked by SOX9-/CYTL1+/SCGB3A2+",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CYTL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3B/B' legend",
+          "source_context": "Airway progenitor cells marked by SOX9-/CYTL1+/SCGB3A2+",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3B/B' legend",
+          "source_context": "Airway progenitor cells marked by SOX9-/CYTL1+/SCGB3A2+",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3D legend",
+          "source_context": "Airway progenitor ... cells ... are marked by SCGB3A2+/SCGB1A1-",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "club cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SCGB1A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3B legend",
+          "source_context": "SCGB1A1 indicates club cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3D legend",
+          "source_context": "club cells (arrow) ... are marked by SCGB3A2+/SCGB1A1+",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NDUFA4L2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S4B legend",
+          "source_context": "NDUFA4L2, club/proximal secretory cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FMO2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S4B legend",
+          "source_context": "FMO2, club/proximal secretory cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "secretory cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3H legend",
+          "source_context": "secretory cells (arrow), FOXJ1-/SCGB3A2+",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3H legend",
+          "source_context": "secretory cells (arrow), FOXJ1-/SCGB3A2+",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "submucosal gland cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "LTF",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3G legend",
+          "source_context": "Submucosal gland cells ... are marked by strong LTF expression with SCGB3A1+/SCGB3A2-",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3G legend",
+          "source_context": "Submucosal gland cells ... are marked by strong LTF expression with SCGB3A1+/SCGB3A2-",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3G legend",
+          "source_context": "Submucosal gland cells ... are marked by strong LTF expression with SCGB3A1+/SCGB3A2-",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3H legend",
+          "source_context": "Ciliated cells (arrowhead), FOXJ1+/SCGB3A2-",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SCGB3A2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3H legend",
+          "source_context": "Ciliated cells (arrowhead), FOXJ1+/SCGB3A2-",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "ciliated cells",
+      "subtype": "MUC16+ ciliated cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC16",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3I legend",
+          "source_context": "MUC16+ ciliated cells express MUC16 (white) with a weak level of FOXJ1 (red)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "FOXJ1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S3I legend",
+          "source_context": "MUC16+ ciliated cells express MUC16 (white) with a weak level of FOXJ1 (red)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cells",
+      "subtype": "proximal basal cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3J/J' legend",
+          "source_context": "Proximal basal cells ... are marked by TP63(red), F3(white), and IGFBP3(green)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "F3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3J/J' legend",
+          "source_context": "Proximal basal cells ... are marked by TP63(red), F3(white), and IGFBP3(green)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "IGFBP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3J/J' legend",
+          "source_context": "Proximal basal cells ... are marked by TP63(red), F3(white), and IGFBP3(green)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "basal cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "TP63",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S4B legend",
+          "source_context": "TP63, basal cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "putative ionocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FOXI1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S4E legend",
+          "source_context": "rare cell type markers of putative ionocytes (FOXI1 yellow)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "tuft cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "POU2F3",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S4E legend",
+          "source_context": "rare cell type markers of ... tuft cells (POU2F3, red)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "pulmonary neuroendocrine cells",
+      "subtype": "GRP+ pulmonary NE cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GRP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3C legend",
+          "source_context": "GRP+ pulmonary neuroendocrine cells (arrow, green)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ASCL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3K legend",
+          "source_context": "ASCL1+ pulmonary neuroendocrine (arrow)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NEUROD1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S8C legend",
+          "source_context": "#1 labeled GRP+NEUROD1lowGHRL- cells, which have just started the transition from GRP+ pulmonary NE/precursor cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "GHRL",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S8C legend",
+          "source_context": "#1 labeled GRP+NEUROD1lowGHRL- cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RFX6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S8E legend",
+          "source_context": "Dash yellow line labeled GRP+RFX6- pulmonary NE cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "GHRL+ neuroendocrine cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GHRL",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3C legend",
+          "source_context": "GHRL+ neuroendocrine (dashed line, red)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NEUROD1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S8C legend",
+          "source_context": "#3 labeled GRP-NEUROD1+GHRL+, GHRL+ NE cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "GRP",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S8C legend",
+          "source_context": "#3 labeled GRP-NEUROD1+GHRL+, GHRL+ NE cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "RFX6",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S8E legend",
+          "source_context": "Representative HCR images showing RFX6 expression in GHRL+ NE cells",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "MUC5AC+/ASCL1+ progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MUC5AC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3K legend",
+          "source_context": "MUC5AC+/ASCL1+ progenitors (arrowhead)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ASCL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S3K legend",
+          "source_context": "MUC5AC+/ASCL1+ progenitors (arrowhead)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "tip epithelial progenitors",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6C legend",
+          "source_context": "SOX9+TPPP3+SFTPC+ tip epithelial progenitors",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6C legend",
+          "source_context": "SOX9+TPPP3+SFTPC+ tip epithelial progenitors",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6C legend",
+          "source_context": "SOX9+TPPP3+SFTPC+ tip epithelial progenitors",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "fetal AT2 cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SOX9",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S6C legend",
+          "source_context": "SOX9-TPPP3-SFTPC+ fetal AT2 cell population",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "TPPP3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S6C legend",
+          "source_context": "SOX9-TPPP3-SFTPC+ fetal AT2 cell population",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6C legend",
+          "source_context": "SOX9-TPPP3-SFTPC+ fetal AT2 cell population",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NAPSA",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6F legend",
+          "source_context": "NAPSA (white; F) overlap with SFTPC in the fetal AT2 cells",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ETV5",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6G legend",
+          "source_context": "ETV5 (red; G) overlap with SFTPC in the fetal AT2 cells",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "late-tip cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6E/F legend",
+          "source_context": "Arrows indicate SFTPC+ late-tip cells",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDPN",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S6D legend",
+          "source_context": "late-tip cell population, which does not co-express the stalk marker, PDPN",
+          "model_marker_polarity": "negative",
+          "guardrail_reason": "缺少阴性/缺失表达措辞，极性降为 unknown",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "fetal AT1 cells",
+      "subtype": "future AT1 cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "SFTPC",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S6H-J legend",
+          "source_context": "future AT1 cells (SFTPC-/SPOCK2+)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "SPOCK2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S6H-J legend",
+          "source_context": "future AT1 cells (SFTPC-/SPOCK2+)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "aerocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "S100A3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7B legend",
+          "source_context": "Aerocytes (S100A3+ red/CA4+ white)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CA4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7B legend",
+          "source_context": "Aerocytes (S100A3+ red/CA4+ white)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "capillary endothelium",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CA4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7B legend",
+          "source_context": "capillary endothelium (CA4+ white)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "arterial endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "GJA5",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7C legend",
+          "source_context": "Arterial endothelial cells (GJA5+ red)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "venous endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACKR3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7D legend",
+          "source_context": "venous endothelial cells (ACKR3+ white)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "lymphatic endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PROX1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7E legend",
+          "source_context": "Lymphatic endothelial cells (PROX1+ white)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial cells",
+      "subtype": "all endothelial cells",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PECAM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7B legend",
+          "source_context": "all endothelial cells (PECAM+, green)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "vascular smooth muscle cells",
+      "subtype": "vascular SMC1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTN4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7F legend",
+          "source_context": "each marked by NTN4+/PLN-/low (vSMC1, arrows)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PLN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S7F legend",
+          "source_context": "each marked by NTN4+/PLN-/low (vSMC1, arrows)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "vascular smooth muscle cells",
+      "subtype": "vascular SMC2",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NTN4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7F legend",
+          "source_context": "each marked by NTN4+/PLN+/high (vSMC2, lines)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PLN",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7F legend",
+          "source_context": "each marked by NTN4+/PLN+/high (vSMC2, lines)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "adventitial fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "NDUF4AL2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S7H legend",
+          "source_context": "NDUF4AL2-/NTRK3+ adventitial fibroblasts (arrowheads)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NTRK3",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7H legend",
+          "source_context": "NDUF4AL2-/NTRK3+ adventitial fibroblasts (arrowheads)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "pericytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "FAM162B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7I legend",
+          "source_context": "FAM162B+ pericytes (red)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast-1",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "ACTA2+/PDGFRA+ Myofibroblast-1 (THBDweak; K)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "ACTA2+/PDGFRA+ Myofibroblast-1 (THBDweak; K)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "THBD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "ACTA2+/PDGFRA+ Myofibroblast-1 (THBDweak; K)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast-2",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ACTA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "ACTA2+/PDGFRA+ Myofibroblast-2 (THBDhigh, arrows; L)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "ACTA2+/PDGFRA+ Myofibroblast-2 (THBDhigh, arrows; L)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "THBD",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "ACTA2+/PDGFRA+ Myofibroblast-2 (THBDhigh, arrows; L)",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "NOTUM",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7N/O legend",
+          "source_context": "The myofibroblast-2 population showed enriched expression of Wnt signaling associated genes, e.g., NOTUM, LEF1, and DACH2",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "LEF1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7N legend",
+          "source_context": "The myofibroblast-2 population showed enriched expression of Wnt signaling associated genes, e.g., NOTUM, LEF1, and DACH2",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "DACH2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7N legend",
+          "source_context": "The myofibroblast-2 population showed enriched expression of Wnt signaling associated genes, e.g., NOTUM, LEF1, and DACH2",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "myofibroblast-3",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRA",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "PDGFRA+ Myofibroblast-3 at 21 pcw does not express ACTA2",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ACTA2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "negative",
+          "source_locator": "Figure S7K-M legend",
+          "source_context": "PDGFRA+ Myofibroblast-3 at 21 pcw does not express ACTA2",
+          "model_evidence_type": "figure_labeled",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1016_j.cell.2022.11.005",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1016_j.cell.2022.11.005.md"
+}

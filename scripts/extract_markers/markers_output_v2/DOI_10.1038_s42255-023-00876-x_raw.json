@@ -1,0 +1,889 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s42255-023-00876-x",
+  "cell_types": [
+    {
+      "cell_type": "β-cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Urocortin-3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Immature β-cells gain functional maturation, as defined by the expression of several protein markers, including Urocortin-3, Flattop, transcription factor MafA and glucose transporter encoded by Slc2a2 (also known as Glut2) and accurate GSIS in the first weeks after birth and again after weaning.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Flattop",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Immature β-cells gain functional maturation, as defined by the expression of several protein markers, including Urocortin-3, Flattop, transcription factor MafA and glucose transporter encoded by Slc2a2 (also known as Glut2) and accurate GSIS in the first weeks after birth and again after weaning.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MafA",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Immature β-cells gain functional maturation, as defined by the expression of several protein markers, including Urocortin-3, Flattop, transcription factor MafA and glucose transporter encoded by Slc2a2 (also known as Glut2) and accurate GSIS in the first weeks after birth and again after weaning.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Slc2a2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Immature β-cells gain functional maturation, as defined by the expression of several protein markers, including Urocortin-3, Flattop, transcription factor MafA and glucose transporter encoded by Slc2a2 (also known as Glut2) and accurate GSIS in the first weeks after birth and again after weaning.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "insulin",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Blood glucose is regulated by multiple hormones secreted from pancreatic islets of Langerhans that consist of insulin-producing β-cells, which are main actors in diabetes, as well as glucagon-producing α-cells, somatostatin-producing δ-cells, pancreatic polypeptide-producing γ-cells and ghrelin-producing ε-cells.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Ins1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Ins2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "G6pc2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Iapp",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ins1, Ins2, G6pc2 and Iapp for β-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Cytip",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we detected several new cell-type-specific genes at different developmental stages (for example, Cytip and Spock2 for β-cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Spock2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we detected several new cell-type-specific genes at different developmental stages (for example, Cytip and Spock2 for β-cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Ucn3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6d,e; p.1625",
+          "source_context": "First, we validated that islets contain expected healthy and dysfunctional β-cell states by profiling the protein expression of insulin, an established maturation marker Ucn3 (ref. 9) and a dedifferentiation marker Aldh1a3 (refs. 113,114) (Fig. 6d,e and Supplementary Note 10).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Aldh1a3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6d,e; p.1625",
+          "source_context": "First, we validated that islets contain expected healthy and dysfunctional β-cell states by profiling the protein expression of insulin, an established maturation marker Ucn3 (ref. 9) and a dedifferentiation marker Aldh1a3 (refs. 113,114) (Fig. 6d,e and Supplementary Note 10).",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Nucb2",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6d,e; p.1625",
+          "source_context": "We next profiled three new markers of the T2D model: Nucb2, which is involved in insulin secretion115,116 and whose mutations were reported to be associated with diabetes risk117, Fkbp11, an ER-located chaperone previously reported to be upregulated in certain mouse T2D models118,119 and Mt3, which was reported to be associated with β-cell death120.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Fkbp11",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6d,e; p.1625",
+          "source_context": "We next profiled three new markers of the T2D model: Nucb2, which is involved in insulin secretion115,116 and whose mutations were reported to be associated with diabetes risk117, Fkbp11, an ER-located chaperone previously reported to be upregulated in certain mouse T2D models118,119 and Mt3, which was reported to be associated with β-cell death120.",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Mt3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6d,e; p.1625",
+          "source_context": "We next profiled three new markers of the T2D model: Nucb2, which is involved in insulin secretion115,116 and whose mutations were reported to be associated with diabetes risk117, Fkbp11, an ER-located chaperone previously reported to be upregulated in certain mouse T2D models118,119 and Mt3, which was reported to be associated with β-cell death120.",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "α-cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "glucagon",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Blood glucose is regulated by multiple hormones secreted from pancreatic islets of Langerhans that consist of insulin-producing β-cells, which are main actors in diabetes, as well as glucagon-producing α-cells, somatostatin-producing δ-cells, pancreatic polypeptide-producing γ-cells and ghrelin-producing ε-cells.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Ttr",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (protein validation)",
+          "source_context": "we analyzed protein expression of two transcriptome-based markers (Ttr in α-cells and Rbp4 in δ-cells) with immunohistochemistry",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Gcg",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ttr, Gcg, Irx2 and Slc7a2 for α-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Irx2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ttr, Gcg, Irx2 and Slc7a2 for α-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Slc7a2",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (mouse homologs Ttr, Gcg, Irx2 and Slc7a2 for α-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Wnk3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we detected several new cell-type-specific genes at different developmental stages (for example, Wnk3 and Nxph1 for α-cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Nxph1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we detected several new cell-type-specific genes at different developmental stages (for example, Wnk3 and Nxph1 for α-cells)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "δ-cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "somatostatin",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Blood glucose is regulated by multiple hormones secreted from pancreatic islets of Langerhans that consist of insulin-producing β-cells, which are main actors in diabetes, as well as glucagon-producing α-cells, somatostatin-producing δ-cells, pancreatic polypeptide-producing γ-cells and ghrelin-producing ε-cells.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Sst",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1618 (δ-cell annotation)",
+          "source_context": "somatostatin was highly expressed already in the E group, likely because Sst has been used for δ-cell annotation",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Rbp4",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (protein validation)",
+          "source_context": "we analyzed protein expression of two transcriptome-based markers (Ttr in α-cells and Rbp4 in δ-cells) with immunohistochemistry",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Slc2a3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we detected several new cell-type-specific genes at different developmental stages (for example, Slc2a3, Nrsn1 and Spock3 for δ-cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Nrsn1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we detected several new cell-type-specific genes at different developmental stages (for example, Slc2a3, Nrsn1 and Spock3 for δ-cells)",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Spock3",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we observed consistent upregulation in δ-cells across datasets, further supported by a previous study reporting this gene as a δ-cell marker in zebrafish",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Cer1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (potential δ-cell marker)",
+          "source_context": "it is a potential δ-cell marker only in postnatal and not in embryonic samples",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "γ-cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "pancreatic polypeptide",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Blood glucose is regulated by multiple hormones secreted from pancreatic islets of Langerhans that consist of insulin-producing β-cells, which are main actors in diabetes, as well as glucagon-producing α-cells, somatostatin-producing δ-cells, pancreatic polypeptide-producing γ-cells and ghrelin-producing ε-cells.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Ppy",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "Some of the markers were shared with human endocrine markers reported in a recent scRNA-seq meta-analysis (Ppy for γ-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Vsig1",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (new markers; Fig.3a)",
+          "source_context": "we detected several new cell-type-specific genes at different developmental stages (for example, Vsig1 for γ-cells)",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "ε-cell",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ghrelin",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "p.1616 (Introduction)",
+          "source_context": "Blood glucose is regulated by multiple hormones secreted from pancreatic islets of Langerhans that consist of insulin-producing β-cells, which are main actors in diabetes, as well as glucagon-producing α-cells, somatostatin-producing δ-cells, pancreatic polypeptide-producing γ-cells and ghrelin-producing ε-cells.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Ghrl",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "and in other publications (Ghrl and Irs4 for ε-cells)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Irs4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1617 (shared markers; Fig.3a)",
+          "source_context": "and in other publications (Ghrl and Irs4 for ε-cells)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "immature",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Rbp4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1620-1621 (Fig.4b, 5b)",
+          "source_context": "known immaturity (Rbp4), maturity (Mafa), stress (Gast), aging/senescence (Cdkn2a) and inflammatory (B2m) β-cell transcriptomic markers",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Cd81",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1620 (Fig.5b)",
+          "source_context": "some known markers were not state-specific, such as certain immature marker genes that were also highly expressed in the db/db + mSTZ state (for example, Cd81)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "mature",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Mafa",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1620-1621 (Fig.4b, 5b)",
+          "source_context": "known immaturity (Rbp4), maturity (Mafa), stress (Gast), aging/senescence (Cdkn2a) and inflammatory (B2m) β-cell transcriptomic markers",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "stressed",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Gast",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1620-1621 (Fig.4b, 5b)",
+          "source_context": "known immaturity (Rbp4), maturity (Mafa), stress (Gast), aging/senescence (Cdkn2a) and inflammatory (B2m) β-cell transcriptomic markers",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "aging/senescence",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cdkn2a",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1620-1621 (Fig.4b, 5b)",
+          "source_context": "known immaturity (Rbp4), maturity (Mafa), stress (Gast), aging/senescence (Cdkn2a) and inflammatory (B2m) β-cell transcriptomic markers",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "inflammatory",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "B2m",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1620-1621 (Fig.4b, 5b)",
+          "source_context": "known immaturity (Rbp4), maturity (Mafa), stress (Gast), aging/senescence (Cdkn2a) and inflammatory (B2m) β-cell transcriptomic markers",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "healthy adult state",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Prss53",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "source_locator": "Results p.1620 (new marker; Fig.5c, Supplementary Table 5)",
+          "source_context": "we identified a new marker of healthy adult state Prss53, associated with mitochondrial function",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Tm4sf4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'β-cell dysfunction patterns within healthy samples', Fig.5g; p.1623",
+          "source_context": "Comparison to a meta-analysis of human healthy heterogeneity markers35, revealed shared genes Tm4sf4 and Clu from group 3 (insulin production and metabolic stress) and genes Fos, Herpud1 and Rgs4 from group 4 (aging).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Clu",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'β-cell dysfunction patterns within healthy samples', Fig.5g; p.1623",
+          "source_context": "Comparison to a meta-analysis of human healthy heterogeneity markers35, revealed shared genes Tm4sf4 and Clu from group 3 (insulin production and metabolic stress) and genes Fos, Herpud1 and Rgs4 from group 4 (aging).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Fos",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'β-cell dysfunction patterns within healthy samples', Fig.5g; p.1623",
+          "source_context": "Comparison to a meta-analysis of human healthy heterogeneity markers35, revealed shared genes Tm4sf4 and Clu from group 3 (insulin production and metabolic stress) and genes Fos, Herpud1 and Rgs4 from group 4 (aging).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Herpud1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'β-cell dysfunction patterns within healthy samples', Fig.5g; p.1623",
+          "source_context": "Comparison to a meta-analysis of human healthy heterogeneity markers35, revealed shared genes Tm4sf4 and Clu from group 3 (insulin production and metabolic stress) and genes Fos, Herpud1 and Rgs4 from group 4 (aging).",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Rgs4",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'β-cell dysfunction patterns within healthy samples', Fig.5g; p.1623",
+          "source_context": "Comparison to a meta-analysis of human healthy heterogeneity markers35, revealed shared genes Tm4sf4 and Clu from group 3 (insulin production and metabolic stress) and genes Fos, Herpud1 and Rgs4 from group 4 (aging).",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "Immature",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pyy",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "one group (T1-down1), which was highly expressed across multiple immature states (Fig. 6a) and contained genes associated with immaturity (Pyy and Npy)99,100",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Npy",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "one group (T1-down1), which was highly expressed across multiple immature states (Fig. 6a) and contained genes associated with immaturity (Pyy and Npy)99,100",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Stat1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "T1-up2 was, in addition to NOD diabetic cells, also highly expressed in immature cells (Fig. 6a) and more strongly enriched for innate immune response genes (containing genes Stat1, Stat2, Gbp7 and immunoproteasome group members)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Stat2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "T1-up2 was, in addition to NOD diabetic cells, also highly expressed in immature cells (Fig. 6a) and more strongly enriched for innate immune response genes (containing genes Stat1, Stat2, Gbp7 and immunoproteasome group members)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Gbp7",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "T1-up2 was, in addition to NOD diabetic cells, also highly expressed in immature cells (Fig. 6a) and more strongly enriched for innate immune response genes (containing genes Stat1, Stat2, Gbp7 and immunoproteasome group members)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "NOD-D",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "B2m",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "Group T1-up3 was NOD diabetic cells (state 14–16wNOD) specific and more strongly enriched for antigen-processing genes (containing genes B2m, Tap2 and major histocompatibility complex (MHC) II group members)",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Tap2",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "Group T1-up3 was NOD diabetic cells (state 14–16wNOD) specific and more strongly enriched for antigen-processing genes (containing genes B2m, Tap2 and major histocompatibility complex (MHC) II group members)",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "β-cell",
+      "subtype": "db/db + mSTZ",
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Txnip",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "NOD group T1-down3, containing some genes involved in adaptive stress response (Txnip and Herpud1)33,111, was, in addition to healthy cells, also highly expressed in db/db and mSTZ model cells.",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "Herpud1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Diabetes-unique and cross-condition dysfunction in β-cells', Fig.6a; p.1624",
+          "source_context": "NOD group T1-down3, containing some genes involved in adaptive stress response (Txnip and Herpud1)33,111, was, in addition to healthy cells, also highly expressed in db/db and mSTZ model cells.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "acinar",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cpa1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... acinar: Cpa1, Prss2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Prss2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... acinar: Cpa1, Prss2",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "α",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Gcg",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... α: Gcg",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "β",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ins1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... β: Ins1, Ins2",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Ins2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... β: Ins1, Ins2",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "δ",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Sst",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... δ: Sst",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "ductal",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Krt19",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... ductal: Krt19, Muc1, Sox9",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Muc1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... ductal: Krt19, Muc1, Sox9",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Sox9",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... ductal: Krt19, Muc1, Sox9",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "endothelial",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... endothelial: Pecam1, Plvap",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Plvap",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... endothelial: Pecam1, Plvap",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "ε",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ghrl",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... ε: Ghrl",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "γ",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ppy",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... γ: Ppy",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "immune",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd52",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... immune: Cd52, Lyz2, Ptprc",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Lyz2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... immune: Cd52, Lyz2, Ptprc",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Ptprc",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... immune: Cd52, Lyz2, Ptprc",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "stellate-activated",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Col1a2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-activated: Col1a2, Bicc1, Pdgfra",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Bicc1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-activated: Col1a2, Bicc1, Pdgfra",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Pdgfra",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-activated: Col1a2, Bicc1, Pdgfra",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "stellate-quiescent",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Ndufa4l2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Acta2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Cspg4",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Rgs5",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Cryab",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... Schwann: Cryab, Plp1, Sox10",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Plp1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... Schwann: Cryab, Plp1, Sox10",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Sox10",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+          "source_context": "we relied on the following cell type markers across multiple datasets ... Schwann: Cryab, Plp1, Sox10",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s42255-023-00876-x",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s42255-023-00876-x.md"
+}

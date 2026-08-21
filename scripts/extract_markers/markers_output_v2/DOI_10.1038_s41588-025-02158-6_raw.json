@@ -1,0 +1,718 @@
+{
+  "schema_version": 2,
+  "paper_id": "DOI_10.1038_s41588-025-02158-6",
+  "cell_types": [
+    {
+      "cell_type": "Neuroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "PHOX2B",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "ISL1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblasts",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PDGFRB",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "DCN",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "PLP1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CDH19",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PECAM1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PTPRB",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Dendritic cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD86",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "IRF8",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "FLT3",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "T cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD247",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "B cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "PAX5",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "MS4A1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD163",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Adrenal cortex cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CYP11A1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "CYP11B1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Hepatocytes",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "ALB",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Kidney cells",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "DCD",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "C2",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "PKHD1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 1d legend",
+          "source_context": "Dotplot showing the mean expression of marker genes and the percentage of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neoplastic cells",
+      "subtype": "ADRN",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "PHOX2B",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cooperative epigenetic regulation governs neoplastic cell states'",
+          "source_context": "We confirmed that canonical MES and ADRN marker genes, including YAP1 and PHOX2B, were more accessible in their respective states",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neoplastic cells",
+      "subtype": "MES",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "YAP1",
+          "evidence_type": "reference_imported",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Cooperative epigenetic regulation governs neoplastic cell states'",
+          "source_context": "We confirmed that canonical MES and ADRN marker genes, including YAP1 and PHOX2B, were more accessible in their respective states",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuroblasts",
+      "subtype": "ADRN-like-1",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "ISL1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "We found three subsets of adrenergic neuroblasts: an ISL1-high population (ADRN-like-1), a PPP2R2C-high population (ADRN-like-2) and a population with minimal PHOX2B expression (ADRN-like-3)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuroblasts",
+      "subtype": "ADRN-like-2",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "PPP2R2C",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "We found three subsets of adrenergic neuroblasts: an ISL1-high population (ADRN-like-1), a PPP2R2C-high population (ADRN-like-2) and a population with minimal PHOX2B expression (ADRN-like-3)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "ERBB4",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "the ERBB4 receptor was most highly expressed on ADRN-like-2 neuroblasts",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuroblasts",
+      "subtype": "ADRN-like-3",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "PHOX2B",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "unknown",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "a population with minimal PHOX2B expression (ADRN-like-3)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文; 缺少阴性/缺失表达措辞，极性降为 unknown",
+          "model_marker_polarity": "negative",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuroblasts",
+      "subtype": "Mesenchymal neuroblastic",
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "VIM",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "We also identified a mesenchymal neuroblastic population expressing vimentin",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Proliferating",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "MKI67",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "TOP2A",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Pro-inflammatory (IL18+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "IL18",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Pro-angiogenic (CCL4+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CCL4",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Pro-angiogenic (VCAN+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "VCAN",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Immunosuppressive (C1QC+SPP1+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "C1QC",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "SPP1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Tissue-resident (F13A1+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "F13A1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Lipid-associated (HS3ST2+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "HS3ST2",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "Undefined (THY1+)",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "THY1",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Pro-tumorigenic macrophages are enriched after therapy'",
+          "source_context": "we identified a proliferating state (MKI67 and TOP2A), a pro-inflammatory state (IL18), two pro-angiogenic states (CCL4 and VCAN), an immunosuppressive state (C1QC and SPP1), a tissue-resident state with the highest expression of a phagocytosis gene (F13A1), a lipid-associated state (HS3ST2) and an undefined state expressing THY1",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": "CD163+CD68hi",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD163",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "all macrophages expressed CD163, but two populations were discriminated by the additional high expression of either CD206 or CD68",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "CD68",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "all macrophages expressed CD163, but two populations were discriminated by the additional high expression of either CD206 or CD68",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        },
+        {
+          "gene": "MRC1",
+          "evidence_type": "cluster_enriched",
+          "marker_polarity": "positive",
+          "source_locator": "Results, 'Macrophages differentially interact with neoplastic cell states'",
+          "source_context": "all macrophages expressed CD163, but two populations were discriminated by the additional high expression of either CD206 or CD68 (CD206 is encoded by MRC1)",
+          "model_evidence_type": "annotation_marker",
+          "guardrail_reason": "缺少作者 marker/注释措辞，降级为表达或富集上下文",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "Neuroblasts",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "Phox2b",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Isl1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Hand2",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Fibroblasts",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Fn1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Pdgfrb",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Col1a2",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Pecam1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Cdh5",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Vcam1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "Macrophages",
+      "subtype": null,
+      "species": "mouse",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "Cd68",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Grn",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        },
+        {
+          "gene": "Csf1",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "source_locator": "Fig. 5c legend",
+          "source_context": "Dotplot showing the normalized expression levels of marker genes and the percentages of cells expressing them for each annotated cell type",
+          "candidate_class": "formal_candidate"
+        }
+      ]
+    },
+    {
+      "cell_type": "neuroblastoma cell",
+      "subtype": null,
+      "species": "human",
+      "is_pns_cell": "true",
+      "markers": [
+        {
+          "gene": "PHOX2B",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.7a legend",
+          "source_context": "UMAP plots showing cells from monoculture and co-culture with THP-1 macrophages, colored by the normalized expression levels of PHOX2B and CD68 for the CHLA15 cell line.",
+          "candidate_class": "context_only"
+        }
+      ]
+    },
+    {
+      "cell_type": "macrophage",
+      "subtype": "THP-1",
+      "species": "human",
+      "is_pns_cell": "false",
+      "markers": [
+        {
+          "gene": "CD68",
+          "evidence_type": "model_inferred",
+          "marker_polarity": "positive",
+          "source_locator": "Fig.7a legend",
+          "source_context": "UMAP plots showing cells from monoculture and co-culture with THP-1 macrophages, colored by the normalized expression levels of PHOX2B and CD68 for the CHLA15 cell line.",
+          "candidate_class": "context_only"
+        }
+      ]
+    }
+  ],
+  "document_id": "DOI_10.1038_s41588-025-02158-6",
+  "document_role": "primary",
+  "source_markdown": "DOI_10.1038_s41588-025-02158-6.md"
+}
