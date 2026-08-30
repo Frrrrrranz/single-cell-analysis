@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+  "document_id": "DOI_10.1164_rccm.202207-1384oc",
+  "task_no": 6,
+  "source_markdown": "DOI_10.1164_rccm.202207-1384oc.md",
+  "article_identity": {
+    "title_original": "A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.",
+    "doi": "10.1164/rccm.202207-1384oc",
+    "pmid": "36796082",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "bronchus",
+      "tissue_source_normalized": "bronchus",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2|10x 3' v3",
+      "source_locator": "Markdown line 363",
+      "evidence_snippet": "TUBB4 Bronchus SCGB1A1 Bronchus pre-TB TB TB"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 239",
+      "evidence_snippet": "|     |     |     | IC    |       |     | C-s |      | NE, neuroendocrine     |     |                                |     | diohpmyL | T                          |     |     |",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "atsingle-cellresolution.Usingthisapproach, analyzedusingSeuratversion4(14),doublets",
+      "method_normalized": "doublet",
+      "software": "",
+      "software_version": "4",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 113",
+      "evidence_snippet": "atsingle-cellresolution.Usingthisapproach, analyzedusingSeuratversion4(14),doublets",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "Expression(normalizedlogUMI)",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 464",
+      "evidence_snippet": "Expression(normalizedlogUMI)",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "secretorycells(TASCs),auniqueepithelial removed,andcellclusterswereannotatedon",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 116",
+      "evidence_snippet": "secretorycells(TASCs),auniqueepithelial removed,andcellclusterswereannotatedon",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "Figure2.(Continued).differentiallyexpressedgenes(DEGs)identifiedbycomparingall(upper)terminalairway-enrichedsecretorycells",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 540",
+      "evidence_snippet": "Figure2.(Continued).differentiallyexpressedgenes(DEGs)identifiedbycomparingall(upper)terminalairway-enrichedsecretorycells",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "-logFDR g-GOBiologicalProcess",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR g-GOBiologicalProcess",
+      "multiple_testing": "-logFDR g-GOBiologicalProcess",
+      "source_locator": "Markdown line 690",
+      "evidence_snippet": "-logFDR g-GOBiologicalProcess",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "atsingle-cellresolution.Usingthisapproach, analyzedusingSeuratversion4(14),doublets",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "4",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 113",
+      "evidence_snippet": "atsingle-cellresolution.Usingthisapproach, analyzedusingSeuratversion4(14),doublets",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 22,
+    "context_only_count": 27,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1164_rccm.202207-1384oc_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1164_rccm.202207-1384oc_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 41",
+      "evidence_snippet": "Schwann cell"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 41",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    }
+  ]
+}

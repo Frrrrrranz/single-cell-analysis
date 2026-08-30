@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.64898_2025.12.18.695268",
+  "document_id": "DOI_10.64898_2025.12.18.695268",
+  "task_no": 21,
+  "source_markdown": "DOI_10.64898_2025.12.18.695268.md",
+  "article_identity": {
+    "title_original": "A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder",
+    "doi": "10.64898/2025.12.18.695268",
+    "pmid": "",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "dome of urinary bladder",
+      "tissue_source_normalized": "urinary bladder",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Markdown line 844",
+      "evidence_snippet": "32. D. Baker et al., A cellular reference resource for the mouse urinary bladder. BioRxiv,"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Schwann cell",
+      "cell_name_normalized": "Schwann cell",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "dome of urinary bladder",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 180",
+      "evidence_snippet": "(MMRN1+/TFF3+) types. Additional stromal populations included Schwann cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "schwann",
+      "cell_name_normalized": "schwann",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "dome of urinary bladder",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 180",
+      "evidence_snippet": "(MMRN1+/TFF3+) types. Additional stromal populations included Schwann cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "dome of urinary bladder",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 181",
+      "evidence_snippet": "(NRXN+/XKR4+) and adipocytes (FABP3+/ADIPOQ+). Immune cells, though less abundant (n =",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "enteroendocrine",
+      "cell_name_normalized": "enteroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "dome of urinary bladder",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 877",
+      "evidence_snippet": "Enteroendocrine Progenitors That Support",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "organ donors and processed immediately after procurement. After quality control, 74,694 high-",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 151",
+      "evidence_snippet": "organ donors and processed immediately after procurement. After quality control, 74,694 high-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "annotation, cross-study integration, and analyses of bladder physiology and disease.",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 72",
+      "evidence_snippet": "annotation, cross-study integration, and analyses of bladder physiology and disease.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "quality nuclei were retained across all regions (Fig. 1A; table S1). Unsupervised clustering",
+      "method_normalized": "clustering",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 152",
+      "evidence_snippet": "quality nuclei were retained across all regions (Fig. 1A; table S1). Unsupervised clustering",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "DEG; Fig. 2E, bottom). Across all comparisons, APA differences were more frequent between",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 261",
+      "evidence_snippet": "DEG; Fig. 2E, bottom). Across all comparisons, APA differences were more frequent between",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "0 (HHIP+/PTCH1+), consistent with known ligand-receptor distributions in this signaling",
+      "method_normalized": "ligand-receptor",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 298",
+      "evidence_snippet": "0 (HHIP+/PTCH1+), consistent with known ligand-receptor distributions in this signaling",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "monocytes due to low abundance), comprising 23,489 isoforms from 15,793 genes (table S3).",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 210",
+      "evidence_snippet": "monocytes due to low abundance), comprising 23,489 isoforms from 15,793 genes (table S3).",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "completed proportion tests using scProportionTest with false discovery correction for multiple",
+      "method_normalized": "false discovery",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "completed proportion tests using scProportionTest with false discovery correction for multiple",
+      "source_locator": "Markdown line 1490",
+      "evidence_snippet": "completed proportion tests using scProportionTest with false discovery correction for multiple",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "Seurat object and performed multimodal clustering. This analysis resolved nine fibroblast",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 479",
+      "evidence_snippet": "Seurat object and performed multimodal clustering. This analysis resolved nine fibroblast",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 23,
+    "context_only_count": 57,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.64898_2025.12.18.695268_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.64898_2025.12.18.695268_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

@@ -1,0 +1,80 @@
+{
+  "audit_version": 1,
+  "paper_id": "DOI_10.1016_j.isci.2024.111628",
+  "paper_status": "corrected",
+  "summary": "扫描 Markdown 后，目标 Schwann cell 的正式注释证据来自 Results 的 stromal 分类：作者以 CDH19+/NRXN+/XKR4+ 定义单一 Schwann cell cluster。CDH19 和 XKR4 可规范化纳入；NRXN 为 neurexin 家族名，无法唯一解析为具体基因，按规则标记为 unresolved，不进入总表。未发现其他目标细胞正式 Marker。",
+  "markers": [
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": true,
+      "original_symbol": "CDH19",
+      "normalized_symbol": "CDH19",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+      "source_context": "we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+      "decision": "include",
+      "reason": "作者用 CDH19+ 作为 Schwann cell cluster 的注释/定义 marker，物种为人，属任务目标范围，符号可唯一规范化。",
+      "citation_match_score": 0.875,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": true,
+      "original_symbol": "XKR4",
+      "normalized_symbol": "XKR4",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+      "source_context": "we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+      "decision": "include",
+      "reason": "作者用 XKR4+ 作为 Schwann cell cluster 的注释/定义 marker，物种为人，属任务目标范围，符号可唯一规范化。",
+      "citation_match_score": 0.875,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "Schwann cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": true,
+      "original_symbol": "NRXN",
+      "normalized_symbol": "NRXN",
+      "normalization_status": "ambiguous",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+      "source_context": "we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+      "decision": "unresolved",
+      "reason": "NRXN 是 neurexin 家族名，不是唯一基因符号（NRXN1/2/3），原文未提供具体基因，按规则不能 include，仅保留为 unresolved。",
+      "citation_match_score": 0.875,
+      "citation_verified": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "symbol",
+      "description": "NRXN 在原文中被列为 Schwann cell 阳性 marker，但 NRXN 无法唯一对应到 NRXN1、NRXN2 或 NRXN3，应视为 ambiguous/unresolved，不能纳入标准 Gene Symbol 总表。"
+    }
+  ],
+  "task": {
+    "task_no": 23,
+    "dataset_id": "CELLxGENE:2dd9d7a2-4bee-4c3f-a1f5-89bc3271c4f0",
+    "paper_title": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L2:Schwann cell",
+    "tissue": "urinary bladder",
+    "paper_id": "DOI_10.1016_j.isci.2024.111628"
+  },
+  "audit_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1016_j.isci.2024.111628.md",
+  "source_raw_json": "DOI_10.1016_j.isci.2024.111628_raw.json",
+  "source_markdown_sha256": "78e478f3b1f308158050744603fe3850b4fcac4baebd83acd6fdcd41ed561d0c",
+  "source_raw_sha256": "6d12d883c5ccd59a07624e4527f6310a7d151eadf07cc2f3de16236b6d335269"
+}

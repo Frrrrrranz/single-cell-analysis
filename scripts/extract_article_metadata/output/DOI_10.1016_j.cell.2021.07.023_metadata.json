@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+  "document_id": "DOI_10.1016_j.cell.2021.07.023",
+  "task_no": 20,
+  "source_markdown": "DOI_10.1016_j.cell.2021.07.023.md",
+  "article_identity": {
+    "title_original": "Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19.",
+    "doi": "10.1016/j.cell.2021.07.023",
+    "pmid": "34352228",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "nasopharynx",
+      "tissue_source_normalized": "nasopharynx",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "Seq-Well S3",
+      "source_locator": "Markdown line 72",
+      "evidence_snippet": "lated upper respiratory symptoms, suggesting potential to constrain viral pathology to the nasopharynx."
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Enteroendocrine cell",
+      "cell_name_normalized": "Enteroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "nasopharynx",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 1557",
+      "evidence_snippet": "noids Enables Differentiation of Hormone-Producing Enteroendocrine Cells.",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "nasopharynx",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 657",
+      "evidence_snippet": "immune cells, macrophages markedly increase in abundance",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "enteroendocrine",
+      "cell_name_normalized": "enteroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "nasopharynx",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 1557",
+      "evidence_snippet": "noids Enables Differentiation of Hormone-Producing Enteroendocrine Cells.",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "B Data Preprocessing and Quality Control",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1442",
+      "evidence_snippet": "B Data Preprocessing and Quality Control",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "(J) Proportion of secretory cell subtypes by sample, normalized to all epithelial cells. Statistical test above graph represents Kruskal-Wallis test results across all",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 600",
+      "evidence_snippet": "(J) Proportion of secretory cell subtypes by sample, normalized to all epithelial cells. Statistical test above graph represents Kruskal-Wallis test results across all",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "control) and annotated 18 clusters corresponding to distinct",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 236",
+      "evidence_snippet": "control) and annotated 18 clusters corresponding to distinct",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "differential expression (DE) tests between control WHO 0,",
+      "method_normalized": "differential expression",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 681",
+      "evidence_snippet": "differential expression (DE) tests between control WHO 0,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "applied single-cell RNA velocity (scVelo), which leverages RNA",
+      "method_normalized": "RNA velocity",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 525",
+      "evidence_snippet": "applied single-cell RNA velocity (scVelo), which leverages RNA",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "Continuous variables were compared by Kruskal-Wallis test. Categorical variables were compared by chi-square test. ***p < 0.001, *p < 0.05, other-",
+      "method_normalized": "chi-square",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 408",
+      "evidence_snippet": "Continuous variables were compared by Kruskal-Wallis test. Categorical variables were compared by chi-square test. ***p < 0.001, *p < 0.05, other-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "(F) Violin plots of cluster marker genes (FDR < 0.01) for coarse cell type annotations (as in B).",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR < 0",
+      "multiple_testing": "(F) Violin plots of cluster marker genes (FDR < 0.01) for coarse cell type annotations (as in B).",
+      "source_locator": "Markdown line 436",
+      "evidence_snippet": "(F) Violin plots of cluster marker genes (FDR < 0.01) for coarse cell type annotations (as in B).",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "applied single-cell RNA velocity (scVelo), which leverages RNA",
+      "method_normalized": "scVelo",
+      "software": "scVelo",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 525",
+      "evidence_snippet": "applied single-cell RNA velocity (scVelo), which leverages RNA",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "需补证据/重提取",
+    "formal_candidate_count": 103,
+    "context_only_count": 84,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.cell.2021.07.023_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.cell.2021.07.023_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

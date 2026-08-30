@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41586-024-07069-w",
+  "document_id": "DOI_10.1038_s41586-024-07069-w",
+  "task_no": 42,
+  "source_markdown": "DOI_10.1038_s41586-024-07069-w.md",
+  "article_identity": {
+    "title_original": "A single-cell time-lapse of mouse prenatal development from gastrula to birth.",
+    "doi": "10.1038/s41586-024-07069-w",
+    "pmid": "38355799",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "embryo",
+      "tissue_source_normalized": "embryo",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "sci-RNA-seq3",
+      "source_locator": "Markdown line 17",
+      "evidence_snippet": "states of 12.4 million nuclei from 83 embryos, precisely staged at 2- to 6-hour intervals"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Enteric neuron",
+      "cell_name_normalized": "Enteric neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2257",
+      "evidence_snippet": "121 - Enteric neurons",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Parasympathetic neuron",
+      "cell_name_normalized": "Parasympathetic neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2261",
+      "evidence_snippet": "125 - Parasympathetic neurons",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Peripheral nervous system neuron",
+      "cell_name_normalized": "Peripheral nervous system neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 261",
+      "evidence_snippet": "Neural crest (PNS neurons)",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Sensory neuron (DRG)",
+      "cell_name_normalized": "Sensory neuron (DRG)",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 279",
+      "evidence_snippet": "Olfactory sensory neurons",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Sympathetic neuron",
+      "cell_name_normalized": "Sympathetic neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2261",
+      "evidence_snippet": "125 - Parasympathetic neurons",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Schwann cell precursor",
+      "cell_name_normalized": "Schwann cell precursor",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2250",
+      "evidence_snippet": "114 - Myelinating Schwann cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Myelinating Schwann cell",
+      "cell_name_normalized": "Myelinating Schwann cell",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2250",
+      "evidence_snippet": "114 - Myelinating Schwann cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Satellite glial cell",
+      "cell_name_normalized": "Satellite glial cell",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2254",
+      "evidence_snippet": "118 - Satellite glial cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Intestinal enteroendocrine cell",
+      "cell_name_normalized": "Intestinal enteroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2236",
+      "evidence_snippet": "100 - Intestinal enteroendocrine cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "schwann",
+      "cell_name_normalized": "schwann",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2250",
+      "evidence_snippet": "114 - Myelinating Schwann cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "satellite glia",
+      "cell_name_normalized": "satellite glia",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2254",
+      "evidence_snippet": "118 - Satellite glial cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2217",
+      "evidence_snippet": "81 - Amacrine cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "enteroendocrine",
+      "cell_name_normalized": "enteroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 2236",
+      "evidence_snippet": "100 - Intestinal enteroendocrine cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "sensory neuron",
+      "cell_name_normalized": "sensory neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "embryo",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 279",
+      "evidence_snippet": "Olfactory sensory neurons",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "Following aggressive filtering of low-quality nuclei and potential dou-",
+      "method_normalized": "low-quality",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 98",
+      "evidence_snippet": "Following aggressive filtering of low-quality nuclei and potential dou-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "between top three principal components and the normalized expression of",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 674",
+      "evidence_snippet": "between top three principal components and the normalized expression of",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "grated (Extended Data Fig. 2g–i). Furthermore, principal component",
+      "method_normalized": "principal component",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 111",
+      "evidence_snippet": "grated (Extended Data Fig. 2g–i). Furthermore, principal component",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "Extended Data Fig. 11i,j). Next, we identified differentially expressed",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 2426",
+      "evidence_snippet": "Extended Data Fig. 11i,j). Next, we identified differentially expressed",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "within a morphogenetic trajectory and the dynamic progression of",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 81",
+      "evidence_snippet": "within a morphogenetic trajectory and the dynamic progression of",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "major clusters was somewhat arbitrary and affected by abundance. To",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 136",
+      "evidence_snippet": "major clusters was somewhat arbitrary and affected by abundance. To",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "mean + 1 × s.d. of all the correlation coefficients, and false discovery",
+      "method_normalized": "false discovery",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "mean + 1 × s.d. of all the correlation coefficients, and false discovery",
+      "source_locator": "Markdown line 3445",
+      "evidence_snippet": "mean + 1 × s.d. of all the correlation coefficients, and false discovery",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "To get our bearings, we used Scanpy20 to generate a global embedding",
+      "method_normalized": "Scanpy",
+      "software": "Scanpy",
+      "software_version": "20",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 127",
+      "evidence_snippet": "To get our bearings, we used Scanpy20 to generate a global embedding",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 45,
+    "context_only_count": 99,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-024-07069-w_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-024-07069-w_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Efferent neuron",
+      "source_locator": "Task table: 我方Marker文章 row 86",
+      "evidence_snippet": "Efferent neuron"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41588-022-01243-4",
+  "document_id": "DOI_10.1038_s41588-022-01243-4",
+  "task_no": 5,
+  "source_markdown": "DOI_10.1038_s41588-022-01243-4.md",
+  "article_identity": {
+    "title_original": "A spatially resolved atlas of the human lung characterizes a gland-associated immune niche.",
+    "doi": "10.1038/s41588-022-01243-4",
+    "pmid": "36543915",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "bronchus",
+      "tissue_source_normalized": "bronchus",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2|10x 3' v3|10x 5' transcription profiling",
+      "source_locator": "Markdown line 57",
+      "evidence_snippet": "airways, allowing characterization of cell types along the proximal to cells were mapped to rare immune infiltrates in the bronchus with"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Myelinating Schwann cell",
+      "cell_name_normalized": "Myelinating Schwann cell",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 103",
+      "evidence_snippet": "Highlighting our comprehensive approach, we transcriptionally eral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP,",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Non-myelinating Schwann cell",
+      "cell_name_normalized": "Non-myelinating Schwann cell",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 103",
+      "evidence_snippet": "Highlighting our comprehensive approach, we transcriptionally eral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP,",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "Neuroendocrine cell",
+      "cell_name_normalized": "Neuroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 455",
+      "evidence_snippet": "cells (Extended Data Fig. 7m)43. Overall, we define immune cells of the human lung and airway with",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "schwann",
+      "cell_name_normalized": "schwann",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 103",
+      "evidence_snippet": "Highlighting our comprehensive approach, we transcriptionally eral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP,",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 455",
+      "evidence_snippet": "cells (Extended Data Fig. 7m)43. Overall, we define immune cells of the human lung and airway with",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "sensory neuron",
+      "cell_name_normalized": "sensory neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 886",
+      "evidence_snippet": "technologies and insights into tissue architecture. Biochem. J. peripheral sensory neuron subtypes after axonal injury. Neuron",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "sympathetic neuron",
+      "cell_name_normalized": "sympathetic neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "bronchus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 945",
+      "evidence_snippet": "46. Pirzgalska, R. M. et al. Sympathetic neuron-associated receptor CCR10 in IgA antibody-secreting cell accumulation. J.",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "filtered nuclei subjected to QC filters, pass QC nuclei were processed tive to distinctly separate mucous-only glands, as the transcripts from",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1134",
+      "evidence_snippet": "filtered nuclei subjected to QC filters, pass QC nuclei were processed tive to distinctly separate mucous-only glands, as the transcripts from",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "lungcellatlas.org). Using computational data integration and analysis,",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 32",
+      "evidence_snippet": "lungcellatlas.org). Using computational data integration and analysis,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "variance) on gene expression (Extended Data Fig. 1c). identified the following four new clusters relating to airway periph-",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 102",
+      "evidence_snippet": "variance) on gene expression (Extended Data Fig. 1c). identified the following four new clusters relating to airway periph-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "suspension and spatial gene expression analysis, as well as automated its newly defined marker genes, this population can also be detected in",
+      "method_normalized": "gene expression analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 66",
+      "evidence_snippet": "suspension and spatial gene expression analysis, as well as automated its newly defined marker genes, this population can also be detected in",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "cell types mapped to their known locations such as ciliated epithelial in PC-fibros, placing these as an intermediate cell type in a trajectory",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 94",
+      "evidence_snippet": "cell types mapped to their known locations such as ciliated epithelial in PC-fibros, placing these as an intermediate cell type in a trajectory",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "types from suspension data in which abundance could explain the supporting cell2location mapping of PC-fibro (Fig. 2g). We identified",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 92",
+      "evidence_snippet": "types from suspension data in which abundance could explain the supporting cell2location mapping of PC-fibro (Fig. 2g). We identified",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "clustering reveals 11 fibroblast populations in airways and lungs on UMAP,  types are marked in red (Wald test, BH multiple testing correction over 76 cell",
+      "method_normalized": "multiple testing",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "clustering reveals 11 fibroblast populations in airways and lungs on UMAP,  types are marked in red (Wald test, BH multiple testing correction over 76 cell",
+      "source_locator": "Markdown line 308",
+      "evidence_snippet": "clustering reveals 11 fibroblast populations in airways and lungs on UMAP,  types are marked in red (Wald test, BH multiple testing correction over 76 cell",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "gene expression libraries were mapped with Cell Ranger 3.0.2, and The model was trained until convergence (40,000 iterations).",
+      "method_normalized": "Cell Ranger",
+      "software": "Cell Ranger",
+      "software_version": "3.0.2",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1120",
+      "evidence_snippet": "gene expression libraries were mapped with Cell Ranger 3.0.2, and The model was trained until convergence (40,000 iterations).",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 46,
+    "context_only_count": 43,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41588-022-01243-4_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41588-022-01243-4_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41586-020-2496-1",
+  "document_id": "DOI_10.1038_s41586-020-2496-1",
+  "task_no": 43,
+  "source_markdown": "DOI_10.1038_s41586-020-2496-1.md",
+  "article_identity": {
+    "title_original": "A single-cell transcriptomic atlas characterizes ageing tissues in the mouse.",
+    "doi": "10.1038/s41586-020-2496-1",
+    "pmid": "32669714",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "adipose tissue",
+      "tissue_source_normalized": "adipose tissue",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "10x 3' v2",
+      "source_locator": "Markdown line 777",
+      "evidence_snippet": "with 20 ml PBS. Mesenteric adipose tissue was then immediately collected to avoid"
+    }
+  ],
+  "neural_cells": [],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "for FACS and 245,389 cells for droplet passed our strict filtering criteria (Extended Data",
+      "method_normalized": "filtering",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 256",
+      "evidence_snippet": "for FACS and 245,389 cells for droplet passed our strict filtering criteria (Extended Data",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "(Supplementary Table 3). Following batch correction, we clustered all cells using an",
+      "method_normalized": "batch correction",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 261",
+      "evidence_snippet": "(Supplementary Table 3). Following batch correction, we clustered all cells using an",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "(Supplementary Table 3). Following batch correction, we clustered all cells using an",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 261",
+      "evidence_snippet": "(Supplementary Table 3). Following batch correction, we clustered all cells using an",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "genes associated with degenerative disease (e.g. Fth1)47,48. When contrasting with clusters 1",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 656",
+      "evidence_snippet": "genes associated with degenerative disease (e.g. Fth1)47,48. When contrasting with clusters 1",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "majority of cells in clusters 10, 12 and 14 (Figure 4d). Trajectory analysis suggests that",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 651",
+      "evidence_snippet": "majority of cells in clusters 10, 12 and 14 (Figure 4d). Trajectory analysis suggests that",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "Age-dependent changes in the kidney include a decrease in the relative abundance of",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 393",
+      "evidence_snippet": "Age-dependent changes in the kidney include a decrease in the relative abundance of",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "sex and technology. We applied a false-discovery rate (FDR) threshold of 0.01 and an age",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR) threshold of 0",
+      "multiple_testing": "sex and technology. We applied a false-discovery rate (FDR) threshold of 0.01 and an age",
+      "source_locator": "Markdown line 1116",
+      "evidence_snippet": "sex and technology. We applied a false-discovery rate (FDR) threshold of 0.01 and an age",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "Gene count tables were combined with the metadata variables using the Scanpy55 Python",
+      "method_normalized": "Scanpy",
+      "software": "Scanpy",
+      "software_version": "55",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 999",
+      "evidence_snippet": "Gene count tables were combined with the metadata variables using the Scanpy55 Python",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 4,
+    "context_only_count": 35,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-020-2496-1_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-020-2496-1_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Cardiac neuron",
+      "source_locator": "Task table: 我方Marker文章 row 87",
+      "evidence_snippet": "Cardiac neuron"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 87",
+      "evidence_snippet": "Schwann cell"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 87",
+      "evidence_snippet": "Neuroendocrine cell"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 87",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    }
+  ]
+}

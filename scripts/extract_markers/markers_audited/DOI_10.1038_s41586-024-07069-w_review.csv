@@ -1,0 +1,2 @@
+﻿paper_id,task_no,paper_status,cell_type,subtype,species,in_project_scope,original_symbol,normalized_symbol,normalization_status,evidence_type,marker_polarity,source_locator,source_context,citation_match_score,citation_verified,decision,reason
+DOI_10.1038_s41586-024-07069-w,42,corrected,Myelinating Schwann cells (Tgfb2+),,mouse,true,Tgfb2,Tgfb2,exact,annotation_marker,positive,"Fig. 5g legend, node 115",115 - Myelinating Schwann cells (Tgfb2+),1.0,True,include,作者在 Fig. 5g 的细胞类型树节点中以 Tgfb2+ 命名/注释 Myelinating Schwann cells，属于正式 annotation_marker；该细胞类型在目标范围 L2，且物种为小鼠。

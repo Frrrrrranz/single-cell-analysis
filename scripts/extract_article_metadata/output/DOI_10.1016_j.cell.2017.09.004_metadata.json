@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+  "document_id": "DOI_10.1016_j.cell.2017.09.004",
+  "task_no": 28,
+  "source_markdown": "DOI_10.1016_j.cell.2017.09.004.md",
+  "article_identity": {
+    "title_original": "Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns.",
+    "doi": "10.1016/j.cell.2017.09.004",
+    "pmid": "28965763",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "islet of Langerhans",
+      "tissue_source_normalized": "pancreatic islet",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "Smart-seq2",
+      "source_locator": "Markdown line 434",
+      "evidence_snippet": "Pancreatic islet cells are sensitive to reactive oxygen species"
+    }
+  ],
+  "neural_cells": [],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "mated quality control pipeline (see STAR Methods for details). (FiguresS1AandS1B;TablesS2andS3).Frominvestigationson",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 127",
+      "evidence_snippet": "mated quality control pipeline (see STAR Methods for details). (FiguresS1AandS1B;TablesS2andS3).Frominvestigationson",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "normalizedintologtransformedcountspermillion(CPM),byapplyingtheformulalog2(c *1000000/tc +1,wherec isthetran-",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 778",
+      "evidence_snippet": "normalizedintologtransformedcountspermillion(CPM),byapplyingtheformulalog2(c *1000000/tc +1,wherec isthetran-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "led to consistent clustering of different cell types into distinct haspreviouslybeensuggestedthatagingistheresultofanin-",
+      "method_normalized": "clustering",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 129",
+      "evidence_snippet": "led to consistent clustering of different cell types into distinct haspreviouslybeensuggestedthatagingistheresultofanin-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "EndocrineCellsDisplayaSpecificMutationalSignature excludedsignatureswithahighdegreeofsimilaritytothesubsti-",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 253",
+      "evidence_snippet": "EndocrineCellsDisplayaSpecificMutationalSignature excludedsignatureswithahighdegreeofsimilaritytothesubsti-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Mesirov, J.P. (2005). Gene set enrichment analysis: a knowledge-based phy,A.J.,Yancopoulos,G.D.,etal.(2016).UseofthefluidigmC1platformfor",
+      "method_normalized": "gene set enrichment",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 578",
+      "evidence_snippet": "Mesirov, J.P. (2005). Gene set enrichment analysis: a knowledge-based phy,A.J.,Yancopoulos,G.D.,etal.(2016).UseofthefluidigmC1platformfor",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "with transcript abundance expressed as counts per million however, overall we observed only modest systematic age-",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 125",
+      "evidence_snippet": "with transcript abundance expressed as counts per million however, overall we observed only modest systematic age-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "cient,withFDR<1E-3.Heatmapshowsloessfit.",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR<1E-3",
+      "multiple_testing": "cient,withFDR<1E-3.Heatmapshowsloessfit.",
+      "source_locator": "Markdown line 151",
+      "evidence_snippet": "cient,withFDR<1E-3.Heatmapshowsloessfit.",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 2,
+    "context_only_count": 0,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.cell.2017.09.004_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.cell.2017.09.004_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Type D enteroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 63",
+      "evidence_snippet": "Type D enteroendocrine cell"
+    }
+  ]
+}

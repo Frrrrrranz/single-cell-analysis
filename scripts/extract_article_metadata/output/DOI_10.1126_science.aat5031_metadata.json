@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1126_science.aat5031",
+  "document_id": "DOI_10.1126_science.aat5031",
+  "task_no": 22,
+  "source_markdown": "DOI_10.1126_science.aat5031.md",
+  "article_identity": {
+    "title_original": "Spatiotemporal immune zonation of the human kidney.",
+    "doi": "10.1126/science.aat5031",
+    "pmid": "31604275",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "kidney",
+      "tissue_source_normalized": "kidney",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2",
+      "source_locator": "Markdown line 79",
+      "evidence_snippet": "Spatio-temporal immune zonation of the human kidney"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "kidney",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 215; section These authors contributed equally to this work.",
+      "evidence_snippet": "Tissue-resident immune cells are important for organ homeostasis and defense. The epithelium",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "droplets from mature kidneys, yielding 40,268 cells following rigorous quality control, as",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 245; section These authors contributed equally to this work.",
+      "evidence_snippet": "droplets from mature kidneys, yielding 40,268 cells following rigorous quality control, as",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "29. McCarthy DJ, Campbell KR, Lun A, W Q. Scater: pre-processing, quality control, normalization",
+      "method_normalized": "normalization",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1154; section These authors contributed equally to this work.",
+      "evidence_snippet": "29. McCarthy DJ, Campbell KR, Lun A, W Q. Scater: pre-processing, quality control, normalization",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "component analysis and identified clusters that were manually curated into four major",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 247; section These authors contributed equally to this work.",
+      "evidence_snippet": "component analysis and identified clusters that were manually curated into four major",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "To validate the differential expression and functional significance of these AMPs in kidney",
+      "method_normalized": "differential expression",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 469; section These authors contributed equally to this work.",
+      "evidence_snippet": "To validate the differential expression and functional significance of these AMPs in kidney",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "clusters expressed MRC1, C1QC, CD163, and MAF (Figs. 3C, S16D). Trajectory analysis",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 707; section These authors contributed equally to this work.",
+      "evidence_snippet": "clusters expressed MRC1, C1QC, CD163, and MAF (Figs. 3C, S16D). Trajectory analysis",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "permutation p value (CellPhoneDB). Color indicates the scaled mean expression level of",
+      "method_normalized": "CellPhoneDB",
+      "software": "CellPhoneDB",
+      "software_version": "",
+      "threshold": "p value (CellPhoneDB)",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 2083; section These authors contributed equally to this work.",
+      "evidence_snippet": "permutation p value (CellPhoneDB). Color indicates the scaled mean expression level of",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 4,
+    "context_only_count": 39,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1126_science.aat5031_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1126_science.aat5031_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "statistical_method_not_reported_or_not_located",
+      "severity": "info",
+      "field": "statistics_methods",
+      "description": "未在 Markdown 中定位到单细胞分析阶段：multiple_testing",
+      "source_locator": "",
+      "evidence_snippet": ""
+    }
+  ]
+}

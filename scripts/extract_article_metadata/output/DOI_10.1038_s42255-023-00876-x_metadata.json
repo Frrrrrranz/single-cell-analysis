@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s42255-023-00876-x",
+  "document_id": "DOI_10.1038_s42255-023-00876-x",
+  "task_no": 41,
+  "source_markdown": "DOI_10.1038_s42255-023-00876-x.md",
+  "article_identity": {
+    "title_original": "Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas.",
+    "doi": "10.1038/s42255-023-00876-x",
+    "pmid": "37697055",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "islet of Langerhans",
+      "tissue_source_normalized": "pancreatic islet",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "10x 3' v2|10x 3' v3",
+      "source_locator": "Markdown line 11",
+      "evidence_snippet": "Although multiple pancreatic islet single-cell RNA-sequencing (scRNA-seq)"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Schwann cell",
+      "cell_name_normalized": "Schwann cell",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "islet of Langerhans",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 121",
+      "evidence_snippet": "To circumvent this, multiple scRNA-seq data analysis and integra- annotation48. For example, we found that Schwann cells (617 out of",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "schwann",
+      "cell_name_normalized": "schwann",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "islet of Langerhans",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 121",
+      "evidence_snippet": "To circumvent this, multiple scRNA-seq data analysis and integra- annotation48. For example, we found that Schwann cells (617 out of",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "islet of Langerhans",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 214",
+      "evidence_snippet": "One of the key questions in islet biology is when and how endocrine cells we aimed to use MIA to comprehensively describe β-cell states along-",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "responding human datasets44–46. While previous efforts have been nical artifacts that colocalized across datasets, namely a low-quality",
+      "method_normalized": "low-quality",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 129",
+      "evidence_snippet": "responding human datasets44–46. While previous efforts have been nical artifacts that colocalized across datasets, namely a low-quality",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "between batch correction and biological preservation on the level of markers (Ttr in α-cells and Rbp4 in δ-cells) with immunohistochemistry",
+      "method_normalized": "batch correction",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 174",
+      "evidence_snippet": "between batch correction and biological preservation on the level of markers (Ttr in α-cells and Rbp4 in δ-cells) with immunohistochemistry",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "of unknown environmental factors26,32,35,38,39. Such complexity cannot Note 1. The integrated atlas shows clear separation into clusters that",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 113",
+      "evidence_snippet": "of unknown environmental factors26,32,35,38,39. Such complexity cannot Note 1. The integrated atlas shows clear separation into clusters that",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "(LIMES) Institute, University of Bonn, Bonn, Germany. 8Systems Medicine, Deutsches Zentrum für Neurodegenerative Erkrankungen (DZNE), Bonn,",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 42",
+      "evidence_snippet": "(LIMES) Institute, University of Bonn, Bonn, Germany. 8Systems Medicine, Deutsches Zentrum für Neurodegenerative Erkrankungen (DZNE), Bonn,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "els along a healthy–dysfunctional trajectory (Extended Data Fig. 10a across diabetes models. In contrast, some gene groups were conversely",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 730",
+      "evidence_snippet": "els along a healthy–dysfunctional trajectory (Extended Data Fig. 10a across diabetes models. In contrast, some gene groups were conversely",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "the sample with the largest cell proportion localizing in this state rather than T1D and the identification of molecular pathways involved",
+      "method_normalized": "cell proportion",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 936",
+      "evidence_snippet": "the sample with the largest cell proportion localizing in this state rather than T1D and the identification of molecular pathways involved",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "fied based on low expression and high empty droplet probability and selected based on a false discovery rate (FDR) <0.05 and log fold change",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR) <0",
+      "multiple_testing": "fied based on low expression and high empty droplet probability and selected based on a false discovery rate (FDR) <0.05 and log fold change",
+      "source_locator": "Markdown line 1152",
+      "evidence_snippet": "fied based on low expression and high empty droplet probability and selected based on a false discovery rate (FDR) <0.05 and log fold change",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "ses (https://github.com/theislab/mouse_cross-condition_pancre- with Scanpy (v.1.6–1.8.1)153, except where noted elsewhere.",
+      "method_normalized": "Scanpy",
+      "software": "Scanpy",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1010",
+      "evidence_snippet": "ses (https://github.com/theislab/mouse_cross-condition_pancre- with Scanpy (v.1.6–1.8.1)153, except where noted elsewhere.",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 48,
+    "context_only_count": 35,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s42255-023-00876-x_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s42255-023-00876-x_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

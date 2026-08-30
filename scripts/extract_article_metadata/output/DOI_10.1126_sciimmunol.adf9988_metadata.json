@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+  "document_id": "DOI_10.1126_sciimmunol.adf9988",
+  "task_no": 13,
+  "source_markdown": "DOI_10.1126_sciimmunol.adf9988.md",
+  "article_identity": {
+    "title_original": "Early human lung immune cell development and its role in epithelial cell fate.",
+    "doi": "10.1126/sciimmunol.adf9988",
+    "pmid": "38100545",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 5' transcription profiling",
+      "source_locator": "Markdown line 79",
+      "evidence_snippet": "Early human lung immune cell development and its role in"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 174",
+      "evidence_snippet": "and function, but much less is known about the developing lung immune cells, although the",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "protein measurement, with quality control metrics given in Fig S2A,B. We also performed",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 489",
+      "evidence_snippet": "protein measurement, with quality control metrics given in Fig S2A,B. We also performed",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "We annotated and curated the clusters of the single-cell transcriptomic profiles across all",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 500",
+      "evidence_snippet": "We annotated and curated the clusters of the single-cell transcriptomic profiles across all",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "developmental stages. Lung ILCPs and intermediate NK cells differentially expressed genes",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 985",
+      "evidence_snippet": "developmental stages. Lung ILCPs and intermediate NK cells differentially expressed genes",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Data File S4). Trajectory analysis (Fig 3B) showed a linear trend that was consistent with",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 731",
+      "evidence_snippet": "Data File S4). Trajectory analysis (Fig 3B) showed a linear trend that was consistent with",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "significant increase in abundance of total T cells (CD3+), CD4+, CD8+ and regulatory T",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 600",
+      "evidence_snippet": "significant increase in abundance of total T cells (CD3+), CD4+, CD8+ and regulatory T",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "different lung cell type clusters. Only differential abundance neighborhoods at SpatialFDR",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR",
+      "multiple_testing": "different lung cell type clusters. Only differential abundance neighborhoods at SpatialFDR",
+      "source_locator": "Markdown line 3811; section MR/R006237/1) Human Developmental Biology Resource (www.hdbr.org), approved",
+      "evidence_snippet": "different lung cell type clusters. Only differential abundance neighborhoods at SpatialFDR",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "with an implementation of EmptyDrops extracted from Cell Ranger 3.0.2 (distributed as",
+      "method_normalized": "Cell Ranger",
+      "software": "Cell Ranger",
+      "software_version": "3.0.2",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1976; section MR/R006237/1) Human Developmental Biology Resource (www.hdbr.org), approved",
+      "evidence_snippet": "with an implementation of EmptyDrops extracted from Cell Ranger 3.0.2 (distributed as",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 21,
+    "context_only_count": 73,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1126_sciimmunol.adf9988_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1126_sciimmunol.adf9988_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 48",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    },
+    {
+      "issue_type": "statistical_method_not_reported_or_not_located",
+      "severity": "info",
+      "field": "statistics_methods",
+      "description": "未在 Markdown 中定位到单细胞分析阶段：normalization_integration",
+      "source_locator": "",
+      "evidence_snippet": ""
+    }
+  ]
+}

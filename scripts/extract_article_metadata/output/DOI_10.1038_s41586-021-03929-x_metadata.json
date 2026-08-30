@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41586-021-03929-x",
+  "document_id": "DOI_10.1038_s41586-021-03929-x",
+  "task_no": 32,
+  "source_markdown": "DOI_10.1038_s41586-021-03929-x.md",
+  "article_identity": {
+    "title_original": "Blood and immune development in human fetal bone marrow and Down syndrome.",
+    "doi": "10.1038/s41586-021-03929-x",
+    "pmid": "34588693",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "bone marrow",
+      "tissue_source_normalized": "bone marrow",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2|10x 5' v1",
+      "source_locator": "Markdown line 20",
+      "evidence_snippet": "Haematopoiesis in the bone marrow (BM) maintains blood and immune cell"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "bone marrow",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 138",
+      "evidence_snippet": "Between 12 and 19 PCW, the ratio of blood and immune cells to stromal  graph (FDG) embedding, monocyte and neutrophil signatures diverged",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "From 115,993 FBM scRNA-seq cells, 103,228 passed quality control,  ogy and prospective FACS isolation for scRNA-seq (Smart-seq2) (Fig. 1f,",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 132",
+      "evidence_snippet": "From 115,993 FBM scRNA-seq cells, 103,228 passed quality control,  ogy and prospective FACS isolation for scRNA-seq (Smart-seq2) (Fig. 1f,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "log-transformed, normalized and scaled gene expression value. Dot size  dance between the two conditions). NS, not significant. e, Heat map visualizing",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 107",
+      "evidence_snippet": "log-transformed, normalized and scaled gene expression value. Dot size  dance between the two conditions). NS, not significant. e, Heat map visualizing",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "| UMAP1 |     |     |     | 100 |     |     |     |     |     |     |     |",
+      "method_normalized": "UMAP",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 77",
+      "evidence_snippet": "| UMAP1 |     |     |     | 100 |     |     |     |     |     |     |     |",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "|              | Neutrophil |     |     |     | DEG  score Eosinophil |          |     |     | lihportueN |                |     |",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 93",
+      "evidence_snippet": "|              | Neutrophil |     |     |     | DEG  score Eosinophil |          |     |     | lihportueN |                |     |",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "ferentiation pseudotime in Down syndrome (Monocle 3), an increase  IT G A 6 CD49f C D 3 4",
+      "method_normalized": "pseudotime",
+      "software": "",
+      "software_version": "3",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 248",
+      "evidence_snippet": "ferentiation pseudotime in Down syndrome (Monocle 3), an increase  IT G A 6 CD49f C D 3 4",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "Abundance of cell-type",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 79",
+      "evidence_snippet": "Abundance of cell-type",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "MK, megakaryocyte. b, Gene expression dot plot of cell-state-defining genes  for multiple testing with a false discovery rate of greater than 10%) estimated",
+      "method_normalized": "multiple testing",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "MK, megakaryocyte. b, Gene expression dot plot of cell-state-defining genes  for multiple testing with a false discovery rate of greater than 10%) estimated",
+      "source_locator": "Markdown line 105",
+      "evidence_snippet": "MK, megakaryocyte. b, Gene expression dot plot of cell-state-defining genes  for multiple testing with a false discovery rate of greater than 10%) estimated",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "pro-B and immature B cells, consistent with fetal liver data in Down  neutrophil differentiation (inferred by Monocle 3), genes associated",
+      "method_normalized": "Monocle",
+      "software": "Monocle",
+      "software_version": "3",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 143",
+      "evidence_snippet": "pro-B and immature B cells, consistent with fetal liver data in Down  neutrophil differentiation (inferred by Monocle 3), genes associated",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 3,
+    "context_only_count": 45,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-021-03929-x_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-021-03929-x_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 69",
+      "evidence_snippet": "Schwann cell"
+    }
+  ]
+}

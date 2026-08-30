@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41586-021-03710-0",
+  "document_id": "DOI_10.1038_s41586-021-03710-0",
+  "task_no": 1,
+  "source_markdown": "DOI_10.1038_s41586-021-03710-0.md",
+  "article_identity": {
+    "title_original": "Dysregulation of brain and choroid plexus cell types in severe COVID-19.",
+    "doi": "10.1038/s41586-021-03710-0",
+    "pmid": "34153974",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "choroid plexus",
+      "tissue_source_normalized": "choroid plexus",
+      "sample_context": "fetal/developmental; organoid; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Markdown line 17",
+      "evidence_snippet": "transcriptomes from 30 frontal cortex and choroid plexus samples across 14 control"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "choroid plexus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 345",
+      "evidence_snippet": "associated microglia. a, UMAP of immune cells captured in the human frontal  trajectory (Methods) indicated in graded purple (low) to yellow (high), plotting",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neural cells",
+      "cell_name_normalized": "neural cells",
+      "cell_category": "other_neural",
+      "pns_level": "NA",
+      "tissue": "choroid plexus",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 591",
+      "evidence_snippet": "20. Jacob, F. et al. Human pluripotent stem cell-derived neural cells and brain organoids neocortical layer 2/3. Neuron 78, 28–48 (2013).",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "|     |     |     |     |     |     | 2.5 | P2RY12 |     |     | C1QC |",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 293",
+      "evidence_snippet": "|     |     |     |     |     |     | 2.5 | P2RY12 |     |     | C1QC |",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "those of IFITM3 (NQO1), to assess the robustness of snRNA-seq thresholds.   Circles and edges are normalized to the number of cells for a given cell type and",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "thresholds",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 258",
+      "evidence_snippet": "those of IFITM3 (NQO1), to assess the robustness of snRNA-seq thresholds.   Circles and edges are normalized to the number of cells for a given cell type and",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "UMAP 1",
+      "method_normalized": "UMAP",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 129",
+      "evidence_snippet": "UMAP 1",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "states that have previously been reported in human neurodegenerative disease4–6.",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 24",
+      "evidence_snippet": "states that have previously been reported in human neurodegenerative disease4–6.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "|     |     |     | sllec enummi fo tnec reP 2.5 |     |     | 100 |     |     |     | Pseudotime |",
+      "method_normalized": "pseudotime",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 310",
+      "evidence_snippet": "|     |     |     | sllec enummi fo tnec reP 2.5 |     |     | 100 |     |     |     | Pseudotime |",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "change > 0.25 (absolute value) and adjusted P value < 0.05 (Bonferroni limitans brain-barrier cells.",
+      "method_normalized": "Bonferroni",
+      "software": "",
+      "software_version": "",
+      "threshold": "adjusted P value < 0",
+      "multiple_testing": "change > 0.25 (absolute value) and adjusted P value < 0.05 (Bonferroni limitans brain-barrier cells.",
+      "source_locator": "Markdown line 188",
+      "evidence_snippet": "change > 0.25 (absolute value) and adjusted P value < 0.05 (Bonferroni limitans brain-barrier cells.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "tissue was filtered through a 100-μm cell strainer (Falcon, 352360), removed in Seurat 3.2.152; and (3) after scTransform normalization and",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "3.2.152",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 635",
+      "evidence_snippet": "tissue was filtered through a 100-μm cell strainer (Falcon, 352360), removed in Seurat 3.2.152; and (3) after scTransform normalization and",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 11,
+    "context_only_count": 5,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-021-03710-0_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-021-03710-0_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

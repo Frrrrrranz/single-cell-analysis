@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41591-024-03215-z",
+  "document_id": "DOI_10.1038_s41591-024-03215-z",
+  "task_no": 29,
+  "source_markdown": "DOI_10.1038_s41591-024-03215-z.md",
+  "article_identity": {
+    "title_original": "A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features.",
+    "doi": "10.1038/s41591-024-03215-z",
+    "pmid": "39478111",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "liver",
+      "tissue_source_normalized": "liver",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Markdown line 54",
+      "evidence_snippet": "and frequent sites of disease (37: liver, 9: axilla, 7: breast, 5: bone, 3: (Slide-seq versus scRNA-seq), ρ = −0.1 to 0.086 (ExSeq)) (Fig. 1d). As"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "pulmonary neuroendocrine",
+      "cell_name_normalized": "pulmonary neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "liver",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 903",
+      "evidence_snippet": "361DC 86DC 4DC 41DC A3RGCF ARD-ALH 1APD-ALH AQ1C BQ1C 1RSM 1FIA 1PPS CEFT 1NCF AR3LI 2LCC XAGTI 51GSI 02GSI 9PMM 21PMM ZYL 3TSC 8A001S 9A001S EOPA 1COPA 472DC A1FIH 76IKM FPNEC 91TRK 1BZM 91DC A8DC E3DC 2DC 1A3LOC 2A4LOC 1MACN BRPTP NPDP ARD-ALH 4LCC 1NCF NLNA 061RPG 9DC 1LCX 1FLUS 1CDS 6KDC 3DYXF 5CXXC 472DC 11PMM PAF 5DC ExSeq ExSeq (bin) Slide-seq CODEX MERFISH MERFISH (b s cR snRNA-seq",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "liver",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 92",
+      "evidence_snippet": "proteins) per observation (Fig. 1c, Extended Data Fig. 2a,b and Sup- scRNA-seq captured a higher fraction of immune cells, and snRNA-seq",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "ple quality control (QC) criteria individually (Methods). The com- istics. The sample with stem-like expression profiles came from the",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 76",
+      "evidence_snippet": "ple quality control (QC) criteria individually (Methods). The com- istics. The sample with stem-like expression profiles came from the",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "integration of different experimental techniques and used them to assess",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 19",
+      "evidence_snippet": "integration of different experimental techniques and used them to assess",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "(Slide-seq, CODEX, MERFISH and ExSeq) and H&E staining. b, Schematic and connected through lines. d, Clustered heatmap depicting the pair-wise",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 107",
+      "evidence_snippet": "(Slide-seq, CODEX, MERFISH and ExSeq) and H&E staining. b, Schematic and connected through lines. d, Clustered heatmap depicting the pair-wise",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "expression profiles, colored by log-normalized expression of CD163, log- f, Dot plot depicting the differential expression significance (two-sided Welch’s",
+      "method_normalized": "differential expression",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 848",
+      "evidence_snippet": "expression profiles, colored by log-normalized expression of CD163, log- f, Dot plot depicting the differential expression significance (two-sided Welch’s",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "sites (not bone specific) and was rather cell type specific (Extended by mean gene set enrichment analysis (GSEA) hallmark signature scores",
+      "method_normalized": "gene set enrichment",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 577",
+      "evidence_snippet": "sites (not bone specific) and was rather cell type specific (Extended by mean gene set enrichment analysis (GSEA) hallmark signature scores",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "tures, including cell composition, gene expression programs, immune observations per section in its segmented version, and this only slightly",
+      "method_normalized": "cell composition",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 50",
+      "evidence_snippet": "tures, including cell composition, gene expression programs, immune observations per section in its segmented version, and this only slightly",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "eghaporcaM erocs .qerf Most recent tx class Receptor status FDR against all other groups: FDR against all other groups: Receptor",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR against all other groups: FDR against all other groups: Receptor",
+      "multiple_testing": "eghaporcaM erocs .qerf Most recent tx class Receptor status FDR against all other groups: FDR against all other groups: Receptor",
+      "source_locator": "Markdown line 466",
+      "evidence_snippet": "eghaporcaM erocs .qerf Most recent tx class Receptor status FDR against all other groups: FDR against all other groups: Receptor",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "relevant biology across methods (Fig. 2h), and Harmony37 (but not fer from the matching sc/snRNA-seq using RCTD43 and TACCO-OT44",
+      "method_normalized": "Harmony",
+      "software": "Harmony",
+      "software_version": "37",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 825",
+      "evidence_snippet": "relevant biology across methods (Fig. 2h), and Harmony37 (but not fer from the matching sc/snRNA-seq using RCTD43 and TACCO-OT44",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 12,
+    "context_only_count": 35,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41591-024-03215-z_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41591-024-03215-z_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

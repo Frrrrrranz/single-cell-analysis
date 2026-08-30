@@ -1,0 +1,107 @@
+{
+  "audit_version": 1,
+  "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+  "paper_status": "corrected",
+  "summary": "主动扫描全文未发现任何 Pulmonary neuroendocrine cell（L4）相关 marker 证据。现有提取候选均属于非目标细胞类型（中性粒细胞样细胞、浆细胞、细胞毒性 CD8+ T 细胞），应全部排除。另注意原文将 CD138 浆细胞标记基因误写为 SCD1，实际应为 SDC1，但不影响排除结论。",
+  "markers": [
+    {
+      "cell_type": "Neutrophil-like cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "FCGR3B",
+      "normalized_symbol": "FCGR3B",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 2.2, Fig. S1F-G",
+      "source_context": "we did detect a small subset of neutrophil-like cells (defined by high levels of FCGR3B and CSF3R expression)",
+      "decision": "exclude",
+      "reason": "该 Marker 用于定义中性粒细胞样细胞，与任务目标 Pulmonary neuroendocrine cell 无关，属于范围外细胞类型。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "Neutrophil-like cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "CSF3R",
+      "normalized_symbol": "CSF3R",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 2.2, Fig. S1F-G",
+      "source_context": "we did detect a small subset of neutrophil-like cells (defined by high levels of FCGR3B and CSF3R expression)",
+      "decision": "exclude",
+      "reason": "该 Marker 用于定义中性粒细胞样细胞，与任务目标 Pulmonary neuroendocrine cell 无关，属于范围外细胞类型。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "Plasma cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "SCD1",
+      "normalized_symbol": "SCD1",
+      "normalization_status": "ambiguous",
+      "evidence_type": "reference_imported",
+      "marker_polarity": "positive",
+      "source_locator": "Results 2.4",
+      "source_context": "decreased expression of the gene encoding the CD138 plasma cell marker in pwCF (SCD1, P = 0.06)",
+      "decision": "exclude",
+      "reason": "该 Marker 指向浆细胞，非任务目标细胞；且原文 SCD1 疑为 SDC1（CD138 编码基因）的笔误，符号无法唯一确认，但无论何种符号均不在项目范围内。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "Cytotoxic CD8+ T cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "CD69",
+      "normalized_symbol": "CD69",
+      "normalization_status": "exact",
+      "evidence_type": "reference_imported",
+      "marker_polarity": "positive",
+      "source_locator": "Results 2.4, Fig. 3C",
+      "source_context": "canonical immune activation marker (CD69) (Fig. 3C)",
+      "decision": "exclude",
+      "reason": "该 Marker 为 CD8+ T 细胞活化相关基因，非任务目标细胞；证据仅为引用已知标记，未用于定义目标细胞。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "issue_type": "false_positive",
+      "description": "现有候选 FCGR3B、CSF3R、SCD1、CD69 均不属于 Pulmonary neuroendocrine cell 范围，应全部排除。"
+    },
+    {
+      "severity": "error",
+      "issue_type": "missing_marker",
+      "description": "主动扫描全文未发现任何 pulmonary neuroendocrine cell 相关 marker 证据（如 ASCL1、CHGA、CHGB、CALCA 等均未出现），无正式目标 Marker。"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "symbol",
+      "description": "原文将 CD138 浆细胞 marker 基因写作 SCD1，但 CD138 实际由 SDC1 编码，疑为笔误，需注意。"
+    }
+  ],
+  "task": {
+    "task_no": 8,
+    "dataset_id": "CELLxGENE:1ab4ebbc-18d6-4838-89c2-cdc5b10accfb",
+    "paper_title": "Evidence for altered immune-structural cell crosstalk in cystic fibrosis revealed by single cell transcriptomics.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L4:Pulmonary neuroendocrine cell",
+    "tissue": "carina of trachea",
+    "paper_id": "DOI_10.1016_j.jcf.2025.01.016"
+  },
+  "audit_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1016_j.jcf.2025.01.016.md",
+  "source_raw_json": "DOI_10.1016_j.jcf.2025.01.016_raw.json",
+  "source_markdown_sha256": "deb6ed0e8a0cb12a3217432dbaff568104910ffe25304c8b53ab0981c9ae243a",
+  "source_raw_sha256": "5d15ae6872f8dd5ebdb975212f670cbb87ac70b8ffbc39689844815f5fb9bd3c"
+}

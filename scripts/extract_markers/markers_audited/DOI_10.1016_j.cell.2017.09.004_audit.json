@@ -1,0 +1,68 @@
+{
+  "audit_version": 1,
+  "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+  "paper_status": "corrected",
+  "summary": "No formal marker for the target cell type (L4:Type D enteroendocrine / pancreatic delta cell) was found in the paper Markdown. The existing candidates INS and GCG are formal markers for b-cells and a-cells, respectively, but these cell types are outside the target scope and are therefore excluded.",
+  "markers": [
+    {
+      "cell_type": "b-cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "INS",
+      "normalized_symbol": "INS",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Fig. 2A legend; Fig. 1A legend",
+      "source_context": "Expression of cell-typical (INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise. Cell identity is indicated by marker gene expression.",
+      "decision": "exclude",
+      "reason": "Formal marker for pancreatic beta cells, but b-cells are not in target_cell_scope (L4:Type D enteroendocrine cell).",
+      "citation_match_score": 0.7647,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "a-cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "GCG",
+      "normalized_symbol": "GCG",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Fig. 2A legend; Fig. 1A legend",
+      "source_context": "Expression of cell-typical (INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise. Cell identity is indicated by marker gene expression.",
+      "decision": "exclude",
+      "reason": "Formal marker for pancreatic alpha cells, but a-cells are not in target_cell_scope (L4:Type D enteroendocrine cell).",
+      "citation_match_score": 0.7647,
+      "citation_verified": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "false_positive",
+      "description": "Existing candidates INS and GCG are formal markers but for b-cells and a-cells, not for the target D enteroendocrine/delta cells; they should be excluded from the target marker table."
+    },
+    {
+      "severity": "info",
+      "issue_type": "missing_marker",
+      "description": "The paper mentions d-cells (delta cells) as a major endocrine cell type but does not provide a specific gene used as a marker for them in the available Markdown; no formal target marker could be extracted."
+    }
+  ],
+  "task": {
+    "task_no": 28,
+    "dataset_id": "CELLxGENE:66d15835-5dc8-4e96-b0eb-f48971cb65e8",
+    "paper_title": "Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L4:Type D enteroendocrine cell",
+    "tissue": "islet of Langerhans",
+    "paper_id": "DOI_10.1016_j.cell.2017.09.004"
+  },
+  "audit_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1016_j.cell.2017.09.004.md",
+  "source_raw_json": "DOI_10.1016_j.cell.2017.09.004_raw.json",
+  "source_markdown_sha256": "4dd33b01c7c112bd8987e964c83ea0e53ede1ec59f8151b0563d073f42881b50",
+  "source_raw_sha256": "a13a226b0ef214fddaf5d889b350c80abcf46ee5945a93ad00b18a06a114f5ac"
+}

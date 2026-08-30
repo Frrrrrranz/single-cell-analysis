@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1002_pros.24020",
+  "document_id": "DOI_10.1002_pros.24020",
+  "task_no": 24,
+  "source_markdown": "DOI_10.1002_pros.24020.md",
+  "article_identity": {
+    "title_original": "Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.",
+    "doi": "10.1002/pros.24020",
+    "pmid": "32497356",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "peripheral zone of prostate",
+      "tissue_source_normalized": "prostate gland",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2",
+      "source_locator": "Task table: 我方Marker文章 row 59",
+      "evidence_snippet": "表中组织：peripheral zone of prostate"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Neuroendocrine cell",
+      "cell_name_normalized": "Neuroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "peripheral zone of prostate",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 103",
+      "evidence_snippet": "minal, and neuroendocrine cell types.14,15 At puberty these multi- urethralluminalepitheliaandthatthiscelltypeisresistantto5ARI",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "peripheral zone of prostate",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 103",
+      "evidence_snippet": "minal, and neuroendocrine cell types.14,15 At puberty these multi- urethralluminalepitheliaandthatthiscelltypeisresistantto5ARI",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "mouseprostateandurethralepithelialcelltype‐specificmarkersandprogenitorcellmarkers.D,CorrelationofmousescRNA‐seqclusterstothe",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 274",
+      "evidence_snippet": "mouseprostateandurethralepithelialcelltype‐specificmarkersandprogenitorcellmarkers.D,CorrelationofmousescRNA‐seqclusterstothe",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "ethralluminalcellclusterwasperformedusingimmunostainingandflowcytometry.",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 46",
+      "evidence_snippet": "ethralluminalcellclusterwasperformedusingimmunostainingandflowcytometry.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "mouse and human specimens can be found at http://strandlab.net/sc. expressed genes (DEGs) with human urethral cells, demonstrating",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 223",
+      "evidence_snippet": "mouse and human specimens can be found at http://strandlab.net/sc. expressed genes (DEGs) with human urethral cells, demonstrating",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "abundanceofurethralluminalcellswithinglandularnodulesinBPH",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 474",
+      "evidence_snippet": "abundanceofurethralluminalcellswithinglandularnodulesinBPH",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 2,
+    "context_only_count": 32,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1002_pros.24020_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1002_pros.24020_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "tissue_source_not_located_in_markdown",
+      "severity": "warning",
+      "field": "tissue_sources",
+      "description": "组织来源使用任务表预填值，尚未在 Markdown 中定位到原文证据。",
+      "source_locator": "Task table: 我方Marker文章 row 59",
+      "evidence_snippet": "表中组织：peripheral zone of prostate"
+    },
+    {
+      "issue_type": "statistical_method_not_reported_or_not_located",
+      "severity": "info",
+      "field": "statistics_methods",
+      "description": "未在 Markdown 中定位到单细胞分析阶段：normalization_integration",
+      "source_locator": "",
+      "evidence_snippet": ""
+    },
+    {
+      "issue_type": "statistical_method_not_reported_or_not_located",
+      "severity": "info",
+      "field": "statistics_methods",
+      "description": "未在 Markdown 中定位到单细胞分析阶段：multiple_testing",
+      "source_locator": "",
+      "evidence_snippet": ""
+    }
+  ]
+}

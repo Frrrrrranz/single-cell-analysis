@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+  "document_id": "DOI_10.1016_j.cell.2022.11.005",
+  "task_no": 9,
+  "source_markdown": "DOI_10.1016_j.cell.2022.11.005.md",
+  "article_identity": {
+    "title_original": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates.",
+    "doi": "10.1016/j.cell.2022.11.005",
+    "pmid": "36493756",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 5' v1",
+      "source_locator": "Markdown line 12",
+      "evidence_snippet": "Multiomicanalysisofhumanfetallungs"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Pulmonary neuroendocrine cell",
+      "cell_name_normalized": "Pulmonary neuroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 491",
+      "evidence_snippet": "trajectory analysis suggested that pulmonary NE and GHRL+ gans.53,54,60,61 We also selected the GHRL+NE-specific RFX6",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "pulmonary neuroendocrine",
+      "cell_name_normalized": "pulmonary neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 491",
+      "evidence_snippet": "trajectory analysis suggested that pulmonary NE and GHRL+ gans.53,54,60,61 We also selected the GHRL+NE-specific RFX6",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 25",
+      "evidence_snippet": "d ExperimentalvalidationofTFscontrollingneuroendocrine",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "enteroendocrine",
+      "cell_name_normalized": "enteroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 811",
+      "evidence_snippet": "andRossant,J.(1999).Thebasic-helix-loop-helixproteinpod1iscriti- M.,andGradwohl,G.(2010).Lossofenteroendocrinecellsinmicealters",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "andS1D),removalofdoublet-drivenclusters(FiguresS1E,S1G, closely with adjacent stalk cells (SOX9LO/-, PDPNLO, HOPXLO)",
+      "method_normalized": "doublet",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 136",
+      "evidence_snippet": "andS1D),removalofdoublet-drivenclusters(FiguresS1E,S1G, closely with adjacent stalk cells (SOX9LO/-, PDPNLO, HOPXLO)",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "analysisathttps://lungcellatlas.org. S1N, and S1N’). Data integration and logistic regression-based",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 122",
+      "evidence_snippet": "analysisathttps://lungcellatlas.org. S1N, and S1N’). Data integration and logistic regression-based",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "bronchiolar(airway,(cid:1)5–16pcw)andlater(from(cid:1)16pcw)into approximation and projection(UMAP)(Figure1A), onwhich we",
+      "method_normalized": "UMAP",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 93",
+      "evidence_snippet": "bronchiolar(airway,(cid:1)5–16pcw)andlater(from(cid:1)16pcw)into approximation and projection(UMAP)(Figure1A), onwhich we",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "Differential expression of ASCL1 and NEUROD1 defines A- jorityofthemNeonGreen-3xNLSexpressingorganoidcellspro-",
+      "method_normalized": "differential expression",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 506",
+      "evidence_snippet": "Differential expression of ASCL1 and NEUROD1 defines A- jorityofthemNeonGreen-3xNLSexpressingorganoidcellspro-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Asingle-cellatlasofhumanlungdevelopment Adifferentiationtrajectoryofairwayprogenitorstates",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 125",
+      "evidence_snippet": "Asingle-cellatlasofhumanlungdevelopment Adifferentiationtrajectoryofairwayprogenitorstates",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "Scoresareconservativeestimatesofcell-typeabundancepervoxel.",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 340",
+      "evidence_snippet": "Scoresareconservativeestimatesofcell-typeabundancepervoxel.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "against cell type categories. For proximal/distal biases, Fisher exact test was used for each cell type and Benjamini-Hochberg",
+      "method_normalized": "Benjamini",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "against cell type categories. For proximal/distal biases, Fisher exact test was used for each cell type and Benjamini-Hochberg",
+      "source_locator": "Markdown line 1455",
+      "evidence_snippet": "against cell type categories. For proximal/distal biases, Fisher exact test was used for each cell type and Benjamini-Hochberg",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "(D)UMAPvisualizingthepredictedepithelialcelllineagetrajectoryusingscvelo;inset:developmentalage.",
+      "method_normalized": "scVelo",
+      "software": "scVelo",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 208",
+      "evidence_snippet": "(D)UMAPvisualizingthepredictedepithelialcelllineagetrajectoryusingscvelo;inset:developmentalage.",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 26,
+    "context_only_count": 207,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.cell.2022.11.005_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.cell.2022.11.005_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 44",
+      "evidence_snippet": "Schwann cell"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell precursor",
+      "source_locator": "Task table: 我方Marker文章 row 44",
+      "evidence_snippet": "Schwann cell precursor"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Immature Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 44",
+      "evidence_snippet": "Immature Schwann cell"
+    }
+  ]
+}

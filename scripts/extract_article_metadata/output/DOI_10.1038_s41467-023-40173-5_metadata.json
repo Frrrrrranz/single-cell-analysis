@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41467-023-40173-5",
+  "document_id": "DOI_10.1038_s41467-023-40173-5",
+  "task_no": 15,
+  "source_markdown": "DOI_10.1038_s41467-023-40173-5.md",
+  "article_identity": {
+    "title_original": "Guided construction of single cell reference for human and mouse lung.",
+    "doi": "10.1038/s41467-023-40173-5",
+    "pmid": "37516747",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2|10x 3' v3|10x 5' v1",
+      "source_locator": "Markdown line 18",
+      "evidence_snippet": "EdwardE.Morrisey3,4,5,JeffreyA.Whitsett 1,2,NHLBILungMAPConsortium*&"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Pulmonary neuroendocrine cell",
+      "cell_name_normalized": "Pulmonary neuroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 144",
+      "evidence_snippet": "onv2/v3andSingleCell5’chemistry.Intotal,505,256lungcellsfrom (AT1,AT2,basal,ciliated,goblet,myoepithelial[MEC],mucous,PNEC,",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "pulmonary neuroendocrine",
+      "cell_name_normalized": "pulmonary neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 144",
+      "evidence_snippet": "onv2/v3andSingleCell5’chemistry.Intotal,505,256lungcellsfrom (AT1,AT2,basal,ciliated,goblet,myoepithelial[MEC],mucous,PNEC,",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "(PROPEL,approvedbyUniversityofPennsylvaniaInstitutionalReview CCHMCLungMAPcohort),thefollowingqualitycontrol(QC)criteria",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 589",
+      "evidence_snippet": "(PROPEL,approvedbyUniversityofPennsylvaniaInstitutionalReview CCHMCLungMAPcohort),thefollowingqualitycontrol(QC)criteria",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "tation,dataintegration,anddatasharing.Here,wedevelopacomputational",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 25",
+      "evidence_snippet": "tation,dataintegration,anddatasharing.Here,wedevelopacomputational",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "|     |     |     | Data integration |     |     | Candidate clusters            |     |                             | Seed cells |     |     |     | CellRef |     |",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 121",
+      "evidence_snippet": "|     |     |     | Data integration |     |     | Candidate clusters            |     |                             | Seed cells |     |     |     | CellRef |     |",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "CConsistencyofcelltypepredictionsusingtheCellRefSeedandCellRefineach tiallyexpressedgenes(DEGs).HThenumberofDEGsforeachpredictedcelltype.",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 377",
+      "evidence_snippet": "CConsistencyofcelltypepredictionsusingtheCellRefSeedandCellRefineach tiallyexpressedgenes(DEGs).HThenumberofDEGsforeachpredictedcelltype.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "ConstructionoftheLungMAPMouseLungDevelopmentCellRef enrichment analysis was performed using R package gprofiler2",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 751",
+      "evidence_snippet": "ConstructionoftheLungMAPMouseLungDevelopmentCellRef enrichment analysis was performed using R package gprofiler2",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "inLungMAPwebportalusingShinyCell32basedwebinterfaces(https:// were identified using widely accepted criteria (adjusted p value of",
+      "method_normalized": "adjusted p",
+      "software": "",
+      "software_version": "",
+      "threshold": "adjusted p value of",
+      "multiple_testing": "inLungMAPwebportalusingShinyCell32basedwebinterfaces(https:// were identified using widely accepted criteria (adjusted p value of",
+      "source_locator": "Markdown line 292",
+      "evidence_snippet": "inLungMAPwebportalusingShinyCell32basedwebinterfaces(https:// were identified using widely accepted criteria (adjusted p value of",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "themutualnearestneighbor(MNN)matchingmethodinMonocle3, KLK11,SOX4).WecombinedSMGbasalandSMGductcellsintoone",
+      "method_normalized": "Monocle",
+      "software": "Monocle",
+      "software_version": "3",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 163",
+      "evidence_snippet": "themutualnearestneighbor(MNN)matchingmethodinMonocle3, KLK11,SOX4).WecombinedSMGbasalandSMGductcellsintoone",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 12,
+    "context_only_count": 38,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41467-023-40173-5_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41467-023-40173-5_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "PMID_35115729",
+  "document_id": "PMID_35115729",
+  "task_no": 38,
+  "source_markdown": "PMID_35115729.md",
+  "article_identity": {
+    "title_original": "Disentangling glial diversity in peripheral nerves at single-nuclei resolution",
+    "doi": "",
+    "pmid": "35115729",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "sciatic nerve",
+      "tissue_source_normalized": "sciatic nerve",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "snRNA-seq; scRNA-seq",
+      "source_locator": "Markdown line 64",
+      "evidence_snippet": "Indeed, recent single-cell RNA-seq (scRNA-seq) experiments in mouse sciatic nerves have"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "schwann",
+      "cell_name_normalized": "schwann",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "sciatic nerve",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 15",
+      "evidence_snippet": "a diversity of cell types, including multiple subtypes of Schwann cells (SCs), immune cells, and",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "sciatic nerve",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 15",
+      "evidence_snippet": "a diversity of cell types, including multiple subtypes of Schwann cells (SCs), immune cells, and",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "sensory neuron",
+      "cell_name_normalized": "sensory neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "sciatic nerve",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 1081",
+      "evidence_snippet": "by motor and sensory neurons. The Journal of neuroscience 16, 5698–703 (1996). [PubMed:",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "gene using PySam (v15). The first QC step involved the removal of nuclei with less than",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 578",
+      "evidence_snippet": "gene using PySam (v15). The first QC step involved the removal of nuclei with less than",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "Computational data integration using Seurat that adjusts for uncontrolled batch effects",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 127",
+      "evidence_snippet": "Computational data integration using Seurat that adjusts for uncontrolled batch effects",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "enabled clustering and identification of 15 distinct cell types in mouse sciatic nerve (Fig.",
+      "method_normalized": "clustering",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 128",
+      "evidence_snippet": "enabled clustering and identification of 15 distinct cell types in mouse sciatic nerve (Fig.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "differentially expressed in mSC or nmSC by comparing relative expression between these",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 283",
+      "evidence_snippet": "differentially expressed in mSC or nmSC by comparing relative expression between these",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "and neuroactive ligand-receptor interactions increased in nmSCs (Supp. Table 2). The",
+      "method_normalized": "ligand-receptor",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 308",
+      "evidence_snippet": "and neuroactive ligand-receptor interactions increased in nmSCs (Supp. Table 2). The",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "Mpz-Sun1 mice, n=4 mice in each library). As nuclei contain an abundance of intronic",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 116",
+      "evidence_snippet": "Mpz-Sun1 mice, n=4 mice in each library). As nuclei contain an abundance of intronic",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "only those genes with Benjamini-Hochberg false-discovery rate adjusted p-values less than",
+      "method_normalized": "Benjamini",
+      "software": "",
+      "software_version": "",
+      "threshold": "adjusted p-values less than",
+      "multiple_testing": "only those genes with Benjamini-Hochberg false-discovery rate adjusted p-values less than",
+      "source_locator": "Markdown line 677",
+      "evidence_snippet": "only those genes with Benjamini-Hochberg false-discovery rate adjusted p-values less than",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "Computational data integration using Seurat that adjusts for uncontrolled batch effects",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 127",
+      "evidence_snippet": "Computational data integration using Seurat that adjusts for uncontrolled batch effects",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "阻塞：需补PDF/接入",
+    "formal_candidate_count": 22,
+    "context_only_count": 48,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/PMID_35115729_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/PMID_35115729_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：GEO补充(未规范化)",
+      "source_locator": "Task table: 我方Marker文章 row 75",
+      "evidence_snippet": "GEO补充(未规范化)"
+    }
+  ]
+}

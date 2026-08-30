@@ -1,142 +1,106 @@
-# Marker 基因提取管线
+# Marker 提取目录
 
-从 scRNA-seq 论文中提取细胞类型 marker 基因，经人工复核后结构化入库。
+本目录集中保存本轮 PNS 单细胞 Marker 提取的可复现脚本、逐篇结果、总表、汇总页面、论文 Markdown 和审计记录。`papers_report/` 是此前独立汇报项目，不属于本目录，也未参与本轮整理。
 
-## 架构
+## 目录结构
 
-```
-PDF/Markdown ─→ 身份审计/文档角色 ─→ LLM schema v2 ─→ 人工复核
-       paper_map.json/已有Markdown             raw JSON       review CSV
-                                          ↓                          ↓
-                                    import_markers.py ←──── approved/modified
-                                        (入库)
-                                          ↓
-                                    ④ convert_gene_symbols.py
-                                        (HGNC 标准化)
-```
-
-## 文件说明
-
-| 文件 | 用途 |
-|------|------|
-| `run_extraction.py` | **主入口**。支持直接读取已有 Markdown，也支持校验结构化映射和 PDF 哈希后调用 LLM |
-| `audit_paper_map.py` | 审计 PDF 的 SHA-256、DOI、PMID、标题及登记路径；仅在零冲突时生成正式映射 |
-| `quarantine_pdf_issues.py` | 将损坏/伪 PDF 和字节完全相同的冗余副本移入可恢复隔离区 |
-| `marker_schema.py` | marker schema v2 枚举、证据分层和校验规则 |
-| `normalize_marker_output.py` | 对既有 schema v2 JSON 应用确定性证据护栏并保留模型原判 |
-| `gen_review_sheet.py` | 将 LLM 输出的 JSON 转为复核 CSV（按阅读顺序排列） |
-| `import_markers.py` | 将复核通过的 CSV 导入显式指定的 schema v2 `markers` sheet |
-| `convert_gene_symbols.py` | **可选后处理**。用 mygene 将基因名标准化为 HGNC 符号 |
-| `prompts/extract_markers_v4.md` | 默认提示词，区分作者声明、注释、图表、补充材料与普通 DEG |
-| `markers_output_v2/` | schema v2 输出目录（原始 JSON + 复核 CSV） |
-
-## 完整使用流程
-
-### 0. 审计 PDF 与论文映射
-
-`db/cellxgene/paper_registry.json` 是当前完整的 CellxGene 论文身份登记；我方任务范围另见 `db/cellxgene/our_marker_papers.xlsx`。运行：
-
-```bash
-python audit_paper_map.py
+```text
+extract_markers/
+├── our_markers.xlsx              # 原始总表（永久保留，未修改；SHA256 基准见 validate_full_audit.py）
+├── our_markers_audited.xlsx      # 40 篇全量终审后的修正版总表
+├── marker_summary.html           # 原始离线汇总页面（保留）
+├── marker_summary_audited.html   # 修正版离线汇总页面
+├── build_dashboard.mjs           # 重新生成原始汇总页面
+├── build_audited_dashboard.py    # 重新生成修正版汇总页面
+├── run_extraction.py             # Markdown/PDF → schema v2 JSON 主提取脚本
+├── run_full_audit.py             # 40 篇全量终审脚本（LLM 审核 + 自动降级规则）
+├── recheck_citations.py          # 粘连 PDF 文本 citation 复核（确定性，无 LLM）
+├── build_audited_outputs.py      # 从终审 JSON 生成修正版总表/review CSV/汇总报告
+├── validate_full_audit.py        # 程序化质量检查（退出 0 = 全部通过）
+├── marker_schema.py              # schema、证据等级和确定性护栏
+├── normalize_marker_output.py    # 已有 schema v2 JSON 规范化
+├── audit_paper_map.py            # 论文/PDF 身份与哈希审计
+├── quarantine_pdf_issues.py      # 无效 PDF/重复副本隔离工具
+├── gen_review_sheet.py           # 从 raw JSON 重建证据 CSV
+├── import_markers.py             # 将已确认记录导入总表
+├── convert_gene_symbols.py       # 可选基因符号标准化
+├── prompts/
+│   ├── extract_markers_v4.md     # 提取提示词
+│   └── audit_markers_v1.md       # 终审提示词
+├── review_md/                    # 40 篇已经转换好的论文 Markdown
+├── markers_output_v2/            # 40 篇原始 raw JSON + review CSV（不覆盖）
+├── markers_audited/              # 40 篇终审 JSON + review CSV + audit_summary.csv + full-audit-report.md
+├── tests/                        # schema、审核规则和论文映射测试
+└── audits/                       # 历史审核、任务快照和五篇抽查报告
 ```
 
-审计结果默认只写入 `db/cellxgene/paper_map.audit.json`。如临时需要 CSV，可传入 `--audit-csv <path>`；修复所有 `blocked` 项后，再执行：
+## 当前结果
 
-```bash
-python audit_paper_map.py --write-map
+### 2026-08-30 全量终审（已完成）
+
+40/40 篇全部审核（模型 deepseek-v4-flash + audit_markers_v1 提示词 + run_full_audit.py 自动门槛），详见 `.agents/progress/marker-full-audit-2026-08-30.md`：
+
+- 文章状态：corrected 23、no_formal_target_marker 17；
+- 修正版正式 Marker（include，按 5.7 去重键去重）：78 条，覆盖 16 篇论文；
+- 78 条中 56 条沿自原表（其中 33 条修正了物种/极性/证据/细胞类型）、22 条为新增；原表 40 篇范围内另有 22 条未获终审 include 被移除；
+- 原表 88 行（86 approved + 2 pending）全部保留原样；范围外 10 行历史行在修正版中标记 `not_in_40_article_audit`；
+- unresolved 7 条（含 CDH19：原文 0 次出现）；排除候选（exclude/context_only/unresolved）1749+3+7 条记录于 `audit_exclusions` sheet。
+
+### 早期提取轮次
+
+- 可处理论文：40 篇；每篇均有一个 `*_raw.json`。
+- 40 份 `*_review.csv` 继续保留，因为 `our_markers.xlsx` 的 `source_file` 字段引用这些文件。
+- 2026-08-30 独立子 Agent 五篇抽查仅 1/5 通过，触发本轮全量终审。详见 `audits/sample-audit-2026-08-30.md`。
+
+## 运行方式
+
+优先直接使用已存在的 Markdown，不重复转换 PDF：
+
+```powershell
+python run_extraction.py `
+  --markdown review_md/DOI_10.1038_s41588-022-01243-4.md `
+  --paper-id DOI_10.1038_s41588-022-01243-4 `
+  --skip-existing
 ```
 
-只有全部活动 PDF 通过身份审计、且 `document_id` 唯一时，才会生成正式 `db/cellxgene/paper_map.json`。同一 `paper_id` 可以同时具有 `primary` 和 `supplement` 等不同文档角色；旧映射不得复制回来。
+默认输出目录为 `markers_output_v2/`，默认提示词为 `prompts/extract_markers_v4.md`。
 
-对审计明确识别出的无效文件和完全相同副本，先预览、再执行隔离：
+全量终审与产物重建（按顺序）：
 
-```bash
-python quarantine_pdf_issues.py
-python quarantine_pdf_issues.py --apply
+```powershell
+python run_full_audit.py --workers 3 --overwrite   # 断点续跑去掉 --overwrite
+python recheck_citations.py                        # 粘连文本 citation 复核
+python build_audited_outputs.py                    # 修正版总表 + review CSV + 报告
+python build_audited_dashboard.py                  # 修正版 HTML
+python validate_full_audit.py                      # 程序化质量检查
 ```
 
-### 1. 提取新论文
+运行测试（本环境无 pytest，用 unittest 等价运行）：
 
-```bash
-# 设置 LLM API
-set MARKER_LLM_API_KEY=sk-your-key-here
-set MARKER_LLM_MODEL=gpt-4o
-
-# 处理单篇主文或补充文档（可传 paper_id 或 document_id）
-python run_extraction.py \
-  --flat-pdf-dir ../../db/cellxgene/cellxgene_filtered/downloads \
-  --paper-map ../../db/cellxgene/paper_map.json \
-  --paper-id DOI_10.1038_s41586-020-2496-1 \
-  --dry-run
-
-# 处理全部活动文档时去掉 --paper-id 和 --dry-run
+```powershell
+python -m unittest discover -s tests -p "test_*.py"
 ```
 
-程序会核验 PDF SHA-256；文件在审计后被替换或修改时会拒绝提取。已有 Markdown 优先直接读取，没有 Markdown 时才转换 PDF。任一分块调用失败时整篇不落盘，避免把残缺结果误当成完整提取。
+重新生成原始汇总页面：
 
-合并结果还会经过确定性证据护栏：只有原文定位或上下文含作者的 marker/注释措辞，才能保留为正式候选；仅在图中出现表达信号的基因会降为 `cluster_enriched`。模型原判和降级原因会保留，供人工追溯。
-
-### 2. 生成复核表
-
-```bash
-python gen_review_sheet.py --input-dir markers_output_v2 --output-dir markers_output_v2 \
-  --paper-id DOI_10.1038_s41586-020-2496-1
-# 或处理全部
-python gen_review_sheet.py --input-dir markers_output_v2 --output-dir markers_output_v2 --all
+```powershell
+node build_dashboard.mjs
 ```
 
-### 3. 人工复核
+Dashboard 还会读取以下支持文件：
 
-用 Excel/WPS 打开 `markers_output_v2/{document_id}_review.csv`，逐条检查：
+- `db/cellxgene/our_marker_papers.xlsx`：44 条任务主清单；
+- `db/cellxgene/our_paper_metadata.xlsx`：组织、神经细胞和统计方法汇总。
 
-- [ ] 基因符号正确（对照原文/Figure 确认）
-- [ ] `evidence_type` 与作者实际措辞一致
-- [ ] `marker_polarity` 正/负标记正确
-- [ ] `candidate_class=context_only` 的 DEG/推断项没有被误批准
-- [ ] cell_type 名称与论文一致
-- [ ] 无遗漏 marker（检查 Supplementary tables、Figure legends）
-- [ ] 无伪 marker（差异表达基因 ≠ marker 基因）
-- [ ] `source_locator` 可追溯回原文位置
+PDF、论文身份映射及完整登记仍保留在 `db/cellxgene/`，避免复制大型来源文件。
 
-将 review_status 改为 `approved` / `modified` / `rejected`。
+## 证据边界
 
-### 4. 导入数据库
+正式 Marker 必须能回溯至作者明确的 marker/注释/图表证据。五篇抽查曾发现（现已由全量终审规则修复并有回归测试覆盖）：
 
-当前尚未建立正式总 marker 工作簿。完成干净的 schema v2 主表重建后，必须通过 `--db` 显式指定目标；导入器仍会校验必需列，防止证据字段丢失：
+1. 把家族式名称写入唯一 `gene_symbol` → 终审以 `normalization_status=ambiguous/non_gene_entity` 阻断入表；
+2. 把明确的 `GENE+` / `GENE-high` 注释降为 context-only → guardrail 已扩展亚群语法识别；
+3. 漏掉 `marked by` / `marks` / marker list 中的正式候选 → 终审要求主动扫描全文目标层级；
+4. 无任务 scope（`PNS层级=—`）论文误纳普通细胞 Marker → 终审要求主动扫描 PNS/神经内分泌细胞，无则记 `no_formal_target_marker`。
 
-```bash
-python import_markers.py markers_output_v2/{document_id}_review.csv --db <schema-v2-marker-workbook.xlsx>
-```
-
-### 5. HGNC 标准化（可选）
-
-```bash
-python convert_gene_symbols.py --db <schema-v2-marker-workbook.xlsx>
-```
-
-## 环境变量
-
-| 变量 | 说明 | 默认值 |
-|------|------|--------|
-| `MARKER_LLM_API_KEY` | LLM API Key | - |
-| `MARKER_LLM_API_BASE` | API Base URL（兼容 OpenAI 格式） | 空（使用 OpenAI 官方） |
-| `MARKER_LLM_MODEL` | 模型名 | `gpt-4o` |
-
-## evidence_type 与入库资格
-
-| evidence_type | 含义 | candidate_class |
-|---|---|---|
-| `author_declared` | 作者明确称为 marker | `formal_candidate` |
-| `annotation_marker` | 作者明确用于识别/注释细胞 | `formal_candidate` |
-| `figure_labeled` | 图或图注明确标作 marker | `formal_candidate` |
-| `supplementary_marker` | 补充材料明确列为 marker/annotation panel | `formal_candidate` |
-| `cluster_enriched` | 仅富集、高表达或 DEG | `context_only` |
-| `model_inferred` | 模型仅从表达图推断 | `context_only` |
-| `reference_imported` | 作者引用的外部 canonical marker | `context_only` |
-
-## review_status 流转
-
-```
-formal_candidate → pending → approved / modified / rejected
-context_only     → excluded_by_rule（默认不得导入）
-```
+修正版数据的可信度依赖：`validate_full_audit.py` 退出 0 + 50 个单元测试通过 + 原表 SHA256 基准未变。

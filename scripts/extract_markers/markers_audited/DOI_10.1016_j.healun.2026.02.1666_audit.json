@@ -1,0 +1,119 @@
+{
+  "audit_version": 1,
+  "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+  "paper_status": "corrected",
+  "summary": "Existing extraction candidates are all markers for non-neuroendocrine cell types (myofibroblast, endothelial, COL3A1+/p-S6RP+ populations); none match target_cell_scope L4:Neuroendocrine cell. Active scan of the full Markdown found no neuroendocrine or pulmonary neuroendocrine cell marker evidence, so no formal target marker can be included. All existing candidates are therefore excluded as out-of-scope.",
+  "markers": [
+    {
+      "cell_type": "myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "ACTA2",
+      "normalized_symbol": "ACTA2",
+      "normalization_status": "exact",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "source_locator": "Results, 'Fibrogenic shift driven by mesenchymal state transition' section, near Figure 3A (p.1153-1154)",
+      "source_context": "accompanied by upregulation of myofibroblast markers α-SMA (ACTA2) and TAGLN (Figure 3A).",
+      "decision": "exclude",
+      "reason": "Cell type 'myofibroblast' is outside target_cell_scope L4:Neuroendocrine cell; formal marker evidence does not apply to project scope.",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "TAGLN",
+      "normalized_symbol": "TAGLN",
+      "normalization_status": "exact",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "source_locator": "Results, 'Fibrogenic shift driven by mesenchymal state transition' section, near Figure 3A (p.1153-1154)",
+      "source_context": "accompanied by upregulation of myofibroblast markers α-SMA (ACTA2) and TAGLN (Figure 3A).",
+      "decision": "exclude",
+      "reason": "Cell type 'myofibroblast' is outside target_cell_scope L4:Neuroendocrine cell; formal marker evidence does not apply to project scope.",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "endothelial cell",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "VE-Cadherin",
+      "normalized_symbol": "CDH5",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results, 'IFN-γ-mediated signaling and inflammation in ACR' section (p.1155)",
+      "source_context": "IF analysis ... revealed decreased pSTAT1+ cells specifically within VE-Cadherin+ cells; VE-cadherin expression was reduced in ACR.",
+      "decision": "exclude",
+      "reason": "Cell type 'endothelial cell' is outside target_cell_scope L4:Neuroendocrine cell; VE-Cadherin identifies endothelial cells, not target cells.",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "p-S6RP+ cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "p-S6RP",
+      "normalized_symbol": "RPS6",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "source_locator": "Figure 2D legend and Table 3 (p.1154)",
+      "source_context": "Percentage of cells positive for COL3A1 (TGF-β-induced collagen), p-S6RP (mTOR activation marker), and double-positive cells (COL3A1+/p-S6RP+).",
+      "decision": "exclude",
+      "reason": "p-S6RP+ cells are a phospho-protein positive population, not L4:Neuroendocrine cells; outside target_cell_scope.",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "COL3A1+ cells",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": false,
+      "original_symbol": "COL3A1",
+      "normalized_symbol": "COL3A1",
+      "normalization_status": "exact",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "source_locator": "Table 3, Marker Comparison rows (p.1154)",
+      "source_context": "Table 3 lists COL3A1 as Marker in mixed-effects logistic regression comparing ACR or Resolved to Never for percentage of positive cells.",
+      "decision": "exclude",
+      "reason": "COL3A1+ collagen-producing cells are not L4:Neuroendocrine cells; outside target_cell_scope.",
+      "citation_match_score": 0.9286,
+      "citation_verified": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "error",
+      "issue_type": "false_positive",
+      "description": "All 5 existing candidate records (ACTA2, TAGLN, VE-Cadherin, p-S6RP, COL3A1) are markers for non-target cell types (myofibroblast, endothelial, collagen/p-S6RP+ populations) and were incorrectly included for target_cell_scope L4:Neuroendocrine cell; they are excluded."
+    },
+    {
+      "severity": "info",
+      "issue_type": "other",
+      "description": "Active scan of the full Markdown found no neuroendocrine cell or pulmonary neuroendocrine cell marker evidence; no formal target marker exists in this paper."
+    }
+  ],
+  "task": {
+    "task_no": 10,
+    "dataset_id": "CELLxGENE:10c0c666-bd99-4a5c-b697-f1be835f5427",
+    "paper_title": "Human lung allografts experience persistent fibrogenic shift following acute cellular rejection.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L4:Neuroendocrine cell",
+    "tissue": "lung",
+    "paper_id": "DOI_10.1016_j.healun.2026.02.1666"
+  },
+  "audit_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1016_j.healun.2026.02.1666.md",
+  "source_raw_json": "DOI_10.1016_j.healun.2026.02.1666_raw.json",
+  "source_markdown_sha256": "efe010eb4159310eb1de0e8b3f12490d2668ba0e3d5b916c50e6fc9a25542e09",
+  "source_raw_sha256": "12673884135027c37b6e381f7d4cf394f11f5ed59d3f7203427ed6ac042f7d30"
+}

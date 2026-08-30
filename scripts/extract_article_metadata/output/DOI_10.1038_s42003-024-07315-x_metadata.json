@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s42003-024-07315-x",
+  "document_id": "DOI_10.1038_s42003-024-07315-x",
+  "task_no": 44,
+  "source_markdown": "DOI_10.1038_s42003-024-07315-x.md",
+  "article_identity": {
+    "title_original": "Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac inflammatory responses upon heart injury.",
+    "doi": "10.1038/s42003-024-07315-x",
+    "pmid": "39627536",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "blood",
+      "tissue_source_normalized": "blood",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Markdown line 87",
+      "evidence_snippet": "coronary artery blood ﬂow to the heart leads to cardiomyocyte necrosis."
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "blood",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 130",
+      "evidence_snippet": "from non-muscle cells including immune cells21,22. Cryoinjury of the zeb-",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "mitochondrial dysfunction, and mTOR Signaling) with an activation pat-",
+      "method_normalized": "mitochondrial",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 421",
+      "evidence_snippet": "mitochondrial dysfunction, and mTOR Signaling) with an activation pat-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "and tissue of origin (right). d Dot plot shows normalized gene expression (dot color",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 467",
+      "evidence_snippet": "and tissue of origin (right). d Dot plot shows normalized gene expression (dot color",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "healing versus scarring. We identify distinct transcriptional clusters of monocytes/macrophages",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 69",
+      "evidence_snippet": "healing versus scarring. We identify distinct transcriptional clusters of monocytes/macrophages",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "number of differentially expressed genes (DEGs). In mouse, MI elicited",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 251",
+      "evidence_snippet": "number of differentially expressed genes (DEGs). In mouse, MI elicited",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "process (BP) enrichment analysis. Leukocyte migration, pyruvate metabo-",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 695",
+      "evidence_snippet": "process (BP) enrichment analysis. Leukocyte migration, pyruvate metabo-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "concurrently at 1 dpci. Interestingly, minor changes in the abundance of",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 352",
+      "evidence_snippet": "concurrently at 1 dpci. Interestingly, minor changes in the abundance of",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "type. Bars are colored by timepoint. Genes with FDR < 0.05 and absolute",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR < 0",
+      "multiple_testing": "type. Bars are colored by timepoint. Genes with FDR < 0.05 and absolute",
+      "source_locator": "Markdown line 284",
+      "evidence_snippet": "type. Bars are colored by timepoint. Genes with FDR < 0.05 and absolute",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 37,
+    "context_only_count": 66,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s42003-024-07315-x_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s42003-024-07315-x_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 88",
+      "evidence_snippet": "Schwann cell"
+    }
+  ]
+}

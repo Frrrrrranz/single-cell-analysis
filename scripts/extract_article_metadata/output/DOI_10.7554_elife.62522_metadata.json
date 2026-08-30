@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.7554_elife.62522",
+  "document_id": "DOI_10.7554_elife.62522",
+  "task_no": 11,
+  "source_markdown": "DOI_10.7554_elife.62522.md",
+  "article_identity": {
+    "title_original": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes.",
+    "doi": "10.7554/elife.62522",
+    "pmid": "33164753",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Markdown line 11",
+      "evidence_snippet": "NHLBI LungMap Consortium11"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Pulmonary neuroendocrine cell",
+      "cell_name_normalized": "Pulmonary neuroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 145",
+      "evidence_snippet": "alveolar type 1, AT2-alveolar type 2, club, ciliated, basal, and pulmonary neuroendocrine), mesen-",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "pulmonary neuroendocrine",
+      "cell_name_normalized": "pulmonary neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 145",
+      "evidence_snippet": "alveolar type 1, AT2-alveolar type 2, club, ciliated, basal, and pulmonary neuroendocrine), mesen-",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 145",
+      "evidence_snippet": "alveolar type 1, AT2-alveolar type 2, club, ciliated, basal, and pulmonary neuroendocrine), mesen-",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "After batch correction and filtering of low-quality nuclei and likely doublets, we clustered and ana-",
+      "method_normalized": "doublet",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 142",
+      "evidence_snippet": "After batch correction and filtering of low-quality nuclei and likely doublets, we clustered and ana-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "After batch correction and filtering of low-quality nuclei and likely doublets, we clustered and ana-",
+      "method_normalized": "batch correction",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 142",
+      "evidence_snippet": "After batch correction and filtering of low-quality nuclei and likely doublets, we clustered and ana-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "After batch correction and filtering of low-quality nuclei and likely doublets, we clustered and ana-",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 142",
+      "evidence_snippet": "After batch correction and filtering of low-quality nuclei and likely doublets, we clustered and ana-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "EllinghausD,DegenhardtF,BujandaL,ButiM,AlbillosA,InvernizziP,Ferna´ndezJ,PratiD,BaselliG,AsseltaR,",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1187",
+      "evidence_snippet": "EllinghausD,DegenhardtF,BujandaL,ButiM,AlbillosA,InvernizziP,Ferna´ndezJ,PratiD,BaselliG,AsseltaR,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": ". Supplementary file 6. De novo motif enrichment analysis of peaks increasing with age inAT2 cells",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1087",
+      "evidence_snippet": ". Supplementary file 6. De novo motif enrichment analysis of peaks increasing with age inAT2 cells",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "like cell proportion (p=4.09 (cid:2) 10(cid:0)3, p=8.00 (cid:2) 10(cid:0)4) (Figure 5E), supporting the possibility that",
+      "method_normalized": "cell proportion",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 439",
+      "evidence_snippet": "like cell proportion (p=4.09 (cid:2) 10(cid:0)3, p=8.00 (cid:2) 10(cid:0)4) (Figure 5E), supporting the possibility that",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "stage).(E)K-meansclusteranalysis(K=5)ofrelativeaccessibilityscores(seeMaterialsandmethods)for22,845age-dynamicpeaks(FDR<0.05,",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR<0",
+      "multiple_testing": "stage).(E)K-meansclusteranalysis(K=5)ofrelativeaccessibilityscores(seeMaterialsandmethods)for22,845age-dynamicpeaks(FDR<0.05,",
+      "source_locator": "Markdown line 265",
+      "evidence_snippet": "stage).(E)K-meansclusteranalysis(K=5)ofrelativeaccessibilityscores(seeMaterialsandmethods)for22,845age-dynamicpeaks(FDR<0.05,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "| Software, | Seuratv3.1.4 | https://satijalab. | RRID:SCR_016341 |     |",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "3.1.4",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 583",
+      "evidence_snippet": "| Software, | Seuratv3.1.4 | https://satijalab. | RRID:SCR_016341 |     |",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 0,
+    "context_only_count": 4,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.7554_elife.62522_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.7554_elife.62522_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

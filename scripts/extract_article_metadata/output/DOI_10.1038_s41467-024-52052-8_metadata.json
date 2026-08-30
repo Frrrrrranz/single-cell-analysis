@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41467-024-52052-8",
+  "document_id": "DOI_10.1038_s41467-024-52052-8",
+  "task_no": 36,
+  "source_markdown": "DOI_10.1038_s41467-024-52052-8.md",
+  "article_identity": {
+    "title_original": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.",
+    "doi": "10.1038/s41467-024-52052-8",
+    "pmid": "39362841",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "dorsal root ganglion",
+      "tissue_source_normalized": "dorsal root ganglion",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "10x 3' v2|10x 3' v3|10x multiome|Smart-seq2|Smart-seq3|inDrop",
+      "source_locator": "Task table: 我方Marker文章 row 73",
+      "evidence_snippet": "表中组织：dorsal root ganglion"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Sensory neuron (DRG)",
+      "cell_name_normalized": "Sensory neuron (DRG)",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "dorsal root ganglion",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 4",
+      "evidence_snippet": "identi es senescence of nociceptors as a",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "satellite glia",
+      "cell_name_normalized": "satellite glia",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "dorsal root ganglion",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 181",
+      "evidence_snippet": "are related to interactions with immune and satellite glial cells in andLastingPainstates(Fig.3d).Interestingly,everysubtypeofthe",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "dorsal root ganglion",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 169",
+      "evidence_snippet": "mentaryFig.5a–f).ThissuggestedthatSOX11isapotentialdrivergene cells which are unable to reverse their phenotype to the Reference",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "sensory neuron",
+      "cell_name_normalized": "sensory neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "dorsal root ganglion",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 4",
+      "evidence_snippet": "identi es senescence of nociceptors as a",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "fromhDRGbulkRNA-seqcoloredbydifferentcelltypes.eAheatmapplotrepre- family-wiseerrorrateof0.05.Boxplotsindicatethemedianatthecenter,upper",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 335",
+      "evidence_snippet": "fromhDRGbulkRNA-seqcoloredbydifferentcelltypes.eAheatmapplotrepre- family-wiseerrorrateof0.05.Boxplotsindicatethemedianatthecenter,upper",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "|        |        |     | Data 2–3).       | Finally, the atlases | allow for  | the integration          | of datasets |",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 55",
+      "evidence_snippet": "|        |        |     | Data 2–3).       | Finally, the atlases | allow for  | the integration          | of datasets |",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "Nguyenetal.16 isolatedandre-clusteredneuronsfromthenociceptivelineageinDRG,",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 84",
+      "evidence_snippet": "Nguyenetal.16 isolatedandre-clusteredneuronsfromthenociceptivelineageinDRG,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "integrationmethodscompatiblewiththeimputationofmissinggenes, transitionmatrixandobservedahighdegreeofalignmentwhenwe",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 132",
+      "evidence_snippet": "integrationmethodscompatiblewiththeimputationofmissinggenes, transitionmatrixandobservedahighdegreeofalignmentwhenwe",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "responsible for the microstates transition and performed cell-cell pseudotime.Sox11wasidentifiedasthesoletranscriptionfactor(TF)",
+      "method_normalized": "pseudotime",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 146",
+      "evidence_snippet": "responsible for the microstates transition and performed cell-cell pseudotime.Sox11wasidentifiedasthesoletranscriptionfactor(TF)",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "andariskofdrugabuse2,3.Thesetreatmentsalsocenteronpainsig- enabledthetransformativeadvancementinourunderstandingofthe",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "fdrugabuse2,3",
+      "multiple_testing": "andariskofdrugabuse2,3.Thesetreatmentsalsocenteronpainsig- enabledthetransformativeadvancementinourunderstandingofthe",
+      "source_locator": "Markdown line 25",
+      "evidence_snippet": "andariskofdrugabuse2,3.Thesetreatmentsalsocenteronpainsig- enabledthetransformativeadvancementinourunderstandingofthe",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "gescenteringonthecommunicationbetweennociceptors,immune ceptorsubtypes(Fig.2fandSupplementaryData5).WeusedSCENIC",
+      "method_normalized": "SCENIC",
+      "software": "SCENIC",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 148",
+      "evidence_snippet": "gescenteringonthecommunicationbetweennociceptors,immune ceptorsubtypes(Fig.2fandSupplementaryData5).WeusedSCENIC",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 2,
+    "context_only_count": 4,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41467-024-52052-8_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41467-024-52052-8_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "tissue_source_not_located_in_markdown",
+      "severity": "warning",
+      "field": "tissue_sources",
+      "description": "组织来源使用任务表预填值，尚未在 Markdown 中定位到原文证据。",
+      "source_locator": "Task table: 我方Marker文章 row 73",
+      "evidence_snippet": "表中组织：dorsal root ganglion"
+    }
+  ]
+}

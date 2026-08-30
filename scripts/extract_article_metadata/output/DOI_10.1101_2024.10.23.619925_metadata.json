@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1101_2024.10.23.619925",
+  "document_id": "DOI_10.1101_2024.10.23.619925",
+  "task_no": 26,
+  "source_markdown": "DOI_10.1101_2024.10.23.619925.md",
+  "article_identity": {
+    "title_original": "Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localised prostate cancer",
+    "doi": "10.1101/2024.10.23.619925",
+    "pmid": "",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "prostate gland",
+      "tissue_source_normalized": "prostate gland",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Task table: 我方Marker文章 row 61",
+      "evidence_snippet": "表中组织：prostate gland"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Myelinating Schwann cell",
+      "cell_name_normalized": "Myelinating Schwann cell",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "prostate gland",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 3902",
+      "evidence_snippet": "Schwann cell differentiation. Mechanisms of development, 102(1-2), pp.145–156.",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "schwann",
+      "cell_name_normalized": "schwann",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "prostate gland",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 3902",
+      "evidence_snippet": "Schwann cell differentiation. Mechanisms of development, 102(1-2), pp.145–156.",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "prostate gland",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 365",
+      "evidence_snippet": "benign epithelium, stromal, and immune cells (Fig. 1D, ST_1). The median cancer",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "peripheral nervous system neuron",
+      "cell_name_normalized": "peripheral nervous system neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "prostate gland",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 402",
+      "evidence_snippet": "cells, Endothelial, CAFs,  SMCs, Peripheral Nervous System (PNS) glial cells (including",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "68,322 cells passed QC and filtering and were classified into eleven major cell classes",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 377",
+      "evidence_snippet": "68,322 cells passed QC and filtering and were classified into eleven major cell classes",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "reclustering using Seurat (v3.2.2). The data was log-normalised ('NormalizeData()'), and",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 2815",
+      "evidence_snippet": "reclustering using Seurat (v3.2.2). The data was log-normalised ('NormalizeData()'), and",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "Localised prostate cancers (PCa) are heterogeneous and multifocal, with diverse",
+      "method_normalized": "PCA",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 97",
+      "evidence_snippet": "Localised prostate cancers (PCa) are heterogeneous and multifocal, with diverse",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "(TME) using scRNA-seq. The top differentially expressed genes (DEGs) per major cell",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 408",
+      "evidence_snippet": "(TME) using scRNA-seq. The top differentially expressed genes (DEGs) per major cell",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "with a t-test (unadjusted p-values; p ≤ 0.001 (****)). I) Gene set enrichment analysis",
+      "method_normalized": "gene set enrichment",
+      "software": "",
+      "software_version": "",
+      "threshold": "adjusted p-values",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1192",
+      "evidence_snippet": "with a t-test (unadjusted p-values; p ≤ 0.001 (****)). I) Gene set enrichment analysis",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "category. H) Left: major cell type abundance by core type (adj_benign, cancer).",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 512",
+      "evidence_snippet": "category. H) Left: major cell type abundance by core type (adj_benign, cancer).",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "CD74, per Club cell subset. Means compared with Wilcoxon test (unadjusted p-",
+      "method_normalized": "adjusted p",
+      "software": "",
+      "software_version": "",
+      "threshold": "adjusted p-",
+      "multiple_testing": "CD74, per Club cell subset. Means compared with Wilcoxon test (unadjusted p-",
+      "source_locator": "Markdown line 828",
+      "evidence_snippet": "CD74, per Club cell subset. Means compared with Wilcoxon test (unadjusted p-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "are calculated using `scanpy.tl.score_genes()`, with spots scoring > 0.5 highlighted",
+      "method_normalized": "Scanpy",
+      "software": "Scanpy",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1949",
+      "evidence_snippet": "are calculated using `scanpy.tl.score_genes()`, with spots scoring > 0.5 highlighted",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 7,
+    "context_only_count": 64,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1101_2024.10.23.619925_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1101_2024.10.23.619925_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "tissue_source_not_located_in_markdown",
+      "severity": "warning",
+      "field": "tissue_sources",
+      "description": "组织来源使用任务表预填值，尚未在 Markdown 中定位到原文证据。",
+      "source_locator": "Task table: 我方Marker文章 row 61",
+      "evidence_snippet": "表中组织：prostate gland"
+    }
+  ]
+}

@@ -38,20 +38,55 @@ EVIDENCE_RANK = {
 
 FORMAL_EVIDENCE_PATTERNS = {
     "author_declared": re.compile(
-        r"\bmarkers?\b|characteri[sz]ed by|defined by|\bsignature\b",
+        r"\bmarkers?\b|\bmarked\s+by\b|\bmarks\b|markers?\s+highlighting|"
+        r"characteri[sz]ed\s+by|defined\s+by|\bspecified\s+by\b|\bsignature\b",
         re.IGNORECASE,
     ),
     "annotation_marker": re.compile(
-        r"\bmarkers?\b|annotat|identif|classif|defined by|used .{0,60}(?:identify|annotat|label)",
+        r"\bmarkers?\b|\bmarked\s+by\b|\bmarks\b|annotat|identif|classif|defined\s+by|"
+        r"used\s.{0,60}(?:identify|annotat|label|sort|gate|isolate|define)|"
+        r"(?:gated|sorted|isolated|selected|enrich(?:ed)?\s+via)\s+(?:on|by|using|via|for)\b|"
+        r"\bnam(?:e|ed|ing)\s+(?:as|this|these|the)\b",
         re.IGNORECASE,
     ),
-    "figure_labeled": re.compile(r"\bmarkers?\b", re.IGNORECASE),
-    "supplementary_marker": re.compile(r"\bmarkers?\b|annotat", re.IGNORECASE),
+    "figure_labeled": re.compile(
+        r"\bmarkers?\b|\bmarked\s+by\b|\bmarks\b|annotat|identif|classif|"
+        r"labeled|labelled|\bspecified\s+by\b",
+        re.IGNORECASE,
+    ),
+    "supplementary_marker": re.compile(
+        r"\bmarkers?\b|\bmarked\s+by\b|\bmarks\b|annotat|identif|classif|"
+        r"labeled|labelled|panel",
+        re.IGNORECASE,
+    ),
 }
 
+# GENE+ / GENE− / GENE-high / (GENE1+, GENE2-) 等作者亚群注释放行条件。
+# 词干必须是“类基因符号”（含数字或至少两个大写字母），避免把 cell-type 之类
+# 普通连字符复合词当成亚群注释。
+SUBPOPULATION_SUFFIX_PATTERN = re.compile(
+    r"\b([A-Za-z][A-Za-z0-9]{0,9})\s*(?:\+|−)(?![A-Za-z0-9])"
+)
+GENE_HIGH_LOW_PATTERN = re.compile(
+    r"\b([A-Za-z][A-Za-z0-9]{1,9})-(?:high|low|positive|negative)\b",
+    re.IGNORECASE,
+)
+
+
+def _gene_like_stem(stem: str) -> bool:
+    return bool(re.search(r"[0-9]", stem) or re.search(r"[A-Z].*[A-Z]", stem))
+
+
+def has_subpopulation_syntax(text: str) -> bool:
+    for pattern in (SUBPOPULATION_SUFFIX_PATTERN, GENE_HIGH_LOW_PATTERN):
+        for match in pattern.finditer(text):
+            if _gene_like_stem(match.group(1)):
+                return True
+    return False
+
 NEGATIVE_POLARITY_PATTERN = re.compile(
-    r"\bnegative\b|\babsence\b|\babsent\b|\blacks?\b|\blow(?:er)?\b|"
-    r"not express|without expression|depleted",
+    r"\bnegative\b|\babsence\b|\babsent\b|\blacks?\b|\blow(?:er)?\b|\bminimal\b|"
+    r"not\s+express|not\s+detect|without\s+expression|depleted",
     re.IGNORECASE,
 )
 
@@ -69,12 +104,21 @@ def candidate_class_for(evidence_type: str) -> str:
 
 
 def apply_evidence_guardrail(marker: dict[str, Any]) -> dict[str, Any]:
-    """把缺少作者措辞支持的“正式 marker”降级为上下文候选。"""
+    """把缺少作者措辞支持的“正式 marker”降级为上下文候选。
+
+    放行三类措辞：作者 marker 措辞、注释/门控动作、GENE+/-high 等亚群语法。
+    guardrail 只是最低限度规则，不取代语义审核。
+    """
     normalized = dict(marker)
     evidence_type = str(normalized["evidence_type"])
     source_text = f"{normalized.get('source_locator', '')} {normalized.get('source_context', '')}"
     pattern = FORMAL_EVIDENCE_PATTERNS.get(evidence_type)
-    if pattern is not None and not pattern.search(source_text):
+    subpopulation_syntax = has_subpopulation_syntax(source_text)
+    if (
+        pattern is not None
+        and not pattern.search(source_text)
+        and not subpopulation_syntax
+    ):
         normalized["model_evidence_type"] = evidence_type
         normalized["evidence_type"] = "cluster_enriched"
         normalized["guardrail_reason"] = "缺少作者 marker/注释措辞，降级为表达或富集上下文"

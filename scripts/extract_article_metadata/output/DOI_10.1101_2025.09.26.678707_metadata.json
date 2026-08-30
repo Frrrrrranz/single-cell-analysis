@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1101_2025.09.26.678707",
+  "document_id": "DOI_10.1101_2025.09.26.678707",
+  "task_no": 39,
+  "source_markdown": "DOI_10.1101_2025.09.26.678707.md",
+  "article_identity": {
+    "title_original": "Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney",
+    "doi": "10.1101/2025.09.26.678707",
+    "pmid": "",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "kidney",
+      "tissue_source_normalized": "kidney",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "10x 3' v2|10x multiome",
+      "source_locator": "Markdown line 23",
+      "evidence_snippet": "Himmelfarb73, Joseph P. Gaut74, Kidney Precision Medicine Project*, Kun Zhang1,79, Ravi Iyengar3,4,79,"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "kidney",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 133",
+      "evidence_snippet": "infiltration of immune cells. Following injury, kidney epithelial cells undergo complex transitions",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neural cells",
+      "cell_name_normalized": "neural cells",
+      "cell_category": "other_neural",
+      "pns_level": "NA",
+      "tissue": "kidney",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 1349",
+      "evidence_snippet": "immune cells (Lymphoid, Myeloid) and Schwann/neural cells (NEU) in order to achieve a higher",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "Degenerative states were frequently enriched for pathways involved in translation, mitochondrial",
+      "method_normalized": "mitochondrial",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 411",
+      "evidence_snippet": "Degenerative states were frequently enriched for pathways involved in translation, mitochondrial",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "kidney biopsy samples and insufficient integration across disease states and clinical outcomes.",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 154",
+      "evidence_snippet": "kidney biopsy samples and insufficient integration across disease states and clinical outcomes.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "cell type categories were independently clustered to identify fine-grained cell subpopulations",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 190",
+      "evidence_snippet": "cell type categories were independently clustered to identify fine-grained cell subpopulations",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "degenerative or dedifferentiated (d) states associated with elevated stress and cell-death",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 135",
+      "evidence_snippet": "degenerative or dedifferentiated (d) states associated with elevated stress and cell-death",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Pathway enrichment analysis suggests high immune-response, in particular complement-related",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 239",
+      "evidence_snippet": "Pathway enrichment analysis suggests high immune-response, in particular complement-related",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "snRNA-seq abundance trends (Figure 2). Transcription factors driving epithelial repair states",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 491",
+      "evidence_snippet": "snRNA-seq abundance trends (Figure 2). Transcription factors driving epithelial repair states",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "proteins were significantly associated with increased risk of ESKD after Bonferroni correction",
+      "method_normalized": "Bonferroni",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "proteins were significantly associated with increased risk of ESKD after Bonferroni correction",
+      "source_locator": "Markdown line 676",
+      "evidence_snippet": "proteins were significantly associated with increased risk of ESKD after Bonferroni correction",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "Ranger v7.0.0 (RNA-seq) or the 10X Cell Ranger Arc v2.0.2 (Multiome) pipelines using the",
+      "method_normalized": "Cell Ranger",
+      "software": "Cell Ranger",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1262",
+      "evidence_snippet": "Ranger v7.0.0 (RNA-seq) or the 10X Cell Ranger Arc v2.0.2 (Multiome) pipelines using the",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 9,
+    "context_only_count": 67,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1101_2025.09.26.678707_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1101_2025.09.26.678707_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 82",
+      "evidence_snippet": "Schwann cell"
+    }
+  ]
+}

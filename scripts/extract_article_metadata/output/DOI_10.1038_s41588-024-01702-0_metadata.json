@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41588-024-01702-0",
+  "document_id": "DOI_10.1038_s41588-024-01702-0",
+  "task_no": 16,
+  "source_markdown": "DOI_10.1038_s41588-024-01702-0.md",
+  "article_identity": {
+    "title_original": "Cell-type-specific and disease-associated expression quantitative trait loci in the human lung.",
+    "doi": "10.1038/s41588-024-01702-0",
+    "pmid": "38548990",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 5' v1|10x 5' v2",
+      "source_locator": "Markdown line 13",
+      "evidence_snippet": "Common genetic variants confer substantial risk for chronic lung"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 696",
+      "evidence_snippet": "calizations being specific to immune cells, particularly monocytes and  DEGs in fibrotic lungs, suggesting that context-specific gene regula-",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "quality control using the Seurat package10 (Methods and Supplemen- from TxDb. Out of the 63% of sc-eQTL SNPs (eSNPs) that overlapped",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 96",
+      "evidence_snippet": "quality control using the Seurat package10 (Methods and Supplemen- from TxDb. Out of the 63% of sc-eQTL SNPs (eSNPs) that overlapped",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "tation (Methods). We performed data integration, dimensionality eQTLs typically impact enhancers, while widely shared eQTLs impact",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 94",
+      "evidence_snippet": "tation (Methods). We performed data integration, dimensionality eQTLs typically impact enhancers, while widely shared eQTLs impact",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "lung tissue samples of 114 individuals (66 individuals with ILD and 48 visualized the top two principal components of the median pseudob-",
+      "method_normalized": "principal component",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 65",
+      "evidence_snippet": "lung tissue samples of 114 individuals (66 individuals with ILD and 48 visualized the top two principal components of the median pseudob-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "positive indicates the common effect direction and negative indicates  showing a different direction or degree of effect in the two groups,",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 280",
+      "evidence_snippet": "positive indicates the common effect direction and negative indicates  showing a different direction or degree of effect in the two groups,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "background. In the TFBS enrichment analysis of the int-eQTLs, the 55. gtex-resources. Google Cloud https://console.cloud.google.com/",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 978",
+      "evidence_snippet": "background. In the TFBS enrichment analysis of the int-eQTLs, the 55. gtex-resources. Google Cloud https://console.cloud.google.com/",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "we analyzed the int-eQTLs associated with eGenes expressed equally addition to or instead of differential transcription factor abundance.",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 315",
+      "evidence_snippet": "we analyzed the int-eQTLs associated with eGenes expressed equally addition to or instead of differential transcription factor abundance.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "role of cholesterol metabolism in immune functions18. Cluster 7, also  ferentially expressed (adjusted P < 0.1) between ILD and unaffected",
+      "method_normalized": "adjusted p",
+      "software": "",
+      "software_version": "",
+      "threshold": "adjusted P < 0",
+      "multiple_testing": "role of cholesterol metabolism in immune functions18. Cluster 7, also  ferentially expressed (adjusted P < 0.1) between ILD and unaffected",
+      "source_locator": "Markdown line 298",
+      "evidence_snippet": "role of cholesterol metabolism in immune functions18. Cluster 7, also  ferentially expressed (adjusted P < 0.1) between ILD and unaffected",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "quality control using the Seurat package10 (Methods and Supplemen- from TxDb. Out of the 63% of sc-eQTL SNPs (eSNPs) that overlapped",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 96",
+      "evidence_snippet": "quality control using the Seurat package10 (Methods and Supplemen- from TxDb. Out of the 63% of sc-eQTL SNPs (eSNPs) that overlapped",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 19,
+    "context_only_count": 0,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41588-024-01702-0_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41588-024-01702-0_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 51",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    }
+  ]
+}

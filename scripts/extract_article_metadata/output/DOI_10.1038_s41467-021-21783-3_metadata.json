@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41467-021-21783-3",
+  "document_id": "DOI_10.1038_s41467-021-21783-3",
+  "task_no": 40,
+  "source_markdown": "DOI_10.1038_s41467-021-21783-3.md",
+  "article_identity": {
+    "title_original": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation of luminal progenitors.",
+    "doi": "10.1038/s41467-021-21783-3",
+    "pmid": "33686070",
+    "species": [
+      "Mus musculus"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "mammary gland",
+      "tissue_source_normalized": "mammary gland",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Mus musculus",
+      "single_cell_type": "10x 3' v2|10x 3' v3",
+      "source_locator": "Markdown line 62",
+      "evidence_snippet": "isolated from the mammary glands of 15 Brca1/p53 mice span- Thestagingofthepremalignantsamplesallowedustoidentifya"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "mammary gland",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 170",
+      "evidence_snippet": "(Spp1) expressed by Avd with Cd44 expressed on immune cells 1showreducedexpressionofKlrg1andIl1rl1,twomarkersoftissue",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "C1qc,LgmnandApoe)(SupplementaryFig.7)18.Theseseemtobe",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 204",
+      "evidence_snippet": "C1qc,LgmnandApoe)(SupplementaryFig.7)18.Theseseemtobe",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "removalbeforethefinalintegrationstepofthetwodatasets. remaininggeneswiththeclusterassignmentsascovariate(s).The“glmQLFTest”",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 753",
+      "evidence_snippet": "removalbeforethefinalintegrationstepofthetwodatasets. remaininggeneswiththeclusterassignmentsascovariate(s).The“glmQLFTest”",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "initiating cells impact the cell state of nascent tumour cells and profile per sample and performed principal component analysis",
+      "method_normalized": "principal component",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 49",
+      "evidence_snippet": "initiating cells impact the cell state of nascent tumour cells and profile per sample and performed principal component analysis",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "forthetumourigenesisdata,7forpregnancy)25.Beforeannotatingcelltypes,we the“findMarkers”functioninscranwithdefaultsettings.",
+      "method_normalized": "FindMarkers",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 756",
+      "evidence_snippet": "forthetumourigenesisdata,7forpregnancy)25.Beforeannotatingcelltypes,we the“findMarkers”functioninscranwithdefaultsettings.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "To further validate this, we performed RNA-sequencing on an cell–cell communication pathways using CellPhoneDB11, a",
+      "method_normalized": "CellPhoneDB",
+      "software": "",
+      "software_version": "11",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 141",
+      "evidence_snippet": "To further validate this, we performed RNA-sequencing on an cell–cell communication pathways using CellPhoneDB11, a",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "ning various premalignant stages (n=15) and fully developed totalof16celltypesthatchangeinabundanceduringtheearlystages",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 63",
+      "evidence_snippet": "ning various premalignant stages (n=15) and fully developed totalof16celltypesthatchangeinabundanceduringtheearlystages",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "tumours (n=2) (Fig. 1a and Supplementary Fig. 1a, b). of tumourigenesis (false discovery rate (FDR)<0.1; Fig. 2a, b and",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR)<0",
+      "multiple_testing": "tumours (n=2) (Fig. 1a and Supplementary Fig. 1a, b). of tumourigenesis (false discovery rate (FDR)<0.1; Fig. 2a, b and",
+      "source_locator": "Markdown line 64",
+      "evidence_snippet": "tumours (n=2) (Fig. 1a and Supplementary Fig. 1a, b). of tumourigenesis (false discovery rate (FDR)<0.1; Fig. 2a, b and",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "To further validate this, we performed RNA-sequencing on an cell–cell communication pathways using CellPhoneDB11, a",
+      "method_normalized": "CellPhoneDB",
+      "software": "CellPhoneDB",
+      "software_version": "11",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 141",
+      "evidence_snippet": "To further validate this, we performed RNA-sequencing on an cell–cell communication pathways using CellPhoneDB11, a",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 6,
+    "context_only_count": 10,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41467-021-21783-3_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41467-021-21783-3_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 83",
+      "evidence_snippet": "Schwann cell"
+    }
+  ]
+}

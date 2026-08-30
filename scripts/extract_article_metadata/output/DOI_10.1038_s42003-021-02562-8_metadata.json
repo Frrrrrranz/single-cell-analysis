@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s42003-021-02562-8",
+  "document_id": "DOI_10.1038_s42003-021-02562-8",
+  "task_no": 30,
+  "source_markdown": "DOI_10.1038_s42003-021-02562-8.md",
+  "article_identity": {
+    "title_original": "Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequencing in hepatoblastoma.",
+    "doi": "10.1038/s42003-021-02562-8",
+    "pmid": "34497364",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "liver",
+      "tissue_source_normalized": "liver",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Markdown line 15",
+      "evidence_snippet": "Hepatoblastoma (HB) is the most common primary liver malignancy of childhood, and"
+    }
+  ],
+  "neural_cells": [],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "PDXmodelmimicsHBtumorexpressionandhistology.Inthe After preprocessing and quality control (see “Methods”), we",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 203",
+      "evidence_snippet": "PDXmodelmimicsHBtumorexpressionandhistology.Inthe After preprocessing and quality control (see “Methods”), we",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "Fig.4MaintenanceoffeaturesacrossthetumorandPDX.aScatterplotsfornormalizedexpressionvaluesofalldetectedgenesinhepatocytesof",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 394",
+      "evidence_snippet": "Fig.4MaintenanceoffeaturesacrossthetumorandPDX.aScatterplotsfornormalizedexpressionvaluesofalldetectedgenesinhepatocytesof",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "identified a driver tumor cell cluster in HB by genetic expression which can be examined to",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 24",
+      "evidence_snippet": "identified a driver tumor cell cluster in HB by genetic expression which can be examined to",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "canonicalmarkers,suchasCYP3A4,ALB,APOC3,andHPGDfor differentially expressed genes were identified and organized by",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 227",
+      "evidence_snippet": "canonicalmarkers,suchasCYP3A4,ALB,APOC3,andHPGDfor differentially expressed genes were identified and organized by",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "cells account for the largest proportion of cells in the HB tumor ToppGene enrichment analysis, as well as gene-interaction net-",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 232",
+      "evidence_snippet": "cells account for the largest proportion of cells in the HB tumor ToppGene enrichment analysis, as well as gene-interaction net-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "ighly AdjustedpvaluesofenrichmentwerecalculatedusingtheBenjamini–Hochberg",
+      "method_normalized": "Benjamini",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "ighly AdjustedpvaluesofenrichmentwerecalculatedusingtheBenjamini–Hochberg",
+      "source_locator": "Markdown line 799",
+      "evidence_snippet": "ighly AdjustedpvaluesofenrichmentwerecalculatedusingtheBenjamini–Hochberg",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "e, f) support an initiating/driving role of Tr2 through gene was predicted with scVelo to extrapolate differential flow from",
+      "method_normalized": "scVelo",
+      "software": "scVelo",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 427",
+      "evidence_snippet": "e, f) support an initiating/driving role of Tr2 through gene was predicted with scVelo to extrapolate differential flow from",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 11,
+    "context_only_count": 33,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s42003-021-02562-8_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s42003-021-02562-8_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

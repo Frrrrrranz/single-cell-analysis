@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+  "document_id": "DOI_10.1016_j.healun.2026.02.1666",
+  "task_no": 10,
+  "source_markdown": "DOI_10.1016_j.healun.2026.02.1666.md",
+  "article_identity": {
+    "title_original": "Human lung allografts experience persistent fibrogenic shift following acute cellular rejection.",
+    "doi": "10.1016/j.healun.2026.02.1666",
+    "pmid": "41740941",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3|10x 5' v1|10x 5' v2",
+      "source_locator": "Markdown line 13",
+      "evidence_snippet": "Medicine, Houston, TX; cWake Forest University School of Medicine, Winston-Salem, NC; dCenter for Advanced Lung"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Neuroendocrine cell",
+      "cell_name_normalized": "Neuroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 51",
+      "evidence_snippet": "derived immune cells in ACR.",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 51",
+      "evidence_snippet": "derived immune cells in ACR.",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "entiation (EMT/EndoMT).14 Type II Interferon (IFN-γ) sig- batch correction for chemistry differences. Cell types were",
+      "method_normalized": "batch correction",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 92",
+      "evidence_snippet": "entiation (EMT/EndoMT).14 Type II Interferon (IFN-γ) sig- batch correction for chemistry differences. Cell types were",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "factor; TGF-β, transforming growth factor beta; TNF, tumor necrosis factor; IFN-II, type 2 interferon; UMAP, uniform manifold approximation and",
+      "method_normalized": "UMAP",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 39",
+      "evidence_snippet": "factor; TGF-β, transforming growth factor beta; TNF, tumor necrosis factor; IFN-II, type 2 interferon; UMAP, uniform manifold approximation and",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "Speckle. Differential expression used pseudobulk aggregation",
+      "method_normalized": "differential expression",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 96",
+      "evidence_snippet": "Speckle. Differential expression used pseudobulk aggregation",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Natural killer cells; MEASUREMENTS AND MAIN RESULTS: Gene set enrichment analysis revealed persistent TGF-β sig-",
+      "method_normalized": "gene set enrichment",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 27",
+      "evidence_snippet": "Natural killer cells; MEASUREMENTS AND MAIN RESULTS: Gene set enrichment analysis revealed persistent TGF-β sig-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "genic cell partitions that excluded epithelial and endothelial Differential cell composition analysis revealed significantly",
+      "method_normalized": "cell composition",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 696",
+      "evidence_snippet": "genic cell partitions that excluded epithelial and endothelial Differential cell composition analysis revealed significantly",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "comparisons achieved adjusted p (P ) < 0.001, demon- pathways, including collagen biosynthesis, collagen cross-",
+      "method_normalized": "adjusted p",
+      "software": "",
+      "software_version": "",
+      "threshold": "adjusted p (P ) < 0",
+      "multiple_testing": "comparisons achieved adjusted p (P ) < 0.001, demon- pathways, including collagen biosynthesis, collagen cross-",
+      "source_locator": "Markdown line 654",
+      "evidence_snippet": "comparisons achieved adjusted p (P ) < 0.001, demon- pathways, including collagen biosynthesis, collagen cross-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "were processed with Cell Ranger, with analysis in Seurat with",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 90",
+      "evidence_snippet": "were processed with Cell Ranger, with analysis in Seurat with",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "阻塞：缺有效PDF",
+    "formal_candidate_count": 4,
+    "context_only_count": 1,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.healun.2026.02.1666_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.healun.2026.02.1666_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "statistical_method_not_reported_or_not_located",
+      "severity": "info",
+      "field": "statistics_methods",
+      "description": "未在 Markdown 中定位到单细胞分析阶段：quality_control",
+      "source_locator": "",
+      "evidence_snippet": ""
+    }
+  ]
+}

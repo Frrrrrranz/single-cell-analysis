@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s44318-024-00328-6",
+  "document_id": "DOI_10.1038_s44318-024-00328-6",
+  "task_no": 12,
+  "source_markdown": "DOI_10.1038_s44318-024-00328-6.md",
+  "article_identity": {
+    "title_original": "A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant to interstitial lung disease.",
+    "doi": "10.1038/s44318-024-00328-6",
+    "pmid": "39815007",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 5' v1",
+      "source_locator": "Markdown line 13",
+      "evidence_snippet": "Alveolartype2(AT2)cellsmaintainlunghealthbyactingasstem Despiteitsroleinincreasingthestabilityofpulmonarysurfactant,"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 312",
+      "evidence_snippet": "OurAT2mediumdirectlyinducesthedifferentiationof16–22pcw ing basal and neuroendocrine cells were present (Figs. 1H,I",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "Doublets",
+      "method_normalized": "doublet",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 78",
+      "evidence_snippet": "Doublets",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "(C),andimmunofluorescenceimagingwithCAV1,E-cadherin,β-actin,andDAPI(nuclei);scalebar,50μm(D).ForRT-qPCR,datawerenormalizedtofdAT2organoidsin",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 414",
+      "evidence_snippet": "(C),andimmunofluorescenceimagingwithCAV1,E-cadherin,β-actin,andDAPI(nuclei);scalebar,50μm(D).ForRT-qPCR,datawerenormalizedtofdAT2organoidsin",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "UMAP1",
+      "method_normalized": "UMAP",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 53",
+      "evidence_snippet": "UMAP1",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "Jacobetal,2017.(M–O)HeatmapofDEGsassociatedwithtypicalAT2cellfate(M),trafficking(N),andimmuneresponse(O).Alistoftrafficking-relatedgeneswas",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 269",
+      "evidence_snippet": "Jacobetal,2017.(M–O)HeatmapofDEGsassociatedwithtypicalAT2cellfate(M),trafficking(N),andimmuneresponse(O).Alistoftrafficking-relatedgeneswas",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "progenitor organoids (Lim et al, 2023) (Fig. 1L). Our fdAT2 set enrichment analysis (GSEA) of >2000 DEGs showed that the",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 439",
+      "evidence_snippet": "progenitor organoids (Lim et al, 2023) (Fig. 1L). Our fdAT2 set enrichment analysis (GSEA) of >2000 DEGs showed that the",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "abundanceinCRISPRi-depletedorganoidsasmeasuredbyfluorescenceintensity.Mean±SD;minimum3organoidsperlineandminimum3biologicallyindependentlines",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 636",
+      "evidence_snippet": "abundanceinCRISPRi-depletedorganoidsasmeasuredbyfluorescenceintensity.Mean±SD;minimum3organoidsperlineandminimum3biologicallyindependentlines",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "Seuratpackage(v4.0) experimental protocols. Mice were bred and maintained under",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 1003",
+      "evidence_snippet": "Seuratpackage(v4.0) experimental protocols. Mice were bred and maintained under",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 26,
+    "context_only_count": 7,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s44318-024-00328-6_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s44318-024-00328-6_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 47",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    },
+    {
+      "issue_type": "statistical_method_not_reported_or_not_located",
+      "severity": "info",
+      "field": "statistics_methods",
+      "description": "未在 Markdown 中定位到单细胞分析阶段：multiple_testing",
+      "source_locator": "",
+      "evidence_snippet": ""
+    }
+  ]
+}

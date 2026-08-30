@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1101_2025.01.17.633590",
+  "document_id": "DOI_10.1101_2025.01.17.633590",
+  "task_no": 27,
+  "source_markdown": "DOI_10.1101_2025.01.17.633590.md",
+  "article_identity": {
+    "title_original": "Single-cell decoding of human islet cell type-specific alterations in type 2 diabetes reveals converging genetic- and state-driven β-cell gene expression defects",
+    "doi": "10.1101/2025.01.17.633590",
+    "pmid": "",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "islet of Langerhans",
+      "tissue_source_normalized": "pancreatic islet",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2|10x 3' v3",
+      "source_locator": "Markdown line 33",
+      "evidence_snippet": "24 Pancreatic islets maintain glucose homeostasis through coordinated action of their constituent"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "islet of Langerhans",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 141",
+      "evidence_snippet": "116 The distribution of each endocrine cell type relative to the total number of endocrine cells",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "sensory neuron",
+      "cell_name_normalized": "sensory neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "islet of Langerhans",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 1590; section /0 3(cid:2)(cid:29)(cid:7)2(cid:12)&3 (cid:2)(cid:29) , (cid:13) and",
+      "evidence_snippet": "1127 89. Makhmutova, M. et al. Pancreatic -Cells Communicate With Vagal Sensory Neurons.",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "sympathetic neuron",
+      "cell_name_normalized": "sympathetic neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "islet of Langerhans",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 226",
+      "evidence_snippet": "178 parasympathetic neurons innervating islets primarily release acetylcholine24. Additionally,",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "parasympathetic neuron",
+      "cell_name_normalized": "parasympathetic neuron",
+      "cell_category": "neuron",
+      "pns_level": "L1",
+      "tissue": "islet of Langerhans",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 226",
+      "evidence_snippet": "178 parasympathetic neurons innervating islets primarily release acetylcholine24. Additionally,",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "85 total, 245,878 cells passed stringent quality control (see Methods), with an average of 5,122",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 105",
+      "evidence_snippet": "85 total, 245,878 cells passed stringent quality control (see Methods), with an average of 5,122",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "87 Table 2). After batch correction (Supplementary Figure 1c), unsupervised clustering based on",
+      "method_normalized": "batch correction",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 107",
+      "evidence_snippet": "87 Table 2). After batch correction (Supplementary Figure 1c), unsupervised clustering based on",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "87 Table 2). After batch correction (Supplementary Figure 1c), unsupervised clustering based on",
+      "method_normalized": "clustering",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 107",
+      "evidence_snippet": "87 Table 2). After batch correction (Supplementary Figure 1c), unsupervised clustering based on",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "33 differentially expressed genes (DEGs), including new (66.5%) and validated genes (e.g.,",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 42",
+      "evidence_snippet": "33 differentially expressed genes (DEGs), including new (66.5%) and validated genes (e.g.,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "168 (MSigDB, https://www.gsea-msigdb.org/gsea/msigdb) revealed 'neuroactive ligand-receptor",
+      "method_normalized": "GSEA",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 211",
+      "evidence_snippet": "168 (MSigDB, https://www.gsea-msigdb.org/gsea/msigdb) revealed 'neuroactive ligand-receptor",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "120 ANOVA followed by Tukey's honest significance test) donor islets. α-cell proportions were",
+      "method_normalized": "cell proportion",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 146",
+      "evidence_snippet": "120 ANOVA followed by Tukey's honest significance test) donor islets. α-cell proportions were",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "98 discovery rate (FDR) <5% in one-vs-all ANOVA comparisons (Supplementary Figure 2;",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR) <5% in one-vs-all ANOVA comparisons (Supplementary Figure 2",
+      "multiple_testing": "98 discovery rate (FDR) <5% in one-vs-all ANOVA comparisons (Supplementary Figure 2;",
+      "source_locator": "Markdown line 118",
+      "evidence_snippet": "98 discovery rate (FDR) <5% in one-vs-all ANOVA comparisons (Supplementary Figure 2;",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "UMI data into respective Seurat v.4 objects107 (STAR-Methods) that were subsequently merged",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 827",
+      "evidence_snippet": "UMI data into respective Seurat v.4 objects107 (STAR-Methods) that were subsequently merged",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 21,
+    "context_only_count": 15,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1101_2025.01.17.633590_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1101_2025.01.17.633590_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 62",
+      "evidence_snippet": "Schwann cell"
+    }
+  ]
+}

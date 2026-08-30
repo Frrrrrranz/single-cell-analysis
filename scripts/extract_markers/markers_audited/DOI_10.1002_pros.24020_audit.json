@@ -1,0 +1,112 @@
+{
+  "audit_version": 1,
+  "paper_id": "DOI_10.1002_pros.24020",
+  "paper_status": "corrected",
+  "summary": "主动扫描发现论文 Results 3.1 用已知标志物 CGRP 和 CHGA 识别小鼠（Fig. S3A）和人类（Fig. S3C）神经内分泌细胞。CHGA 可唯一解析，人类 CHGA 应作为正式 annotation_marker 纳入任务范围；CGRP 因无法唯一对应 CALCA/CALCB 而保持 unresolved。原始结果将神经内分泌标志物仅记为 mouse/reference_imported/context_only，需修正为按物种拆分并补入 human CHGA。",
+  "markers": [
+    {
+      "cell_type": "neuroendocrine epithelia",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": true,
+      "original_symbol": "CHGA",
+      "normalized_symbol": "CHGA",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 3.1 / Fig. S3C",
+      "source_context": "neuroendocrine epithelia are an extremely rare cell type that do not cluster independently, but can be identified using known markers such as CGRP and CHGA (Figure S3A,C); human panel S3C.",
+      "decision": "include",
+      "reason": "作者在本文数据/图中用 CHGA 识别人类神经内分泌细胞，证据为 annotation_marker，物种 human 符合任务，符号唯一可解析。",
+      "citation_match_score": 0.9474,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "neuroendocrine epithelia",
+      "subtype": null,
+      "species": "mouse",
+      "in_project_scope": false,
+      "original_symbol": "CHGA",
+      "normalized_symbol": "CHGA",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 3.1 / Fig. S3A",
+      "source_context": "neuroendocrine epithelia ... can be identified using known markers such as CGRP and CHGA (Figure S3A,C); mouse panel S3A.",
+      "decision": "exclude",
+      "reason": "物种为 mouse，与任务物种 human 不一致；保留为比较物种记录，不计入项目总表。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "neuroendocrine epithelia",
+      "subtype": null,
+      "species": "human",
+      "in_project_scope": true,
+      "original_symbol": "CGRP",
+      "normalized_symbol": "CGRP",
+      "normalization_status": "ambiguous",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 3.1 / Fig. S3C",
+      "source_context": "neuroendocrine epithelia ... can be identified using known markers such as CGRP and CHGA (Figure S3A,C); human panel S3C.",
+      "decision": "unresolved",
+      "reason": "CGRP 为肽段/蛋白名，可对应 CALCA 或 CALCB，论文未给出唯一基因符号，无法唯一解析，不能进入总表。",
+      "citation_match_score": 0.9231,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "neuroendocrine epithelia",
+      "subtype": null,
+      "species": "mouse",
+      "in_project_scope": false,
+      "original_symbol": "CGRP",
+      "normalized_symbol": "CGRP",
+      "normalization_status": "ambiguous",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 3.1 / Fig. S3A",
+      "source_context": "neuroendocrine epithelia ... can be identified using known markers such as CGRP and CHGA (Figure S3A,C); mouse panel S3A.",
+      "decision": "exclude",
+      "reason": "物种为 mouse，不符合任务物种；且 CGRP 符号无法唯一解析，故排除。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "missing_marker",
+      "description": "任务目标为人类前列腺神经内分泌细胞；论文 Results 3.1 在 Fig. S3C 中用 CHGA 识别人类神经内分泌细胞，原结果未将 human CHGA 作为正式 marker 纳入，仅以 mouse/reference_imported/context_only 记录。"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "species",
+      "description": "同一证据句及图板覆盖小鼠（Fig. S3A）和人类（Fig. S3C），需按物种拆分评估；原结果只输出 mouse，遗漏 human。"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "symbol",
+      "description": "CGRP 为蛋白/肽段名，论文未给出唯一基因符号（CALCA/CALCB），normalization_status 应为 ambiguous，不能 include。"
+    },
+    {
+      "severity": "info",
+      "issue_type": "evidence",
+      "description": "CGRP 和 CHGA 虽表述为 known markers，但本文实际用于识别神经内分泌细胞（Fig. S3A,C），应按 annotation_marker 处理，而非 reference_imported。"
+    }
+  ],
+  "task": {
+    "task_no": 24,
+    "dataset_id": "CELLxGENE:8b2e5453-faf7-46ea-9073-aea69b283cb7",
+    "paper_title": "Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L4:Neuroendocrine cell",
+    "tissue": "peripheral zone of prostate",
+    "paper_id": "DOI_10.1002_pros.24020"
+  },
+  "audit_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1002_pros.24020.md",
+  "source_raw_json": "DOI_10.1002_pros.24020_raw.json",
+  "source_markdown_sha256": "21343ac74ae8a6d891c089a8654bd1836a910110e196397de30075868b54cb5e",
+  "source_raw_sha256": "76109eaf9a155545c78dead3492c43393746d20a0e4366118cb2b4e5359b2960"
+}

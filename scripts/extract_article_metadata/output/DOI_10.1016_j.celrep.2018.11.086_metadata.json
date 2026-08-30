@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+  "document_id": "DOI_10.1016_j.celrep.2018.11.086",
+  "task_no": 25,
+  "source_markdown": "DOI_10.1016_j.celrep.2018.11.086.md",
+  "article_identity": {
+    "title_original": "A Cellular Anatomy of the Normal Adult Human Prostate and Prostatic Urethra.",
+    "doi": "10.1016/j.celrep.2018.11.086",
+    "pmid": "30566875",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "peripheral zone of prostate",
+      "tissue_source_normalized": "prostate gland",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2",
+      "source_locator": "Markdown line 373",
+      "evidence_snippet": "development (Timms et al., 1994) and prostate glands in the ProstateKRT13+cellsaresimilarinmorphologyandtranscrip-"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "Neuroendocrine cell",
+      "cell_name_normalized": "Neuroendocrine cell",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "peripheral zone of prostate",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 88",
+      "evidence_snippet": "scRNA-seq.Themolecularclassification,anatomical neuroendocrine(NE).Basalepitheliaexpresscytokeratin5and",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "peripheral zone of prostate",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 88",
+      "evidence_snippet": "scRNA-seq.Themolecularclassification,anatomical neuroendocrine(NE).Basalepitheliaexpresscytokeratin5and",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "transcriptome being mitochondrial genes. Data was then scaledto 10,000and log transformed. Mitochondrial geneswere then",
+      "method_normalized": "mitochondrial",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 807",
+      "evidence_snippet": "transcriptome being mitochondrial genes. Data was then scaledto 10,000and log transformed. Mitochondrial geneswere then",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "(CD271+)andluminal(CD26+)gates. barcodedwithanormalizedreaddepthof22,729percelland",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 159",
+      "evidence_snippet": "(CD271+)andluminal(CD26+)gates. barcodedwithanormalizedreaddepthof22,729percelland",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "To establish a baseline transcriptome for each cell type, we We clustered the single-cell transcriptomes with a modified",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 162",
+      "evidence_snippet": "To establish a baseline transcriptome for each cell type, we We clustered the single-cell transcriptomes with a modified",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "been possible. We also used scRNA-seq to identify selective patient to generate epithelial-specific differentially expressed",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 121",
+      "evidence_snippet": "been possible. We also used scRNA-seq to identify selective patient to generate epithelial-specific differentially expressed",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "verseprostatesectionstodemonstrateregionalenrichmentof andS2C).Genesetenrichmentanalysis(GSEA)wasperformed",
+      "method_normalized": "GSEA",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 123",
+      "evidence_snippet": "verseprostatesectionstodemonstrateregionalenrichmentof andS2C).Genesetenrichmentanalysis(GSEA)wasperformed",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "performedusingedgeR(Robinsonetal.,2010),usingaFCcutoffof2andadjustedFDRcutoffof0.05.Pan-epithelialDEGsare",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "cutoffof2andadjustedFDRcutoffof0",
+      "multiple_testing": "performedusingedgeR(Robinsonetal.,2010),usingaFCcutoffof2andadjustedFDRcutoffof0.05.Pan-epithelialDEGsare",
+      "source_locator": "Markdown line 758",
+      "evidence_snippet": "performedusingedgeR(Robinsonetal.,2010),usingaFCcutoffof2andadjustedFDRcutoffof0.05.Pan-epithelialDEGsare",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "createdafreshtissuebiorepositoryofprostatesfromyoungor- versionoftheSeuratRpipeline(Butleretal.,2018)(seeSTAR",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 163",
+      "evidence_snippet": "createdafreshtissuebiorepositoryofprostatesfromyoungor- versionoftheSeuratRpipeline(Butleretal.,2018)(seeSTAR",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 11,
+    "context_only_count": 49,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.celrep.2018.11.086_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.celrep.2018.11.086_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41586-021-03569-1",
+  "document_id": "DOI_10.1038_s41586-021-03569-1",
+  "task_no": 17,
+  "source_markdown": "DOI_10.1038_s41586-021-03569-1.md",
+  "article_identity": {
+    "title_original": "A molecular single-cell lung atlas of lethal COVID-19.",
+    "doi": "10.1038/s41586-021-03569-1",
+    "pmid": "33915568",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Markdown line 18",
+      "evidence_snippet": "infection1,2, but the host response at the lung tissue level is poorly understood. Here"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 853",
+      "evidence_snippet": "mechanistic dependencies in neuroendocrine tumors. Nat. Genet. 50, 979–989 (2018).",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "QC-passed (cid:315) seneG",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 63",
+      "evidence_snippet": "QC-passed (cid:315) seneG",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "percentiles; whiskers: most extreme points that do not exceed ±1.5 × IQR.  h, i, RNA expression (log-normalized) of GZMB (h) and MKI67 (i) in the same",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 205",
+      "evidence_snippet": "percentiles; whiskers: most extreme points that do not exceed ±1.5 × IQR.  h, i, RNA expression (log-normalized) of GZMB (h) and MKI67 (i) in the same",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "|     | UMAP 1 |     | UMAP 1 |     |     |",
+      "method_normalized": "UMAP",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 111",
+      "evidence_snippet": "|     | UMAP 1 |     | UMAP 1 |     |     |",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "For example, MDMs in COVID-19 lungs differentially expressed genes  and only modest upregulation of cytokines and programs associated",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 209",
+      "evidence_snippet": "For example, MDMs in COVID-19 lungs differentially expressed genes  and only modest upregulation of cytokines and programs associated",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "main trajectory from AT2 to AT1 cells, while DATPs were primarily local- to the DATP cell state, and more generally, to the hyperinflammatory",
+      "method_normalized": "trajectory",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 349",
+      "evidence_snippet": "main trajectory from AT2 to AT1 cells, while DATPs were primarily local- to the DATP cell state, and more generally, to the hyperinflammatory",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "found no significant increase in T cell abundances in COVID-19 lungs,",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 244",
+      "evidence_snippet": "found no significant increase in T cell abundances in COVID-19 lungs,",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "Wilcoxon rank-sum test with Bonferroni correction. f, UMAP embedding of AT1  donors with different infectious aetiologies. Each dot represents",
+      "method_normalized": "Bonferroni",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "Wilcoxon rank-sum test with Bonferroni correction. f, UMAP embedding of AT1  donors with different infectious aetiologies. Each dot represents",
+      "source_locator": "Markdown line 330",
+      "evidence_snippet": "Wilcoxon rank-sum test with Bonferroni correction. f, UMAP embedding of AT1  donors with different infectious aetiologies. Each dot represents",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "SARS-CoV-2 infection confirmed by reverse transcription polymerase Raw 3′ snRNA-seq data were demultiplexed using Cell Ranger (v5.0)",
+      "method_normalized": "Cell Ranger",
+      "software": "Cell Ranger",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 553",
+      "evidence_snippet": "SARS-CoV-2 infection confirmed by reverse transcription polymerase Raw 3′ snRNA-seq data were demultiplexed using Cell Ranger (v5.0)",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "需补证据/重提取",
+    "formal_candidate_count": 13,
+    "context_only_count": 23,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-021-03569-1_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-021-03569-1_review.csv",
+    "master_table_present": true
+  },
+  "issues": []
+}

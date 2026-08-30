@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1016_j.isci.2024.111628",
+  "document_id": "DOI_10.1016_j.isci.2024.111628",
+  "task_no": 23,
+  "source_markdown": "DOI_10.1016_j.isci.2024.111628.md",
+  "article_identity": {
+    "title_original": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq.",
+    "doi": "10.1016/j.isci.2024.111628",
+    "pmid": "39850354",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "urinary bladder",
+      "tissue_source_normalized": "urinary bladder",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v3",
+      "source_locator": "Task table: 我方Marker文章 row 58",
+      "evidence_snippet": "表中组织：urinary bladder"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "urinary bladder",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 144",
+      "evidence_snippet": "oping immune cells,14,15 thus identifying clusters 7 and 8 as distinct fibroblast clusters (PDGFRA+/DCN+/COL1A1+) were",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "snRNA-seqcouldfacilitatecaptureofpreviouslyunderrepresentedcelltypes.",
+      "method_normalized": "QC",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 57",
+      "evidence_snippet": "snRNA-seqcouldfacilitatecaptureofpreviouslyunderrepresentedcelltypes.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "ACTA2, ACTG2, or MYH11. These canonical markers were, trol filtering and batch correction, leveraging an established",
+      "method_normalized": "batch correction",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 259",
+      "evidence_snippet": "ACTA2, ACTG2, or MYH11. These canonical markers were, trol filtering and batch correction, leveraging an established",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "betterresolvecellclusters",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 23",
+      "evidence_snippet": "betterresolvecellclusters",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "mappingofcelltypediversityandexpressionsignatureswithin the enrichment of non-coding RNAs in differentially expressed",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 62",
+      "evidence_snippet": "mappingofcelltypediversityandexpressionsignatureswithin the enrichment of non-coding RNAs in differentially expressed",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "MCAM+).14,19Lastly,weidentifiedasingleSchwanncellcluster tions, we performed gene set enrichment analysis using each",
+      "method_normalized": "gene set enrichment",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 180",
+      "evidence_snippet": "MCAM+).14,19Lastly,weidentifiedasingleSchwanncellcluster tions, we performed gene set enrichment analysis using each",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "formalChi-squaredanalysisfoundthatnon-codingRNAswere byeachcelltype’ssingle-cellandsingle-nucleusgenesets.In",
+      "method_normalized": "chi-square",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 266",
+      "evidence_snippet": "formalChi-squaredanalysisfoundthatnon-codingRNAswere byeachcelltype’ssingle-cellandsingle-nucleusgenesets.In",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "definedatFDR<0.05andabs(Log2FC)>0.58.DifferentialexpressionanalysiswascompletedusingtheSeuratFindMarkerfunction",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR<0",
+      "multiple_testing": "definedatFDR<0.05andabs(Log2FC)>0.58.DifferentialexpressionanalysiswascompletedusingtheSeuratFindMarkerfunction",
+      "source_locator": "Markdown line 764",
+      "evidence_snippet": "definedatFDR<0.05andabs(Log2FC)>0.58.DifferentialexpressionanalysiswascompletedusingtheSeuratFindMarkerfunction",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "however,foundinthesmoothmusclecellsingle-cellsubpopula- Seuratworkflow.21Uponcelltypeidentification,wefurthereval-",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 260",
+      "evidence_snippet": "however,foundinthesmoothmusclecellsingle-cellsubpopula- Seuratworkflow.21Uponcelltypeidentification,wefurthereval-",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 84,
+    "context_only_count": 8,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.isci.2024.111628_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.isci.2024.111628_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "tissue_source_not_located_in_markdown",
+      "severity": "warning",
+      "field": "tissue_sources",
+      "description": "组织来源使用任务表预填值，尚未在 Markdown 中定位到原文证据。",
+      "source_locator": "Task table: 我方Marker文章 row 58",
+      "evidence_snippet": "表中组织：urinary bladder"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Schwann cell",
+      "source_locator": "Task table: 我方Marker文章 row 58",
+      "evidence_snippet": "Schwann cell"
+    }
+  ]
+}

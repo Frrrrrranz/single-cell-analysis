@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+  "document_id": "DOI_10.1016_j.jcf.2025.01.016",
+  "task_no": 8,
+  "source_markdown": "DOI_10.1016_j.jcf.2025.01.016.md",
+  "article_identity": {
+    "title_original": "Evidence for altered immune-structural cell crosstalk in cystic fibrosis revealed by single cell transcriptomics.",
+    "doi": "10.1016/j.jcf.2025.01.016",
+    "pmid": "39947933",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "carina of trachea",
+      "tissue_source_normalized": "trachea carina",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2|10x 3' v3",
+      "source_locator": "Task table: 我方Marker文章 row 43",
+      "evidence_snippet": "表中组织：carina of trachea"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "carina of trachea",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 127; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "and immune cells. A disrupted epithelial-immune cell crosstalk has been",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "contain cells with 200 or more expressed genes, <25 % mitochondrial",
+      "method_normalized": "mitochondrial",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 876; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "contain cells with 200 or more expressed genes, <25 % mitochondrial",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "generation and integration yielded a new single cell transcriptome atlas",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 215; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "generation and integration yielded a new single cell transcriptome atlas",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "[29] to facilitate cluster annotation, resulted in the identification of 17",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 207; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "[29] to facilitate cluster annotation, resulted in the identification of 17",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "T cell exhibited the most DEGs, with 106 upregulated",
+      "method_normalized": "DEG",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 388; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "T cell exhibited the most DEGs, with 106 upregulated",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Fig. 3A). Gene ontology (GO) enrichment analysis revealed a striking",
+      "method_normalized": "enrichment analysis",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 433; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "Fig. 3A). Gene ontology (GO) enrichment analysis revealed a striking",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "gland cells and endothelial cells, and a higher abundance of ciliated cells, monocytes, macrophages and T cells.",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 57",
+      "evidence_snippet": "gland cells and endothelial cells, and a higher abundance of ciliated cells, monocytes, macrophages and T cells.",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "shared (connected circles) differentially expressed genes (DEGs, FDR<0.05) detected in CF versus HC bronchial epithelial subsets (A) and lymphocytes (B). (C-E) Left-",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR<0",
+      "multiple_testing": "shared (connected circles) differentially expressed genes (DEGs, FDR<0.05) detected in CF versus HC bronchial epithelial subsets (A) and lymphocytes (B). (C-E) Left-",
+      "source_locator": "Markdown line 589; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "shared (connected circles) differentially expressed genes (DEGs, FDR<0.05) detected in CF versus HC bronchial epithelial subsets (A) and lymphocytes (B). (C-E) Left-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "formed using Seurat version 4.3.0 [74]. Samples were filtered to only",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "4.3.0",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 875; section Current address: Department of Genetics, University of Groningen, University Medical Center Groningen, Groningen, Netherlands.",
+      "evidence_snippet": "formed using Seurat version 4.3.0 [74]. Samples were filtered to only",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 2,
+    "context_only_count": 3,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.jcf.2025.01.016_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1016_j.jcf.2025.01.016_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "tissue_source_not_located_in_markdown",
+      "severity": "warning",
+      "field": "tissue_sources",
+      "description": "组织来源使用任务表预填值，尚未在 Markdown 中定位到原文证据。",
+      "source_locator": "Task table: 我方Marker文章 row 43",
+      "evidence_snippet": "表中组织：carina of trachea"
+    },
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 43",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    }
+  ]
+}

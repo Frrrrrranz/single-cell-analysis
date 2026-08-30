@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41591-023-02327-2",
+  "document_id": "DOI_10.1038_s41591-023-02327-2",
+  "task_no": 14,
+  "source_markdown": "DOI_10.1038_s41591-023-02327-2.md",
+  "article_identity": {
+    "title_original": "An integrated cell atlas of the lung in health and disease.",
+    "doi": "10.1038/s41591-023-02327-2",
+    "pmid": "37291214",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "lung",
+      "tissue_source_normalized": "lung",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v1|10x 3' v2|10x 3' v3|10x 5' transcription profiling|10x 5' v1|10x 5' v2|Drop-seq|Seq-Well",
+      "source_locator": "Markdown line 12",
+      "evidence_snippet": "present in the population. Here we present the integrated Human Lung"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "schwann",
+      "cell_name_normalized": "schwann",
+      "cell_category": "peripheral_glia",
+      "pns_level": "L2",
+      "tissue": "lung",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 625",
+      "evidence_snippet": "nating Schwann cells (n = 7), nonmyelinating Schwann cells (n = 29)",
+      "review_status": "pending"
+    },
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "lung",
+      "evidence_context": "annotation",
+      "source_locator": "Markdown line 232",
+      "evidence_snippet": "Rare cell types, such as ionocytes, tuft cells, neuroendocrine cells and",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "between studies and clusters of doublets (Methods). Most clusters (61",
+      "method_normalized": "doublet",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 93",
+      "evidence_snippet": "between studies and clusters of doublets (Methods). Most clusters (61",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "data integration. Nonetheless, successful integration of the available",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 60",
+      "evidence_snippet": "data integration. Nonetheless, successful integration of the available",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "tively clustered the HLCA core and investigated donor diversity and cell",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 86",
+      "evidence_snippet": "tively clustered the HLCA core and investigated donor diversity and cell",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "phatic endothelial cells are dominated by differential expression of",
+      "method_normalized": "differential expression",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 293",
+      "evidence_snippet": "phatic endothelial cells are dominated by differential expression of",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Modeling gene-level interindividual variation and GSEA",
+      "method_normalized": "GSEA",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 3434",
+      "evidence_snippet": "Modeling gene-level interindividual variation and GSEA",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "low abundance, these cells formed three separate clusters of the HLCA",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 239",
+      "evidence_snippet": "low abundance, these cells formed three separate clusters of the HLCA",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "correlation-adjusted mean-rank gene set tests (Methods) and false discovery rate",
+      "method_normalized": "false discovery",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "correlation-adjusted mean-rank gene set tests (Methods) and false discovery rate",
+      "source_locator": "Markdown line 1273",
+      "evidence_snippet": "correlation-adjusted mean-rank gene set tests (Methods) and false discovery rate",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "benchmarking, such as Harmony29 and Seurat’s RPCA30, failed to sepa-",
+      "method_normalized": "Seurat",
+      "software": "Seurat",
+      "software_version": "29",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 245",
+      "evidence_snippet": "benchmarking, such as Harmony29 and Seurat’s RPCA30, failed to sepa-",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "快速复核已录入",
+    "formal_candidate_count": 20,
+    "context_only_count": 36,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41591-023-02327-2_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41591-023-02327-2_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 49",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    }
+  ]
+}

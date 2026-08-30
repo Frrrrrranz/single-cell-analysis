@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1126_science.abo0510",
+  "document_id": "DOI_10.1126_science.abo0510",
+  "task_no": 35,
+  "source_markdown": "DOI_10.1126_science.abo0510.md",
+  "article_identity": {
+    "title_original": "Mapping the developing human immune system across organs.",
+    "doi": "10.1126/science.abo0510",
+    "pmid": "35549310",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "bone marrow",
+      "tissue_source_normalized": "bone marrow",
+      "sample_context": "fetal/developmental; organoid; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2|10x 5' v1",
+      "source_locator": "Markdown line 792",
+      "evidence_snippet": "organ. (YS: yolk sac; LI: liver; BM: bone marrow; TH: thymus; SP: spleen; SK: skin; GU: gut; KI: kidney)."
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "bone marrow",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 588",
+      "evidence_snippet": "Comparison with human adult immune cells",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "subjected to z-max projection followed by 2D Gaussian filtering (sigma = 0.5 pixels). The DAPI",
+      "method_normalized": "filtering",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 158",
+      "evidence_snippet": "subjected to z-max projection followed by 2D Gaussian filtering (sigma = 0.5 pixels). The DAPI",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "Data integration and annotation",
+      "method_normalized": "integration",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 204",
+      "evidence_snippet": "Data integration and annotation",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "was run twice, setting the number of genotype clusters to 1 and 2 to obtain models for no",
+      "method_normalized": "cluster",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 189",
+      "evidence_snippet": "was run twice, setting the number of genotype clusters to 1 and 2 to obtain models for no",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "differential expression between cells from organ o assigned to the significant neighborhoods",
+      "method_normalized": "differential expression",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 354",
+      "evidence_snippet": "differential expression between cells from organ o assigned to the significant neighborhoods",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "FDR < 0.1%. Gene set enrichment analysis was performed using the implementation of the",
+      "method_normalized": "gene set enrichment",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR < 0",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 359",
+      "evidence_snippet": "FDR < 0.1%. Gene set enrichment analysis was performed using the implementation of the",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "Differential abundance analysis",
+      "method_normalized": "differential abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 270",
+      "evidence_snippet": "Differential abundance analysis",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "To control for multiple testing, we used the weighted BH correction as previously implemented",
+      "method_normalized": "multiple testing",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "To control for multiple testing, we used the weighted BH correction as previously implemented",
+      "source_locator": "Markdown line 338",
+      "evidence_snippet": "To control for multiple testing, we used the weighted BH correction as previously implemented",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "Data normalization and preprocessing were performed using the Scanpy workflow (v1.8.1) (79).",
+      "method_normalized": "Scanpy",
+      "software": "Scanpy",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 205",
+      "evidence_snippet": "Data normalization and preprocessing were performed using the Scanpy workflow (v1.8.1) (79).",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 22,
+    "context_only_count": 38,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1126_science.abo0510_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1126_science.abo0510_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Enteroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 72",
+      "evidence_snippet": "Enteroendocrine cell"
+    }
+  ]
+}

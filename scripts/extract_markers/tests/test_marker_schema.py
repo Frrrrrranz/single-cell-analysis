@@ -15,6 +15,7 @@ from marker_schema import (  # noqa: E402
     MarkerSchemaError,
     apply_evidence_guardrail,
     candidate_class_for,
+    has_subpopulation_syntax,
     validate_payload,
 )
 from run_extraction import merge_json_results  # noqa: E402
@@ -91,6 +92,65 @@ class MarkerSchemaTests(unittest.TestCase):
         )
         self.assertEqual(normalized["marker_polarity"], "unknown")
         self.assertEqual(normalized["model_marker_polarity"], "negative")
+
+    def test_marked_by_and_marks_phrases_are_formal(self) -> None:
+        for context in (
+            "neuroblasts are marked by B2m expression",
+            "NEFH marks several classes of cells",
+            "Markers highlighting Schwann cell identity",
+        ):
+            normalized = apply_evidence_guardrail(
+                marker("author_declared", context=context)
+            )
+            self.assertEqual(normalized["evidence_type"], "author_declared", context)
+            self.assertNotIn("guardrail_reason", normalized, context)
+
+    def test_gene_plus_annotation_is_not_downgraded(self) -> None:
+        normalized = apply_evidence_guardrail(
+            marker("figure_labeled", context="Myelinating Schwann cells (Tgfb2+)")
+        )
+        self.assertEqual(normalized["evidence_type"], "figure_labeled")
+        self.assertEqual(normalized["candidate_class"], "formal_candidate")
+
+    def test_gene_high_low_subpopulation_is_not_downgraded(self) -> None:
+        for context in (
+            "ISL1-high interneurons form a distinct subcluster",
+            "PPP2R2C-low subset was separated from the rest",
+        ):
+            normalized = apply_evidence_guardrail(
+                marker("annotation_marker", context=context)
+            )
+            self.assertEqual(normalized["evidence_type"], "annotation_marker", context)
+
+    def test_gating_syntax_is_formal_annotation(self) -> None:
+        normalized = apply_evidence_guardrail(
+            marker("annotation_marker", context="stroma gated on CD45−/EPCAM−")
+        )
+        self.assertEqual(normalized["evidence_type"], "annotation_marker")
+
+    def test_ordinary_hyphenated_words_are_not_subpopulation_syntax(self) -> None:
+        self.assertFalse(has_subpopulation_syntax("cell-type specific programs in Fig. 3A"))
+        self.assertFalse(has_subpopulation_syntax("well-known genes were expressed"))
+        self.assertTrue(has_subpopulation_syntax("Myelinating Schwann cells (Tgfb2+)"))
+        self.assertTrue(has_subpopulation_syntax("ISL1-high interneurons"))
+        self.assertTrue(has_subpopulation_syntax("gated on CD45−"))
+
+    def test_minimal_polarity_word_keeps_negative_marker(self) -> None:
+        normalized = apply_evidence_guardrail(
+            marker(
+                "annotation_marker",
+                polarity="negative",
+                context="PHOX2B-minimal population defined by the authors",
+            )
+        )
+        self.assertEqual(normalized["marker_polarity"], "negative")
+
+    def test_plain_expression_with_plus_symbol_stays_downgraded(self) -> None:
+        normalized = apply_evidence_guardrail(
+            marker("annotation_marker", context="proliferation was increased in the treated group")
+        )
+        self.assertEqual(normalized["evidence_type"], "cluster_enriched")
+        self.assertEqual(normalized["candidate_class"], "context_only")
 
     def test_review_sheet_excludes_context_only_by_rule(self) -> None:
         data = payload([marker("author_declared"), {**marker("cluster_enriched"), "gene": "Sox10"}])

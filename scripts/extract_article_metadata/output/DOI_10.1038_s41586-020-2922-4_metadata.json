@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "extraction_method": "deterministic_markdown_rules_v1",
+  "paper_id": "DOI_10.1038_s41586-020-2922-4",
+  "document_id": "DOI_10.1038_s41586-020-2922-4",
+  "task_no": 4,
+  "source_markdown": "DOI_10.1038_s41586-020-2922-4.md",
+  "article_identity": {
+    "title_original": "A molecular cell atlas of the human lung from single-cell RNA sequencing.",
+    "doi": "10.1038/s41586-020-2922-4",
+    "pmid": "33208946",
+    "species": [
+      "Homo sapiens"
+    ]
+  },
+  "tissue_sources": [
+    {
+      "tissue_source_original": "blood",
+      "tissue_source_normalized": "blood",
+      "sample_context": "fetal/developmental; tumor; disease; normal/control",
+      "species": "Homo sapiens",
+      "single_cell_type": "10x 3' v2",
+      "source_locator": "Markdown line 14",
+      "evidence_snippet": "human cells across all lung tissue compartments and circulating blood, combined"
+    }
+  ],
+  "neural_cells": [
+    {
+      "cell_name_original": "neuroendocrine",
+      "cell_name_normalized": "neuroendocrine",
+      "cell_category": "neuroendocrine",
+      "pns_level": "L4",
+      "tissue": "blood",
+      "evidence_context": "detected",
+      "source_locator": "Markdown line 80",
+      "evidence_snippet": "We grouped cells based on the expression of compartment-specific Immune cells were the most heterogeneous and included circulat-",
+      "review_status": "pending"
+    }
+  ],
+  "statistics_methods": [
+    {
+      "analysis_stage": "quality_control",
+      "method_original": "Sequencing read alignments and quality control in R. There were no clusters that lacked expression of canonical marker",
+      "method_normalized": "quality control",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 670",
+      "evidence_snippet": "Sequencing read alignments and quality control in R. There were no clusters that lacked expression of canonical marker",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "normalization_integration",
+      "method_original": "Real-Time PCR Detection System (Biorad). Plate pools were normalized (536851), ACVRL1 (559221), SERPINA1 (435441), HHIP (464811), SLC7A10",
+      "method_normalized": "normalized",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 663",
+      "evidence_snippet": "Real-Time PCR Detection System (Biorad). Plate pools were normalized (536851), ACVRL1 (559221), SERPINA1 (435441), HHIP (464811), SLC7A10",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "dimension_reduction_clustering",
+      "method_original": "dation for pulmonary medicine. More recently, cell-type-specific into epithelial (EPCAM+), endothelial/immune (CD31+CD45+) and stro-",
+      "method_normalized": "PCA",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 32",
+      "evidence_snippet": "dation for pulmonary medicine. More recently, cell-type-specific into epithelial (EPCAM+), endothelial/immune (CD31+CD45+) and stro-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "differential_expression",
+      "method_original": "state-of-the-art study19. ers and the ascertained panels of differentially expressed genes were",
+      "method_normalized": "differentially expressed",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 87",
+      "evidence_snippet": "state-of-the-art study19. ers and the ascertained panels of differentially expressed genes were",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "enrichment",
+      "method_original": "Interactions between cell types were predicted using CellPhoneDB for each gene probed if its nucleus had at least three associated expres-",
+      "method_normalized": "CellPhoneDB",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 756",
+      "evidence_snippet": "Interactions between cell types were predicted using CellPhoneDB for each gene probed if its nucleus had at least three associated expres-",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "abundance_proportion",
+      "method_original": "(light red) were found only in one subject. Bar graphs show relative abundance  from top row to bottom: two canonical dendritic markers, four myeloid",
+      "method_normalized": "abundance",
+      "software": "",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 210",
+      "evidence_snippet": "(light red) were found only in one subject. Bar graphs show relative abundance  from top row to bottom: two canonical dendritic markers, four myeloid",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "multiple_testing",
+      "method_original": "false discovery rates (FDR) for each cell type (n = 58) using indicated number participants. e, Dot plot of expression of enriched transcription factors in each",
+      "method_normalized": "FDR",
+      "software": "",
+      "software_version": "",
+      "threshold": "FDR) for each cell type (n = 58) using indicated number participants",
+      "multiple_testing": "false discovery rates (FDR) for each cell type (n = 58) using indicated number participants. e, Dot plot of expression of enriched transcription factors in each",
+      "source_locator": "Markdown line 965",
+      "evidence_snippet": "false discovery rates (FDR) for each cell type (n = 58) using indicated number participants. e, Dot plot of expression of enriched transcription factors in each",
+      "review_status": "pending"
+    },
+    {
+      "analysis_stage": "software",
+      "method_original": "10x Genomics) using Cell Ranger (version 2.0, 10x Genomics). Cells (for example, proximal versus distal, alveolar versus adventitial) and",
+      "method_normalized": "Cell Ranger",
+      "software": "Cell Ranger",
+      "software_version": "",
+      "threshold": "",
+      "multiple_testing": "",
+      "source_locator": "Markdown line 673",
+      "evidence_snippet": "10x Genomics) using Cell Ranger (version 2.0, 10x Genomics). Cells (for example, proximal versus distal, alveolar versus adventitial) and",
+      "review_status": "pending"
+    }
+  ],
+  "marker_linkage": {
+    "marker_status": "新版机器提取完成，待人工复核",
+    "formal_candidate_count": 19,
+    "context_only_count": 108,
+    "raw_json_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-020-2922-4_raw.json",
+    "review_csv_file": "scripts/extract_markers/markers_output_v2/DOI_10.1038_s41586-020-2922-4_review.csv",
+    "master_table_present": true
+  },
+  "issues": [
+    {
+      "issue_type": "task_neural_cell_not_located",
+      "severity": "warning",
+      "field": "neural_cells",
+      "description": "任务表标注的神经相关细胞未在 Markdown 中直接定位：Pulmonary neuroendocrine cell",
+      "source_locator": "Task table: 我方Marker文章 row 39",
+      "evidence_snippet": "Pulmonary neuroendocrine cell"
+    }
+  ]
+}

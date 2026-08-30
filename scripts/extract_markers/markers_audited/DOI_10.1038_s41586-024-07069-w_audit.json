@@ -1,0 +1,56 @@
+{
+  "audit_version": 1,
+  "paper_id": "DOI_10.1038_s41586-024-07069-w",
+  "paper_status": "corrected",
+  "summary": "主动扫描 Markdown 后，目标范围内唯一可溯源到正式注释的 Marker 是 Tgfb2+ 标记的 Myelinating Schwann cells；原结果将其列为 context_only，应改为 include。其余大量现有候选（Tbx6、Foxj1、肾/视网膜/脊髓/星形胶质等）均不属于任务目标范围，应从修正版总表排除。目标范围内的 Enteric neurons、DRG neurons、Parasympathetic/Sympathetic neurons、Satellite glial cells、Intestinal enteroendocrine cells 等仅以细胞类型标签出现，Markdown 中未提供正式 Marker 证据。",
+  "markers": [
+    {
+      "cell_type": "Myelinating Schwann cells (Tgfb2+)",
+      "subtype": null,
+      "species": "mouse",
+      "in_project_scope": true,
+      "original_symbol": "Tgfb2",
+      "normalized_symbol": "Tgfb2",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Fig. 5g legend, node 115",
+      "source_context": "115 - Myelinating Schwann cells (Tgfb2+)",
+      "decision": "include",
+      "reason": "作者在 Fig. 5g 的细胞类型树节点中以 Tgfb2+ 命名/注释 Myelinating Schwann cells，属于正式 annotation_marker；该细胞类型在目标范围 L2，且物种为小鼠。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "evidence",
+      "description": "Tgfb2+ 对 Myelinating Schwann cells 的现有候选被降级为 cluster_enriched/context_only，但原文在 Fig. 5g 节点标签中明确以 Tgfb2+ 作为细胞类型注释，应改为 annotation_marker 并 include。"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "scope",
+      "description": "现有提取中的大量正式候选（Tbx6、Foxj1、podocyte/肾小管/输尿管芽、视网膜、脊髓 interneuron、星形胶质细胞亚型等）均不属于 target_cell_scope，不应进入修正版目标 Marker 总表。"
+    },
+    {
+      "severity": "info",
+      "issue_type": "missing_marker",
+      "description": "目标范围内 Enteric neurons、Dorsal root ganglion neurons、Parasympathetic neurons、Sympathetic neurons、Satellite glial cells、Intestinal enteroendocrine cells、PNS neuron/glia 大类在 Markdown 中仅以标签出现，没有可定位的正式 Marker 证据，未提取对应 Marker。"
+    }
+  ],
+  "task": {
+    "task_no": 42,
+    "dataset_id": "CELLxGENE:dcfd4feb-18a3-4b30-81d7-1b0c544a8ab3",
+    "paper_title": "A single-cell time-lapse of mouse prenatal development from gastrula to birth.",
+    "task_species": "Mus musculus",
+    "target_cell_scope": "L1:Efferent neuron/Enteric neuron/Parasympathetic neuron/Peripheral nervous system neuron/Sensory neuron (DRG)/Sympathetic neuron / L2:Schwann cell precursor/Myelinating Schwann cell/Satellite glial cell / L4:Intestinal enteroendocrine cell",
+    "tissue": "embryo",
+    "paper_id": "DOI_10.1038_s41586-024-07069-w"
+  },
+  "audit_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1038_s41586-024-07069-w.md",
+  "source_raw_json": "DOI_10.1038_s41586-024-07069-w_raw.json",
+  "source_markdown_sha256": "a9f2d9a742f1edb10aad2d7ddd721197bc3b5c1c8439253057d978b836218254",
+  "source_raw_sha256": "38df7a4d30021a7e61cc5e515145b85ae8670d4d35a7951a978d40ddc1740f40"
+}

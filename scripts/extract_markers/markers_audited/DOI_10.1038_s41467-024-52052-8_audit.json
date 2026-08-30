@@ -1,0 +1,154 @@
+{
+  "audit_version": 1,
+  "paper_id": "DOI_10.1038_s41467-024-52052-8",
+  "paper_status": "corrected",
+  "summary": "确认 NeuN/RBFOX3、p21/CDKN1A、Peripherin/PRPH 为任务范围内（小鼠 DRG 感觉神经元）的正式 Marker；SST 仅为引言背景引用且物种未限定为小鼠，不能作为正式 Marker；原结果中 peripherin 与 NeuN 的部分 context_only 候选应升级为 include。",
+  "markers": [
+    {
+      "cell_type": "somatostatin positive neurons",
+      "subtype": "SST",
+      "species": "unknown",
+      "in_project_scope": false,
+      "original_symbol": "SST",
+      "normalized_symbol": "SST",
+      "normalization_status": "exact",
+      "evidence_type": "reference_imported",
+      "marker_polarity": "positive",
+      "source_locator": "Article p.1, Introduction",
+      "source_context": "Those neurons are of different subtypes that are classified as peptidergic (PEPs), non-peptidergic (NPs), C-LowThreshold mechanoreceptor (C-LTMRs), and a subtype of somatostatin positive neurons (SST)4–6.",
+      "decision": "context_only",
+      "reason": "SST 阳性神经元属于 DRG 感觉神经元亚型，但该句仅为引言中引用已知分类，未在本文数据中用于注释/验证；物种未限定为小鼠，不能作为正式 Marker 进入项目总表。",
+      "citation_match_score": 0.8,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "senescent nociceptors",
+      "subtype": null,
+      "species": "mouse",
+      "in_project_scope": true,
+      "original_symbol": "NeuN",
+      "normalized_symbol": "RBFOX3",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "source_locator": "Results, 'Development and persistence of pain and senescence of pain-sensing neurons', Fig.3i",
+      "source_context": "We identified a senescent phenotype in a subset of nociceptors, which were characterized by high expression of the neuronal nuclei marker (NeuN) and their smaller size (Fig.3i).",
+      "decision": "include",
+      "reason": "作者明确用 Neuronal nuclei marker NeuN 高表达定义小鼠 DRG 中衰老伤害感受神经元亚群；符号规范化为 RBFOX3。",
+      "citation_match_score": 0.75,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "senescent nociceptors",
+      "subtype": null,
+      "species": "mouse",
+      "in_project_scope": true,
+      "original_symbol": "p21",
+      "normalized_symbol": "CDKN1A",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "source_locator": "Results, 'Development and persistence of pain and senescence of pain-sensing neurons', Supplementary Fig.5g,h",
+      "source_context": "We identified a senescent phenotype in a subset of nociceptors, which were characterized by high expression of the neuronal nuclei marker (NeuN) and their smaller size (Fig.3i). Furthermore, the injury was accompanied by an increased nuclear expression of the senescence marker p21 starting from day 7 post-injury (Supplementary Fig. 5g, h).",
+      "decision": "include",
+      "reason": "在伤害感受神经元衰老的同一段落中，作者将 p21 作为 senescence marker 并在损伤后 DRG 中验证；细胞类型由上下文明确指向衰老伤害感受神经元。; 自动复核：去空格连续窗口复检通过（PDF 粘连文本）",
+      "citation_match_score": 0.7143,
+      "citation_verified": true,
+      "citation_recheck": "despaced_window"
+    },
+    {
+      "cell_type": "peripherin-positive neurons",
+      "subtype": "small diameter",
+      "species": "mouse",
+      "in_project_scope": true,
+      "original_symbol": "peripherin",
+      "normalized_symbol": "PRPH",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results, 'Targeting senescent cells treats chronic pain', Fig.5c,d",
+      "source_context": "the selective removal of at least 50% of SA-β-galactosidase positive cells, on average, among the small diameter, peripherin-positives neurons for all drugs (Fig.5c,d).",
+      "decision": "include",
+      "reason": "作者用 peripherin 阳性定义/门控 DRG 小直径神经元群体，并以此量化衰老细胞去除；实际用于注释和验证，属于正式 annotation_marker。",
+      "citation_match_score": 0.9412,
+      "citation_verified": true
+    },
+    {
+      "cell_type": "neurons",
+      "subtype": null,
+      "species": "mouse",
+      "in_project_scope": true,
+      "original_symbol": "Peripherin",
+      "normalized_symbol": "PRPH",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "figure_labeled",
+      "marker_polarity": "positive",
+      "source_locator": "Fig.5 legend",
+      "source_context": "Images of DRG ... stained with Peripherin (top) ... Arrows indicate some double-positive neurons for peripherin and SA-β-Galactosidase as an example.",
+      "decision": "include",
+      "reason": "图注明确给出 Peripherin 染色与 DRG 神经元/peripherin 阳性神经元的对应关系，属于 figure_labeled 正式证据。; 自动复核：去空格连续窗口复检通过（PDF 粘连文本）",
+      "citation_match_score": 0.5833,
+      "citation_verified": true,
+      "citation_recheck": "despaced_window"
+    },
+    {
+      "cell_type": "neurons",
+      "subtype": null,
+      "species": "mouse",
+      "in_project_scope": true,
+      "original_symbol": "NeuN",
+      "normalized_symbol": "RBFOX3",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Methods, Fluorescent-activated nuclei sorting; Fig.3i legend",
+      "source_context": "To enable sorting of nuclei derived from neurons, nuclei suspension was incubated with anti-NeuN PE-conjugated antibody ... Single NeuN+ and DAPI+ nuclei were sorted; Staining images representing the co-staining of SA-β-Galactosidase and NeuN when merged.",
+      "decision": "include",
+      "reason": "作者使用 anti-NeuN 抗体分选 DRG 神经元核，并用 NeuN 共染验证衰老细胞，属于实际分选/注释 marker。; 自动复核：去空格连续窗口复检通过（PDF 粘连文本）",
+      "citation_match_score": 0.6667,
+      "citation_verified": true,
+      "citation_recheck": "despaced_window"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "evidence",
+      "description": "SST 候选在原文中仅为引言背景（classified as ... SST4–6），未在本文数据中用于识别/注释，且物种未限定为小鼠；应归为 reference_imported/context_only，不能作为正式 Marker 进入总表。"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "evidence",
+      "description": "Peripherin 两条候选原被标为 context_only，但 Results 中用于定义 small diameter peripherin-positive neurons 进行定量，Fig.5 legend 也明确显示 Peripherin 染色与 double-positive 神经元；应升级为 include（PRPH）。"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "evidence",
+      "description": "NeuN 在 Methods 中用于 anti-NeuN 门控/分选 DRG 神经元核（NeuN+/DAPI+），并在 Fig.3i 共染验证衰老神经元；原 context_only 应升级为 include（RBFOX3）。"
+    },
+    {
+      "severity": "info",
+      "issue_type": "other",
+      "description": "主动扫描未发现其他正式目标细胞 Marker；SA-β-Galactosidase 和 SenMayo 为酶活/基因集实体，不映射到唯一基因，未纳入 markers。"
+    },
+    {
+      "severity": "info",
+      "issue_type": "other",
+      "description": "NeuN 和 Peripherin 各有两条 include 候选，最终修正版总表建议按 gene-cell_type 合并为一条以避免重复。"
+    }
+  ],
+  "task": {
+    "task_no": 36,
+    "dataset_id": "CELLxGENE:b6f472f1-a58d-43a7-a898-2d6822a0b2b2",
+    "paper_title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.",
+    "task_species": "Mus musculus",
+    "target_cell_scope": "L1:Sensory neuron (DRG)",
+    "tissue": "dorsal root ganglion",
+    "paper_id": "DOI_10.1038_s41467-024-52052-8"
+  },
+  "audit_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1038_s41467-024-52052-8.md",
+  "source_raw_json": "DOI_10.1038_s41467-024-52052-8_raw.json",
+  "source_markdown_sha256": "609b872042a0b63400c3eea5983edc2fcf14634e35af21975d58be8b61c8046c",
+  "source_raw_sha256": "b829a21eceaf8d0be14d4c923fab21d9c7543c96ca587cb536fa1ec15250447d"
+}
