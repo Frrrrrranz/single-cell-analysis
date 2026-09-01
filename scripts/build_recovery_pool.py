@@ -4,7 +4,7 @@
 - audited-extraction/markers/*_audit.json（旧 v1 严格范围口径终审，工作树）
 - .archive/marker-extraction-85b4727/.../markers_output_v2/*_raw.json（旧一轮原始提取）
 - review_md/*.md（当前论文 Markdown）
-- db/cellxgene/our_markers.xlsx（现有正式 Marker，冻结基线）
+- marker提取/表单/our_markers.xlsx（现有正式 Marker，冻结基线）
 
 池定义：
 - A_exclude：旧终审 exclude 且排除理由非实质性（范围/物种/PNS/理由模糊）
@@ -33,7 +33,8 @@ from pathlib import Path
 import openpyxl
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from run_full_audit import (  # noqa: E402
@@ -50,10 +51,10 @@ ARCHIVE_RAW_DIR = (
     / "extract_markers"
     / "markers_output_v2"
 )
-AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-MD_DIR = SCRIPT_DIR / "review_md"
-RECOVERY_DIR = SCRIPT_DIR / "audited-extraction" / "recovery"
-MASTER_XLSX = PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx"
+AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+MD_DIR = MARKER_DIR / "review_md"
+RECOVERY_DIR = MARKER_DIR / "audited-extraction" / "recovery"
+MASTER_XLSX = MARKER_DIR / "表单" / "our_markers.xlsx"
 
 FORMAL_EVIDENCE_TYPES = {
     "author_declared",

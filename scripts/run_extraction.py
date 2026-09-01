@@ -40,15 +40,15 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 # 加载 .env 文件（优先项目根目录）
-dotenv_path = Path(__file__).resolve().parent.parent.parent / ".env"
+dotenv_path = Path(__file__).resolve().parent.parent / ".env"
 if dotenv_path.exists():
     load_dotenv(dotenv_path)
     logger.info(f"已加载 .env: {dotenv_path}")
 
 PROJECT_ROOT = Path(r"D:\OneDrive\Desktop\组")
 PAPERS_DIR = PROJECT_ROOT / "papers"
-OUTPUT_DIR = Path(__file__).parent / "audited-extraction" / "raw-inputs"
-PROMPT_FILE = Path(__file__).parent / "prompts" / "extract_markers_v4.md"
+OUTPUT_DIR = Path(__file__).resolve().parents[1] / "marker提取" / "audited-extraction" / "raw-inputs"
+PROMPT_FILE = Path(__file__).resolve().parents[1] / "marker提取" / "prompts" / "extract_markers_v4.md"
 
 # 用于分块的最大字符数（~80k chars ≈ 20k tokens 的中英文混合文本）
 DEFAULT_MAX_CHARS = 80_000

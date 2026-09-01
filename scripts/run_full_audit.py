@@ -22,12 +22,13 @@ from dotenv import load_dotenv
 
 LOGGER = logging.getLogger(__name__)
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
-DEFAULT_MD_DIR = SCRIPT_DIR / "review_md"
-DEFAULT_RAW_DIR = SCRIPT_DIR / "markers_output_v2"
-DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-DEFAULT_SCOPE_FILE = SCRIPT_DIR / "audits" / "task-scope-2026-08-14.md"
-DEFAULT_PROMPT_FILE = SCRIPT_DIR / "prompts" / "audit_markers_v2.md"
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
+DEFAULT_MD_DIR = MARKER_DIR / "review_md"
+DEFAULT_RAW_DIR = MARKER_DIR / "markers_output_v2"
+DEFAULT_OUTPUT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+DEFAULT_SCOPE_FILE = MARKER_DIR / "audits" / "task-scope-2026-08-14.md"
+DEFAULT_PROMPT_FILE = MARKER_DIR / "prompts" / "audit_markers_v2.md"
 
 FORMAL_EVIDENCE_TYPES = {
     "author_declared",

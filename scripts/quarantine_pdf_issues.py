@@ -10,11 +10,11 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Sequence
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_PDF_DIR = PROJECT_ROOT / "db" / "cellxgene" / "cellxgene_filtered" / "downloads"
-DEFAULT_AUDIT = PROJECT_ROOT / "db" / "cellxgene" / "paper_map.audit.json"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_PDF_DIR = PROJECT_ROOT / "marker提取" / "pdf"
+DEFAULT_AUDIT = PROJECT_ROOT / "marker提取" / "paper_map.audit.json"
 DEFAULT_QUARANTINE = (
-    PROJECT_ROOT / "db" / "_archive" / "marker-extraction" / "2026-08-13" / "pdf-quarantine"
+    PROJECT_ROOT / "marker提取" / "pdf-quarantine"
 )
 
 

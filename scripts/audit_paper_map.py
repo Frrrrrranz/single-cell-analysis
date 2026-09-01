@@ -22,13 +22,13 @@ except ImportError:  # 兼容项目原有依赖
 
 logger = logging.getLogger(__name__)
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_PDF_DIR = PROJECT_ROOT / "db" / "cellxgene" / "cellxgene_filtered" / "downloads"
-DEFAULT_REGISTRY = PROJECT_ROOT / "db" / "cellxgene" / "paper_registry.json"
-DEFAULT_AUDIT_JSON = PROJECT_ROOT / "db" / "cellxgene" / "paper_map.audit.json"
-DEFAULT_AUDIT_CSV = PROJECT_ROOT / "db" / "cellxgene" / "paper_map.audit.csv"
-DEFAULT_MAP = PROJECT_ROOT / "db" / "cellxgene" / "paper_map.json"
-DEFAULT_DOCUMENT_OVERRIDES = PROJECT_ROOT / "db" / "cellxgene" / "document_overrides.json"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_PDF_DIR = PROJECT_ROOT / "marker提取" / "pdf"
+DEFAULT_REGISTRY = PROJECT_ROOT / "marker提取" / "paper_registry.json"
+DEFAULT_AUDIT_JSON = PROJECT_ROOT / "marker提取" / "paper_map.audit.json"
+DEFAULT_AUDIT_CSV = PROJECT_ROOT / "marker提取" / "paper_map.audit.csv"
+DEFAULT_MAP = PROJECT_ROOT / "marker提取" / "paper_map.json"
+DEFAULT_DOCUMENT_OVERRIDES = PROJECT_ROOT / "marker提取" / "document_overrides.json"
 
 DOI_PATTERN = re.compile(r"10\.\d{4,9}/[-._;()/:a-z0-9]+", re.IGNORECASE)
 PMID_PATTERN = re.compile(r"\bPMID\s*[:#]?\s*(\d{7,9})\b", re.IGNORECASE)

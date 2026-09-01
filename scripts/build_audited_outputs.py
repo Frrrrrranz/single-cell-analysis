@@ -1,6 +1,6 @@
 """从当前全部终审 audit JSON 生成修正版总表、逐篇 review CSV 和汇总报告。
 
-- 从显式传入的旧总表只读生成 db/cellxgene/our_markers.xlsx；
+- 从显式传入的旧总表只读生成 marker提取/表单/our_markers.xlsx；
 - 属于 40 篇的旧记录按终审结果替换，其余历史行保留并标记 not_in_40_article_audit；
 - include 写入 markers sheet；context/exclude/unresolved 写入 audit_exclusions；
 - 逐篇生成 <paper_id>_review.csv，另生成 audit_summary.csv 与 full-audit-report.md。
@@ -33,11 +33,12 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 LOGGER = logging.getLogger(__name__)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
-DEFAULT_AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-DEFAULT_SCOPE_FILE = SCRIPT_DIR / "audits" / "task-scope-2026-08-14.md"
-DEFAULT_SOURCE_XLSX = SCRIPT_DIR / "our_markers.xlsx"
-DEFAULT_OUTPUT_XLSX = PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx"
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
+DEFAULT_AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+DEFAULT_SCOPE_FILE = MARKER_DIR / "audits" / "task-scope-2026-08-14.md"
+DEFAULT_SOURCE_XLSX = MARKER_DIR / "our_markers.xlsx"
+DEFAULT_OUTPUT_XLSX = MARKER_DIR / "表单" / "our_markers.xlsx"
 
 DECISIONS = {"include", "context_only", "exclude", "unresolved"}
 PAPER_STATUSES = {"pass", "corrected", "no_formal_marker", "no_formal_target_marker", "unresolved"}
@@ -441,7 +442,7 @@ def build_audited_workbook(
             "review_status": "approved",
             "review_method": "full_audit_2026-08-30",
             "notes": entry.get("reason", ""),
-            "source_file": f"scripts/extract_markers/audited-extraction/markers/{entry['paper_id']}_audit.json",
+            "source_file": f"marker提取/audited-extraction/markers/{entry['paper_id']}_audit.json",
             "imported_at": imported_at,
             "audit_status": "audited_include",
             "normalization_status": entry.get("normalization_status"),
@@ -572,7 +573,7 @@ def build_audited_workbook(
                 len(removed_rows),
                 None,
                 len(primary_rows),
-                "scripts/extract_markers/audited-extraction/markers/full-audit-report.md",
+                "marker提取/audited-extraction/markers/full-audit-report.md",
                 imported_at,
                 "40 篇终审：旧记录替换为 include 终审结果；非 40 篇历史行标记 not_in_40_article_audit",
             ]

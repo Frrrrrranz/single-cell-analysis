@@ -8,19 +8,19 @@ const { SpreadsheetFile, Workbook } = await import(
 );
 
 const projectRoot = "D:/OneDrive/Desktop/组";
-const outputPath = `${projectRoot}/db/cellxgene/our_paper_metadata.xlsx`;
+const outputPath = `${projectRoot}/marker提取/表单/our_paper_metadata.xlsx`;
 const previewDir = "C:/Users/35221/.codex/visualizations/2026/08/21/01a022ba-d0b4-7d81-b52a-2caf6232833a/article_metadata";
 
 async function readJson(path) {
   return JSON.parse(await fs.readFile(path, "utf8"));
 }
 
-const scope = await readJson(`${projectRoot}/scripts/extract_article_metadata/output/scope_mapping.json`);
-const metadataFiles = (await fs.readdir(`${projectRoot}/scripts/extract_article_metadata/output`))
+const scope = await readJson(`${projectRoot}/marker提取/article_metadata/output/scope_mapping.json`);
+const metadataFiles = (await fs.readdir(`${projectRoot}/marker提取/article_metadata/output`))
   .filter((file) => file.endsWith("_metadata.json"));
 const metadata = new Map();
 for (const file of metadataFiles) {
-  const value = await readJson(`${projectRoot}/scripts/extract_article_metadata/output/${file}`);
+  const value = await readJson(`${projectRoot}/marker提取/article_metadata/output/${file}`);
   metadata.set(value.paper_id, value);
 }
 

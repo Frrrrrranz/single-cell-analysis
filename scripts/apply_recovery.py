@@ -37,10 +37,11 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 LOGGER = logging.getLogger(__name__)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
-AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-RECOVERY_DIR = SCRIPT_DIR / "audited-extraction" / "recovery"
-MASTER_XLSX = PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx"
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
+AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+RECOVERY_DIR = MARKER_DIR / "audited-extraction" / "recovery"
+MASTER_XLSX = MARKER_DIR / "表单" / "our_markers.xlsx"
 
 IMPORTED_AT = datetime(2026, 9, 1)
 REVIEW_METHOD = "recovery_verify_2026-09-01"
@@ -357,7 +358,7 @@ def main() -> None:
             "review_status": "approved",
             "review_method": REVIEW_METHOD,
             "notes": notes,
-            "source_file": f"scripts/extract_markers/audited-extraction/recovery/{paper_id}_verify.json",
+            "source_file": f"marker提取/audited-extraction/recovery/{paper_id}_verify.json",
             "imported_at": IMPORTED_AT,
             "audit_status": "recovery_include",
             "normalization_status": entry.get("normalization_status"),
@@ -504,7 +505,7 @@ def main() -> None:
                 action_counts["duplicate_of_existing"] + action_counts["merged_within_pool"],
                 None,
                 len(append_entries),
-                "scripts/extract_markers/audited-extraction/recovery/recovery-report.md",
+                "marker提取/audited-extraction/recovery/recovery-report.md",
                 IMPORTED_AT,
                 "B-lite 恢复轮：旧范围性排除经三道门复核后追加；现有 97 行冻结未动",
             ]
@@ -623,7 +624,7 @@ def main() -> None:
         )
     lines += [
         "",
-        "明细见 recovery_diff.csv；逐篇复核 JSON 在本目录；总表已更新 db/cellxgene/our_markers.xlsx。",
+        "明细见 recovery_diff.csv；逐篇复核 JSON 在本目录；总表已更新 marker提取/表单/our_markers.xlsx。",
     ]
     report_path = RECOVERY_DIR / "recovery-report.md"
     report_path.write_text("\n".join(lines), encoding="utf-8")

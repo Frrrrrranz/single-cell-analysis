@@ -16,13 +16,14 @@ from typing import Any
 from openpyxl import load_workbook
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
-MD_DIR = SCRIPT_DIR / "review_md"
-RAW_DIR = SCRIPT_DIR / "markers_output_v2"
-AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-SOURCE_XLSX = SCRIPT_DIR / "our_markers.xlsx"
-AUDITED_XLSX = PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx"
-AUDITED_HTML = SCRIPT_DIR / "audited-extraction" / "marker-summary.html"
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
+MD_DIR = MARKER_DIR / "review_md"
+RAW_DIR = MARKER_DIR / "markers_output_v2"
+AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+SOURCE_XLSX = MARKER_DIR / "our_markers.xlsx"
+AUDITED_XLSX = MARKER_DIR / "表单" / "our_markers.xlsx"
+AUDITED_HTML = MARKER_DIR / "audited-extraction" / "marker-summary.html"
 
 # 2026-08-30 审核开始前原始总表的 SHA256；若原表被修改则验证失败。
 SOURCE_XLSX_BASELINE_SHA256 = "1c096dedc4191277f89e6131aeb772a919c346d9246390aa75d11f2e343fe71d"
@@ -226,7 +227,7 @@ def validate_audited_workbook(audits: dict[str, dict[str, Any]], errors: Validat
     wb = load_workbook(AUDITED_XLSX, read_only=True)
     for sheet in ("markers", "audit_exclusions", "audit_summary"):
         if sheet not in wb.sheetnames:
-            errors.add(f"db/cellxgene/our_markers.xlsx 缺少 sheet: {sheet}")
+            errors.add(f"marker提取/表单/our_markers.xlsx 缺少 sheet: {sheet}")
     if "markers" not in wb.sheetnames:
         wb.close()
         return

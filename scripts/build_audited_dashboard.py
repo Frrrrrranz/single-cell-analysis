@@ -2,7 +2,7 @@
 
 数据源：
 - 终审 audit JSON：文章状态、非 include 候选（叠加恢复轮复核后的新判定）；
-- db/cellxgene/our_markers.xlsx：正式 Marker 总表（含恢复追加行与来源列）；
+- marker提取/表单/our_markers.xlsx：正式 Marker 总表（含恢复追加行与来源列）；
 - 恢复轮 verify/pool JSON：B 池与新发现的非 include 记录、来源统计。
 
 自包含单文件（内嵌 JSON + 原生 JS 筛选）。
@@ -23,10 +23,12 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 LOGGER = logging.getLogger(__name__)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-DEFAULT_RECOVERY_DIR = SCRIPT_DIR / "audited-extraction" / "recovery"
-DEFAULT_MASTER_XLSX = SCRIPT_DIR.parent.parent / "db" / "cellxgene" / "our_markers.xlsx"
-DEFAULT_OUTPUT = SCRIPT_DIR / "audited-extraction" / "marker-summary.html"
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
+DEFAULT_AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+DEFAULT_RECOVERY_DIR = MARKER_DIR / "audited-extraction" / "recovery"
+DEFAULT_MASTER_XLSX = MARKER_DIR / "表单" / "our_markers.xlsx"
+DEFAULT_OUTPUT = MARKER_DIR / "audited-extraction" / "marker-summary.html"
 
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN">
@@ -88,7 +90,7 @@ tr:hover td { background: var(--accent-soft); }
 <body>
 <div class="wrap">
   <h1>Marker 全量终审汇总</h1>
-  <div class="sub">当前全部论文 · 正式 Marker 来自 db/cellxgene/our_markers.xlsx · 非 include 视图为恢复轮复核后判定</div>
+  <div class="sub">当前全部论文 · 正式 Marker 来自 marker提取/表单/our_markers.xlsx · 非 include 视图为恢复轮复核后判定</div>
   <div id="stats" class="grid"></div>
 
   <div class="panel">

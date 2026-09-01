@@ -26,7 +26,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 LOGGER = logging.getLogger(__name__)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
+MARKER_DIR = SCRIPT_DIR.parent / "marker提取"
+AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
 
 FIX_TAG = "; Codex 抽查续检 2026-08-30"
 

@@ -30,8 +30,9 @@ from run_full_audit import (
 )
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-DEFAULT_MD_DIR = SCRIPT_DIR / "review_md"
+MARKER_DIR = SCRIPT_DIR.parent / "marker提取"
+DEFAULT_AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+DEFAULT_MD_DIR = MARKER_DIR / "review_md"
 
 DOWNGRADE_SUFFIX = re.compile(
     r"\s*;?\s*自动校验：source_context 与 Markdown 词元覆盖率 [\d.]+ 低于 [\d.]+\s*$"

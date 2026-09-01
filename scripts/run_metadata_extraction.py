@@ -17,11 +17,11 @@ except ImportError:  # pragma: no cover - 运行环境缺少可选依赖时由 A
     load_dotenv = None
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-SCOPE_MAPPING = PROJECT_ROOT / "scripts" / "extract_article_metadata" / "output" / "scope_mapping.json"
-REVIEW_MD_DIR = PROJECT_ROOT / "scripts" / "extract_markers" / "review_md"
-OUTPUT_DIR = PROJECT_ROOT / "scripts" / "extract_article_metadata" / "output"
-DEFAULT_PROMPT = PROJECT_ROOT / "scripts" / "extract_article_metadata" / "article_metadata_prompt.md"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SCOPE_MAPPING = PROJECT_ROOT / "marker提取" / "article_metadata" / "output" / "scope_mapping.json"
+REVIEW_MD_DIR = PROJECT_ROOT / "marker提取" / "review_md"
+OUTPUT_DIR = PROJECT_ROOT / "marker提取" / "article_metadata" / "output"
+DEFAULT_PROMPT = PROJECT_ROOT / "marker提取" / "article_metadata" / "article_metadata_prompt.md"
 MAX_CHARS = 100_000
 SCHEMA_VERSION = 1
 
@@ -415,8 +415,8 @@ def load_scope() -> list[dict[str, Any]]:
 
 
 def build_marker_linkage(paper_id: str, marker_status: str) -> dict[str, Any]:
-    raw_path = PROJECT_ROOT / "scripts" / "extract_markers" / "markers_output_v2" / f"{paper_id}_raw.json"
-    review_path = PROJECT_ROOT / "scripts" / "extract_markers" / "markers_output_v2" / f"{paper_id}_review.csv"
+    raw_path = PROJECT_ROOT / "marker提取" / "markers_output_v2" / f"{paper_id}_raw.json"
+    review_path = PROJECT_ROOT / "marker提取" / "markers_output_v2" / f"{paper_id}_review.csv"
     formal_count: int | None = None
     context_count: int | None = None
     if raw_path.exists():
@@ -433,7 +433,7 @@ def build_marker_linkage(paper_id: str, marker_status: str) -> dict[str, Any]:
         "context_only_count": context_count,
         "raw_json_file": str(raw_path.relative_to(PROJECT_ROOT)).replace("\\", "/") if raw_path.exists() else "",
         "review_csv_file": str(review_path.relative_to(PROJECT_ROOT)).replace("\\", "/") if review_path.exists() else "",
-        "master_table_present": (PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx").exists(),
+        "master_table_present": (PROJECT_ROOT / "marker提取" / "表单" / "our_markers.xlsx").exists(),
     }
 
 

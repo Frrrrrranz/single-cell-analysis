@@ -9,10 +9,10 @@ import re
 from pathlib import Path
 from typing import Any, Iterable
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-SCOPE_PATH = PROJECT_ROOT / "scripts" / "extract_article_metadata" / "output" / "scope_mapping.json"
-MARKDOWN_DIR = PROJECT_ROOT / "scripts" / "extract_markers" / "review_md"
-OUTPUT_DIR = PROJECT_ROOT / "scripts" / "extract_article_metadata" / "output"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SCOPE_PATH = PROJECT_ROOT / "marker提取" / "article_metadata" / "output" / "scope_mapping.json"
+MARKDOWN_DIR = PROJECT_ROOT / "marker提取" / "review_md"
+OUTPUT_DIR = PROJECT_ROOT / "marker提取" / "article_metadata" / "output"
 LOGGER = logging.getLogger(__name__)
 
 NEURAL_ALIASES = {
@@ -277,8 +277,8 @@ def extract_statistics(text: str) -> tuple[list[dict[str, Any]], list[dict[str, 
 
 
 def marker_linkage(paper_id: str, marker_status: str) -> dict[str, Any]:
-    raw_path = PROJECT_ROOT / "scripts" / "extract_markers" / "markers_output_v2" / f"{paper_id}_raw.json"
-    review_path = PROJECT_ROOT / "scripts" / "extract_markers" / "markers_output_v2" / f"{paper_id}_review.csv"
+    raw_path = PROJECT_ROOT / "marker提取" / "markers_output_v2" / f"{paper_id}_raw.json"
+    review_path = PROJECT_ROOT / "marker提取" / "markers_output_v2" / f"{paper_id}_review.csv"
     formal_count: int | None = None
     context_count: int | None = None
     if raw_path.exists():
@@ -293,7 +293,7 @@ def marker_linkage(paper_id: str, marker_status: str) -> dict[str, Any]:
         "context_only_count": context_count,
         "raw_json_file": str(raw_path.relative_to(PROJECT_ROOT)).replace("\\", "/") if raw_path.exists() else "",
         "review_csv_file": str(review_path.relative_to(PROJECT_ROOT)).replace("\\", "/") if review_path.exists() else "",
-        "master_table_present": (PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx").exists(),
+        "master_table_present": (PROJECT_ROOT / "marker提取" / "表单" / "our_markers.xlsx").exists(),
     }
 
 

@@ -32,11 +32,12 @@ from run_full_audit import (
 
 LOGGER = logging.getLogger(__name__)
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
-MD_DIR = SCRIPT_DIR / "review_md"
-AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-RECOVERY_DIR = SCRIPT_DIR / "audited-extraction" / "recovery"
-DEFAULT_PROMPT_FILE = SCRIPT_DIR / "prompts" / "recovery_verify_v1.md"
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
+MD_DIR = MARKER_DIR / "review_md"
+AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+RECOVERY_DIR = MARKER_DIR / "audited-extraction" / "recovery"
+DEFAULT_PROMPT_FILE = MARKER_DIR / "prompts" / "recovery_verify_v1.md"
 
 FORMAL_EVIDENCE_TYPES = {
     "author_declared",

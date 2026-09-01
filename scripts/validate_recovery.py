@@ -23,10 +23,11 @@ from build_recovery_pool import FORMAL_EVIDENCE_TYPES
 from run_recovery_verify import load_candidates
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
-AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
-RECOVERY_DIR = SCRIPT_DIR / "audited-extraction" / "recovery"
-MASTER_XLSX = PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx"
+PROJECT_ROOT = SCRIPT_DIR.parent
+MARKER_DIR = PROJECT_ROOT / "marker提取"
+AUDIT_DIR = MARKER_DIR / "audited-extraction" / "markers"
+RECOVERY_DIR = MARKER_DIR / "audited-extraction" / "recovery"
+MASTER_XLSX = MARKER_DIR / "表单" / "our_markers.xlsx"
 
 FOUR_LAYERS = {"L1", "L2", "L3", "L4", "outside", "unknown"}
 RECOVERY_SOURCES = {"A_exclude", "A_downgraded", "B_unaudited", "new_finding"}

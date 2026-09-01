@@ -16,10 +16,11 @@ from run_full_audit import (  # noqa: E402
     validate_audit_result,
 )
 
-MD_DIR = MODULE_DIR / "review_md"
-RAW_DIR = MODULE_DIR / "markers_output_v2"
-AUDITED_DIR = MODULE_DIR / "audited-extraction" / "markers"
-SCOPE_FILE = MODULE_DIR / "audits" / "task-scope-2026-08-14.md"
+DATA_DIR = MODULE_DIR.parent / "marker提取"
+MD_DIR = DATA_DIR / "review_md"
+RAW_DIR = DATA_DIR / "markers_output_v2"
+AUDITED_DIR = DATA_DIR / "audited-extraction" / "markers"
+SCOPE_FILE = DATA_DIR / "audits" / "task-scope-2026-08-14.md"
 
 TWO_COLUMN_MARKDOWN = """\
 3 | RESULTS Table S5.

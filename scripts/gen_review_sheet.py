@@ -29,7 +29,7 @@ from marker_schema import EVIDENCE_RANK, SCHEMA_VERSION, apply_evidence_guardrai
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-DEFAULT_DIR = Path(__file__).parent / "audited-extraction" / "raw-inputs"
+DEFAULT_DIR = Path(__file__).resolve().parents[1] / "marker提取" / "audited-extraction" / "raw-inputs"
 
 REVIEW_HEADERS = [
     "paper_id",
