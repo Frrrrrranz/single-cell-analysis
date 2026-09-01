@@ -1,0 +1,63 @@
+{
+  "verify_version": 1,
+  "paper_id": "DOI_10.7554_elife.62522",
+  "cluster_inventory": [
+    {
+      "level": "Global snATAC-seq clustering",
+      "object": "All lung cell types (epithelial, mesenchymal, endothelial, hematopoietic): 90,980 nuclei",
+      "tissue_condition": "Non-diseased human lung small airway; donors 30wkGA, 4-month-old, 3yo, 30yo",
+      "clusters_reported": 19,
+      "annotation_labels": 19,
+      "source": "Results: 'Single-nucleus accessible chromatin and transcriptional profiles...' paragraph 1; Figure 1A/B legend",
+      "note": "19 clusters annotated as AT1, AT2, club, ciliated, basal, pulmonary neuroendocrine, myofibroblast, pericyte, matrix fibroblast 1/2, arterial, lymphatic, capillary 1/2, macrophage, B-cell, T-cell, NK cell, enucleated erythrocyte."
+    },
+    {
+      "level": "Global snRNA-seq clustering",
+      "object": "All lung cell types: 46,500 nuclei",
+      "tissue_condition": "Non-diseased human lung small airway; donors 30wkGA, 3yo, 30yo",
+      "clusters_reported": 31,
+      "annotation_labels": 31,
+      "source": "Results: 'Single-nucleus accessible chromatin and transcriptional profiles...' paragraph 2; Figure 1C/D legend",
+      "note": "Figure 1C legend states 31 clusters; final annotation labels are not individually enumerated in the main text, but clusters overlap with the 19 major cell types identified by snATAC-seq."
+    }
+  ],
+  "verifications": [
+    {
+      "candidate_index": 0,
+      "cell_type": "AT2",
+      "subtype": null,
+      "species": "human",
+      "four_layer_category": "outside",
+      "original_symbol": "SLC6A20",
+      "normalized_symbol": "SLC6A20",
+      "normalization_status": "exact",
+      "evidence_type": "cluster_enriched",
+      "marker_polarity": "positive",
+      "source_locator": "Results: 'Fine-mapping risk variants for COVID-19 respiratory failure at the 3p21.31 locus...' section, para. 2; Fig. 5D legend",
+      "source_context": "SLC6A20, which encodes a proline transporter, was expressed predominantly in AT2 cells and had low expression in other cell types (Figure 5D). Figure 5D legend: 'Expression of SLC6A20 across lung cell types, where each dot represents a nucleus. The highest expression observed was in AT2 cells.'",
+      "decision": "context_only",
+      "reason": "SLC6A20 is described as a putative target gene of the 3p21.31 risk variant and its cell-type expression pattern is shown, but it is not presented as an AT2 marker nor used for lung cell-type annotation. The evidence is only cluster-enriched expression, so the dual gate is not met."
+    }
+  ],
+  "new_findings": [],
+  "issues": [
+    {
+      "severity": "info",
+      "issue_type": "evidence",
+      "description": "Figure legends state that marker genes were used for cluster annotation (Figure 1B/D, Figure 1—figure supplement 2A/B), but the provided Markdown does not enumerate those marker genes, so additional annotation markers could not be verified from the main text alone."
+    }
+  ],
+  "task": {
+    "task_no": 11,
+    "dataset_id": "CELLxGENE:3de0ad6d-4378-4f62-b37b-ec0b75a50d94",
+    "paper_title": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L4:Pulmonary neuroendocrine cell",
+    "tissue": "lung",
+    "paper_id": "DOI_10.7554_elife.62522"
+  },
+  "verify_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.7554_elife.62522.md",
+  "source_markdown_sha256": "3663b4f01140467f255f5b3d3d82392f0f43eda43f1688f36607e41a0671ad71",
+  "pool_records": 1
+}

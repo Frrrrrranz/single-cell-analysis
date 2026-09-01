@@ -1,6 +1,6 @@
-"""从 40 个终审 audit JSON 生成修正版总表、逐篇 review CSV 和汇总报告。
+"""从当前全部终审 audit JSON 生成修正版总表、逐篇 review CSV 和汇总报告。
 
-- 原始 our_markers.xlsx 只读，修正版另存 our_markers_audited.xlsx；
+- 从显式传入的旧总表只读生成 db/cellxgene/our_markers.xlsx；
 - 属于 40 篇的旧记录按终审结果替换，其余历史行保留并标记 not_in_40_article_audit；
 - include 写入 markers sheet；context/exclude/unresolved 写入 audit_exclusions；
 - 逐篇生成 <paper_id>_review.csv，另生成 audit_summary.csv 与 full-audit-report.md。
@@ -33,13 +33,14 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 LOGGER = logging.getLogger(__name__)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_AUDIT_DIR = SCRIPT_DIR / "markers_audited"
+PROJECT_ROOT = SCRIPT_DIR.parent.parent
+DEFAULT_AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
 DEFAULT_SCOPE_FILE = SCRIPT_DIR / "audits" / "task-scope-2026-08-14.md"
 DEFAULT_SOURCE_XLSX = SCRIPT_DIR / "our_markers.xlsx"
-DEFAULT_OUTPUT_XLSX = SCRIPT_DIR / "our_markers_audited.xlsx"
+DEFAULT_OUTPUT_XLSX = PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx"
 
 DECISIONS = {"include", "context_only", "exclude", "unresolved"}
-PAPER_STATUSES = {"pass", "corrected", "no_formal_target_marker", "unresolved"}
+PAPER_STATUSES = {"pass", "corrected", "no_formal_marker", "no_formal_target_marker", "unresolved"}
 
 REVIEW_CSV_HEADERS = [
     "paper_id",
@@ -48,7 +49,7 @@ REVIEW_CSV_HEADERS = [
     "cell_type",
     "subtype",
     "species",
-    "in_project_scope",
+    "four_layer_category",
     "original_symbol",
     "normalized_symbol",
     "normalization_status",
@@ -88,7 +89,7 @@ AUDIT_SUMMARY_HEADERS = [
     "paper_id",
     "paper_title",
     "task_species",
-    "target_cell_scope",
+    "catalog_cell_layers",
     "tissue",
     "paper_status",
     "marker_records",
@@ -116,8 +117,13 @@ PNS_CELL_PATTERN = re.compile(
 ENDOCRINE_PATTERN = re.compile(r"neuroendocrine|enteroendocrine|pnec", re.IGNORECASE)
 
 
+def catalog_cell_layers(task: dict[str, Any]) -> str:
+    """兼容旧审计字段；四层标签只用于分类，不作为 Marker 纳入门槛。"""
+    return str(task.get("catalog_cell_layers") or task.get("target_cell_scope") or "—")
+
+
 def is_pns_cell_value(cell_type: str, target_scope: str) -> str:
-    """解剖学 PNS 判断，与 in_project_scope 分离：L4 内分泌层级在项目范围内但非解剖 PNS。"""
+    """解剖学 PNS 分类；不控制 Marker 是否保留。"""
     if ENDOCRINE_PATTERN.search(cell_type or ""):
         return "false"
     if PNS_CELL_PATTERN.search(cell_type or ""):
@@ -168,8 +174,6 @@ def check_audit_invariants(audits: dict[str, dict[str, Any]]) -> None:
             if marker.get("decision") not in DECISIONS:
                 raise ValueError(f"{prefix}: 无效 decision")
             if marker.get("decision") == "include":
-                if marker.get("in_project_scope") is not True:
-                    raise ValueError(f"{prefix}: include 但 in_project_scope != true")
                 if marker.get("evidence_type") not in FORMAL_EVIDENCE_TYPES:
                     raise ValueError(f"{prefix}: include 但非正式证据")
                 if marker.get("normalization_status") not in {"exact", "alias_resolved"}:
@@ -231,7 +235,7 @@ def write_review_csvs(audits: dict[str, dict[str, Any]], audit_dir: Path) -> Non
                 row["task_no"] = task.get("task_no")
                 row["paper_status"] = data.get("paper_status")
                 row["subtype"] = marker.get("subtype") or ""
-                row["in_project_scope"] = "true" if marker.get("in_project_scope") else "false"
+                row["four_layer_category"] = marker.get("four_layer_category") or catalog_cell_layers(task)
                 writer.writerow(row)
         LOGGER.info("生成 %s (%d 行)", path.name, len(data.get("markers", [])))
 
@@ -251,7 +255,7 @@ def write_audit_summary_csv(audits: dict[str, dict[str, Any]], audit_dir: Path) 
                     "paper_id": paper_id,
                     "paper_title": task.get("paper_title"),
                     "task_species": task.get("task_species"),
-                    "target_cell_scope": task.get("target_cell_scope"),
+                    "catalog_cell_layers": catalog_cell_layers(task),
                     "tissue": task.get("tissue"),
                     "paper_status": data.get("paper_status"),
                     "marker_records": len(markers),
@@ -278,14 +282,14 @@ def write_full_audit_report(
         status_counts[data["paper_status"]] = status_counts.get(data["paper_status"], 0) + 1
 
     lines: list[str] = []
-    lines.append("# 40 篇 Marker 全量审核汇总报告（2026-08-30）")
+    lines.append(f"# {len(audits)} 篇 Marker 全量审核汇总报告")
     lines.append("")
-    lines.append("审核模型与规则：audit_markers_v1 提示词 + run_full_audit.py 自动降级规则（citation 词元覆盖率阈值 0.72）。")
+    lines.append("审核模型与规则：audit_markers_v2 提示词 + run_full_audit.py 证据校验规则（citation 词元覆盖率阈值 0.72）；四层、物种和组织仅用于分类。")
     lines.append("")
     lines.append("## 文章状态统计")
     lines.append("")
     lines.append(f"- 审核论文数：{len(audits)}")
-    for status in ("pass", "corrected", "no_formal_target_marker", "unresolved"):
+    for status in ("pass", "corrected", "no_formal_marker", "no_formal_target_marker", "unresolved"):
         lines.append(f"- {status}: {status_counts.get(status, 0)}")
     lines.append(f"- 修正版正式 Marker（include，已去重）：{len(primary_rows)}")
     lines.append(f"- 旧总表移除记录（40 篇范围内未获终审 include）：{len(removed_rows)}")
@@ -299,7 +303,7 @@ def write_full_audit_report(
         task = data.get("task", {})
         markers = data.get("markers", [])
         decisions = [marker.get("decision") for marker in markers]
-        scope = task.get("target_cell_scope", "—")
+        scope = catalog_cell_layers(task)
         lines.append(
             f"| {task.get('task_no')} | {paper_id} | {scope} | {data['paper_status']} "
             f"| {decisions.count('include')} | {decisions.count('context_only')} "
@@ -334,7 +338,7 @@ def write_full_audit_report(
     if not unresolved_lines:
         lines.append("无 unresolved 条目。")
     lines.append("")
-    lines.append("原始文件保留位置：`our_markers.xlsx`、`markers_output_v2/`、`review_md/` 均未修改。")
+    lines.append("旧版总表与逐篇提取结果已提交至 Git；工作树仅保留当前终审结果和论文 Markdown。")
     path = audit_dir / "full-audit-report.md"
     path.write_text("\n".join(lines), encoding="utf-8")
     LOGGER.info("生成 %s", path.name)
@@ -426,7 +430,7 @@ def build_audited_workbook(
             "cell_type": entry.get("cell_type"),
             "subtype": entry.get("subtype"),
             "species": species,
-            "is_pns_cell": is_pns_cell_value(entry.get("cell_type", ""), task.get("target_cell_scope", "")),
+            "is_pns_cell": is_pns_cell_value(entry.get("cell_type", ""), catalog_cell_layers(task)),
             "gene_symbol": gene_symbol,
             "original_symbol": entry.get("original_symbol"),
             "evidence_type": entry.get("evidence_type"),
@@ -437,7 +441,7 @@ def build_audited_workbook(
             "review_status": "approved",
             "review_method": "full_audit_2026-08-30",
             "notes": entry.get("reason", ""),
-            "source_file": f"scripts/extract_markers/markers_audited/{entry['paper_id']}_audit.json",
+            "source_file": f"scripts/extract_markers/audited-extraction/markers/{entry['paper_id']}_audit.json",
             "imported_at": imported_at,
             "audit_status": "audited_include",
             "normalization_status": entry.get("normalization_status"),
@@ -532,7 +536,7 @@ def build_audited_workbook(
                 paper_id,
                 task.get("paper_title"),
                 task.get("task_species"),
-                task.get("target_cell_scope"),
+                catalog_cell_layers(task),
                 task.get("tissue"),
                 data.get("paper_status"),
                 len(markers),
@@ -568,7 +572,7 @@ def build_audited_workbook(
                 len(removed_rows),
                 None,
                 len(primary_rows),
-                "scripts/extract_markers/markers_audited/full-audit-report.md",
+                "scripts/extract_markers/audited-extraction/markers/full-audit-report.md",
                 imported_at,
                 "40 篇终审：旧记录替换为 include 终审结果；非 40 篇历史行标记 not_in_40_article_audit",
             ]
@@ -582,17 +586,22 @@ def build_audited_workbook(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="生成 40 篇终审修正版产物")
+    parser = argparse.ArgumentParser(description="生成当前全部文章的终审修正版产物")
     parser.add_argument("--audit-dir", type=Path, default=DEFAULT_AUDIT_DIR)
     parser.add_argument("--scope-file", type=Path, default=DEFAULT_SCOPE_FILE)
-    parser.add_argument("--source-xlsx", type=Path, default=DEFAULT_SOURCE_XLSX)
+    parser.add_argument(
+        "--source-xlsx",
+        type=Path,
+        required=True,
+        help="旧总表已从工作树清理；请从 Git 恢复到临时目录后显式传入",
+    )
     parser.add_argument("--output-xlsx", type=Path, default=DEFAULT_OUTPUT_XLSX)
     parser.add_argument("--skip-csv", action="store_true")
     args = parser.parse_args()
 
     audits = load_audit_jsons(args.audit_dir)
-    if len(audits) != 40:
-        raise SystemExit(f"audit JSON 数量不是 40: {len(audits)}")
+    if not audits:
+        raise SystemExit("未找到 audit JSON")
 
     task_map = parse_scope_table(args.scope_file)
     missing_scope = [paper_id for paper_id in audits if paper_id not in task_map]

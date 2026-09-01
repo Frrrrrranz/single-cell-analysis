@@ -97,12 +97,12 @@ class RecheckPaperTests(unittest.TestCase):
         self.assertTrue(any(i["issue_type"] == "citation" for i in data["issues"]))
         self.assertIn("维持 unresolved", data["issues"][0]["description"])
 
-    def test_gate_failing_marker_is_not_restored(self) -> None:
+    def test_out_of_catalog_marker_is_restored_when_evidence_passes(self) -> None:
         marker = downgraded_marker(in_project_scope=False)
         data = audit_payload([marker])
         _, _, n_restored, _ = recheck_paper(data, CONCATENATED_MARKDOWN)
-        self.assertEqual(n_restored, 0)
-        self.assertEqual(marker["decision"], "unresolved")
+        self.assertEqual(n_restored, 1)
+        self.assertEqual(marker["decision"], "include")
         self.assertTrue(marker["citation_verified"])
 
     def test_semantic_unresolved_is_untouched(self) -> None:
@@ -117,7 +117,7 @@ class RecheckPaperTests(unittest.TestCase):
         self.assertNotIn("citation_recheck", marker)
 
     def test_no_formal_paper_is_promoted_after_restore(self) -> None:
-        data = audit_payload([downgraded_marker()], paper_status="no_formal_target_marker")
+        data = audit_payload([downgraded_marker()], paper_status="no_formal_marker")
         recheck_paper(data, CONCATENATED_MARKDOWN)
         self.assertEqual(data["paper_status"], "corrected")
         self.assertIn("恢复正式 Marker", data["summary"])

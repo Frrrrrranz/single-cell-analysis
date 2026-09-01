@@ -1,0 +1,74 @@
+{
+  "verify_version": 1,
+  "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+  "cluster_inventory": [
+    {
+      "level": "全局 tSNE 聚类（未报告显式簇数）",
+      "object": "人胰腺胰岛细胞（主要内分泌细胞类型）",
+      "tissue_condition": "人胰腺/胰岛；8 名供体，覆盖幼年、青年、中年",
+      "clusters_reported": null,
+      "annotation_labels": 4,
+      "source": "Results 'A Comprehensive Survey of Single Pancreatic Cells from Human Donors across Different Ages'; Figure 1A legend; Figure S1A legend",
+      "note": "作者未给出明确 cluster 数；图 1A 显示不同细胞类型形成独立区域，图 S1A 提示主要内分泌细胞类型为 α、β、δ、PP，未报告亚群簇；未发现明显少报/漏提簇的迹象。"
+    }
+  ],
+  "verifications": [
+    {
+      "candidate_index": 0,
+      "cell_type": "b-cells",
+      "subtype": null,
+      "species": "human",
+      "four_layer_category": "L4",
+      "original_symbol": "INS",
+      "normalized_symbol": "INS",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Fig. 2A legend; Fig. 1A legend",
+      "source_context": "Expression of cell-typical (INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise. Cell identity is indicated by marker gene expression.",
+      "decision": "include",
+      "reason": "作者明确将 INS 作为 b-cells 的 cell-typical marker，并在图 1A 中说明 cell identity is indicated by marker gene expression，表明其实际用于细胞类型识别/注释。旧排除理由仅为不在目标细胞范围，按复核口径不构成排除理由。",
+      "citation_match_score": 0.7647,
+      "citation_verified": true
+    },
+    {
+      "candidate_index": 1,
+      "cell_type": "a-cells",
+      "subtype": null,
+      "species": "human",
+      "four_layer_category": "L4",
+      "original_symbol": "GCG",
+      "normalized_symbol": "GCG",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Fig. 2A legend; Fig. 1A legend",
+      "source_context": "Expression of cell-typical (INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise. Cell identity is indicated by marker gene expression.",
+      "decision": "include",
+      "reason": "作者明确将 GCG 作为 a-cells 的 cell-typical marker，并在图 1A 中说明 cell identity is indicated by marker gene expression，表明其实际用于细胞类型识别/注释。旧排除理由仅为不在目标细胞范围，按复核口径不构成排除理由。",
+      "citation_match_score": 0.7647,
+      "citation_verified": true
+    }
+  ],
+  "new_findings": [],
+  "issues": [
+    {
+      "severity": "info",
+      "issue_type": "classification",
+      "description": "论文未报告全局 tSNE 的显式 cluster 数；簇盘点按图例和正文推断为 4 个主要内分泌细胞标签（α、β、δ、PP）。"
+    }
+  ],
+  "task": {
+    "task_no": 28,
+    "dataset_id": "CELLxGENE:66d15835-5dc8-4e96-b0eb-f48971cb65e8",
+    "paper_title": "Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L4:Type D enteroendocrine cell",
+    "tissue": "islet of Langerhans",
+    "paper_id": "DOI_10.1016_j.cell.2017.09.004"
+  },
+  "verify_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1016_j.cell.2017.09.004.md",
+  "source_markdown_sha256": "4dd33b01c7c112bd8987e964c83ea0e53ede1ec59f8151b0563d073f42881b50",
+  "pool_records": 2
+}

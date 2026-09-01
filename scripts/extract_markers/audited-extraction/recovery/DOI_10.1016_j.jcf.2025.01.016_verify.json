@@ -1,0 +1,95 @@
+{
+  "verify_version": 1,
+  "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+  "cluster_inventory": [
+    {
+      "level": "Global integrated clustering / HLCA label transfer",
+      "object": "All cells from airway wall biopsies (pwCF and healthy controls) after integration with HLCA reference",
+      "tissue_condition": "Bronchial biopsies; CF carina (EMC) and healthy carina (UCdA) / 3rd-6th generation airways (UMCG)",
+      "clusters_reported": 17,
+      "annotation_labels": 17,
+      "source": "Results 2.1, Fig. 1B; Methods 4.4",
+      "note": "17 cell types reported using HLCA consensus labels; one 'unknown' population was manually annotated as CD8+ T cells based on marker gene expression. No separate subclustering level is described."
+    }
+  ],
+  "verifications": [
+    {
+      "candidate_index": 0,
+      "cell_type": "Neutrophil-like cells",
+      "subtype": null,
+      "species": "human",
+      "four_layer_category": "outside",
+      "original_symbol": "FCGR3B",
+      "normalized_symbol": "FCGR3B",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 2.2, Fig. S1F-G",
+      "source_context": "we did detect a small subset of neutrophil-like cells (defined by high levels of FCGR3B and CSF3R expression)",
+      "decision": "include",
+      "reason": "作者明确用高表达 FCGR3B 定义 monocyte cluster 内的 neutrophil-like cells 亚群，并据此检出/命名该细胞群，符合 Marker 身份与注释用途双重门槛。旧判定仅因不在任务目标细胞范围而排除，按新口径不构成排除理由。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "candidate_index": 1,
+      "cell_type": "Neutrophil-like cells",
+      "subtype": null,
+      "species": "human",
+      "four_layer_category": "outside",
+      "original_symbol": "CSF3R",
+      "normalized_symbol": "CSF3R",
+      "normalization_status": "exact",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Results 2.2, Fig. S1F-G",
+      "source_context": "we did detect a small subset of neutrophil-like cells (defined by high levels of FCGR3B and CSF3R expression)",
+      "decision": "include",
+      "reason": "作者明确用高表达 CSF3R 定义 neutrophil-like cells 亚群，并据此检出/命名该细胞群，符合 Marker 身份与注释用途双重门槛。旧判定仅因不在任务目标细胞范围而排除，按新口径不构成排除理由。",
+      "citation_match_score": 1.0,
+      "citation_verified": true
+    },
+    {
+      "candidate_index": 2,
+      "cell_type": "Cytotoxic CD8+ T cells",
+      "subtype": null,
+      "species": "human",
+      "four_layer_category": "outside",
+      "original_symbol": "CD69",
+      "normalized_symbol": "CD69",
+      "normalization_status": "exact",
+      "evidence_type": "cluster_enriched",
+      "marker_polarity": "positive",
+      "source_locator": "Results 2.4, Fig. 3C",
+      "source_context": "Upregulated genes were involved in pro-inflammatory and defense response pathways, (IFNG), trafficking-associated genes (GNAI2), activation-associated transcription factors (FOS, JUND) and canonical immune activation marker (CD69) (Fig. 3C).",
+      "decision": "context_only",
+      "reason": "CD69 仅作为 CD8+ T 细胞中上调的 canonical immune activation marker / DEG 被展示，用于描述活化表型，未用于识别、命名或归类 CD8+ T 细胞，不满足注释用途门槛。"
+    }
+  ],
+  "new_findings": [],
+  "issues": [
+    {
+      "severity": "info",
+      "issue_type": "other",
+      "description": "论文未报告 Pulmonary neuroendocrine cell（目标 L4 细胞类型），Markdown 中也未发现 PNEC 特异性 Marker。"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "evidence",
+      "description": "Fig. 1C 标注为 'Expression levels of selected cell-type specific markers in the 17 annotated cell types'，但 Markdown 未列出具体基因，无法可靠提取验证用 Marker 列表。"
+    }
+  ],
+  "task": {
+    "task_no": 8,
+    "dataset_id": "CELLxGENE:1ab4ebbc-18d6-4838-89c2-cdc5b10accfb",
+    "paper_title": "Evidence for altered immune-structural cell crosstalk in cystic fibrosis revealed by single cell transcriptomics.",
+    "task_species": "Homo sapiens",
+    "target_cell_scope": "L4:Pulmonary neuroendocrine cell",
+    "tissue": "carina of trachea",
+    "paper_id": "DOI_10.1016_j.jcf.2025.01.016"
+  },
+  "verify_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1016_j.jcf.2025.01.016.md",
+  "source_markdown_sha256": "deb6ed0e8a0cb12a3217432dbaff568104910ffe25304c8b53ab0981c9ae243a",
+  "pool_records": 3
+}

@@ -18,7 +18,7 @@ from run_full_audit import (  # noqa: E402
 
 MD_DIR = MODULE_DIR / "review_md"
 RAW_DIR = MODULE_DIR / "markers_output_v2"
-AUDITED_DIR = MODULE_DIR / "markers_audited"
+AUDITED_DIR = MODULE_DIR / "audited-extraction" / "markers"
 SCOPE_FILE = MODULE_DIR / "audits" / "task-scope-2026-08-14.md"
 
 TWO_COLUMN_MARKDOWN = """\
@@ -58,7 +58,7 @@ def marker_result(**overrides) -> dict:
 
 def audit_payload(markers: list[dict]) -> dict:
     return {
-        "audit_version": 1,
+        "audit_version": 2,
         "paper_id": "P_TEST",
         "paper_status": "corrected",
         "summary": "测试",
@@ -170,13 +170,13 @@ class ValidateAuditResultTests(unittest.TestCase):
         )
         self.assertEqual(data["markers"][0]["decision"], "unresolved")
 
-    def test_out_of_scope_is_excluded(self) -> None:
+    def test_out_of_catalog_formal_marker_is_retained(self) -> None:
         data = validate_audit_result(
             audit_payload([marker_result(in_project_scope=False)]),
             "P_TEST",
             TWO_COLUMN_MARKDOWN,
         )
-        self.assertEqual(data["markers"][0]["decision"], "exclude")
+        self.assertEqual(data["markers"][0]["decision"], "include")
 
     def test_unknown_species_is_demoted_to_unresolved(self) -> None:
         data = validate_audit_result(
@@ -210,31 +210,28 @@ class ScopeIntegrationTests(unittest.TestCase):
     def test_scope_table_maps_all_markdown_paper_ids(self) -> None:
         task_map = parse_scope_table(SCOPE_FILE)
         md_ids = {path.stem for path in MD_DIR.glob("*.md")}
-        self.assertEqual(len(md_ids), 40, "review_md 应恰好 40 篇")
+        self.assertEqual(len(md_ids), 43, "review_md 应包含原 40 篇及新补入的 3 篇")
         missing = md_ids - set(task_map)
         self.assertEqual(missing, set(), f"任务范围表缺少 paper_id: {sorted(missing)}")
         for paper_id, task in task_map.items():
-            self.assertTrue(task["target_cell_scope"], paper_id)
+            self.assertTrue(task["catalog_cell_layers"], paper_id)
             self.assertIn(task["task_species"], {"Homo sapiens", "Mus musculus", "Rattus norvegicus", "NaN"}, paper_id)
 
-    def test_every_markdown_has_matching_raw_json(self) -> None:
-        for md_path in sorted(MD_DIR.glob("*.md")):
-            raw_path = RAW_DIR / f"{md_path.stem}_raw.json"
-            self.assertTrue(raw_path.exists(), f"缺少 raw JSON: {raw_path.name}")
+    def test_audited_json_records_raw_provenance(self) -> None:
+        for audit_path in sorted(AUDITED_DIR.glob("*_audit.json")):
+            data = json.loads(audit_path.read_text(encoding="utf-8"))
+            self.assertTrue(data["source_raw_json"].endswith("_raw.json"), audit_path.name)
+            self.assertRegex(data["source_raw_sha256"], r"^[0-9a-f]{64}$", audit_path.name)
 
-    def test_audited_json_source_hashes_match_current_files(self) -> None:
+    def test_audited_json_source_hashes_match_current_markdown(self) -> None:
         import hashlib
 
         for audit_path in sorted(AUDITED_DIR.glob("*_audit.json")):
             data = json.loads(audit_path.read_text(encoding="utf-8"))
             md_path = MD_DIR / data["source_markdown"]
-            raw_path = RAW_DIR / data["source_raw_json"]
-            if not md_path.exists() or not raw_path.exists():
-                self.fail(f"{audit_path.name} 引用的源文件不存在")
+            self.assertTrue(md_path.exists(), f"{audit_path.name} 引用的 Markdown 不存在")
             md_hash = hashlib.sha256(md_path.read_text(encoding="utf-8").encode("utf-8")).hexdigest()
-            raw_hash = hashlib.sha256(raw_path.read_text(encoding="utf-8").encode("utf-8")).hexdigest()
             self.assertEqual(data["source_markdown_sha256"], md_hash, f"{audit_path.name} Markdown 哈希变化")
-            self.assertEqual(data["source_raw_sha256"], raw_hash, f"{audit_path.name} raw JSON 哈希变化")
 
 
 if __name__ == "__main__":

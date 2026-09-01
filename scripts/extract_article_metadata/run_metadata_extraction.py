@@ -433,7 +433,7 @@ def build_marker_linkage(paper_id: str, marker_status: str) -> dict[str, Any]:
         "context_only_count": context_count,
         "raw_json_file": str(raw_path.relative_to(PROJECT_ROOT)).replace("\\", "/") if raw_path.exists() else "",
         "review_csv_file": str(review_path.relative_to(PROJECT_ROOT)).replace("\\", "/") if review_path.exists() else "",
-        "master_table_present": (PROJECT_ROOT / "scripts" / "extract_markers" / "our_markers.xlsx").exists(),
+        "master_table_present": (PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx").exists(),
     }
 
 

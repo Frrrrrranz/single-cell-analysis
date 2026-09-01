@@ -47,7 +47,7 @@ if dotenv_path.exists():
 
 PROJECT_ROOT = Path(r"D:\OneDrive\Desktop\组")
 PAPERS_DIR = PROJECT_ROOT / "papers"
-OUTPUT_DIR = Path(__file__).parent / "markers_output_v2"
+OUTPUT_DIR = Path(__file__).parent / "audited-extraction" / "raw-inputs"
 PROMPT_FILE = Path(__file__).parent / "prompts" / "extract_markers_v4.md"
 
 # 用于分块的最大字符数（~80k chars ≈ 20k tokens 的中英文混合文本）

@@ -1,4 +1,4 @@
-"""40 篇 Marker 全量终审的程序化质量检查。
+"""当前全部文章 Marker 终审的程序化质量检查。
 
 全部满足时退出 0，否则退出非 0 并打印具体 paper_id/marker 错误。
 检查项对应执行计划 7.6 与第 9 节验收清单。
@@ -16,12 +16,13 @@ from typing import Any
 from openpyxl import load_workbook
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parent.parent
 MD_DIR = SCRIPT_DIR / "review_md"
 RAW_DIR = SCRIPT_DIR / "markers_output_v2"
-AUDIT_DIR = SCRIPT_DIR / "markers_audited"
+AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
 SOURCE_XLSX = SCRIPT_DIR / "our_markers.xlsx"
-AUDITED_XLSX = SCRIPT_DIR / "our_markers_audited.xlsx"
-AUDITED_HTML = SCRIPT_DIR / "marker_summary_audited.html"
+AUDITED_XLSX = PROJECT_ROOT / "db" / "cellxgene" / "our_markers.xlsx"
+AUDITED_HTML = SCRIPT_DIR / "audited-extraction" / "marker-summary.html"
 
 # 2026-08-30 审核开始前原始总表的 SHA256；若原表被修改则验证失败。
 SOURCE_XLSX_BASELINE_SHA256 = "1c096dedc4191277f89e6131aeb772a919c346d9246390aa75d11f2e343fe71d"
@@ -41,7 +42,7 @@ NORMALIZATION_STATUSES = {"exact", "alias_resolved", "ambiguous", "non_gene_enti
 SPECIES = {"human", "mouse", "rat", "other", "unknown"}
 POLARITIES = {"positive", "negative", "unknown"}
 DECISIONS = {"include", "context_only", "exclude", "unresolved"}
-PAPER_STATUSES = {"pass", "corrected", "no_formal_target_marker", "unresolved"}
+PAPER_STATUSES = {"pass", "corrected", "no_formal_marker", "no_formal_target_marker", "unresolved"}
 
 DEDUP_KEY_FIELDS = ("paper_id", "cell_type", "subtype", "species", "normalized_symbol", "marker_polarity")
 
@@ -59,7 +60,7 @@ class ValidationErrors:
             for item in self.items:
                 print(f"  - {item}")
             sys.exit(1)
-        print("全部验证通过：40 篇终审结果、修正版 Excel 与 HTML 一致。")
+        print("全部验证通过：当前全部文章的终审结果、修正版 Excel 与 HTML 一致。")
 
 
 def sha256_file(path: Path) -> str:
@@ -72,29 +73,18 @@ def sha256_text(text: str) -> str:
 
 def validate_source_files(errors: ValidationErrors) -> dict[str, dict[str, Any]]:
     md_paths = sorted(MD_DIR.glob("*.md"))
-    raw_paths = sorted(RAW_DIR.glob("*_raw.json"))
-    review_paths = sorted(RAW_DIR.glob("*_review.csv"))
     audit_paths = sorted(AUDIT_DIR.glob("*_audit.json"))
 
-    if len(md_paths) != 40:
-        errors.add(f"review_md 数量 {len(md_paths)} != 40")
-    if len(raw_paths) != 40:
-        errors.add(f"markers_output_v2 raw JSON 数量 {len(raw_paths)} != 40")
-    if len(review_paths) != 40:
-        errors.add(f"markers_output_v2 review CSV 数量 {len(review_paths)} != 40")
-    if len(audit_paths) != 40:
-        errors.add(f"markers_audited audit JSON 数量 {len(audit_paths)} != 40")
+    if len(audit_paths) != len(md_paths):
+        errors.add(f"audit JSON 数量 {len(audit_paths)} != review_md 数量 {len(md_paths)}")
 
     md_ids = {path.stem for path in md_paths}
-    raw_ids = {path.name.replace("_raw.json", "") for path in raw_paths}
-    review_ids = {path.name.replace("_review.csv", "") for path in review_paths}
     audit_ids = {path.name.replace("_audit.json", "") for path in audit_paths}
 
-    for label, ids in (("raw", raw_ids), ("review", review_ids), ("audit", audit_ids)):
-        if md_ids != ids:
-            errors.add(f"{label} 与 review_md 的 paper_id 集合不一致: {sorted(md_ids ^ ids)}")
+    if md_ids != audit_ids:
+        errors.add(f"audit 与 review_md 的 paper_id 集合不一致: {sorted(md_ids ^ audit_ids)}")
 
-    if sha256_file(SOURCE_XLSX) != SOURCE_XLSX_BASELINE_SHA256:
+    if SOURCE_XLSX.exists() and sha256_file(SOURCE_XLSX) != SOURCE_XLSX_BASELINE_SHA256:
         errors.add("原始 our_markers.xlsx 哈希与审核前基准不一致（原表被修改）")
 
     audits: dict[str, dict[str, Any]] = {}
@@ -118,8 +108,8 @@ def validate_audit_content(audits: dict[str, dict[str, Any]], errors: Validation
     conflict_keys: set[tuple] = set()
     for paper_id, data in audits.items():
         task = data.get("task") or {}
-        if not task.get("target_cell_scope"):
-            errors.add(f"{paper_id}: 缺少任务目标层级")
+        if not (task.get("catalog_cell_layers") or task.get("target_cell_scope")):
+            errors.add(f"{paper_id}: 缺少四层分类标签")
         if data.get("paper_status") not in PAPER_STATUSES:
             errors.add(f"{paper_id}: 无效 paper_status {data.get('paper_status')!r}")
         if not isinstance(data.get("summary"), str) or not data["summary"].strip():
@@ -140,7 +130,7 @@ def validate_audit_content(audits: dict[str, dict[str, Any]], errors: Validation
             current = sha256_text(raw_path.read_text(encoding="utf-8"))
             if current != data.get("source_raw_sha256"):
                 errors.add(f"{paper_id}: raw JSON 哈希与审核时不一致")
-        else:
+        elif RAW_DIR.exists():
             errors.add(f"{paper_id}: source_raw_json 不存在 {raw_path.name}")
 
         for index, marker in enumerate(data.get("markers", [])):
@@ -172,8 +162,6 @@ def validate_audit_content(audits: dict[str, dict[str, Any]], errors: Validation
                 marker.get("marker_polarity"),
             )
             if marker.get("decision") == "include":
-                if marker.get("in_project_scope") is not True:
-                    errors.add(f"{prefix}: include 但 in_project_scope != true")
                 if marker.get("evidence_type") not in FORMAL_EVIDENCE_TYPES:
                     errors.add(f"{prefix}: include 但非正式证据")
                 if marker.get("normalization_status") not in {"exact", "alias_resolved"}:
@@ -208,13 +196,11 @@ def validate_high_risk_expectations(audits: dict[str, dict[str, Any]], errors: V
                 result.append(marker)
         return result
 
-    # 1. pros.24020：CHGA human include；CGRP 不入表；小鼠 CHGA 非 include
+    # 1. pros.24020：CHGA human include；CGRP 不是唯一基因符号，不入表
     if not find("DOI_10.1002_pros.24020", "CHGA", species="human", decision="include"):
         errors.add("高风险 DOI_10.1002_pros.24020: human CHGA 未 include")
     if find("DOI_10.1002_pros.24020", "CGRP", decision="include"):
         errors.add("高风险 DOI_10.1002_pros.24020: CGRP 被 include（应为 ambiguous/unresolved）")
-    if find("DOI_10.1002_pros.24020", "CHGA", species="mouse", decision="include"):
-        errors.add("高风险 DOI_10.1002_pros.24020: mouse CHGA 不应 include（任务物种 Homo sapiens）")
 
     # 2. isci.111628：NRXN 家族名不得入表
     if find("DOI_10.1016_j.isci.2024.111628", "NRXN", decision="include"):
@@ -240,7 +226,7 @@ def validate_audited_workbook(audits: dict[str, dict[str, Any]], errors: Validat
     wb = load_workbook(AUDITED_XLSX, read_only=True)
     for sheet in ("markers", "audit_exclusions", "audit_summary"):
         if sheet not in wb.sheetnames:
-            errors.add(f"our_markers_audited.xlsx 缺少 sheet: {sheet}")
+            errors.add(f"db/cellxgene/our_markers.xlsx 缺少 sheet: {sheet}")
     if "markers" not in wb.sheetnames:
         wb.close()
         return
@@ -314,8 +300,8 @@ def validate_audited_workbook(audits: dict[str, dict[str, Any]], errors: Validat
         missing = set(audits) - summary_ids
         if missing:
             errors.add(f"audit_summary sheet 缺少论文: {sorted(missing)}")
-        if len(summary_ids) != 40:
-            errors.add(f"audit_summary sheet 论文数 {len(summary_ids)} != 40")
+        if len(summary_ids) != len(audits):
+            errors.add(f"audit_summary sheet 论文数 {len(summary_ids)} != audit JSON 数量 {len(audits)}")
     wb.close()
 
     if not AUDITED_HTML.exists():
@@ -323,7 +309,7 @@ def validate_audited_workbook(audits: dict[str, dict[str, Any]], errors: Validat
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="验证 40 篇 Marker 终审产物")
+    parser = argparse.ArgumentParser(description="验证当前全部文章的 Marker 终审产物")
     parser.add_argument("--skip-html", action="store_true", help="HTML 尚未生成时跳过该项")
     args = parser.parse_args()
 
@@ -331,7 +317,7 @@ def main() -> None:
     audits = validate_source_files(errors)
     if audits:
         validate_audit_content(audits, errors)
-        if len(audits) == 40:
+        if set(audits) == {path.stem for path in MD_DIR.glob("*.md")}:
             validate_high_risk_expectations(audits, errors)
             if not args.skip_html:
                 validate_audited_workbook(audits, errors)

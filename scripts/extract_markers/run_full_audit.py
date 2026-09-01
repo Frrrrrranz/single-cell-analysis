@@ -1,7 +1,7 @@
-"""使用已有 Markdown 对 40 篇 Marker 提取结果做逐篇终审。
+"""使用已有 Markdown 对当前全部 Marker 提取结果做逐篇终审。
 
 本脚本不转换 PDF、不修改 markers_output_v2，也不修改现有 Excel。
-每篇只调用一次 OpenAI 兼容 API，并将可恢复的逐篇审核 JSON 写入 markers_audited/。
+每篇只调用一次 OpenAI 兼容 API，并将可恢复的逐篇审核 JSON 写入 audited-extraction/markers/。
 """
 
 from __future__ import annotations
@@ -25,9 +25,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
 DEFAULT_MD_DIR = SCRIPT_DIR / "review_md"
 DEFAULT_RAW_DIR = SCRIPT_DIR / "markers_output_v2"
-DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "markers_audited"
+DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
 DEFAULT_SCOPE_FILE = SCRIPT_DIR / "audits" / "task-scope-2026-08-14.md"
-DEFAULT_PROMPT_FILE = SCRIPT_DIR / "prompts" / "audit_markers_v1.md"
+DEFAULT_PROMPT_FILE = SCRIPT_DIR / "prompts" / "audit_markers_v2.md"
 
 FORMAL_EVIDENCE_TYPES = {
     "author_declared",
@@ -50,17 +50,6 @@ NORMALIZATION_STATUSES = {
 }
 SPECIES = {"human", "mouse", "rat", "other", "unknown"}
 POLARITIES = {"positive", "negative", "unknown"}
-NEURAL_TERMS = re.compile(
-    r"schwann|neuro|neural|neuron|glia|gangli|sensory|sympathetic|parasympathetic|"
-    r"autonomic|enteric|nocicept|pnec|enteroendocrine|satellite",
-    re.IGNORECASE,
-)
-HIGH_RISK_TERMS = re.compile(
-    r"marker|marked by|marks\b|defined by|characteri[sz]ed by|annotat|identif|classif|"
-    r"gated|sorted|\bhigh\b|\blow\b|minimal|negative|positive|\+|−",
-    re.IGNORECASE,
-)
-
 PAPER_ID_FIELD = re.compile(r"^(?:DOI|PMID|TITLE)_[^\s|]+$")
 L_LEVEL_FIELD = re.compile(r"^L\d+:")
 TECH_FIELD = re.compile(
@@ -126,35 +115,30 @@ def parse_scope_table(path: Path) -> dict[str, dict[str, Any]]:
                 continue
             tissue = field
             break
-        task_map[paper_id] = {
+        task = {
             "task_no": int(fields[0]),
             "dataset_id": fields[4],
             "paper_title": fields[6],
             "task_species": fields[11],
-            "target_cell_scope": target_cell_scope,
+            "catalog_cell_layers": target_cell_scope,
             "tissue": tissue,
             "paper_id": paper_id,
         }
+        linked_paper_ids = [paper_id]
+        for pmid in re.findall(r"\b\d{7,9}\b", fields[10]):
+            linked_id = f"PMID_{pmid}"
+            if linked_id not in linked_paper_ids:
+                linked_paper_ids.append(linked_id)
+        for linked_id in linked_paper_ids:
+            task_map[linked_id] = {**task, "paper_id": linked_id}
     return task_map
 
 
 def compact_existing_candidates(payload: dict[str, Any]) -> list[dict[str, Any]]:
     candidates: list[dict[str, Any]] = []
     for cell in payload.get("cell_types", []):
-        cell_label = " ".join(
-            str(value or "") for value in (cell.get("cell_type"), cell.get("subtype"))
-        )
-        neural_cell = bool(NEURAL_TERMS.search(cell_label)) or cell.get("is_pns_cell") in {"true", "NA"}
         for marker in cell.get("markers", []):
             source_context = str(marker.get("source_context", ""))
-            formal_or_risky = (
-                marker.get("candidate_class") == "formal_candidate"
-                or marker.get("evidence_type") in FORMAL_EVIDENCE_TYPES
-                or marker.get("model_evidence_type") in FORMAL_EVIDENCE_TYPES
-                or bool(HIGH_RISK_TERMS.search(source_context))
-            )
-            if not neural_cell and not formal_or_risky:
-                continue
             candidates.append(
                 {
                     "cell_type": cell.get("cell_type"),
@@ -264,11 +248,11 @@ def despaced_window_hit(
 
 
 def validate_audit_result(data: dict[str, Any], paper_id: str, markdown: str) -> dict[str, Any]:
-    if data.get("audit_version") != 1:
-        raise ValueError("audit_version 必须为 1")
+    if data.get("audit_version") != 2:
+        raise ValueError("audit_version 必须为 2")
     if data.get("paper_id") != paper_id:
         raise ValueError(f"paper_id 不一致: {data.get('paper_id')!r}")
-    if data.get("paper_status") not in {"pass", "corrected", "no_formal_target_marker", "unresolved"}:
+    if data.get("paper_status") not in {"pass", "corrected", "no_formal_marker", "unresolved"}:
         raise ValueError(f"无效 paper_status: {data.get('paper_status')!r}")
     if not isinstance(data.get("markers"), list) or not isinstance(data.get("issues"), list):
         raise ValueError("markers/issues 必须为数组")
@@ -304,10 +288,7 @@ def validate_audit_result(data: dict[str, Any], paper_id: str, markdown: str) ->
         marker["citation_match_score"] = round(score, 4)
         marker["citation_verified"] = verified
         if marker["decision"] == "include":
-            if marker.get("in_project_scope") is not True:
-                marker["decision"] = "exclude"
-                marker["reason"] = f"{marker.get('reason', '')}; 自动校验：不在项目目标范围"
-            elif marker["evidence_type"] not in FORMAL_EVIDENCE_TYPES:
+            if marker["evidence_type"] not in FORMAL_EVIDENCE_TYPES:
                 marker["decision"] = "context_only"
                 marker["reason"] = f"{marker.get('reason', '')}; 自动校验：非正式证据"
             elif marker["normalization_status"] not in {"exact", "alias_resolved"}:
@@ -385,9 +366,9 @@ def audit_one(
     raw_payload = json.loads(raw_text)
     existing_candidates = compact_existing_candidates(raw_payload)
     user_content = (
-        "请审核以下单篇论文。任务范围是唯一的项目范围依据，但 Marker 必须来自 Markdown 原文。\n\n"
-        f"任务元数据:\n{json.dumps(task, ensure_ascii=False, indent=2)}\n\n"
-        "现有提取中的正式、神经相关或高风险候选（可能有误，也可能漏提）:\n"
+        "请审核以下单篇论文。所有细胞类型的正式 Marker 都要保留；任务元数据只用于分类，不得作为排除条件。\n\n"
+        f"分类元数据:\n{json.dumps(task, ensure_ascii=False, indent=2)}\n\n"
+        "现有提取中的全部候选（可能有误，也可能漏提）:\n"
         f"{json.dumps(existing_candidates, ensure_ascii=False, indent=2)}\n\n"
         f"论文 Markdown（文件 {md_path.name}）:\n{markdown}"
     )
@@ -416,9 +397,14 @@ def audit_one(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="审核 40 篇现有 Markdown 的 Marker 提取结果")
+    parser = argparse.ArgumentParser(description="审核当前全部 Markdown 的 Marker 提取结果")
     parser.add_argument("--md-dir", type=Path, default=DEFAULT_MD_DIR)
-    parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR)
+    parser.add_argument(
+        "--raw-dir",
+        type=Path,
+        required=True,
+        help="旧 raw JSON 已从工作树清理；请从 Git 恢复到临时目录后显式传入",
+    )
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--scope-file", type=Path, default=DEFAULT_SCOPE_FILE)
     parser.add_argument("--prompt-file", type=Path, default=DEFAULT_PROMPT_FILE)

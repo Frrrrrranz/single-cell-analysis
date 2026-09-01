@@ -1,0 +1,24 @@
+[
+  {
+    "paper_id": "DOI_10.7554_elife.62522",
+    "pool": "A_exclude",
+    "cell_type": "AT2",
+    "subtype": null,
+    "species": "human",
+    "original_symbol": "SLC6A20",
+    "normalized_symbol": "SLC6A20",
+    "normalization_status": "exact",
+    "evidence_type": "cluster_enriched",
+    "marker_polarity": "positive",
+    "source_locator": "Results: 'Fine-mapping risk variants for COVID-19 respiratory failure at the 3p21.31 locus...' section, para. 2; Fig. 5D legend",
+    "source_context": "SLC6A20, which encodes a proline transporter, was expressed predominantly in AT2 cells and had low expression in other cell types (Figure 5D). Figure 5D legend: 'Expression of SLC6A20 across lung cell types, where each dot represents a nucleus. The highest expression observed was in AT2 cells.'",
+    "old_decision": "exclude",
+    "old_reason": "细胞类型 AT2 不属于 target_cell_scope（L4:Pulmonary neuroendocrine cell），且证据类型仅为 cluster_enriched，不构成正式 Marker。",
+    "old_citation_verified": true,
+    "task_no": 11,
+    "citation_match_score": 0.8571,
+    "citation_verified": true,
+    "markdown_sha256_match": true,
+    "gate1_status": "pass"
+  }
+]

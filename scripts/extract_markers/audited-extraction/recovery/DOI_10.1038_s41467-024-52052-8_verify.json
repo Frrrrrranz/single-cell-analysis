@@ -1,0 +1,93 @@
+{
+  "verify_version": 1,
+  "paper_id": "DOI_10.1038_s41467-024-52052-8",
+  "cluster_inventory": [
+    {
+      "level": "Global iPainDRG atlas",
+      "object": "All dorsal root ganglion cells (neuronal and non-neuronal)",
+      "tissue_condition": "Mouse DRG; multiple neuropathic pain models and timepoints (naive, post-injury up to 28 days)",
+      "clusters_reported": 18,
+      "annotation_labels": 18,
+      "source": "Results section 'Creation of iPain...'; Fig. 1d",
+      "note": "18 cell types predicted from scANVI model; dot plot shows top 3 gene markers per cell type, but marker gene names are not provided in the Markdown."
+    },
+    {
+      "level": "Global iPainTG atlas",
+      "object": "All trigeminal ganglion cells",
+      "tissue_condition": "Mouse TG; diverse pain models and conditions",
+      "clusters_reported": 18,
+      "annotation_labels": 18,
+      "source": "Fig. 1h",
+      "note": "18 cell types predicted from scANVI model; dot plot shows top 3 gene markers per cell type, but marker gene names are not provided in the Markdown."
+    },
+    {
+      "level": "Nociceptive lineage re-clustering (DRG)",
+      "object": "Nociceptive lineage neurons isolated from iPainDRG",
+      "tissue_condition": "DRG pain models, 0-28 days post-injury",
+      "clusters_reported": 0,
+      "annotation_labels": 5,
+      "source": "Results section 'Cell state progression towards chronic pain...'; Methods 'Analysis of the nociceptive lineage cells'; Fig. 2",
+      "note": "Leiden clustering at 0.1 resolution was performed, but the number of Leiden clusters is not reported; clusters were aggregated into two macrostates (woPain/wPain) and five microstates (Reference, Moving, Pain, Recovery, LastingPain)."
+    },
+    {
+      "level": "Nociceptor subtype classification",
+      "object": "Nociceptor subtypes (PEPs, NPs, C-LTMRs, SST)",
+      "tissue_condition": "DRG pain models",
+      "clusters_reported": 4,
+      "annotation_labels": 4,
+      "source": "Introduction, paragraph on nociceptor subtypes; Fig. 2f; Fig. 3e",
+      "note": "Four established nociceptor subtype classes are described and used in pseudotime and senescence analyses."
+    }
+  ],
+  "verifications": [],
+  "new_findings": [
+    {
+      "new_finding": true,
+      "cell_type": "SST neurons (somatostatin-positive nociceptor subtype)",
+      "subtype": "SST nociceptor subtype",
+      "species": "mouse",
+      "four_layer_category": "L1",
+      "original_symbol": "SST",
+      "normalized_symbol": "Sst",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "source_locator": "Introduction, paragraph 2: 'Those neurons are of different subtypes...'",
+      "source_context": "Those neurons are of different subtypes that are classified as peptidergic (PEPs), non-peptidergic (NPs), C-LowThreshold mechanoreceptor (C-LTMRs), and a subtype of somatostatin positive neurons (SST)",
+      "decision": "include",
+      "reason": "SST is explicitly used by the authors to define and name a nociceptor subtype ('somatostatin positive neurons (SST)'). It is therefore a formal marker for this cell population, not merely a DEG. The paper's primary model is mouse, so the mouse ortholog Sst is used as the normalized symbol.",
+      "citation_match_score": 0.8,
+      "citation_verified": true
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "missing_marker",
+      "description": "Fig. 1d and Fig. 1h legends state that dot plots show the top 3 gene markers for each of the 18 cell types in iPainDRG and iPainTG, but the actual marker gene names are not present in the Markdown, so these formal markers could not be extracted from the provided text."
+    },
+    {
+      "severity": "info",
+      "issue_type": "other",
+      "description": "The number of Leiden clusters obtained for the nociceptive lineage re-clustering (resolution 0.1) is not reported in the text; only the derived macrostates (woPain/wPain) and five microstates are described."
+    },
+    {
+      "severity": "info",
+      "issue_type": "evidence",
+      "description": "The SenMayo gene set and SA-beta-galactosidase activity are used to detect senescence in nociceptors, but they are multi-gene signatures or enzymatic assays rather than single-gene markers, and are not recorded as formal marker genes in this review."
+    }
+  ],
+  "task": {
+    "task_no": 36,
+    "dataset_id": "CELLxGENE:b6f472f1-a58d-43a7-a898-2d6822a0b2b2",
+    "paper_title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.",
+    "task_species": "Mus musculus",
+    "target_cell_scope": "L1:Sensory neuron (DRG)",
+    "tissue": "dorsal root ganglion",
+    "paper_id": "DOI_10.1038_s41467-024-52052-8"
+  },
+  "verify_model": "deepseek-v4-flash",
+  "source_markdown": "DOI_10.1038_s41467-024-52052-8.md",
+  "source_markdown_sha256": "609b872042a0b63400c3eea5983edc2fcf14634e35af21975d58be8b61c8046c",
+  "pool_records": 0
+}

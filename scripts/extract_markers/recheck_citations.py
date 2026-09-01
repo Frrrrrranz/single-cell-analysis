@@ -5,14 +5,14 @@ recheck_citations.py — 粘连 PDF 文本的引用回溯复核（确定性，�
 由 PDF 抽取时整句粘连成无空格长词（如 "thesenescencemarkerp21"），词元化后
 全部失配，真实引文被误判为未回溯，include 被降级为 unresolved。
 
-本脚本对 markers_audited/ 现有审计 JSON 复用 run_full_audit.py 的去空格
+本脚本对 audited-extraction/markers/ 现有审计 JSON 复用 run_full_audit.py 的去空格
 连续窗口复检逻辑：
 - 命中且 decision 为 citation 降级产生的 unresolved → 恢复 include
 - 未命中 → 维持 unresolved（随复核 CSV 走人工决策）
 - 同步更新 citation_verified / citation_recheck 与 issues 中 citation 计数
 
 用法：
-    python recheck_citations.py [--audit-dir markers_audited]
+    python recheck_citations.py [--audit-dir audited-extraction/markers]
                                 [--md-dir review_md] [--dry-run]
 """
 
@@ -30,7 +30,7 @@ from run_full_audit import (
 )
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_AUDIT_DIR = SCRIPT_DIR / "markers_audited"
+DEFAULT_AUDIT_DIR = SCRIPT_DIR / "audited-extraction" / "markers"
 DEFAULT_MD_DIR = SCRIPT_DIR / "review_md"
 
 DOWNGRADE_SUFFIX = re.compile(
@@ -44,10 +44,9 @@ def load_markdown(md_dir: Path, filename: str) -> str:
 
 
 def gates_still_pass(marker: dict[str, Any]) -> bool:
-    """citation 降级发生前其余门槛已通过；恢复前按同一顺序再确认一次。"""
+    """citation 降级发生前其余证据门槛已通过；四层分类不参与纳入判断。"""
     return (
-        marker.get("in_project_scope") is True
-        and marker.get("evidence_type") in FORMAL_EVIDENCE_TYPES
+        marker.get("evidence_type") in FORMAL_EVIDENCE_TYPES
         and marker.get("normalization_status") in {"exact", "alias_resolved"}
         and marker.get("species") != "unknown"
     )
@@ -131,14 +130,14 @@ def update_citation_issue(data: dict[str, Any], remaining: int) -> None:
 
 
 def promote_paper_status(data: dict[str, Any]) -> None:
-    if data.get("paper_status") != "no_formal_target_marker":
+    if data.get("paper_status") not in {"no_formal_marker", "no_formal_target_marker"}:
         return
     has_include = any(m.get("decision") == "include" for m in data.get("markers", []))
     if has_include:
         data["paper_status"] = "corrected"
         data["summary"] = (
             f"{data.get('summary', '')} 引用复核后恢复正式 Marker，状态由 "
-            "no_formal_target_marker 改为 corrected。"
+            "no_formal_marker 改为 corrected。"
         )
 
 
