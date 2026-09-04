@@ -1,33 +1,31 @@
-# PNS scRNA-seq Marker 提取
+# PNS scRNA-seq Marker 整理
 
-本项目整理 CellxGene 候选论文中的外周神经系统相关 Marker，并保留逐篇证据、文章元数据和离线汇总页面。
+本项目整理 CellxGene 候选论文中的细胞类型 Marker，并保留最终工作簿、原始论文与参考资料。
 
 ## 当前目录
 
 ```text
 .
-├── scripts/                          # 全部脚本与自动化测试（含 tests/）
 ├── marker提取/
-│   ├── pdf/                          # 73 篇论文 PDF
-│   ├── 表单/                         # 三个工作簿：总表、任务清单、文章元数据
-│   ├── reference/                    # 导师参考工作簿
-│   ├── audited-extraction/           # 40 篇终审 JSON、review CSV 和恢复轮产物
-│   ├── review_md/                    # 论文 Markdown
-│   ├── prompts/                      # 提取与终审提示词
-│   ├── audits/                       # 审计与任务范围记录
-│   └── article_metadata/             # 文章元数据提取产物
-├── .agents/
-└── papers_report/
+│   ├── pdf/          # 原始论文 PDF
+│   ├── 表单/         # Marker 总表、按细胞汇总表、论文清单与元数据
+│   ├── reference/    # 导师参考工作簿
+│   ├── MARKER_POLICY.md
+│   └── README.md
+├── .temp/            # 当前批次的 Gemini 输入、输出及人工补充材料
+└── papers_report/    # 既有论文阅读与分析资料
 ```
 
-Marker 流程说明见 [`marker提取/README.md`](marker提取/README.md)，当前唯一有效的纳入规则见 [`marker提取/MARKER_POLICY.md`](marker提取/MARKER_POLICY.md)。
+## 当前工作方式
 
-## 当前状态
+旧的自动提取、批量审计和恢复管线已经停用并从工作区移除。
 
-- 40 篇终审完成；2026-09-01 恢复轮按全量口径追加 1786 条，总表现为 1883 行；
-- 当前总表统一存放在 `marker提取/表单/our_markers.xlsx`；
-- 终审 JSON、逐篇 review CSV 与恢复轮产物集中在 `marker提取/audited-extraction/`；
-- 旧版提取产物已从 Git 提交 `85b4727` 恢复到本地 `.archive/marker-extraction-85b4727/`，只供检阅，不作为当前输入；
-- 正式 Marker 必须能回溯至作者明确的 marker、细胞注释、图表或补充材料证据。
+后续统一采用：
 
-*最后更新：2026-09-01*
+1. 将论文 PDF、补充材料和提取要求发送给 Gemini；
+2. Gemini 输出逐篇、结构化的 Marker 提取结果；
+3. Codex 对照原始 PDF、表格和方法部分复查；
+4. 仅将复查通过的记录写入 `marker提取/表单/our_markers.xlsx`；
+5. 必要时同步更新 `our_markers_by_cell.xlsx`。
+
+正式纳入规则以 `marker提取/MARKER_POLICY.md` 为准。

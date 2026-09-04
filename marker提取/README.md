@@ -1,35 +1,39 @@
-# Marker 提取与终审
+# Marker 提取与复查
 
-> 2026-09-01 起，唯一有效口径见 `MARKER_POLICY.md`：论文中所有细胞类型的正式 Marker 全部保留；L1-L4、物种和组织仅用于分类。下述 87 条是旧严格筛选版基线，不是全量口径的最终数目。
+## 唯一有效流程
 
-当前结果按职责分开存放：
+当前不再运行旧的自动提取、批量审计、恢复池或扫描器管线。所有新论文统一采用“Gemini 提取 → Codex 复查”的方式处理。
 
-- 总表：`表单/our_markers.xlsx`；
-- 终审 JSON、逐篇 CSV、报告和 HTML：`audited-extraction/`；
-- 论文 Markdown：`review_md/`；
-- 脚本与测试集中在 `scripts/`；提示词与审计记录在本目录对应子目录。
+### 1. Gemini 提取
 
-## 当前结果
+向 Gemini 提供原始论文 PDF、相关补充材料和 Markdown 提取说明。要求逐篇输出，并保留：
 
-- 审核论文：40 篇；
-- 恢复轮（2026-09-01）追加 1786 条，总表 `表单/our_markers.xlsx` 共 1883 行（97 冻结 + 1786 恢复追加）；
-- 逐篇审计 JSON 与恢复轮产物在本目录 `audited-extraction/`；
-- 旧版总表与旧逐篇提取产物已从工作树删除。
+- 原始细胞类型名称；
+- 原始基因符号及大小写；
+- 物种；
+- 表格、图、补充材料或正文位置；
+- 原始证据句或足以回查的上下文；
+- Marker 的用途：注释、作者声明、差异表达、验证/展示或空间 panel；
+- 无法确定的内容与疑问标记。
 
-旧版可从 Git 提交 `85b4727` 恢复。删除前确认原始总表 SHA256 为
-`1c096dedc4191277f89e6131aeb772a919c346d9246390aa75d11f2e343fe71d`，且完整对账验证通过。
+禁止跨论文合并，禁止静默纠正疑似拼写错误，禁止把注释后的差异基因直接当作注释 Marker。
 
-## 验证
+### 2. Codex 复查
 
-```powershell
-python -m unittest discover -s scripts/tests -p "test_*.py"
-python scripts/validate_full_audit.py
-```
+Codex 收到 Gemini 结果后，对照原始材料检查：
 
-重建 HTML：
+- 基因与细胞类型是否正确配对；
+- 是否漏行、错列或受 PDF 双栏排版影响；
+- human/mouse 是否混淆；
+- Marker 是否确实用于细胞注释；
+- 差异 Marker、验证 Marker 和空间 panel Marker 是否被正确分类；
+- 同义细胞类型、重复基因和疑似拼写错误是否保留了可审计说明。
 
-```powershell
-python scripts/build_audited_dashboard.py
-```
+### 3. 写入正式表格
 
-如需重新执行依赖旧 raw JSON 或旧总表的流程，应先从 `85b4727` 将所需输入恢复到临时目录，再通过 `--raw-dir` 或 `--source-xlsx` 显式传入。
+只有复查通过的记录才写入：
+
+- `表单/our_markers.xlsx`：正式 Marker 总表；
+- `表单/our_markers_by_cell.xlsx`：按细胞类型整理的视图。
+
+原始论文保存在 `pdf/`，导师参考资料保存在 `reference/`。正式纳入标准始终以 `MARKER_POLICY.md` 为准。
