@@ -1,0 +1,272 @@
+﻿========================= A_漏提候选 =========================
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=NTRK3 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1016_j.cell.2022.11.005 | 证据句（原文，[章节]前缀）=A second larger group of human neurons H12 is marked by NTRK3 and the voltage- gated ion | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=MBP | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41588-022-01243-4、PMID_35115729 | 证据句（原文，[章节]前缀）=elevated levels of markers of non- neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=APOE | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1126_sciimmunol.adf9988、DOI_10.1016_j.cell.2021.07.023、DOI_10.1016_j.isci.2024.111628 | 证据句（原文，[章节]前缀）=elevated levels of markers of non- neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=NP1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=pruriceptors but the ion channel TRPC3 which also marks these cells is primarily expressed in mouse NP1 neurons;（另有 2 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=DRG | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Additional markers that support similarities between dorsal root ganglia (DRG) neuronal clusters across species.（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=TAC1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=other markers (Figure 2D, Figure 2—figure supplement 1B), many TAC1- or OSMR-p ositive small（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=NP3 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=are known markers of mouse NP3 cells and functionally important for triggering pruritic responses（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=Mrgpra3 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=of Mrgpra3, which in mice marks NP2 cells.（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=Etv1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Aβ neurons marked by the calcium binding protein parvalbumin, the transcription factor Etv1 and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=H12 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=A second larger group of human neurons H12 is marked by NTRK3 and the voltage- gated ion | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=ISH | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=sections through a human DRG probed for expression of key markers using multiplexed in situ hybridization (ISH); | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=NP2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=of Mrgpra3, which in mice marks NP2 cells. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=TRPC3 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=pruriceptors but the ion channel TRPC3 which also marks these cells is primarily expressed in mouse NP1 neurons; | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=H10 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=bling H10 neurons that appear to have lower expression of some pruriceptive markers. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=MRGPRX1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Moreover, in mice, Mrgpra3 (the functional equivalent of MRGPRX1) marks the | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=PRP1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=elevated levels of markers of non- neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=QKI | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=elevated levels of markers of non- neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.7554_elife.71752 | 论文标题=Single-nucleus transcriptomic analysis o | 候选基因=LPAR1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=elevated levels of markers of non- neuronal cells including PRP1, MBP, QKI, LPAR1, and APOE were | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=COL3A1 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-021-03569-1、DOI_10.1038_s42003-021-02562-8、DOI_10.1101_2025.09.26.678707 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=ACTA2 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1038_s41588-022-01243-4、DOI_10.1164_rccm.202207-1384oc、DOI_10.1016_j.cell.2022.11.005 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=FN1 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41588-025-02158-6 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=TAGLN | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41588-022-01243-4、DOI_10.1016_j.healun.2026.02.1666 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=DCN | 跨篇词表命中=是 | 其他收录篇目=DOI_10.64898_2025.12.18.695268、DOI_10.1016_j.isci.2024.111628、DOI_10.1016_j.celrep.2018.11.086、DOI_10.1101_2024.10.23.619925 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=COL1A1 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1164_rccm.202207-1384oc、DOI_10.1038_s41591-023-02327-2、DOI_10.1038_s41586-021-03569-1、DOI_10.1016_j.isci.2024.111628 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=EMT | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=showed little variation of EMT scores across space, intermediate scor- a finding with implications for marker gene-based approaches.（另有 2 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=MERFISH | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=of macrophage marker and function genes as well as marker genes for other detected in the cell-segmented MERFISH data (e).（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=GSEA | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=sites (not bone specific) and was rather cell type specific (Extended by mean gene set enrichment analysis (GSEA) hallmark signature scores | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=CD68Hi | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=marker in primary treatment-naive BC, a CD68Hi, CD4Hi, CD8Lo immuno- | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=CD4Hi | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=marker in primary treatment-naive BC, a CD68Hi, CD4Hi, CD8Lo immuno- | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=CD8Lo | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=marker in primary treatment-naive BC, a CD68Hi, CD4Hi, CD8Lo immuno- | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=AGR2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=characterized by AGR2, a potential biomarker of poor prognosis53,54. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=COL4A1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=BGN | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=COL4A2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=LUM | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=type label were investigated in detail using marker genes and assigned COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=M0293L | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=M0293L)) and incubated at 37 °C for 50 min, followed by one wash staining to confirm the location of the markers. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=HIF1A | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41591-023-02327-2 | 证据句（原文，[章节]前缀）=macrophage islands and more homogenous short-range and intermix- macrophage markers as well as HIF1A and APOE/APOC1 and a CD163−（另有 1 处提及） | 收录状态=此前已排除：普通免疫细胞 Marker，非任务目标细胞；target_cell_scope 为空，不能纳入项目范围。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=APOE | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1126_sciimmunol.adf9988、DOI_10.1016_j.cell.2021.07.023、DOI_10.1016_j.isci.2024.111628 | 证据句（原文，[章节]前缀）=macrophage islands and more homogenous short-range and intermix- macrophage markers as well as HIF1A and APOE/APOC1 and a CD163−（另有 1 处提及） | 收录状态=此前已排除：普通免疫细胞 Marker，非任务目标细胞；target_cell_scope 为空，不能纳入项目范围。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=KRT8 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41467-023-40173-5、DOI_10.1038_s41586-021-03569-1 | 证据句（原文，[章节]前缀）=might be more suitable when prioritizing malignant cell profiling, in established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 | 收录状态=此前已排除：普通肿瘤/上皮 Marker，不属于任务范围；项目范围仅限 PNS 神经/胶质或神经内分泌/肠内分泌细胞。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=KRT18 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1016_j.celrep.2018.11.086 | 证据句（原文，[章节]前缀）=might be more suitable when prioritizing malignant cell profiling, in established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 | 收录状态=此前已排除：普通肿瘤/上皮 Marker，不属于任务范围；项目范围仅限 PNS 神经/胶质或神经内分泌/肠内分泌细胞。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=KRT19 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41467-023-40173-5、DOI_10.1101_2025.01.17.633590、DOI_10.1038_s42255-023-00876-x | 证据句（原文，[章节]前缀）=might be more suitable when prioritizing malignant cell profiling, in established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 | 收录状态=此前已排除：普通肿瘤/上皮 Marker，不属于任务范围；项目范围仅限 PNS 神经/胶质或神经内分泌/肠内分泌细胞。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=APOC1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=macrophage islands and more homogenous short-range and intermix- macrophage markers as well as HIF1A and APOE/APOC1 and a CD163− | 收录状态=此前已排除：普通免疫细胞 Marker，非任务目标细胞；target_cell_scope 为空，不能纳入项目范围。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41591-024-03215-z | 论文标题=A multi-modal single-cell and spatial ex | 候选基因=MKI67 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1126_sciimmunol.adf9988、DOI_10.1038_s41586-021-03569-1、DOI_10.1016_j.cell.2021.07.023、DOI_10.64898_2025.12.18.695268 | 证据句（原文，[章节]前缀）=nant and lymphoid cells, we tested if differences in malignant cell characterized by CD163/CD68/APOE/HIF1A and MKI67, respectively. | 收录状态=此前已排除：普通免疫细胞 Marker，非任务目标细胞；target_cell_scope 为空，不能纳入项目范围。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=CD4 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1038_s41588-022-01243-4、DOI_10.1038_s41586-021-04345-x、DOI_10.1126_sciimmunol.adf9988 | 证据句（原文，[章节]前缀）=markers for morphology and cell segmentation were added including pan-cytokeratin, CD45, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=CDKN1A | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41467-024-52052-8、DOI_10.1038_s41586-021-03569-1 | 证据句（原文，[章节]前缀）=Genomic region of CDKN1A visualized with Cut&Run tracks for histone marks (H3K27ac, H3K4me1, and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=H3K4me1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=H3K4me1 histone marks in AKI and CKD diseased tissue.（另有 13 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=AKI | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=H3K4me1 histone marks in AKI and CKD diseased tissue.（另有 13 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=H3K27ac | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=active enhancer (H3K27ac/H3K4me1) histone marks through CUT&RUN analysis in participants（另有 13 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=CKD | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=H3K4me1 histone marks in AKI and CKD diseased tissue.（另有 10 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=H3K27me3 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=marks (H3K27ac, H3K4me1, and H3K27me3) in healthy reference and AKI/CKD kidney tissue,（另有 7 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=TAL | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=characterized by increased expression of canonical healthy TAL genes (SLC12A1, WNK4, EGF,（另有 2 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=PXDN | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=including MID1 and PXDN, the latter of which was identified as a secreted marker in both the（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=G6P | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=(G6P) served as gluconeogenesis markers.（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=SHAP | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=The marker’s size corresponds to the global SHAP（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=REL | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=aPT2 expressed the injury markers CDH6, VCAM1 and HAVCR1 with REL | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=ASSESS | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=validated our approach, and markers confirmed in two additional AKI cohorts (ASSESS and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=MID1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=including MID1 and PXDN, the latter of which was identified as a secreted marker in both the | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=CUT | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=active enhancer (H3K27ac/H3K4me1) histone marks through CUT&RUN analysis in participants | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=RUN | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=active enhancer (H3K27ac/H3K4me1) histone marks through CUT&RUN analysis in participants | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=PCK1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Genomic region of PCK1 visualized with Cut&Run tracks for histone marks (H3K27ac, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=ESKD | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Soluble protein markers significant in progression to ESKD in BKBC | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=BKBC | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Soluble protein markers significant in progression to ESKD in BKBC | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=KPMP | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=The sub-clusters are then annotated based on markers from KPMP version 1.0 and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=IMS | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=that was created based on fiducial markers selected from the post-IMS AF and IMS modalities. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=BPG | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=BPG), and glucose-6-phosphate (G6P) served as gluconeogenesis markers. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=MBCO | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=subtype-selective marker genes were then submitted to pathway enrichment analysis using MBCO level-3 subcellular | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1101_2025.09.26.678707 | 论文标题=Cellular and Spatial Drivers of Unresolv | 候选基因=GDF15 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=region of GDF15 visualized with Cut&Run tracks for histone marks (H3K27ac, H3K4me1, and H3K27me3) in | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=CD31 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1126_sciimmunol.adf9988、DOI_10.1016_j.celrep.2018.11.086 | 证据句（原文，[章节]前缀）=Ig isotypes in airway (trachea and bronchi) from the analysis of VDJ amplified Phalloidin for actin, CD31 for vessels), B lineage markers (IgD, IgA2 and IgG) and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=CD45RA | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1038_s41586-021-03929-x | 证据句（原文，[章节]前缀）=Change in CCL28 in serous (memory marker), CD45RA (naive marker), IgA2 and EpCAM in the SMG. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=EpCAM | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1038_s44318-024-00328-6、DOI_10.1126_sciimmunol.adf9988、DOI_10.1038_s41588-024-01702-0 | 证据句（原文，[章节]前缀）=Change in CCL28 in serous (memory marker), CD45RA (naive marker), IgA2 and EpCAM in the SMG. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=SMG | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=and AT2) colored by cell type, with a dot plot for the marker genes of SMG duct in the SMG colocalizing IgA plasma cells, specifically with SMG serous cells（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=IgA2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Ig isotypes in airway (trachea and bronchi) from the analysis of VDJ amplified Phalloidin for actin, CD31 for vessels), B lineage markers (IgD, IgA2 and IgG) and（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=HLCA | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=staining of PB-Fibro markers (COL15A and ENTPD1) in human bronchus sections analysis of fibroblasts from the HLCA comparing IPF patients and healthy（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=HPA | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=LMCD1, MRTFA, DENND5A, KLF4) or in other studies (NFATC2, MT2A and marker (COL12A1) in human bronchus from the HPA mapping to cartilage.（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=NAF | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=(e) Expression in Transcript per million (TPM) of NAF markers（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=LTSR | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=b, Cell type proportion analysis with fold changes and LTSR score  CCL19 localize adjacent to the venous vessel marker ACKR1 in the airway. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=AT2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=and AT2) colored by cell type, with a dot plot for the marker genes of SMG duct in the SMG colocalizing IgA plasma cells, specifically with SMG serous cells | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=VDJ | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Ig isotypes in airway (trachea and bronchi) from the analysis of VDJ amplified Phalloidin for actin, CD31 for vessels), B lineage markers (IgD, IgA2 and IgG) and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=COL15A | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=staining of PB-Fibro markers (COL15A and ENTPD1) in human bronchus sections analysis of fibroblasts from the HLCA comparing IPF patients and healthy | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=IPF | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=staining of PB-Fibro markers (COL15A and ENTPD1) in human bronchus sections analysis of fibroblasts from the HLCA comparing IPF patients and healthy | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=LMCD1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=LMCD1, MRTFA, DENND5A, KLF4) or in other studies (NFATC2, MT2A and marker (COL12A1) in human bronchus from the HPA mapping to cartilage. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=MRTFA | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=LMCD1, MRTFA, DENND5A, KLF4) or in other studies (NFATC2, MT2A and marker (COL12A1) in human bronchus from the HPA mapping to cartilage. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=DENND5A | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=LMCD1, MRTFA, DENND5A, KLF4) or in other studies (NFATC2, MT2A and marker (COL12A1) in human bronchus from the HPA mapping to cartilage. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=KLF4 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=LMCD1, MRTFA, DENND5A, KLF4) or in other studies (NFATC2, MT2A and marker (COL12A1) in human bronchus from the HPA mapping to cartilage. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=NFATC2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=LMCD1, MRTFA, DENND5A, KLF4) or in other studies (NFATC2, MT2A and marker (COL12A1) in human bronchus from the HPA mapping to cartilage. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=MT2A | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=LMCD1, MRTFA, DENND5A, KLF4) or in other studies (NFATC2, MT2A and marker (COL12A1) in human bronchus from the HPA mapping to cartilage. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=EVX1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=transcription factor EVX1 (b) and for non-myelinating Schwann cell markers NAF marker (USP54) and (i) perineurial NAF markers (SLC22A3 and SORBS1) | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=NPR2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=(d) NPR2 staining in oesophagus (ACKR1) and smooth muscle (ACTA2) markers. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=ASM | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=(e) ASM marker expression in together with their interaction partners expression in immune cell groups. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=PLMM | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=(b) Marker genes dot (assessed by PLMM) are shown by forest plots. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=VCAN | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41467-023-40173-5、DOI_10.1016_j.cell.2021.07.023、DOI_10.1038_s41588-025-02158-6 | 证据句（原文，[章节]前缀）=Altogether highest combined expression of canonical progenitor markers (VCAN | 收录状态=此前已排除：Chondrocytes are not within target_cell_scope (Schwann/neuro | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=PTPRC | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-020-2922-4、DOI_10.1126_sciimmunol.adf9988、DOI_10.1038_s41588-024-01702-0、DOI_10.1038_s41586-021-03569-1 | 证据句（原文，[章节]前缀）=(PTPRC) and smooth muscle cells (ACTA2) marked by arrows. | 收录状态=此前已排除：T cells are not within target_cell_scope. CD45RO is an isofo | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | 论文标题=A spatially resolved atlas of the human  | 候选基因=CADM | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=for myelinating Schwann cell markers with detailed results for myelination and Schwann cell markers (CADM, GRIK2, NCAM1, ITGB4 and L1CAM) (h) endoneurial | 收录状态=此前已排除：CADM is a gene family (CADM1-CADM4); the paper does not prov | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=TBX5 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-024-07069-w | 证据句（原文，[章节]前缀）=specific marker genes for each cell type using Matthews correlation coefficient TBX5+ cells were COX4I2+, n = 250).（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=DPP4 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1002_pros.24020、DOI_10.1016_j.celrep.2018.11.086 | 证据句（原文，[章节]前缀）=also found a residency signature for lung myeloid cells that overlaps coronaviruses) and DPP4 (MERS coronavirus) were both detected in AT2 | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MKI67 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1126_sciimmunol.adf9988、DOI_10.1038_s41586-021-03569-1、DOI_10.1016_j.cell.2021.07.023、DOI_10.64898_2025.12.18.695268 | 证据句（原文，[章节]前缀）=proliferation marker MKI67 (green) in basal cells (marked by KRT5, red) with Wnt ligands, receptors and transcription factors (for example, WNT5A, LRP5 | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MUC5B | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41588-022-01243-4、DOI_10.1038_s41467-023-40173-5、DOI_10.1038_s41588-024-01702-0 | 证据句（原文，[章节]前缀）=a, Scatter plots canonical goblet cell markers MUC5B and MUC5AC and transcription factor | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MUC5AC | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41586-021-04345-x、DOI_10.1016_j.cell.2022.11.005、DOI_10.1126_sciimmunol.adf9988、DOI_10.1038_s41467-023-40173-5 | 证据句（原文，[章节]前缀）=a, Scatter plots canonical goblet cell markers MUC5B and MUC5AC and transcription factor | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=LTF | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1016_j.cell.2022.11.005 | 证据句（原文，[章节]前缀）=g, Dot plots of expression of serous cell markers LTF, LYZ, BPIFBP1 | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=AT2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=AT2 markers AT2 AT2-s Gen AT2 AT2-s S F T P B S F T P D S F T P C P G C H HI P WI F 1 C A 2 N N M T C P T C F 7 L 2 W N T 5 A L R P 5（另有 11 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=AT1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=5 | Markers and transcription factors that distinguish selectively expressed in AT1 cells (arrowheads;（另有 3 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=ECM | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=signature score (based on expression of indicated genes in cells from 10x DAPI counter stain (blue) and ECM autofluorescence (green) on proximal,（另有 2 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=HES1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=adult human pseudostratified airway for differentiation marker HES1 (green) in (in 10x dataset).（另有 2 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=Bro1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=Bro1, alveolar fibroblast marker GPC3 (red, left) and adventitial fibroblast marker（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=S34857 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=digestion media (400 μg ml−1 liberase DL (Sigma 5466202001) and 100 viability marker Sytox blue (1:3,000, ThermoFisher S34857) and loaded（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=NKX2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=HHIP (448441-C3), SFTPC (314101-C2), NKX2-1 (434721-C3), and MYRF expression of these marker genes.（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MYRF | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=HHIP (448441-C3), SFTPC (314101-C2), NKX2-1 (434721-C3), and MYRF expression of these marker genes.（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=SS2 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=2 | Selectively expressed RNA markers of human profiles of human blood immune cells in the SS2 dataset annotated by（另有 1 处提及） | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MERS | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=also found a residency signature for lung myeloid cells that overlaps coronaviruses) and DPP4 (MERS coronavirus) were both detected in AT2 | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=GRCm38 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=tions or the GRCm38.p6 mouse reference genome with the NCBI-106 a representative marker gene to their ‘canonical’ identity (for example, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=NCBI | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=tions or the GRCm38.p6 mouse reference genome with the NCBI-106 a representative marker gene to their ‘canonical’ identity (for example, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MAST | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=each tissue compartment until the markers enriched in identified clus- were compared head-to-head using the ‘MAST’ statistical frame- | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MCC | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=multiple markers in assigning cell identities, we calculated MCC scores All heat maps and plots with single cell expression data include every | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=MACS | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=fluorescence activated cell sorting (MACS and FACS) using antibodies for the markers), ascertained tissue location, and inferred molecular function from | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=IPF | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=IPF, endothelial marker CLDN5 (white) with DAPI counterstain. | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=COPD | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=expression (SS2 dataset) of all genes implicated in pulmonary hypertension, probed for COPD or emphysema gene SERPINA1 and AT2 marker SFTPC, and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=SERPINA1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=expression (SS2 dataset) of all genes implicated in pulmonary hypertension, probed for COPD or emphysema gene SERPINA1 and AT2 marker SFTPC, and | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=LYZ | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=g, Dot plots of expression of serous cell markers LTF, LYZ, BPIFBP1 | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=BPIFBP1 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=g, Dot plots of expression of serous cell markers LTF, LYZ, BPIFBP1 | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=SK3 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=markers/human/buv395-mouse-anti-human-cd3-ucht1-also-known-as-ucht-1-ucht-1/p/563548), CD4 (BD 340443, clone SK3, | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=HIB19 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=markers/apc-cy7-mouse-anti-human-cd14-mp9-also-known-as-mp-9/p/557831), CD19 (Biolegend 302234, clone HIB19, https:// | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=RPA | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=555348, clone RPA-T4, https://www.bdbiosciences.com/eu/applications/research/t-cell-immunology/th-1-cells/surface-markers/ | 收录状态=未收录 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=CD3 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=negative-markers/pe-mouse-anti-human-cd14-mp9-also-known-as-mp-9/p/347497), CD4 (BD 340443, see above), CD3 (BD（另有 2 处提及） | 收录状态=此前已排除：非目标细胞类型（任务范围为 L4:Pulmonary neuroendocrine cell） | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=PLVAP | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1164_rccm.202207-1384oc、DOI_10.1016_j.cell.2022.11.005、DOI_10.1101_2025.01.17.633590、DOI_10.1038_s42255-023-00876-x | 证据句（原文，[章节]前缀）=fenestrated morphology27 (PLVAP) and cell cycle-associated (MYC and We identified optimal markers for each previously known and newly | 收录状态=此前已排除：非目标细胞类型（任务范围为 L4:Pulmonary neuroendocrine cell） | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=CDHR3 | 跨篇词表命中=否 | 证据句（原文，[章节]前缀）=core transcriptional signature for all human lung-resident lympho- basal, and goblet cells, and CDHR3 (‘common cold’ rhinovirus C) was | 收录状态=此前已排除：CDHR3 仅为病毒受体富集结果，且同时见于纤毛细胞；作者未用其定义或分类 NE，故排除。 | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | 论文标题=A molecular cell atlas of the human lung | 候选基因=CD8 | 跨篇词表命中=是 | 其他收录篇目=DOI_10.1038_s41588-024-01702-0、DOI_10.1038_s41591-024-03215-z | 证据句（原文，[章节]前缀）=research/surface-markers/human/pe-cy7-mouse-anti-human-cd45ro-uchl1/p/560608), CD4 (BD 340443, see above), CD8 | 收录状态=此前已排除：非目标细胞类型（任务范围为 L4:Pulmonary neuroendocrine cell） | 建议动作=人工核对原文上下文：满足双重门槛则补录，否则注明不录原因 | 状态=待处理
+----------
+========================= B_证据类型候选 =========================
+========================= C_语义重复候选 =========================
+paper_id=DOI_10.1038_s41591-024-03215-z | gene=fcrl5 | 行1=M01305 B cells/potentially regulatory B cells | 行2=M01306 B regulatory cells/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41588-022-01243-4 | gene=lpo | 行1=M00294 SMG serous cell/None | 行2=M00297 SMG-serous/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | gene=sftpc | 行1=M00141 AT2/None | 行2=M00142 AT2-signalling (AT2-s)/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | gene=cd14 | 行1=M00164 classical and nonclassical monocytes/None | 行2=M00168 classical monocytes/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | gene=cd19 | 行1=M00165 classical and nonclassical monocytes/None | 行2=M00169 classical monocytes/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | gene=cd4 | 行1=M00162 CD4+ T cells/None | 行2=M00219 T cells/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | gene=ncam1 | 行1=M00167 classical and nonclassical monocytes/None | 行2=M00170 classical monocytes/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+paper_id=DOI_10.1038_s41586-020-2922-4 | gene=ptprc | 行1=M00187 immune/None | 行2=M00189 immune and endothelial enriched/None | 重复原因=cell_type 规范化后互为包含 | 建议动作=人工判定是否同一证据重复：保留更具体/更高证据级行，另一行移入 audit_exclusions | 状态=待处理
+----------
+========================= B2_补充候选 =========================

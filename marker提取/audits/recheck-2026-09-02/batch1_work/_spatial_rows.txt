@@ -1,0 +1,85 @@
+M00013 | myelinating Schwann cells (mSchwann) | human | pns=true | NFASC | annotation_marker | positive
+M00014 | myelinating Schwann cells (mSchwann) | human | pns=true | NCMAP | annotation_marker | positive
+M00015 | myelinating Schwann cells (mSchwann) | human | pns=true | MBP | annotation_marker | positive
+M00016 | myelinating Schwann cells (mSchwann) | human | pns=true | PRX | annotation_marker | positive
+M00017 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | NGFR | annotation_marker | positive
+M00018 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | SCN7A | annotation_marker | positive
+M00019 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | CHD2 | annotation_marker | positive
+M00020 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | L1CAM | annotation_marker | positive
+M00021 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | NCAM1 | annotation_marker | positive
+M00022 | myelinating Schwann cells (mSchwann) | human | pns=true | MLIP | supplementary_marker | positive
+M00023 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | SOX10 | supplementary_marker | positive
+M00024 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | GRIK2 | supplementary_marker | positive
+M00025 | nonmyelinating Schwann cells (nmSchwann) | human | pns=true | ITGB4 | supplementary_marker | positive
+M00227 | CD4 T cell | human | pns=true | CD4 | annotation_marker | positive
+M00228 | CD4 T helper cells | human | pns=true | CD4 | annotation_marker | positive
+M00229 | CHIT1+ macrophages | human | pns=true | CHIT1 | annotation_marker | positive
+M00230 | chondrocytes | human | pns=true | ACAN | author_declared | positive
+M00231 | chondrocytes | human | pns=true | CHAD | author_declared | positive
+M00232 | chondrocytes | human | pns=true | COL9A3 | author_declared | positive
+M00233 | chondrocytes | human | pns=true | CYTL1 | author_declared | positive
+M00234 | chondrocytes | human | pns=true | HAPLN1 | author_declared | positive
+M00235 | endoneurial NAF | human | pns=true | USP54 | figure_labeled | positive
+M00236 | endoneurial nerve-associated fibroblasts (NAF) | human | pns=true | OSR2 | author_declared | positive
+M00237 | endoneurial nerve-associated fibroblasts (NAF) | human | pns=true | SOX9 | author_declared | positive
+M00238 | IgA plasma cells | human | pns=true | CCR10 | author_declared | positive
+M00239 | IgA plasma cells | human | pns=true | TNFRSF17 | author_declared | positive
+M00240 | immune recruiting fibroblasts (IR-fibro) | human | pns=true | CCL19 | author_declared | positive
+M00241 | immune recruiting fibroblasts (IR-fibro) | human | pns=true | CCL21 | author_declared | positive
+M00242 | intravascular macrophages | human | pns=true | LYVE1 | annotation_marker | positive
+M00243 | intravascular macrophages | human | pns=true | MAF | annotation_marker | positive
+M00244 | IR-fibro | human | pns=true | CCL19 | figure_labeled | positive
+M00245 | IR-fibro | human | pns=true | CCL21 | figure_labeled | positive
+M00246 | IR-fibro | human | pns=true | CXCL12 | figure_labeled | positive
+M00247 | IR-fibro | human | pns=true | CXCL13 | figure_labeled | positive
+M00248 | IR-fibro | human | pns=true | FDCSP | figure_labeled | positive
+M00249 | IR-fibro | human | pns=true | GREM1 | figure_labeled | positive
+M00250 | IR-Ven-Peri | human | pns=true | ABCC9 | figure_labeled | positive
+M00251 | IR-Ven-Peri | human | pns=true | CCL19 | figure_labeled | positive
+M00252 | IR-Ven-Peri | human | pns=true | CCL2 | figure_labeled | positive
+M00253 | IR-Ven-Peri | human | pns=true | CCL21 | figure_labeled | positive
+M00254 | IR-Ven-Peri | human | pns=true | CSPG4 | figure_labeled | negative
+M00255 | IR-Ven-Peri | human | pns=true | CXCL12 | figure_labeled | positive
+M00256 | IR-Ven-Peri | human | pns=true | ICAM1 | figure_labeled | positive
+M00257 | IR-Ven-Peri | human | pns=true | VCAM1 | figure_labeled | positive
+M00258 | Macro-alv-MT | human | pns=true | MT1F | annotation_marker | positive
+M00259 | Macro-alv-MT | human | pns=true | MT1G | annotation_marker | positive
+M00260 | Macro-alv-MT | human | pns=true | MT1X | annotation_marker | positive
+M00261 | Macro-CCL | human | pns=true | CCL20 | annotation_marker | positive
+M00262 | Macro-CCL | human | pns=true | CCL4 | annotation_marker | positive
+M00263 | Macro-CCL | human | pns=true | CXCL8 | annotation_marker | positive
+M00264 | macro-intermediate | human | pns=true | CD14 | annotation_marker | positive
+M00265 | myoepithelial cells | human | pns=true | ACTA2 | author_declared | positive
+M00266 | myoepithelial cells | human | pns=true | CNN1 | author_declared | positive
+M00267 | myoepithelial cells | human | pns=true | DES | author_declared | negative
+M00268 | myoepithelial cells | human | pns=true | FHOD3 | author_declared | positive
+M00269 | myoepithelial cells | human | pns=true | KRT14 | author_declared | positive
+M00270 | myoepithelial cells | human | pns=true | LAMA1 | author_declared | positive
+M00271 | myoepithelial cells | human | pns=true | NTRK2 | author_declared | positive
+M00272 | myoepithelial cells | human | pns=true | PLD5 | author_declared | positive
+M00273 | myoepithelial cells | human | pns=true | TAGLN | author_declared | positive
+M00274 | myoepithelial cells | human | pns=true | TP63 | author_declared | positive
+M00275 | peribronchial fibroblasts (PB-fibro) | human | pns=true | COL15A1 | author_declared | positive
+M00276 | peribronchial fibroblasts (PB-fibro) | human | pns=true | ENTPD1 | author_declared | positive
+M00277 | perichondrial fibroblasts (PC-fibro) | human | pns=true | COL12A1 | author_declared | positive
+M00278 | perineurial NAF | human | pns=true | ITGA6 | author_declared | positive
+M00279 | perineurial NAF | human | pns=true | SLC22A3 | figure_labeled | positive
+M00280 | perineurial NAF | human | pns=true | SLC2A1 | author_declared | positive
+M00281 | perineurial NAF | human | pns=true | SORBS1 | figure_labeled | positive
+M00282 | plasma cells | human | pns=true | MZB1 | author_declared | positive
+M00283 | plasma cells | subtype=IgA | human | pns=true | IGHA1 | annotation_marker | positive
+M00284 | plasma cells | subtype=IgA | human | pns=true | IGHA2 | annotation_marker | positive
+M00285 | plasma cells | subtype=IgD | human | pns=true | IGHD | annotation_marker | positive
+M00286 | plasma cells | subtype=IgH | human | pns=true | IGHG1 | annotation_marker | positive
+M00287 | plasma cells | subtype=IgH | human | pns=true | IGHG2 | annotation_marker | positive
+M00288 | plasma cells | subtype=IgH | human | pns=true | IGHG3 | annotation_marker | positive
+M00289 | plasma cells | subtype=IgH | human | pns=true | IGHG4 | annotation_marker | positive
+M00290 | plasma cells | subtype=IgM | human | pns=true | IGHM | annotation_marker | positive
+M00291 | SMG duct cells | human | pns=true | ALDH1A3 | annotation_marker | positive
+M00292 | SMG duct cells | human | pns=true | MIA | annotation_marker | positive
+M00293 | SMG duct cells | human | pns=true | RARRES1 | annotation_marker | positive
+M00294 | SMG serous cell | human | pns=true | LPO | annotation_marker | positive
+M00295 | SMG serous cell | human | pns=true | RARRES1 | annotation_marker | negative
+M00296 | SMG-mucous | human | pns=true | MUC5B | figure_labeled | positive
+M00297 | SMG-serous | human | pns=true | LPO | figure_labeled | positive
+M00298 | venous endothelial cells | human | pns=true | ACKR1 | figure_labeled | positive
