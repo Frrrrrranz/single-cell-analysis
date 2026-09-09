@@ -1,0 +1,165 @@
+{
+  "run_id": "20260907-luna-existing-marker-correctness",
+  "validation_status": "passed_with_documented_limits",
+  "formal_source_unchanged": true,
+  "formal_source_hashes": {
+    "current_main": "7873af98ed720a825236d6b526cb575c8ccbbad183b814515eb46866de8a1a4f",
+    "current_by_cell": "ff3b687008891e580f1bd67c67f99e78a0de1d705c69f8760a8ff72b7ca1d072",
+    "baseline_main": "7873af98ed720a825236d6b526cb575c8ccbbad183b814515eb46866de8a1a4f",
+    "baseline_by_cell": "ff3b687008891e580f1bd67c67f99e78a0de1d705c69f8760a8ff72b7ca1d072"
+  },
+  "staged_sha256": {
+    "our_markers.xlsx": "a79787e2862714e06e56e2014580bb6201791cce07f25d3bf9da283e13c174e9",
+    "our_markers_by_cell.xlsx": "829166241dec28ac50e73e7b3b4d653d081dc4f567bc72f2ee5641c42f4a274b"
+  },
+  "staged_outputs": [
+    "D:/OneDrive/Desktop/组/marker提取/review_md/gemini-repair-review-2026-09-06/execution/luna-existing-marker-correctness/staged/our_markers.xlsx",
+    "D:/OneDrive/Desktop/组/marker提取/review_md/gemini-repair-review-2026-09-06/execution/luna-existing-marker-correctness/staged/our_markers_by_cell.xlsx"
+  ],
+  "main_workbook": {
+    "active_before": 2488,
+    "active_after": 2490,
+    "expected_active_after": 2490,
+    "restored_ids": [
+      "M00417",
+      "M01510"
+    ],
+    "updated_ids": [
+      "M00044",
+      "M00398",
+      "M00403",
+      "M00071",
+      "M00415",
+      "M02592",
+      "M00547",
+      "M00551",
+      "M00566",
+      "M00593",
+      "M00520",
+      "M00564",
+      "M00565",
+      "M00533",
+      "M00537",
+      "M00493",
+      "M00495",
+      "M00498",
+      "M00508",
+      "M00534",
+      "M00633",
+      "M00637",
+      "M00680",
+      "M02359",
+      "M02364",
+      "M02369",
+      "M02374",
+      "M02375",
+      "M02376"
+    ],
+    "audit_archive_rows": 3164,
+    "formula_recalculated": true,
+    "formula_validation_method": "artifact-tool recalculate/export followed by independent formula-error scan"
+  },
+  "by_cell_workbook": {
+    "unique_semantic_matches": 928,
+    "restored_metadata_cells": 892,
+    "unmatched_semantic_rows": 130,
+    "unmatched_sample": [
+      {
+        "row": 18,
+        "key": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates.\u001f10.1016/j.cell.2022.11.005\u001fGHRL+ neuroendocrine cells\u001fGRP（阴性）"
+      },
+      {
+        "row": 32,
+        "key": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.\u001f10.1038/s41467-024-52052-8\u001fnociceptors/neurons\u001fRbfox3"
+      },
+      {
+        "row": 33,
+        "key": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment.\u001f10.1038/s41467-024-52052-8\u001fsenescent nociceptors\u001fCdkn1a"
+      },
+      {
+        "row": 60,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fAT2-signalling (AT2-s)\u001fSFTPC"
+      },
+      {
+        "row": 61,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fAT2-signalling cell (AT2-s)\u001fWIF1（阴性）；LRP5；TCF7L2；WNT5A；CP"
+      },
+      {
+        "row": 62,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fB cells\u001fCD19；CD27（方向未明）；MS4A1"
+      },
+      {
+        "row": 64,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fbasophils, neutrophils and eosinophils\u001fCCR3（方向未明）；IL3RA（方向未明）；ITGB7（方向未明）"
+      },
+      {
+        "row": 75,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fIGSF21+ dendritic\u001fIGSF21"
+      },
+      {
+        "row": 76,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fIGSF21+ dendritic cell\u001fGPR34"
+      },
+      {
+        "row": 82,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fMyofibroblast（classical）\u001fACTA2；ASPN；FGF18；WIF1"
+      },
+      {
+        "row": 84,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fpDCs, mDCs, CD16+ DCs\u001fCD1C（方向未明）；CD4（方向未明）；IL3RA（方向未明）；ITGAX（方向未明）"
+      },
+      {
+        "row": 89,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fT cells\u001fCCR7（方向未明）；PTPRC（方向未明）；SELL（方向未明）"
+      },
+      {
+        "row": 90,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fTREM2+ dendritic\u001fTREM2"
+      },
+      {
+        "row": 91,
+        "key": "A molecular cell atlas of the human lung from single-cell RNA sequencing.\u001f10.1038/s41586-020-2922-4\u001fTREM2+ dendritic cell\u001fCHI3L1"
+      },
+      {
+        "row": 181,
+        "key": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates.\u001f10.1016/j.cell.2022.11.005\u001fciliated cells\u001fSCGB3A2（阴性）"
+      },
+      {
+        "row": 184,
+        "key": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates.\u001f10.1016/j.cell.2022.11.005\u001fclub cells\u001fFMO2；NDUFA4L2"
+      },
+      {
+        "row": 235,
+        "key": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates.\u001f10.1016/j.cell.2022.11.005\u001fvascular smooth muscle cells（vascular SMC1）\u001fPLN（阴性）"
+      },
+      {
+        "row": 240,
+        "key": "A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant to interstitial lung disease.\u001f10.1038/s44318-024-00328-6\u001fAlveolar type 2 (AT2) cells\u001fABCA3；HOPX；LAMP3；NAPSA；SFTPB；SFTPC"
+      },
+      {
+        "row": 241,
+        "key": "A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant to interstitial lung disease.\u001f10.1038/s44318-024-00328-6\u001fAT2-like (fdAT2 organoid cells)\u001fCEACAM6；LPCAT1；NKX2-1；SFTPA1；SLC34A2；SFTPA2；SFTPD；SOX9（阴性）"
+      },
+      {
+        "row": 242,
+        "key": "A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant to interstitial lung disease.\u001f10.1038/s44318-024-00328-6\u001fCXCL+ AT2-like cells\u001fCXCL1；CXCL8"
+      }
+    ],
+    "note": "Only unique semantic-key matches using title, DOI, author cell label and marker string were restored; unmatched rows remain for later evidence-group mapping and were not filled by row position."
+  },
+  "evidence_links_resolved": true,
+  "evidence_validation": {
+    "evidence_id_unique": true,
+    "missing_review_evidence_refs": [],
+    "missing_change_evidence_refs": [],
+    "completed_records_with_target_level_binding": 2023,
+    "completed_record_count": 2502
+  },
+  "change_set_validation": {
+    "change_count": 3169,
+    "unique_change_id_count": 3169,
+    "duplicate_change_ids": []
+  },
+  "pending_review_count": 0,
+  "warning": "This is an interim staged correction package. Full active-marker correctness review is not complete and Astra independent acceptance has not occurred."
+}

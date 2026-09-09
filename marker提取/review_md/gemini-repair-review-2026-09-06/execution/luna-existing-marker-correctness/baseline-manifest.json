@@ -1,0 +1,36 @@
+{
+  "run_id": "20260907-luna-existing-marker-correctness",
+  "started_at": "2026-09-07",
+  "executor": "GPT-5.6 Luna",
+  "formal_workbook": {
+    "path": "marker提取/表单/our_markers.xlsx",
+    "sha256": "7873af98ed720a825236d6b526cb575c8ccbbad183b814515eb46866de8a1a4f",
+    "active_record_count": 2488,
+    "paper_count": 43
+  },
+  "by_cell_workbook": {
+    "path": "marker提取/表单/our_markers_by_cell.xlsx",
+    "sha256": "ff3b687008891e580f1bd67c67f99e78a0de1d705c69f8760a8ff72b7ca1d072"
+  },
+  "side_review": {
+    "count": 14,
+    "marker_ids": [
+      "M00047",
+      "M00048",
+      "M00050",
+      "M00417",
+      "M00418",
+      "M00456",
+      "M00466",
+      "M00467",
+      "M00494",
+      "M00531",
+      "M00554",
+      "M00592",
+      "M00597",
+      "M01510"
+    ],
+    "source": "execution/luna-single-model/registry/audit_append.json"
+  },
+  "denominator_rule": "active marker IDs from the current formal workbook; side IDs are counted separately"
+}

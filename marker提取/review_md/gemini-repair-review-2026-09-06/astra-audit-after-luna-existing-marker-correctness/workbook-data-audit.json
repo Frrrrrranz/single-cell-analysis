@@ -1,0 +1,413 @@
+{
+  "run_id": "20260908-astra-audit-after-luna-existing-marker-correctness",
+  "hashes": {
+    "baseline_main": "7873af98ed720a825236d6b526cb575c8ccbbad183b814515eb46866de8a1a4f",
+    "staged_main": "a79787e2862714e06e56e2014580bb6201791cce07f25d3bf9da283e13c174e9",
+    "staged_by_cell": "829166241dec28ac50e73e7b3b4d653d081dc4f567bc72f2ee5641c42f4a274b"
+  },
+  "main_workbook": {
+    "baseline_ids": 2488,
+    "staged_ids": 2490,
+    "added_ids": [
+      "M00417",
+      "M01510"
+    ],
+    "removed_ids": [],
+    "common_ids_with_field_changes": 29,
+    "changed_ids": {
+      "M00044": {
+        "subtype": {
+          "before": "GRP+ pulmonary NE cells",
+          "after": "GRP+ pulmonary NE/precursor cells (transition #1)"
+        },
+        "marker_polarity": {
+          "before": "negative",
+          "after": "low"
+        },
+        "source_context": {
+          "before": "#1 labeled GRP+NEUROD1lowGHRL- cells, which have just started the transition from GRP+ pulmonary NE/precursor cells",
+          "after": "#1 labeled GRP+NEUROD1lowGHRL- cells, which have just started the transition from GRP+ pulmonary NE/precursor cells."
+        }
+      },
+      "M00071": {
+        "cell_type": {
+          "before": "nociceptors/neurons",
+          "after": "nociceptors"
+        },
+        "subtype": {
+          "before": null,
+          "after": "CCI-injured senescent nociceptor subset"
+        },
+        "source_locator": {
+          "before": "Results, 'Development and persistence of pain and senescence of pain-sensing neurons', Fig.3i",
+          "after": "Results lines 185-191; Fig. 3i caption lines 303-305"
+        },
+        "notes": {
+          "before": "NeuN/RBFOX3 is a pan-neuronal nuclear marker; retain the senescence experimental context without treating NeuN as senescence-specific. Luna建议，Astra final.",
+          "after": "NeuN/RBFOX3 is a pan-neuronal nuclear marker; retain the CCI injury senescent-nociceptor experimental context without treating NeuN as senescence-specific."
+        }
+      },
+      "M00398": {
+        "marker_polarity": {
+          "before": "negative",
+          "after": "low"
+        },
+        "source_context": {
+          "before": "we detect two novel cell populations ... which we named Transit epi 1 and 2. They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "after": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low."
+        }
+      },
+      "M00403": {
+        "marker_polarity": {
+          "before": "negative",
+          "after": "low"
+        },
+        "source_context": {
+          "before": "we detect two novel cell populations ... which we named Transit epi 1 and 2. They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+          "after": "They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low."
+        }
+      },
+      "M00415": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        }
+      },
+      "M00493": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "UCP2 low expression is part of the lymphatic EC marker definition.",
+          "after": "UCP2 low expression is part of the lymphatic EC marker definition. 淋巴内皮细胞条件明确为 UCP2LO；兼容编码改为 low。"
+        }
+      },
+      "M00495": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "FGFR4 low expression is part of the mid fibroblast marker definition.",
+          "after": "FGFR4 low expression is part of the mid fibroblast marker definition. 中期成纤维细胞条件明确为 FGFR4LO；兼容编码改为 low。"
+        }
+      },
+      "M00498": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "MUC16 is part of the MUC16+ ciliated cell marker definition.",
+          "after": "MUC16 is part of the MUC16+ ciliated cell marker definition. MUC16+纤毛细胞条件明确为 MUC16LO；兼容编码改为 low。"
+        }
+      },
+      "M00508": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "THBD low expression is part of the myofibroblast 1 marker definition.",
+          "after": "THBD low expression is part of the myofibroblast 1 marker definition. 肌成纤维细胞1条件明确为 THBDLO；兼容编码改为 low。"
+        }
+      },
+      "M00520": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "THBD weak expression is part of the myofibroblast-1 marker set.",
+          "after": "THBD weak expression is part of the myofibroblast-1 marker set. 原文将 THBD 标为 weak/LO；兼容编码改为 low，并保留低/弱表达限定。"
+        }
+      },
+      "M00533": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "MUC16 is used in the spatial marker scheme to distinguish proximal secretory subtypes.",
+          "after": "MUC16 is used in the spatial marker scheme to distinguish proximal secretory subtypes. 原文为 MUC16low/-；兼容编码改为 low，并保留阴性可能性。"
+        }
+      },
+      "M00534": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "SCGB1A1 low expression is part of the proximal secretory 1 definition.",
+          "after": "SCGB1A1 low expression is part of the proximal secretory 1 definition. proximal secretory 1 条件明确为 SCGB1A1LO；兼容编码改为 low。"
+        }
+      },
+      "M00537": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "MUC16 is used in the spatial marker scheme to distinguish proximal secretory subtypes.",
+          "after": "MUC16 is used in the spatial marker scheme to distinguish proximal secretory subtypes. 原文为 MUC16low/+；兼容编码改为 low，并保留低/阳性混合限定。"
+        }
+      },
+      "M00547": {
+        "marker_polarity": {
+          "before": "negative",
+          "after": "low"
+        },
+        "notes": {
+          "before": "SCGB3A2 low/negative expression is part of the proximal secretory 3 definition.",
+          "after": "SCGB3A2 low/negative expression is part of the proximal secretory 3 definition. 本轮复核：原文明确含 LO/low，按原文保留为 low。 原文限定为 SCGB3A2LO/-；主表使用 low 作为兼容枚举，但该编码不表示纯低表达，仍保留阴性可能性。"
+        }
+      },
+      "M00551": {
+        "marker_polarity": {
+          "before": "negative",
+          "after": "low"
+        },
+        "notes": {
+          "before": "SCGB3A1 low/negative expression is used to define proximal secretory progenitors.",
+          "after": "SCGB3A1 low/negative expression is used to define proximal secretory progenitors. 本轮复核：原文明确含 LO/low，按原文保留为 low。 原文限定为 SCGB3A1-/LO；主表使用 low 作为兼容枚举，但该编码不表示纯低表达，仍保留阴性可能性。"
+        }
+      },
+      "M00564": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "HOPX is used in the stalk-cell expression definition.",
+          "after": "HOPX is used in the stalk-cell expression definition. 原文为 HOPXLO；兼容编码改为 low，不能按无条件 positive 记录。"
+        }
+      },
+      "M00565": {
+        "marker_polarity": {
+          "before": "positive",
+          "after": "low"
+        },
+        "notes": {
+          "before": "PDPN is used as a stalk-cell marker, including in the stalk-cell definition.",
+          "after": "PDPN is used as a stalk-cell marker, including in the stalk-cell definition. 原文为 PDPNLO；兼容编码改为 low，不能用另一阶段的 PDPN 获取表达覆盖本行。"
+        }
+      },
+      "M00566": {
+        "marker_polarity": {
+          "before": "negative",
+          "after": "low"
+        },
+        "notes": {
+          "before": "SOX9 low/negative expression is used in the definition of stalk cells.",
+          "after": "SOX9 low/negative expression is used in the definition of stalk cells. 本轮复核：原文明确含 LO/low，按原文保留为 low。 原文限定为 SOX9LO/-；主表使用 low 作为兼容枚举，但该编码不表示纯低表达，仍保留阴性可能性。"
+        }
+      },
+      "M00593": {
+        "marker_polarity": {
+          "before": "negative",
+          "after": "low"
+        },
+        "notes": {
+          "before": "PLN negativity is used to mark vSMC1.",
+          "after": "PLN negativity is used to mark vSMC1. 本轮复核：原文明确含 LO/low，按原文保留为 low。 原文限定为 PLN-/low；主表使用 low 作为兼容枚举，但该编码不表示纯低表达，仍保留阴性可能性。"
+        }
+      },
+      "M00633": {
+        "notes": {
+          "before": "SOX9 阴性用于定义/识别 airway progenitors 这一分化状态。",
+          "after": "SOX9 阴性用于定义/识别 airway progenitors 这一分化状态。 原文将 airway progenitors 定义为 SOX9-/SOX2+，因此 SOX9 为目标级阴性。"
+        }
+      },
+      "M00637": {
+        "notes": {
+          "before": "MKI67 阴性用于定义 late pro-B 细胞亚群。",
+          "after": "MKI67 阴性用于定义 late pro-B 细胞亚群。 原文将 late pro-B 细胞写为 NEIL1+MKI67-，因此 MKI67 为目标级阴性。"
+        }
+      },
+      "M00680": {
+        "notes": {
+          "before": "EBF1 阴性用于区分 LMPP/ELP 与更成熟的 B 系祖细胞，属于定义 marker。",
+          "after": "EBF1 阴性用于区分 LMPP/ELP 与更成熟的 B 系祖细胞，属于定义 marker。 原文将 LMPP/ELP 写为 CD34+EBF1-，因此 EBF1 为目标级阴性。"
+        }
+      },
+      "M02359": {
+        "notes": {
+          "before": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。",
+          "after": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。 原文将 small pre-B 细胞写为 IL7R+SPIB+MKI67-，因此 MKI67 为目标级阴性。"
+        }
+      },
+      "M02364": {
+        "notes": {
+          "before": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。",
+          "after": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。 原文将 small pre-B 细胞写为 IL7R+SPIB+MKI67-，因此 MKI67 为目标级阴性。"
+        }
+      },
+      "M02369": {
+        "notes": {
+          "before": "保留作者 lo 低表达极性，不转写为 negative。",
+          "after": "保留作者 lo 低表达极性，不转写为 negative。 原文将 immature B 细胞写为 MS4A1+IGHDloIGHMhiVPREB3hi，IGHD 为目标级低表达。"
+        }
+      },
+      "M02374": {
+        "notes": {
+          "before": "保留作者 lo 低表达极性，不转写为 negative。",
+          "after": "保留作者 lo 低表达极性，不转写为 negative。 原文将 mature B 细胞写为 MS4A1+IGHDhiIGHMhiVPREB3lo，VPREB3 为目标级低表达。"
+        }
+      },
+      "M02375": {
+        "notes": {
+          "before": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。",
+          "after": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。 原文明确区分 CD5- 与 CD5+ mature B cells，因此 CD5- 记录为目标级阴性。"
+        }
+      },
+      "M02376": {
+        "notes": {
+          "before": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。",
+          "after": "对照现有正文及所引图/图注，确认作者 marker 与细胞关系。 原文明确指出缺少转录因子 PRDM1，因此 PRDM1 为目标级阴性。"
+        }
+      },
+      "M02592": {
+        "cell_type": {
+          "before": "Pericyte (claimed in repair)",
+          "after": "Pericytes"
+        },
+        "source_locator": {
+          "before": "Fig. 1D",
+          "after": "Fig. 1D, PDF p.4"
+        },
+        "source_context": {
+          "before": "Repair claimed LAMC3 is marker for Pericyte",
+          "after": "Fig. 1D dot plot shows LAMC3 aligned with the Pericytes row; the panel is used for cluster annotation."
+        },
+        "notes": {
+          "before": "Fig.1D 重新复开纠错：LAMC3 列对应 Pericytes 行；旧候选排除结论被本次图像核对替代。measurement_type=RNA。",
+          "after": "LAMC3 is a figure-labeled Pericytes relation. measurement_type=RNA."
+        }
+      }
+    },
+    "expected_update_ids": [
+      "M00044",
+      "M00071",
+      "M00398",
+      "M00403",
+      "M00415",
+      "M00493",
+      "M00495",
+      "M00498",
+      "M00508",
+      "M00520",
+      "M00533",
+      "M00534",
+      "M00537",
+      "M00547",
+      "M00551",
+      "M00564",
+      "M00565",
+      "M00566",
+      "M00593",
+      "M00633",
+      "M00637",
+      "M00680",
+      "M02359",
+      "M02364",
+      "M02369",
+      "M02374",
+      "M02375",
+      "M02376",
+      "M02590",
+      "M02591",
+      "M02592"
+    ],
+    "expected_restore_ids": [
+      "M00417",
+      "M01510"
+    ],
+    "unexpected_changed_ids": [],
+    "expected_updates_missing_from_diff": [
+      "M02590",
+      "M02591"
+    ]
+  },
+  "archive": {
+    "headers": [
+      "marker_id",
+      "task_no",
+      "dataset_id",
+      "paper_id",
+      "document_id",
+      "document_role",
+      "ct_id",
+      "subtype_id",
+      "cell_type",
+      "subtype",
+      "species",
+      "is_pns_cell",
+      "gene_symbol",
+      "original_symbol",
+      "evidence_type",
+      "marker_polarity",
+      "candidate_class",
+      "source_locator",
+      "source_context",
+      "review_status",
+      "review_method",
+      "notes",
+      "source_file",
+      "imported_at",
+      "audit_status",
+      "normalization_status",
+      "citation_verified",
+      "audit_model",
+      "audit_notes",
+      "four_layer_category",
+      "recovery_source",
+      "review_id",
+      "scope",
+      "archive_action",
+      "target_marker_id",
+      "evidence_ids",
+      "reason",
+      "executor",
+      "reviewed_at",
+      "change_status",
+      "supersedes",
+      "superseded_by"
+    ],
+    "header_count": 42,
+    "data_rows": 3164,
+    "contains_all_source_headers": true
+  },
+  "by_cell_workbook": {
+    "marker_rows": 1059,
+    "index_rows": 620,
+    "reported_data_source": "our_markers.xlsx 本次发布后的已确认集合，2490 条。",
+    "reported_marker_total": 2488,
+    "reported_panel_author_label_rows": 619,
+    "reported_paper_count": 43,
+    "historical_marker_metadata_nonempty_C_to_F": {
+      "3": 39,
+      "4": 988,
+      "5": 0,
+      "6": 0
+    },
+    "staged_marker_metadata_nonempty_C_to_F": {
+      "3": 5,
+      "4": 887,
+      "5": 0,
+      "6": 0
+    },
+    "historical_index_metadata_nonempty_C_to_F": {
+      "3": 33,
+      "4": 591,
+      "5": 0,
+      "6": 0
+    },
+    "staged_index_metadata_nonempty_C_to_F": {
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    }
+  }
+}

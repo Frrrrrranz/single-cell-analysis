@@ -1,0 +1,64 @@
+{
+  "run_id": "20260908-astra-audit-after-luna-existing-marker-correctness",
+  "reviewed_run": "20260907-luna-existing-marker-correctness",
+  "verdict": "rejected_pending_targeted_remediation",
+  "publication_authorized": false,
+  "sample": {
+    "unique_records": 249,
+    "papers_covered": 43,
+    "blank_binding_all": 34,
+    "inherited_stratified": 129,
+    "target_bound_cross_paper": 86
+  },
+  "accepted_scope": {
+    "planned_non_no_change_actions": 33,
+    "restored_ids": ["M00417", "M01510"],
+    "common_ids_with_field_changes": 29,
+    "unexpected_changed_ids": [],
+    "staged_active_ids": 2490,
+    "paper_count": 43,
+    "formula_errors": 0
+  },
+  "blocking_findings": [
+    {
+      "id": "ASTRA-EXIST-001",
+      "severity": "high",
+      "title": "204 records mechanically completed from recorded source_context",
+      "affected_count": 204,
+      "evidence_group_count": 34,
+      "source_file_null_groups": 34,
+      "source_sha256_null_groups": 34,
+      "required_action": "Reopen the full affected set and bind decisions to actually inspected source files."
+    },
+    {
+      "id": "ASTRA-EXIST-002",
+      "severity": "high",
+      "title": "Inherited quick-consistency pool lacks independently readable decisive material",
+      "affected_count": 445,
+      "sampled_count": 129,
+      "sample_gene_missing_from_local_markdown": 61,
+      "sample_context_not_normalized_in_local_markdown": 116,
+      "large_preprint_inherited_count": 353,
+      "required_action": "Obtain and inspect decisive figures/tables or move unresolved relations out of completed status."
+    },
+    {
+      "id": "ASTRA-EXIST-003",
+      "severity": "high",
+      "title": "759 historical lineage/tissue cells remain missing in by-cell workbook",
+      "affected_cells": 759,
+      "breakdown": {
+        "marker_lineage": 34,
+        "marker_tissue": 101,
+        "index_lineage": 33,
+        "index_tissue": 591
+      },
+      "required_action": "Restore by stable semantic mappings and record ambiguous mappings separately."
+    },
+    {
+      "id": "ASTRA-EXIST-004",
+      "severity": "medium",
+      "title": "By-cell workbook reports both 2490 and stale 2488 marker totals",
+      "required_action": "Regenerate all summary counts from the staged main workbook."
+    }
+  ]
+}
