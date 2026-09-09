@@ -1,0 +1,43 @@
+{
+  "run_id": "20260909-astra-remaining-221",
+  "status": "completed",
+  "batch_count": 28,
+  "reviewed_count": 221,
+  "unique_marker_count": 221,
+  "coverage_matches_worklist": true,
+  "result_counts": {
+    "accept_current_after_values": 208,
+    "correct_and_accept": 5,
+    "defer_unresolved": 5,
+    "exclude_from_final": 3
+  },
+  "publication_eligible_count": 213,
+  "excluded_marker_ids": [
+    "M00189",
+    "M00222",
+    "M00829"
+  ],
+  "corrected_marker_ids": [
+    "M00285",
+    "M01645",
+    "M01808",
+    "M02348",
+    "M02474"
+  ],
+  "newly_deferred_marker_ids": [
+    "M01806",
+    "M01807",
+    "M02299",
+    "M02306",
+    "M02487"
+  ],
+  "all_deferred_count": 399,
+  "full_review_unit_partition": {
+    "carried_forward_evidence_bound": 1819,
+    "accepted_before_221": 63,
+    "publication_eligible_from_221": 213,
+    "confirmed_invalid": 8,
+    "deferred": 399,
+    "total": 2502
+  }
+}

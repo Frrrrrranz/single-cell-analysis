@@ -16,7 +16,7 @@ function rowsFromUsed(sheet) {
 
 function replaceCountText(value) {
   if (typeof value !== "string") return value;
-  return value.replaceAll("2490", "2484");
+  return value.replaceAll("2490", "2482");
 }
 
 async function savePreview(workbook, sheetName, range, fileName) {
@@ -39,8 +39,8 @@ const corrections = new Map(
     .filter((item) => item.decision === "correct_and_accept")
     .map((item) => [item.marker_id, item.after_values]),
 );
-if (rejectedIds.size !== 6) throw new Error(`Expected 6 rejected markers, got ${rejectedIds.size}`);
-if (corrections.size !== 2) throw new Error(`Expected 2 corrected markers, got ${corrections.size}`);
+if (rejectedIds.size !== 8) throw new Error(`Expected 8 rejected markers, got ${rejectedIds.size}`);
+if (corrections.size !== 5) throw new Error(`Expected 5 corrected markers, got ${corrections.size}`);
 
 const workbook = await SpreadsheetFile.importXlsx(await FileBlob.load(sourcePath));
 const markers = workbook.worksheets.getItem("markers");
@@ -59,7 +59,7 @@ const correctedRows = dataRows.map((row) => {
   return correctedValues ? headers.map((header) => correctedValues[String(header)] ?? null) : row;
 });
 const retainedRows = correctedRows.filter((row) => !rejectedIds.has(String(row[markerIdIndex])));
-if (dataRows.length !== 2490 || retainedRows.length !== 2484) {
+if (dataRows.length !== 2490 || retainedRows.length !== 2482) {
   throw new Error(`Unexpected row counts: source=${dataRows.length}, retained=${retainedRows.length}`);
 }
 
@@ -148,9 +148,9 @@ const validation = {
   archive_rows_appended: newArchiveRows.length,
   formal_workbook_overwritten: false,
   carried_forward_evidence_bound_count: 1819,
-  deferred_unresolved_count: 396,
-  reviewed_from_remaining_221: 116,
-  remaining_review_count: 105,
+  deferred_unresolved_count: 399,
+  reviewed_from_remaining_221: 221,
+  remaining_review_count: 0,
   workbook_overview: overview.ndjson,
   formula_error_scan: formulaErrors.ndjson,
 };
