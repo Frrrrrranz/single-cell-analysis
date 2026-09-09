@@ -1,0 +1,23 @@
+{
+  "run_id": "20260909-astra-final-marker-publication",
+  "published_marker_count": 2480,
+  "published_unique_marker_ids": 2480,
+  "unresolved_marker_count": 2,
+  "unresolved_marker_ids": [
+    "M01806",
+    "M01807"
+  ],
+  "by_cell_group_count": 1062,
+  "panel_index_count": 620,
+  "paper_count": 43,
+  "outputs": {
+    "our_markers_final": {
+      "path": "D:\\OneDrive\\Desktop\\组\\marker提取\\review_md\\gemini-repair-review-2026-09-06\\astra-final-marker-finalization-2026-09-08\\staged\\our_markers_final.xlsx",
+      "sha256": "d6ae9c565121ed20b88d3890d947e2871a4044e8745b88ebd10b18b0dd761c1a"
+    },
+    "our_markers_by_cell_final": {
+      "path": "D:\\OneDrive\\Desktop\\组\\marker提取\\review_md\\gemini-repair-review-2026-09-06\\astra-final-marker-finalization-2026-09-08\\staged\\our_markers_by_cell_final.xlsx",
+      "sha256": "6a9af16ad4ceb277cb60c189f02d6e161440ff0a3c25c3c5f1a0d8c9904ceff1"
+    }
+  }
+}

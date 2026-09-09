@@ -1,0 +1,44 @@
+{
+  "run_id": "20260909-astra-final-acceptance",
+  "status": "passed",
+  "checks": {
+    "published_count_is_2480": true,
+    "published_ids_unique": true,
+    "invalid_absent_from_published": true,
+    "unresolved_absent_from_published": true,
+    "unresolved_sheet_exact": true,
+    "unresolved_snapshots_preserved": true,
+    "all_397_deferred_accepts_published": true,
+    "five_corrections_applied": true,
+    "marker_table_ref_exact": true,
+    "by_cell_group_keys_exact": true,
+    "by_cell_marker_sets_exact": true,
+    "by_cell_reported_total_is_2480": true,
+    "no_formula_or_cell_errors": true
+  },
+  "counts": {
+    "published_markers": 2480,
+    "published_unique_ids": 2480,
+    "deferred_accepted_published": 397,
+    "unresolved_hold": 2,
+    "by_cell_groups": 1062,
+    "panel_index_rows": 620,
+    "papers": 43
+  },
+  "diagnostics": {
+    "table_refs": {
+      "OurMarkersTable": "A1:AE2481"
+    },
+    "unresolved_snapshot_mismatches": [],
+    "correction_mismatches": {},
+    "group_keys_missing": [],
+    "group_keys_extra": [],
+    "group_marker_mismatches": {},
+    "main_errors": [],
+    "by_cell_errors": []
+  },
+  "hashes": {
+    "our_markers_final.xlsx": "d6ae9c565121ed20b88d3890d947e2871a4044e8745b88ebd10b18b0dd761c1a",
+    "our_markers_by_cell_final.xlsx": "6a9af16ad4ceb277cb60c189f02d6e161440ff0a3c25c3c5f1a0d8c9904ceff1"
+  }
+}

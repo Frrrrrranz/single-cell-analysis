@@ -1,0 +1,16 @@
+{
+  "run_id": "20260909-astra-deferred-review",
+  "source_count": 399,
+  "reviewed_count": 397,
+  "remaining_count": 2,
+  "reviewed_unique_count": 397,
+  "coverage_valid": true,
+  "duplicate_decision_marker_ids": [],
+  "unknown_decision_marker_ids": [],
+  "decision_counts": {
+    "accept_current_after_values": 397
+  },
+  "remaining_by_paper": {
+    "DOI_10.1038_s42003-024-07315-x": 2
+  }
+}

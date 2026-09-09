@@ -1,0 +1,40 @@
+{
+  "run_id": "20260909-astra-deferred-remaining",
+  "record_count": 2,
+  "marker_ids": [
+    "M01806",
+    "M01807"
+  ],
+  "records": [
+    {
+      "decision_id": "ASTRA-221-B006-M01806",
+      "marker_id": "M01806",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "decision": "defer_unresolved",
+      "publication_eligible": false,
+      "after_values": null,
+      "source_file": "D:\\OneDrive\\Desktop\\组\\marker提取\\review_md\\DOI_10.1038_s42003-024-07315-x.md",
+      "source_sha256": "01a704529527f26a7633eefb5e1525628121edfd11f7fbf3733c2b870e9958af",
+      "source_locator": "Methods, Flow cytometry and cell sorting for mouse samples",
+      "source_excerpt": "The following antibodies were used for cardiac macrophages: ... PE anti-F4/80 ...",
+      "astra_reason": "现有来源只列出用于 cardiac macrophages 的抗体 panel，缺失补充材料中的实际 gate，不能据此单独确认 F4/80 阳性关系。",
+      "reviewed_by": "GPT-6 Astra",
+      "reviewed_at": "2026-09-09"
+    },
+    {
+      "decision_id": "ASTRA-221-B006-M01807",
+      "marker_id": "M01807",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "decision": "defer_unresolved",
+      "publication_eligible": false,
+      "after_values": null,
+      "source_file": "D:\\OneDrive\\Desktop\\组\\marker提取\\review_md\\DOI_10.1038_s42003-024-07315-x.md",
+      "source_sha256": "01a704529527f26a7633eefb5e1525628121edfd11f7fbf3733c2b870e9958af",
+      "source_locator": "Methods, Flow cytometry and cell sorting for mouse samples",
+      "source_excerpt": "The following antibodies were used for cardiac macrophages: ... FITC anti-CD11b ...",
+      "astra_reason": "现有来源只列出用于 cardiac macrophages 的抗体 panel，缺失补充材料中的实际 gate，不能据此单独确认 CD11b 阳性关系。",
+      "reviewed_by": "GPT-6 Astra",
+      "reviewed_at": "2026-09-09"
+    }
+  ]
+}

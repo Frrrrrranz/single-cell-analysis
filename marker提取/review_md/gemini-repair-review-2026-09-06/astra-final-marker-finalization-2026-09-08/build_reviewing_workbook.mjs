@@ -31,7 +31,14 @@ const batchDecisionFiles = (await fs.readdir(runDir))
 const batchDecisions = (
   await Promise.all(batchDecisionFiles.map(async (name) => JSON.parse(await fs.readFile(path.join(runDir, name), "utf8"))))
 ).flatMap((document) => document.decisions);
-const allDecisions = [...decisionData.decisions, ...batchDecisions];
+const deferredDecisionFiles = (await fs.readdir(runDir))
+  .filter((name) => /^decisions-deferred-batch-\d+\.json$/.test(name))
+  .sort();
+const deferredDecisions = (
+  await Promise.all(deferredDecisionFiles.map(async (name) => JSON.parse(await fs.readFile(path.join(runDir, name), "utf8"))))
+).flatMap((document) => document.decisions);
+const allDecisions = [...decisionData.decisions, ...batchDecisions, ...deferredDecisions];
+const deferredReviewSummary = JSON.parse(await fs.readFile(path.join(runDir, "deferred-review-summary.json"), "utf8"));
 const rejected = allDecisions.filter((item) => item.decision === "exclude_from_final");
 const rejectedIds = new Set(rejected.map((item) => item.marker_id));
 const corrections = new Map(
@@ -148,7 +155,9 @@ const validation = {
   archive_rows_appended: newArchiveRows.length,
   formal_workbook_overwritten: false,
   carried_forward_evidence_bound_count: 1819,
-  deferred_unresolved_count: 399,
+  deferred_source_count: deferredReviewSummary.source_count,
+  deferred_reviewed_count: deferredReviewSummary.reviewed_count,
+  deferred_unresolved_count: deferredReviewSummary.remaining_count,
   reviewed_from_remaining_221: 221,
   remaining_review_count: 0,
   workbook_overview: overview.ndjson,
