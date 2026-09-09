@@ -16,7 +16,7 @@ function rowsFromUsed(sheet) {
 
 function replaceCountText(value) {
   if (typeof value !== "string") return value;
-  return value.replaceAll("2490", "2485");
+  return value.replaceAll("2490", "2484");
 }
 
 async function savePreview(workbook, sheetName, range, fileName) {
@@ -25,9 +25,22 @@ async function savePreview(workbook, sheetName, range, fileName) {
 }
 
 const decisionData = JSON.parse(await fs.readFile(decisionsPath, "utf8"));
-const rejected = decisionData.decisions.filter((item) => item.decision === "exclude_from_final");
+const batchDecisionFiles = (await fs.readdir(runDir))
+  .filter((name) => /^decisions-review-batch-\d+\.json$/.test(name))
+  .sort();
+const batchDecisions = (
+  await Promise.all(batchDecisionFiles.map(async (name) => JSON.parse(await fs.readFile(path.join(runDir, name), "utf8"))))
+).flatMap((document) => document.decisions);
+const allDecisions = [...decisionData.decisions, ...batchDecisions];
+const rejected = allDecisions.filter((item) => item.decision === "exclude_from_final");
 const rejectedIds = new Set(rejected.map((item) => item.marker_id));
-if (rejectedIds.size !== 5) throw new Error(`Expected 5 rejected markers, got ${rejectedIds.size}`);
+const corrections = new Map(
+  allDecisions
+    .filter((item) => item.decision === "correct_and_accept")
+    .map((item) => [item.marker_id, item.after_values]),
+);
+if (rejectedIds.size !== 6) throw new Error(`Expected 6 rejected markers, got ${rejectedIds.size}`);
+if (corrections.size !== 2) throw new Error(`Expected 2 corrected markers, got ${corrections.size}`);
 
 const workbook = await SpreadsheetFile.importXlsx(await FileBlob.load(sourcePath));
 const markers = workbook.worksheets.getItem("markers");
@@ -41,8 +54,12 @@ const sourceRowsById = new Map(dataRows.map((row) => [String(row[markerIdIndex])
 const missingRejectedIds = [...rejectedIds].filter((id) => !sourceRowsById.has(id));
 if (missingRejectedIds.length) throw new Error(`Rejected IDs missing from source workbook: ${missingRejectedIds.join(", ")}`);
 
-const retainedRows = dataRows.filter((row) => !rejectedIds.has(String(row[markerIdIndex])));
-if (dataRows.length !== 2490 || retainedRows.length !== 2485) {
+const correctedRows = dataRows.map((row) => {
+  const correctedValues = corrections.get(String(row[markerIdIndex]));
+  return correctedValues ? headers.map((header) => correctedValues[String(header)] ?? null) : row;
+});
+const retainedRows = correctedRows.filter((row) => !rejectedIds.has(String(row[markerIdIndex])));
+if (dataRows.length !== 2490 || retainedRows.length !== 2484) {
   throw new Error(`Unexpected row counts: source=${dataRows.length}, retained=${retainedRows.length}`);
 }
 
@@ -127,11 +144,13 @@ const validation = {
   source_active_marker_count: dataRows.length,
   active_marker_count: retainedRows.length,
   excluded_marker_ids: [...rejectedIds].sort(),
+  corrected_marker_ids: [...corrections.keys()].sort(),
   archive_rows_appended: newArchiveRows.length,
   formal_workbook_overwritten: false,
   carried_forward_evidence_bound_count: 1819,
-  deferred_unresolved_count: 394,
-  remaining_review_count: 221,
+  deferred_unresolved_count: 396,
+  reviewed_from_remaining_221: 116,
+  remaining_review_count: 105,
   workbook_overview: overview.ndjson,
   formula_error_scan: formulaErrors.ndjson,
 };
@@ -142,5 +161,6 @@ console.log(JSON.stringify({
   sourceActive: dataRows.length,
   activeAfter: retainedRows.length,
   excluded: [...rejectedIds].sort(),
+  corrected: [...corrections.keys()].sort(),
   formulaErrors: formulaErrors.ndjson,
 }, null, 2));
