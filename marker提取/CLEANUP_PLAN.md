@@ -170,10 +170,10 @@ marker提取/
 - [x] 建立本整理计划。
 - [x] 阶段 1：只读盘点。
 - [x] 阶段 2：完整整理前安全检查点。
-- [ ] 阶段 3：按文章重组。
-- [ ] 阶段 4：正式表和审核资产收口。
-- [ ] 阶段 5：删除无用和过时内容。
-- [ ] 阶段 6：最终验证、提交和推送。
+- [x] 阶段 3：按文章重组。
+- [x] 阶段 4：正式表和审核资产收口。
+- [x] 阶段 5：删除无用和过时内容。
+- [x] 阶段 6：最终验证、提交和推送。
 
 ### 阶段 1 盘点结果（2026-09-14）
 
@@ -203,3 +203,10 @@ marker提取/
 - 正式总表现有 2,480 条唯一 Marker；按细胞类型视图有 1,062 个分组。`our_marker_papers.xlsx` 保持为 44 篇任务主清单，`our_paper_metadata.xlsx` 不纳入最终目录说明。
 - 已将审核目录收口到 `audit/final-decisions/`、`audit/evidence-binding/`、`audit/validation/` 和 `audit/legacy-review/`。历史依赖缓存导致部分目录移动出现权限提示，后续删除前需专项核对残留内容。
 - 已更新项目与表单 README，使其描述 `articles/` 与 `audit/` 的最终流程。
+
+### 阶段 5 与阶段 6 完成记录（2026-09-14）
+
+- 已生成 `audit/deletion-manifest.json`，记录删除对象、理由和 Git/可再生恢复来源；清理前已确认关键 JSON、Markdown 和正式表均有 Git 跟踪路径。
+- 已删除旧流水线、可再生依赖缓存、一次性脚本、staged/baseline/reviewing 工作簿与渲染预览，以及不进入最终交付的 `our_paper_metadata.xlsx`。
+- 两份无法归属的 PDF 未删除，已移至 `audit/unresolved-assets/pdf/` 并保留供人工复核。
+- 最终验证通过：44 个文章目录；42 组 PDF/Markdown 配对和 2 个缺失来源状态说明；75 个保留审核 JSON 均可解析；3 张正式表保留；任务表 44 篇，正式 Marker 表 2,480 条唯一记录，按细胞类型表 1,062 个分组。
