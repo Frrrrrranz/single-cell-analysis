@@ -36,4 +36,4 @@ Codex 收到 Gemini 结果后，对照原始材料检查：
 - `表单/our_markers.xlsx`：正式 Marker 总表；
 - `表单/our_markers_by_cell.xlsx`：按细胞类型整理的视图。
 
-原始论文保存在 `pdf/`，导师参考资料保存在 `reference/`。正式纳入标准始终以 `MARKER_POLICY.md` 为准。
+原始论文、转换 Markdown、提取 JSON 和证据按论文保存在 `articles/<paper_id>/`。审核裁决、证据绑定和验证记录保存在 `audit/`，导师参考资料保存在 `reference/`。正式纳入标准始终以 `MARKER_POLICY.md` 为准。

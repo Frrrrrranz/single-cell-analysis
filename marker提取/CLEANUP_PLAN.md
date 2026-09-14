@@ -196,3 +196,10 @@ marker提取/
 - 已为 42 篇具有可归属资料的论文建立 `articles/<paper_id>/source|extraction|evidence`：移动 42 个 PDF、42 个转换 Markdown、42 个原始提取 JSON、23 个 repair JSON、1 个转换记录和 27 张证据图片。
 - 未自动移动 201 个未归属文件、共享审核资产、脚本、工作簿副本或两份未归属 PDF；它们将在后续审核资产收口和人工归属复核后处理。
 - 两篇任务表明确缺少有效 PDF 的论文已建立目录并标记资料缺失。
+
+### 阶段 4 进度（2026-09-14）
+
+- 已用最终验收通过的版本覆盖 `表单/our_markers.xlsx` 和 `表单/our_markers_by_cell.xlsx`。两份文件的 SHA-256 分别为 `d6ae9c…761c1a` 和 `6a9af1…4ceff1`，与 `final-acceptance-validation.json` 完全一致。
+- 正式总表现有 2,480 条唯一 Marker；按细胞类型视图有 1,062 个分组。`our_marker_papers.xlsx` 保持为 44 篇任务主清单，`our_paper_metadata.xlsx` 不纳入最终目录说明。
+- 已将审核目录收口到 `audit/final-decisions/`、`audit/evidence-binding/`、`audit/validation/` 和 `audit/legacy-review/`。历史依赖缓存导致部分目录移动出现权限提示，后续删除前需专项核对残留内容。
+- 已更新项目与表单 README，使其描述 `articles/` 与 `audit/` 的最终流程。
