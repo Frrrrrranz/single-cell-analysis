@@ -1,0 +1,449 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41467-023-40173-5",
+  "doi": "10.1038/s41467-023-40173-5",
+  "pmid": "37516747",
+  "title": "Guided construction of single cell reference for human and mouse lung",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Communications 全文（18页），包含 Figures 1-8、STAR Methods 及详细图注"
+    },
+    {
+      "material_name": "DOI_10.1038_s41467-023-40173-5.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 LungMAP CellCards/CellRef 知识库引导的肺单细胞参考构建体系及核心标志物"
+    },
+    {
+      "material_name": "Supplementary Figures 1-15 & Supplementary Data 1-6",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Data 1-6 候选 Marker 表格的引用说明已审阅，外部独立大文件表格未在本地提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Deuterosomal_Cells",
+      "cluster_name": "Deuterosomal cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway epithelium)",
+      "four_layer_category": "outside",
+      "description": "多纤毛发生中间过渡细胞，特异性表达纤毛发生因子 DEUP1、转录因子 FOXN4 与细胞周期因子 CDC20B"
+    },
+    {
+      "cluster_id": "Cluster_Suprabasal_Cells",
+      "cluster_name": "Suprabasal epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway epithelium)",
+      "four_layer_category": "outside",
+      "description": "位于基底细胞上方的未分化上皮层，高表达丝氨酸蛋白酶抑制剂 SERPINB4、细胞角蛋白 KRT19 与受体 NOTCH3"
+    },
+    {
+      "cluster_id": "Cluster_Systemic_Venous_Endothelial",
+      "cluster_name": "Systemic venous endothelial cells (SVEC)",
+      "species": "human",
+      "organ_or_tissue": "lung (vasculature)",
+      "four_layer_category": "outside",
+      "description": "支气管血管床体静脉内皮细胞，特征性共表达 COL15A1、ABCB1 与趋化因子受体 ACKR1"
+    },
+    {
+      "cluster_id": "Cluster_Respiratory_Airway_Secretory",
+      "cluster_name": "Respiratory airway secretory cells (RAS)",
+      "species": "human",
+      "organ_or_tissue": "lung (distal bronchioles)",
+      "four_layer_category": "outside",
+      "description": "细支气管呼吸道特化分泌细胞，特征性高表达分泌珠蛋白 SCGB3A2、激肽释放酶 KLK11 与转录因子 SOX4"
+    },
+    {
+      "cluster_id": "Cluster_Mature_Dendritic_Cells",
+      "cluster_name": "Mature dendritic cells (mDC)",
+      "species": "human",
+      "organ_or_tissue": "lung (immune)",
+      "four_layer_category": "outside",
+      "description": "肺组织成熟活化树突状细胞，特征性高表达乙醛脱氢酶 ALDH1A3 与维甲酸受体应答蛋白 RARRES1"
+    },
+    {
+      "cluster_id": "Cluster_AT1_Cells",
+      "cluster_name": "Alveolar type 1 (AT1) cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "four_layer_category": "outside",
+      "description": "I型肺泡上皮细胞，负责气体交换，高表达 AGER (RAGE) 与 PDPN"
+    },
+    {
+      "cluster_id": "Cluster_AT2_Cells",
+      "cluster_name": "Alveolar type 2 (AT2) cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "four_layer_category": "outside",
+      "description": "II型肺泡上皮细胞，负责分泌肺表面活性物质，高表达 SFTPC 与 ABCA3"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M01",
+      "marker": "DEUP1",
+      "marker_original": "DEUP1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Deuterosomal Cell",
+      "cell_type_original": "deuterosomal cells",
+      "author_cluster_id": "Cluster_Deuterosomal_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway epithelium)",
+      "experimental_context": "LungMAP CellRef dictionary expansion and consensus prediction in scRNA-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Deuterosome assembly protein 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "deuterosomal cells (marker genes: DEUP1, FOXN4, CDC20B)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "DEUP1 explicitly cataloged as hallmark positive marker defining deuterosomal cells",
+          "mapping_basis": "LungMAP CellCards/CellRef dictionary marker"
+        }
+      ],
+      "validation_method": "scRNA-seq / consensus classification",
+      "gate_definition": null,
+      "notes": "Essential deuterosome organizing factor for centriole amplification during ciliogenesis",
+      "decision_reason": "Author declared defining reference marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M02",
+      "marker": "FOXN4",
+      "marker_original": "FOXN4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Deuterosomal Cell",
+      "cell_type_original": "deuterosomal cells",
+      "author_cluster_id": "Cluster_Deuterosomal_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway epithelium)",
+      "experimental_context": "LungMAP CellRef construction pipeline",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Forkhead box N4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "deuterosomal cells (marker genes: DEUP1, FOXN4, CDC20B)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "FOXN4 is a core transcription factor marker defining deuterosomal intermediate cells",
+          "mapping_basis": "Reference dictionary marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Transcription factor coordinating deuterosome assembly genes",
+      "decision_reason": "Core transcription factor defining deuterosomal stage"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M03",
+      "marker": "SERPINB4",
+      "marker_original": "SERPINB4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Suprabasal Epithelial Cell",
+      "cell_type_original": "suprabasal cells",
+      "author_cluster_id": "Cluster_Suprabasal_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway epithelium)",
+      "experimental_context": "scRNA-seq airway epithelial hierarchical annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Serpin family B member 4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "suprabasal cells (marker genes: SERPINB4, KRT19, NOTCH3)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SERPINB4 selectively marks suprabasal airway epithelial cells",
+          "mapping_basis": "CellCards defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Serpin clade B protease inhibitor characteristic of differentiated suprabasal layers",
+      "decision_reason": "Author declared subtype marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M04",
+      "marker": "KRT19",
+      "marker_original": "KRT19",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Suprabasal Epithelial Cell",
+      "cell_type_original": "suprabasal cells",
+      "author_cluster_id": "Cluster_Suprabasal_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway epithelium)",
+      "experimental_context": "Airway reference seed identification",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 19 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "suprabasal cells (marker genes: SERPINB4, KRT19, NOTCH3)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "KRT19 co-defines suprabasal airway epithelial cluster",
+          "mapping_basis": "scRNA-seq epithelial signature"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Type I intermediate filament cytokeratin in suprabasal bronchial epithelium",
+      "decision_reason": "Co-defining suprabasal marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M05",
+      "marker": "COL15A1",
+      "marker_original": "COL15A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Systemic Venous Endothelial Cell",
+      "cell_type_original": "systemic venous endothelial cells (SVEC)",
+      "author_cluster_id": "Cluster_Systemic_Venous_Endothelial",
+      "species": "human",
+      "organ_or_tissue": "lung (vasculature)",
+      "experimental_context": "Endothelial sublineage classification across 104 donors",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type XV alpha 1 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "systemic venous endothelial cells (SVEC; marker genes: COL15A1, ABCB1, ACKR1)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "COL15A1 uniquely distinguishes systemic venous endothelium from pulmonary capillary and arterial endothelia",
+          "mapping_basis": "Endothelial sublineage marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Type XV collagen specifically marking bronchial systemic venous microvessels",
+      "decision_reason": "Defining marker for systemic venous endothelial niche"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M06",
+      "marker": "ACKR1",
+      "marker_original": "ACKR1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Systemic Venous Endothelial Cell",
+      "cell_type_original": "systemic venous endothelial cells (SVEC)",
+      "author_cluster_id": "Cluster_Systemic_Venous_Endothelial",
+      "species": "human",
+      "organ_or_tissue": "lung (vasculature)",
+      "experimental_context": "scRNA-seq vascular bed identification",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Atypical chemokine receptor 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "systemic venous endothelial cells (SVEC; marker genes: COL15A1, ABCB1, ACKR1)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ACKR1 (DARC) selectively marks postcapillary and systemic venules in human lung",
+          "mapping_basis": "Venous endothelial marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Atypical chemokine receptor defining venous endothelial identities",
+      "decision_reason": "Author declared vascular sublineage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M07",
+      "marker": "SCGB3A2",
+      "marker_original": "SCGB3A2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Respiratory Airway Secretory Cell",
+      "cell_type_original": "respiratory airway secretory cells (RAS)",
+      "author_cluster_id": "Cluster_Respiratory_Airway_Secretory",
+      "species": "human",
+      "organ_or_tissue": "lung (distal bronchioles)",
+      "experimental_context": "Distal airway epithelial annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secretoglobin family 3A member 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "respiratory airway secretory cells (RAS; marker genes: SCGB3A2, KLK11, SOX4)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SCGB3A2 marks the novel human respiratory airway secretory cell population in terminal bronchioles",
+          "mapping_basis": "Distal airway secretory marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Secretoglobin family member uniquely enriched in distal human bronchiolar secretory progenitors",
+      "decision_reason": "Defining marker for newly recognized respiratory secretory population"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M08",
+      "marker": "KLK11",
+      "marker_original": "KLK11",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Respiratory Airway Secretory Cell",
+      "cell_type_original": "respiratory airway secretory cells (RAS)",
+      "author_cluster_id": "Cluster_Respiratory_Airway_Secretory",
+      "species": "human",
+      "organ_or_tissue": "lung (distal bronchioles)",
+      "experimental_context": "scRNA-seq reference seed validation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Kallikrein related peptidase 11 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "respiratory airway secretory cells (RAS; marker genes: SCGB3A2, KLK11, SOX4)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "KLK11 co-defines respiratory airway secretory cells",
+          "mapping_basis": "Distal secretory signature"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Kallikrein-related peptidase distinguishing distal RAS cells from proximal club cells",
+      "decision_reason": "Co-defining marker of distal respiratory secretory cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M09",
+      "marker": "ALDH1A3",
+      "marker_original": "ALDH1A3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Mature Dendritic Cell",
+      "cell_type_original": "mature dendritic cells (mDC)",
+      "author_cluster_id": "Cluster_Mature_Dendritic_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (immune)",
+      "experimental_context": "Myeloid compartment single-cell profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Aldehyde dehydrogenase 1 family member A3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 15, Fig. 1B",
+      "source_context": "mature dendritic cells (marker genes: ALDH1A3, RARRES1)",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ALDH1A3 selectively marks the mature, immunoregulatory dendritic cell population in human lung",
+          "mapping_basis": "Dendritic cell maturation signature"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Enzyme involved in retinoic acid synthesis characteristic of mature migratory dendritic cells",
+      "decision_reason": "Author declared mature DC marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-023-40173-5_M10",
+      "marker": "AGER",
+      "marker_original": "AGER",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 1 Cell",
+      "cell_type_original": "AT1 cells",
+      "author_cluster_id": "Cluster_AT1_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "experimental_context": "scRNA-seq reference seed validation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Advanced glycosylation end-product specific receptor transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-4, Fig. 2C",
+      "source_context": "Validation of the seed cell identity using the expression of cell type selective marker genes including AGER for AT1",
+      "sources": [
+        {
+          "file": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "AGER confirmed as defining hallmark marker for AT1 seed population",
+          "mapping_basis": "LungMAP CellCards canonical marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Classic surface receptor uniquely expressed on alveolar type 1 gas-exchange cells",
+      "decision_reason": "Canonical AT1 defining marker in LungMAP CellCards"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Communications article (18 pages including main text Figures 1-8, Methods, and accompanying legends).",
+    "missing_materials": "External Supplementary Data 1-6 (large machine-learning AUC ranking spreadsheets) not locally provided.",
+    "potential_leakage_scope": "Azimuth automated mapping scores and LISI mixing index metrics for integration batch correction."
+  }
+}

@@ -168,9 +168,24 @@ marker提取/
 - [x] 确认 PDF 使用用户外部备份。
 - [x] 为未跟踪旧计划建立 Git 安全检查点：`900ab1fb`。
 - [x] 建立本整理计划。
-- [ ] 阶段 1：只读盘点。
-- [ ] 阶段 2：完整整理前安全检查点。
+- [x] 阶段 1：只读盘点。
+- [x] 阶段 2：完整整理前安全检查点。
 - [ ] 阶段 3：按文章重组。
 - [ ] 阶段 4：正式表和审核资产收口。
 - [ ] 阶段 5：删除无用和过时内容。
 - [ ] 阶段 6：最终验证、提交和推送。
+
+### 阶段 1 盘点结果（2026-09-14）
+
+- 已生成 `audit/file-inventory.json`。范围包括 `pdf/`、`review_md/`、`marker_Gemini/`、`marker_Gemini_repair/`、`marker_Gemini_evidence_v2/` 和 `marker_Gemini_evidence_v3/`；不包含 `papers_report/`、`reference/` 或正式表以外的工作簿。
+- 任务表包含 44 篇论文；盘点了 420 个候选保留资产（44 PDF、79 Markdown、239 JSON、58 图片）。
+- 42 篇论文至少有一个已关联资产。`TITLE_single_cell_atlas_of_the_human_optic_nerve` 和 `TITLE_bronchopulmonary_dysplasia` 均在任务表中标记为“缺少有效 PDF”，当前没有可关联资产。
+- 42 篇已有资产论文的 PDF 与 Markdown 数量一致。PDF 按任务表的原始 PDF 文件名关联，其他资产按 `paper_id` 路径或文件名关联。
+- 发现 10 个内容哈希完全相同的重复组，其中 8 个为 v2/v3 证据图片重复，另 2 个为历史审核截图或 manifest 重复；仅记录，尚未删除。
+- 有 201 个未能从路径或文件名直接关联到论文的文件（131 JSON、37 Markdown、31 图片、2 PDF）。它们保留在 `orphan_files`，将在阶段 3 前按内容与审核语义人工归属。
+
+### 阶段 2 安全检查点（2026-09-14）
+
+- `audit/IMPORTANT_JSON_MANIFEST.md` 已记录 239 个候选保留 JSON 的路径、大小和 SHA-256。
+- 检查点暂存范围为 270 个 JSON、Markdown、PNG/JPEG 证据文件、盘点报告和本计划更新；不包含 PDF、XLSX、Python/MJS 脚本、缓存或 `.claude/`。
+- 提交完成后，提交号即为上述资产的 Git 恢复来源；PDF 仍仅依赖用户约定的外部备份。

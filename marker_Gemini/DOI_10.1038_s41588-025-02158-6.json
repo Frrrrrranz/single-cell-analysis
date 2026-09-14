@@ -1,0 +1,441 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41588-025-02158-6",
+  "doi": "10.1038/s41588-025-02158-6",
+  "pmid": "40229600",
+  "title": "Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tumor microenvironment rewiring",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Genetics 2025 原文（40页含 Extended Data），详述 22 例高危神经母细胞瘤化疗前后单核 RNA/ATAC 多组学与微环境重构"
+    },
+    {
+      "material_name": "DOI_10.1038_s41588-025-02158-6.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 8 大主要细胞类型（神经母细胞、施万细胞、成纤维、巨噬等）及 Fig. 1d dotplot marker genes"
+    },
+    {
+      "material_name": "Supplementary Information & Supplementary Tables 1-10",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Tables 1-10（特别是 Table 3 恶性状态与微环境 Marker）的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Neuroblasts",
+      "cluster_name": "Neuroblasts (Adrenergic/Malignant)",
+      "species": "human",
+      "organ_or_tissue": "adrenal gland / retroperitoneal tumor",
+      "four_layer_category": "L1",
+      "description": "神经母细胞瘤恶性细胞主群，源于交感神经嵴谱系，特征性表达交感神经分化转录因子 PHOX2B 与 ISL1"
+    },
+    {
+      "cluster_id": "Cluster_Schwann_Cells",
+      "cluster_name": "Schwann cells",
+      "species": "human",
+      "organ_or_tissue": "peripheral nervous system / tumor stroma",
+      "four_layer_category": "L2",
+      "description": "外周神经胶质施万细胞，构成肿瘤微环境关键基质支持成分，特征性表达 PLP1 与 CDH19"
+    },
+    {
+      "cluster_id": "Cluster_Macrophages",
+      "cluster_name": "Macrophages",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "four_layer_category": "outside",
+      "description": "肿瘤微环境浸润巨噬细胞，高表达清道夫受体 CD163 与共刺激分子 CD86"
+    },
+    {
+      "cluster_id": "Cluster_Dendritic_Cells",
+      "cluster_name": "Dendritic cells",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "four_layer_category": "outside",
+      "description": "肿瘤微环境树突状抗原呈递细胞，特异表达 IRF8 与 FLT3"
+    },
+    {
+      "cluster_id": "Cluster_Endothelial_Cells",
+      "cluster_name": "Endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "four_layer_category": "outside",
+      "description": "肿瘤微脉管内皮细胞，高表达 PECAM1 与 PTPRB"
+    },
+    {
+      "cluster_id": "Cluster_Fibroblasts",
+      "cluster_name": "Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "tumor stroma",
+      "four_layer_category": "outside",
+      "description": "肿瘤相关基质成纤维细胞（含神经外膜/神经内膜相关成纤维），表达 PDGFRB 与 DCN"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M01",
+      "marker": "PHOX2B",
+      "marker_original": "PHOX2B",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Neuroblast",
+      "cell_type_original": "Neuroblasts",
+      "author_cluster_id": "Cluster_Neuroblasts",
+      "species": "human",
+      "organ_or_tissue": "adrenal gland / sympathetic ganglion",
+      "experimental_context": "snRNA-seq (372,619 cells) and snATAC-seq (144,366 cells) from 22 neuroblastoma patients",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Paired like homeobox 2B transcript and accessible promoter motif",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 1143-1144, Fig. 1d, Extended Data Fig. 1c",
+      "source_context": "Dotplot showing the marker genes of each cell type and the percentage of cells expressing them for each annotated cell type: PHOX2B marks neuroblasts.",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "PHOX2B specifically displayed in Dotplot as defining marker of Neuroblasts",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq motif accessibility",
+      "gate_definition": null,
+      "notes": "Master transcription factor of sympathetic autonomic neurogenesis and pathognomonic neuroblastoma lineage marker",
+      "decision_reason": "High-confidence L1 peripheral sympathoadrenal neuroblast lineage defining factor"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M02",
+      "marker": "ISL1",
+      "marker_original": "ISL1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Neuroblast",
+      "cell_type_original": "Neuroblasts",
+      "author_cluster_id": "Cluster_Neuroblasts",
+      "species": "human",
+      "organ_or_tissue": "adrenal gland / sympathetic ganglion",
+      "experimental_context": "snRNA-seq and snATAC-seq of human neuroblastoma",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "ISL LIM homeobox 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: ISL1 highly and specifically expressed in neuroblasts",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "ISL1 displayed in Dotplot marking Neuroblasts",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Essential transcriptional regulator in motor neuron and sympathetic neuronal differentiation",
+      "decision_reason": "Direct visual dotplot evidence identifying neuroblast lineage"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M03",
+      "marker": "PLP1",
+      "marker_original": "PLP1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Schwann cell",
+      "cell_type_original": "Schwann cells",
+      "author_cluster_id": "Cluster_Schwann_Cells",
+      "species": "human",
+      "organ_or_tissue": "tumor stroma / peripheral nerve",
+      "experimental_context": "snRNA-seq and snATAC-seq across 22 patient paired tumors",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Proteolipid protein 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: PLP1 specifically marks Schwann cells in neuroblastoma microenvironment",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "PLP1 displayed in Dotplot marking Schwann cells",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Classic glial proteolipid protein enriched in peripheral myelinating and non-myelinating Schwann cells",
+      "decision_reason": "High-confidence peripheral glial (L2) cell marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M04",
+      "marker": "CDH19",
+      "marker_original": "CDH19",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Schwann cell",
+      "cell_type_original": "Schwann cells",
+      "author_cluster_id": "Cluster_Schwann_Cells",
+      "species": "human",
+      "organ_or_tissue": "tumor stroma / peripheral nerve",
+      "experimental_context": "snRNA-seq and snATAC-seq in human neuroblastoma stroma",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Cadherin 19 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: CDH19 specifically marks Schwann cells",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CDH19 displayed in Dotplot marking Schwann cells",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Type II classical cadherin uniquely restricted to neural crest-derived Schwann cell precursor and Schwann lineage",
+      "decision_reason": "High-confidence peripheral glial (L2) cell marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M05",
+      "marker": "CD163",
+      "marker_original": "CD163",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Macrophage",
+      "cell_type_original": "Macrophages",
+      "author_cluster_id": "Cluster_Macrophages",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "experimental_context": "snRNA-seq, snATAC-seq, and CODEX multiplex imaging",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "CD163 molecule transcript and cell-surface glycoprotein",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d; CODEX imaging Fig. 4",
+      "source_context": "Dotplot marker genes: CD163 marks macrophages; verified by CODEX as CD163+CD68hi tumor-associated macrophages",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CD163 displayed in Dotplot marking Macrophages",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq / CODEX multiplex immunofluorescence",
+      "gate_definition": null,
+      "notes": "Immunosuppressive tumor-associated macrophage marker expanding significantly after chemotherapy",
+      "decision_reason": "Direct visual dotplot and multiplex histology evidence"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M06",
+      "marker": "CD86",
+      "marker_original": "CD86",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Macrophage",
+      "cell_type_original": "Macrophages",
+      "author_cluster_id": "Cluster_Macrophages",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "experimental_context": "snRNA-seq and snATAC-seq in human neuroblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CD86 molecule transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: CD86 marks macrophages",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CD86 displayed in Dotplot marking Macrophages",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Costimulatory molecule on myeloid antigen-presenting cells and macrophages",
+      "decision_reason": "Direct visual dotplot evidence marking macrophage population"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M07",
+      "marker": "IRF8",
+      "marker_original": "IRF8",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Dendritic cell",
+      "cell_type_original": "Dendritic cells",
+      "author_cluster_id": "Cluster_Dendritic_Cells",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "experimental_context": "snRNA-seq and snATAC-seq in human neuroblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Interferon regulatory factor 8 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: IRF8 marks dendritic cells",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "IRF8 displayed in Dotplot marking Dendritic cells",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Essential lineage-determining transcription factor for cDC1 dendritic cells",
+      "decision_reason": "Direct visual dotplot evidence defining dendritic cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M08",
+      "marker": "FLT3",
+      "marker_original": "FLT3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Dendritic cell",
+      "cell_type_original": "Dendritic cells",
+      "author_cluster_id": "Cluster_Dendritic_Cells",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "experimental_context": "snRNA-seq and snATAC-seq in human neuroblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Fms related receptor tyrosine kinase 3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: FLT3 marks dendritic cells",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "FLT3 displayed in Dotplot marking Dendritic cells",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Key cytokine receptor mediating conventional dendritic cell development and survival",
+      "decision_reason": "Direct visual dotplot evidence defining dendritic cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M09",
+      "marker": "PECAM1",
+      "marker_original": "PECAM1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Endothelial cell",
+      "cell_type_original": "Endothelial cells",
+      "author_cluster_id": "Cluster_Endothelial_Cells",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "experimental_context": "snRNA-seq and snATAC-seq in human neuroblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Platelet and endothelial cell adhesion molecule 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: PECAM1 marks endothelial cells",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "PECAM1 displayed in Dotplot marking Endothelial cells",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Endothelial cell adhesion molecule marking tumor microvasculature",
+      "decision_reason": "Direct visual dotplot evidence defining vascular endothelial cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02158-6_M10",
+      "marker": "PTPRB",
+      "marker_original": "PTPRB",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Endothelial cell",
+      "cell_type_original": "Endothelial cells",
+      "author_cluster_id": "Cluster_Endothelial_Cells",
+      "species": "human",
+      "organ_or_tissue": "tumor microenvironment",
+      "experimental_context": "snRNA-seq and snATAC-seq in human neuroblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Protein tyrosine phosphatase receptor type B transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1143, Fig. 1d",
+      "source_context": "Dotplot marker genes: PTPRB marks endothelial cells",
+      "sources": [
+        {
+          "file": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+          "pdf_page": 2,
+          "printed_page": 1143,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "PTPRB displayed in Dotplot marking Endothelial cells",
+          "mapping_basis": "Figure dotplot cluster assignment"
+        }
+      ],
+      "validation_method": "snRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Vascular endothelial-specific receptor phosphatase involved in vessel stabilization",
+      "decision_reason": "Direct visual dotplot evidence defining endothelial cells"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Genetics article (40 pages including main text Figures 1-4, Extended Data Figures 1-10, Methods, and dotplot marker panels).",
+    "missing_materials": "External Supplementary Tables 1-10 (full DEG lists) not locally provided.",
+    "potential_leakage_scope": "Chromatin accessibility peak-to-gene linkage factors and whole-genome somatic copy number segments."
+  }
+}

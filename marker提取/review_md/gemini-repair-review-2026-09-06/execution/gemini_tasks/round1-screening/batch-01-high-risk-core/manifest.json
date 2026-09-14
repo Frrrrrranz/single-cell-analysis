@@ -1,0 +1,77 @@
+{
+  "round": "round1-screening",
+  "batch_id": "batch-01-high-risk-core",
+  "model_configuration": {
+    "model_name": "Gemini 3.8 Flash",
+    "reasoning_effort": "high",
+    "role": "first_round_screening_and_evidence_collection",
+    "authority": "recommendation_only",
+    "forbidden_writes": [
+      "marker提取/表单/our_markers.xlsx",
+      "marker提取/表单/our_markers_by_cell.xlsx",
+      "historical_deliveries",
+      "codex_final_adjudication_registry"
+    ]
+  },
+  "baseline_files": {
+    "our_markers.xlsx": {
+      "path": "marker提取/表单/our_markers.xlsx",
+      "sha256": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+      "total_rows": 2499,
+      "schema_version": "v2"
+    },
+    "our_markers_by_cell.xlsx": {
+      "path": "marker提取/表单/our_markers_by_cell.xlsx",
+      "sha256": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+    }
+  },
+  "batch_scope": {
+    "description": "Batch 1 High-Risk Core Papers Screening: focusing on gene-cell mispairings, cross-paper borrowed references, measurement entity errors, ambiguous family symbols, and previous unresolved items.",
+    "target_papers": [
+      "DOI_10.7554_elife.62522",
+      "DOI_10.1038_s41467-024-52052-8",
+      "DOI_10.1016_j.isci.2024.111628",
+      "DOI_10.1038_s41588-022-01243-4",
+      "DOI_10.1126_science.aat5031"
+    ],
+    "baseline_markers_in_batch": 196,
+    "total_baseline_markers": 2499
+  },
+  "input_materials": [
+    {
+      "material_id": "MAT_01",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "relative_path": "marker提取/pdf/PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+      "verified_page": 4,
+      "panel": "Fig. 1B, Fig. 1D"
+    },
+    {
+      "material_id": "MAT_02",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "relative_path": "marker提取/pdf/PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+      "verified_page": 3,
+      "panel": "Fig. 1 (full), Fig. 1d/h"
+    },
+    {
+      "material_id": "MAT_03",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "relative_path": "marker提取/pdf/PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+      "verified_page": 6,
+      "panel": "Main text p. 6 & Fig. 1E"
+    },
+    {
+      "material_id": "MAT_04",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "relative_path": "marker提取/pdf/PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+      "verified_page": 34,
+      "panel": "Extended Data Fig. 10g & p. 35 Legend"
+    },
+    {
+      "material_id": "MAT_05",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "relative_path": "marker提取/pdf/PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+      "verified_page": 13,
+      "panel": "Fig. 1 (full plate on p. 13)"
+    }
+  ]
+}

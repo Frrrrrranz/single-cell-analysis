@@ -1,0 +1,720 @@
+{
+  "round2UnitKeys": [
+    "screening_unit_id",
+    "batch_id",
+    "stable_id",
+    "is_baseline_record",
+    "round1_review_id",
+    "paper_id",
+    "source_record_refs",
+    "baseline_marker_ids",
+    "current_baseline_values",
+    "round1_values",
+    "luna_semantic_decision",
+    "luna_suggested_table_action",
+    "authority",
+    "independent_judgment",
+    "round1_suggestion",
+    "round1_disagreement",
+    "evidence_ids",
+    "evidence_locator",
+    "actual_checked_scope",
+    "evidence_support_status",
+    "unresolved_gap",
+    "stop_reason",
+    "affects_baseline_accuracy",
+    "requires_astra_review"
+  ],
+  "round2UnitSample": [
+    {
+      "screening_unit_id": "round1:REV_B1_M00013",
+      "batch_id": "batch-01-high-risk-core",
+      "stable_id": "M00013",
+      "is_baseline_record": true,
+      "round1_review_id": "REV_B1_M00013",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "source_record_refs": [
+        {
+          "source": "our_markers.xlsx",
+          "marker_id": "M00013"
+        }
+      ],
+      "baseline_marker_ids": [
+        "M00013"
+      ],
+      "current_baseline_values": {
+        "marker_id": "M00013",
+        "paper_id": "DOI_10.1038_s41588-022-01243-4",
+        "gene_symbol": "NFASC",
+        "original_symbol": "NFASC",
+        "cell_type": "myelinating Schwann cells (mSchwann)",
+        "subtype": null,
+        "species": "human",
+        "evidence_type": "author_declared",
+        "marker_polarity": "positive",
+        "four_layer_category": null,
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "source_context": "we identified the following four new clusters relating to airway peripheral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP, MBP and PRX), ... nonmyelinating Schwann cells (nmSchwann) (NGFR, SCN7A, CHD2, L1CAM and NCAM1); nmSchwann and mSchwann cell marker genes were enriched in cell adhesion and myelination gene sets.",
+        "notes": "Batch1 复核 D 门顺带升级：四新簇命名句 'myelinating Schwann cells (mSchwann) (NFASC, NCMAP, MBP and PRX)'",
+        "audit_status": "audited_include",
+        "citation_verified": true,
+        "audit_model": "deepseek-v4-flash"
+      },
+      "round1_values": {
+        "marker_original": "NFASC",
+        "gene_symbol": "NFASC",
+        "cell_type": "myelinating Schwann cells (mSchwann)",
+        "subtype": null,
+        "species": "human",
+        "measurement_type": "RNA",
+        "marker_polarity": "positive",
+        "four_layer_category": "outside",
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "source_context": "we identified the following four new clusters relating to airway peripheral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP, MBP and PRX), ... nonmyelinating Schwann cells (nmSchwann) (NGFR, SCN7A, CHD2, L1CAM and NCAM1); nmSchwann and mSchwann cell marker genes were enriched in cell adhesion and myelination gene sets."
+      },
+      "luna_semantic_decision": "include",
+      "luna_suggested_table_action": "no_change",
+      "authority": "Luna建议; Astra最终裁决",
+      "independent_judgment": "独立复核 current row、首轮来源定位以及对应论文 Markdown/证据图后，未发现足以改变 gene-cell 关系、物种、条件或模态的证据。共享证据面板只作为定位入口，逐条按稳定 ID 与来源引用判断。",
+      "round1_suggestion": {
+        "semantic": "include",
+        "table_action": "no_change",
+        "risk_type": "none",
+        "risk_reason": "实核 Nat Genet 原文及补充材料：人支气管黏膜下腺（SMG）及气道上皮各亚型 marker 定义严谨，物种全部为 human，引文与定位真实可靠，基线记录准确。"
+      },
+      "round1_disagreement": "与 Gemini 的保留方向一致；若首轮 action 为 hold，则 Luna建议已完成定向核查但保留该条首轮风险说明。",
+      "evidence_ids": [
+        "EVID_04"
+      ],
+      "evidence_locator": {
+        "markdown": {
+          "path": "marker提取/review_md/DOI_10.1038_s41588-022-01243-4.md",
+          "lines": [
+            103
+          ],
+          "confidence": "targeted_gene_or_context_match"
+        },
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "paper_specific_check": "source_locator + current row + referenced evidence item"
+      },
+      "actual_checked_scope": "实际查看首轮列出的证据项（图/图注或直接文本）以及本论文本地 Markdown 的定位文本；逐条以该记录的 gene/cell/source_locator 核对。",
+      "evidence_support_status": "supported",
+      "unresolved_gap": null,
+      "stop_reason": "无额外停止条件。",
+      "affects_baseline_accuracy": false,
+      "requires_astra_review": false
+    },
+    {
+      "screening_unit_id": "round1:REV_B1_M00014",
+      "batch_id": "batch-01-high-risk-core",
+      "stable_id": "M00014",
+      "is_baseline_record": true,
+      "round1_review_id": "REV_B1_M00014",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "source_record_refs": [
+        {
+          "source": "our_markers.xlsx",
+          "marker_id": "M00014"
+        }
+      ],
+      "baseline_marker_ids": [
+        "M00014"
+      ],
+      "current_baseline_values": {
+        "marker_id": "M00014",
+        "paper_id": "DOI_10.1038_s41588-022-01243-4",
+        "gene_symbol": "NCMAP",
+        "original_symbol": "NCMAP",
+        "cell_type": "myelinating Schwann cells (mSchwann)",
+        "subtype": null,
+        "species": "human",
+        "evidence_type": "author_declared",
+        "marker_polarity": "positive",
+        "four_layer_category": null,
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "source_context": "we identified the following four new clusters relating to airway peripheral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP, MBP and PRX), ... nonmyelinating Schwann cells (nmSchwann) (NGFR, SCN7A, CHD2, L1CAM and NCAM1); nmSchwann and mSchwann cell marker genes were enriched in cell adhesion and myelination gene sets.",
+        "notes": "Batch1 复核 D 门顺带升级：同 M00013",
+        "audit_status": "audited_include",
+        "citation_verified": true,
+        "audit_model": "deepseek-v4-flash"
+      },
+      "round1_values": {
+        "marker_original": "NCMAP",
+        "gene_symbol": "NCMAP",
+        "cell_type": "myelinating Schwann cells (mSchwann)",
+        "subtype": null,
+        "species": "human",
+        "measurement_type": "RNA",
+        "marker_polarity": "positive",
+        "four_layer_category": "outside",
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "source_context": "we identified the following four new clusters relating to airway peripheral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP, MBP and PRX), ... nonmyelinating Schwann cells (nmSchwann) (NGFR, SCN7A, CHD2, L1CAM and NCAM1); nmSchwann and mSchwann cell marker genes were enriched in cell adhesion and myelination gene sets."
+      },
+      "luna_semantic_decision": "include",
+      "luna_suggested_table_action": "no_change",
+      "authority": "Luna建议; Astra最终裁决",
+      "independent_judgment": "独立复核 current row、首轮来源定位以及对应论文 Markdown/证据图后，未发现足以改变 gene-cell 关系、物种、条件或模态的证据。共享证据面板只作为定位入口，逐条按稳定 ID 与来源引用判断。",
+      "round1_suggestion": {
+        "semantic": "include",
+        "table_action": "no_change",
+        "risk_type": "none",
+        "risk_reason": "实核 Nat Genet 原文及补充材料：人支气管黏膜下腺（SMG）及气道上皮各亚型 marker 定义严谨，物种全部为 human，引文与定位真实可靠，基线记录准确。"
+      },
+      "round1_disagreement": "与 Gemini 的保留方向一致；若首轮 action 为 hold，则 Luna建议已完成定向核查但保留该条首轮风险说明。",
+      "evidence_ids": [
+        "EVID_04"
+      ],
+      "evidence_locator": {
+        "markdown": {
+          "path": "marker提取/review_md/DOI_10.1038_s41588-022-01243-4.md",
+          "lines": [
+            103
+          ],
+          "confidence": "targeted_gene_or_context_match"
+        },
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "paper_specific_check": "source_locator + current row + referenced evidence item"
+      },
+      "actual_checked_scope": "实际查看首轮列出的证据项（图/图注或直接文本）以及本论文本地 Markdown 的定位文本；逐条以该记录的 gene/cell/source_locator 核对。",
+      "evidence_support_status": "supported",
+      "unresolved_gap": null,
+      "stop_reason": "无额外停止条件。",
+      "affects_baseline_accuracy": false,
+      "requires_astra_review": false
+    },
+    {
+      "screening_unit_id": "round1:REV_B1_M00015",
+      "batch_id": "batch-01-high-risk-core",
+      "stable_id": "M00015",
+      "is_baseline_record": true,
+      "round1_review_id": "REV_B1_M00015",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "source_record_refs": [
+        {
+          "source": "our_markers.xlsx",
+          "marker_id": "M00015"
+        }
+      ],
+      "baseline_marker_ids": [
+        "M00015"
+      ],
+      "current_baseline_values": {
+        "marker_id": "M00015",
+        "paper_id": "DOI_10.1038_s41588-022-01243-4",
+        "gene_symbol": "MBP",
+        "original_symbol": "MBP",
+        "cell_type": "myelinating Schwann cells (mSchwann)",
+        "subtype": null,
+        "species": "human",
+        "evidence_type": "author_declared",
+        "marker_polarity": "positive",
+        "four_layer_category": null,
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "source_context": "we identified the following four new clusters relating to airway peripheral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP, MBP and PRX), ... nonmyelinating Schwann cells (nmSchwann) (NGFR, SCN7A, CHD2, L1CAM and NCAM1); nmSchwann and mSchwann cell marker genes were enriched in cell adhesion and myelination gene sets.",
+        "notes": "Batch1 复核 D 门顺带升级：同 M00013",
+        "audit_status": "audited_include",
+        "citation_verified": true,
+        "audit_model": "deepseek-v4-flash"
+      },
+      "round1_values": {
+        "marker_original": "MBP",
+        "gene_symbol": "MBP",
+        "cell_type": "myelinating Schwann cells (mSchwann)",
+        "subtype": null,
+        "species": "human",
+        "measurement_type": "RNA",
+        "marker_polarity": "positive",
+        "four_layer_category": "outside",
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "source_context": "we identified the following four new clusters relating to airway peripheral nerves: myelinating Schwann cells (mSchwann) (NFASC, NCMAP, MBP and PRX), ... nonmyelinating Schwann cells (nmSchwann) (NGFR, SCN7A, CHD2, L1CAM and NCAM1); nmSchwann and mSchwann cell marker genes were enriched in cell adhesion and myelination gene sets."
+      },
+      "luna_semantic_decision": "include",
+      "luna_suggested_table_action": "no_change",
+      "authority": "Luna建议; Astra最终裁决",
+      "independent_judgment": "独立复核 current row、首轮来源定位以及对应论文 Markdown/证据图后，未发现足以改变 gene-cell 关系、物种、条件或模态的证据。共享证据面板只作为定位入口，逐条按稳定 ID 与来源引用判断。",
+      "round1_suggestion": {
+        "semantic": "include",
+        "table_action": "no_change",
+        "risk_type": "none",
+        "risk_reason": "实核 Nat Genet 原文及补充材料：人支气管黏膜下腺（SMG）及气道上皮各亚型 marker 定义严谨，物种全部为 human，引文与定位真实可靠，基线记录准确。"
+      },
+      "round1_disagreement": "与 Gemini 的保留方向一致；若首轮 action 为 hold，则 Luna建议已完成定向核查但保留该条首轮风险说明。",
+      "evidence_ids": [
+        "EVID_04"
+      ],
+      "evidence_locator": {
+        "markdown": {
+          "path": "marker提取/review_md/DOI_10.1038_s41588-022-01243-4.md",
+          "lines": [
+            104
+          ],
+          "confidence": "targeted_gene_or_context_match"
+        },
+        "source_locator": "Results, section 'Four distinct cell types in airway peripheral nerves'; Extended Data Fig. 5a,b",
+        "paper_specific_check": "source_locator + current row + referenced evidence item"
+      },
+      "actual_checked_scope": "实际查看首轮列出的证据项（图/图注或直接文本）以及本论文本地 Markdown 的定位文本；逐条以该记录的 gene/cell/source_locator 核对。",
+      "evidence_support_status": "supported",
+      "unresolved_gap": null,
+      "stop_reason": "无额外停止条件。",
+      "affects_baseline_accuracy": false,
+      "requires_astra_review": false
+    }
+  ],
+  "evidenceKeys": [
+    "EVID_01",
+    "EVID_02",
+    "EVID_03",
+    "EVID_04",
+    "EVID_05",
+    "EVID_06",
+    "EVID_07",
+    "EVID_08",
+    "EVID_09",
+    "EVID_10",
+    "EVID_11",
+    "EVID_12",
+    "EVID_13",
+    "EVID_14"
+  ],
+  "evidenceSample": {
+    "EVID_01": {
+      "evidence_id": "EVID_01",
+      "existing_round1_entry": {
+        "evidence_id": "EVID_01",
+        "paper_id": "DOI_10.7554_elife.62522",
+        "pdf_page": 4,
+        "figure_panel": "Fig. 1B and 1D",
+        "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+        "full_image_sha256": "154e3727ad1212ee00763689775fb1d1850c8a03ceac368bdc8d47d0e545a2e4",
+        "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1D_dotplot_detail.png",
+        "detail_image_sha256": "f4d02d89656929e73b7d1b063c824f9c0d5ed79941f9e57b12cfccfe5397cc92",
+        "verbatim_quote": "Fig. 1D panel label: 'RIMS2' in PNEC row. Fig. 1B panel label: 'ASCL1' open chromatin accessibility peak in PNEC.",
+        "visual_observation": "实地查看 PDF 第 4 页 Fig. 1D 点图：PNEC 对应的主标签确为 RIMS2，Fig. 1B 展示 PNEC 开放峰包含 ASCL1；该图面板中完全未见 CALCA 与 CHGA 标签。LAMC3 对应的主群为 Chondro.（软骨细胞），Pericyte 对应的标签为 NTRK3；FCN1 对应的主群为 Monocytes，Interstitial macrophage 对应的标签为 FOLR2。CA4 对应 Cap1/Cap2 毛细血管内皮。",
+        "verdict_impact": "纠正此前 Codex 误记为 CHGB，确认 Fig. 1D 的 PNEC 基因确为 RIMS2；保留 RIMS2 作为待入库候选；确认 LAMC3 与 FCN1 在修补中存在细胞配对错位，原配对须撤销；CALCA/CHGA 撤销原图引文并保持未决。",
+        "target_genes_cells": [
+          {
+            "gene": "RIMS2",
+            "cell": "PNEC (Pulmonary neuroendocrine cell)",
+            "finding": "confirmed_candidate_in_Fig1D"
+          },
+          {
+            "gene": "ASCL1",
+            "cell": "PNEC",
+            "finding": "confirmed_chromatin_accessibility_in_Fig1B"
+          },
+          {
+            "gene": "CALCA / CHGA",
+            "cell": "PNEC",
+            "finding": "not_present_in_Fig1_panel"
+          },
+          {
+            "gene": "LAMC3",
+            "cell": "Chondrocytes (not Pericyte)",
+            "finding": "mispaired_in_repair_repair_claimed_pericyte"
+          },
+          {
+            "gene": "NTRK3",
+            "cell": "Pericyte",
+            "finding": "actual_panel_marker_for_pericyte"
+          },
+          {
+            "gene": "FCN1",
+            "cell": "Monocytes (not Interstitial macrophage)",
+            "finding": "mispaired_in_repair_repair_claimed_interstitial_macrophage"
+          },
+          {
+            "gene": "FOLR2",
+            "cell": "Interstitial macrophage",
+            "finding": "actual_panel_marker_for_interstitial_macrophage"
+          }
+        ]
+      },
+      "path": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+      "path_exists": true,
+      "sha256": "154e3727ad1212ee00763689775fb1d1850c8a03ceac368bdc8d47d0e545a2e4",
+      "actual_viewed_by_luna": true,
+      "view_scope": "eLife Fig.1B/1D p4 full/detail; PNEC-RIMS2, PNEC-ASCL1, chondrocyte-LAMC3, pericyte-NTRK3, monocyte-FCN1, interstitial macrophage-FOLR2 labels"
+    },
+    "EVID_02": {
+      "evidence_id": "EVID_02",
+      "existing_round1_entry": {
+        "evidence_id": "EVID_02",
+        "paper_id": "DOI_10.1038_s41467-024-52052-8",
+        "pdf_page": 3,
+        "figure_panel": "Fig. 1 (full page) and Fig. 1d/h",
+        "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1_full.png",
+        "full_image_sha256": "b8874bb63d911357c2e9116cb3f91a01a97a31e00d59bf13a930fe7a536a386e",
+        "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1d_heatmap_detail.png",
+        "detail_image_sha256": "a34e86e06fe8f20ab651efb91ce04bf2e35f34cad4f91f6f29c7ad9ade8af9b2",
+        "verbatim_quote": "Fig. 1 | iPain: an integrated atlas of somatosensory changes across diverse pain conditions. ... (d) Heatmap showing marker gene expression across DRG cell clusters.",
+        "visual_observation": "实地核实 PDF 第 3 页真实 Fig. 1：巨噬细胞 (Macrophage) 的标注基因为 H2-Eb1、H2-Aa、H2-Ab1，根本不存在 Cd86 标签。在当前可见的 Fig. 1d 面板中，未见 Calca、Mrgprd、Piezo2 的明确独立文字标签。因此绝不凭常识推断已观察到，如实记录当前主图面板未观察到直接标注，这三项继续维持待核（pending_verification）。",
+        "verdict_impact": "证实修补 JSON 中的 Cd86—Macrophage 系错误挪用其他论文裁决，撤销该虚假来源并坚决拒绝入库；Calca/Mrgprd/Piezo2 维持待核，不因推断而擅自判为通过。",
+        "target_genes_cells": [
+          {
+            "gene": "H2-Eb1, H2-Aa, H2-Ab1",
+            "cell": "Macrophage",
+            "finding": "actual_panel_markers"
+          },
+          {
+            "gene": "Cd86",
+            "cell": "Macrophage",
+            "finding": "absent_fabricated_cross_paper_reference"
+          },
+          {
+            "gene": "Calca, Mrgprd, Piezo2",
+            "cell": "Nociceptors (PEP, NP, C-LTMR)",
+            "finding": "not_directly_readable_in_current_main_panel_maintain_pending"
+          }
+        ]
+      },
+      "path": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1_full.png",
+      "path_exists": true,
+      "sha256": "b8874bb63d911357c2e9116cb3f91a01a97a31e00d59bf13a930fe7a536a386e",
+      "actual_viewed_by_luna": true,
+      "view_scope": "iPain Fig.1 p3 full/detail; macrophage H2-Eb1/H2-Aa/H2-Ab1 labels and DRG/TG cell panels"
+    },
+    "EVID_03": {
+      "evidence_id": "EVID_03",
+      "existing_round1_entry": {
+        "evidence_id": "EVID_03",
+        "paper_id": "DOI_10.1016_j.isci.2024.111628",
+        "pdf_page": 6,
+        "figure_panel": "Main text p. 6 & Fig. 1E",
+        "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+        "full_image_sha256": "828fb9584b637a5376d4358ea95cca2424ad42dfcb23cd280664154beedd365c",
+        "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_full.png",
+        "detail_image_sha256": "94d175f90fe8ac9d3cde8b169ecc061b0be6a20fbd787267c2840f2737149366",
+        "verbatim_quote": "Lastly, we identiﬁed a single Schwann cell cluster (CDH19+/NRXN+/XKR4+).20",
+        "visual_observation": "实地查看宽幅无截断截屏：整句 'Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+).' 完整保留，前置引用标号完整。正文作者明确将该群定名为 Schwann cell，修补 JSON 的细胞定名完全正确，纠正了此前销项表误称的'固有层间质/肌成纤维细胞'；基因符号为家族通称 NRXN+，未指明具体为 NRXN1/2/3。",
+        "verdict_impact": "证实修补 JSON 中细胞分类 Schwann cell 正确无误；确认 NRXN+ 无法唯一解析到 NRXN1，应保持 unresolved。",
+        "target_genes_cells": [
+          {
+            "gene": "CDH19",
+            "cell": "Schwann cell",
+            "finding": "confirmed_author_declared"
+          },
+          {
+            "gene": "NRXN+ (NRXN1)",
+            "cell": "Schwann cell",
+            "finding": "unresolved_ambiguous_family_symbol"
+          },
+          {
+            "gene": "XKR4",
+            "cell": "Schwann cell",
+            "finding": "confirmed_author_declared"
+          }
+        ]
+      },
+      "path": "marker_Gemini_evidence_v3/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+      "path_exists": true,
+      "sha256": "828fb9584b637a5376d4358ea95cca2424ad42dfcb23cd280664154beedd365c",
+      "actual_viewed_by_luna": true,
+      "view_scope": "bladder Fig.1 p6 crops; Schwann cluster CDH19+/NRXN+/XKR4+"
+    }
+  },
+  "crosswalkSampleKeys": [
+    "paper_id",
+    "category",
+    "repair_record_id",
+    "original_record_id",
+    "mapping_type",
+    "mapping_notes",
+    "total_table_marker_ids",
+    "marker",
+    "marker_original",
+    "cell_type",
+    "species",
+    "polarity",
+    "action",
+    "match_key",
+    "reason",
+    "codex_import_status",
+    "gemini_mapping_type",
+    "codex_mapping_status"
+  ],
+  "crosswalkSamples": [
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "category": "formal_markers",
+      "repair_record_id": "DOI_10.1016_j.cell.2021.07.023_M00056",
+      "original_record_id": "none_in_original_gemini",
+      "mapping_type": "baseline_backfill",
+      "mapping_notes": "总表基线回填记录（关联总表 M00056），原 Gemini 提取中无同基因记录。",
+      "total_table_marker_ids": [
+        "M00056"
+      ],
+      "marker": "GIP",
+      "marker_original": "GIP",
+      "cell_type": "Enteroendocrine cells",
+      "species": "human",
+      "polarity": "positive",
+      "action": "baseline_existing",
+      "match_key": "DOI_10.1016_j.cell.2021.07.023|GIP|human|enteroendocrine cells|positive",
+      "reason": "基线已有（关联总表 ID: M00056）。系总表回填重述，未增加独立文献新证据。",
+      "codex_import_status": "not_imported",
+      "gemini_mapping_type": "baseline_backfill",
+      "codex_mapping_status": "retain_provenance_pending_review"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "category": "formal_markers",
+      "repair_record_id": "DOI_10.1016_j.cell.2021.07.023_M00057",
+      "original_record_id": "none_in_original_gemini",
+      "mapping_type": "baseline_backfill",
+      "mapping_notes": "总表基线回填记录（关联总表 M00057），原 Gemini 提取中无同基因记录。",
+      "total_table_marker_ids": [
+        "M00057"
+      ],
+      "marker": "LGR5",
+      "marker_original": "LGR5",
+      "cell_type": "Enteroendocrine cells",
+      "species": "human",
+      "polarity": "positive",
+      "action": "baseline_existing",
+      "match_key": "DOI_10.1016_j.cell.2021.07.023|LGR5|human|enteroendocrine cells|positive",
+      "reason": "基线已有（关联总表 ID: M00057）。系总表回填重述，未增加独立文献新证据。",
+      "codex_import_status": "not_imported",
+      "gemini_mapping_type": "baseline_backfill",
+      "codex_mapping_status": "retain_provenance_pending_review"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "category": "formal_markers",
+      "repair_record_id": "DOI_10.1016_j.cell.2021.07.023_M00895",
+      "original_record_id": "none_in_original_gemini",
+      "mapping_type": "baseline_backfill",
+      "mapping_notes": "总表基线回填记录（关联总表 M00895），原 Gemini 提取中无同基因记录。",
+      "total_table_marker_ids": [
+        "M00895"
+      ],
+      "marker": "CD79A",
+      "marker_original": "CD79A",
+      "cell_type": "B cells",
+      "species": "human",
+      "polarity": "positive",
+      "action": "baseline_existing",
+      "match_key": "DOI_10.1016_j.cell.2021.07.023|CD79A|human|b cells|positive",
+      "reason": "基线已有（关联总表 ID: M00895）。系总表回填重述，未增加独立文献新证据。",
+      "codex_import_status": "not_imported",
+      "gemini_mapping_type": "baseline_backfill",
+      "codex_mapping_status": "retain_provenance_pending_review"
+    }
+  ],
+  "auditRecordSampleKeys": [
+    "paper_id",
+    "record_id",
+    "marker",
+    "cell",
+    "claimed_marker_id",
+    "exact_relation_ids",
+    "same_gene_species_ids",
+    "field_changes"
+  ],
+  "auditRecordSamples": [
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M00056",
+      "marker": "GIP",
+      "cell": "Enteroendocrine cells",
+      "claimed_marker_id": "M00056",
+      "exact_relation_ids": [
+        "M00056"
+      ],
+      "same_gene_species_ids": [
+        "M00056"
+      ],
+      "field_changes": {
+        "four_layer_category": {
+          "baseline": null,
+          "repair": "outside"
+        }
+      }
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M00057",
+      "marker": "LGR5",
+      "cell": "Enteroendocrine cells",
+      "claimed_marker_id": "M00057",
+      "exact_relation_ids": [
+        "M00057"
+      ],
+      "same_gene_species_ids": [
+        "M00057"
+      ],
+      "field_changes": {
+        "four_layer_category": {
+          "baseline": null,
+          "repair": "outside"
+        }
+      }
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M00895",
+      "marker": "CD79A",
+      "cell": "B cells",
+      "claimed_marker_id": "M00895",
+      "exact_relation_ids": [
+        "M00895"
+      ],
+      "same_gene_species_ids": [
+        "M00895"
+      ],
+      "field_changes": {}
+    }
+  ],
+  "previousUnresolvedSamples": [
+    {
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "index": 8,
+      "category": "formal_markers",
+      "raw": {
+        "record_id": "DOI_10.1016_j.cell.2022.11.005_M08",
+        "marker": "COL2A1",
+        "marker_original": "COL2A1",
+        "normalization_basis": "HGNC approved symbol",
+        "cell_type": "Airway Chondrocyte",
+        "cell_type_original": "airway chondrocytes",
+        "author_cluster_id": "Cluster_Chondrocytes",
+        "species": "human",
+        "organ_or_tissue": "fetal lung (tracheobronchial cartilage)",
+        "experimental_context": "scRNA-seq mesenchymal compartment clustering",
+        "four_layer_category": "L3",
+        "measurement_type": "RNA",
+        "entity_detail": "Collagen type II alpha 1 chain transcript",
+        "marker_direction": "positive",
+        "evidence_type": "author_declared",
+        "source_location": "Main Text pp. 4844-4846, Fig. 1e, Fig. 4a",
+        "source_context": "Chondrocytes forming the supportive cartilaginous rings of conducting airways expressed high levels of COL2A1 and SOX9",
+        "sources": [
+          {
+            "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+            "pdf_page": 3,
+            "printed_page": 4843,
+            "figure_panel": "Fig. 1e",
+            "table_locator": null,
+            "evidence_mode": "visual_observation",
+            "source_context": "Mesenchymal UMAP highlighting chondrocyte cluster marked by COL2A1",
+            "mapping_basis": "scRNA-seq mesenchymal cluster annotation"
+          }
+        ],
+        "validation_method": "scRNA-seq",
+        "gate_definition": null,
+        "notes": "Type II collagen, hallmark structural matrix protein of airway hyaline cartilage",
+        "decision_reason": "Specific structural marker of airway chondrocytes"
+      },
+      "cell": "Airway Chondrocyte",
+      "subtype": "",
+      "gene": "COL2A1",
+      "original": "COL2A1",
+      "species": "human",
+      "polarity": "positive",
+      "locator": "Main Text pp. 4844-4846, Fig. 1e, Fig. 4a",
+      "context": "Chondrocytes forming the supportive cartilaginous rings of conducting airways expressed high levels of COL2A1 and SOX9",
+      "action": "unresolved",
+      "reason": "所引 Fig.1e 是发育年龄 UMAP；既有正文未定位 COL2A1/SOX10 对应标记。需具体 marker 面板，不能从细胞名称补写。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "index": 9,
+      "category": "formal_markers",
+      "raw": {
+        "record_id": "DOI_10.1016_j.cell.2022.11.005_M09",
+        "marker": "SOX10",
+        "marker_original": "SOX10",
+        "normalization_basis": "HGNC approved symbol",
+        "cell_type": "Schwann Cell",
+        "cell_type_original": "Schwann cells (peripheral glia)",
+        "author_cluster_id": "Cluster_Schwann_Cells_PNS",
+        "species": "human",
+        "organ_or_tissue": "fetal lung (bronchial innervation)",
+        "experimental_context": "scRNA-seq non-epithelial annotation",
+        "four_layer_category": "L2",
+        "measurement_type": "RNA",
+        "entity_detail": "SOX10 transcript in single cells",
+        "marker_direction": "positive",
+        "evidence_type": "annotation_marker",
+        "source_location": "Main Text pp. 4842-4844, Fig. 1e",
+        "source_context": "Peripheral Schwann cells providing glia ensheathment for developing autonomic nerve fibers were identified by SOX10 and MPZ",
+        "sources": [
+          {
+            "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+            "pdf_page": 3,
+            "printed_page": 4843,
+            "figure_panel": "Fig. 1e",
+            "table_locator": null,
+            "evidence_mode": "visual_observation",
+            "source_context": "UMAP feature plot showing SOX10 marking the peripheral Schwann cell cluster",
+            "mapping_basis": "scRNA-seq peripheral glia cluster"
+          }
+        ],
+        "validation_method": "scRNA-seq",
+        "gate_definition": null,
+        "notes": "Master transcription factor of peripheral glia, marking innervation in the developing lung",
+        "decision_reason": "Peripheral glial marker in fetal lung atlas"
+      },
+      "cell": "Schwann Cell",
+      "subtype": "",
+      "gene": "SOX10",
+      "original": "SOX10",
+      "species": "human",
+      "polarity": "positive",
+      "locator": "Main Text pp. 4842-4844, Fig. 1e",
+      "context": "Peripheral Schwann cells providing glia ensheathment for developing autonomic nerve fibers were identified by SOX10 and MPZ",
+      "action": "unresolved",
+      "reason": "所引 Fig.1e 是发育年龄 UMAP；既有正文未定位 COL2A1/SOX10 对应标记。需具体 marker 面板，不能从细胞名称补写。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "index": 2,
+      "category": "formal_markers",
+      "raw": {
+        "record_id": "DOI_10.1016_j.isci.2024.111628_M02",
+        "marker": "NRXN1",
+        "marker_original": "NRXN",
+        "normalization_basis": "HGNC approved symbol",
+        "cell_type": "Schwann Cell",
+        "cell_type_original": "Schwann cells",
+        "author_cluster_id": "Cluster_Schwann_Cells",
+        "species": "human",
+        "organ_or_tissue": "bladder",
+        "experimental_context": "snRNA-seq stromal analysis",
+        "four_layer_category": "L2",
+        "measurement_type": "RNA",
+        "entity_detail": "Neurexin family transcript",
+        "marker_direction": "positive",
+        "evidence_type": "author_declared",
+        "source_location": "Main Text pp. 3-5, Fig. 1E",
+        "source_context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+        "sources": [
+          {
+            "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+            "pdf_page": 4,
+            "printed_page": 4,
+            "figure_panel": "Fig. 1E",
+            "table_locator": null,
+            "evidence_mode": "text_quote",
+            "source_context": "NRXN is co-defining marker of bladder Schwann cells",
+            "mapping_basis": "snRNA-seq marker signature"
+          }
+        ],
+        "validation_method": "snRNA-seq",
+        "gate_definition": null,
+        "notes": "Synaptic and glial cell adhesion molecule enriched in peripheral glia",
+        "decision_reason": "Cluster defining co-marker in stromal analysis"
+      },
+      "cell": "Schwann Cell",
+      "subtype": "",
+      "gene": "NRXN1",
+      "original": "NRXN",
+      "species": "human",
+      "polarity": "positive",
+      "locator": "Main Text pp. 3-5, Fig. 1E",
+      "context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+      "action": "unresolved",
+      "reason": "正文仅 NRXN+，没有足以唯一指认为 NRXN1 的证据；保留待核。"
+    }
+  ]
+}

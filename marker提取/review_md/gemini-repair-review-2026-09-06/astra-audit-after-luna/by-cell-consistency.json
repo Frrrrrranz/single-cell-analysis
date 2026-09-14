@@ -1,0 +1,11 @@
+{
+  "groups_from_primary": 1058,
+  "published_by_cell_rows": 1058,
+  "marker_set_mismatch_rows": [],
+  "primary_species_counts": {
+    "human": 2079,
+    "mouse": 340,
+    "other": 57,
+    "zebrafish": 12
+  }
+}

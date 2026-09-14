@@ -1,0 +1,457 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+  "doi": "10.1016/j.cell.2022.11.005",
+  "pmid": "36493756",
+  "title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含 Cell 刊出全文 20 页（pp. 4841-4860）、主要图表 Figures 1-7、STAR Methods 及图注说明"
+    },
+    {
+      "material_name": "DOI_10.1016_j.cell.2022.11.005.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，涵盖多能芽尖祖细胞、类器官验证、神经内分泌分化与多组学数据"
+    },
+    {
+      "material_name": "Supplementary Tables S1-S7",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "外部独立补充数据 Excel 表格在本地未单独提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "cluster_name": "Distal epithelial bud tip progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal bud tip)",
+      "four_layer_category": "outside",
+      "description": "人类胎儿肺分支形态发生前沿的多能上皮芽尖祖细胞，特异性高表达转录因子 SOX9、ID2 与 ETV5"
+    },
+    {
+      "cluster_id": "Cluster_PNEC_General",
+      "cluster_name": "Pulmonary neuroendocrine cells (PNECs)",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (proximal airway)",
+      "four_layer_category": "L4",
+      "description": "肺神经内分泌细胞，特征性高表达嗜铬粒蛋白 A (CHGA)、突触素 (SYP)、降钙素相关肽 (CALCA) 与胃泌素释放肽 (GRP)"
+    },
+    {
+      "cluster_id": "Cluster_PNEC_GHRL",
+      "cluster_name": "Ghrelin-producing neuroendocrine cells (GHRL+ NE)",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (airway)",
+      "four_layer_category": "L4",
+      "description": "胎儿肺特异发育阶段出现的神经内分泌亚群，特征性特异产生胃饥饿素 (GHRL)"
+    },
+    {
+      "cluster_id": "Cluster_Basal_Progenitor",
+      "cluster_name": "Airway basal progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (proximal airway stalk)",
+      "four_layer_category": "outside",
+      "description": "近端气道基底祖细胞，高表达 TP63 与细胞角蛋白 KRT5"
+    },
+    {
+      "cluster_id": "Cluster_Ciliated_Lineage",
+      "cluster_name": "Ciliated epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (airway)",
+      "four_layer_category": "outside",
+      "description": "近端气道纤毛上皮细胞，高表达转录因子 FOXJ1 与纤毛蛋白 CAPSL"
+    },
+    {
+      "cluster_id": "Cluster_Chondrocytes",
+      "cluster_name": "Airway chondrocytes",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (cartilaginous airway)",
+      "four_layer_category": "L3",
+      "description": "近端大气道周围软骨细胞，特征性高表达软骨胶原 COL2A1、转录因子 SOX9 与聚集蛋白聚糖 ACAN"
+    },
+    {
+      "cluster_id": "Cluster_Airway_Smooth_Muscle",
+      "cluster_name": "Airway smooth muscle cells (ASM)",
+      "species": "human",
+      "organ_or_tissue": "fetal lung",
+      "four_layer_category": "outside",
+      "description": "气道平滑肌细胞，特征性表达 ACTA2 与肌球蛋白重链 MYH11"
+    },
+    {
+      "cluster_id": "Cluster_Schwann_Cells_PNS",
+      "cluster_name": "Airway Schwann cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (bronchial nerve fibers)",
+      "four_layer_category": "L2",
+      "description": "伴行支气管自主神经纤维的胎儿外周施万细胞，特征性高表达 SOX10、MPZ 与 PLP1"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M01",
+      "marker": "SOX9",
+      "marker_original": "SOX9",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Distal Bud Tip Progenitor",
+      "cell_type_original": "bud tip epithelium",
+      "author_cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal bud tip)",
+      "experimental_context": "scRNA-seq, scATAC-seq, and organoid modeling of fetal lung branching",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Anti-SOX9 antibody and transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4841-4843, Fig. 1a-f, Fig. 2a-e",
+      "source_context": "bud tip epithelium comprises SOX9+, ID2+ multipotent progenitors that self-renew during branching",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 2,
+          "printed_page": 4842,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "bud tip epithelium comprises SOX9+, ID2+ multipotent progenitors that self-renew during branching",
+          "mapping_basis": "scRNA-seq multipotent progenitor marker"
+        }
+      ],
+      "validation_method": "immunofluorescence / organoid_differentiation / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Master transcription factor defining multipotent distal bud tip progenitor state in human lung development",
+      "decision_reason": "Direct author-declared lineage progenitor marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M02",
+      "marker": "ID2",
+      "marker_original": "ID2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Distal Bud Tip Progenitor",
+      "cell_type_original": "bud tip epithelium",
+      "author_cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal bud tip)",
+      "experimental_context": "scRNA-seq proximal-distal gradient analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "ID2 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4842, Fig. 1d-e",
+      "source_context": "tip epithelium comprises SOX9+, ID2+ multipotent progenitors",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 2,
+          "printed_page": 4842,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "tip epithelium comprises SOX9+, ID2+ multipotent progenitors",
+          "mapping_basis": "cluster-defining gene"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Inhibitor of DNA binding 2, hallmark marker co-expressed with SOX9 in distal branching tips",
+      "decision_reason": "Co-defining marker for bud tip multipotent progenitors"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M03",
+      "marker": "CHGA",
+      "marker_original": "CHGA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pulmonary Neuroendocrine Cell",
+      "cell_type_original": "pulmonary neuroendocrine cells (PNECs)",
+      "author_cluster_id": "Cluster_PNEC_General",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (airway)",
+      "experimental_context": "scRNA-seq subclustering and organoid differentiation validation of neuroendocrine programs",
+      "four_layer_category": "L4",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CHGA antibody and single-cell transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4851-4854, Fig. 7a-f",
+      "source_context": "shared classical NE markers (CHGA, SYP), but differed in TF and hormone expression",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 11,
+          "printed_page": 4851,
+          "figure_panel": "Fig. 7a-b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "shared classical NE markers (CHGA, SYP)",
+          "mapping_basis": "neuroendocrine lineage defining marker"
+        }
+      ],
+      "validation_method": "immunofluorescence / organoid_modeling / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Chromogranin A, classical secretory granule marker defining human pulmonary neuroendocrine cells",
+      "decision_reason": "Definitive L4 neuroendocrine lineage marker validated across tissue and organoids"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M04",
+      "marker": "SYP",
+      "marker_original": "SYP",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pulmonary Neuroendocrine Cell",
+      "cell_type_original": "pulmonary neuroendocrine cells (PNECs)",
+      "author_cluster_id": "Cluster_PNEC_General",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (airway)",
+      "experimental_context": "scRNA-seq neuroendocrine lineage profiling",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Synaptophysin transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4851, Fig. 7a-b",
+      "source_context": "shared classical NE markers (CHGA, SYP)",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 11,
+          "printed_page": 4851,
+          "figure_panel": "Fig. 7a-b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "shared classical NE markers (CHGA, SYP)",
+          "mapping_basis": "scRNA-seq NE cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Synaptophysin, pan-neuroendocrine vesicle membrane protein",
+      "decision_reason": "Core L4 neuroendocrine marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M05",
+      "marker": "GHRL",
+      "marker_original": "GHRL",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Ghrelin-producing Neuroendocrine Cell",
+      "cell_type_original": "GHRL+ neuroendocrine cells",
+      "author_cluster_id": "Cluster_PNEC_GHRL",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (airway)",
+      "experimental_context": "scRNA-seq and in situ validation of developmental-specific neuroendocrine subset",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Ghrelin transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4851-4853, Fig. 7a-c",
+      "source_context": "A third NE population clustered between pulmonary and GHRL+ NE cells with intermediate gene expression... specific enrichment of GHRL",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 11,
+          "printed_page": 4851,
+          "figure_panel": "Fig. 7a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "pulmonary and GHRL+ NE cells with intermediate gene expression",
+          "mapping_basis": "novel fetal neuroendocrine subset marker"
+        }
+      ],
+      "validation_method": "scRNA-seq / in_situ_hybridization",
+      "gate_definition": null,
+      "notes": "Ghrelin/obestatin prepropeptide, defines a specialized developmental neuroendocrine cell subpopulation in human fetal lung",
+      "decision_reason": "Distinctive hormone marker defining novel fetal NE subpopulation"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M06",
+      "marker": "TP63",
+      "marker_original": "TP63",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Basal Progenitor Cell",
+      "cell_type_original": "airway basal cells",
+      "author_cluster_id": "Cluster_Basal_Progenitor",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (proximal airway)",
+      "experimental_context": "scRNA-seq proximal airway trajectory",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "TP63 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4843-4845, Fig. 3a-d",
+      "source_context": "Proximal airway basal cells were established by expression of TP63 and KRT5 along the stalk differentiation trajectory",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 4,
+          "printed_page": 4844,
+          "figure_panel": "Fig. 3a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "TP63+ basal progenitors emerging in the proximal airway stalk",
+          "mapping_basis": "scRNA-seq trajectory marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Transformation-related protein 63, master basal stem cell marker",
+      "decision_reason": "Lineage marker for proximal airway basal stem cells"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M07",
+      "marker": "FOXJ1",
+      "marker_original": "FOXJ1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Ciliated Epithelial Cell",
+      "cell_type_original": "ciliated cells",
+      "author_cluster_id": "Cluster_Ciliated_Lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (airway)",
+      "experimental_context": "scRNA-seq ciliated lineage differentiation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "FOXJ1 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4843-4845, Fig. 3a-d",
+      "source_context": "FOXJ1 marked differentiating and mature ciliated cells along the proximal airway branches",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 4,
+          "printed_page": 4844,
+          "figure_panel": "Fig. 3a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ciliated lineage defined by FOXJ1 expression",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Forkhead box J1, definitive ciliated lineage marker",
+      "decision_reason": "Core ciliogenesis lineage marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M08",
+      "marker": "COL2A1",
+      "marker_original": "COL2A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Airway Chondrocyte",
+      "cell_type_original": "airway chondrocytes",
+      "author_cluster_id": "Cluster_Chondrocytes",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (tracheobronchial cartilage)",
+      "experimental_context": "scRNA-seq mesenchymal compartment clustering",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type II alpha 1 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4844-4846, Fig. 1e, Fig. 4a",
+      "source_context": "Chondrocytes forming the supportive cartilaginous rings of conducting airways expressed high levels of COL2A1 and SOX9",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 3,
+          "printed_page": 4843,
+          "figure_panel": "Fig. 1e",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Mesenchymal UMAP highlighting chondrocyte cluster marked by COL2A1",
+          "mapping_basis": "scRNA-seq mesenchymal cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Type II collagen, hallmark structural matrix protein of airway hyaline cartilage",
+      "decision_reason": "Specific structural marker of airway chondrocytes"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M09",
+      "marker": "SOX10",
+      "marker_original": "SOX10",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Schwann Cell",
+      "cell_type_original": "Schwann cells (peripheral glia)",
+      "author_cluster_id": "Cluster_Schwann_Cells_PNS",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (bronchial innervation)",
+      "experimental_context": "scRNA-seq non-epithelial annotation",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "SOX10 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 4842-4844, Fig. 1e",
+      "source_context": "Peripheral Schwann cells providing glia ensheathment for developing autonomic nerve fibers were identified by SOX10 and MPZ",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 3,
+          "printed_page": 4843,
+          "figure_panel": "Fig. 1e",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP feature plot showing SOX10 marking the peripheral Schwann cell cluster",
+          "mapping_basis": "scRNA-seq peripheral glia cluster"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Master transcription factor of peripheral glia, marking innervation in the developing lung",
+      "decision_reason": "Peripheral glial marker in fetal lung atlas"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M10",
+      "marker": "ACTA2",
+      "marker_original": "ACTA2 (SMA)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Airway Smooth Muscle Cell",
+      "cell_type_original": "airway smooth muscle (ASM)",
+      "author_cluster_id": "Cluster_Airway_Smooth_Muscle",
+      "species": "human",
+      "organ_or_tissue": "fetal lung",
+      "experimental_context": "scRNA-seq mesenchymal sub-clustering",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Alpha smooth muscle actin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 4842-4845, Fig. 1e, Fig. 4a",
+      "source_context": "Smooth muscle cells surrounding developing bronchial stalks were mapped by ACTA2 and TAGLN",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 3,
+          "printed_page": 4843,
+          "figure_panel": "Fig. 1e",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP plot showing smooth muscle cluster defined by ACTA2",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Alpha smooth muscle actin, hallmark contractile marker of airway smooth muscle",
+      "decision_reason": "Conserved smooth muscle lineage marker"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Cell article (20 pages including main text figures 1-7, STAR Methods, and accompanying legends).",
+    "missing_materials": "Supplementary Tables S1-S7 standalone Excel files not provided locally.",
+    "potential_leakage_scope": "Extensive transcription factor regulon networks and pseudotime gene lists (Figures 5-6) beyond the core lineage and neuroendocrine markers."
+  }
+}

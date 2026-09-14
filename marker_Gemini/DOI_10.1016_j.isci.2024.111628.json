@@ -1,0 +1,575 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1016_j.isci.2024.111628",
+  "doi": "10.1016/j.isci.2024.111628",
+  "pmid": "39850354",
+  "title": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "iScience 刊出全文，包含主要图表 Figures 1-4、STAR Methods 及详细图注说明"
+    },
+    {
+      "material_name": "DOI_10.1016_j.isci.2024.111628.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述人膀胱各解剖区域单细胞与单核转录组对比及各细胞亚群 Marker 表达"
+    },
+    {
+      "material_name": "Supplementary Figures S1-S4 & Supplementary Tables S1-S7",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对应补图补表描述和差异基因列表已审阅，外部大文件 Excel 表格本地未独立提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Schwann_Cells",
+      "cluster_name": "Schwann cells",
+      "species": "human",
+      "organ_or_tissue": "bladder",
+      "four_layer_category": "L2",
+      "description": "膀胱壁伴行神经周围施万细胞，在 snRNA-seq 中显著富集（87.5% 单核来源），特异性表达 CDH19、NRXN1 与 XKR4"
+    },
+    {
+      "cluster_id": "Cluster_Urothelial_Umbrella",
+      "cluster_name": "Umbrella cells",
+      "species": "human",
+      "organ_or_tissue": "bladder (urothelium)",
+      "four_layer_category": "outside",
+      "description": "膀胱尿路上皮表层伞细胞，具有高透屏障功能，特征性高表达尿菌斑蛋白 UPK2、UPK3A、UPK3B 与细胞角蛋白 KRT20"
+    },
+    {
+      "cluster_id": "Cluster_Urothelial_Intermediate",
+      "cluster_name": "Intermediate urothelial cells",
+      "species": "human",
+      "organ_or_tissue": "bladder (urothelium)",
+      "four_layer_category": "outside",
+      "description": "膀胱尿路上皮中间层细胞，表达 UPK1B 与 KRT19"
+    },
+    {
+      "cluster_id": "Cluster_Urothelial_Basal",
+      "cluster_name": "Basal urothelial cells",
+      "species": "human",
+      "organ_or_tissue": "bladder (urothelium)",
+      "four_layer_category": "outside",
+      "description": "膀胱尿路上皮基底层祖细胞，高表达 TP63 与 KRT5"
+    },
+    {
+      "cluster_id": "Cluster_Fibroblast_Lamina_Propria",
+      "cluster_name": "Lamina propria fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "bladder (lamina propria)",
+      "four_layer_category": "outside",
+      "description": "膀胱固有层成纤维细胞，特征性高表达 GAS1、PCOLCE2、PI16 与 MFAP5"
+    },
+    {
+      "cluster_id": "Cluster_Fibroblast_Peri_Urothelial",
+      "cluster_name": "Peri-urothelial fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "bladder (sub-urothelial)",
+      "four_layer_category": "outside",
+      "description": "紧邻尿路上皮基底膜的成纤维细胞亚群，特异性高表达 LAMC3、PTCH1 与 APOE"
+    },
+    {
+      "cluster_id": "Cluster_Fibroblast_Intra_Muscular",
+      "cluster_name": "Intra-muscular fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "bladder (muscularis propria)",
+      "four_layer_category": "outside",
+      "description": "位于逼尿肌束之间的肌内成纤维细胞，特征性表达补体成分 C7 且缺乏 PCOLCE2"
+    },
+    {
+      "cluster_id": "Cluster_Fibroblast_CXCL14hi",
+      "cluster_name": "CXCL14hi fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "bladder",
+      "four_layer_category": "outside",
+      "description": "高表达趋化因子 CXCL14、磷脂酰肌醇蛋白聚糖 GPC3 与神经生长因子受体 NGFR 的成纤维细胞亚群"
+    },
+    {
+      "cluster_id": "Cluster_Smooth_Muscle_General",
+      "cluster_name": "Smooth muscle cells",
+      "species": "human",
+      "organ_or_tissue": "bladder (detrusor muscle)",
+      "four_layer_category": "outside",
+      "description": "膀胱逼尿肌平滑肌细胞，特征性高表达 ACTA2、ACTG2 与结蛋白 DES"
+    },
+    {
+      "cluster_id": "Cluster_Vascular_Smooth_Muscle",
+      "cluster_name": "Vascular smooth muscle cells / Pericytes",
+      "species": "human",
+      "organ_or_tissue": "bladder (vasculature)",
+      "four_layer_category": "outside",
+      "description": "血管平滑肌与周细胞群，特异性高表达 RGS5、NOTCH3 与 MCAM (CD146)"
+    },
+    {
+      "cluster_id": "Cluster_Endothelial_Venous",
+      "cluster_name": "Venous endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "bladder (vasculature)",
+      "four_layer_category": "outside",
+      "description": "静脉内皮细胞，特异性表达选择素 SELP 与神经纤维素 NRP1"
+    },
+    {
+      "cluster_id": "Cluster_Endothelial_Arterial",
+      "cluster_name": "Arterial endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "bladder (vasculature)",
+      "four_layer_category": "outside",
+      "description": "动脉内皮细胞，特异性高表达连接蛋白 GJA5 与酪氨酸激酶 BMX"
+    },
+    {
+      "cluster_id": "Cluster_Endothelial_Lymphatic",
+      "cluster_name": "Lymphatic endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "bladder (lymphatics)",
+      "four_layer_category": "outside",
+      "description": "淋巴管内皮细胞，特异性高表达 LYVE1、TFF3 与 CD36"
+    },
+    {
+      "cluster_id": "Cluster_Macrophage",
+      "cluster_name": "Macrophages",
+      "species": "human",
+      "organ_or_tissue": "bladder (immune)",
+      "four_layer_category": "outside",
+      "description": "膀胱常驻巨噬细胞，高表达补体成分 C1QA、C1QB、C1QC、LYVE1 与 RNASE1"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M01",
+      "marker": "CDH19",
+      "marker_original": "CDH19",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Schwann Cell",
+      "cell_type_original": "Schwann cell cluster",
+      "author_cluster_id": "Cluster_Schwann_Cells",
+      "species": "human",
+      "organ_or_tissue": "bladder",
+      "experimental_context": "snRNA-seq stromal compartment profiling across human bladder anatomical regions",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Cadherin 19 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)... where 87.5% of cells were of single-nucleus origin",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CDH19 explicitly used as cluster-defining marker for bladder Schwann cells",
+          "mapping_basis": "snRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Cadherin 19 is a specific peripheral glial marker defining bladder Schwann cells uniquely captured by single-nucleus sequencing",
+      "decision_reason": "Author declared defining marker for peripheral glia cluster"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M02",
+      "marker": "NRXN1",
+      "marker_original": "NRXN",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Schwann Cell",
+      "cell_type_original": "Schwann cells",
+      "author_cluster_id": "Cluster_Schwann_Cells",
+      "species": "human",
+      "organ_or_tissue": "bladder",
+      "experimental_context": "snRNA-seq stromal analysis",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Neurexin family transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NRXN is co-defining marker of bladder Schwann cells",
+          "mapping_basis": "snRNA-seq marker signature"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Synaptic and glial cell adhesion molecule enriched in peripheral glia",
+      "decision_reason": "Cluster defining co-marker in stromal analysis"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M03",
+      "marker": "XKR4",
+      "marker_original": "XKR4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Schwann Cell",
+      "cell_type_original": "Schwann cells",
+      "author_cluster_id": "Cluster_Schwann_Cells",
+      "species": "human",
+      "organ_or_tissue": "bladder",
+      "experimental_context": "snRNA-seq stromal profiling",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "XK related family member 4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "XKR4 defining bladder Schwann cell cluster in snRNA-seq",
+          "mapping_basis": "Differential cluster marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Cell membrane protein gene selectively enriched in Schwann cell nuclei",
+      "decision_reason": "Author declared cluster defining marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M04",
+      "marker": "UPK2",
+      "marker_original": "UPK2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Urothelial Umbrella Cell",
+      "cell_type_original": "umbrella population",
+      "author_cluster_id": "Cluster_Urothelial_Umbrella",
+      "species": "human",
+      "organ_or_tissue": "bladder (urothelium)",
+      "experimental_context": "scRNA-seq and snRNA-seq joint analysis of urothelial compartment",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Uroplakin 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1C, Fig. 2A",
+      "source_context": "Top markers for the umbrella population aligned with established urothelial markers (e.g., UPK2 and UPK3A)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "UPK2 prominently defines differentiated apical umbrella cells",
+          "mapping_basis": "Canonical umbrella cell marker"
+        }
+      ],
+      "validation_method": "scRNA-seq / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Core asymmetric unit membrane component of urothelial umbrella cells",
+      "decision_reason": "Hallmark urothelial barrier cell marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M05",
+      "marker": "UPK3A",
+      "marker_original": "UPK3A",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Urothelial Umbrella Cell",
+      "cell_type_original": "umbrella population",
+      "author_cluster_id": "Cluster_Urothelial_Umbrella",
+      "species": "human",
+      "organ_or_tissue": "bladder (urothelium)",
+      "experimental_context": "scRNA-seq and snRNA-seq urothelium comparison",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Uroplakin 3A transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1C, Fig. 2A",
+      "source_context": "Top markers for the umbrella population aligned with established urothelial markers (e.g., UPK2 and UPK3A)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "UPK3A established umbrella cell marker in bladder mucosa",
+          "mapping_basis": "scRNA-seq DEG signature"
+        }
+      ],
+      "validation_method": "scRNA-seq / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Transmembrane uroplakin subunit defining apical umbrella cells",
+      "decision_reason": "Author declared umbrella cell marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M06",
+      "marker": "KRT20",
+      "marker_original": "KRT20",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Urothelial Umbrella Cell",
+      "cell_type_original": "umbrella cell population",
+      "author_cluster_id": "Cluster_Urothelial_Umbrella",
+      "species": "human",
+      "organ_or_tissue": "bladder (urothelium)",
+      "experimental_context": "scRNA-seq differential gene expression of bladder epithelium",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 20 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 5, Fig. 2A",
+      "source_context": "The top markers based on single-cell data included canonical urothelial markers (e.g., UPK2, UPK3B, KRT20, and CEACAM1)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 2A",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "KRT20 identified as top canonical marker in single-cell DEG analysis",
+          "mapping_basis": "scRNA-seq DEG heatmap"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Intermediate filament cytokeratin uniquely expressed in terminally differentiated umbrella cells",
+      "decision_reason": "Terminal differentiation marker of umbrella cells"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M07",
+      "marker": "LAMC3",
+      "marker_original": "LAMC3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Peri-Urothelial Fibroblast",
+      "cell_type_original": "peri-urothelial fibroblast",
+      "author_cluster_id": "Cluster_Fibroblast_Peri_Urothelial",
+      "species": "human",
+      "organ_or_tissue": "bladder (sub-urothelial)",
+      "experimental_context": "snRNA-seq and scRNA-seq stromal sub-clustering",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Laminin subunit gamma 3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "peri-urothelial fibroblast (LAMC3+/PTCH1+/APOE+)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "LAMC3 is key defining marker for sub-urothelial fibroblast niche",
+          "mapping_basis": "Fibroblast sublineage annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Laminin gamma 3 chain, contributing to basement membrane underlying urothelium",
+      "decision_reason": "Author declared subtype defining marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M08",
+      "marker": "GAS1",
+      "marker_original": "GAS1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Lamina Propria Fibroblast",
+      "cell_type_original": "lamina propria fibroblast",
+      "author_cluster_id": "Cluster_Fibroblast_Lamina_Propria",
+      "species": "human",
+      "organ_or_tissue": "bladder (lamina propria)",
+      "experimental_context": "Stromal sub-clustering in bladder wall",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Growth arrest specific 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "lamina propria fibroblast (GAS1+/PCOLCE2+/PI16+/MFAP5+)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "GAS1 defines lamina propria interstitial fibroblasts",
+          "mapping_basis": "Stromal sub-cluster marker combination"
+        }
+      ],
+      "validation_method": "scRNA-seq / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Growth arrest-specific protein 1 marking interstitial stromal cells",
+      "decision_reason": "Cluster defining marker in lamina propria"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M09",
+      "marker": "C7",
+      "marker_original": "C7",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Intra-Muscular Fibroblast",
+      "cell_type_original": "intra-muscular fibroblast",
+      "author_cluster_id": "Cluster_Fibroblast_Intra_Muscular",
+      "species": "human",
+      "organ_or_tissue": "bladder (muscularis propria)",
+      "experimental_context": "snRNA-seq and scRNA-seq bladder muscular wall analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Complement component 7 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "intra-muscular fibroblast (C7+/PCOLCE2-)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "C7 selectively expressed in fibroblasts interspersed within detrusor bundles",
+          "mapping_basis": "Sub-compartment differential marker"
+        }
+      ],
+      "validation_method": "snRNA-seq / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Complement C7 is a selective marker for muscularis-associated fibroblasts",
+      "decision_reason": "Defining marker for intra-muscular fibroblast niche"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M10",
+      "marker": "CXCL14",
+      "marker_original": "CXCL14",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "CXCL14hi Fibroblast",
+      "cell_type_original": "CXCL14hi fibroblast",
+      "author_cluster_id": "Cluster_Fibroblast_CXCL14hi",
+      "species": "human",
+      "organ_or_tissue": "bladder",
+      "experimental_context": "scRNA-seq stromal sub-clustering",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "C-X-C motif chemokine ligand 14 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "CXCL14hi fibroblast (GPC3+/NFGR+/CXCL14+)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CXCL14hi fibroblast cluster marked by high CXCL14 and GPC3",
+          "mapping_basis": "Differential stromal cluster"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Immunomodulatory chemokine defining distinct stromal population",
+      "decision_reason": "Cluster namesake defining marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M11",
+      "marker": "ACTG2",
+      "marker_original": "ACTG2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Smooth Muscle Cell",
+      "cell_type_original": "general smooth muscle cells",
+      "author_cluster_id": "Cluster_Smooth_Muscle_General",
+      "species": "human",
+      "organ_or_tissue": "bladder (detrusor muscle)",
+      "experimental_context": "snRNA-seq bladder muscularis interrogation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Actin gamma 2, smooth muscle transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "general smooth muscle cells (ACTA2+/ACTG2+/DES+)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ACTG2 marks visceral detrusor smooth muscle cells",
+          "mapping_basis": "Visceral smooth muscle marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Gamma-2 smooth muscle actin, hallmark contractile component of bladder detrusor",
+      "decision_reason": "Visceral smooth muscle hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.isci.2024.111628_M12",
+      "marker": "RGS5",
+      "marker_original": "RGS5",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Vascular Smooth Muscle Cell / Pericyte",
+      "cell_type_original": "vascular smooth muscle cells",
+      "author_cluster_id": "Cluster_Vascular_Smooth_Muscle",
+      "species": "human",
+      "organ_or_tissue": "bladder (vasculature)",
+      "experimental_context": "Mesenchymal/vascular sub-clustering in bladder wall",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Regulator of G protein signaling 5 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 1E",
+      "source_context": "vascular smooth muscle cells (RGS5+/NOTCH3+/MCAM+)",
+      "sources": [
+        {
+          "file": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "RGS5 specifically distinguishes vascular mural cells from detrusor myocytes",
+          "mapping_basis": "Vascular mural cell marker"
+        }
+      ],
+      "validation_method": "scRNA-seq / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Regulator of G-protein signaling 5 specifically demarcating pericytes and vascular smooth muscle",
+      "decision_reason": "Vascular mural cell defining marker"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 12,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full iScience article (10 pages including main text Figures 1-4, STAR Methods, and accompanying legends).",
+    "missing_materials": "Supplementary Tables S1-S7 standalone Excel workbooks not provided locally.",
+    "potential_leakage_scope": "Non-coding RNA transcripts (e.g., AC005064.1) enriched specifically in single-nucleus libraries which do not correspond to standard protein-coding cell lineage markers."
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41591-024-03215-z",
+  "doi": "10.1038/s41591-024-03215-z",
+  "pmid": "39478111",
+  "title": "A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Medicine 2024 原文（38页含 Extended Data），包含 60 名转移性乳腺癌患者 67 份活检的多模态单细胞/单核及空间转录组（Slide-seq, MERFISH, ExSeq, CODEX）图谱"
+    },
+    {
+      "material_name": "DOI_10.1038_s41591-024-03215-z.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述恶性上皮细胞（EPCAM/KRT8/18/19）、基质成纤维（COL1A1/DCN/ACTA2）及巨噬细胞（CD68/CD163/SPP1）标记与空间表型"
+    },
+    {
+      "material_name": "Supplementary Information & Supplementary Tables 1-12",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Tables 1-12（临床病理与空间基因集）的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Malignant_BC_Epithelial",
+      "cluster_name": "Malignant breast cancer epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "metastatic breast cancer (breast, liver, bone, brain, axilla)",
+      "four_layer_category": "outside",
+      "description": "转移性乳腺癌恶性上皮细胞，特征性共表达上皮黏附分子 EPCAM 及细胞角蛋白 KRT8、KRT18、KRT19"
+    },
+    {
+      "cluster_id": "Cluster_Cancer_Associated_Fibroblasts",
+      "cluster_name": "Cancer-associated fibroblasts / stroma",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor stroma",
+      "four_layer_category": "outside",
+      "description": "肿瘤微环境基质成纤维细胞，特征性表达细胞外基质胶原 COL1A1、核心蛋白聚糖 DCN 及肌成纤维标志物 ACTA2"
+    },
+    {
+      "cluster_id": "Cluster_Tumor_Associated_Macrophages",
+      "cluster_name": "Tumor-associated macrophages",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor microenvironment",
+      "four_layer_category": "outside",
+      "description": "浸润转移灶的肿瘤相关巨噬细胞，高表达泛巨噬细胞标志物 CD68 与 M2 清道夫受体 CD163"
+    },
+    {
+      "cluster_id": "Cluster_Metastatic_SPP1_Macrophages",
+      "cluster_name": "SPP1+ metastatic lesion macrophages",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor microenvironment (axilla, bone, breast)",
+      "four_layer_category": "outside",
+      "description": "在腋窝、骨及乳腺转移病灶中显著富集并特异高表达骨桥蛋白 SPP1 的巨噬细胞亚群"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M01",
+      "marker": "EPCAM",
+      "marker_original": "EPCAM",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Malignant breast cancer cell",
+      "cell_type_original": "malignant epithelial BC cells",
+      "author_cluster_id": "Cluster_Malignant_BC_Epithelial",
+      "species": "human",
+      "organ_or_tissue": "metastatic breast cancer (breast/bone/liver/brain)",
+      "experimental_context": "scRNA-seq, snRNA-seq, and spatial transcriptomics across 67 metastatic breast cancer biopsies",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Epithelial cell adhesion molecule transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3292, Methods; Extended Data Fig. 3a, b",
+      "source_context": "in established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 and TRPS1) was minimally impacted by receptor status",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 3,
+          "printed_page": 3292,
+          "figure_panel": "Fig. 2g, Extended Data Fig. 3a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 and TRPS1)",
+          "mapping_basis": "Core author declared defining marker set"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq and spatial transcriptomics cross-platform profiling",
+      "gate_definition": null,
+      "notes": "Canonical epithelial cell adhesion marker defining malignant breast carcinoma cells",
+      "decision_reason": "Core author-declared lineage marker for malignant breast cancer epithelium"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M02",
+      "marker": "KRT8",
+      "marker_original": "KRT8",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Malignant breast cancer cell",
+      "cell_type_original": "malignant epithelial BC cells",
+      "author_cluster_id": "Cluster_Malignant_BC_Epithelial",
+      "species": "human",
+      "organ_or_tissue": "metastatic breast cancer",
+      "experimental_context": "scRNA-seq, snRNA-seq, and spatial profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 8 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3292, Fig. 2g",
+      "source_context": "established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 and TRPS1)",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 3,
+          "printed_page": 3292,
+          "figure_panel": "Fig. 2g",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19)",
+          "mapping_basis": "Core author declared defining marker set"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq expression",
+      "gate_definition": null,
+      "notes": "Luminal/epithelial cytokeratin marking metastatic adenocarcinoma cells",
+      "decision_reason": "Core author-declared marker set for breast carcinoma"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M03",
+      "marker": "KRT18",
+      "marker_original": "KRT18",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Malignant breast cancer cell",
+      "cell_type_original": "malignant epithelial BC cells",
+      "author_cluster_id": "Cluster_Malignant_BC_Epithelial",
+      "species": "human",
+      "organ_or_tissue": "metastatic breast cancer",
+      "experimental_context": "scRNA-seq, snRNA-seq, and spatial profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 18 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3292, Fig. 2g",
+      "source_context": "established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 and TRPS1)",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 3,
+          "printed_page": 3292,
+          "figure_panel": "Fig. 2g",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19)",
+          "mapping_basis": "Core author declared defining marker set"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq expression",
+      "gate_definition": null,
+      "notes": "Type I intermediate filament cytokeratin heterodimerizing with KRT8",
+      "decision_reason": "Core author-declared marker set for breast carcinoma"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M04",
+      "marker": "KRT19",
+      "marker_original": "KRT19",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Malignant breast cancer cell",
+      "cell_type_original": "malignant epithelial BC cells",
+      "author_cluster_id": "Cluster_Malignant_BC_Epithelial",
+      "species": "human",
+      "organ_or_tissue": "metastatic breast cancer",
+      "experimental_context": "scRNA-seq, snRNA-seq, and spatial profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 19 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3292, Fig. 2g",
+      "source_context": "established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19 and TRPS1)",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 3,
+          "printed_page": 3292,
+          "figure_panel": "Fig. 2g",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "established epithelial BC marker genes (EPCAM, KRT8, KRT18, KRT19)",
+          "mapping_basis": "Core author declared defining marker set"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq expression",
+      "gate_definition": null,
+      "notes": "Epithelial cytokeratin widely used in clinical breast cancer diagnostics",
+      "decision_reason": "Core author-declared marker set for breast carcinoma"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M05",
+      "marker": "COL1A1",
+      "marker_original": "COL1A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Cancer-associated fibroblast",
+      "cell_type_original": "fibroblasts / stroma",
+      "author_cluster_id": "Cluster_Cancer_Associated_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor stroma",
+      "experimental_context": "sc/snRNA-seq and MERFISH/CODEX spatial mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type I alpha 1 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 3300, Scoring of expression programs",
+      "source_context": "assigned more specific cell type labels... COL4A1, COL3A1, BGN, ACTA2, FN1, COL4A2, TAGLN, DCN, COL1A1, LUM",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 11,
+          "printed_page": 3300,
+          "figure_panel": "Extended Data Fig. 3a, b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "stromal fibroblast marker genes (COL1A1, DCN, LUM)",
+          "mapping_basis": "Methods cluster refinement and marker annotation"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq and MERFISH spatial imaging",
+      "gate_definition": null,
+      "notes": "Major fibrillar collagen produced by desmoplastic cancer-associated fibroblasts",
+      "decision_reason": "Defines stromal fibroblast compartment across metastatic lesions"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M06",
+      "marker": "DCN",
+      "marker_original": "DCN",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Cancer-associated fibroblast",
+      "cell_type_original": "fibroblasts / stroma",
+      "author_cluster_id": "Cluster_Cancer_Associated_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor stroma",
+      "experimental_context": "sc/snRNA-seq and MERFISH spatial mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Decorin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 3300",
+      "source_context": "stromal program genes including DCN, LUM, COL1A1",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 11,
+          "printed_page": 3300,
+          "figure_panel": "Extended Data Fig. 3a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "DCN marks the stroma/fibroblast cluster",
+          "mapping_basis": "Methods cluster refinement"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Small leucine-rich proteoglycan produced by resident and reactive fibroblasts",
+      "decision_reason": "Defines cancer-associated stroma"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M07",
+      "marker": "ACTA2",
+      "marker_original": "ACTA2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Myofibroblast",
+      "cell_type_original": "myofibroblasts / activated CAFs",
+      "author_cluster_id": "Cluster_Cancer_Associated_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor stroma",
+      "experimental_context": "sc/snRNA-seq, MERFISH, and CODEX imaging",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Actin alpha 2, smooth muscle transcript and alpha-SMA protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 3300",
+      "source_context": "ACTA2, TAGLN, FN1 characterizing myofibroblastic stromal populations",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 11,
+          "printed_page": 3300,
+          "figure_panel": "Extended Data Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ACTA2 marks activated myofibroblastic stroma",
+          "mapping_basis": "Methods cluster refinement"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq and spatial CODEX protein antibody staining",
+      "gate_definition": null,
+      "notes": "Alpha smooth muscle actin, canonical marker of activated cancer-associated myofibroblasts",
+      "decision_reason": "Multi-modal validated myofibroblast marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M08",
+      "marker": "CD68",
+      "marker_original": "CD68",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Tumor-associated macrophage",
+      "cell_type_original": "macrophages",
+      "author_cluster_id": "Cluster_Tumor_Associated_Macrophages",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor microenvironment",
+      "experimental_context": "sc/snRNA-seq, CODEX, and MERFISH spatial imaging",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "CD68 molecule transcript and lysosomal glycoprotein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3294-3296, Fig. 3b, Fig. 4",
+      "source_context": "Macrophage marker genes (CD68, CD163) in CODEX and MERFISH single-cell spatial profiling",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 5,
+          "printed_page": 3294,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD68 identified as core macrophage marker in multi-modal spatial panels",
+          "mapping_basis": "Figure panel and multi-modal spatial annotation"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq and CODEX antibody imaging",
+      "gate_definition": null,
+      "notes": "Pan-macrophage lysosomal glycoprotein used in both single-cell and multiplex imaging",
+      "decision_reason": "Core author-declared macrophage marker in spatial and scRNA-seq maps"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M09",
+      "marker": "CD163",
+      "marker_original": "CD163",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Tumor-associated macrophage",
+      "cell_type_original": "macrophages",
+      "author_cluster_id": "Cluster_Tumor_Associated_Macrophages",
+      "species": "human",
+      "organ_or_tissue": "metastatic tumor microenvironment",
+      "experimental_context": "sc/snRNA-seq, CODEX, and MERFISH spatial imaging",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "CD163 molecule transcript and hemoglobin scavenger receptor",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3294-3296, Fig. 3b, Extended Data Fig. 10",
+      "source_context": "Macrophage marker genes including CD163 in spatial co-localization analysis",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 5,
+          "printed_page": 3294,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD163 serves as core macrophage marker across spatial assays",
+          "mapping_basis": "Figure panel and multi-modal spatial annotation"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq, CODEX and MERFISH imaging",
+      "gate_definition": null,
+      "notes": "Scavenger receptor marking immunosuppressive tumor-associated macrophage subsets",
+      "decision_reason": "Core author-declared macrophage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-024-03215-z_M10",
+      "marker": "SPP1",
+      "marker_original": "SPP1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Metastatic lesion macrophage",
+      "cell_type_original": "macrophages (axilla, bone and breast)",
+      "author_cluster_id": "Cluster_Metastatic_SPP1_Macrophages",
+      "species": "human",
+      "organ_or_tissue": "metastatic breast cancer microenvironment",
+      "experimental_context": "sc/snRNA-seq and spatial transcriptomics of metastatic lesions",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secreted phosphoprotein 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3292, Extended Data Fig. 3f",
+      "source_context": "with two exceptions (SPP1 and CCN2), which were more highly expressed in axilla, bone and breast macrophages and fibroblasts, respectively",
+      "sources": [
+        {
+          "file": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+          "pdf_page": 3,
+          "printed_page": 3292,
+          "figure_panel": "Extended Data Fig. 3f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SPP1 more highly expressed in axilla, bone and breast macrophages",
+          "mapping_basis": "Biopsy site-specific differential expression"
+        }
+      ],
+      "validation_method": "sc/snRNA-seq site-comparative profiling",
+      "gate_definition": null,
+      "notes": "Osteopontin produced by macrophages in bone and visceral metastatic microenvironments",
+      "decision_reason": "Explicit author declaration of site-enriched macrophage subtype marker"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Medicine article (38 pages including main text Figures 1-6, Extended Data Figures 1-10, Methods, and multi-modal spatial panels).",
+    "missing_materials": "External Supplementary Tables 1-12 (full patient clinical registry tables) not locally provided.",
+    "potential_leakage_scope": "Multi-modal spatial coordinate deconvolution matrices and iNMF cross-sample factor loading vectors."
+  }
+}

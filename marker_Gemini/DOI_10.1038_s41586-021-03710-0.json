@@ -1,0 +1,710 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41586-021-03710-0",
+  "doi": "10.1038/s41586-021-03710-0",
+  "title": "Dysregulation of brain and choroid plexus cell types in severe COVID-19",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含正文 10 页、Extended Data Figures 1-12、Methods 详细步骤及 IHC 图像"
+    },
+    {
+      "material_name": "DOI_10.1038_s41586-021-03710-0.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含全文 Markdown 结构化文本及所有图注"
+    },
+    {
+      "material_name": "Supplementary Tables 1-5",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "期刊补充表格 Excel 文件在本地未单独提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "L2_3_exc",
+      "cluster_name": "L2/3 excitatory neuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "大脑额叶皮层第 2/3 层兴奋性投射锥体神经元"
+    },
+    {
+      "cluster_id": "L4_exc",
+      "cluster_name": "L4 excitatory neuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "大脑皮层第 4 层兴奋性中间层神经元"
+    },
+    {
+      "cluster_id": "L5_6_exc",
+      "cluster_name": "L5/6 excitatory neuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "大脑皮层深层（第 5/6 层）皮质下投射兴奋性神经元"
+    },
+    {
+      "cluster_id": "L5_6_CC_exc",
+      "cluster_name": "L5/6 CC excitatory neuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "大脑皮层第 5/6 层胼胝体投射兴奋性神经元"
+    },
+    {
+      "cluster_id": "NRGN_neuron",
+      "cluster_name": "NRGN neuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "富集神经颗粒素 NRGN 的皮层神经元亚群"
+    },
+    {
+      "cluster_id": "SST_in",
+      "cluster_name": "SST inhibitory interneuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "生长抑素阳性 GABA 能抑制性中间神经元"
+    },
+    {
+      "cluster_id": "PV_in",
+      "cluster_name": "PV inhibitory interneuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "小清蛋白 PVALB 阳性快发放 GABA 能抑制性中间神经元"
+    },
+    {
+      "cluster_id": "VIP_in",
+      "cluster_name": "VIP inhibitory interneuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "血管活性肠肽 VIP 阳性抑制性中间神经元"
+    },
+    {
+      "cluster_id": "SV2C_in",
+      "cluster_name": "SV2C inhibitory interneuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L1",
+      "description": "突触囊泡糖蛋白 2C 阳性抑制性神经元"
+    },
+    {
+      "cluster_id": "Astrocyte",
+      "cluster_name": "Astrocyte",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L2",
+      "description": "皮层星形胶质细胞，表达 GFAP, AQP4, CHI3L1"
+    },
+    {
+      "cluster_id": "Oligodendrocyte",
+      "cluster_name": "Oligodendrocyte",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L2",
+      "description": "皮层成熟少突胶质细胞，表达 MBP, MOG"
+    },
+    {
+      "cluster_id": "OPC",
+      "cluster_name": "Oligodendrocyte precursor cell",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "L2",
+      "description": "少突胶质前体细胞，表达 PDGFRA, VCAN"
+    },
+    {
+      "cluster_id": "Microglia",
+      "cluster_name": "Microglia",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "outside",
+      "description": "脑实质固有髓系免疫小胶质细胞，高表达 CX3CR1, P2RY12, MEF2C"
+    },
+    {
+      "cluster_id": "COVID_Microglia",
+      "cluster_name": "COVID-19 associated microglia (Cluster 2)",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "four_layer_category": "outside",
+      "description": "重症 COVID-19 诱导的神经炎症活化小胶质细胞亚群，高表达 CD68, C1QC, FTL, CD14"
+    },
+    {
+      "cluster_id": "Choroid_Epithelial",
+      "cluster_name": "Choroid plexus epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "choroid plexus",
+      "four_layer_category": "outside",
+      "description": "脉络丛上皮屏障细胞（占 78%），富集 TTR, AQP1, IFITM3"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M01",
+      "marker": "SST",
+      "marker_original": "SST",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "SST inhibitory interneuron",
+      "cell_type_original": "SST in. neuron",
+      "author_cluster_id": "SST_in",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq unsupervised clustering",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "somatostatin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Figure 1b, Methods p. 11",
+      "source_context": "subtypes of excitatory neurons and interneurons that express previously established marker genes... SST in. neuron",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP cluster label 'SST in. neuron (2%)'",
+          "mapping_basis": "author declared cluster definition marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "生长抑素中间神经元亚群标志物"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M02",
+      "marker": "PVALB",
+      "marker_original": "PV",
+      "normalization_basis": "HGNC standard symbol for PV is PVALB",
+      "cell_type": "PV inhibitory interneuron",
+      "cell_type_original": "PV in. neuron",
+      "author_cluster_id": "PV_in",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq unsupervised clustering",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "parvalbumin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Figure 1b, Methods p. 11",
+      "source_context": "PV in. neuron (3%)... express previously established marker genes",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP cluster label 'PV in. neuron (3%)'",
+          "mapping_basis": "author declared cluster marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小清蛋白快发放中间神经元标志"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M03",
+      "marker": "VIP",
+      "marker_original": "VIP",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "VIP inhibitory interneuron",
+      "cell_type_original": "VIP in. neuron",
+      "author_cluster_id": "VIP_in",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq unsupervised clustering",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "vasoactive intestinal peptide",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Figure 1b, Methods p. 11",
+      "source_context": "VIP in. neuron (5%)",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP cluster label 'VIP in. neuron (5%)'",
+          "mapping_basis": "author declared cluster marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "VIP GABA能中间神经元标志物"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M04",
+      "marker": "SV2C",
+      "marker_original": "SV2C",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "SV2C inhibitory interneuron",
+      "cell_type_original": "SV2C in. neuron",
+      "author_cluster_id": "SV2C_in",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq unsupervised clustering",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "synaptic vesicle glycoprotein 2C",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Figure 1b, Methods p. 11",
+      "source_context": "SV2C in. neuron (2%)",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP cluster label 'SV2C in. neuron (2%)'",
+          "mapping_basis": "author declared cluster marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "SV2C 中间神经元亚群标记"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M05",
+      "marker": "NRGN",
+      "marker_original": "NRGN",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "NRGN neuron",
+      "cell_type_original": "NRGN neuron",
+      "author_cluster_id": "NRGN_neuron",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq unsupervised clustering",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "neurogranin",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Figure 1b",
+      "source_context": "NRGN neuron (5%)",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP cluster label 'NRGN neuron (5%)'",
+          "mapping_basis": "author declared cluster marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "神经颗粒素阳性皮层神经元标志"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M06",
+      "marker": "GFAP",
+      "marker_original": "GFAP",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Astrocyte",
+      "cell_type_original": "astrocytes (ast.)",
+      "author_cluster_id": "Astrocyte",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "glial fibrillary acidic protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1c, Extended Data Fig. 3a",
+      "source_context": "Examples of DEGs in COVID-19: astrocytes (ast.) marked by GFAP, CHI3L1",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "astrocytes (ast.) marked by GFAP, CHI3L1",
+          "mapping_basis": "canonical astrocyte marker and activation gene"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "星形胶质细胞核心结构蛋白与活化标志"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M07",
+      "marker": "CHI3L1",
+      "marker_original": "CHI3L1",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Astrocyte",
+      "cell_type_original": "astrocytes",
+      "author_cluster_id": "Astrocyte",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "chitinase 3 like 1 (YKL-40)",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1c",
+      "source_context": "astrocytes (ast.) marked by GFAP, CHI3L1",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "astrocytes (ast.) marked by GFAP, CHI3L1",
+          "mapping_basis": "reactive astrocyte marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "反应性星形胶质细胞神经炎症标志"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M08",
+      "marker": "CD68",
+      "marker_original": "CD68",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "COVID-19 associated microglia",
+      "cell_type_original": "activated microglia",
+      "author_cluster_id": "COVID_Microglia",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human frontal cortex immunohistochemistry",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "CD68 antibody (Dako M0876)",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4, Figure 3g, Extended Data Fig. 11",
+      "source_context": "Immunohistochemical staining for the microglial activation marker CD68 (brown) in the frontal medial cortex of a patient with COVID-19... A cluster of activated microglia up to single macrophages is immunostained in the parenchyma",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 568,
+          "figure_panel": "Figure 3g, Extended Data Fig. 11",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Immunohistochemical staining for the microglial activation marker CD68 (brown)",
+          "mapping_basis": "immunohistochemical confirmation of microglial reactivity"
+        }
+      ],
+      "validation_method": "immunohistochemistry",
+      "gate_definition": null,
+      "notes": "重症 COVID-19 脑实质小胶质细胞活化病理标志"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M09",
+      "marker": "CX3CR1",
+      "marker_original": "CX3CR1",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Microglia",
+      "cell_type_original": "homeostatic microglia",
+      "author_cluster_id": "Microglia",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "C-X3-C motif chemokine receptor 1",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 3d",
+      "source_context": "Homeostatic markers: P2RY12, IRAK3, CX3CR1, MEF2C",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 568,
+          "figure_panel": "Figure 3d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Homeostatic markers: P2RY12, IRAK3, CX3CR1, MEF2C",
+          "mapping_basis": "homeostatic microglial state marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "稳态小胶质细胞特征受体"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M10",
+      "marker": "P2RY12",
+      "marker_original": "P2RY12",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Microglia",
+      "cell_type_original": "homeostatic microglia",
+      "author_cluster_id": "Microglia",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "purinergic receptor P2Y12",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 3d",
+      "source_context": "Homeostatic markers: P2RY12, IRAK3, CX3CR1, MEF2C",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 568,
+          "figure_panel": "Figure 3d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Homeostatic markers: P2RY12, IRAK3, CX3CR1, MEF2C",
+          "mapping_basis": "homeostatic microglial marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "脑实质稳态小胶质细胞特异性受体"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M11",
+      "marker": "C1QC",
+      "marker_original": "C1QC",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "COVID-19 associated microglia",
+      "cell_type_original": "COVID-19-enriched microglia (Cluster 2)",
+      "author_cluster_id": "COVID_Microglia",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Human cortex snRNA-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "complement C1q C chain",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 3d, h",
+      "source_context": "COVID-19-enriched: C1QC, FTL, CD14, FTH1, RIPK1... Overlap between marker genes of Alzheimer's disease-associated microglia (DAM, ARM, Mic1) and genes upregulated in the microglial cluster associated with COVID-19",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 568,
+          "figure_panel": "Figure 3d,h",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "COVID-19-enriched: C1QC, FTL, CD14, FTH1, RIPK1",
+          "mapping_basis": "COVID-19 reactive microglia cluster marker"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "补体系统 C1q 亚基在疾病相关小胶质细胞高表达"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M12",
+      "marker": "IFITM3",
+      "marker_original": "IFITM3",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Choroid plexus epithelial cells",
+      "cell_type_original": "choroid barrier cells / glia limitans",
+      "author_cluster_id": "Choroid_Epithelial",
+      "species": "human",
+      "organ_or_tissue": "choroid plexus",
+      "experimental_context": "Human choroid plexus snRNA-seq and RT-qPCR validation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "interferon induced transmembrane protein 3",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Figure 1f, Figure 2a,b",
+      "source_context": "The highlighted region indicates the consistent upregulation of the antiviral defence gene IFITM3 in choroid and glia limitans brain-barrier cells... Validation of predicted choroid plexus DEGs by RT-qPCR (P = 0.0023)",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 2,
+          "printed_page": 566,
+          "figure_panel": "Figure 1f, Figure 2b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "consistent upregulation of the antiviral defence gene IFITM3 in choroid and glia limitans brain-barrier cells",
+          "mapping_basis": "barrier cell defense marker verified by RT-qPCR"
+        }
+      ],
+      "validation_method": "RT-qPCR",
+      "gate_definition": null,
+      "notes": "脉络丛上皮及胶质界膜抗病毒防御与屏障炎症核心标记"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M13",
+      "marker": "MRC1",
+      "marker_original": "MRC1 (CD206)",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Microglia",
+      "cell_type_original": "pure microglia",
+      "author_cluster_id": "Microglia",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Gating and filtering of pure microglia vs perivascular macrophages",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "mannose receptor C type 1",
+      "marker_direction": "negative",
+      "evidence_type": "annotation_marker",
+      "source_location": "Methods p. 11, Figure 3d caption",
+      "source_context": "Unlike macrophages, microglia express low levels of MRC1 (CD206)... to yield pure microglia by requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 11,
+          "printed_page": null,
+          "figure_panel": "Methods",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "to yield pure microglia by requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1",
+          "mapping_basis": "explicit threshold gate for pure microglia"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": "MRC1 < 1 and CD247 < 1",
+      "notes": "血管周围巨噬细胞排他标记，定义实质纯净小胶质细胞"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_M14",
+      "marker": "CD247",
+      "marker_original": "CD247",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Microglia",
+      "cell_type_original": "pure microglia",
+      "author_cluster_id": "Microglia",
+      "species": "human",
+      "organ_or_tissue": "medial frontal cortex",
+      "experimental_context": "Gating and filtering of pure microglia vs T cells",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "T-cell surface glycoprotein CD3 zeta chain",
+      "marker_direction": "negative",
+      "evidence_type": "annotation_marker",
+      "source_location": "Methods p. 11",
+      "source_context": "requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 11,
+          "printed_page": null,
+          "figure_panel": "Methods",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1",
+          "mapping_basis": "explicit exclusion threshold"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": "CD247 < 1",
+      "notes": "T 细胞排他标记，用于小胶质细胞门控过滤"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_C01",
+      "marker": "STAT3",
+      "marker_original": "STAT3",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Choroid plexus epithelial cells",
+      "cell_type_original": "choroid plexus cells",
+      "author_cluster_id": "Choroid_Epithelial",
+      "species": "human",
+      "organ_or_tissue": "choroid plexus",
+      "experimental_context": "RT-qPCR validation of barrier inflammation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "signal transducer and activator of transcription 3",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 2a, b",
+      "source_context": "Examples of inflammation-related DEGs in the choroid plexus of patients with COVID-19... STAT3",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 567,
+          "figure_panel": "Figure 2a,b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Validation of predicted choroid plexus DEGs by RT-qPCR... STAT3",
+          "mapping_basis": "inflammatory pathway transcription factor"
+        }
+      ],
+      "validation_method": "RT-qPCR",
+      "gate_definition": null,
+      "notes": "在 COVID-19 脉络丛上皮中上调的转录因子",
+      "decision_reason": "属于下游炎症通路信号转导分子与差异表达基因，非本底细胞定义标记"
+    }
+  ],
+  "excluded": [
+    {
+      "record_id": "DOI_10.1038_s41586-021-03710-0_E01",
+      "marker": "SARS-CoV-2 Spike",
+      "marker_original": "Spike glycoprotein (3A2 antibody)",
+      "normalization_basis": "Viral antigen candidate",
+      "cell_type": "Endothelial",
+      "cell_type_original": "cortical vasculature and meninges",
+      "author_cluster_id": null,
+      "species": "human",
+      "organ_or_tissue": "brain and choroid plexus",
+      "experimental_context": "Immunohistochemical evaluation of potential viral neuroinvasion",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "3A2 antibody cross-reactivity",
+      "marker_direction": "unknown",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4, Extended Data Fig. 9",
+      "source_context": "With the anti-SARS-CoV-2 spike (3A2) antibody... we observed signal across the barrier-forming cortical vasculature... However, no other antibody yielded specific signal over controls. Therefore, the 3A2 antibody may bind a specific, but non-SARS-CoV-2, antigen",
+      "sources": [
+        {
+          "file": "PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 568,
+          "figure_panel": "Extended Data Fig. 9c-e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Therefore, the 3A2 antibody may bind a specific, but non-SARS-CoV-2, antigen... In no case did we detect SARS-CoV-2-specific RNA in the brain",
+          "mapping_basis": "antibody cross-reactivity artifact refuted by rigorous controls"
+        }
+      ],
+      "validation_method": "immunohistochemistry / qPCR",
+      "gate_definition": null,
+      "notes": "前期文献曾误报 3A2 抗体在脑血管的结合为病毒神经入侵证据，本文通过多重对照与 RT-qPCR 明确排除该结合具有病毒特异性",
+      "decision_reason": "被试验证实为抗体非特异性交叉反应假阳性"
+    }
+  ],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 14,
+    "context_only_count": 1,
+    "excluded_count": 1,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full text PDF (10 pages), Extended Data Figures 1-12, Methods, RT-qPCR primers, and IHC validations.",
+    "missing_materials": "Supplementary Tables 1-5 referenced in text but not provided as standalone files.",
+    "potential_leakage_scope": "Excitatory layer-specific genes in Extended Data Fig. 3a heatmap beyond the explicit cluster names."
+  }
+}

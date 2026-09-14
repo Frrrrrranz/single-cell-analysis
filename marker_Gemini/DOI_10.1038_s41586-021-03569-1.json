@@ -1,0 +1,484 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41586-021-03569-1",
+  "doi": "10.1038/s41586-021-03569-1",
+  "pmid": "33915568",
+  "title": "A molecular single-cell lung atlas of lethal COVID-19",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature 刊出全文（pp. 114-119），包含主要图表 Figures 1-4、详细图注与 Methods 描述"
+    },
+    {
+      "material_name": "DOI_10.1038_s41586-021-03569-1.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述致死性 COVID-19 肺病理单核图谱、DATP 停滞态与 CTHRC1+ 病理成纤维细胞"
+    },
+    {
+      "material_name": "Extended Data Figures 1-13 & Supplementary Tables 1-12",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Extended Data Figures 1-13 和补充表格的引用说明已审阅，外部大型独立数据表格未在本地单独提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_DATPs",
+      "cluster_name": "Damage-associated transient progenitors (DATPs / PATS)",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolar epithelium)",
+      "four_layer_category": "outside",
+      "description": "严重炎症或损伤下 AT2 向 AT1 转分化停滞的病理瞬时前体细胞状态，特征性高表达 KRT8 与 CLDN4"
+    },
+    {
+      "cluster_id": "Cluster_AT2_Cells",
+      "cluster_name": "Alveolar type 2 (AT2) cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "four_layer_category": "outside",
+      "description": "II型肺泡上皮细胞，特征性表达肺表面活性物质蛋白 SFTPC、SFTPB 与转录因子 ETV5"
+    },
+    {
+      "cluster_id": "Cluster_AT1_Cells",
+      "cluster_name": "Alveolar type 1 (AT1) cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "four_layer_category": "outside",
+      "description": "I型肺泡上皮细胞，高表达受体 AGER (RAGE)、氯离子通道样蛋白 CLIC5、小窝蛋白 CAV1 与 PDPN"
+    },
+    {
+      "cluster_id": "Cluster_Pathological_Fibroblasts",
+      "cluster_name": "CTHRC1+ pathological fibroblasts (pFBs)",
+      "species": "human",
+      "organ_or_tissue": "lung (fibrotic stroma)",
+      "four_layer_category": "outside",
+      "description": "致死性 COVID-19 快速进展性纤维化区域中显著扩增的病理性成纤维细胞亚群，特征性特异表达 CTHRC1、COL1A1 与 COL3A1"
+    },
+    {
+      "cluster_id": "Cluster_Adventitial_Fibroblasts",
+      "cluster_name": "Adventitial fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "lung (vascular adventitia)",
+      "four_layer_category": "outside",
+      "description": "围绕肺血管外膜分布的正常基质成纤维细胞，表达胶原调节因子与基质支持蛋白"
+    },
+    {
+      "cluster_id": "Cluster_Alveolar_Fibroblasts",
+      "cluster_name": "Alveolar fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolar parenchyma)",
+      "four_layer_category": "outside",
+      "description": "肺泡间隔内的间质成纤维细胞，维持肺泡毛细血管网与微环境稳态"
+    },
+    {
+      "cluster_id": "Cluster_Monocyte_Derived_Macrophages",
+      "cluster_name": "Monocyte-derived macrophages (MDMs)",
+      "species": "human",
+      "organ_or_tissue": "lung (immune infiltration)",
+      "four_layer_category": "outside",
+      "description": "COVID-19 肺部浸润的单核来源炎性巨噬细胞，高表达 IL-1beta 并驱动组织破坏与细胞因子风暴"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M01",
+      "marker": "KRT8",
+      "marker_original": "KRT8 (Keratin 8)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Damage-Associated Transient Progenitor",
+      "cell_type_original": "DATPs (damage-associated transient progenitors)",
+      "author_cluster_id": "Cluster_DATPs",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolar epithelium)",
+      "experimental_context": "snRNA-seq and immunofluorescence staining in COVID-19 autopsy lungs vs controls",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Cytokeratin 8 transcript and intermediate filament protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 115-117, Fig. 3c, Fig. 3j",
+      "source_context": "Alveolar type 2 cells adopted an inflammation-associated transient progenitor cell state... the frequency of KRT8+ and CLDN4+ DATPs was higher in COVID-19",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3c, Fig. 3j",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Representative immunofluorescence staining for pro-SPC, KRT8, and DAPI validating expansion of KRT8+ DATPs in COVID-19 lung tissue",
+          "mapping_basis": "snRNA-seq cluster and tissue IF validation"
+        }
+      ],
+      "validation_method": "immunofluorescence / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Hallmark transitional cytokeratin marking impaired alveolar regeneration intermediates",
+      "decision_reason": "Direct author declared and histologically validated transitional progenitor marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M02",
+      "marker": "CLDN4",
+      "marker_original": "CLDN4 (Claudin 4)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Damage-Associated Transient Progenitor",
+      "cell_type_original": "DATPs (pre-AT1 transitional cell state)",
+      "author_cluster_id": "Cluster_DATPs",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolar epithelium)",
+      "experimental_context": "snRNA-seq differential gene expression of alveolar epithelial intermediates",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Tight junction protein Claudin-4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 115-116, Fig. 3c, Fig. 3h",
+      "source_context": "the frequency of KRT8+ and CLDN4+ DATPs was higher in COVID-19 (PATS)... We used expression of these lineage markers to identify DATPs",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CLDN4 specifically enriched in the transitional DATP signature",
+          "mapping_basis": "snRNA-seq differential marker signature"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Tight junction component defining pre-AT1 / DATP transitional state",
+      "decision_reason": "Core signature marker defining the transitional progenitor cluster"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M03",
+      "marker": "SFTPC",
+      "marker_original": "SFTPC",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 2 Cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "Cluster_AT2_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "experimental_context": "snRNA-seq and tissue immunofluorescence",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Surfactant protein C transcript and pro-SPC protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 116, Fig. 3c, Fig. 3j",
+      "source_context": "lineage markers SFTPC and SFTPB in AT2 cells",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SFTPC defines mature surfactant-producing AT2 cells",
+          "mapping_basis": "Canonical lineage marker"
+        }
+      ],
+      "validation_method": "immunofluorescence / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Hallmark surfactant marker of alveolar type 2 pneumocytes",
+      "decision_reason": "Canonical AT2 lineage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M04",
+      "marker": "SFTPB",
+      "marker_original": "SFTPB",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 2 Cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "Cluster_AT2_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "experimental_context": "snRNA-seq differential gene expression",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Surfactant protein B transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 116, Fig. 3c",
+      "source_context": "lineage markers SFTPC and SFTPB in AT2 cells",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SFTPB prominently expressed alongside SFTPC in AT2 clusters",
+          "mapping_basis": "snRNA-seq lineage marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Surfactant protein B defining mature AT2 cells",
+      "decision_reason": "Author declared lineage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M05",
+      "marker": "ETV5",
+      "marker_original": "ETV5",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 2 Cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "Cluster_AT2_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "experimental_context": "snRNA-seq transcriptomic quantification across control and COVID-19 lungs",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "ETV5 transcription factor transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 116, Fig. 3d",
+      "source_context": "Violin plots of ETV5 and CAV1 mRNA expression (log-normalized) in AT2 and AT1 cells, respectively",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Violin plot showing high selective expression of ETV5 in AT2 cells",
+          "mapping_basis": "AT2 identity transcription factor"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Master transcription factor required for maintaining alveolar type 2 identity",
+      "decision_reason": "Lineage-defining transcription factor"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M06",
+      "marker": "AGER",
+      "marker_original": "AGER",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 1 Cell",
+      "cell_type_original": "AT1 cells",
+      "author_cluster_id": "Cluster_AT1_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "experimental_context": "snRNA-seq alveolar compartment profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Advanced glycosylation end-product specific receptor transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 116, Fig. 3c",
+      "source_context": "and CLIC5 and AGER in AT1 cells (Fig. 3c)",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "AGER marks terminally differentiated gas-exchanging AT1 pneumocytes",
+          "mapping_basis": "snRNA-seq lineage marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Receptor for advanced glycation endproducts, definitive AT1 marker",
+      "decision_reason": "Canonical AT1 marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M07",
+      "marker": "CLIC5",
+      "marker_original": "CLIC5",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 1 Cell",
+      "cell_type_original": "AT1 cells",
+      "author_cluster_id": "Cluster_AT1_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "experimental_context": "snRNA-seq differential expression in alveolar compartment",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Chloride intracellular channel 5 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 116, Fig. 3c",
+      "source_context": "and CLIC5 and AGER in AT1 cells (Fig. 3c)",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CLIC5 identified as specific lineage marker for AT1 cells",
+          "mapping_basis": "snRNA-seq heatmap signature"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Chloride channel member selectively enriched in thin apical cytoplasmic extensions of AT1 cells",
+      "decision_reason": "Author declared AT1 specific marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M08",
+      "marker": "CAV1",
+      "marker_original": "CAV1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 1 Cell",
+      "cell_type_original": "AT1 cells",
+      "author_cluster_id": "Cluster_AT1_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (alveolus)",
+      "experimental_context": "snRNA-seq quantitative expression comparison",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Caveolin 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 116, Fig. 3e",
+      "source_context": "Violin plots of ETV5 and CAV1 mRNA expression (log-normalized) in AT2 and AT1 cells, respectively; CAV1, a marker of late AT1 maturation, was expressed at significantly lower levels in COVID-19 lungs",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 3,
+          "printed_page": 116,
+          "figure_panel": "Fig. 3e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CAV1 serves as a hallmark marker of late AT1 maturation",
+          "mapping_basis": "AT1 maturation signature"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Caveolae structural component marking mature, terminal AT1 cells",
+      "decision_reason": "Author declared marker of late AT1 maturation"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M09",
+      "marker": "CTHRC1",
+      "marker_original": "CTHRC1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pathological Fibroblast",
+      "cell_type_original": "pathological or intermediate pathological fibroblasts (pFBs)",
+      "author_cluster_id": "Cluster_Pathological_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "lung (fibrotic stroma)",
+      "experimental_context": "snRNA-seq sub-clustering of fibroblasts and correlation with Sirius red fibrosis score",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen triple helix repeat containing 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Abstract, Main Text pp. 116-117, Fig. 4b-c, Extended Data Fig. 12e",
+      "source_context": "pFBs strongly expressed CTHRC1, a recently described hallmark gene that defines these cells, and genes of pathological ECM, including COL1A1 and COL3A1",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 117,
+          "figure_panel": "Fig. 4b-c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CTHRC1 explicitly identified as the defining hallmark gene of pathological fibroblasts in lethal COVID-19",
+          "mapping_basis": "Hallmark fibrotic subtype marker"
+        }
+      ],
+      "validation_method": "snRNA-seq / Sirius red correlation",
+      "gate_definition": null,
+      "notes": "Core hallmark driver of pulmonary fibrosis in severe respiratory failure",
+      "decision_reason": "Central hallmark defining marker of pathological fibroblasts"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M10",
+      "marker": "COL1A1",
+      "marker_original": "COL1A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pathological Fibroblast",
+      "cell_type_original": "pathological fibroblasts",
+      "author_cluster_id": "Cluster_Pathological_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "lung (fibrotic stroma)",
+      "experimental_context": "snRNA-seq stromal analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type I alpha 1 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 116-117, Fig. 4b, Extended Data Fig. 12e",
+      "source_context": "pFBs strongly expressed CTHRC1... and genes of pathological ECM, including COL1A1 and COL3A1",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 117,
+          "figure_panel": "Fig. 4b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "COL1A1 strongly upregulated in pFB cluster driving rapid pulmonary fibrosis",
+          "mapping_basis": "Pathological ECM expression"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Major fibrillar collagen driving lethal pulmonary tissue remodeling",
+      "decision_reason": "Co-expressed hallmark pathological ECM component"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03569-1_M11",
+      "marker": "COL3A1",
+      "marker_original": "COL3A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pathological Fibroblast",
+      "cell_type_original": "pathological fibroblasts",
+      "author_cluster_id": "Cluster_Pathological_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "lung (fibrotic stroma)",
+      "experimental_context": "snRNA-seq stromal profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type III alpha 1 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 116-117, Fig. 4b, Extended Data Fig. 12e",
+      "source_context": "pFBs strongly expressed CTHRC1... and genes of pathological ECM, including COL1A1 and COL3A1",
+      "sources": [
+        {
+          "file": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 117,
+          "figure_panel": "Fig. 4b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "COL3A1 co-expressed with CTHRC1 in fibrogenic pathological fibroblasts",
+          "mapping_basis": "Pathological ECM signature"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Type III collagen upregulated in acute and organizing pulmonary fibrosis",
+      "decision_reason": "Author declared hallmark ECM gene in pathological fibroblasts"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 11,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature article (6 pages including main text Figures 1-4, Methods, and accompanying legends).",
+    "missing_materials": "Extended Data Figures 1-13 full standalone PDF and Supplementary Tables 1-12 spreadsheets not locally available.",
+    "potential_leakage_scope": "Inflammatory cytokine programs (IL-1beta, IL-6) and cell-surface receptor-ligand interaction networks across whole lung ecosystem."
+  }
+}

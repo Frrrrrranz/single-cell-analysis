@@ -1,0 +1,87 @@
+{
+  "audit_date": "2026-09-07",
+  "reviewer": "GPT-6 Astra",
+  "target_run": "20260906-luna-single-model",
+  "formal_workbooks_modified": false,
+  "conclusion": "正式发布成立；全量审核完成声明不成立，不接受为相对完善终版。",
+  "confidence": {
+    "publication_and_primary_reconciliation": "high",
+    "three_added_relationships": "high_after_independent_image_review",
+    "full_baseline_review_completion": "unsupported",
+    "global_accuracy_percentage": null,
+    "reason_no_percentage": "43篇78条目的性分层样本，不用于推算全表准确率。"
+  },
+  "findings": [
+    {
+      "id": "F01", "priority": 1,
+      "title": "全量processed由默认include和关键词检索生成",
+      "evidence": ["build_registry.mjs:163-247, 420", "registry-audit.json", "M00044/M00398/M00403方向错误漏检"],
+      "confirmed_scope": {"historical_reuse": 1008, "context_crosschecked": 1018, "old_round2": 473, "quote_not_at_claimed_lines": 922},
+      "required_followup": "对2026条建立实质证据筛错结果；旧473条按证据包装可靠性和已发现同面板问题重验。",
+      "limitation": "不能由脚本存在推断模型完全未读资料；不匹配数不是关系错误数。"
+    },
+    {
+      "id": "F02", "priority": 1,
+      "title": "汇总重建清空1651个既有字段",
+      "evidence": ["workbook-audit.json", "build_staged_workbooks.mjs:buildByCellRows/buildPanelRows"],
+      "counts": {"marker_lineage": 39, "marker_tissue": 988, "panel_lineage": 33, "panel_tissue": 591},
+      "required_followup": "依据基线按完整分组键恢复谱系、组织字段；阶段和疾病原本为空不计损失。"
+    },
+    {
+      "id": "F03", "priority": 1,
+      "title": "Sst背景转存忽略论文实际采用SST亚型",
+      "marker_ids": ["M01510"],
+      "evidence": ["iPain原PDF第5页Fig.2a/f/g、第7页Fig.3e", "DOI_10.1038_s41467-024-52052-8.md:39"],
+      "required_followup": "补录本文实际使用该亚型的引用后保留；不得因引文在引言而直接降级。"
+    },
+    {
+      "id": "F04", "priority": 1,
+      "title": "NeuN细胞标签泛化且写入未经审核的Astra final",
+      "marker_ids": ["M00071"],
+      "evidence": ["正式markers!I70,V70", "iPain原PDF第7页Fig.3i", "DOI_10.1038_s41467-024-52052-8.md:187-191"],
+      "required_followup": "恢复或结构化保留CCI损伤DRG中衰老nociceptor实验关系，另注明NeuN非衰老特异；修EVID_02错指Fig.1及署名。"
+    },
+    {
+      "id": "F05", "priority": 1,
+      "title": "low方向被当作negative或positive",
+      "marker_ids": ["M00044", "M00398", "M00403", "M00415", "M00417"],
+      "evidence": ["CELL S8C图注NEUROD1low", "s41586-021-04345-x补充注释FOXJ1 low", "CELL正文CA4LO及S7B的CA4+"],
+      "required_followup": "修前三条low；CA4保留转录低表达与成像阳性语境后决定合并表示，扩核同面板的方向/亚群。"
+    },
+    {
+      "id": "F06", "priority": 1,
+      "title": "正式归档缺源ID、标准符号和完整原值",
+      "scope": "13合并+1上下文转存，audit_exclusions第2218至2231行",
+      "evidence": ["workbook-audit.json:audit_append_actual", "build_staged_workbooks.mjs:auditHeaders/auditRow"],
+      "required_followup": "从保留完好的基线与registry恢复源ID→目标ID→完整快照和来源整合；保留原审核者并另记本次动作审核者。",
+      "limitation": "源记录仍在baseline/change_set/registry中，不属于不可恢复丢失。"
+    },
+    {
+      "id": "F07", "priority": 1,
+      "title": "历史集合只复制，引用不能证明裁决闭环",
+      "evidence": ["historical-reference-checks.json", "previous-unresolved-reference-checks.json", "reference-gene-mismatches.json"],
+      "counts": {"baseline_953_referenced": 953, "candidates_62_referenced": 46, "candidates_62_without_reference": 16, "old_unresolved_28_referenced": 16, "old_unresolved_28_without_reference": 12, "context_28_referenced": 0, "excluded_121_referenced": 0, "crosswalk_unresolved_12_referenced": 0, "cross_version_gene_id_collisions": 10},
+      "required_followup": "按来源版本、ID、关系建立去重后的实际处置映射，先处理无引用和ID碰撞；上述集合重叠，不相加。"
+    },
+    {
+      "id": "F08", "priority": 2,
+      "title": "新增关系成立但标签与证据链未收尾",
+      "marker_ids": ["M02590", "M02591", "M02592"],
+      "evidence": ["实际打开eLife Fig.1D", "实际打开PRR4 Fig.10完整页与图注", "registry-audit.json:broken_change_decision_ids"],
+      "required_followup": "清除LAMC3正式cell_type/source_context历史申报文本；PRR4换正确面板路径；三项decision_id连接至实际候选v2裁决。"
+    },
+    {
+      "id": "F09", "priority": 2,
+      "title": "汇总行数及物种统计自报错误",
+      "actual": {"by_cell_data_rows": 1058, "by_cell_rows_including_header": 1059, "human": 2079, "mouse": 340, "other": 57, "zebrafish": 12},
+      "evidence": ["by-cell-consistency.json", "release.json写1057", "正式汇总说明B11沿用旧物种计数"],
+      "required_followup": "重算统计；修复verify_published.mjs的对象.map错误，以独立复开实值验收。"
+    },
+    {
+      "id": "F10", "priority": 2,
+      "title": "旧visual_observation超出图片可见内容",
+      "evidence": ["EVID_12图片仅有S7图注，无其声称的S7B点图", "EVID_04两个Fig10g局部图都不含g面板"],
+      "required_followup": "区分图注核实与实图核实；保留可支持关系的图注，撤销未实际呈现的观察描述。"
+    }
+  ]
+}

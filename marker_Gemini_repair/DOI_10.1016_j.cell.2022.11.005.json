@@ -1,0 +1,463 @@
+{
+  "schema_version": "3.0",
+  "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+  "doi": "10.1016/j.cell.2022.11.005",
+  "title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates",
+  "materials_reviewed": [
+    {
+      "material_name": "Main Text (Full Article PDF)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅正文各章节，重点关注神经内分泌细胞亚群形成与转录调控 (Results pp. 4851-4856)。"
+    },
+    {
+      "material_name": "Figure 1 & Figure 2",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅全肺细胞图谱概览；核对 Fig. 1e 为发育年龄 UMAP，不含 COL2A1/SOX10 marker 点图。"
+    },
+    {
+      "material_name": "Figure 4",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅间充质亚群与空间图谱，核实 ASPN+ 软骨细胞 (Fig. 4D)。"
+    },
+    {
+      "material_name": "Figure 7 (Panels A-I)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅两类神经内分泌细胞 (GRP+ 与 GHRL+) 的原位 HCR 染色及转录因子功能验证。"
+    },
+    {
+      "material_name": "Supplementary Figures S1-S8",
+      "status": "available_unreviewed",
+      "historical_status": "missing",
+      "notes": "文中提及 Figure S3 与 S8 的 HCR 染色及 marker 点图，后续可做扩展复核。"
+    }
+  ],
+  "cluster_inventory": [
+    { "author_cluster_id": "Pulmonary_NE", "cluster_name": "Pulmonary neuroendocrine cells (GRP+)", "lineage": "Epithelial", "four_layer_category": "L4" },
+    { "author_cluster_id": "GHRL_NE", "cluster_name": "GHRL+ neuroendocrine cells", "lineage": "Epithelial", "four_layer_category": "L4" },
+    { "author_cluster_id": "Intermediate_NE", "cluster_name": "Intermediate/precursor neuroendocrine cells (NEUROG3+)", "lineage": "Epithelial", "four_layer_category": "L4" },
+    { "author_cluster_id": "Chondrocytes", "cluster_name": "Cartilaginous airway chondrocytes (ASPN+)", "lineage": "Mesenchymal", "four_layer_category": "outside" }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M01",
+      "marker": "GRP",
+      "marker_original": "GRP",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "pulmonary neuroendocrine cell",
+      "cell_type_original": "pulmonary neuroendocrine cells",
+      "author_cluster_id": "Pulmonary_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development (5-22 pcw)",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "in situ HCR and single-cell RNA",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Two subtypes of neuroendocrine cells are present...'; Fig. 7E",
+      "source_context": "Two subtypes of neuroendocrine cells are present in the developing airways... In situ HCR showing GRP+ pulmonary neuroendocrine cells in fetal lungs.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 10,
+          "printed_page": "4852",
+          "figure_panel": "Fig. 7E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "In situ HCR reveals GRP as defining marker for classical pulmonary neuroendocrine cells.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "In situ HCR staining and scRNA-seq",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00034 及 M00042。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M02",
+      "marker": "ASCL1",
+      "marker_original": "ASCL1",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "pulmonary neuroendocrine cell",
+      "cell_type_original": "pulmonary neuroendocrine cells",
+      "author_cluster_id": "Pulmonary_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA & organoid perturbation",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Differential expression of ASCL1 and NEUROD1 defines...'; Fig. 7F",
+      "source_context": "ASCL1 overexpression in lung organoids produces pulmonary neuroendocrine cells.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 10,
+          "printed_page": "4852",
+          "figure_panel": "Fig. 7F, I",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ASCL1 acts as master regulator and marker of classical pulmonary neuroendocrine fate.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "Organoid functional genetic overexpression & scRNA-seq",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00035 及 M00043。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M03",
+      "marker": "GHRL",
+      "marker_original": "GHRL",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "GHRL+ neuroendocrine cells",
+      "author_cluster_id": "GHRL_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "in situ HCR & single-cell RNA",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Two subtypes of neuroendocrine cells are present...'; Fig. 7E",
+      "source_context": "Identified GHRL+ neuroendocrine cells that do not exist in the mouse. HCR demonstrates GHRL specific signal.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 10,
+          "printed_page": "4852",
+          "figure_panel": "Fig. 7E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "GHRL marks a novel human-specific fetal neuroendocrine subtype.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "In situ HCR and scRNA-seq",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00036 及 M00045。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M04",
+      "marker": "NEUROD1",
+      "marker_original": "NEUROD1",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "GHRL+ neuroendocrine cells",
+      "author_cluster_id": "GHRL_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "transcription factor & in situ HCR",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Transcriptional control of neuroendocrine cell subtype...'; Fig. 7E, I",
+      "source_context": "NEUROD1 overexpression leads to GHRL+ NE precursor differentiation; in situ HCR validates NEUROD1 in GHRL+ NEs.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 10,
+          "printed_page": "4852",
+          "figure_panel": "Fig. 7E, I",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NEUROD1 identifies and specifies GHRL+ NE subtype in human fetal lung.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "In situ HCR and organoid overexpression",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00038 及 M00044。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M05",
+      "marker": "NEUROG3",
+      "marker_original": "NEUROG3",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "intermediate neuroendocrine cells",
+      "author_cluster_id": "Intermediate_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "in situ HCR & scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Transcriptional control of neuroendocrine cell subtype...'; Fig. 7D",
+      "source_context": "A small group of cells expressing the unique marker NEUROG3, representing pulmonary NE precursors.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 10,
+          "printed_page": "4852",
+          "figure_panel": "Fig. 7D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NEUROG3 uniquely marks intermediate neuroendocrine precursor cells.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "In situ HCR and scRNA-seq",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00040。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M06",
+      "marker": "RFX6",
+      "marker_original": "RFX6",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "GHRL+ neuroendocrine cells",
+      "author_cluster_id": "GHRL_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Transcriptional control of neuroendocrine cell subtype...'; Fig. 7F",
+      "source_context": "RFX6 is highly enriched in GHRL+ NEs and required for endocrine differentiation.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 10,
+          "printed_page": "4852",
+          "figure_panel": "Fig. 7F",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "RFX6 co-expressed in GHRL+ neuroendocrine lineage.",
+          "mapping_basis": "literature_experimental"
+        }
+      ],
+      "validation_method": "scRNA-seq and downstream target profiling",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00039 及 M00046。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M07",
+      "marker": "CHGA",
+      "marker_original": "CHGA",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "neuroendocrine cells",
+      "author_cluster_id": "Pulmonary_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Two subtypes of neuroendocrine cells...'; p. 4851",
+      "source_context": "Classical pulmonary neuroendocrine markers CHGA, SYP, and PROX1 validate pan-NE identity.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 9,
+          "printed_page": "4851",
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Text affirms canonical neuroendocrine marker expression across fetal lung.",
+          "mapping_basis": "text_declaration"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00031。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M08",
+      "marker": "SYP",
+      "marker_original": "SYP",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "neuroendocrine cells",
+      "author_cluster_id": "Pulmonary_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Two subtypes of neuroendocrine cells...'; p. 4851",
+      "source_context": "SYP identified as pan-neuroendocrine marker in developing lung.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 9,
+          "printed_page": "4851",
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Text affirms SYP as neuroendocrine marker.",
+          "mapping_basis": "text_declaration"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00032。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M09",
+      "marker": "PROX1",
+      "marker_original": "PROX1",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "neuroendocrine cells",
+      "author_cluster_id": "Pulmonary_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Two subtypes of neuroendocrine cells...'; p. 4851",
+      "source_context": "PROX1 identified as neuroendocrine marker in developing lung.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 9,
+          "printed_page": "4851",
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Text affirms PROX1 expression in fetal pulmonary NEs.",
+          "mapping_basis": "text_declaration"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00033。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M10",
+      "marker": "ASPN",
+      "marker_original": "ASPN",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "chondrocyte",
+      "cell_type_original": "ASPN+ chondrocytes",
+      "author_cluster_id": "Chondrocytes",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development (17 pcw proximal airway)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Visium spatial transcriptomics & scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Fig. 4D legend",
+      "source_context": "Visium spatial feature plots visualizing adventitial fibroblasts, airway fibroblasts, ASPN+ chondrocytes, and myofibroblast-2 on 17 pcw section.",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 6,
+          "printed_page": "4848",
+          "figure_panel": "Fig. 4D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 4D defines ASPN+ chondrocytes in proximal cartilaginous airways.",
+          "mapping_basis": "spatial_transcriptomics"
+        }
+      ],
+      "validation_method": "Visium spatial transcriptomics and scRNA-seq",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00453。纠正此前凭常识脑补的 COL2A1，改为本文实际用于空间定位的 ASPN。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2022.11.005_M11",
+      "marker": "TTR",
+      "marker_original": "TTR",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "neuroendocrine cell",
+      "cell_type_original": "GHRL+ neuroendocrine cells",
+      "author_cluster_id": "GHRL_NE",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Results: 'Two subtypes of neuroendocrine cells are present...'; p. 4851",
+      "source_context": "GHRL+ neuroendocrine cells also specifically express TTR (Figure S3C).",
+      "sources": [
+        {
+          "file": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+          "pdf_page": 9,
+          "printed_page": "4851",
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Text affirms TTR as co-marker of GHRL+ neuroendocrine cells.",
+          "mapping_basis": "text_declaration"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00037。"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [
+    {
+      "marker": "COL2A1",
+      "cell_type": "airway chondrocyte",
+      "reason_unresolved": "【已确认错误并撤销】原提取引用 Fig. 1e 作为 COL2A1 证据。经核查原图，Fig. 1e 实为发育年龄 UMAP，不含 COL2A1 表达点图；本文对软骨细胞实际使用的明确标志物为 ASPN (Fig. 4D)。撤销 COL2A1 配对并审计留痕。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1016_j.cell.2022.11.005_M08",
+        "revocation_action": "revoked",
+        "reason": "原引文为发育年龄 UMAP，未呈现该基因 marker 证据，系从细胞名常识推断。"
+      }
+    },
+    {
+      "marker": "SOX10",
+      "cell_type": "schwann cell",
+      "reason_unresolved": "【已确认错误并撤销】原提取引用 Fig. 1e 作为 SOX10 证据。经核查原图，Fig. 1e 无 SOX10 表达标记面板；正文未对施万细胞建立独立 marker 染色证据。撤销 SOX10 配对并审计留痕。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1016_j.cell.2022.11.005_M09",
+        "revocation_action": "revoked",
+        "reason": "所引图无该基因，正文无独立证据，系常识推断。"
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_formal_markers": 11,
+    "four_layer_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 10,
+      "outside": 1,
+      "unknown": 0
+    },
+    "materials_status": {
+      "Main_Text": "reviewed",
+      "Figure_1_2": "reviewed",
+      "Figure_4": "reviewed",
+      "Figure_7": "reviewed",
+      "Supplementary_Figures": "available_unreviewed"
+    },
+    "reconciliation_notes": "撤销COL2A1与SOX10常识伪引文条目；全面对齐总表M00031-M00050中经HCR原位验证的两类神经内分泌细胞(GRP+与GHRL+)标志物(ASCL1, GRP, GHRL, NEUROD1, NEUROG3, RFX6等)及ASPN软骨标记。"
+  }
+}

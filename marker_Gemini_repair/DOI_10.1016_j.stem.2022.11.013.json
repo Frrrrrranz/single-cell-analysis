@@ -1,0 +1,387 @@
+{
+  "schema_version": "3.0",
+  "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+  "doi": "10.1016/j.stem.2022.11.013",
+  "title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and neonatal respiratory disease",
+  "materials_reviewed": [
+    {
+      "material_name": "Main Text (Full Article PDF)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅全文 46 页，重点核验芽端祖细胞 (SOX9/SOX2) 与 AT2 谱系标志物 (SFTPC/HOPX/CD36/LAMP3) 定义 (pp. 2-8)。"
+    },
+    {
+      "material_name": "Figure 1 (Panels A-M)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅人胎肺远端芽端与茎部标记 (SOX9, SOX2, PDPN, CD44) 及 AT2 初始出现标记 (SFTPC, CD36, LAMP3)。"
+    },
+    {
+      "material_name": "Figure 2 & Figure 3",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅类器官分化 UMAP (Fig. 3D) 与蛋白质/qRT-PCR 验证，核实 HOPX 明确作为 AT2 谱系标志物。"
+    },
+    {
+      "material_name": "Supplementary Figures S1-S7",
+      "status": "available_unreviewed",
+      "historical_status": "missing",
+      "notes": "文献内包含扩展补充图，已查阅 Fig. S3 关于 AT2 基因的表达验证。"
+    }
+  ],
+  "cluster_inventory": [
+    { "author_cluster_id": "Tip_Progenitor", "cluster_name": "Distal bud tip progenitor cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Stalk_Cell", "cluster_name": "Tip-adjacent stalk cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "AT2_Lineage", "cluster_name": "Type 2 alveolar (AT2) lineage cells", "lineage": "Epithelial", "four_layer_category": "outside" }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M01",
+      "marker": "HOPX",
+      "marker_original": "HOPX",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 2 cell",
+      "cell_type_original": "AT2 lineage cells",
+      "author_cluster_id": "AT2_Lineage",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung alveolar development (organoid modeling and tissue, 17-21 pcw)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "single-cell RNA transcript & western/protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 8; Fig. 3A, Fig. 3D, Fig. 3E",
+      "source_context": "Fig. 3D: 'UMAP plots showing transcript expression of AT2 lineage markers, SFTPC, HOPX, SLC34A2, and tip progenitor marker, SOX9, in the organoids.' Text affirms AT2-specific HOPX.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 8,
+          "printed_page": "8",
+          "figure_panel": "Fig. 3D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 3D legend explicitly groups HOPX as an 'AT2 lineage marker' alongside SFTPC and SLC34A2.",
+          "mapping_basis": "author_figure_legend"
+        }
+      ],
+      "validation_method": "scRNA-seq UMAP, qRT-PCR and immunostaining in organoids",
+      "gate_definition": null,
+      "notes": "纠错项 (correction)。遵照原文明确声明，将此前受常识误导配为 AT1 的 HOPX 坚决更正为 AT2 谱系标志物。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M02",
+      "marker": "SOX9",
+      "marker_original": "SOX9",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "distal bud tip progenitor cell",
+      "cell_type_original": "tip progenitor cells",
+      "author_cluster_id": "Tip_Progenitor",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung tip epithelium",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "in situ HCR & nuclear transcription factor immunostaining",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-4; Fig. 1E, Fig. 1J, Fig. 1L",
+      "source_context": "Human lung tip progenitors are marked by SOX9... In situ HCR and immunostaining show SOX9 defines distal tip regions.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1E, J, L",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1J: 'Relative mRNA levels of the tip progenitor markers, SOX9 and SOX2'.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "In situ HCR, immunostaining and single-cell RNA",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00052。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M03",
+      "marker": "SOX2",
+      "marker_original": "SOX2",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "distal bud tip progenitor cell",
+      "cell_type_original": "tip progenitor cells",
+      "author_cluster_id": "Tip_Progenitor",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Early human fetal lung (pseudoglandular stage)",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "nuclear transcription factor immunostaining",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-4; Fig. 1E, Fig. 1J",
+      "source_context": "The human tip epithelium is SOX9/SOX2 dual-positive during early pseudoglandular development.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1E, J",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1J defines SOX2 as co-marker of early tip progenitors.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "Immunofluorescence staining",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00053。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M04",
+      "marker": "SFTPC",
+      "marker_original": "SFTPC",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 2 cell",
+      "cell_type_original": "type 2 alveolar lineage",
+      "author_cluster_id": "AT2_Lineage",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development and alveolar organoids",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "in situ HCR & reporter GFP expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4-8; Fig. 1F, Fig. 3D",
+      "source_context": "SFTPC transcript visualized by in situ HCR, marking emerging AT2 cells; SFTPC-eGFP reporter marks mature AT2 fate in organoids.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1F, Fig. 3D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SFTPC is definitive marker of AT2 lineage.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "In situ HCR, GFP reporter and Western blot",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00055。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M05",
+      "marker": "CD36",
+      "marker_original": "CD36",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 2 cell",
+      "cell_type_original": "type 2 alveolar lineage",
+      "author_cluster_id": "AT2_Lineage",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung tissue (13-15 pcw)",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "cell surface immunostaining and qRT-PCR",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4; Fig. 1F, Fig. 1J, Fig. 1K",
+      "source_context": "Type 2 alveolar lineage markers, SFTPC, CD36, and LAMP3 in CD44+CD36+ tip cells.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1J, K",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1J defines CD36 as type 2 alveolar lineage marker.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "Immunostaining and qRT-PCR",
+      "gate_definition": "CD44+CD36+ surface gating",
+      "notes": "匹配总表已有记录 M00056。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M06",
+      "marker": "LAMP3",
+      "marker_original": "LAMP3",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 2 cell",
+      "cell_type_original": "type 2 alveolar lineage",
+      "author_cluster_id": "AT2_Lineage",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung development and alveolar organoids",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "single-cell RNA & western blot",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4, p. 8; Fig. 1J, Fig. 3A",
+      "source_context": "AT2-specific LAMP3, HOPX, and ACE2 proteins increased in alveolar organoids.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 8,
+          "printed_page": "8",
+          "figure_panel": "Fig. 3A",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Text defines LAMP3 as AT2-specific protein marker.",
+          "mapping_basis": "author_text_declaration"
+        }
+      ],
+      "validation_method": "qRT-PCR and immunostaining",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00057。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M07",
+      "marker": "SLC34A2",
+      "marker_original": "SLC34A2",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 2 cell",
+      "cell_type_original": "AT2 lineage",
+      "author_cluster_id": "AT2_Lineage",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human alveolar organoids",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 8; Fig. 3D",
+      "source_context": "Fig. 3D shows transcript expression of AT2 lineage markers, SFTPC, HOPX, SLC34A2 in organoids.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 8,
+          "printed_page": "8",
+          "figure_panel": "Fig. 3D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 3D groups SLC34A2 as AT2 lineage marker.",
+          "mapping_basis": "figure_dot_plot"
+        }
+      ],
+      "validation_method": "scRNA-seq UMAP visualization",
+      "gate_definition": null,
+      "notes": "匹配总表已有记录 M00058。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M08",
+      "marker": "PDPN",
+      "marker_original": "PDPN",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "stalk cell",
+      "cell_type_original": "tip-adjacent (stalk) cells",
+      "author_cluster_id": "Stalk_Cell",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung distal airway",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "immunofluorescence membrane staining",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4; Fig. 1E",
+      "source_context": "Extends into the SOX9-/PDPN+ tip-adjacent (stalk) cells; yellow dashed lines indicate separation of SOX9+ tip from PDPN+ stalk.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1E defines PDPN+ stalk region adjacent to SOX9+ tip.",
+          "mapping_basis": "experimental_staining"
+        }
+      ],
+      "validation_method": "Immunofluorescence microscopy",
+      "gate_definition": null,
+      "notes": "新发现条目。正文与 Fig. 1E 明确建立的 stalk 细胞表面标志物。"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M09",
+      "marker": "CD44",
+      "marker_original": "CD44",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "stalk cell",
+      "cell_type_original": "tip and stalk cells",
+      "author_cluster_id": "Stalk_Cell",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Human fetal lung tissue",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "cell surface antibody staining",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4; Fig. 1H, Fig. 1K",
+      "source_context": "Cells derived from the CD44+SOX9- stalk region.",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1H, K",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD44 used to define stalk region and gate progenitors.",
+          "mapping_basis": "experimental_staining"
+        }
+      ],
+      "validation_method": "Immunofluorescence and FACS",
+      "gate_definition": "CD44+ surface gate",
+      "notes": "新发现条目。正文实际用于区分与分选的标志物。"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [
+    {
+      "marker": "ETV5",
+      "cell_type": "distal bud tip progenitor cell",
+      "reason_unresolved": "【已确认错误并撤销】全文全文检索未出现 ETV5（0 处匹配）。原提取系从外部肺发育常识推断脑补，本文无任何 ETV5 作为 tip progenitor 标志物的实验或文字证据。撤销该错误配对并审计留痕。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1016_j.stem.2022.11.013_M02",
+        "revocation_action": "revoked",
+        "reason": "全文无该基因出现，系常识脑补错误配对。"
+      }
+    },
+    {
+      "marker": "AGER",
+      "cell_type": "alveolar type 1 cell",
+      "reason_unresolved": "【已确认错误并撤销】全文全文检索未出现 AGER（0 处匹配）。原提取系从成熟肺 AT1 常识推断脑补，本文关注胎肺早期 alveolar patterning，未将 AGER 作为分析 marker。撤销该错误配对并审计留痕。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1016_j.stem.2022.11.013_M10",
+        "revocation_action": "revoked",
+        "reason": "全文无该基因出现，系常识脑补错误配对。"
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_formal_markers": 9,
+    "four_layer_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "outside": 9,
+      "unknown": 0
+    },
+    "materials_status": {
+      "Main_Text": "reviewed",
+      "Figure_1": "reviewed",
+      "Figure_2_3": "reviewed",
+      "Supplementary_Figures": "available_unreviewed"
+    },
+    "reconciliation_notes": "遵照原文明确声明，坚决将HOPX更正为AT2谱系标志物(Fig. 3D)；撤销全文未出现的ETV5与AGER常识脑补记录；全面核实收录SOX9, SOX2, SFTPC, CD36, LAMP3, SLC34A2及stalk标志物PDPN, CD44。"
+  }
+}

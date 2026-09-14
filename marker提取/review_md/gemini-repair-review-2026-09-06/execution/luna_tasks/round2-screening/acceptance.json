@@ -1,0 +1,136 @@
+{
+  "acceptance_status": "round2_executed_for_all_round1_units_with_round1_coverage_exceptions",
+  "authority": "Luna建议; Astra最终裁决",
+  "model_configuration": {
+    "model_name": "GPT-5.6 Luna",
+    "reasoning_effort": "max",
+    "role": "independent_round2_screening",
+    "authority": "recommendation_only",
+    "decision_label": "Luna建议"
+  },
+  "current_official_baseline": {
+    "source_of_truth": "formal official workbook as found on disk at execution time",
+    "files": {
+      "our_markers.xlsx": {
+        "path": "marker提取/表单/our_markers.xlsx",
+        "sha256": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "expected_sha256": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "hash_matches_expected": true
+      },
+      "our_markers_by_cell.xlsx": {
+        "path": "marker提取/表单/our_markers_by_cell.xlsx",
+        "sha256": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2",
+        "expected_sha256": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2",
+        "hash_matches_expected": true
+      }
+    },
+    "markers_data_rows": 2499,
+    "unique_nonblank_marker_ids": 2499,
+    "marker_id_duplicates": 0,
+    "sheet_structure": {
+      "sheetnames": [
+        "说明与统计",
+        "markers",
+        "import_log",
+        "audit_exclusions",
+        "audit_summary"
+      ],
+      "sheets": {
+        "说明与统计": {
+          "max_row": 29,
+          "max_column": 8
+        },
+        "markers": {
+          "max_row": 2500,
+          "max_column": 31
+        },
+        "import_log": {
+          "max_row": 159,
+          "max_column": 15
+        },
+        "audit_exclusions": {
+          "max_row": 2217,
+          "max_column": 19
+        },
+        "audit_summary": {
+          "max_row": 41,
+          "max_column": 14
+        }
+      }
+    }
+  },
+  "round1_batch_ledger": {
+    "batch_01_units": 213,
+    "batch_01_baseline_units": 196,
+    "batch_01_candidate_units": 17,
+    "batch_02_units": 277,
+    "round1_units_total": 490,
+    "distinct_baseline_ids_in_round1": 473,
+    "batch01_batch02_overlap_marker_ids": [],
+    "batch01_batch02_overlap_count": 0,
+    "round1_duplicate_review_ids": 0,
+    "round1_review_id_coverage": {
+      "round1_ids": 490,
+      "round2_ids": 490,
+      "missing_in_round2": [],
+      "unexpected_in_round2": []
+    },
+    "baseline_ids_still_present": 473,
+    "baseline_ids_missing": [],
+    "current_baseline_coverage_fraction": 0.18927571028411364
+  },
+  "historical_set_coverage": {
+    "original_62_candidates": {
+      "declared_count": 62,
+      "explicit_round1_candidate_units": 17,
+      "status": "partial; 17 of the 62 candidate workload units were explicitly screened in Batch-01; no claim of full candidate coverage"
+    },
+    "original_28_state_continuations": {
+      "declared_count": 28,
+      "audit_data_previous_unresolved": 28,
+      "status": "not fully covered by round1; only the explicitly present subset can be carried into this round"
+    },
+    "context_only_28": {
+      "declared_count": 28,
+      "crosswalk_rows": 28,
+      "status": "not a complete round1 screening set; candidate crosswalk entries remain outside current round2 unit universe unless explicitly present"
+    },
+    "excluded_121": {
+      "declared_count": 121,
+      "crosswalk_rows": 121,
+      "status": "not a complete round1 screening set; no physical deletion or implicit acceptance"
+    },
+    "baseline_backfill_953": {
+      "declared_count": 953,
+      "audit_data_id_matched": 953,
+      "crosswalk_rows_with_mapping_type_baseline_backfill": 743,
+      "unique_table_ids_in_crosswalk": 743,
+      "round1_ids_intersecting_backfill": 85,
+      "status": "mapping provenance is present, but round1 did not independently review all backfill rows"
+    },
+    "crosswalk_formal_total": {
+      "rows": 1015,
+      "unique_table_ids": 1030
+    }
+  },
+  "round1_delivery_exceptions": [
+    "Batch-02 manifest hashes differ from current official hashes; all 277 Batch-02 marker IDs are present in current markers sheet, so current official rows are the source of truth.",
+    "Round1 root manifest duplicates Batch-01 manifest metadata instead of being a global manifest.",
+    "Batch-01 evidence IDs are reused across many rows whose source_locator spans different figures/pages; this is a scope mismatch, not proof that every row shares one panel.",
+    "Batch-02 evidence_index lacks per-file SHA-256 fields; Luna computed existence/hash where the referenced path was available.",
+    "Batch-02 first-round schema lacks explicit semantic_decision/evidence_ids and merge_duplicate rows lack merge targets; Luna reconstructed these only as recommendations."
+  ],
+  "declared_batch02_baseline_hashes": {
+    "our_markers.xlsx": "9557463f25ee2f654b9cb7980287140e7cf239276da34c7a6e746a59bc8bbd35",
+    "our_markers_by_cell.xlsx": "4238e833dc86111f12cb3bc5fe27357603c4cf7e7fb174b2ca559194e99a8ea4",
+    "impact": "声明哈希均不等于当前正式哈希；277 个 Batch-02 stable marker_id 均存在于当前 markers 表，故以当前正式行值复核，不恢复声明文件。"
+  },
+  "round2_coverage": {
+    "round1_units_received": 490,
+    "round2_units_written": 490,
+    "one_to_one_unit_coverage": true,
+    "evidence_index_items": 14
+  },
+  "no_restore_or_publish": true,
+  "official_workbooks_modified_by_luna": false
+}

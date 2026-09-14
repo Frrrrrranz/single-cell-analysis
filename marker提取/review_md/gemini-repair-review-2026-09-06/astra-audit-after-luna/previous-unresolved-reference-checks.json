@@ -1,0 +1,184 @@
+[
+  {
+    "id": "DOI_10.1016_j.cell.2022.11.005_M08",
+    "gene": "COL2A1",
+    "refs": [
+      "LUNA-20260906-M00032"
+    ]
+  },
+  {
+    "id": "DOI_10.1016_j.cell.2022.11.005_M09",
+    "gene": "SOX10",
+    "refs": [
+      "LUNA-20260906-M00033"
+    ]
+  },
+  {
+    "id": "DOI_10.1016_j.isci.2024.111628_M02",
+    "gene": "NRXN1",
+    "refs": [
+      "LUNA-20260906-M00061",
+      "REV_BLADDER_01_NRXN1"
+    ]
+  },
+  {
+    "id": "DOI_10.1016_j.stem.2022.11.013_M02",
+    "gene": "ETV5",
+    "refs": [
+      "LUNA-20260906-M00853",
+      "LUNA-20260906-M00859",
+      "LUNA-20260906-M00862",
+      "LUNA-20260906-M00869",
+      "LUNA-20260906-M00883",
+      "LUNA-20260906-M00891",
+      "LUNA-20260906-M00893"
+    ]
+  },
+  {
+    "id": "DOI_10.1016_j.stem.2022.11.013_M10",
+    "gene": "AGER",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1038_s41467-021-21783-3_M07",
+    "gene": "Acta2",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1038_s41467-021-21783-3_M08",
+    "gene": "Krt14",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1038_s41467-021-21783-3_M09",
+    "gene": "Col1a1",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1038_s41467-021-21783-3_M10",
+    "gene": "Adgre1",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1038_s41467-024-52052-8_M02",
+    "gene": "Calca",
+    "refs": [
+      "LUNA-20260906-M02567",
+      "REV_IPAIN_03_Calca"
+    ]
+  },
+  {
+    "id": "DOI_10.1038_s41467-024-52052-8_M03",
+    "gene": "Mrgprd",
+    "refs": [
+      "LUNA-20260906-M02568",
+      "REV_IPAIN_04_Mrgprd"
+    ]
+  },
+  {
+    "id": "DOI_10.1038_s41467-024-52052-8_M04",
+    "gene": "Piezo2",
+    "refs": [
+      "LUNA-20260906-M01510",
+      "REV_IPAIN_05_Piezo2"
+    ]
+  },
+  {
+    "id": "DOI_10.1038_s41467-024-52052-8_M09",
+    "gene": "Glb1",
+    "refs": [
+      "REV_IPAIN_02_Glb1"
+    ]
+  },
+  {
+    "id": "DOI_10.1038_s41467-024-52052-8_M11",
+    "gene": "Fabp7",
+    "refs": [
+      "REV_IPAIN_06_Fabp7"
+    ]
+  },
+  {
+    "id": "DOI_10.1038_s41586-024-07069-w_M04",
+    "gene": "Isl1",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1038_s41588-022-01243-4_M03",
+    "gene": "PRR4",
+    "refs": [
+      "REV_SMG_01_PRR4"
+    ]
+  },
+  {
+    "id": "DOI_10.1038_s42003-024-07315-x_M10",
+    "gene": "Ccr2",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1126_science.aat5031_M09",
+    "gene": "SLC12A1",
+    "refs": [
+      "REV_KIDNEY_01_SLC12A1"
+    ]
+  },
+  {
+    "id": "DOI_10.1126_science.aat5031_M10",
+    "gene": "AQP2",
+    "refs": [
+      "REV_KIDNEY_02_AQP2"
+    ]
+  },
+  {
+    "id": "DOI_10.1126_science.aat5031_M11",
+    "gene": "SLC12A3",
+    "refs": [
+      "REV_KIDNEY_03_SLC12A3"
+    ]
+  },
+  {
+    "id": "DOI_10.1126_science.aat5031_M12",
+    "gene": "NPHS2",
+    "refs": [
+      "REV_KIDNEY_04_NPHS2"
+    ]
+  },
+  {
+    "id": "DOI_10.1126_science.abl4290_M07",
+    "gene": "SOX10",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1126_science.abl4290_M08",
+    "gene": "TTN",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1126_science.abl4290_M09",
+    "gene": "TNNT2",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.1126_science.abl4290_M10",
+    "gene": "ACTA2",
+    "refs": []
+  },
+  {
+    "id": "DOI_10.7554_elife.62522_M07",
+    "gene": "CALCA",
+    "refs": [
+      "REV_ELIFE_02_CALCA"
+    ]
+  },
+  {
+    "id": "DOI_10.7554_elife.62522_M08",
+    "gene": "CHGA",
+    "refs": [
+      "REV_ELIFE_03_CHGA"
+    ]
+  },
+  {
+    "id": "PMID_35115729_M10",
+    "gene": "Clec3b",
+    "refs": []
+  }
+]

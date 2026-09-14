@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-09-06T13:29:17.453Z",
+  "files": {
+    "our_markers": {
+      "path": "D:/OneDrive/Desktop/组/marker提取/review_md/gemini-repair-review-2026-09-06/execution/luna-single-model/baseline/20260906-luna-single-model/our_markers.xlsx",
+      "sha256": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+      "bytes": 709206
+    },
+    "our_markers_by_cell": {
+      "path": "D:/OneDrive/Desktop/组/marker提取/review_md/gemini-repair-review-2026-09-06/execution/luna-single-model/baseline/20260906-luna-single-model/our_markers_by_cell.xlsx",
+      "sha256": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2",
+      "bytes": 137953
+    }
+  },
+  "workbooks": {
+    "our_markers": {
+      "sheets": [
+        {
+          "name": "说明与统计",
+          "address": "A1:H29",
+          "rows": 29,
+          "cols": 8,
+          "tables": []
+        },
+        {
+          "name": "markers",
+          "address": "A1:AE2500",
+          "rows": 2500,
+          "cols": 31,
+          "tables": [
+            {
+              "name": "OurMarkersTable",
+              "range": "A1:AE2500"
+            }
+          ]
+        },
+        {
+          "name": "import_log",
+          "address": "A1:O159",
+          "rows": 159,
+          "cols": 15,
+          "tables": [
+            {
+              "name": "MarkerImportLogTable",
+              "range": "A1:O159"
+            }
+          ]
+        },
+        {
+          "name": "audit_exclusions",
+          "address": "A1:S2217",
+          "rows": 2217,
+          "cols": 19,
+          "tables": []
+        },
+        {
+          "name": "audit_summary",
+          "address": "A1:N41",
+          "rows": 41,
+          "cols": 14,
+          "tables": []
+        }
+      ]
+    },
+    "our_markers_by_cell": {
+      "sheets": [
+        {
+          "name": "Marker表",
+          "address": "A1:I1047",
+          "rows": 1047,
+          "cols": 9,
+          "tables": []
+        },
+        {
+          "name": "图表索引",
+          "address": "A1:G622",
+          "rows": 622,
+          "cols": 7,
+          "tables": []
+        },
+        {
+          "name": "说明",
+          "address": "A1:B16",
+          "rows": 16,
+          "cols": 2,
+          "tables": []
+        }
+      ]
+    }
+  }
+}

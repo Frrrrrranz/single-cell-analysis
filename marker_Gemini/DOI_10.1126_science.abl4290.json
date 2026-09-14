@@ -1,0 +1,473 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1126_science.abl4290",
+  "doi": "10.1126/science.abl4290",
+  "pmid": "35549429",
+  "title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含 Science 完整研究长文 15 页（pp. 1-15）、主要图表 Figs. 1-6 及其图注说明"
+    },
+    {
+      "material_name": "DOI_10.1126_science.abl4290.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含 PMC 作者手稿全文 Markdown，含全部跨组织单核分析、方法与图表解读"
+    },
+    {
+      "material_name": "Supplementary Figures S1-S34 & Supplementary Tables S1-S19",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "正文中引用的 34 个补充图与 19 个补充表格为外部独立文件，未包含在本地单行 PDF 内"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Macrophage_LYVE1",
+      "cluster_name": "LYVE1+ perivascular/interstitial macrophages",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue (breast, esophagus, heart, lung, muscle, skin, prostate)",
+      "four_layer_category": "outside",
+      "description": "跨组织广泛分布的血管周围/间质巨噬细胞亚群，特征性高表达 LYVE1 与 F13A1"
+    },
+    {
+      "cluster_id": "Cluster_Macrophage_HLAII",
+      "cluster_name": "HLA-II-high antigen-presenting macrophages",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "four_layer_category": "outside",
+      "description": "具有活跃抗原提呈表型的跨组织巨噬细胞亚群，特异性高表达 HLA-DRA 与 CD74"
+    },
+    {
+      "cluster_id": "Cluster_Macrophage_LAM_like",
+      "cluster_name": "Lipid-associated macrophage-like cells (LAM-like)",
+      "species": "human",
+      "organ_or_tissue": "breast, heart, lung, prostate",
+      "four_layer_category": "outside",
+      "description": "广泛存在于健康与代谢活跃人体组织的脂质相关巨噬细胞样亚群，特征性高表达 TREM2、APOE 与 LPL"
+    },
+    {
+      "cluster_id": "Cluster_Fibroblast_Pan_Tissue",
+      "cluster_name": "Pan-tissue shared fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "four_layer_category": "L3",
+      "description": "分布于各实体器官间质的成纤维细胞，共有高表达基质核心蛋白聚糖 DCN、LUM 与胶原蛋白 COL1A1"
+    },
+    {
+      "cluster_id": "Cluster_Fibroblast_Lung_Specific",
+      "cluster_name": "Lung-specific fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "L3",
+      "description": "肺组织特异性成纤维细胞亚群，特征性表达肾连接素 NPNT 与整合素 ITGA8，参与肺泡基底膜粘附锚定"
+    },
+    {
+      "cluster_id": "Cluster_Schwann_Cells",
+      "cluster_name": "Peripheral Schwann cells",
+      "species": "human",
+      "organ_or_tissue": "skeletal muscle, esophagus muscularis, prostate",
+      "four_layer_category": "L2",
+      "description": "伴行外周神经纤维的周围神经胶质施万细胞，特征性表达 MPZ、MBP 与转录因子 SOX10"
+    },
+    {
+      "cluster_id": "Cluster_Skeletal_Muscle_Myonuclei",
+      "cluster_name": "Skeletal muscle myonuclei",
+      "species": "human",
+      "organ_or_tissue": "skeletal muscle",
+      "four_layer_category": "outside",
+      "description": "骨骼肌多核骨架肌纤维核，特异性表达巨型肌动蛋白 TTN 与骨骼肌肌球蛋白重链 MYH1"
+    },
+    {
+      "cluster_id": "Cluster_Cardiomyocytes",
+      "cluster_name": "Cardiomyocytes",
+      "species": "human",
+      "organ_or_tissue": "heart",
+      "four_layer_category": "outside",
+      "description": "心肌细胞，特异性高表达心肌肌钙蛋白 TNNT2 与肌球蛋白 MYH6"
+    },
+    {
+      "cluster_id": "Cluster_Vascular_Smooth_Muscle",
+      "cluster_name": "Vascular smooth muscle cells (vSMCs)",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "four_layer_category": "outside",
+      "description": "血管壁平滑肌细胞，特征性表达平滑肌肌动蛋白 ACTA2 与肌球蛋白 MYH11"
+    },
+    {
+      "cluster_id": "Cluster_Endothelial_Vascular",
+      "cluster_name": "Vascular endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "four_layer_category": "outside",
+      "description": "跨组织血管内皮细胞，高表达经典粘附分子 PECAM1 (CD31)、VWF 与 CDH5 (VE-cadherin)"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M01",
+      "marker": "LYVE1",
+      "marker_original": "LYVE1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Perivascular Macrophage",
+      "cell_type_original": "LYVE1-expressing macrophages",
+      "author_cluster_id": "Cluster_Macrophage_LYVE1",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue (breast, esophagus, heart, lung, muscle, skin, prostate)",
+      "experimental_context": "Cross-tissue single-nucleus RNA-seq subclustering and PAGA graph analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in single nuclei",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4-6, Fig. 3a-c",
+      "source_context": "A dichotomy between LYVE1- and HLAII-expressing macrophages across tissues... LYVE1 marks a distinct perivascular and interstitial macrophage subset conserved across adult human organs",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 3a-b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Expression of marker genes (columns) associated with each subset (rows), defining LYVE1+ perivascular macrophages",
+          "mapping_basis": "cross-tissue snRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Lymphatic vessel endothelial hyaluronan receptor 1, hallmark marker of perivascular tissue-resident macrophages across 8 human organs",
+      "decision_reason": "High-confidence defining marker in pan-human cross-tissue atlas"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M02",
+      "marker": "F13A1",
+      "marker_original": "F13A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Perivascular Macrophage",
+      "cell_type_original": "LYVE1-expressing macrophages",
+      "author_cluster_id": "Cluster_Macrophage_LYVE1",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "experimental_context": "Cross-tissue snRNA-seq myeloid cluster dotplot",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 5, Fig. 3b",
+      "source_context": "F13A1 co-segregates with LYVE1 in the perivascular interstitial macrophage branch across tissues",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot/heatmap showing F13A1 enriched in the LYVE1+ macrophage branch",
+          "mapping_basis": "cross-tissue myeloid heatmap"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Co-expressed with LYVE1 in human resident interstitial macrophages",
+      "decision_reason": "Cross-tissue myeloid subset marker"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M03",
+      "marker": "HLA-DRA",
+      "marker_original": "HLA-DRA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Antigen-Presenting Macrophage",
+      "cell_type_original": "HLAII-expressing macrophages",
+      "author_cluster_id": "Cluster_Macrophage_HLAII",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "experimental_context": "Cross-tissue snRNA-seq myeloid dichotomy analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4-6, Fig. 3a-c",
+      "source_context": "A dichotomy between LYVE1- and HLAII-expressing macrophages across tissues, where HLA-DRA marks antigen-presenting immune-interacting macrophages",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 3a-b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "A dichotomy between LYVE1- and HLAII-expressing macrophages across tissues",
+          "mapping_basis": "snRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Major histocompatibility complex class II DR alpha chain, defining marker of the second main macrophage branch",
+      "decision_reason": "Defines the second major cross-tissue macrophage branch"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M04",
+      "marker": "TREM2",
+      "marker_original": "TREM2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Lipid-Associated Macrophage",
+      "cell_type_original": "LAM-like macrophages",
+      "author_cluster_id": "Cluster_Macrophage_LAM_like",
+      "species": "human",
+      "organ_or_tissue": "breast, heart, lung, prostate",
+      "experimental_context": "snRNA-seq cross-tissue profiling and gene program deconvolution",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in single nuclei",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 5-7, Fig. 3a-c",
+      "source_context": "LAM-like macrophages are prevalent across human tissues and share a regulatory program... identified by elevated expression of TREM2, APOE, and LPL",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 3a-b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "LAM-like macrophages are prevalent across human tissues and share a regulatory program",
+          "mapping_basis": "cross-tissue snRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Triggering receptor expressed on myeloid cells 2, master marker of lipid-associated macrophage program in normal human tissues",
+      "decision_reason": "Definitive marker for conserved LAM-like macrophage population"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M05",
+      "marker": "DCN",
+      "marker_original": "DCN",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Fibroblast",
+      "cell_type_original": "pan-tissue fibroblasts",
+      "author_cluster_id": "Cluster_Fibroblast_Pan_Tissue",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "experimental_context": "Cross-tissue snRNA-seq fibroblast analysis across 8 organs",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "Decorin transcript in single nuclei",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 6-8, Fig. 4a",
+      "source_context": "Expression in each tissue subset of marker genes distinguishing fibroblasts from nonfibroblasts across all tissues (including DCN, LUM, COL1A1)",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "figure_panel": "Fig. 4a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "marker genes distinguishing fibroblasts from nonfibroblasts across all tissues",
+          "mapping_basis": "pan-tissue single-nuclei marker matrix"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Small leucine-rich proteoglycan, universal core marker distinguishing fibroblasts across all human solid organs",
+      "decision_reason": "Universal cross-tissue fibroblast identity marker"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M06",
+      "marker": "NPNT",
+      "marker_original": "NPNT (nephronectin)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Lung-Specific Fibroblast",
+      "cell_type_original": "lung-specific fibroblasts",
+      "author_cluster_id": "Cluster_Fibroblast_Lung_Specific",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Cross-tissue fibroblast comparative analysis and basement membrane adhesion module",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 7-9, Fig. 4b, d, f-g",
+      "source_context": "genes covarying with the lung-specific fibroblast signature... epithelial-mesenchymal adhesion [nephronectin (NPNT), FRAS1, hemicentin-1 (HMCN1), and integrin ITGA8]",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "figure_panel": "Fig. 4b, d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fibroblast profiles colored by expression of the most exclusive marker NPNT in lung",
+          "mapping_basis": "tissue-exclusive fibroblast marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Nephronectin, exclusively enriched in lung fibroblasts for anchoring to alveolar basement membrane",
+      "decision_reason": "Most exclusive tissue-specific fibroblast marker identified across the 8 human organs"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M07",
+      "marker": "SOX10",
+      "marker_original": "SOX10",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Schwann Cell",
+      "cell_type_original": "Schwann cells",
+      "author_cluster_id": "Cluster_Schwann_Cells",
+      "species": "human",
+      "organ_or_tissue": "skeletal muscle, esophagus muscularis, prostate",
+      "experimental_context": "snRNA-seq cross-tissue broad cell type annotation",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in single nuclei",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 2-4, Fig. 1c, g",
+      "source_context": "Schwann cells were identified as a distinct peripheral glial lineage across muscular and stromal tissues using SOX10 and MPZ",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Broad cell-type annotation across 8 tissues showing Schwann cell cluster",
+          "mapping_basis": "snRNA-seq broad cell type cluster"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Master transcription factor of neural crest-derived peripheral glia",
+      "decision_reason": "Peripheral glial lineage marker identified across frozen human organs"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M08",
+      "marker": "TTN",
+      "marker_original": "TTN",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Skeletal Muscle Myonucleus",
+      "cell_type_original": "skeletal muscle myonuclei",
+      "author_cluster_id": "Cluster_Skeletal_Muscle_Myonuclei",
+      "species": "human",
+      "organ_or_tissue": "skeletal muscle",
+      "experimental_context": "snRNA-seq of archived frozen skeletal muscle",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in single nuclei",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-4, Fig. 1c, Fig. 5a",
+      "source_context": "Single-nucleus profiling uniquely captured the giant multinucleated skeletal muscle myonuclei, marked by titin (TTN) and MYH1",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Skeletal muscle myonuclei cluster uniquely captured by snRNA-seq",
+          "mapping_basis": "snRNA-seq cell type marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Titin, essential structural myofilament marker captured by single-nucleus sequencing",
+      "decision_reason": "Cell-type specific defining marker for skeletal muscle myonuclei"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M09",
+      "marker": "TNNT2",
+      "marker_original": "TNNT2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Cardiomyocyte",
+      "cell_type_original": "cardiomyocytes",
+      "author_cluster_id": "Cluster_Cardiomyocytes",
+      "species": "human",
+      "organ_or_tissue": "heart",
+      "experimental_context": "snRNA-seq of archived frozen human heart tissue",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in single nuclei",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-4, Fig. 1c, Fig. 5a",
+      "source_context": "Cardiomyocytes in frozen human heart samples were demarcated by cardiac troponin TNNT2 and MYH6",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Cardiomyocyte broad cell type cluster",
+          "mapping_basis": "snRNA-seq broad cell type marker"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Cardiac troponin T, definitive lineage marker of human cardiomyocytes",
+      "decision_reason": "Canonical cardiomyocyte lineage marker in cross-tissue atlas"
+    },
+    {
+      "record_id": "DOI_10.1126_science.abl4290_M10",
+      "marker": "ACTA2",
+      "marker_original": "ACTA2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Vascular Smooth Muscle Cell",
+      "cell_type_original": "vascular smooth muscle cells (vSMCs)",
+      "author_cluster_id": "Cluster_Vascular_Smooth_Muscle",
+      "species": "human",
+      "organ_or_tissue": "pan-tissue",
+      "experimental_context": "snRNA-seq mural cell compartment across 8 tissues",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in single nuclei",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 2-4, Fig. 1c, Fig. 5a",
+      "source_context": "Vascular smooth muscle cells were identified across tissues by ACTA2 and MYH11",
+      "sources": [
+        {
+          "file": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP representation of single-nucleus profiles showing smooth muscle cluster",
+          "mapping_basis": "snRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Alpha smooth muscle actin, hallmark contractile marker of vascular mural smooth muscle cells",
+      "decision_reason": "Conserved cross-tissue vascular smooth muscle marker"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Science research article (15 pages including figures 1-6, methods, and full text descriptions).",
+    "missing_materials": "Supplementary Figures S1-S34 and Supplementary Tables S1-S19 not provided as standalone files.",
+    "potential_leakage_scope": "Extensive GWAS/eQTL disease gene mappings (Figs. 5-6) and monogenic disease topics beyond the cross-tissue lineage and tissue-specific marker signatures."
+  }
+}

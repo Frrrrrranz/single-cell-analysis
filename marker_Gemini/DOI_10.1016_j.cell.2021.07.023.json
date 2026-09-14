@@ -1,0 +1,587 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+  "doi": "10.1016/j.cell.2021.07.023",
+  "pmid": "34352228",
+  "title": "Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含 Cell 刊出全文 21 页（pp. 4713-4733）、主图 Figures 1-7、STAR Methods 及图注说明"
+    },
+    {
+      "material_name": "DOI_10.1016_j.cell.2021.07.023.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，包括病毒宿主因素、上皮亚群定义与单细胞数据"
+    },
+    {
+      "material_name": "Supplementary Tables S1-S7 & Document S1",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "外部补充数据表格独立 Excel 文件在本地未单独提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Basal_Cells",
+      "cluster_name": "Basal epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "鼻咽呼吸道上皮基底干/祖细胞，高表达转录因子 TP63 与基底层细胞角蛋白 KRT5、KRT15"
+    },
+    {
+      "cluster_id": "Cluster_Secretory_Cells",
+      "cluster_name": "Secretory epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "呼吸道黏膜分泌上皮细胞，特征性高表达 BPIFA1、SCGB1A1 与 KRT7"
+    },
+    {
+      "cluster_id": "Cluster_Goblet_Cells",
+      "cluster_name": "Goblet cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "黏液产生杯状细胞，特异性高表达黏蛋白 MUC5AC 与转录因子 SPDEF"
+    },
+    {
+      "cluster_id": "Cluster_Ionocytes",
+      "cluster_name": "Pulmonary / respiratory ionocytes",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "特化呼吸道离子细胞，调节黏液黏稠度与离子转运，特征性高表达转录因子 FOXI1 与囊性纤维化跨膜电导调节因子 CFTR"
+    },
+    {
+      "cluster_id": "Cluster_Deuterosomal_Cells",
+      "cluster_name": "Deuterosomal cells (ciliated precursors)",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "由分泌/杯状细胞向纤毛细胞分化的中间祖细胞，特异性高表达中心粒扩增基因 DEUP1、CCNO、CDC20B 与 FOXN4"
+    },
+    {
+      "cluster_id": "Cluster_Ciliated_Cells",
+      "cluster_name": "Mature ciliated cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "成熟纤毛摆动上皮细胞，高表达纤毛发生转录因子 FOXJ1 与微管相关蛋白 TPPP3、DNAH11"
+    },
+    {
+      "cluster_id": "Cluster_Squamous_Cells",
+      "cluster_name": "Squamous epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa (anterior nose/posterior pharynx)",
+      "four_layer_category": "outside",
+      "description": "前鼻孔或后咽移行部复层鳞状上皮细胞，特征性表达角化外膜蛋白 SCEL 与 SPRR1B"
+    },
+    {
+      "cluster_id": "Cluster_Mast_Cells",
+      "cluster_name": "Mast cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "鼻咽黏膜定居肥大细胞，特异性高表达类胰蛋白酶 TPSB2 与转录因子 GATA2"
+    },
+    {
+      "cluster_id": "Cluster_pDCs",
+      "cluster_name": "Plasmacytoid dendritic cells (pDCs)",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "产生I型干扰素的浆细胞样树突状细胞，特征性高表达 IL3RA (CD123) 与 IRF7"
+    },
+    {
+      "cluster_id": "Cluster_T_Cells",
+      "cluster_name": "T lymphocytes",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "黏膜浸润 T 细胞，高表达 CD3E 与 CD2"
+    },
+    {
+      "cluster_id": "Cluster_B_Cells",
+      "cluster_name": "B lymphocytes",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "four_layer_category": "outside",
+      "description": "黏膜浸润 B 细胞，高表达 MS4A1 (CD20) 与 CD79A"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M01",
+      "marker": "TP63",
+      "marker_original": "TP63",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Basal Epithelial Cell",
+      "cell_type_original": "basal cells",
+      "author_cluster_id": "Cluster_Basal_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq Seq-Well S^3 on nasopharyngeal swabs and cluster marker violin plots",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "Among epithelial cell types, we identified basal cells by their expression of TP63, KRT15, and KRT5",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Among epithelial cell types, we identified basal cells by their expression of TP63, KRT15, and KRT5",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Master transcription factor of respiratory epithelial basal progenitor cells",
+      "decision_reason": "Direct author-declared cluster defining marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M02",
+      "marker": "KRT5",
+      "marker_original": "KRT5",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Basal Epithelial Cell",
+      "cell_type_original": "basal cells",
+      "author_cluster_id": "Cluster_Basal_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq violin plot of cluster markers",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Cytokeratin 5 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "identified basal cells by their expression of TP63, KRT15, and KRT5",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Violin plot showing restricted high expression of KRT5 in basal cells",
+          "mapping_basis": "scRNA-seq violin plot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Cytokeratin 5, structural intermediate filament of basal epithelium",
+      "decision_reason": "Classic and validated basal cell marker in nasopharynx"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M03",
+      "marker": "BPIFA1",
+      "marker_original": "BPIFA1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Secretory Epithelial Cell",
+      "cell_type_original": "secretory cells",
+      "author_cluster_id": "Cluster_Secretory_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq differential expression distinguishing secretory from goblet cells",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "BPIFA1 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f, m",
+      "source_context": "distinguished between goblet and secretory cells based on expression of MUC5AC-expressing goblet, and BPIFA1-expressing secretory cells",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "distinguished between goblet and secretory cells based on expression of MUC5AC-expressing goblet, and BPIFA1-expressing secretory cells",
+          "mapping_basis": "scRNA-seq cluster discriminator"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "SPLUNC1, lipid-binding antimicrobial secretory protein selectively distinguishing secretory cells from goblet cells",
+      "decision_reason": "Specific discriminator gene defining secretory cell cluster"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M04",
+      "marker": "MUC5AC",
+      "marker_original": "MUC5AC",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Goblet Cell",
+      "cell_type_original": "goblet cells",
+      "author_cluster_id": "Cluster_Goblet_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq cluster annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Mucin 5AC transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f, n",
+      "source_context": "distinguished between goblet and secretory cells based on expression of MUC5AC-expressing goblet cells",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "MUC5AC-expressing goblet cells",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Gel-forming mucin specifically defining airway goblet cells",
+      "decision_reason": "Eponymous lineage-defining mucin marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M05",
+      "marker": "FOXI1",
+      "marker_original": "FOXI1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Respiratory Ionocyte",
+      "cell_type_original": "ionocytes",
+      "author_cluster_id": "Cluster_Ionocytes",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq resolution of rare specialized epithelial subsets",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "FOXI1 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "We also resolved a population of ionocytes (FOXI1, FOXI2, CFTR), a recently identified specialized subtype of secretory cell involved in regulating mucus viscosity",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "resolved a population of ionocytes (FOXI1, FOXI2, CFTR)",
+          "mapping_basis": "scRNA-seq rare cell type annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Forkhead box I1, master transcriptional driver of ionocyte differentiation",
+      "decision_reason": "Definitive transcription factor marker of pulmonary ionocytes"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M06",
+      "marker": "CFTR",
+      "marker_original": "CFTR",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Respiratory Ionocyte",
+      "cell_type_original": "ionocytes",
+      "author_cluster_id": "Cluster_Ionocytes",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq identification of ion-transporting epithelial cells",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CFTR transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "ionocytes (FOXI1, FOXI2, CFTR)... regulating mucus viscosity within respiratory epithelia",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "resolved a population of ionocytes (FOXI1, FOXI2, CFTR)",
+          "mapping_basis": "scRNA-seq marker identification"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Cystic fibrosis transmembrane conductance regulator chloride channel, predominantly concentrated in ionocytes",
+      "decision_reason": "Functional ion-transport hallmark gene of respiratory ionocytes"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M07",
+      "marker": "DEUP1",
+      "marker_original": "DEUP1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Deuterosomal Cell",
+      "cell_type_original": "deuterosomal cells",
+      "author_cluster_id": "Cluster_Deuterosomal_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq ciliated precursor developmental trajectory",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f, l",
+      "source_context": "we also resolved deuterosomal cells (DEUP1, CCNO, CDC20B, FOXN4, HES6)—a ciliated cell precursor arising from secretory cell/goblet cell differentiation",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "resolved deuterosomal cells (DEUP1, CCNO, CDC20B, FOXN4, HES6)—a ciliated cell precursor",
+          "mapping_basis": "scRNA-seq developmental intermediate marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Deuterosome assembly protein 1, exclusive marker for massive centriole amplification in ciliated precursor cells",
+      "decision_reason": "Specific hallmark marker defining deuterosomal cell state"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M08",
+      "marker": "FOXJ1",
+      "marker_original": "FOXJ1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Ciliated Epithelial Cell",
+      "cell_type_original": "ciliated cells",
+      "author_cluster_id": "Cluster_Ciliated_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq epithelial cluster violin plots and viral entry profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "FOXJ1 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f, j",
+      "source_context": "Ciliated cells were defined by FOXJ1 and a ciliogenesis gene program, e.g., DLEC1, DNAH11, CFAP43",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Ciliated cells (FOXJ1 and a ciliogenesis gene program, e.g., DLEC1, DNAH11, CFAP43)",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Forkhead box J1, master ciliogenesis transcription factor marking mature ciliated cells",
+      "decision_reason": "Canonical and confirmed ciliated cell lineage marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M09",
+      "marker": "SCEL",
+      "marker_original": "SCEL",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Squamous Epithelial Cell",
+      "cell_type_original": "squamous cells",
+      "author_cluster_id": "Cluster_Squamous_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq cluster identification",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Sciellin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "Squamous cells were identified by expression of SCEL, as well as multiple SPRR genes, and potentially derive from the squamous epithelium of the anterior nose or posterior pharynx",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Squamous cells were identified by expression of SCEL, as well as multiple SPRR genes",
+          "mapping_basis": "scRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Sciellin, envelope protein defining cornified squamous epithelial cells",
+      "decision_reason": "Cluster-defining marker for stratified squamous epithelium"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M10",
+      "marker": "TPSB2",
+      "marker_original": "TPSB2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Mast Cell",
+      "cell_type_original": "mast cells",
+      "author_cluster_id": "Cluster_Mast_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq mucosal immune profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Tryptase beta 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "We recovered a small population of mast cells (GATA2, TPSB2, PTGS2)",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "recovered a small population of mast cells (GATA2, TPSB2, PTGS2)",
+          "mapping_basis": "scRNA-seq immune cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Tryptase beta 2, hallmark granule protease of mucosal mast cells",
+      "decision_reason": "Specific cluster marker defining mucosal mast cells"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M11",
+      "marker": "IL3RA",
+      "marker_original": "IL3RA (CD123)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Plasmacytoid Dendritic Cell",
+      "cell_type_original": "plasmacytoid DCs (pDCs)",
+      "author_cluster_id": "Cluster_pDCs",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq mucosal dendritic cell identification",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "IL3RA transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "and plasmacytoid DCs (IRF7, IL3RA)",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "plasmacytoid DCs (IRF7, IL3RA)",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "CD123, canonical surface marker distinguishing pDCs from myeloid DCs",
+      "decision_reason": "Specific cluster marker for plasmacytoid dendritic cells"
+    },
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_M12",
+      "marker": "CD3E",
+      "marker_original": "CD3E",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "T Lymphocyte",
+      "cell_type_original": "T cells",
+      "author_cluster_id": "Cluster_T_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq mucosal lymphoid cell annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CD3E transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1f",
+      "source_context": "Among lymphoid cells, we recovered T cells (CD3E, CD2, TRBC2) and B cells (MS4A1, CD79A, CD79B)",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "recovered T cells (CD3E, CD2, TRBC2)",
+          "mapping_basis": "scRNA-seq lymphoid cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Canonical pan-T cell receptor subunit",
+      "decision_reason": "Universal T cell lineage defining marker"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.1016_j.cell.2021.07.023_C01",
+      "marker": "ACE2",
+      "marker_original": "ACE2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Respiratory Epithelium (Secretory and Goblet Cells)",
+      "cell_type_original": "secretory and goblet cells",
+      "author_cluster_id": "Viral_Entry_Targets",
+      "species": "human",
+      "organ_or_tissue": "nasopharyngeal mucosa",
+      "experimental_context": "scRNA-seq host viral entry factor expression profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "ACE2 transcript expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 4716, Fig. 1i",
+      "source_context": "We find ACE2 expression highest among secretory cells and goblet cells, and to a lesser extent in ciliated cells... suggesting that these cells are likely targets for SARS-CoV-2",
+      "sources": [
+        {
+          "file": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+          "pdf_page": 4,
+          "printed_page": 4716,
+          "figure_panel": "Fig. 1i",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Expression of entry factors for SARS-CoV-2 and other common upper respiratory viruses (Figure 1I)",
+          "mapping_basis": "viral receptor expression profile"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "SARS-CoV-2 receptor, analyzed as functional tropism factor rather than an intrinsic lineage identity marker",
+      "decision_reason": "Viral receptor functional entry factor"
+    }
+  ],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 12,
+    "context_only_count": 1,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Cell research article (21 pages including main text figures 1-7, STAR Methods, and accompanying legends).",
+    "missing_materials": "Supplementary Tables S1-S7 standalone Excel spreadsheets not provided locally.",
+    "potential_leakage_scope": "Extensive interferon-stimulated genes (ISGs, Figs. 2-5) reflecting COVID-19 clinical severity and viral load dynamics."
+  }
+}

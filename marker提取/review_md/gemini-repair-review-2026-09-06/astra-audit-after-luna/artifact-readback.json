@@ -1,0 +1,250 @@
+[
+  {
+    "name": "our_markers",
+    "inspect": "{\"kind\":\"sheet\",\"id\":\"ws/jbqxx0\",\"name\":\"说明与统计\",\"index\":0,\"range\":\"A1:B29\",\"address\":\"A1:B29\"}\n{\"kind\":\"sheet\",\"id\":\"ws/t2hrt2\",\"name\":\"markers\",\"index\":1,\"range\":\"A1:AE2503\",\"address\":\"A1:AE2503\"}\n{\"kind\":\"sheet\",\"id\":\"ws/knbm4f\",\"name\":\"import_log\",\"index\":2,\"range\":\"A1:O159\",\"address\":\"A1:O159\"}\n{\"kind\":\"sheet\",\"id\":\"ws/px6jv3\",\"name\":\"audit_exclusions\",\"index\":3,\"range\":\"A1:S2248\",\"address\":\"A1:S2248\"}\n{\"kind\":\"sheet\",\"id\":\"ws/0tjui9\",\"name\":\"audit_summary\",\"index\":4,\"range\":\"A1:N41\",\"address\":\"A1:N41\"}"
+  },
+  {
+    "label": "updated-row",
+    "values": [
+      [
+        "nociceptors/neurons",
+        null,
+        "mouse",
+        "true",
+        "Rbfox3",
+        "NeuN",
+        "author_declared",
+        "positive",
+        "formal_candidate",
+        "Results, 'Development and persistence of pain and senescence of pain-sensing neurons', Fig.3i",
+        "We identified a senescent phenotype in a subset of nociceptors, which were characterized by high expression of the neuronal nuclei marker (NeuN) and their smaller size (Fig.3i).",
+        "approved",
+        "full_audit_2026-08-30",
+        "NeuN/RBFOX3 is a pan-neuronal nuclear marker; retain the senescence experimental context without treating NeuN as senescence-specific. Luna建议，Astra final."
+      ]
+    ]
+  },
+  {
+    "label": "added-rows",
+    "values": [
+      [
+        "Pulmonary neuroendocrine cell",
+        "PNEC",
+        "human",
+        false,
+        "RIMS2",
+        "RIMS2",
+        "figure_labeled",
+        "positive",
+        "formal_candidate",
+        "Fig. 1D, PDF p.4",
+        "Fig. 1D dot plot shows specific expression of RIMS2 in PNEC cluster",
+        "approved",
+        "full_review_luna_single_model",
+        "独立查看原图/图注或直接标记后，基因与作者标注细胞关系成立；当前正式表没有同一完整关系，建议新增候选。 measurement_type=RNA。"
+      ],
+      [
+        "Pericyte (claimed in repair)",
+        null,
+        "human",
+        false,
+        "LAMC3",
+        "LAMC3",
+        "figure_labeled",
+        "positive",
+        "formal_candidate",
+        "Fig. 1D",
+        "Repair claimed LAMC3 is marker for Pericyte",
+        "approved",
+        "full_review_luna_single_model",
+        "Fig.1D 重新复开纠错：LAMC3 列对应 Pericytes 行；旧候选排除结论被本次图像核对替代。measurement_type=RNA。"
+      ],
+      [
+        "SMG Serous Cell",
+        "SMG-serous",
+        "human",
+        false,
+        "PRR4",
+        "PRR4",
+        "annotation_marker",
+        "positive",
+        "formal_candidate",
+        "Extended Data Fig. 10g, PDF pp. 34-35",
+        "(g) IHC from the HPA showing HLA-DR, MUC5B and PRR4 staining with HLA-DR+ regions corresponding with non-mucous areas",
+        "approved",
+        "full_review_luna_single_model",
+        "独立查看原图/图注或直接标记后，基因与作者标注细胞关系成立；当前正式表没有同一完整关系，建议新增候选。 measurement_type=protein_IHC。"
+      ]
+    ]
+  },
+  {
+    "label": "primary-summary",
+    "values": [
+      [
+        "我方 Marker 总表（schema v2）",
+        null
+      ],
+      [
+        null,
+        null
+      ],
+      [
+        "当前统计",
+        "数量"
+      ],
+      [
+        "已录入 marker",
+        2488
+      ],
+      [
+        "已批准 marker",
+        2488
+      ],
+      [
+        "已录入论文",
+        43
+      ],
+      [
+        "PNS marker",
+        964
+      ],
+      [
+        null,
+        null
+      ]
+    ]
+  },
+  {
+    "name": "our_markers_by_cell",
+    "inspect": "{\"kind\":\"sheet\",\"id\":\"ws/hq2o7c\",\"name\":\"Marker表\",\"index\":0,\"range\":\"A1:I1059\",\"address\":\"A1:I1059\"}\n{\"kind\":\"sheet\",\"id\":\"ws/xomzl2\",\"name\":\"图表索引\",\"index\":1,\"range\":\"A1:G620\",\"address\":\"A1:G620\"}\n{\"kind\":\"sheet\",\"id\":\"ws/1cxbpb\",\"name\":\"说明\",\"index\":2,\"range\":\"A1:B16\",\"address\":\"A1:B16\"}"
+  },
+  {
+    "label": "by-cell-head",
+    "values": [
+      [
+        "文章标题",
+        "DOI",
+        "谱系",
+        "组织/区域",
+        "发育阶段",
+        "疾病/状态",
+        "作者细胞名称",
+        "Marker",
+        "依据"
+      ],
+      [
+        "Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons.",
+        "10.7554/elife.71752",
+        null,
+        null,
+        null,
+        null,
+        "H3（putative peptidergic/Aδ nociceptor）",
+        "NEFH",
+        "物种：human；证据：author_declared；定位：Results p.4; Figure 1C"
+      ],
+      [
+        "Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons.",
+        "10.7554/elife.71752",
+        null,
+        null,
+        null,
+        null,
+        "H6（putative peptidergic/Aδ nociceptor）",
+        "NEFH",
+        "物种：human；证据：author_declared；定位：Results p.4; Figure 1C"
+      ],
+      [
+        "Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons.",
+        "10.7554/elife.71752",
+        null,
+        null,
+        null,
+        null,
+        "H10（nonpeptidergic nociceptor / candidate pruriceptor）",
+        "OSMR；MRGPRX1；PIEZO2",
+        "物种：human；证据：annotation_marker、figure_labeled；定位：Results p.6; Figure 5A；Results p.11; Figure 5B legend；Results p.11; Figure 1C; Figure 2-figure supplement 2"
+      ],
+      [
+        "Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons.",
+        "10.7554/elife.71752",
+        null,
+        null,
+        null,
+        null,
+        "H11（nonpeptidergic nociceptor / candidate pruriceptor）",
+        "OSMR；JAK1",
+        "物种：human；证据：annotation_marker、figure_labeled；定位：Results p.6; Figure 5A；Results p.6; Figure 5B"
+      ]
+    ]
+  },
+  {
+    "label": "by-cell-notes",
+    "values": [
+      [
+        "文献 Marker 提取模板（交付版）",
+        null
+      ],
+      [
+        "项目",
+        "内容"
+      ],
+      [
+        "生成时间",
+        "2026-09-06"
+      ],
+      [
+        "数据来源",
+        "our_markers.xlsx 本次发布后的已确认集合，2488 条。"
+      ],
+      [
+        "行粒度",
+        "一行 = 一篇论文、一个作者细胞标签/亚型和物种；同一基因按极性分别呈现。"
+      ],
+      [
+        "Marker定义",
+        "仅收录作者作为 Marker 呈现、且实际用于细胞群识别、命名或归类的基因；两个条件缺一不可。"
+      ],
+      [
+        "证据规则",
+        "证据优先级：文章图表与图注 > 补充表和方法 > 作者官方代码/数据 > 外部知识。"
+      ],
+      [
+        "缺失值规则",
+        "文章未说明的信息留空，不根据常识补写。"
+      ],
+      [
+        "待补列",
+        "谱系、发育阶段、疾病/状态、作者注释代码/数据网址——原始管线未提取，当前留空。"
+      ],
+      [
+        "阴性标注",
+        "阴性 94 条；低表达 8 条；unknown 以极性未明显示，均不自动当作阳性。"
+      ],
+      [
+        "物种说明",
+        "物种写入每行依据列；基因级统计：{\"human\": 2089, \"mouse\": 341, \"other\": 57, \"zebrafish\": 12}"
+      ],
+      [
+        "图表索引说明",
+        "“文章标题”列为多论文合并而加；其余列与同学模板一致。"
+      ],
+      [
+        "Marker总数",
+        2488
+      ],
+      [
+        "面板—作者标签记录数",
+        619
+      ],
+      [
+        "论文数",
+        43
+      ],
+      [
+        "版本规则",
+        "依据正式总表同步；context_only、明确排除、未决和合并移除均不进入本汇总；本次单模型裁决及证据索引见 luna-single-model/registry。"
+      ]
+    ]
+  }
+]

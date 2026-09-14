@@ -1,0 +1,229 @@
+{
+  "run_id": "20260906-luna-single-model",
+  "unresolved": [
+    {
+      "review_id": "REV_ELIFE_02_CALCA",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "gene_symbol": "CALCA",
+      "cell_type": "Pulmonary neuroendocrine cell",
+      "source_locator": "Fig. 1B/D (withdrawn)",
+      "evidence_ids": [
+        "EVID_01"
+      ],
+      "gap": "所引面板不支持，需补充材料检索线索；当前停止定向搜索，交由后续裁决。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "所引面板不支持，需补充材料检索线索；当前停止定向搜索，交由后续裁决。"
+    },
+    {
+      "review_id": "REV_ELIFE_03_CHGA",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "gene_symbol": "CHGA",
+      "cell_type": "Pulmonary neuroendocrine cell",
+      "source_locator": "Fig. 1B/D (withdrawn)",
+      "evidence_ids": [
+        "EVID_01"
+      ],
+      "gap": "所引面板不支持，停止定向搜索，交由后续裁决。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "所引面板不支持，停止定向搜索，交由后续裁决。"
+    },
+    {
+      "review_id": "REV_IPAIN_03_Calca",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "gene_symbol": "Calca",
+      "cell_type": "Peptidergic Nociceptor",
+      "source_locator": "Fig. 1d",
+      "evidence_ids": [
+        "EVID_02"
+      ],
+      "gap": "主图未见直接标签，暂无补充表精确定位。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未见直接标签，暂无补充表精确定位。"
+    },
+    {
+      "review_id": "REV_IPAIN_04_Mrgprd",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "gene_symbol": "Mrgprd",
+      "cell_type": "Non-Peptidergic Nociceptor",
+      "source_locator": "Fig. 1d",
+      "evidence_ids": [
+        "EVID_02"
+      ],
+      "gap": "主图未见直接标签，暂无补充表精确定位。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未见直接标签，暂无补充表精确定位。"
+    },
+    {
+      "review_id": "REV_IPAIN_05_Piezo2",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "gene_symbol": "Piezo2",
+      "cell_type": "C-Low Threshold Mechanoreceptor",
+      "source_locator": "Fig. 1d",
+      "evidence_ids": [
+        "EVID_02"
+      ],
+      "gap": "主图未见直接标签，暂无补充表精确定位。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未见直接标签，暂无补充表精确定位。"
+    },
+    {
+      "review_id": "REV_IPAIN_06_Fabp7",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "gene_symbol": "Fabp7",
+      "cell_type": "Satellite Glial Cell",
+      "source_locator": "Fig. 1d",
+      "evidence_ids": [
+        "EVID_02"
+      ],
+      "gap": "主图未见直接标签，暂无补充表精确定位。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未见直接标签，暂无补充表精确定位。"
+    },
+    {
+      "review_id": "REV_BLADDER_01_NRXN1",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "gene_symbol": "NRXN1",
+      "cell_type": "Schwann cell",
+      "source_locator": "Main text p. 6 & Fig. 1E",
+      "evidence_ids": [
+        "EVID_03"
+      ],
+      "gap": "作者原文字为家族通称 NRXN+，单基因不可唯一标准化。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "作者原文字为家族通称 NRXN+，单基因不可唯一标准化。"
+    },
+    {
+      "review_id": "REV_KIDNEY_01_SLC12A1",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "gene_symbol": "SLC12A1",
+      "cell_type": "Thick Ascending Limb Epithelial Cell",
+      "source_locator": "Fig. 1 (PDF p. 13)",
+      "evidence_ids": [
+        "EVID_05"
+      ],
+      "gap": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。"
+    },
+    {
+      "review_id": "REV_KIDNEY_02_AQP2",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "gene_symbol": "AQP2",
+      "cell_type": "Collecting Duct Principal Cell",
+      "source_locator": "Fig. 1 (PDF p. 13)",
+      "evidence_ids": [
+        "EVID_05"
+      ],
+      "gap": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。"
+    },
+    {
+      "review_id": "REV_KIDNEY_03_SLC12A3",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "gene_symbol": "SLC12A3",
+      "cell_type": "Distal Convoluted Tubule Cell",
+      "source_locator": "Fig. 1 (PDF p. 13)",
+      "evidence_ids": [
+        "EVID_05"
+      ],
+      "gap": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。"
+    },
+    {
+      "review_id": "REV_KIDNEY_04_NPHS2",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "gene_symbol": "NPHS2",
+      "cell_type": "Podocyte",
+      "source_locator": "Fig. 1 (PDF p. 13)",
+      "evidence_ids": [
+        "EVID_05"
+      ],
+      "gap": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。",
+      "stop_reason": "已完成证据、原引文与相关面板的定向检查；对仍无法确定的候选停止于具体缺口，不进行无边界全文搜索。",
+      "next_needed": "主图未直接给出单基因点图，需补充表格线索，停止本轮定向检索。"
+    }
+  ],
+  "baseline_pending": [],
+  "candidate_excludes": [
+    {
+      "review_id": "REV_ELIFE_05_FCN1",
+      "marker_id": null,
+      "baseline_marker_ids": [],
+      "source_record_refs": [
+        {
+          "source": "marker_Gemini_repair",
+          "record_id": "DOI_10.7554_elife.62522_M16"
+        }
+      ],
+      "paper_id": "DOI_10.7554_elife.62522",
+      "gene_symbol": "FCN1",
+      "cell_type": "Interstitial macrophage (claimed in repair)",
+      "species": "human",
+      "semantic_decision": "exclude",
+      "table_action": "remove_to_audit",
+      "evidence_ids": [
+        "EVID_01"
+      ],
+      "processing_status": "processed_candidate_held",
+      "historical_round1_status": "candidate",
+      "round2_status": "round2_rechecked",
+      "risk_flags": [
+        "candidate_not_in_formal_table"
+      ]
+    },
+    {
+      "review_id": "REV_IPAIN_01_Cd86",
+      "marker_id": null,
+      "baseline_marker_ids": [],
+      "source_record_refs": [
+        {
+          "source": "marker_Gemini_repair",
+          "record_id": "DOI_10.1038_s41467-024-52052-8_M07"
+        }
+      ],
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "gene_symbol": "Cd86",
+      "cell_type": "Macrophage",
+      "species": "mouse",
+      "semantic_decision": "exclude",
+      "table_action": "remove_to_audit",
+      "evidence_ids": [
+        "EVID_02"
+      ],
+      "processing_status": "processed_candidate_held",
+      "historical_round1_status": "candidate",
+      "round2_status": "round2_rechecked",
+      "risk_flags": [
+        "candidate_not_in_formal_table"
+      ]
+    },
+    {
+      "review_id": "REV_IPAIN_02_Glb1",
+      "marker_id": null,
+      "baseline_marker_ids": [],
+      "source_record_refs": [
+        {
+          "source": "unresolved_28",
+          "record_id": "DOI_10.1038_s41467-024-52052-8_M09"
+        }
+      ],
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "gene_symbol": "Glb1",
+      "cell_type": "Senescent Nociceptor",
+      "species": "mouse",
+      "semantic_decision": "exclude",
+      "table_action": "remove_to_audit",
+      "evidence_ids": [
+        "EVID_02"
+      ],
+      "processing_status": "processed_candidate_held",
+      "historical_round1_status": "candidate",
+      "round2_status": "round2_rechecked",
+      "risk_flags": [
+        "candidate_not_in_formal_table"
+      ]
+    }
+  ]
+}

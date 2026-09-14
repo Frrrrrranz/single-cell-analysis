@@ -1,0 +1,465 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41586-024-07069-w",
+  "doi": "10.1038/s41586-024-07069-w",
+  "pmid": "38355799",
+  "title": "A single-cell time-lapse of mouse prenatal development from gastrula to birth",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature 全文（10页），包含主要图表 Figures 1-4、详细图注与 Methods 实验说明"
+    },
+    {
+      "material_name": "DOI_10.1038_s41586-024-07069-w.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 1240 万核小鼠产前发育全时程时间轴（E8-P0）以及外周神经/神经胶质/器官发生轨迹"
+    },
+    {
+      "material_name": "Extended Data Figures 1-10 & Supplementary Tables 1-28",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Extended Data Figures 1-10 及关键补充表格的标志物引用说明已审阅，外部大型独立数据表格未在本地提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Neural_Crest_PNS_Glia",
+      "cluster_name": "Neural crest (PNS glia)",
+      "species": "mouse",
+      "organ_or_tissue": "embryo (neural crest / PNS)",
+      "four_layer_category": "L2",
+      "description": "神经嵴来源的外周神经胶质前体，特征性特异表达转录因子 Sox10 与神经营养受体 Erbb4"
+    },
+    {
+      "cluster_id": "Cluster_Myelinating_Schwann_Cells",
+      "cluster_name": "Myelinating Schwann cells",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nervous system",
+      "four_layer_category": "L2",
+      "description": "外周神经系统髓鞘化施万细胞，由发育树中 DETF 驱动分化，特异性富集转录因子 Zfp536 与髓鞘基因"
+    },
+    {
+      "cluster_id": "Cluster_DRG_Sensory_Neurons",
+      "cluster_name": "Dorsal root ganglion neurons",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "four_layer_category": "L1",
+      "description": "背根神经节外周初级感觉神经元，负责传导躯体伤害性与触觉感受"
+    },
+    {
+      "cluster_id": "Cluster_Sympathetic_Neurons",
+      "cluster_name": "Sympathetic neurons",
+      "species": "mouse",
+      "organ_or_tissue": "sympathetic nervous system",
+      "four_layer_category": "L1",
+      "description": "外周交感神经系统节后神经元，由神经嵴交感前体衍生"
+    },
+    {
+      "cluster_id": "Cluster_Spinal_Motor_Neuron_Progenitors",
+      "cluster_name": "Spinal cord motor neuron progenitors",
+      "species": "mouse",
+      "organ_or_tissue": "spinal cord (ventral neuroectoderm)",
+      "four_layer_category": "L1",
+      "description": "脊髓腹侧运动神经元前体细胞，特征性受腹侧模式因子调控并富集转录因子 Isl1"
+    },
+    {
+      "cluster_id": "Cluster_Retinal_Progenitor_Cells",
+      "cluster_name": "Retinal progenitor cells (RPCs)",
+      "species": "mouse",
+      "organ_or_tissue": "eye (retina)",
+      "four_layer_category": "outside",
+      "description": "胚胎眼杯视网膜多能前体细胞，共表达 Pax2、Pax6、Rax 与 Fgf15"
+    },
+    {
+      "cluster_id": "Cluster_Deep_Layer_Cortical_Neurons",
+      "cluster_name": "Deep-layer neurons",
+      "species": "mouse",
+      "organ_or_tissue": "telencephalon (cortex)",
+      "four_layer_category": "outside",
+      "description": "大脑皮层深层投射神经元，特征性高表达转录因子 Tbr1、Bcl11b 与 Fezf2"
+    },
+    {
+      "cluster_id": "Cluster_Subplate_Neurons",
+      "cluster_name": "Subplate neurons",
+      "species": "mouse",
+      "organ_or_tissue": "telencephalon (cortex)",
+      "four_layer_category": "outside",
+      "description": "皮层下板过性神经元，高表达离子通道调节亚基 Kcnab1、胆碱能受体 Chrna5、突触结合蛋白 Syt6 与 Foxp2"
+    },
+    {
+      "cluster_id": "Cluster_Nephron_Progenitors",
+      "cluster_name": "Nephron progenitors",
+      "species": "mouse",
+      "organ_or_tissue": "kidney (metanephric mesenchyme)",
+      "four_layer_category": "outside",
+      "description": "后肾间质中的肾单位前体细胞，在胚胎肾脏发育中分化为足细胞与肾小管上皮"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M01",
+      "marker": "Sox10",
+      "marker_original": "Sox10",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Neural Crest (PNS Glia)",
+      "cell_type_original": "Neural crest (PNS glia)",
+      "author_cluster_id": "Cluster_Neural_Crest_PNS_Glia",
+      "species": "mouse",
+      "organ_or_tissue": "embryo (neural crest / PNS)",
+      "experimental_context": "sci-RNA-seq3 profiling across whole-embryo developmental series E8-P0",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "SRY-box transcription factor 10 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1086-1088, Extended Data Fig. 4i",
+      "source_context": "derivatives express genes involved in neurogenesis and synaptogenesis?for example, Sox10, Bmp3, Nrg1 and Erbb4",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 3,
+          "printed_page": 1086,
+          "figure_panel": "Extended Data Fig. 4i",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Sox10 specifically marks the emerging PNS glial and neural crest lineage derivatives",
+          "mapping_basis": "sci-RNA-seq3 developmental lineage marker"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "Master transcription factor required for specification and migration of peripheral glial progenitors",
+      "decision_reason": "Author declared lineage marker defining PNS glial crest"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M02",
+      "marker": "Erbb4",
+      "marker_original": "Erbb4",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Neural Crest (PNS Glia)",
+      "cell_type_original": "Neural crest (PNS glia)",
+      "author_cluster_id": "Cluster_Neural_Crest_PNS_Glia",
+      "species": "mouse",
+      "organ_or_tissue": "embryo (neural crest / PNS)",
+      "experimental_context": "sci-RNA-seq3 neural crest subclustering",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Erb-b2 receptor tyrosine kinase 4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1086-1088, Extended Data Fig. 4i",
+      "source_context": "subpopulation including Sox10, Bmp3, Nrg1, and Erbb4",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 3,
+          "printed_page": 1086,
+          "figure_panel": "Extended Data Fig. 4i",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Erbb4 identified as selective receptor marker for neural crest and Schwann progenitor states",
+          "mapping_basis": "Lineage specific expression"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "Neuregulin receptor mediating Schwann cell migration and axon interaction",
+      "decision_reason": "Co-expressed receptor defining PNS glia lineage"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M03",
+      "marker": "Zfp536",
+      "marker_original": "Zfp536",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Myelinating Schwann Cell",
+      "cell_type_original": "Myelinating Schwann cells",
+      "author_cluster_id": "Cluster_Myelinating_Schwann_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nervous system",
+      "experimental_context": "Developmental tree driver transcription factor (DETF) nomination",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Zinc finger protein 536 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1090, Supplementary Table 23",
+      "source_context": "Zfp536 for myelinating Schwann cells and Rreb1 for adipocyte progenitors (Supplementary Table 23)",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 7,
+          "printed_page": 1090,
+          "figure_panel": "Supplementary Table 23",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Zfp536 systematically nominated as candidate driver transcription factor (DETF) for myelinating Schwann cell differentiation",
+          "mapping_basis": "Developmental tree DETF analysis"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3 / DETF trajectory modeling",
+      "gate_definition": null,
+      "notes": "Key zinc-finger transcription factor driving terminal differentiation of myelinating Schwann cells",
+      "decision_reason": "Systematically nominated master driver transcription factor"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M04",
+      "marker": "Isl1",
+      "marker_original": "Isl1",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Spinal Motor Neuron Progenitor",
+      "cell_type_original": "Spinal cord motor neuron prog.",
+      "author_cluster_id": "Cluster_Spinal_Motor_Neuron_Progenitors",
+      "species": "mouse",
+      "organ_or_tissue": "spinal cord (ventral neuroectoderm)",
+      "experimental_context": "Spinal cord dorsoventral patterning trajectory analysis",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "ISL LIM homeobox 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1088, Fig. 2f",
+      "source_context": "Heatmap of transcription factors across dorsoventral spinal domains showing Isl1 enrichment in ventral motor neuron progenitors",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 5,
+          "printed_page": 1088,
+          "figure_panel": "Fig. 2f",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Heatmap column showing high z-score expression of Isl1 in ventral motor neuron progenitor clusters",
+          "mapping_basis": "Dorsoventral patterning signature"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "LIM homeodomain transcription factor essential for motor neuron specification",
+      "decision_reason": "Ventral spinal motor neuron domain hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M05",
+      "marker": "Pax6",
+      "marker_original": "Pax6",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Retinal Progenitor Cell",
+      "cell_type_original": "retinal progenitor cells RPCs",
+      "author_cluster_id": "Cluster_Retinal_Progenitor_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "eye (retina)",
+      "experimental_context": "Retinal time-lapse trajectory reconstruction",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Paired box 6 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1089, Extended Data Fig. 9d-e",
+      "source_context": "markers of retinal progenitor cells RPCs (Pax2+, Pax6+, Rax+, Fgf15+)",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 6,
+          "printed_page": 1089,
+          "figure_panel": "Extended Data Fig. 9d-e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Pax6 is a defining marker for multipotent retinal progenitor cells (RPCs)",
+          "mapping_basis": "Retinal development trajectory marker"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "Master paired-box regulator of ocular and retinal progenitor development",
+      "decision_reason": "Core progenitor defining marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M06",
+      "marker": "Rax",
+      "marker_original": "Rax",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Retinal Progenitor Cell",
+      "cell_type_original": "retinal progenitor cells RPCs",
+      "author_cluster_id": "Cluster_Retinal_Progenitor_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "eye (retina)",
+      "experimental_context": "Retinal developmental mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Retina and anterior neural fold homeobox transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1089, Extended Data Fig. 9d-e",
+      "source_context": "markers of retinal progenitor cells RPCs (Pax2+, Pax6+, Rax+, Fgf15+)",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 6,
+          "printed_page": 1089,
+          "figure_panel": "Extended Data Fig. 9d-e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Rax homeobox factor marks eye field and retinal progenitors",
+          "mapping_basis": "RPC signature factor"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "Homeobox factor required for retinal specification and eye cup formation",
+      "decision_reason": "Author declared defining marker for RPCs"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M07",
+      "marker": "Tbr1",
+      "marker_original": "Tbr1",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Deep-Layer Cortical Neuron",
+      "cell_type_original": "deep-layer neurons",
+      "author_cluster_id": "Cluster_Deep_Layer_Cortical_Neurons",
+      "species": "mouse",
+      "organ_or_tissue": "telencephalon (cortex)",
+      "experimental_context": "Telencephalon laminar neurogenesis mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "T-box brain transcription factor 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1089, Extended Data Fig. 9",
+      "source_context": "deep-layer neurons (Tbr1+, Bcl11b+, Fezf2+)",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 6,
+          "printed_page": 1089,
+          "figure_panel": "Extended Data Fig. 9",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Tbr1 defines corticothalamic and deep-layer projection neurons in the developing cerebral cortex",
+          "mapping_basis": "Laminar neuronal subtype marker"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "T-box transcription factor characterizing cortical layer 6 and subplate projection neurons",
+      "decision_reason": "Canonical deep-layer neuronal marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M08",
+      "marker": "Bcl11b",
+      "marker_original": "Bcl11b (Ctip2)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Deep-Layer Cortical Neuron",
+      "cell_type_original": "deep-layer neurons",
+      "author_cluster_id": "Cluster_Deep_Layer_Cortical_Neurons",
+      "species": "mouse",
+      "organ_or_tissue": "telencephalon (cortex)",
+      "experimental_context": "Cortical neurogenesis time series",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "BCL11 transcription factor B transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1089, Extended Data Fig. 9",
+      "source_context": "deep-layer neurons (Tbr1+, Bcl11b+, Fezf2+)",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 6,
+          "printed_page": 1089,
+          "figure_panel": "Extended Data Fig. 9",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Bcl11b marks subcerebral and corticospinal deep layer 5 neurons",
+          "mapping_basis": "Deep-layer cortical neuron signature"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "Zinc finger protein defining subcerebral projection neurons of layer 5",
+      "decision_reason": "Author declared deep layer neuron marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M09",
+      "marker": "Kcnab1",
+      "marker_original": "Kcnab1",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Subplate Neuron",
+      "cell_type_original": "subplate neurons",
+      "author_cluster_id": "Cluster_Subplate_Neurons",
+      "species": "mouse",
+      "organ_or_tissue": "telencephalon (cortex)",
+      "experimental_context": "sci-RNA-seq3 cortical lamina resolution",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Potassium voltage-gated channel subfamily A regulatory beta subunit 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1089, Extended Data Fig. 9",
+      "source_context": "subplate neurons (Kcnab1+, Chrna5+, Syt6+, Foxp2+)",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 6,
+          "printed_page": 1089,
+          "figure_panel": "Extended Data Fig. 9",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Kcnab1 selectively enriched in the transient subplate neuron cluster",
+          "mapping_basis": "Subplate neuron marker signature"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "Voltage-gated potassium channel regulatory subunit marking subplate neurons",
+      "decision_reason": "Defining marker for transient subplate layer"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-024-07069-w_M10",
+      "marker": "Foxp2",
+      "marker_original": "Foxp2",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Subplate Neuron",
+      "cell_type_original": "subplate neurons",
+      "author_cluster_id": "Cluster_Subplate_Neurons",
+      "species": "mouse",
+      "organ_or_tissue": "telencephalon (cortex)",
+      "experimental_context": "sci-RNA-seq3 neuronal sub-clustering",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Forkhead box P2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1089, Extended Data Fig. 9",
+      "source_context": "subplate neurons (Kcnab1+, Chrna5+, Syt6+, Foxp2+)",
+      "sources": [
+        {
+          "file": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+          "pdf_page": 6,
+          "printed_page": 1089,
+          "figure_panel": "Extended Data Fig. 9",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Foxp2 co-defines subplate and deep layer projection neurons",
+          "mapping_basis": "Subplate signature TF"
+        }
+      ],
+      "validation_method": "sci-RNA-seq3",
+      "gate_definition": null,
+      "notes": "Forkhead transcription factor enriched in early generated subplate and layer 6 neurons",
+      "decision_reason": "Author declared co-defining marker of subplate neurons"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature article (10 pages including main text Figures 1-4, Methods, and accompanying legends).",
+    "missing_materials": "External Supplementary Tables 1-28 (massive 12.4 million cell developmental tree files) not locally available.",
+    "potential_leakage_scope": "Organism-wide embryonic developmental trees covering all 3 germ layers and 100+ intermediate states across E8-P0."
+  }
+}

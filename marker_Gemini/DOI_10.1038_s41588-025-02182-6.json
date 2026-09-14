@@ -1,0 +1,465 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41588-025-02182-6",
+  "doi": "10.1038/s41588-025-02182-6",
+  "pmid": "40355592",
+  "title": "An integrated transcriptomic cell atlas of human endoderm-derived organoids",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Genetics 2025 原文（34页含 Extended Data），包含多器官类器官整合单细胞图谱、Level 1/Level 2 注释及 Fig. 1j 标记基因热图"
+    },
+    {
+      "material_name": "DOI_10.1038_s41588-025-02182-6.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 218 个样本、覆盖肠、胃、肝、胰、肺、甲状腺等内胚层类器官的多层级细胞分类及特征基因表达"
+    },
+    {
+      "material_name": "Supplementary Information & Supplementary Tables 1-10",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Tables 1-10（特别是 Table 5 细胞 Marker）的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Neuroendocrine_Cells",
+      "cluster_name": "Neuroendocrine cells",
+      "species": "human",
+      "organ_or_tissue": "endoderm-derived organoids (pulmonary/GI)",
+      "four_layer_category": "L4",
+      "description": "类器官中分化出的神经内分泌细胞，特征性表达神经内分泌颗粒标志物 CHGA"
+    },
+    {
+      "cluster_id": "Cluster_Enteroendocrine_Cells",
+      "cluster_name": "Enteroendocrine cells",
+      "species": "human",
+      "organ_or_tissue": "intestinal organoids (duodenum/ileum/colon)",
+      "four_layer_category": "L4",
+      "description": "胃肠类器官中分化产生的肠内分泌细胞，高表达嗜铬粒蛋白 A (CHGA)"
+    },
+    {
+      "cluster_id": "Cluster_Neurons",
+      "cluster_name": "Neuron",
+      "species": "human",
+      "organ_or_tissue": "organoid co-culture / enteric neural lineage",
+      "four_layer_category": "L1",
+      "description": "类器官系统中共存或神经分化的神经元，特征性特异表达神经特异性 RNA 结合蛋白 ELAVL3"
+    },
+    {
+      "cluster_id": "Cluster_Paneth_Cells",
+      "cluster_name": "Paneth cells",
+      "species": "human",
+      "organ_or_tissue": "small intestinal organoids",
+      "four_layer_category": "outside",
+      "description": "小肠隐窝特征性抗菌分泌细胞，特异分泌防御素 DEFA5 与 DEFA6"
+    },
+    {
+      "cluster_id": "Cluster_Alveolar_Type_2",
+      "cluster_name": "Alveolar type 2 cells",
+      "species": "human",
+      "organ_or_tissue": "lung organoids",
+      "four_layer_category": "outside",
+      "description": "肺类器官中肺泡 II 型上皮细胞，表达表面活性蛋白 B (SFTPB)"
+    },
+    {
+      "cluster_id": "Cluster_Alveolar_Type_1",
+      "cluster_name": "Alveolar type 1 cells",
+      "species": "human",
+      "organ_or_tissue": "lung organoids",
+      "four_layer_category": "outside",
+      "description": "肺类器官中扁平肺泡 I 型上皮细胞，特异表达同源盒蛋白 HOPX"
+    },
+    {
+      "cluster_id": "Cluster_Thyrocytes",
+      "cluster_name": "Thyrocytes",
+      "species": "human",
+      "organ_or_tissue": "thyroid organoids",
+      "four_layer_category": "outside",
+      "description": "甲状腺类器官中滤泡上皮细胞，高表达特征性转录因子 PAX8"
+    },
+    {
+      "cluster_id": "Cluster_Hepatocytes",
+      "cluster_name": "Hepatocytes",
+      "species": "human",
+      "organ_or_tissue": "liver organoids",
+      "four_layer_category": "outside",
+      "description": "肝类器官实质细胞，特异表达去唾液酸糖蛋白受体 1 (ASGR1)"
+    },
+    {
+      "cluster_id": "Cluster_Tuft_Cells",
+      "cluster_name": "Tuft cells",
+      "species": "human",
+      "organ_or_tissue": "intestinal / airway organoids",
+      "four_layer_category": "outside",
+      "description": "化学感应刷状/簇状细胞，特异表达细胞骨架调节蛋白 AVIL"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M01",
+      "marker": "CHGA",
+      "marker_original": "CHGA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Neuroendocrine cell",
+      "cell_type_original": "Neuroendocrine cells",
+      "author_cluster_id": "Cluster_Neuroendocrine_Cells",
+      "species": "human",
+      "organ_or_tissue": "endoderm-derived organoids (lung/digestive)",
+      "experimental_context": "scRNA-seq integration across 218 human endoderm-derived organoid samples",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Chromogranin A transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 1203-1204, Fig. 1j, Supplementary Table 5",
+      "source_context": "Heatmap showing marker gene expression for each level 2 cell type: CHGA defines neuroendocrine and enteroendocrine populations.",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CHGA specifically labels Neuroendocrine cells in Fig. 1j marker heatmap",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Classical neuroendocrine dense-core secretory granule protein",
+      "decision_reason": "High-confidence L4 neuroendocrine marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M02",
+      "marker": "CHGA",
+      "marker_original": "CHGA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Enteroendocrine cell",
+      "cell_type_original": "Enteroendocrine cells",
+      "author_cluster_id": "Cluster_Enteroendocrine_Cells",
+      "species": "human",
+      "organ_or_tissue": "intestinal organoids",
+      "experimental_context": "scRNA-seq of human intestinal organoids across fetal and adult sources",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Chromogranin A transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "CHGA serves as canonical endocrine hormone package marker across gut enteroendocrine lineages",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CHGA labels Enteroendocrine cells in Fig. 1j marker heatmap",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Core defining marker for intestinal endocrine cells",
+      "decision_reason": "High-confidence L4 enteroendocrine marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M03",
+      "marker": "ELAVL3",
+      "marker_original": "ELAVL3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Neuron",
+      "cell_type_original": "Neuron",
+      "author_cluster_id": "Cluster_Neurons",
+      "species": "human",
+      "organ_or_tissue": "endoderm-derived organoids",
+      "experimental_context": "scRNA-seq of organoid cultures with neural elements",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "ELAV like RNA binding protein 3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "ELAVL3 specifically and selectively marks the Neuron cluster across all organoid level 2 annotations",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "ELAVL3 specifically enriched in Neuron cluster in Fig. 1j heatmap",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Neuronal-specific RNA-binding protein (HuC) essential for neural differentiation",
+      "decision_reason": "High-confidence L1 neuronal lineage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M04",
+      "marker": "DEFA5",
+      "marker_original": "DEFA5",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Paneth cell",
+      "cell_type_original": "Paneth cells",
+      "author_cluster_id": "Cluster_Paneth_Cells",
+      "species": "human",
+      "organ_or_tissue": "small intestinal organoids",
+      "experimental_context": "scRNA-seq of intestinal organoids under varying cytokine stimulations",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Defensin alpha 5 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "DEFA5 marks secretory Paneth cells in small intestinal organoids",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "DEFA5 displayed as defining Paneth cell marker in Fig. 1j",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Hallmark alpha-defensin antimicrobial peptide of crypt Paneth cells",
+      "decision_reason": "Direct visual heatmap evidence for intestinal Paneth cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M05",
+      "marker": "DEFA6",
+      "marker_original": "DEFA6",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Paneth cell",
+      "cell_type_original": "Paneth cells",
+      "author_cluster_id": "Cluster_Paneth_Cells",
+      "species": "human",
+      "organ_or_tissue": "small intestinal organoids",
+      "experimental_context": "scRNA-seq of intestinal organoid maturation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Defensin alpha 6 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "DEFA6 marks Paneth cells in human intestinal organoids",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "DEFA6 displayed as defining Paneth cell marker in Fig. 1j",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Co-expressed with DEFA5 in mature crypt Paneth cells",
+      "decision_reason": "Direct visual heatmap evidence for Paneth cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M06",
+      "marker": "SFTPB",
+      "marker_original": "SFTPB",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar type 2 cell",
+      "cell_type_original": "Alveolar type 2 cells",
+      "author_cluster_id": "Cluster_Alveolar_Type_2",
+      "species": "human",
+      "organ_or_tissue": "lung organoids",
+      "experimental_context": "scRNA-seq of human lung organoids",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Surfactant protein B transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "SFTPB specifically marks mature Alveolar type 2 cells in human lung organoids",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "SFTPB displayed as defining AT2 cell marker in Fig. 1j",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Hydrophobic pulmonary surfactant protein essential for lamellar body packaging",
+      "decision_reason": "Direct visual heatmap evidence for AT2 epithelial lineage"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M07",
+      "marker": "HOPX",
+      "marker_original": "HOPX",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar type 1 cell",
+      "cell_type_original": "Alveolar type 1 cells",
+      "author_cluster_id": "Cluster_Alveolar_Type_1",
+      "species": "human",
+      "organ_or_tissue": "lung organoids",
+      "experimental_context": "scRNA-seq of human lung organoids",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "HOP homeobox transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "HOPX marks Alveolar type 1 cells in human lung organoid models",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "HOPX displayed as defining AT1 cell marker in Fig. 1j",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Homeodomain-only protein characteristic of thin squamous AT1 pneumocytes",
+      "decision_reason": "Direct visual heatmap evidence for AT1 cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M08",
+      "marker": "PAX8",
+      "marker_original": "PAX8",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Thyrocyte",
+      "cell_type_original": "Thyrocytes",
+      "author_cluster_id": "Cluster_Thyrocytes",
+      "species": "human",
+      "organ_or_tissue": "thyroid organoids",
+      "experimental_context": "scRNA-seq of thyroid organoids",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Paired box 8 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "PAX8 selectively marks Thyrocytes among all endoderm organoid populations",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "PAX8 displayed as defining Thyrocyte marker in Fig. 1j",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Master lineage transcription factor of thyroid follicular cells",
+      "decision_reason": "Direct visual heatmap evidence for thyrocytes"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M09",
+      "marker": "ASGR1",
+      "marker_original": "ASGR1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatocyte",
+      "cell_type_original": "Hepatocytes",
+      "author_cluster_id": "Cluster_Hepatocytes",
+      "species": "human",
+      "organ_or_tissue": "liver organoids",
+      "experimental_context": "scRNA-seq of liver organoid models",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Asialoglycoprotein receptor 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "ASGR1 marks differentiated Hepatocytes in human endoderm-derived liver organoids",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "ASGR1 displayed as defining Hepatocyte marker in Fig. 1j",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Endocytic C-type lectin receptor uniquely expressed on hepatocyte basolateral surface",
+      "decision_reason": "Direct visual heatmap evidence for hepatocytes"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-025-02182-6_M10",
+      "marker": "AVIL",
+      "marker_original": "AVIL",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Tuft cell",
+      "cell_type_original": "Tuft cells",
+      "author_cluster_id": "Cluster_Tuft_Cells",
+      "species": "human",
+      "organ_or_tissue": "intestinal / airway organoids",
+      "experimental_context": "scRNA-seq of organoids with chemosensory tuft cell differentiation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Advillin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1203, Fig. 1j",
+      "source_context": "AVIL marks chemosensory Tuft cells across endoderm organoids",
+      "sources": [
+        {
+          "file": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+          "pdf_page": 3,
+          "printed_page": 1203,
+          "figure_panel": "Fig. 1j",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "AVIL displayed as defining Tuft cell marker in Fig. 1j",
+          "mapping_basis": "Heatmap marker expression"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-protocol benchmark heatmap",
+      "gate_definition": null,
+      "notes": "Actin-bundling protein highly specific to the apical brush border of chemosensory tuft cells",
+      "decision_reason": "Direct visual heatmap evidence for tuft cells"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Genetics article (34 pages including main text Figures 1-6, Extended Data Figures 1-10, Methods, and Fig. 1j Level 2 marker gene heatmap).",
+    "missing_materials": "External Supplementary Tables 1-10 (full cross-sample gene tables) not locally provided.",
+    "potential_leakage_scope": "Organoid developmental trajectory pseudotime loadings and cross-protocol scPoli embedding coordinates."
+  }
+}

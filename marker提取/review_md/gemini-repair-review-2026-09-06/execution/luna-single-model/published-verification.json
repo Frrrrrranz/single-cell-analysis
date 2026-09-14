@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "verification_mode": "staged_artifact_import_plus_published_hash_equality",
+  "published_active_marker_rows": 2488,
+  "published_papers": 43,
+  "published_by_cell_marker_rows": 1057,
+  "published_by_cell_panel_rows": 619,
+  "expected_active_marker_rows": 2488,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "duplicate_ids": [],
+  "formula_errors": [],
+  "key_rows_verified": ["M00071", "M02590", "M02591", "M02592"],
+  "published_equals_staged": {
+    "our_markers": true,
+    "our_markers_by_cell": true
+  },
+  "published_sha256": {
+    "our_markers": "7873AF98ED720A825236D6B526CB575C8CCBBAD183B814515EB46866DE8A1A4F",
+    "our_markers_by_cell": "FF3B687008891E580F1BD67C67F99E78A0DE1D705C69F8760A8FF72B7CA1D072"
+  },
+  "note": "暂存文件已通过 Artifact Tool 导入、结构/公式/ID 校验与视觉抽查；正式发布后逐文件 SHA256 与暂存版一致。"
+}

@@ -1,0 +1,2543 @@
+{
+  "selection_rule": "每篇论文×实际存在的证据类别取1条，优先negative/low，再优先引文不匹配，最后ID排序。目的性抽样，不估算准确率。",
+  "count": 78,
+  "papers": 43,
+  "records": [
+    {
+      "marker_id": "M00062",
+      "paper_id": "DOI_10.1002_pros.24020",
+      "gene": "CHGA",
+      "cell": "neuroendocrine epithelia",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results 3.1 / Fig. S3C",
+      "source_context": "neuroendocrine epithelia are an extremely rare cell type that do not cluster independently, but can be identified using known markers such as CGRP and CHGA (Figure S3A,C); human panel S3C.",
+      "evidence_ids": [
+        "HIST_M00062"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 232,
+          "text": "human CGRP and CHGA (Figure S3A,C). We also observed that neu-"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "基因别名/跨物种限定需结合S3C；找到正文CHGA线索，台账没有原行定位，不作完整通过。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01184",
+      "paper_id": "DOI_10.1002_pros.24020",
+      "gene": "Pdpn",
+      "cell": "basal epithelia",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results 3.3 / Figure S5A",
+      "source_context": "CD326+ epithelia are then gated into prostate secretory luminal (CD26+), basal (PDPN+) and nonbasal/nonprostate luminal (PDPN−/CD26−) cells",
+      "evidence_ids": [
+        "HIST_M01184"
+      ],
+      "reported_lines": [
+        {
+          "line": 310,
+          "text": "(CD26+),basal(PDPN+)andnonbasal/nonprostateluminal(PDPN‐/ specific markers and understanding when and where they are"
+        },
+        {
+          "line": 321,
+          "text": "accurately identified in the PDPN−/CD26− (nonbasal/nonprostate thedistalprostate(Figures4BandS7).Intheadultmouseprostate,"
+        },
+        {
+          "line": 342,
+          "text": "andintoproximalanddistalregions.B,FlowcytometryofCD26+prostateluminalepithelia,PDPN+basalepithelia,andTrop2+urethralepitheliainthe"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 310,
+          "text": "(CD26+),basal(PDPN+)andnonbasal/nonprostateluminal(PDPN‐/ specific markers and understanding when and where they are"
+        },
+        {
+          "line": 321,
+          "text": "accurately identified in the PDPN−/CD26− (nonbasal/nonprostate thedistalprostate(Figures4BandS7).Intheadultmouseprostate,"
+        },
+        {
+          "line": 342,
+          "text": "andintoproximalanddistalregions.B,FlowcytometryofCD26+prostateluminalepithelia,PDPN+basalepithelia,andTrop2+urethralepitheliainthe"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报行含PDPN+ basal门控，支持关系线索；引用跨行且需保留CD326/CD26组合与物种。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01301",
+      "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+      "gene": "GCG",
+      "cell": "a-cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig. 2A legend; Fig. 1A legend",
+      "source_context": "Expression of cell-typical (INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise. Cell identity is indicated by marker gene expression.",
+      "evidence_ids": [
+        "HIST_M01301"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 116,
+          "text": "(D)ViolinplotsshowtheratioofInsulin–GlucagonproteinstainingatthesitesofInsulin(INS,n=5,801)andGlucagon(GCG,n=3,254)RNAhybridizationspots."
+        },
+        {
+          "line": 141,
+          "text": "(A)Expressionofcell-typical(INSforb-cells,GCG"
+        },
+        {
+          "line": 163,
+          "text": "Insulin(INS)andGlucagon(GCG)mRNA—aresultthatisconsis- difficult to study, because they cannot be clonally expanded."
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "原文片段有GCG用于alpha细胞；台账空定位，需接续相邻图注以完整复核。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01302",
+      "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+      "gene": "INS",
+      "cell": "b-cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Fig. 2A legend; Fig. 1A legend",
+      "source_context": "Expression of cell-typical (INS for b-cells, GCG for a-cells) and non-typical hormone in cells, ranked by transcriptional noise. Cell identity is indicated by marker gene expression.",
+      "evidence_ids": [
+        "HIST_M01302"
+      ],
+      "reported_lines": [
+        {
+          "line": 141,
+          "text": "(A)Expressionofcell-typical(INSforb-cells,GCG"
+        },
+        {
+          "line": 167,
+          "text": "a- or b-cells co-expressing both Insulin and Glucagon mRNA in healthy tissue, we developed a computational method for"
+        },
+        {
+          "line": 169,
+          "text": "b-cells: p = 1.74E-27, n = 348; INS in a-cells: p = 5.38E-10, seqdataandvalidatedthemethodusingdeepwhole-genome"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 116,
+          "text": "(D)ViolinplotsshowtheratioofInsulin–GlucagonproteinstainingatthesitesofInsulin(INS,n=5,801)andGlucagon(GCG,n=3,254)RNAhybridizationspots."
+        },
+        {
+          "line": 163,
+          "text": "Insulin(INS)andGlucagon(GCG)mRNA—aresultthatisconsis- difficult to study, because they cannot be clonally expanded."
+        },
+        {
+          "line": 169,
+          "text": "b-cells: p = 1.74E-27, n = 348; INS in a-cells: p = 5.38E-10, seqdataandvalidatedthemethodusingdeepwhole-genome"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报141行含INS for b-cells，但完整source_context是跨句组合，不能称逐字核准。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01012",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "gene": "ITGA6",
+      "cell": "Secretory cells",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "figure_labeled",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Figure S2I legend",
+      "source_context": "Secretory cells identified as Live, CD45-ATubulin-CD271-CD49f-CD66c+ cells.",
+      "evidence_ids": [
+        "HIST_M01012"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": true,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "标准基因ITGA6未命中不等于CD49f不存在；门控需按抗体别名回查，不可批量删除。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00056",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "gene": "GIP",
+      "cell": "Enteroendocrine cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "STAR Methods, Cell Clustering and Annotation, paragraph 4",
+      "source_context": "we term 'enteroendocrine cells,' based on unique expression of gastric inhibitory polypeptide (GIP), which is typically produced by intestinal and gastric enteroendocrine cells and LGR5",
+      "evidence_ids": [
+        "HIST_M00056"
+      ],
+      "reported_lines": [
+        {
+          "line": 2527,
+          "text": "we term ‘‘enteroendocrine cells,’’ based on unique expression of gastric inhibitory polypeptide (GIP), which is typically produced by"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 2527,
+          "text": "we term ‘‘enteroendocrine cells,’’ based on unique expression of gastric inhibitory polypeptide (GIP), which is typically produced by"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "2527行明确以GIP命名enteroendocrine，支持作者用途；先前组织看似异常不构成排除理由。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00044",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "gene": "NEUROD1",
+      "cell": "pulmonary neuroendocrine cells",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "figure_labeled",
+      "category": "old_round2",
+      "source_locator": "Figure S8C legend",
+      "source_context": "#1 labeled GRP+NEUROD1lowGHRL- cells, which have just started the transition from GRP+ pulmonary NE/precursor cells",
+      "evidence_ids": [
+        "EVID_13"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 501,
+          "text": "representing pulmonary NE precursors (Figure 7D). NEUROD1 3days,andorganoidsweremaintainedintheself-renewing(tip"
+        },
+        {
+          "line": 504,
+          "text": "or NEUROD1, supporting a role in a transition population followedbyscRNA-seq."
+        },
+        {
+          "line": 506,
+          "text": "Differential expression of ASCL1 and NEUROD1 defines A- jorityofthemNeonGreen-3xNLSexpressingorganoidcellspro-"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "确认错误：原图注为NEUROD1low，正式negative；需保留开始转变的GRP+前体限定。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01221",
+      "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "gene": "EPCAM",
+      "cell": "Stromal cells",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Introduction; Results: Bulk Sequencing..., p.3531",
+      "source_context": "The stromal gate includes all cells negative for CD326 (pan-epithelia), CD45 (pan-leukocyte), and CD31 (endothelia).",
+      "evidence_ids": [
+        "HIST_M01221"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "EPCAM/CD326别名门控，台账未给原行；需查完整stromal排除门，暂不生物学验收。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01220",
+      "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "gene": "PDPN",
+      "cell": "smooth muscle",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Discussion, p.3540",
+      "source_context": "93% purity of PDPN- smooth muscle.",
+      "evidence_ids": [
+        "HIST_M01220"
+      ],
+      "reported_lines": [
+        {
+          "line": 221,
+          "text": "hasyettobegenerated,wereliedonasmallnumberofputative fibroblasts,andCD200(cid:3)/PDPN(cid:3)smoothmuscle(Figure2D)."
+        },
+        {
+          "line": 249,
+          "text": "smoothmuscle(PDPN(cid:3))."
+        },
+        {
+          "line": 272,
+          "text": "(CD45/CD326/CD200/CD26/PDPN/PSCA) for FACS gating will ure 3B). The putative smooth muscle cluster expressed high"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 217,
+          "text": "endocrinecellclusterinthe24,450sequencedprostateepithelial feasible. After testing multiple options, Podoplanin (PDPN)"
+        },
+        {
+          "line": 220,
+          "text": "Figure S5). Because a complete normal NE cell transcriptome distinct gates on flow cytometry: CD200+ endothelia, PDPN+"
+        },
+        {
+          "line": 221,
+          "text": "hasyettobegenerated,wereliedonasmallnumberofputative fibroblasts,andCD200(cid:3)/PDPN(cid:3)smoothmuscle(Figure2D)."
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "片段明确PDPN阴性smooth muscle门控；保留CD200与父级门控，93%原引文未在所报行。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00598",
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "gene": "CDH5",
+      "cell": "endothelial cell",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results, 'IFN-γ-mediated signaling and inflammation in ACR' section (p.1155)",
+      "source_context": "IF analysis ... revealed decreased pSTAT1+ cells specifically within VE-Cadherin+ cells ... VE-cadherin expression was reduced in ACR, consistent with IFN-γ-mediated endothelial injury and adherens junction disruption.",
+      "evidence_ids": [
+        "HIST_M00598"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "CDH5/VE-cadherin别名，无台账定位；须回原抗体/IF语境，不判关系不存在。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00599",
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "gene": "ACTA2",
+      "cell": "myofibroblast",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results, 'Fibrogenic shift driven by mesenchymal state transition' section, near Figure 3A (p.1153-1154)",
+      "source_context": "accompanied by upregulation of myofibroblast markers α-SMA (ACTA2) and TAGLN (Figure 3A); gene signature scoring confirmed enrichment of myofibroblast markers within fibroblast subtypes and VSM cells in ACR.",
+      "evidence_ids": [
+        "HIST_M00599"
+      ],
+      "reported_lines": [
+        {
+          "line": 647,
+          "text": "(45.0%, OR 11.2, 95% CI 10.0–12.5) and Resolved (48.4%, upregulation of myofibroblast markers α-SMA (ACTA2) and"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 647,
+          "text": "(45.0%, OR 11.2, 95% CI 10.0–12.5) and Resolved (48.4%, upregulation of myofibroblast markers α-SMA (ACTA2) and"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "命中myofibroblast markers语句，但ACR中成纤维与VSM条件需完整保存，片段不足以独立核完整关系。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01123",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "gene": "GJA5",
+      "cell": "General endothelial cells",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "old_round2",
+      "source_locator": "Results, Classification of stromal cells, Fig. 1E UMAP/Dot Plot",
+      "source_context": "The endothelial cell population comprised a more general endothelial cluster (PECAM1+/GJA5-/SELP-/LYVE1-)",
+      "evidence_ids": [
+        "EVID_03"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 173,
+          "text": "(PECAM1+/GJA5-/SELP-/LYVE1-), that was not enriched for sionamongtheintermediatecells.Instarkcomparison,thetop"
+        },
+        {
+          "line": 175,
+          "text": "cluster(SELP+/NRP1+),anarterialcluster(GJA5+/BMX+),anda markers (e.g., UPK2, UPK3B, KRT20, and CEACAM1) and"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "原文GJA5− general endothelial门控线索支持负向关系；需保留PECAM1/SELP/LYVE1组合。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00409",
+      "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+      "gene": "CSF3R",
+      "cell": "Neutrophil-like cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results 2.2, Fig. S1F-G",
+      "source_context": "we did detect a small subset of neutrophil-like cells (defined by high levels of FCGR3B and CSF3R expression)",
+      "evidence_ids": [
+        "HIST_M00409"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 254,
+          "text": "by  high  levels  of  FCGR3B  and  CSF3R  expression)  residing  within  the"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": true,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "正文命中FCGR3B/CSF3R高表达定义，但台账无具体行；须接续上行细胞群名称。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00828",
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "gene": "PDGFRA",
+      "cell": "Alveolar fibroblasts",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "old_round2",
+      "source_locator": "STAR Methods - In vitro coculture experiments",
+      "source_context": "freshly sorted 2x105 PDGFRA+CD141+ myofibroblasts or PDGFRA-CD141- fibroblasts were mixed with SFTPC-eGFP+ LinPOS organoids...",
+      "evidence_ids": [
+        "EVID_08"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 311,
+          "text": "lated PDGFRA+CD141+ myofibroblasts express high levels of we performed loss- and gain-of-function studies by treating"
+        },
+        {
+          "line": 312,
+          "text": "ACTA2, NOTUM, and LEF1. Whereas PDGFRA(cid:3)CD141(cid:3) fibro- with a NOTUM inhibitor ABC99, by overexpressing NOTUM"
+        },
+        {
+          "line": 319,
+          "text": "We asked whether co-culture with the PDGFRA(cid:3)CD141(cid:3)fi- with the NOTUM-OE fibroblasts, or treated with the NOTUM-"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "原片段确有PDGFRA−CD141− fibroblast分选；alveolar细胞限定仍需上下文对齐，不将负向排除。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01588",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "gene": "Arg1",
+      "cell": "Tumour-associated macrophages",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "evidence_ids": [
+        "HIST_M01588"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "Arg1无当前定位且本地字词检索无结果，材料回溯缺口；不以此断言原论文无关系。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01586",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "gene": "Csn2",
+      "cell": "Alveolar cells (Avd)",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results, paragraph describing Fig. 2c,d",
+      "source_context": "despite all animals being nulliparous we observed a progressive differentiation of the luminal progenitor (Lp) compartment towards the alveolar fate (Avd) ... This was accompanied by the expression of known markers of alveologenesis such as the milk protein beta-casein (Csn2) and the transcription factor Elf5 (Fig. 2c, d).",
+      "evidence_ids": [
+        "HIST_M01586"
+      ],
+      "reported_lines": [
+        {
+          "line": 433,
+          "text": "expressing.cGeneexpressionfortheparacrinesignallingfactorsRanklandIgf2inhormone-sensingcellsandthealveolarmarkersCsn2andWapinluminal"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 112,
+          "text": "alveologenesis such as the milk protein beta-casein (Csn2) and the during Brca1-mediated tumourigenesis, indicating that the"
+        },
+        {
+          "line": 121,
+          "text": "chromatin accessibility of Lps in Brca1/p53 animals pre-tumour correlation between Csn2 expression and numerous genes"
+        },
+        {
+          "line": 124,
+          "text": "Csn2 and Wap with proximal enhancer regions known to be more foundduringearlystagesoftumourigenesisareunlikelytobefully"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "检索命中不同位置的alveolar markers，与原引用的句子不相同；乳腺组织不可按肺细胞理解。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00734",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "gene": "Cldn4",
+      "cell": "AT1/AT2 cell population",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results p.5 (The LungMAP Mouse Lung Development CellRef section)",
+      "source_context": "an AT1/AT2 cell population22,25 expressing both AT1 (Ager, Hopx) and AT2 (Lamp3, Sftpc, Abca3) cell markers in conjunction with Cldn4, Krt19, and Krt8 (signature genes of recently reported PATS, DATP, or ADI cells)",
+      "evidence_ids": [
+        "HIST_M00734"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "台账无Cldn4来源定位；组合过渡AT1/AT2/PATS身份需定向核，未判错误。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00750",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "gene": "FCGR3A",
+      "cell": "Inflammatory monocytes (iMON)",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "figure_labeled",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Fig.1B",
+      "source_context": "Dictionary (LungMAP CellCards): Inflammatory monocytes (iMON) | CD14, FCN1, VCAN, no FCGR3A",
+      "evidence_ids": [
+        "HIST_M00750"
+      ],
+      "reported_lines": [
+        {
+          "line": 119,
+          "text": "|     |     |     |                  |     |     | Inflammatory monocytes (iMON) |     | CD14, FCN1, VCAN, no FCGR3A |            |     |     |     |         |     |"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 119,
+          "text": "|     |     |     |                  |     |     | Inflammatory monocytes (iMON) |     | CD14, FCN1, VCAN, no FCGR3A |            |     |     |     |         |     |"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报字典行明确no FCGR3A；还需区分论文实际注释使用与纯外部字典引入。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00071",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "gene": "Rbfox3",
+      "cell": "senescent nociceptors",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "old_round2",
+      "source_locator": "Results, 'Development and persistence of pain and senescence of pain-sensing neurons', Fig.3i",
+      "source_context": "We identified a senescent phenotype in a subset of nociceptors, which were characterized by high expression of the neuronal nuclei marker (NeuN) and their smaller size (Fig.3i).",
+      "evidence_ids": [
+        "EVID_02"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "已回iPain Fig.3i和正文；不支持丢掉实验亚群后泛化，详见F04。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02510",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "gene": "Cd79a",
+      "cell": "B/plasma cells",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Main Text p. 592, Fig. 2j",
+      "source_context": "In spleen the proportion of T cells decreases with age while the relative amount of plasma cells increases (Figure 2i). This is supported by upregulation of B/plasma cell markers (Cd79a, Igj; Figure 2j)",
+      "evidence_ids": [
+        "HIST_M02510"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 486,
+          "text": "(Cd79a, Igj; Figure 2j; Supplementary Table 6) and downregulation of Cd3d (Figure 2j;"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "Cd79a/IgJ为B/plasma marker片段可定位，年龄/脾脏条件需保留；台账空定位。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02507",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "gene": "Hexb",
+      "cell": "Kidney macrophage cluster 10",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Main Text p. 594, Fig. 4f, Extended Data Fig. 11f",
+      "source_context": "Differential gene expression revealed that cluster 10 is enriched for Hexb alongside M2 markers",
+      "evidence_ids": [
+        "HIST_M02507"
+      ],
+      "reported_lines": [
+        {
+          "line": 741,
+          "text": "C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72) while cluster 13 resembles a M1-proinflammatory"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 741,
+          "text": "C1qa, Cxcl16, Hexb, Cd81, C1qb, Cd72) while cluster 13 resembles a M1-proinflammatory"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "原文是M2 signature差异富集，verbatim_quote为概述；作者具体识别用途尚需补核，不能直接author_declared通过。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00011",
+      "paper_id": "DOI_10.1038_s41586-020-2922-4",
+      "gene": "ASCL1",
+      "cell": "Pulmonary neuroendocrine cell (NE)",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "figure_labeled",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig. 4e",
+      "source_context": "ASCL1 shows very high, specific expression in human and mouse NE cell type 12 and is presented as a Type 0 conserved expression pattern.",
+      "evidence_ids": [
+        "HIST_M00011"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 443,
+          "text": "ASCL1 expression 0 4 8 PGC expression 0 5 10 HOPX expression 0 5 10 HHIP expression 0 6 12"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "只有ASCL1图形轴文字线索，须读人/鼠Type0面板；历史复用状态不是图读证据。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00143",
+      "paper_id": "DOI_10.1038_s41586-020-2922-4",
+      "gene": "WIF1",
+      "cell": "AT2-signalling cell (AT2-s)",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "figure_labeled",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Fig.1d legend",
+      "source_context": "AT2-signalling cells (SFTPC+ WIF1−; box, enlarged at right, yellow arrowhead)",
+      "evidence_ids": [
+        "HIST_M00143"
+      ],
+      "reported_lines": [
+        {
+          "line": 107,
+          "text": "AT2-s WIF1 0"
+        },
+        {
+          "line": 140,
+          "text": "clustering (each level of hierarchy is an iteration) of scRNA-seq profiles of cells AT2-signalling marker SFTPC (white) and specific AT2 marker WIF1 (red puncta)."
+        },
+        {
+          "line": 141,
+          "text": "in indicated tissue compartments. Black, canonical types; blue, proliferating or Scale bar, 10 μm. AT2-signalling cells (SFTPC+ WIF1−; box, enlarged at right,"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 107,
+          "text": "AT2-s WIF1 0"
+        },
+        {
+          "line": 140,
+          "text": "clustering (each level of hierarchy is an iteration) of scRNA-seq profiles of cells AT2-signalling marker SFTPC (white) and specific AT2 marker WIF1 (red puncta)."
+        },
+        {
+          "line": 141,
+          "text": "in indicated tissue compartments. Black, canonical types; blue, proliferating or Scale bar, 10 μm. AT2-signalling cells (SFTPC+ WIF1−; box, enlarged at right,"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "片段明确SFTPC+WIF1− AT2-signalling；引用需补齐图注上下文，负向关系不因阴性排除。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00801",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "gene": "IRF8",
+      "cell": "cycling epithelium",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results, 'Impaired alveolar epithelial regeneration', p.116; Fig. 3a,b; Supplementary Table 2",
+      "source_context": "a cluster characterized by the expression of inflammatory and cell cycle genes, including IRF8, B2M, MKI67 and TOP2A ('cycling epithelium'; n = 609)",
+      "evidence_ids": [
+        "HIST_M00801"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 222,
+          "text": "suggest that myeloid cells are a major source of dysregulated inflam- by the expression of inflammatory and cell cycle genes, including IRF8,"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "IRF8命中cycling epithelium表述片段；需保留COVID状态并核实际分类用途。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00795",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "gene": "AGER",
+      "cell": "alveolar type I (AT1) cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results, 'Impaired alveolar epithelial regeneration', p.116; Fig. 3c; Supplementary Table 7; Methods, 'Cell-type identification'",
+      "source_context": "DGE analysis, including expression of the lineage markers SFTPC and SFTPB in AT2 cells, and CLIC5 and AGER in AT1 cells (Fig. 3c, Supplementary Table 7). Methods: canonical markers were used to identify AT1 and AT2 cells.",
+      "evidence_ids": [
+        "HIST_M00795"
+      ],
+      "reported_lines": [
+        {
+          "line": 233,
+          "text": "per cell basis (see Methods; Extended Data Fig. 6d–k, Supplementary  and SFTPB in AT2 cells, and CLIC5 and AGER in AT1 cells (Fig. 3c, Sup-"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 233,
+          "text": "per cell basis (see Methods; Extended Data Fig. 6d–k, Supplementary  and SFTPB in AT2 cells, and CLIC5 and AGER in AT1 cells (Fig. 3c, Sup-"
+        },
+        {
+          "line": 257,
+          "text": "| 2 PAMU |                   |         |        | 1TA          |     |     |     | AGER CLIC5              |                                | assignme n t   | Group    |          |                   | 3                 |          |"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "片段含AGER/CLIC5 AT1关系；检索行不是拼接的Methods引文，须区分两处来源。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00099",
+      "paper_id": "DOI_10.1038_s41586-021-03710-0",
+      "gene": "GFAP",
+      "cell": "astrocyte",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Discussion, astrocyte paragraph; Extended Data Fig. 12a,c",
+      "source_context": "astrocyte cluster associated with COVID-19 that is marked by established inflammation and astrogliosis genes (such as IFITM3 and GFAP)",
+      "evidence_ids": [
+        "HIST_M00099"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 59,
+          "text": "GFAP CRYAB"
+        },
+        {
+          "line": 526,
+          "text": "inflammation and astrogliosis genes (such as IFITM3 and GFAP) and rodegenerative disease44,45, although not at the scale of the COVID-19"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "GFAP/IFITM3炎症星形胶质细胞线索存在；台账无行号，完整定位待补。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00102",
+      "paper_id": "DOI_10.1038_s41586-021-03710-0",
+      "gene": "CD247",
+      "cell": "microglia",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Methods, Cell annotations",
+      "source_context": "to yield pure microglia by requiring the normalized expression of the specific cell-type markers MRC1 and CD247 to be strictly less than 1",
+      "evidence_ids": [
+        "HIST_M00102"
+      ],
+      "reported_lines": [
+        {
+          "line": 490,
+          "text": "To study microglia, we focused on the MRC1−CD247− immune cell between COVID-19 DEGs across brain cell types with those that have"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 475,
+          "text": "(Fig. 2d, Extended Data Fig. 10). Complement pathway signalling from  receptor CD20634) and T cells (CD247+, which encodes the T cell recep-"
+        },
+        {
+          "line": 490,
+          "text": "To study microglia, we focused on the MRC1−CD247− immune cell between COVID-19 DEGs across brain cell types with those that have"
+        },
+        {
+          "line": 672,
+          "text": "1-ml regular-bore pipette tip and filtered twice through a 70-μm and specific cell-type markers MRC1 and CD247 to be strictly less than 1."
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "正文明确MRC1−CD247− microglia；所报行不是原引文的归一化阈值句，需保存具体门控。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01373",
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "gene": "PTPRC",
+      "cell": "Erythroid colony",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Methods, Culture experiments",
+      "source_context": "Erythroid colonies were identified as CD45−GYPA+ ≥ 30 cells",
+      "evidence_ids": [
+        "HIST_M01373"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "PTPRC/CD45别名；erythroid colony的GYPA+和数量门槛未由台账定位，保留待核。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01370",
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "gene": "KDR",
+      "cell": "CD34hiVEGFR2lo branching vessels",
+      "species": "human",
+      "polarity": "low",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results, 'Regional partitioning of endothelial cell subsets'",
+      "source_context": "we identified CD34hiVEGFR2lo branching vessels adjacent to the epiphyseal cartilage (metaphysis)",
+      "evidence_ids": [
+        "HIST_M01370"
+      ],
+      "reported_lines": [
+        {
+          "line": 316,
+          "text": "endothelial cell clusters expressed KDR (VEGFR2) but with differential"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 316,
+          "text": "endothelial cell clusters expressed KDR (VEGFR2) but with differential"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "报KDR行仅支持VEGFR2别名，不能证明CD34hiVEGFR2lo/位置条件；需查相邻原图。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00029",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "gene": "BEX1",
+      "cell": "Airway neuroendocrine cell",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Extended Data Fig. 2c",
+      "source_context": "BEX1 shows one of the largest and highest-expression marker signals in the Neuroendocrine row of the airway epithelial dot plot.",
+      "evidence_ids": [
+        "HIST_M00029"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "BEX1图像证据无文本定位，需读指定神经内分泌行，不用文件存在代替图读。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00398",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "gene": "FOXJ1",
+      "cell": "Transit epi 1",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "supplementary_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Supplementary Information, Detailed Cell Type Annotation",
+      "source_context": "we detect two novel cell populations ... which we named Transit epi 1 and 2. They co-express ciliated cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low",
+      "evidence_ids": [
+        "HIST_M00398"
+      ],
+      "reported_lines": [
+        {
+          "line": 1974,
+          "text": "55 cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low. Distinguishing"
+        },
+        {
+          "line": 3533,
+          "text": "FOXJ1 high Ciliated Cells FFAR4 high Macrophages"
+        },
+        {
+          "line": 3539,
+          "text": "Early Response FOXJ1 high Ciliated Cells"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1974,
+          "text": "55 cell markers (PIFO) and secretory genes (MUC2), but are FOXJ1 low. Distinguishing"
+        },
+        {
+          "line": 3533,
+          "text": "FOXJ1 high Ciliated Cells FFAR4 high Macrophages"
+        },
+        {
+          "line": 3539,
+          "text": "Early Response FOXJ1 high Ciliated Cells"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "确认错误：原补充注释为FOXJ1 low；扩核M00403同样错误。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01661",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "gene": "Slc12a1",
+      "cell": "ascending loop of Henle",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "figure_labeled",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Extended Data Fig. 5c",
+      "source_context": "marker genes which appear specific to ... ascending loop of Henle (Umod+, Slc12a1+)",
+      "evidence_ids": [
+        "HIST_M01661"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 3929,
+          "text": "Slc12a1 +), distal convoluted tubule (Slc12a3 +, Pvalb +), collecting duct "
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "原片段Slc12a1+肾单位标记可定位；具体细胞名跨行，台账空定位需补。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01694",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "gene": "Cd36",
+      "cell": "definitive early erythroblasts",
+      "species": "mouse",
+      "polarity": "negative",
+      "evidence_type": "figure_labeled",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Fig. 5g node labels",
+      "source_context": "Definitive early erythroblasts (Cd36-)",
+      "evidence_ids": [
+        "HIST_M01694"
+      ],
+      "reported_lines": [
+        {
+          "line": 2324,
+          "text": "188 - Deﬁnitive early erythroblasts (Cd36–)"
+        },
+        {
+          "line": 2325,
+          "text": "189 - Deﬁnitive erythroblasts (Cd36+)"
+        },
+        {
+          "line": 2748,
+          "text": "Deﬁnitive erythroblasts (Cd36+)"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 2324,
+          "text": "188 - Deﬁnitive early erythroblasts (Cd36–)"
+        },
+        {
+          "line": 2325,
+          "text": "189 - Deﬁnitive erythroblasts (Cd36+)"
+        },
+        {
+          "line": 2748,
+          "text": "Deﬁnitive erythroblasts (Cd36+)"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报行直接含definitive early erythroblast Cd36−，负向关系线索清楚。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00254",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "gene": "CSPG4",
+      "cell": "IR-Ven-Peri",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "figure_labeled",
+      "category": "old_round2",
+      "source_locator": "Results, section 'Vascular cell types in systemic and pulmonary circulation'; Fig. 3d",
+      "source_context": "The IR-Ven-Peri expressed ABCC9 and ICAM1 but not CSPG4; Fig. 3d shows marker gene dot plot of smooth muscle/perivascular compartment.",
+      "evidence_ids": [
+        "EVID_04"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 217,
+          "text": "pulmonary (SM-pulm) and systemic (SM-syst)) and pericytes (pulmo- The IR-Ven-Peri expressed ABCC9 and ICAM1 but not CSPG4, similar"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "片段直接IR-Ven-Peri not CSPG4；支持负向关系，需保留ABCC9/ICAM1组合。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00777",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "gene": "CD4",
+      "cell": "CD4",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig. 2c; Fig. 3; Fig. 5c (cell-type axis); Methods (annotation based on known marker genes)",
+      "source_context": "Lymphoid immune cell type labeled 'CD4' in Fig. 2c, Fig. 3 and Fig. 5c; Methods state cell types were annotated based on known marker genes (Supplementary Table 2).",
+      "evidence_ids": [
+        "HIST_M00777"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 246,
+          "text": "|              |           | CD4     | Lymphatic |                 |        |             |        |              |                  | Plasma |          | CD4       |     |     |"
+        },
+        {
+          "line": 398,
+          "text": "CD4"
+        },
+        {
+          "line": 551,
+          "text": "|     |     | CD4 | (adjusted P <0.1) |     |     |     |     |        |     |     |     |"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "仅CD4标签及通用注释方法不足以宣称已查完整基因细胞对应；需实际marker表。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00780",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "gene": "PTPRC",
+      "cell": "endothelial cells",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Methods: 'Data integration, clustering, cell type annotation and differential expression'",
+      "source_context": "Methods: 'PECAM1/+PTPRC− for endothelial cells'; PTPRC is the negative marker in this compartment classification based on marker gene expression.",
+      "evidence_ids": [
+        "HIST_M00780"
+      ],
+      "reported_lines": [
+        {
+          "line": 853,
+          "text": "were selected on the basis of preoperative chest computed tomogra- for epithelial cells; PECAM1/+PTPRC− for endothelial cells; and PTPRC−/"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 852,
+          "text": "in each lung. For ILD-affected lungs, representatively diseased areas based on marker gene expression: PTPRC+ for immune cells; EPCAM+"
+        },
+        {
+          "line": 853,
+          "text": "were selected on the basis of preoperative chest computed tomogra- for epithelial cells; PECAM1/+PTPRC− for endothelial cells; and PTPRC−/"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "Methods片段明确PECAM1+/PTPRC− endothelial；组合方向应完整保留。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01332",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "gene": "CYP11A1",
+      "cell": "Adrenal cortex cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "figure_labeled",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig. 1d legend",
+      "source_context": "Fig. 1d dotplot showing marker genes for each annotated cell type; gene axis includes CYP11A1 and CYP11B1 for the Adrenal cortex cells row.",
+      "evidence_ids": [
+        "HIST_M01332"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 112,
+          "text": "P H OX2B ISL P 1 D GFRB D C N CD247 CD9 P 6 E CA M1 PTPRB CD163 CD86 IRF8 FLT3 CYP11A1 CYP11B1 PLP1 CD H19 PAX5 MS4A1 ALB D CD C2 PK HD1"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "图轴包含CYP11A1，未在本次打开决定性adrenal行；保留图读缺口。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01344",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "gene": "CD163",
+      "cell": "Macrophages",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "figure_labeled",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Fig. 1d legend",
+      "source_context": "Fig. 1d dotplot showing marker genes for each annotated cell type; gene axis includes CD163 for the Macrophages row.",
+      "evidence_ids": [
+        "HIST_M01344"
+      ],
+      "reported_lines": [
+        {
+          "line": 713,
+          "text": "Macrophages differentially interact with neoplastic cell states to both macrophage subsets and significantly closer to CD163+CD68hi"
+        },
+        {
+          "line": 747,
+          "text": "we found that all macrophages expressed CD163, but two populations states. We nominated several ligands of the ERBB4 growth factor recep-"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 112,
+          "text": "P H OX2B ISL P 1 D GFRB D C N CD247 CD9 P 6 E CA M1 PTPRB CD163 CD86 IRF8 FLT3 CYP11A1 CYP11B1 PLP1 CD H19 PAX5 MS4A1 ALB D CD C2 PK HD1"
+        },
+        {
+          "line": 514,
+          "text": "2 PAMU HS3ST2+ CCL4+ TOP2A MKI67 C1QC SPP1 VCAN VEGFA IL18 CCL4 F13A1 E1 T2 YP27A1 THY1 MRC1 CD163 CD68 0 - - - -"
+        },
+        {
+          "line": 573,
+          "text": "|     |     |     |     |     | TGFA |     | CD68 |     | HB-EGF |     |     | Distance to CD163+ CD68hi macrophage |     |     |"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报为另一位置macrophage CD163表达，不是所称Fig.1d对应；需要修定位并补图用途。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00068",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "gene": "CHGA",
+      "cell": "Enteroendocrine cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "figure_labeled",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig. 1j; Fig. 3d",
+      "source_context": "CHGA shows high, specific marker expression in the Enteroendocrine-cell row of the integrated and intestinal-organoid marker plots.",
+      "evidence_ids": [
+        "HIST_M00068"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 523,
+          "text": "CHGA"
+        },
+        {
+          "line": 1450,
+          "text": "CHGA"
+        },
+        {
+          "line": 1700,
+          "text": "CHGA"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "CHGA有分散图字，不能据此判定肠类器官enteroendocrine交点已核实。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01399",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "gene": "SCGB3A2",
+      "cell": "Airway progenitor cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results p.1207, Fig.5e",
+      "source_context": "Lung progenitor organoids differentiated toward the airway were mapped to airway-specific identities, including SCGB3A2+ airway progenitors, basal cells and secretory cells.",
+      "evidence_ids": [
+        "HIST_M01399"
+      ],
+      "reported_lines": [
+        {
+          "line": 1814,
+          "text": "cell identities, including SCGB3A2+ airway progenitors, basal cells "
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1696,
+          "text": "SCGB3A2"
+        },
+        {
+          "line": 1814,
+          "text": "cell identities, including SCGB3A2+ airway progenitors, basal cells "
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "片段明确SCGB3A2+ airway progenitor映射；应保留类器官条件并补完整出处。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00702",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "gene": "CCL2",
+      "cell": "alveolar fibroblasts",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results: 'The HLCA reveals common aberrant cell states across diseases'",
+      "source_context": "cells from patients with IPF predominantly cluster together in a single cluster characterized by high expression of genes previously associated with IPF (CCL2, COL1A1, CTHRC1 and MMP19), as well as further fibrosis-associated markers (SERPINE1, an inhibitor of extracellular matrix breakdown, and HIF1A, a chronic hypoxia response gene); These marker genes are consistently expressed across datasets.",
+      "evidence_ids": [
+        "HIST_M00702"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 1325,
+          "text": "in the context of lung fibrosis (SPP1, PLA2G7 and CCL2; Supplementary "
+        },
+        {
+          "line": 1347,
+          "text": "by high expression of genes previously associated with IPF64,73,74 (CCL2, "
+        },
+        {
+          "line": 1368,
+          "text": "the expression of CCL2, a gene involved in the recruitment of immune "
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "CCL2在IPF成纤维亚群的富集/状态表述需与作者分类用途区分，不能无条件泛化。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00707",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "gene": "SERPINE1",
+      "cell": "alveolar fibroblasts",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results: 'The HLCA reveals common aberrant cell states across diseases'",
+      "source_context": "cells from patients with IPF predominantly cluster together in a single cluster characterized by high expression of genes previously associated with IPF (CCL2, COL1A1, CTHRC1 and MMP19), as well as further fibrosis-associated markers (SERPINE1, an inhibitor of extracellular matrix breakdown, and HIF1A, a chronic hypoxia response gene); These marker genes are consistently expressed across datasets.",
+      "evidence_ids": [
+        "HIST_M00707"
+      ],
+      "reported_lines": [
+        {
+          "line": 1349,
+          "text": "markers (SERPINE1, an inhibitor of extracellular matrix breakdown75, "
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1349,
+          "text": "markers (SERPINE1, an inhibitor of extracellular matrix breakdown75, "
+        },
+        {
+          "line": 1791,
+          "text": "SERPINE1"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "SERPINE1所报行属于纤维化标记列表，不等于完整alveolar关系核准；与M00702同段补核。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01304",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "gene": "CD19",
+      "cell": "B cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Methods, Gene panel design for MERFISH and ExSeq, Canonical cell-type-specific markers; Fig. 5b",
+      "source_context": "Canonical cell-type-specific markers (for example, EPCAM for epithelial cells, CD19 for B cells, CD4 for T helper cells, CD8 for cytotoxic T lymphocytes, CD56 for NK cells and CD14 for macrophages) (Methods, Gene panel design for MERFISH and ExSeq).",
+      "evidence_ids": [
+        "HIST_M01304"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 1579,
+          "text": "Automated image acquisition and fluidics exchange were per- epithelial cells, CD19 for B cells, CD4 for T helper cells, CD8"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "CD19 B细胞面板设计片段可定位；原引文跨行并含组合基因，须精确引用。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01303",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "gene": "LIPE",
+      "cell": "adipocytes",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Methods, MERFISH data generation",
+      "source_context": "In addition to the 297 genes selected for MERFISH as described above, two additional genes, ALB and LIPE, were added to the gene panel for ready identification of the common host tissue cell types found in liver (hepatocytes) and adipose (adipocytes) tissues, respectively.",
+      "evidence_ids": [
+        "HIST_M01303"
+      ],
+      "reported_lines": [
+        {
+          "line": 1637,
+          "text": "described above based on the single-cell and single-nucleus data. In above, two additional genes, ALB and LIPE, were added to the gene panel"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1637,
+          "text": "described above based on the single-cell and single-nucleus data. In above, two additional genes, ALB and LIPE, were added to the gene panel"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "LIPE面板选择片段存在，但所报行未包含adipocyte对应；应补齐连续句。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01319",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "gene": "COL3A1",
+      "cell": "Hepatic stellate cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results p.3; Fig.3b,c; Fig.S1",
+      "source_context": "canonical markers, such as ... COL3A1 and COL6A3 for hepatic stellate cells",
+      "evidence_ids": [
+        "HIST_M01319"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "台账无COL3A1定位，未用无命中判断不存在；需按canonical marker相邻原文核对。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01318",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "gene": "FLT1",
+      "cell": "Endothelial cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results p.3; Fig.3b,c; Fig.S1",
+      "source_context": "canonical markers, such as ... FLT1 for endothelial cells",
+      "evidence_ids": [
+        "HIST_M01318"
+      ],
+      "reported_lines": [
+        {
+          "line": 228,
+          "text": "hepatocytes,FLT1forendothelialcells,COL3A1andCOL6A3for sample, cellclass, and genemodule toshow genesignatures that"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 387,
+          "text": "WeexaminedproteinexpressioninB,T,andPDXsamplesfor pathway genes, Tr4/1 has elevated FLT1, CALCRL, VIM, and"
+        },
+        {
+          "line": 407,
+          "text": "otherclustersconsistentwithamoreprimitiveorlessactivestate. DLK1,FLT1,andVIMsignaling,andtumormaintenanceforTr3"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报行明确FLT1 endothelial，支持关系；不能将原概述当逐字引用。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01806",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "gene": "Adgre1",
+      "cell": "cardiac macrophages",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Methods, Flow cytometry and cell sorting for mouse samples",
+      "source_context": "The following antibodies were used for cardiac macrophages: ... PE anti-F4/80 ...",
+      "evidence_ids": [
+        "HIST_M01806"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "Adgre1/F4/80抗体别名来源无定位，需查实际小鼠心脏巨噬细胞门控。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01808",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "gene": "Mrc1",
+      "cell": "cardiac macrophages",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Methods, Flow cytometry and cell sorting for mouse samples",
+      "source_context": "The following antibodies were used for cardiac macrophages: ... Alexa Fluor 647 anti-CD206 (MMR) ...",
+      "evidence_ids": [
+        "HIST_M01808"
+      ],
+      "reported_lines": [
+        {
+          "line": 759,
+          "text": "Fig. 5c). H2-Aa was highest in mm2 cells while Ly6c2 and Mrc1 were most"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 427,
+          "text": "of Mrc1, Timd4, Lyve1, and Folr2 and were enriched in LXR/RXR"
+        },
+        {
+          "line": 759,
+          "text": "Fig. 5c). H2-Aa was highest in mm2 cells while Ly6c2 and Mrc1 were most"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "Mrc1检索命中RNA群差异，不能证明原引文所称抗CD206抗体使用；模态定位待核。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01608",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "gene": "Acta2",
+      "cell": "stellate-quiescent",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+      "source_context": "we relied on the following cell type markers across multiple datasets ... stellate-quiescent: Ndufa4l2, Acta2, Cspg4, Rgs5",
+      "evidence_ids": [
+        "HIST_M01608"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 1038,
+          "text": "To reduce the effect of ambient expression on embedding calculation Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10. Expected multi-"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "方法片段Acta2等marker列表存在，但stellate-quiescent对应跨行需补。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00094",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "gene": "Cryab",
+      "cell": "Schwann",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Methods, 'Preprocessing of datasets for atlas building' / re-annotation marker list",
+      "source_context": "we relied on the following cell type markers across multiple datasets ... Schwann: Cryab, Plp1, Sox10",
+      "evidence_ids": [
+        "HIST_M00094"
+      ],
+      "reported_lines": [
+        {
+          "line": 1038,
+          "text": "To reduce the effect of ambient expression on embedding calculation Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10. Expected multi-"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1038,
+          "text": "To reduce the effect of ambient expression on embedding calculation Acta2, Cspg4, Rgs5; and Schwann: Cryab, Plp1, Sox10. Expected multi-"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "方法片段明确Schwann: Cryab,Plp1,Sox10，支持作者实际注释线索。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01967",
+      "paper_id": "DOI_10.1038_s44318-024-00328-6",
+      "gene": "SOX9",
+      "cell": "AT2-like (fdAT2 organoid cells)",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Main Text p. 641, Results; Fig. 1G; Appendix Fig. S1",
+      "source_context": "whereas a fetal tip progenitor marker, SOX9 was not detected (Fig. 1G; Appendix Fig. S1).",
+      "evidence_ids": [
+        "HIST_M01967"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 287,
+          "text": "progenitormarkerexpression,butalsoupregulatemarkersofAT2 whereas a fetal tip progenitor marker, SOX9 was not detected"
+        },
+        {
+          "line": 797,
+          "text": "|         |         |        | Goatanti-SOX9  | 1:200 | R&Dsystems | AF3075    |"
+        },
+        {
+          "line": 1529,
+          "text": "markersNKX2-1,SLC34A2,LPCAT1,HOPX,CEACAM6(B),MKI67(C),CXCchemokineligandsCXCL2,CXCL3(D),SOX9(E),AT1-likemarkersCAV1,AGER(F),SOX2(G),"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "SOX9 not detected片段存在，应保留fdAT2类器官和胎儿tip对照；负向不能排除。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00052",
+      "paper_id": "DOI_10.1038_s44318-024-00328-6",
+      "gene": "ASCL1",
+      "cell": "NE prog",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Fig. EV2 legend (H); Methods - Organoid single-cell RNA sequencing",
+      "source_context": "UMAP plots showing transcript expression of ... ASCL1(H), neuroendocrine cells NEUROD1, GRP(I); organoid scRNA-seq data were initially manually annotated based on the expression of marker genes (in Fig. 1)",
+      "evidence_ids": [
+        "HIST_M00052"
+      ],
+      "reported_lines": [
+        {
+          "line": 1530,
+          "text": "ASCL1(H),neuroendocrinecellsNEUROD1,GRP(I),FOXJ1(J),TP63(K).(L,M)UMAPsshowingfdAT2organoidscRNA-seqdataintegratedwithpublishedadult(L)or"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1530,
+          "text": "ASCL1(H),neuroendocrinecellsNEUROD1,GRP(I),FOXJ1(J),TP63(K).(L,M)UMAPsshowingfdAT2organoidscRNA-seqdataintegratedwithpublishedadult(L)or"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "ASCL1出现在UMAP图注，但NE prog细胞映射须对应实际图，不自动按gene词通过。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01230",
+      "paper_id": "DOI_10.1101_2024.10.23.619925",
+      "gene": "FOXI1",
+      "cell": "Basal",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results, 'Characterisation of the epithelial lineage...' (p.11)",
+      "source_context": "cluster 'RARRES2+/c17' resembled ionocytes (KRT5, KRT15+ and RARRES2, FOXI1+)",
+      "evidence_ids": [
+        "HIST_M01230"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 624,
+          "text": "“RARRES2+/c17” resembled ionocytes (KRT5, KRT15+ and RARRES2, FOXI1+; Fig. 2E;"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "补读612–632行确认作者是在Basal clusters内称RARRES2+/c17 resembles ionocytes；不因Basal表名直接误判，需保留细亚群。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01257",
+      "paper_id": "DOI_10.1101_2024.10.23.619925",
+      "gene": "MSMB",
+      "cell": "MSMBlow malignant cells",
+      "species": "human",
+      "polarity": "low",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results p.18; Discussion p.38",
+      "source_context": "MSMBlow malignant cells, which were enriched in PCa-specific AR activity",
+      "evidence_ids": [
+        "HIST_M01257"
+      ],
+      "reported_lines": [
+        {
+          "line": 994,
+          "text": "MSMB+, altered benign MSMB+, malignant MSMB+), and a fourth group, MSMBlow"
+        },
+        {
+          "line": 1000,
+          "text": "and malignant MSMB+ counterparts, and (2) altered benign MSMB+ cells to MSMBlow"
+        },
+        {
+          "line": 1004,
+          "text": "MSMB+ malignant compared to MSMBlow malignant cells have been associated with"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 424,
+          "text": "correspond to cellular states (e.g., Luminal_MSMB+/c7, Basal_S100A2+/c2) (Supp. Fig."
+        },
+        {
+          "line": 596,
+          "text": "(KLK3, NKX3-1, MSMB), two Luminal-like (KLK3, PIGR), five Club (SCGB3A1, LCN2,"
+        },
+        {
+          "line": 676,
+          "text": "“Luminal_MSMB+/c7”, which resembled canonical acinar luminal epithelium"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": true,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "多行MSMBlow malignant命名线索存在；AR活性条件未在所报行，应补原段。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01292",
+      "paper_id": "DOI_10.1101_2025.01.17.633590",
+      "gene": "CFAP126",
+      "cell": "β cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results, lines 394-397",
+      "source_context": "We also identified β-cell clusters with expression signatures associated with ... cluster 4, proliferative vs. mature cells with elevated CFAP126 (Fltp in mice) expression77.",
+      "evidence_ids": [
+        "HIST_M01292"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 535,
+          "text": "396 elevated CFAP126 (Fltp in mice) expression77); regulation of signaling receptor activity (cluster"
+        },
+        {
+          "line": 700,
+          "text": "508 subpopulations with elevated CD6378 and CFAP126 (the human Fltp orthologue)77 expression."
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "CFAP126为beta子群表达signature，需核cluster4与marker用途；不可由高表达自动视为全beta marker。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00067",
+      "paper_id": "DOI_10.1101_2025.01.17.633590",
+      "gene": "NGFR",
+      "cell": "Schwann",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Methods, Cell Annotation section, p.26 (lines 796-798)",
+      "source_context": "The estimated cell types (and indicative markers) were beta (INS), alpha (GCG), delta (SST), gamma (PPY), epsilon (GHRL), ductal (KRT19), acinar (REG1B), stellate (COL1A1), activated stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and proliferating cells (TOP2A).",
+      "evidence_ids": [
+        "HIST_M00067"
+      ],
+      "reported_lines": [
+        {
+          "line": 1157,
+          "text": "798 stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1157,
+          "text": "798 stellate (FABP4), endothelial (PLVAP), Schwann (NGFR), immune (C1QC), mast (TPSB2) and"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "方法列表明确Schwann(NGFR)，支持注释关系，完整引文跨行待整理。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01545",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "gene": "FAP",
+      "cell": "C-MYOF",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results, 'Interstitial fibroblasts'; Figure 2b",
+      "source_context": "These cells showed expression signatures consistent with a vascular niche associated myofibroblast subtype seen in injured and inflamed tissues, including the expression of POSTN, FAP and INHBA (Figure 2b, SD Figure 2, Supplementary Table 12)",
+      "evidence_ids": [
+        "HIST_M01545"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 254,
+          "text": "subtype seen in injured and inflamed tissues15,22, including the expression of POSTN, FAP and"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "FAP在血管相关myofibroblast signature中；缺具体定位及marker用途解释，不宣称完全通过。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01540",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "gene": "CCL2",
+      "cell": "C-FIB-OSMRhi",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results, 'Interstitial fibroblasts'; Figure 2b",
+      "source_context": "C-FIB-OSMRhi fibroblasts ... expressed genes associated with the ability to respond to and produce inflammatory cytokines, including IL1R1, CCL2, CXCL10, CCL19 and the Oncostatin-M receptor (OSMR) (Figure 2b, SD Figure 2, Supplementary Table 12)",
+      "evidence_ids": [
+        "HIST_M01540"
+      ],
+      "reported_lines": [
+        {
+          "line": 895,
+          "text": "expressing SOX4. CCL2 expression is seen in several of these alt PTs and in C-FIB-OSMRhi"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 244,
+          "text": "CCL2, CXCL10, CCL19 and the Oncostatin-M receptor (OSMR) (Figure 2b, SD Figure 2,"
+        },
+        {
+          "line": 360,
+          "text": "an M1-like pro-inflammatory CXCL10+ CXCL9+ CCL2+ state (moMAC-CXCL10+, Figure 2g,"
+        },
+        {
+          "line": 567,
+          "text": "were potential sources of CCL2 and IL1B (Figure 4h-l), both associated with CKD progression"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报CCL2行是另一段表达，未覆盖原引文识别条件；需查C-FIB-OSMRhi面板/注释用途。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01093",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "gene": "CD14",
+      "cell": "classical myeloid DC (cDC)",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "old_round2",
+      "source_locator": "Results p.4",
+      "source_context": "CD11c+/MHCII+/CD14- are classical myeloid DC (cDC)",
+      "evidence_ids": [
+        "EVID_05"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 491,
+          "text": "histocompatibility complex (MHC) class II molecules and CD14 identifies monocyte-"
+        },
+        {
+          "line": 492,
+          "text": "derived macrophages with an avid phagocytic capacity, whilst CD11c+/MHCII+/CD14- are"
+        },
+        {
+          "line": 572,
+          "text": "XCR1+, and cDC2 that express CD1c. CD11c+/MHCII+/CD14+ macrophages, cDC1 and"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": true,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "正文明确CD11c+/MHCII+/CD14− cDC，支持负向识别，组合保留。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02581",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "gene": "F13A1",
+      "cell": "MΦ LYVE1high",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "figure_labeled",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig.3E, PDF p.32",
+      "source_context": "F13A1 is listed among common MΦ LYVE1hi markers.",
+      "evidence_ids": [
+        "HIST_M02581"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "F13A1表格/图marker引用无当前文本定位，须原表或面板定向补核。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01457",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "gene": "CD14",
+      "cell": "CD14+ monocytes",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Page 7-8, Fig. 3B",
+      "source_context": "These included CD16+ monocytes, CD14+ monocytes, two transitional Mo/MΦ FCGR3Alow and Mo/MΦ FCGR3Ahigh populations...",
+      "evidence_ids": [
+        "HIST_M01457"
+      ],
+      "reported_lines": [
+        {
+          "line": 873,
+          "text": "fig. S15, A and B; and table S5). These included CD16+ monocytes, CD14+ monocytes, two"
+        },
+        {
+          "line": 986,
+          "text": "emanate from CD14+ monocytes at the root. Each of the two terminals is preceded by"
+        },
+        {
+          "line": 987,
+          "text": "distinct earlier putative transitional states: a Mo/MΦ FCGR3Alow state between CD14+"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 873,
+          "text": "fig. S15, A and B; and table S5). These included CD16+ monocytes, CD14+ monocytes, two"
+        },
+        {
+          "line": 986,
+          "text": "emanate from CD14+ monocytes at the root. Each of the two terminals is preceded by"
+        },
+        {
+          "line": 987,
+          "text": "distinct earlier putative transitional states: a Mo/MΦ FCGR3Alow state between CD14+"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "正文直接列CD14+ monocytes，支持命名关系；原引文后续亚群勿混同。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01478",
+      "paper_id": "DOI_10.1126_science.abo0510",
+      "gene": "EPCAM",
+      "cell": "human embryonic mesodermal progenitors (hEMPs)",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Materials and Methods, Cell cultures for artificial thymic organoid (ATO), p.3",
+      "source_context": "Cells were harvested 3.5 days later, and isolated by FACS for CD326–CD56+ ... human embryonic mesodermal progenitors (hEMPs).",
+      "evidence_ids": [
+        "HIST_M01478"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "EPCAM/CD326阴性hEMP分选别名，无具体行；需保留CD56+和培养3.5天限定。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01501",
+      "paper_id": "DOI_10.1126_science.abo0510",
+      "gene": "MS4A1",
+      "cell": "Plasma B cells",
+      "species": "human",
+      "polarity": "low",
+      "evidence_type": "figure_labeled",
+      "category": "luna_context_crosschecked",
+      "source_locator": "fig. S25 legend",
+      "source_context": "plasma B (MS4A1lo and expressing CD38, SDC1, and JCHAIN)",
+      "evidence_ids": [
+        "HIST_M01501"
+      ],
+      "reported_lines": [
+        {
+          "line": 1133,
+          "text": "VPREB3. Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B (MS4A1lo and"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 1133,
+          "text": "VPREB3. Mature B, cycling B, plasma B, and putative B1 cells expressed MS4A1 except plasma B (MS4A1lo and"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": true,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报行明确plasma B MS4A1lo，low记录与片段一致；需补CD38/SDC1/JCHAIN后续。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02376",
+      "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+      "gene": "PRDM1",
+      "cell": "CD5+ Mature B",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig 3C, Main Text P7",
+      "source_context": "Absence of PRDM1 confirms lack of plasma cell activation",
+      "evidence_ids": [
+        "HIST_M02376"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 838,
+          "text": "of the expression of the transcription factor PRDM1 (Fig 3C) confirmed that our dataset"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "PRDM1缺乏用于排除plasma激活需看是否适用于此具体CD5+成熟B群，台账无行号。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02359",
+      "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+      "gene": "MKI67",
+      "cell": "κ small pre-B",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Fig 3C, Main Text P6",
+      "source_context": "Small pre-B defined as IL7R+SPIB+MKI67-",
+      "evidence_ids": [
+        "HIST_M02359"
+      ],
+      "reported_lines": [
+        {
+          "line": 717,
+          "text": "(EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small"
+        },
+        {
+          "line": 718,
+          "text": "pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 717,
+          "text": "(EBF1+SPINK2+VPREB1+), pro-B (DNTT+), large pre-B (IL7R+MS4A1+MKI67+), small"
+        },
+        {
+          "line": 718,
+          "text": "pre-B (IL7R+SPIB+MKI67-), immature B (MS4A1+IGHDloIGHMhiVPREB3hi) and mature"
+        },
+        {
+          "line": 720,
+          "text": "precise cell subtypes based on cluster-specific genes: NEIL1+MKI67- late pro-B cells,"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报两行有small pre-B MKI67−组合；κ亚群仍需原分类对齐，不能仅大类通过。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00026",
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "gene": "CDH19",
+      "cell": "Gli",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+      "source_context": "Cells expressing markers of neuronal and glial/Schwann cells (Gli; CDH19, MPZ, NRXN1)",
+      "evidence_ids": [
+        "HIST_M00026"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 297,
+          "text": "ApproximationandProjectionclustering CDH19,MPZ,NRXN1)werealsoidentified. foundbyanalyzingscRNA-seqdatasetsof"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "CDH19/MPZ/NRXN1有Gli对应片段，台账定位空；非单一Schwann特异性不作排除。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00304",
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "gene": "PLVAP",
+      "cell": "En-v",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results, 'Cellular Diversity along the Proximal–Distal Airway Axis'",
+      "source_context": "venous (En-v, including cells expressing fenestrated En-c markers ACKR1 and PLVAP)",
+      "evidence_ids": [
+        "HIST_M00304"
+      ],
+      "reported_lines": [
+        {
+          "line": 304,
+          "text": "alveolarfamilies),2)structural(stromaland PLVAP[25]),En-smcoexpressingEnand lumen-facingnonciliatedairwayepithelial"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 304,
+          "text": "alveolarfamilies),2)structural(stromaland PLVAP[25]),En-smcoexpressingEnand lumen-facingnonciliatedairwayepithelial"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "PLVAP行不足以完整验证En-v与fenestrated capillary限定，需相邻三栏原文/图。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M01059",
+      "paper_id": "DOI_10.64898_2025.12.18.695268",
+      "gene": "PTPRC",
+      "cell": "immune cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Materials and Methods, Xenium sample preparation",
+      "source_context": "Cell segmentation antibodies were applied to mark ... immune cells (CD45)",
+      "evidence_ids": [
+        "HIST_M01059"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 1654,
+          "text": "PECAM1, XKR4, and RGS5 for stromal cells, PDGFRA and DCN for fibroblasts, and PTPRC for"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "标准符号检索命中RNA marker列表，不是原CD45分割抗体来源，需按模态核。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00058",
+      "paper_id": "DOI_10.64898_2025.12.18.695268",
+      "gene": "NRXN1",
+      "cell": "Schwann cells",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results: Single-nucleus transcriptomic atlas of the adult human bladder; Fig. 1C; fig. S1B; Fig. S3E legend; Results: Spatial architecture of bladder cell types and microenvironments",
+      "source_context": "Additional stromal populations included Schwann cells (NRXN+/XKR4+); Regions surrounding innervating structures featured Schwann cells (NRXN1+) and ...; fig. S3E: expression of nerve marker gene (NRXN1)",
+      "evidence_ids": [
+        "HIST_M00058"
+      ],
+      "reported_lines": [
+        {
+          "line": 301,
+          "text": "surrounding innervating structures (fig. S3E) featured Schwann cells (NRXN1+) and a localized"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 301,
+          "text": "surrounding innervating structures (fig. S3E) featured Schwann cells (NRXN1+) and a localized"
+        },
+        {
+          "line": 1948,
+          "text": "nerve bundle, with expression of nerve marker gene (NRXN1), generic fibroblast marker (DCN),"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "301行明确Schwann NRXN1+，可支持实体；不要与另一论文的NRXN家族未决混用。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00051",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "gene": "ASCL1",
+      "cell": "Pulmonary neuroendocrine cell (PNEC)",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "old_round2",
+      "source_locator": "Fig. 1B; Fig. 1D",
+      "source_context": "ASCL1 shows strong PNEC-specific chromatin accessibility in snATAC-seq and expression in snRNA-seq and is used for cluster annotation.",
+      "evidence_ids": [
+        "EVID_01"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "旧EVID宣称ASCL1染色质/转录双模态；本次Fig.1D无ASCL1，不能以该图核准双模态，须Fig.1B/补图。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02548",
+      "paper_id": "DOI_10.7554_elife.71752",
+      "gene": "CALCA",
+      "cell": "H5",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Main Text p. 4, Figure 2B",
+      "source_context": "H5 cells are essentially CALCA (CGRP) and NTRK1 negative",
+      "evidence_ids": [
+        "HIST_M02548"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 131,
+          "text": "DRG dataset, TAC1 (substance P), CALCA and CALCB (CGRP), and ADCYAP1 (PACAP), are expressed"
+        },
+        {
+          "line": 181,
+          "text": "express Calca and Ntrk1, H5 cells are essentially CALCA (CGRP) and NTRK1 negative and instead are"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": true,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "181行有H5 CALCA/NTRK1 negative，支持方向线索；台账无定位需补。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02540",
+      "paper_id": "DOI_10.7554_elife.71752",
+      "gene": "PIEZO2",
+      "cell": "H8",
+      "species": "human",
+      "polarity": "negative",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Main Text p. 8, Figure 4A",
+      "source_context": "Left panel shows a group of four H8-neurons that express TRPM8 but not PIEZO2 or SCN10A",
+      "evidence_ids": [
+        "HIST_M02540"
+      ],
+      "reported_lines": [
+        {
+          "line": 140,
+          "text": "but generally only low levels of the stretch-g ated ion channel PIEZO2 (Figure 1C, Figure 1—figure"
+        },
+        {
+          "line": 223,
+          "text": "channel SCN1A, but is only weakly positive for NEFH, expresses moderate levels of PIEZO2 (Figure 2B,"
+        },
+        {
+          "line": 338,
+          "text": "not coexpressed with the ion channels SCN10A or PIEZO2 (Figure 4A), but unlike in mice these cells"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 140,
+          "text": "but generally only low levels of the stretch-g ated ion channel PIEZO2 (Figure 1C, Figure 1—figure"
+        },
+        {
+          "line": 190,
+          "text": "but prominent group of human DRG neurons (H9) expresses TRPM8, PIEZO2, SCN10A, and SCN11A"
+        },
+        {
+          "line": 217,
+          "text": "might be expected for cells expressing both TRPM8 and PIEZO2 (33). Moreover, recent single- cell"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报检索行混有其它H群PIEZO2低/中表达；应回H8图4A原定位核负向，不能用任一命中行通过。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00079",
+      "paper_id": "PMID_35115729",
+      "gene": "Plp1",
+      "cell": "myelinating Schwann cell (mSC)",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "figure_labeled",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Fig. 4a",
+      "source_context": "Markers highlighting subpopulations of mSCs are shown in bottom blue box (sCluster0: Plp1; ...)",
+      "evidence_ids": [
+        "HIST_M00079"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 135,
+          "text": "moderate levels of Cnp, Plp1 and Slit2. Another large cluster containing 2,218 nuclei, "
+        },
+        {
+          "line": 269,
+          "text": "four clusters, with cluster 0 expressing high levels of Plp1 and cluster 2 expressing collagen "
+        },
+        {
+          "line": 1229,
+          "text": "shown in bottom blue box (sCluster0: Plp1; sCluster1: Lmna; sCluster3: Col23a1, Cldn14, "
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "1229行说明sCluster0 Plp1；粒度需保留mSC子群，不只泛化mSC。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M00085",
+      "paper_id": "PMID_35115729",
+      "gene": "Ncam1",
+      "cell": "non-myelinating Schwann cell (nmSC)",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "author_declared",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Results p.2",
+      "source_context": "nmSCs, marked by canonical markers such as Ncam1 and Slc35f1, as well as additional markers Scn7a and Csmd1",
+      "evidence_ids": [
+        "HIST_M00085"
+      ],
+      "reported_lines": [
+        {
+          "line": 136,
+          "text": "Cluster 2, represented nmSCs, marked by canonical markers such as Ncam1 and Slc35f1, as "
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 136,
+          "text": "Cluster 2, represented nmSCs, marked by canonical markers such as Ncam1 and Slc35f1, as "
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "136行直接nmSC canonical Ncam1，支持实际注释线索。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02554",
+      "paper_id": "PMID_37120427",
+      "gene": "Scn10a",
+      "cell": "large-diameter neurons",
+      "species": "mouse",
+      "polarity": "negative",
+      "evidence_type": "author_declared",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Main Text p. 5, Figure 6f,g",
+      "source_context": "population of PIEZO2+/NaV1.8-/NTRK1- neurons represents proprioceptors",
+      "evidence_ids": [
+        "HIST_M02554"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [
+        {
+          "line": 715,
+          "text": "(OP-001003)and650(OP-001005)wereused.FormouseDRG,Scn10a with Sidak post-test was used to compare Na 1.8-Cre and Piezo2CKO"
+        },
+        {
+          "line": 720,
+          "text": "TechneDAPI.ForhumanDRG,SCN10A(406291-C3(probeforthegene hyperalgesia analgesic time courses, a repeated measures two-way"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "Scn10a/NaV1.8别名与proprioceptor复合门需原图，不能因无符号命中取消负向关系。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02550",
+      "paper_id": "PMID_37120427",
+      "gene": "Scn10a",
+      "cell": "Nociceptors",
+      "species": "mouse",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Main Text p. 2, Figure 1",
+      "source_context": "Piezo2 can be specifically depleted from nociceptors in mice by using the marker NaV1.8... We crossed NaV1.8-Cre mice with Piezo2-loxp mice",
+      "evidence_ids": [
+        "HIST_M02550"
+      ],
+      "reported_lines": [
+        {
+          "line": 449,
+          "text": "respecttodevelopmentofosteoarthritisstructuraldamagehasyet ‘PEP2’subclassesofnociceptorshadstrongco-expressionofScn10a"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 715,
+          "text": "(OP-001003)and650(OP-001005)wereused.FormouseDRG,Scn10a with Sidak post-test was used to compare Na 1.8-Cre and Piezo2CKO"
+        },
+        {
+          "line": 720,
+          "text": "TechneDAPI.ForhumanDRG,SCN10A(406291-C3(probeforthegene hyperalgesia analgesic time courses, a repeated measures two-way"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "检索行是PEP2共表达，不是NaV1.8-Cre条件敲除引用；原标记用途和模态需回原段核。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02564",
+      "paper_id": "PMID_37664243",
+      "gene": "RBFOX3",
+      "cell": "Human DRG neurons",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "historical_evidence_reused_with_limit",
+      "source_locator": "Main Text p. 10, Figure 6G",
+      "source_context": "combined with the neuronal marker NeuN (Figure 6G)... Neurons with GPC3-immunolabelling are surrounded by non-neuronal cells",
+      "evidence_ids": [
+        "HIST_M02564"
+      ],
+      "reported_lines": [],
+      "gene_hit_lines": [],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "RBFOX3/NeuN别名染色无定位，需回Fig.6G人DRG来源，不能从已知别名直接宣布通过。",
+      "complete_biological_approval": false
+    },
+    {
+      "marker_id": "M02561",
+      "paper_id": "PMID_37664243",
+      "gene": "SCN10A",
+      "cell": "Human Nociceptors",
+      "species": "human",
+      "polarity": "positive",
+      "evidence_type": "annotation_marker",
+      "category": "luna_context_crosschecked",
+      "source_locator": "Main Text p. 5, p. 10; Figure 5B, Figure 6A-E",
+      "source_context": "DCN and SCN10A were selected as markers to identify VLMC-like (fibroblasts) and nociceptor barcodes, respectively... RNAscope was used to identify and quantify cells expressing SCN10A (nociceptor marker)",
+      "evidence_ids": [
+        "HIST_M02561"
+      ],
+      "reported_lines": [
+        {
+          "line": 470,
+          "text": "combined with SCN10A, a marker for nociceptors, or with DCN, a injections of IGF1 in the hind paw of rats resulted in hyperalgesia,"
+        }
+      ],
+      "gene_hit_lines": [
+        {
+          "line": 216,
+          "text": "at Urbana-Champaign (Illumina NovaSeq 6,000) for the in-house and 650 (OP-001005) were used. SCN10A (406291-C3), COL1A1"
+        },
+        {
+          "line": 223,
+          "text": "SCN10A were selected as markers to identify VLMC-like (fibroblasts) but Z-stacks were not produced and instead the optimally focused"
+        },
+        {
+          "line": 228,
+          "text": "calculations were repeated for selected collagens: COL1A1, COL1A2, expression of COL1A1, SCN10A, and DCN, 10 images at 60x"
+        }
+      ],
+      "quote_at_reported_lines": false,
+      "quote_anywhere_in_md": false,
+      "sample_review_status": "provenance_and_available_source_fragments_manually_reviewed",
+      "astra_note": "所报行明确SCN10A marker for nociceptors；源引用是多处拼接，须分开RNA标记与空间验证出处。",
+      "complete_biological_approval": false
+    }
+  ],
+  "scope_note": "本清单审核来源可回溯性及可见片段，未将78条全部核准。详细查证的变更和具体错误见review.md。"
+}

@@ -1,0 +1,1958 @@
+{
+  "paper_id": "DOI_10.1101_2025.09.26.678707",
+  "metadata": {
+    "paper_id": "DOI_10.1101_2025.09.26.678707",
+    "title": "Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney",
+    "doi": "10.1101/2025.09.26.678707",
+    "species": "Human",
+    "tissue": "Kidney",
+    "technology": "snRNA-seq, scRNA-seq, Visium ST, Slide-seq2, CosMx, Xenium",
+    "extraction_type": "blind",
+    "notes": "Extracted strictly from PDF text, Figure 2, Figure 3, ED Figure 6, and Methods without consulting any external master tables."
+  },
+  "cell_types": [
+    {
+      "cell_type_name": "Cortical interstitial fibroblast (healthy/repaired)",
+      "cell_type_abbreviation": "C-FIB",
+      "cell_category": "Stromal / Fibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "C7",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Cortical interstitial fibroblast (healthy/repaired) (C-FIB)"
+        },
+        {
+          "marker_symbol": "MEG3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Cortical interstitial fibroblast (healthy/repaired) (C-FIB)"
+        },
+        {
+          "marker_symbol": "SELENOP",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Cortical interstitial fibroblast (healthy/repaired) (C-FIB)"
+        },
+        {
+          "marker_symbol": "CXCL12",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Cortical interstitial fibroblast (healthy/repaired) (C-FIB)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Pathologic cortical interstitial fibroblast",
+      "cell_type_abbreviation": "C-FIB-PATH",
+      "cell_category": "Stromal / Fibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CCN1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Pathologic cortical interstitial fibroblast (C-FIB-PATH)"
+        },
+        {
+          "marker_symbol": "CXCL12",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Pathologic cortical interstitial fibroblast (C-FIB-PATH)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "OSMR-low cortical interstitial fibroblast",
+      "cell_type_abbreviation": "C-FIB-OSMRlo",
+      "cell_category": "Stromal / Fibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CCN1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for OSMR-low cortical interstitial fibroblast (C-FIB-OSMRlo)"
+        },
+        {
+          "marker_symbol": "CXCL12",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for OSMR-low cortical interstitial fibroblast (C-FIB-OSMRlo)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Pro-inflammatory OSMR-high cortical interstitial fibroblast",
+      "cell_type_abbreviation": "C-FIB-OSMRhi",
+      "cell_category": "Stromal / Fibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "OSMR",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 6",
+          "direction": "positive",
+          "notes": "Marker for Pro-inflammatory OSMR-high cortical interstitial fibroblast (C-FIB-OSMRhi)"
+        },
+        {
+          "marker_symbol": "IL1R1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 6",
+          "direction": "positive",
+          "notes": "Marker for Pro-inflammatory OSMR-high cortical interstitial fibroblast (C-FIB-OSMRhi)"
+        },
+        {
+          "marker_symbol": "CCL2",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 6, 14",
+          "direction": "positive",
+          "notes": "Marker for Pro-inflammatory OSMR-high cortical interstitial fibroblast (C-FIB-OSMRhi)"
+        },
+        {
+          "marker_symbol": "CXCL10",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 6",
+          "direction": "positive",
+          "notes": "Marker for Pro-inflammatory OSMR-high cortical interstitial fibroblast (C-FIB-OSMRhi)"
+        },
+        {
+          "marker_symbol": "CCL19",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 6",
+          "direction": "positive",
+          "notes": "Marker for Pro-inflammatory OSMR-high cortical interstitial fibroblast (C-FIB-OSMRhi)"
+        },
+        {
+          "marker_symbol": "IL1B",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 14",
+          "direction": "positive",
+          "notes": "Marker for Pro-inflammatory OSMR-high cortical interstitial fibroblast (C-FIB-OSMRhi)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Cortical myofibroblast",
+      "cell_type_abbreviation": "C-MYOF",
+      "cell_category": "Stromal / Myofibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SULF1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Cortical myofibroblast (C-MYOF)"
+        },
+        {
+          "marker_symbol": "FAP",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Cortical myofibroblast (C-MYOF)"
+        },
+        {
+          "marker_symbol": "POSTN",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Cortical myofibroblast (C-MYOF)"
+        },
+        {
+          "marker_symbol": "SPARC",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 6",
+          "direction": "positive",
+          "notes": "Marker for Cortical myofibroblast (C-MYOF)"
+        },
+        {
+          "marker_symbol": "COL3A1",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 6",
+          "direction": "positive",
+          "notes": "Marker for Cortical myofibroblast (C-MYOF)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "RSPO3+ perivascular fibroblast progenitor",
+      "cell_type_abbreviation": "pvFIB-RSPO3+",
+      "cell_category": "Stromal / Perivascular Fibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "RSPO3",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 7",
+          "direction": "positive",
+          "notes": "Marker for RSPO3+ perivascular fibroblast progenitor (pvFIB-RSPO3+)"
+        },
+        {
+          "marker_symbol": "FLRT2",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for RSPO3+ perivascular fibroblast progenitor (pvFIB-RSPO3+)"
+        },
+        {
+          "marker_symbol": "IGF1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 7",
+          "direction": "positive",
+          "notes": "Marker for RSPO3+ perivascular fibroblast progenitor (pvFIB-RSPO3+)"
+        },
+        {
+          "marker_symbol": "C3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for RSPO3+ perivascular fibroblast progenitor (pvFIB-RSPO3+)"
+        },
+        {
+          "marker_symbol": "WNT5B",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 7",
+          "direction": "positive",
+          "notes": "Marker for RSPO3+ perivascular fibroblast progenitor (pvFIB-RSPO3+)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "PI16+ perivascular fibroblast progenitor (adventitial)",
+      "cell_type_abbreviation": "pvFIB-PI16+",
+      "cell_category": "Stromal / Perivascular Fibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "PI16",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 7",
+          "direction": "positive",
+          "notes": "Marker for PI16+ perivascular fibroblast progenitor (adventitial) (pvFIB-PI16+)"
+        },
+        {
+          "marker_symbol": "CD34",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 7",
+          "direction": "positive",
+          "notes": "Marker for PI16+ perivascular fibroblast progenitor (adventitial) (pvFIB-PI16+)"
+        },
+        {
+          "marker_symbol": "MFAP5",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 7",
+          "direction": "positive",
+          "notes": "Marker for PI16+ perivascular fibroblast progenitor (adventitial) (pvFIB-PI16+)"
+        },
+        {
+          "marker_symbol": "FLRT2",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for PI16+ perivascular fibroblast progenitor (adventitial) (pvFIB-PI16+)"
+        },
+        {
+          "marker_symbol": "EPHA3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for PI16+ perivascular fibroblast progenitor (adventitial) (pvFIB-PI16+)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Perivascular fibroblast",
+      "cell_type_abbreviation": "pvFIB",
+      "cell_category": "Stromal / Perivascular Fibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CD34",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Perivascular fibroblast (pvFIB)"
+        },
+        {
+          "marker_symbol": "PI16",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Perivascular fibroblast (pvFIB)"
+        },
+        {
+          "marker_symbol": "EPHA3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Perivascular fibroblast (pvFIB)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Perivascular myofibroblast",
+      "cell_type_abbreviation": "pvMYOF",
+      "cell_category": "Stromal / Myofibroblast",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "MYH11",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2b",
+          "direction": "positive",
+          "notes": "Marker for Perivascular myofibroblast (pvMYOF)"
+        },
+        {
+          "marker_symbol": "ACTA2",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2b, Main text Page 7",
+          "direction": "positive",
+          "notes": "Marker for Perivascular myofibroblast (pvMYOF)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "B cell",
+      "cell_type_abbreviation": "B",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "BANK1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for B cell (B)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Plasma cell",
+      "cell_type_abbreviation": "PL",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "XBP1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Plasma cell (PL)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Naïve T helper cell",
+      "cell_type_abbreviation": "Naïve Th",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CD3D",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Naïve T helper cell (Naïve Th)"
+        },
+        {
+          "marker_symbol": "IL7R",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Naïve T helper cell (Naïve Th)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Mucosal-associated invariant T cell",
+      "cell_type_abbreviation": "MAIT",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CD3D",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Mucosal-associated invariant T cell (MAIT)"
+        },
+        {
+          "marker_symbol": "SLC4A10",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Mucosal-associated invariant T cell (MAIT)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Innate lymphoid cell type 3",
+      "cell_type_abbreviation": "ILC3",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "IL7R",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Innate lymphoid cell type 3 (ILC3)"
+        },
+        {
+          "marker_symbol": "KIT",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Innate lymphoid cell type 3 (ILC3)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Regulatory T cell",
+      "cell_type_abbreviation": "T-REG",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CD3D",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Regulatory T cell (T-REG)"
+        },
+        {
+          "marker_symbol": "IKZF2",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Regulatory T cell (T-REG)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "CD8+ effector memory / tissue resident memory T cell",
+      "cell_type_abbreviation": "CD8+ TEM/TRM",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CD3D",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for CD8+ effector memory / tissue resident memory T cell (CD8+ TEM/TRM)"
+        },
+        {
+          "marker_symbol": "CD8A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for CD8+ effector memory / tissue resident memory T cell (CD8+ TEM/TRM)"
+        },
+        {
+          "marker_symbol": "GZMK",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for CD8+ effector memory / tissue resident memory T cell (CD8+ TEM/TRM)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "CD8+ effector memory / TEMRA T cell",
+      "cell_type_abbreviation": "CD8+ TEM/TEMRA",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CD3D",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for CD8+ effector memory / TEMRA T cell (CD8+ TEM/TEMRA)"
+        },
+        {
+          "marker_symbol": "CD8A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for CD8+ effector memory / TEMRA T cell (CD8+ TEM/TEMRA)"
+        },
+        {
+          "marker_symbol": "CCL5",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for CD8+ effector memory / TEMRA T cell (CD8+ TEM/TEMRA)"
+        },
+        {
+          "marker_symbol": "NKG7",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for CD8+ effector memory / TEMRA T cell (CD8+ TEM/TEMRA)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Natural killer cell",
+      "cell_type_abbreviation": "NK",
+      "cell_category": "Immune / Lymphoid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CCL5",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Natural killer cell (NK)"
+        },
+        {
+          "marker_symbol": "NKG7",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Natural killer cell (NK)"
+        },
+        {
+          "marker_symbol": "KLRF1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Natural killer cell (NK)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Mast cell",
+      "cell_type_abbreviation": "MAST",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "KIT",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Mast cell (MAST)"
+        },
+        {
+          "marker_symbol": "CPA3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Mast cell (MAST)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Tissue-resident macrophage (LYVE1+)",
+      "cell_type_abbreviation": "resMAC-LYVE1+",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "LYVE1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2h, Main text Page 8",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (LYVE1+) (resMAC-LYVE1+)"
+        },
+        {
+          "marker_symbol": "MRC1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (LYVE1+) (resMAC-LYVE1+)"
+        },
+        {
+          "marker_symbol": "C1QA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (LYVE1+) (resMAC-LYVE1+)"
+        },
+        {
+          "marker_symbol": "MERTK",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 8, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (LYVE1+) (resMAC-LYVE1+)"
+        },
+        {
+          "marker_symbol": "IGF1",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 8, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (LYVE1+) (resMAC-LYVE1+)"
+        },
+        {
+          "marker_symbol": "PDGFB",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 8, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (LYVE1+) (resMAC-LYVE1+)"
+        },
+        {
+          "marker_symbol": "PDGFC",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 8, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (LYVE1+) (resMAC-LYVE1+)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Tissue-resident macrophage (HLA-II high / M2-like)",
+      "cell_type_abbreviation": "resMAC-HLAIIhi",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "MRC1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "C1QA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h, ED Figure 6f, Methods Page 41",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "C1QB",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "TGFB1",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "HLA-DRA",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 8, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "HLA-DQA1",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 8, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "CD81",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "TMEM176A",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "TMEM176B",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "CD163",
+          "evidence_type": "author_declared",
+          "source_location": "Methods Page 41",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        },
+        {
+          "marker_symbol": "STAB1",
+          "evidence_type": "author_declared",
+          "source_location": "Methods Page 41",
+          "direction": "positive",
+          "notes": "Marker for Tissue-resident macrophage (HLA-II high / M2-like) (resMAC-HLAIIhi)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Classical monocyte",
+      "cell_type_abbreviation": "MON",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "FCN1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2h, Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Classical monocyte (MON)"
+        },
+        {
+          "marker_symbol": "CD300E",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Classical monocyte (MON)"
+        },
+        {
+          "marker_symbol": "CFP",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Classical monocyte (MON)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Monocyte-derived macrophage (HBEGF+ inflammatory)",
+      "cell_type_abbreviation": "moMAC-HBEGF+",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "HBEGF",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2h, Main text Page 9",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (HBEGF+ inflammatory) (moMAC-HBEGF+)"
+        },
+        {
+          "marker_symbol": "AREG",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (HBEGF+ inflammatory) (moMAC-HBEGF+)"
+        },
+        {
+          "marker_symbol": "PLAUR",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (HBEGF+ inflammatory) (moMAC-HBEGF+)"
+        },
+        {
+          "marker_symbol": "IL1B",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, 14, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (HBEGF+ inflammatory) (moMAC-HBEGF+)"
+        },
+        {
+          "marker_symbol": "OSM",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (HBEGF+ inflammatory) (moMAC-HBEGF+)"
+        },
+        {
+          "marker_symbol": "CXCL8",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (HBEGF+ inflammatory) (moMAC-HBEGF+)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory)",
+      "cell_type_abbreviation": "moMAC-CXCL10+",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CXCL10",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2h, Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "CXCL9",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "CCL2",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "STAT1",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "GBP1",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "GBP5",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "NFKBIA",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "IRF1",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "FCGR1A",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "CXCL11",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        },
+        {
+          "marker_symbol": "TNF",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (CXCL10+ / M1-like pro-inflammatory) (moMAC-CXCL10+)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Monocyte-derived fibrosis-associated macrophage (foam cell)",
+      "cell_type_abbreviation": "moFAM",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "GPNMB",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 2h, Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "SPP1",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "TREM2",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 9, ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "APOE",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "PPARG",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "LIPA",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "CD63",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "PLA2G7",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "LGALS3",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "CD9",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "CAPG",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "NR1H3",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "CD68",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "FABP5",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "CHIT1",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "CHI3L1",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "MMP2",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "MMP14",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "MMP9",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        },
+        {
+          "marker_symbol": "AXL",
+          "evidence_type": "figure_supported",
+          "source_location": "ED Figure 6f",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived fibrosis-associated macrophage (foam cell) (moFAM)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Monocyte-derived macrophage (C3+)",
+      "cell_type_abbreviation": "moMAC-C3+",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "C3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (C3+) (moMAC-C3+)"
+        },
+        {
+          "marker_symbol": "C1QA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Monocyte-derived macrophage (C3+) (moMAC-C3+)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Non-classical monocyte",
+      "cell_type_abbreviation": "ncMON",
+      "cell_category": "Immune / Myeloid",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "TCF7L2",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Non-classical monocyte (ncMON)"
+        },
+        {
+          "marker_symbol": "FCGR3A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Non-classical monocyte (ncMON)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Classical dendritic cell type 2",
+      "cell_type_abbreviation": "cDC2",
+      "cell_category": "Immune / Dendritic Cell",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CLEC10A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Classical dendritic cell type 2 (cDC2)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Classical dendritic cell type 1",
+      "cell_type_abbreviation": "cDC1",
+      "cell_category": "Immune / Dendritic Cell",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "WDFY4",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Classical dendritic cell type 1 (cDC1)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Mature dendritic cell",
+      "cell_type_abbreviation": "mDC",
+      "cell_category": "Immune / Dendritic Cell",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CCR7",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Mature dendritic cell (mDC)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Plasmacytoid dendritic cell",
+      "cell_type_abbreviation": "pDC",
+      "cell_category": "Immune / Dendritic Cell",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "IL3RA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Plasmacytoid dendritic cell (pDC)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Neutrophil",
+      "cell_type_abbreviation": "N",
+      "cell_category": "Immune / Granulocyte",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "FCGR3B",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 2h",
+          "direction": "positive",
+          "notes": "Marker for Neutrophil (N)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Proximal tubule S1 segment (healthy)",
+      "cell_type_abbreviation": "PT-S1",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "HNF4A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S1 segment (healthy) (PT-S1)"
+        },
+        {
+          "marker_symbol": "GDA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S1 segment (healthy) (PT-S1)"
+        },
+        {
+          "marker_symbol": "PCK1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3e, Main text Page 11, ED Figure 7h-i",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S1 segment (healthy) (PT-S1)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Proximal tubule S2 segment (healthy)",
+      "cell_type_abbreviation": "PT-S2",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "HNF4A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S2 segment (healthy) (PT-S2)"
+        },
+        {
+          "marker_symbol": "GDA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S2 segment (healthy) (PT-S2)"
+        },
+        {
+          "marker_symbol": "PCK1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3e, Main text Page 11, ED Figure 7h-i",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S2 segment (healthy) (PT-S2)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Proximal tubule S3 segment (healthy)",
+      "cell_type_abbreviation": "PT-S3",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC7A13",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S3 segment (healthy) (PT-S3)"
+        },
+        {
+          "marker_symbol": "HNF4A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S3 segment (healthy) (PT-S3)"
+        },
+        {
+          "marker_symbol": "PCK1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3e, Main text Page 11, ED Figure 7h-i",
+          "direction": "positive",
+          "notes": "Marker for Proximal tubule S3 segment (healthy) (PT-S3)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Adaptive proximal tubule state 1 (mid-point)",
+      "cell_type_abbreviation": "aPT1",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CDH6",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 1 (mid-point) (aPT1)"
+        },
+        {
+          "marker_symbol": "HAVCR1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 1 (mid-point) (aPT1)"
+        },
+        {
+          "marker_symbol": "SOX4",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 1 (mid-point) (aPT1)"
+        },
+        {
+          "marker_symbol": "PROM1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 1 (mid-point) (aPT1)"
+        },
+        {
+          "marker_symbol": "GDA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 1 (mid-point) (aPT1)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Adaptive proximal tubule state 2 (early repair)",
+      "cell_type_abbreviation": "aPT2",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CDH6",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        },
+        {
+          "marker_symbol": "HAVCR1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        },
+        {
+          "marker_symbol": "VCAM1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        },
+        {
+          "marker_symbol": "SOX4",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        },
+        {
+          "marker_symbol": "IL32",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        },
+        {
+          "marker_symbol": "ITGB8",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        },
+        {
+          "marker_symbol": "ITGB3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        },
+        {
+          "marker_symbol": "CCL2",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 14",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule state 2 (early repair) (aPT2)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Adaptive proximal tubule S1/S2 (mid-point)",
+      "cell_type_abbreviation": "aPT-S1/S2",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CDH6",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule S1/S2 (mid-point) (aPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "HAVCR1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule S1/S2 (mid-point) (aPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "SOX4",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule S1/S2 (mid-point) (aPT-S1/S2)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Adaptive proximal tubule S3 (mid-point)",
+      "cell_type_abbreviation": "aPT-S3",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CDH6",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule S3 (mid-point) (aPT-S3)"
+        },
+        {
+          "marker_symbol": "HAVCR1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule S3 (mid-point) (aPT-S3)"
+        },
+        {
+          "marker_symbol": "SOX4",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive proximal tubule S3 (mid-point) (aPT-S3)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Failed repair proximal tubule S1/S2",
+      "cell_type_abbreviation": "frPT-S1/S2",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "ITGB8",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "CDH6",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "HAVCR1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "SOX4",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "PROM1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "ROBO2",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "MEG3",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        },
+        {
+          "marker_symbol": "SPON1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S1/S2 (frPT-S1/S2)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Failed repair proximal tubule S3",
+      "cell_type_abbreviation": "frPT-S3",
+      "cell_category": "Epithelial / Proximal Tubule",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "ITGB8",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S3 (frPT-S3)"
+        },
+        {
+          "marker_symbol": "SOX4",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S3 (frPT-S3)"
+        },
+        {
+          "marker_symbol": "PROM1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S3 (frPT-S3)"
+        },
+        {
+          "marker_symbol": "ROBO2",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S3 (frPT-S3)"
+        },
+        {
+          "marker_symbol": "MEG3",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S3 (frPT-S3)"
+        },
+        {
+          "marker_symbol": "KITLG",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair proximal tubule S3 (frPT-S3)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Cortical/medullary thick ascending limb subtype A (healthy)",
+      "cell_type_abbreviation": "C/M-TAL-A",
+      "cell_category": "Epithelial / Thick Ascending Limb",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC12A1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype A (healthy) (C/M-TAL-A)"
+        },
+        {
+          "marker_symbol": "EGF",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype A (healthy) (C/M-TAL-A)"
+        },
+        {
+          "marker_symbol": "PHACTR1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype A (healthy) (C/M-TAL-A)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Cortical thick ascending limb subtype A (healthy)",
+      "cell_type_abbreviation": "C-TAL-A",
+      "cell_category": "Epithelial / Thick Ascending Limb",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC12A1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype A (healthy) (C-TAL-A)"
+        },
+        {
+          "marker_symbol": "EGF",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype A (healthy) (C-TAL-A)"
+        },
+        {
+          "marker_symbol": "PHACTR1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype A (healthy) (C-TAL-A)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Cortical/medullary thick ascending limb subtype B (healthy)",
+      "cell_type_abbreviation": "C/M-TAL-B",
+      "cell_category": "Epithelial / Thick Ascending Limb",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC12A1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype B (healthy) (C/M-TAL-B)"
+        },
+        {
+          "marker_symbol": "EGF",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype B (healthy) (C/M-TAL-B)"
+        },
+        {
+          "marker_symbol": "CALCR",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype B (healthy) (C/M-TAL-B)"
+        },
+        {
+          "marker_symbol": "LRMDA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype B (healthy) (C/M-TAL-B)"
+        },
+        {
+          "marker_symbol": "SCN7A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical/medullary thick ascending limb subtype B (healthy) (C/M-TAL-B)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Cortical thick ascending limb subtype B (healthy)",
+      "cell_type_abbreviation": "C-TAL-B",
+      "cell_category": "Epithelial / Thick Ascending Limb",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC12A1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype B (healthy) (C-TAL-B)"
+        },
+        {
+          "marker_symbol": "EGF",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype B (healthy) (C-TAL-B)"
+        },
+        {
+          "marker_symbol": "CALCR",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype B (healthy) (C-TAL-B)"
+        },
+        {
+          "marker_symbol": "LRMDA",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype B (healthy) (C-TAL-B)"
+        },
+        {
+          "marker_symbol": "SCN7A",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Cortical thick ascending limb subtype B (healthy) (C-TAL-B)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Adaptive thick ascending limb state 1 (early repair)",
+      "cell_type_abbreviation": "aTAL1",
+      "cell_category": "Epithelial / Thick Ascending Limb",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC12A1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 1 (early repair) (aTAL1)"
+        },
+        {
+          "marker_symbol": "CREB5",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 1 (early repair) (aTAL1)"
+        },
+        {
+          "marker_symbol": "ITGA3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 1 (early repair) (aTAL1)"
+        },
+        {
+          "marker_symbol": "ITGB6",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 1 (early repair) (aTAL1)"
+        },
+        {
+          "marker_symbol": "NRP1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 1 (early repair) (aTAL1)"
+        },
+        {
+          "marker_symbol": "IL11",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 12",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 1 (early repair) (aTAL1)"
+        },
+        {
+          "marker_symbol": "LIF",
+          "evidence_type": "author_declared",
+          "source_location": "Main text Page 12",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 1 (early repair) (aTAL1)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Adaptive thick ascending limb state 2 (mid-point)",
+      "cell_type_abbreviation": "aTAL2",
+      "cell_category": "Epithelial / Thick Ascending Limb",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC12A1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 2 (mid-point) (aTAL2)"
+        },
+        {
+          "marker_symbol": "ITGA3",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 2 (mid-point) (aTAL2)"
+        },
+        {
+          "marker_symbol": "ITGB6",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 2 (mid-point) (aTAL2)"
+        },
+        {
+          "marker_symbol": "NRP1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Adaptive thick ascending limb state 2 (mid-point) (aTAL2)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Failed repair thick ascending limb",
+      "cell_type_abbreviation": "frTAL",
+      "cell_category": "Epithelial / Thick Ascending Limb",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "SLC12A1",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair thick ascending limb (frTAL)"
+        },
+        {
+          "marker_symbol": "ITGB8",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair thick ascending limb (frTAL)"
+        },
+        {
+          "marker_symbol": "PROM1",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair thick ascending limb (frTAL)"
+        },
+        {
+          "marker_symbol": "TMPRSS4",
+          "evidence_type": "author_declared",
+          "source_location": "Figure 3b, Main text Page 11",
+          "direction": "positive",
+          "notes": "Marker for Failed repair thick ascending limb (frTAL)"
+        },
+        {
+          "marker_symbol": "RHEX",
+          "evidence_type": "figure_supported",
+          "source_location": "Figure 3b",
+          "direction": "positive",
+          "notes": "Marker for Failed repair thick ascending limb (frTAL)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Parietal epithelial cell",
+      "cell_type_abbreviation": "PEC",
+      "cell_category": "Epithelial / Parietal Epithelial",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "CFH",
+          "evidence_type": "author_declared",
+          "source_location": "Methods Page 41",
+          "direction": "positive",
+          "notes": "Marker for Parietal epithelial cell (PEC)"
+        }
+      ]
+    },
+    {
+      "cell_type_name": "Macula densa",
+      "cell_type_abbreviation": "MD",
+      "cell_category": "Epithelial / Macula Densa",
+      "cell_ontology_id": null,
+      "tissue": "Kidney",
+      "species": "Human",
+      "pns_relevance": "Non-PNS",
+      "markers": [
+        {
+          "marker_symbol": "BBOX1",
+          "evidence_type": "author_declared",
+          "source_location": "Methods Page 41",
+          "direction": "positive",
+          "notes": "Marker for Macula densa (MD)"
+        }
+      ]
+    }
+  ]
+}

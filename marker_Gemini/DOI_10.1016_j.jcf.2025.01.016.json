@@ -1,0 +1,139 @@
+{
+  "schema_version": 3,
+  "paper_id": "10.1016/j.jcf.2025.01.016",
+  "title": "Evidence for altered immune-structural cell crosstalk in cystic fibrosis revealed by single cell transcriptomics",
+  "documents_reviewed": [
+    {
+      "file_name": "DOI_10.1016_j.jcf.2025.01.016_Cystic Fibrosis and healthy control biopsy.pdf",
+      "document_role": "primary",
+      "review_status": "complete",
+      "notes": "包含正文、图 1-6、方法及补充材料说明，共 12 页"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "clustering_level": "全局整合聚类与参考映射 (HLCA reference transfer)",
+      "population": "囊性纤维化 (pwCF) 与健康对照 (HC) 支气管隆凸活检细胞 (19,855 cells)",
+      "species": "human",
+      "tissue_condition": "囊性纤维化 (CF, ΔF508突变) 及健康对照气道壁组织",
+      "clusters_reported": 17,
+      "annotation_labels_reported": 17,
+      "author_cell_labels": [
+        "Basal cell (cluster 1)",
+        "Ciliated cell (cluster 2)",
+        "Secretory/Goblet cell (cluster 3)",
+        "Submucosal gland epithelial cell (cluster 4)",
+        "Ionocyte (cluster 5)",
+        "Neuroendocrine cell (cluster 6)",
+        "CD4+ T cell (cluster 7)",
+        "CD8+ T cell (cluster 8)",
+        "B cell (cluster 9)",
+        "Plasma cell (cluster 10)",
+        "Mast cell (cluster 11)",
+        "Dendritic cell (cluster 12)",
+        "Monocyte (cluster 13)",
+        "Macrophage (cluster 14)",
+        "Fibroblast/Stromal (cluster 15)",
+        "Endothelial cell (cluster 16)",
+        "Pericyte/Smooth muscle (cluster 17)",
+        "Neutrophil-like cells (subset in monocyte cluster)"
+      ],
+      "source_locator": "Main Text, Results p. 850-851 (pdf_page 2-3); Fig. 1B-C, Fig. 2A-E",
+      "coverage_notes": "基于人类肺细胞图谱 (HLCA) 模型通过 scArches 进行标签迁移，并手动基于标记基因核验定义 17 个细胞大类及中性粒细胞样亚群"
+    }
+  ],
+  "formal_markers": [
+    {
+      "cell_type": "Neutrophil-like cell",
+      "subtype": "subset within monocyte cluster",
+      "species": "human",
+      "tissue_condition": "囊性纤维化 (pwCF) 下气道壁活检",
+      "gene_original": "FCGR3B",
+      "gene_normalized": "FCGR3B",
+      "normalization_status": "exact",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "document_role": "primary",
+      "pdf_page": 3,
+      "printed_page": 851,
+      "source_locator": "Main Text p. 851, Results; Fig. S1F-G",
+      "source_context": "we did detect a small subset of neutrophil-like cells (defined by high levels of FCGR3B and CSF3R expression) residing within the monocyte cluster, which was largely derived from pwCF (Fig. S1F-G).",
+      "confidence": "high",
+      "notes": "作者明确使用 high levels of FCGR3B and CSF3R 定义中性粒细胞样亚群"
+    },
+    {
+      "cell_type": "Neutrophil-like cell",
+      "subtype": "subset within monocyte cluster",
+      "species": "human",
+      "tissue_condition": "囊性纤维化 (pwCF) 下气道壁活检",
+      "gene_original": "CSF3R",
+      "gene_normalized": "CSF3R",
+      "normalization_status": "exact",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "document_role": "primary",
+      "pdf_page": 3,
+      "printed_page": 851,
+      "source_locator": "Main Text p. 851, Results; Fig. S1F-G",
+      "source_context": "we did detect a small subset of neutrophil-like cells (defined by high levels of FCGR3B and CSF3R expression) residing within the monocyte cluster, which was largely derived from pwCF (Fig. S1F-G).",
+      "confidence": "high",
+      "notes": "作者明确使用 high levels of FCGR3B and CSF3R 定义中性粒细胞样亚群"
+    }
+  ],
+  "context_candidates": [
+    {
+      "cell_type": "Ionocyte",
+      "gene_original": "CFTR",
+      "evidence_type": "cluster_enriched",
+      "source_locator": "Main Text p. 851; Fig. 2C-D",
+      "source_context": "CFTR expression was observed in several epithelial cell clusters, but was highest in pulmonary ionocytes (cluster 5, Fig. 2C) – in line with previous reports [12,31,32].",
+      "reason_not_formal": "作者报告离子细胞中 CFTR 表达最高以验证生物学功能，但并非本文定义的细胞注释 Marker"
+    },
+    {
+      "cell_type": "17 HLCA-annotated cell types",
+      "gene_original": "Fig. 1C panel genes",
+      "evidence_type": "reference_imported",
+      "source_locator": "Main Text p. 850; Fig. 1C",
+      "source_context": "validated by the expression of known cell-type specific markers (Fig. 1C).",
+      "reason_not_formal": "17 个主细胞类型注释来源于 scArches 迁移外部 HLCA 标签，图 1C 展示已知经典 marker 表达谱作验证，正文未单独建立新的作者声明关系"
+    }
+  ],
+  "unresolved": [
+    {
+      "cell_type": "CD8+ T cell",
+      "gene_original": null,
+      "source_locator": "Section 4.4 p. 858",
+      "source_context": "one population labeled 'unknown' was manually annotated as CD8+ T cells based on marker gene expression and proximity on the UMAP.",
+      "reason": "方法学中说明根据 marker gene 手工将 unknown 群重注释为 CD8+ T cell，但正文未列出具体基因符号"
+    }
+  ],
+  "coverage_summary": {
+    "all_main_text_checked": true,
+    "all_figure_legends_checked": true,
+    "all_tables_checked": true,
+    "supplement_checked": false,
+    "extended_data_checked": true,
+    "reported_cell_labels_without_formal_markers": [
+      "Basal cell",
+      "Ciliated cell",
+      "Secretory/Goblet cell",
+      "Submucosal gland epithelial cell",
+      "Ionocyte",
+      "Neuroendocrine cell",
+      "CD4+ T cell",
+      "CD8+ T cell",
+      "B cell",
+      "Plasma cell",
+      "Mast cell",
+      "Dendritic cell",
+      "Monocyte",
+      "Macrophage",
+      "Fibroblast/Stromal",
+      "Endothelial cell",
+      "Pericyte/Smooth muscle"
+    ],
+    "missing_or_unavailable_materials": [],
+    "possible_output_truncation": false,
+    "completion_notes": "本文核心细胞注释采用外部 HLCA 参考图谱标签迁移，正文中由作者明确定义并建立正式 Marker 语义的仅有中性粒细胞样细胞 (FCGR3B, CSF3R)。"
+  }
+}

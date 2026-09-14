@@ -1,0 +1,477 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41467-021-21783-3",
+  "doi": "10.1038/s41467-021-21783-3",
+  "pmid": "33686070",
+  "title": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Communications 全文（14页），包含 Figures 1-5、详细图注与 Methods 说明"
+    },
+    {
+      "material_name": "DOI_10.1038_s41467-021-21783-3.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 Brca1/p53 突变小鼠模型时间轴单细胞分析及管腔祖细胞异常腺泡分化机制"
+    },
+    {
+      "material_name": "Supplementary Figures 1-9 & Supplementary Tables",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Figures 1-9 门控与差异表达的描述已审阅，外部独立大文件表格未在本地提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Aberrant_Alveolar_Differentiated",
+      "cluster_name": "Aberrant alveolar differentiated luminal cells (Avd)",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "four_layer_category": "outside",
+      "description": "在 Brca1/p53 突变癌前进展阶段（Stage 4）大量蓄积的异常腺泡分化管腔细胞，高表达乳蛋白基因 Csn2、Wap 与转录因子 Elf5"
+    },
+    {
+      "cluster_id": "Cluster_Luminal_Progenitor",
+      "cluster_name": "Luminal progenitor cells (LP)",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "four_layer_category": "outside",
+      "description": "乳腺管腔祖细胞，为 BRCA1 突变三阴性乳腺癌的起源细胞，特征性表达 Kit (CD117)、Cd14 与转录因子 Elf5"
+    },
+    {
+      "cluster_id": "Cluster_Hormone_Sensing_Luminal",
+      "cluster_name": "Hormone-sensing mature luminal cells (HS / ML)",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "four_layer_category": "outside",
+      "description": "成熟激素感知型乳腺管腔上皮细胞，特异性分泌旁分泌因子 Tnfsf11 (Rankl) 与 Igf2，响应并传导全身激素信号"
+    },
+    {
+      "cluster_id": "Cluster_Basal_Myoepithelial",
+      "cluster_name": "Basal / Myoepithelial cells",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "four_layer_category": "outside",
+      "description": "乳腺基底肌上皮细胞，特征性高表达细胞角蛋白 Krt14、Krt5 以及收缩蛋白 Acta2 (SMA)"
+    },
+    {
+      "cluster_id": "Cluster_Mammary_Fibroblasts",
+      "cluster_name": "Mammary stromal fibroblasts",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland (stroma)",
+      "four_layer_category": "outside",
+      "description": "乳腺间质成纤维细胞，特征性高表达胶原基因 Col1a1 与受体 Pdgfra"
+    },
+    {
+      "cluster_id": "Cluster_Mammary_Macrophages",
+      "cluster_name": "Mammary macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland (immune)",
+      "four_layer_category": "outside",
+      "description": "乳腺微环境常驻巨噬细胞，高表达 Adgre1 (F4/80) 与 Cd68"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01",
+      "marker": "Csn2",
+      "marker_original": "Csn2",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Aberrant Alveolar Differentiated Luminal Cell",
+      "cell_type_original": "Avd cluster (alveolar differentiated)",
+      "author_cluster_id": "Cluster_Aberrant_Alveolar_Differentiated",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "scRNA-seq of Blg-Cre; Brca1f/f; p53+/- mouse model across premalignant stages",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Beta-casein transcript and protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-4, Fig. 2c, Fig. 2f, Fig. 4c",
+      "source_context": "marked by expression of various milk proteins... Gene expression of various lineage-markers for the Avd cluster... Csn2",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2c, Fig. 2f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Csn2 identified as hallmark milk protein gene marking aberrant alveolar differentiated cells in premalignant lesions",
+          "mapping_basis": "scRNA-seq cluster marker and immunofluorescence validation"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Hallmark milk protein gene defining hormone-independent alveolar differentiation program in premalignant luminal cells",
+      "decision_reason": "Direct author declared and histologically validated marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M02",
+      "marker": "Wap",
+      "marker_original": "Wap",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Aberrant Alveolar Differentiated Luminal Cell",
+      "cell_type_original": "Avd cluster (alveolar differentiated)",
+      "author_cluster_id": "Cluster_Aberrant_Alveolar_Differentiated",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "scRNA-seq differential gene expression of mammary epithelial stages",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Whey acidic protein transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 2c, Fig. 4c",
+      "source_context": "and the alveolar markers Csn2 and Wap in luminal progenitors and alveolar cells",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Wap expression strongly upregulated in the aberrant alveolar cluster",
+          "mapping_basis": "Lineage marker expression profile"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Whey acidic protein, characteristic lactation-associated alveolar differentiation marker",
+      "decision_reason": "Author declared alveolar differentiation marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M03",
+      "marker": "Elf5",
+      "marker_original": "Elf5",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Luminal Progenitor Cell",
+      "cell_type_original": "luminal progenitor cells",
+      "author_cluster_id": "Cluster_Luminal_Progenitor",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "scRNA-seq and ATAC-seq TF motif enrichment",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "ETS-related transcription factor Elf5 transcript and nuclear protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-4, Fig. 2c-d",
+      "source_context": "alveologenesis... accompanied by the expression of the transcription factor Elf5",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2c, d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Elf5 is the master transcription factor driving alveologenesis in luminal progenitors",
+          "mapping_basis": "scRNA-seq and lineage TF regulon"
+        }
+      ],
+      "validation_method": "scRNA-seq / scATAC-seq / immunofluorescence",
+      "gate_definition": null,
+      "notes": "Master transcription factor governing luminal progenitor fate and alveolar specification",
+      "decision_reason": "Lineage master regulator defining luminal progenitor state"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M04",
+      "marker": "Kit",
+      "marker_original": "Kit (CD117)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Luminal Progenitor Cell",
+      "cell_type_original": "luminal progenitors",
+      "author_cluster_id": "Cluster_Luminal_Progenitor",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "FACS prospective gating and scRNA-seq mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Receptor tyrosine kinase c-Kit surface protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods, Supplementary Figs. 8-9",
+      "source_context": "luminal progenitors were prospective isolated using CD49b and Kit (CD117) gating",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Supplementary Figs. 8-9",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "FACS gating strategy using Kit to prospectively isolate mammary luminal progenitor fraction",
+          "mapping_basis": "Flow cytometry sorting and cluster mapping"
+        }
+      ],
+      "validation_method": "flow cytometry",
+      "gate_definition": "EpCAM+ CD49f+ CD49b+ Kit+",
+      "notes": "Definitive prospective cell surface marker distinguishing luminal progenitors from mature luminal cells",
+      "decision_reason": "Prospective isolation marker defining luminal progenitor identity"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M05",
+      "marker": "Tnfsf11",
+      "marker_original": "Tnfsf11 (Rankl)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Hormone-Sensing Mature Luminal Cell",
+      "cell_type_original": "hormone-sensing cells",
+      "author_cluster_id": "Cluster_Hormone_Sensing_Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "scRNA-seq and CellPhoneDB ligand-receptor interaction modeling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Tumor necrosis factor superfamily member 11 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 3e, Fig. 4b-c",
+      "source_context": "release paracrine signalling factors such as Rankl (also known as Tnfsf11) and Igf2 to orchestrate the development of the alveolar compartment",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 3e, Fig. 4b-c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Rankl is specifically expressed in hormone-sensing mature luminal cells acting on Rank in progenitors",
+          "mapping_basis": "Paracrine ligand expression and cell-cell interaction"
+        }
+      ],
+      "validation_method": "scRNA-seq / ligand-receptor analysis",
+      "gate_definition": null,
+      "notes": "Paracrine factor produced by hormone-sensing luminal cells to drive alveologenesis",
+      "decision_reason": "Hallmark functional paracrine marker of hormone-sensing cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M06",
+      "marker": "Igf2",
+      "marker_original": "Igf2",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Hormone-Sensing Mature Luminal Cell",
+      "cell_type_original": "hormone-sensing cells",
+      "author_cluster_id": "Cluster_Hormone_Sensing_Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "scRNA-seq cell-cell communication networks",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Insulin-like growth factor 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 3e, Fig. 4b-c",
+      "source_context": "Gene expression for the paracrine signalling factors Rankl and Igf2 in hormone-sensing cells",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 4b-c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Igf2 expressed by hormone-sensing cells acting on Igf2r in progenitors and alveolar cells",
+          "mapping_basis": "scRNA-seq paracrine interaction"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Co-expressed paracrine ligand in mature hormone-responsive luminal cells",
+      "decision_reason": "Author declared paracrine factor characterizing mature luminal cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M07",
+      "marker": "Acta2",
+      "marker_original": "Acta2 (SMA)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Basal / Myoepithelial Cell",
+      "cell_type_original": "basal/myoepithelial cells",
+      "author_cluster_id": "Cluster_Basal_Myoepithelial",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "scRNA-seq epithelial cluster assignment and histology",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Alpha-smooth muscle actin transcript and filament protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 2, Fig. 1b, Supplementary Fig. 1c",
+      "source_context": "Basal myoepithelial cells were identified based on canonical contractile marker expression including Acta2 and Myl9",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Acta2 marks the basal myoepithelial lineage encircling mammary ducts",
+          "mapping_basis": "scRNA-seq basal cluster identification"
+        }
+      ],
+      "validation_method": "scRNA-seq / histology",
+      "gate_definition": null,
+      "notes": "Canonical contractile protein specifically marking the myoepithelial compartment",
+      "decision_reason": "Canonical basal myoepithelial marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M08",
+      "marker": "Krt14",
+      "marker_original": "Krt14",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Basal / Myoepithelial Cell",
+      "cell_type_original": "basal cells",
+      "author_cluster_id": "Cluster_Basal_Myoepithelial",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "scRNA-seq basal lineage identification",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 14 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 2, Fig. 1b",
+      "source_context": "Basal epithelial cluster annotated by expression of Krt14 and Krt5",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Krt14 serves as standard cytokeratin marker defining mammary basal cells",
+          "mapping_basis": "scRNA-seq lineage marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Hallmark basal epithelial cytokeratin in mammary gland",
+      "decision_reason": "Canonical lineage cytokeratin marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M09",
+      "marker": "Col1a1",
+      "marker_original": "Col1a1",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Mammary Stromal Fibroblast",
+      "cell_type_original": "fibroblasts",
+      "author_cluster_id": "Cluster_Mammary_Fibroblasts",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland (stroma)",
+      "experimental_context": "scRNA-seq stromal compartment profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type I alpha 1 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 2-3, Fig. 1b",
+      "source_context": "We noted a general decrease in various populations of fibroblasts annotated by Col1a1 and Pdgfra",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Col1a1 defines the stromal fibroblast cluster in mammary microenvironment",
+          "mapping_basis": "scRNA-seq stromal cluster"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Major structural collagen defining interstitial stromal fibroblasts",
+      "decision_reason": "Stromal fibroblast cluster annotation marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M10",
+      "marker": "Adgre1",
+      "marker_original": "Adgre1 (F4/80)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Mammary Macrophage",
+      "cell_type_original": "macrophages",
+      "author_cluster_id": "Cluster_Mammary_Macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland (immune)",
+      "experimental_context": "scRNA-seq immune microenvironment analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Adhesion G-protein coupled receptor E1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 2-4, Fig. 1b, Fig. 4a",
+      "source_context": "Immune compartment was resolved into myeloid cells including macrophages (Adgre1+, Cd68+) and T cells",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Adgre1 specifically identifies resident macrophage populations in mammary stroma",
+          "mapping_basis": "scRNA-seq myeloid annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "F4/80 antigen, definitive myeloid lineage marker of mouse macrophages",
+      "decision_reason": "Myeloid cluster annotation marker"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_C01",
+      "marker": "Epcam",
+      "marker_original": "EpCAM (CD326)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Mammary Epithelial Cell",
+      "cell_type_original": "mammary epithelium",
+      "author_cluster_id": "Cluster_Luminal_Progenitor",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland",
+      "experimental_context": "FACS prospective gating prior to sorting",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "EpCAM cell surface glycoprotein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods, Supplementary Fig. 8",
+      "source_context": "EpCAM+ cells were gated to separate epithelial cells from stromal and immune lineages",
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Supplementary Fig. 8",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "EpCAM used as general pan-epithelial gating handle",
+          "mapping_basis": "Pan-epithelial FACS gate"
+        }
+      ],
+      "validation_method": "flow cytometry",
+      "gate_definition": "EpCAM+",
+      "notes": "Broad epithelial gating marker rather than a subpopulation-specific marker",
+      "decision_reason": "Pan-epithelial sorting gate"
+    }
+  ],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 1,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Communications article (14 pages including main text Figures 1-5, Methods, and accompanying figure legends).",
+    "missing_materials": "External Supplementary Tables (large cell-gene expression spreadsheets) not locally provided.",
+    "potential_leakage_scope": "CellPhoneDB ligand-receptor interactome pairs and differential chromatin accessibility peaks from ATAC-seq."
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41591-023-02327-2",
+  "doi": "10.1038/s41591-023-02327-2",
+  "pmid": "37291214",
+  "title": "An integrated cell atlas of the lung in health and disease",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Medicine 2023 原文（34页含 Extended Data），包含 49 个数据集、240 万细胞的人类肺综合图谱 HLCA 核心架构、分层重新注释及图表"
+    },
+    {
+      "material_name": "DOI_10.1038_s41591-023-02327-2.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 61 种肺细胞类型共识定义、罕见上皮细胞（神经内分泌、离子细胞、簇细胞）及基质/免疫亚群标记"
+    },
+    {
+      "material_name": "Supplementary Information & Supplementary Tables 1-13",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Tables 1-13（包含 HLCA 核心细胞类型 marker 表）的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Neuroendocrine_Cells",
+      "cluster_name": "Airway neuroendocrine cells",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "four_layer_category": "L4",
+      "description": "呼吸道罕见感觉/神经分泌上皮细胞，特征性高表达降钙素基因相关肽标志物 CALCA"
+    },
+    {
+      "cluster_id": "Cluster_Ionocytes",
+      "cluster_name": "Ionocytes",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "four_layer_category": "outside",
+      "description": "呼吸道离子转运细胞，特异表达叉头框转录因子 FOXI1 与 CFTR"
+    },
+    {
+      "cluster_id": "Cluster_Tuft_Cells",
+      "cluster_name": "Tuft cells (Brush cells)",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "four_layer_category": "outside",
+      "description": "呼吸道化学感应刷状上皮细胞，特异表达淋巴样限制性膜蛋白 LRMP"
+    },
+    {
+      "cluster_id": "Cluster_Migratory_DC",
+      "cluster_name": "Migratory dendritic cells",
+      "species": "human",
+      "organ_or_tissue": "lung immune compartment",
+      "four_layer_category": "outside",
+      "description": "迁移性树突状细胞亚群，特征性共表达 CCR7、CCL19 与 LAD1"
+    },
+    {
+      "cluster_id": "Cluster_FAM83D_Smooth_Muscle",
+      "cluster_name": "FAM83D+ smooth muscle cells",
+      "species": "human",
+      "organ_or_tissue": "airway / vascular smooth muscle",
+      "four_layer_category": "L3",
+      "description": "HLCA 发现的新型平滑肌细胞亚群，特异高表达 FAM83D"
+    },
+    {
+      "cluster_id": "Cluster_SPP1_Macrophages",
+      "cluster_name": "SPP1+ profibrotic monocyte-derived macrophages",
+      "species": "human",
+      "organ_or_tissue": "lung immune compartment",
+      "four_layer_category": "outside",
+      "description": "在 COVID-19、特发性肺纤维化及肺癌中跨疾病保守出现的致纤维化巨噬细胞，高表达 SPP1"
+    },
+    {
+      "cluster_id": "Cluster_Proliferating_Cells",
+      "cluster_name": "Proliferating cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "处于细胞周期活跃分裂状态的细胞群体，特征性表达增殖标志物 MKI67"
+    },
+    {
+      "cluster_id": "Cluster_Pre_TB_Secretory",
+      "cluster_name": "Pre-terminal bronchiole secretory cells",
+      "species": "human",
+      "organ_or_tissue": "distal airway epithelium",
+      "four_layer_category": "outside",
+      "description": "终末细支气管上皮特异分泌细胞，特异富集表达 SCGB3A2"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M01",
+      "marker": "CALCA",
+      "marker_original": "CALCA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Neuroendocrine cell",
+      "cell_type_original": "neuroendocrine cells",
+      "author_cluster_id": "Cluster_Neuroendocrine_Cells",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "experimental_context": "Integrated HLCA core across 2.4 million cells from 486 donors",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Calcitonin related polypeptide alpha transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 1566-1567, Fig. 3f",
+      "source_context": "UMAP of HLCA clusters annotated as rare epithelial cell types (ionocytes, neuroendocrine cells and tuft cells)... expression of neuroendocrine marker CALCA (bottom).",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 5,
+          "printed_page": 1567,
+          "figure_panel": "Fig. 3f",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CALCA specifically shown on UMAP feature plot defining neuroendocrine cells",
+          "mapping_basis": "Figure feature plot annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-study consensus feature plot",
+      "gate_definition": null,
+      "notes": "Classic airway pulmonary neuroendocrine cell peptide hormone precursor",
+      "decision_reason": "High-confidence L4 neuroendocrine defining marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M02",
+      "marker": "FOXI1",
+      "marker_original": "FOXI1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Ionocyte",
+      "cell_type_original": "ionocytes",
+      "author_cluster_id": "Cluster_Ionocytes",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "experimental_context": "Integrated HLCA reference atlas",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Forkhead box I1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1567, Fig. 3f",
+      "source_context": "expression of ionocyte marker FOXI1, tuft cell marker LRMP and neuroendocrine marker CALCA",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 5,
+          "printed_page": 1567,
+          "figure_panel": "Fig. 3f",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "FOXI1 specifically defines pulmonary ionocytes in Fig. 3f",
+          "mapping_basis": "Figure feature plot annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-study consensus feature plot",
+      "gate_definition": null,
+      "notes": "Master transcription factor required for CFTR-rich pulmonary ionocyte differentiation",
+      "decision_reason": "Direct visual feature plot evidence defining ionocytes"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M03",
+      "marker": "LRMP",
+      "marker_original": "LRMP",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Tuft cell",
+      "cell_type_original": "tuft cells",
+      "author_cluster_id": "Cluster_Tuft_Cells",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "experimental_context": "Integrated HLCA reference atlas",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Lymphoid restricted membrane protein transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1567, Fig. 3f",
+      "source_context": "expression of ionocyte marker FOXI1, tuft cell marker LRMP and neuroendocrine marker CALCA",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 5,
+          "printed_page": 1567,
+          "figure_panel": "Fig. 3f",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "LRMP specifically defines pulmonary tuft/brush cells in Fig. 3f",
+          "mapping_basis": "Figure feature plot annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-study consensus feature plot",
+      "gate_definition": null,
+      "notes": "Specific marker for airway chemosensory tuft cells involved in sweet/bitter sensing",
+      "decision_reason": "Direct visual feature plot evidence defining tuft cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M04",
+      "marker": "CCR7",
+      "marker_original": "CCR7",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Migratory dendritic cell",
+      "cell_type_original": "migratory dendritic cells",
+      "author_cluster_id": "Cluster_Migratory_DC",
+      "species": "human",
+      "organ_or_tissue": "lung immune compartment",
+      "experimental_context": "scRNA-seq integration of human lung immune subsets",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "C-C motif chemokine receptor 7 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1567, Fig. 3g, Extended Data Fig. 4a-c",
+      "source_context": "Log-normalized expression of the migratory dendritic cell marker CCR7 in cells identified during re-annotation as migratory dendritic cells, versus other dendritic cells.",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 5,
+          "printed_page": 1567,
+          "figure_panel": "Fig. 3g",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CCR7 distinguishes migratory DCs from all other DC subtypes",
+          "mapping_basis": "Figure violin/feature plot annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq differential expression & violin plot",
+      "gate_definition": null,
+      "notes": "Homing receptor directing dendritic cell migration into draining lymphatics",
+      "decision_reason": "Direct statistical and visual evidence identifying migratory DCs"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M05",
+      "marker": "CCL19",
+      "marker_original": "CCL19",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Migratory dendritic cell",
+      "cell_type_original": "migratory dendritic cells",
+      "author_cluster_id": "Cluster_Migratory_DC",
+      "species": "human",
+      "organ_or_tissue": "lung immune compartment",
+      "experimental_context": "scRNA-seq across 10 out of 11 independent datasets",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "C-C motif chemokine ligand 19 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Extended Data Fig. 4a-c",
+      "source_context": "expression of three migratory DC marker genes (right, CCR7, LAD1, and CCL19)",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 18,
+          "printed_page": 1580,
+          "figure_panel": "Extended Data Fig. 4a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "three migratory DC marker genes (CCR7, LAD1, and CCL19)",
+          "mapping_basis": "Figure caption text and feature plot"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-study violin and UMAP validation",
+      "gate_definition": null,
+      "notes": "Chemokine autocrine marker of mature activated migratory DCs",
+      "decision_reason": "Author declared consensus marker gene across 10 studies"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M06",
+      "marker": "LAD1",
+      "marker_original": "LAD1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Migratory dendritic cell",
+      "cell_type_original": "migratory dendritic cells",
+      "author_cluster_id": "Cluster_Migratory_DC",
+      "species": "human",
+      "organ_or_tissue": "lung immune compartment",
+      "experimental_context": "scRNA-seq across 10 out of 11 independent datasets",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Ladinin 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Extended Data Fig. 4a-c",
+      "source_context": "expression of three migratory DC marker genes (right, CCR7, LAD1, and CCL19)",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 18,
+          "printed_page": 1580,
+          "figure_panel": "Extended Data Fig. 4a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "three migratory DC marker genes (CCR7, LAD1, and CCL19)",
+          "mapping_basis": "Figure caption text and feature plot"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-study violin and UMAP validation",
+      "gate_definition": null,
+      "notes": "Novel anchor filament component enriched in migratory DC subsets",
+      "decision_reason": "Author declared consensus marker gene across 10 studies"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M07",
+      "marker": "FAM83D",
+      "marker_original": "FAM83D",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Smooth muscle cell",
+      "cell_type_original": "smooth muscle FAM83D+",
+      "author_cluster_id": "Cluster_FAM83D_Smooth_Muscle",
+      "species": "human",
+      "organ_or_tissue": "airway / vascular smooth muscle",
+      "experimental_context": "scRNA-seq stromal compartment integration across 8 studies",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "Family with sequence similarity 83 member D transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Extended Data Fig. 4e, f",
+      "source_context": "Expression of markers for a novel stromal cell type ('smooth muscle FAM83D+', found in 8 out of 11 studies), including three general smooth muscle marker genes and one marker gene uniquely expressed in FAM83D+ smooth muscle cells (FAM83D)",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 18,
+          "printed_page": 1580,
+          "figure_panel": "Extended Data Fig. 4e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "one marker gene uniquely expressed in FAM83D+ smooth muscle cells (FAM83D)",
+          "mapping_basis": "Novel cell type defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq cross-study stromal subclustering",
+      "gate_definition": null,
+      "notes": "Novel smooth muscle subpopulation identified reproducibly in 8 studies",
+      "decision_reason": "Uniquely defines the newly identified FAM83D+ smooth muscle subset (L3)"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M08",
+      "marker": "SPP1",
+      "marker_original": "SPP1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Monocyte-derived macrophage",
+      "cell_type_original": "SPP1+ profibrotic monocyte-derived macrophages",
+      "author_cluster_id": "Cluster_SPP1_Macrophages",
+      "species": "human",
+      "organ_or_tissue": "lung immune compartment",
+      "experimental_context": "scRNA-seq across COVID-19, pulmonary fibrosis and lung carcinoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secreted phosphoprotein 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Abstract p. 1563, Fig. 5",
+      "source_context": "we identify shared cell states across multiple lung diseases, including SPP1+ profibrotic monocyte-derived macrophages in COVID-19, pulmonary fibrosis and lung carcinoma.",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 1,
+          "printed_page": 1563,
+          "figure_panel": "Fig. 5",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SPP1+ profibrotic monocyte-derived macrophages in COVID-19, pulmonary fibrosis and lung carcinoma",
+          "mapping_basis": "Cross-disease conserved cell state marker"
+        }
+      ],
+      "validation_method": "scRNA-seq multi-disease comparative mapping",
+      "gate_definition": null,
+      "notes": "Hallmark fibrotic macrophage state identified across diverse lung disease etiologies",
+      "decision_reason": "Author declared cross-disease conserved cell state marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M09",
+      "marker": "MKI67",
+      "marker_original": "MKI67",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Proliferating cell",
+      "cell_type_original": "proliferating cells",
+      "author_cluster_id": "Cluster_Proliferating_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "HLCA core cell type composition evaluation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Marker of proliferation Ki-67 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Extended Data Fig. 2c",
+      "source_context": "Percentage of cells with at least one UMI count for MKI67, a marker gene of proliferating cells, shown per cell type.",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 16,
+          "printed_page": 1578,
+          "figure_panel": "Extended Data Fig. 2c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "MKI67, a marker gene of proliferating cells",
+          "mapping_basis": "Figure caption definition"
+        }
+      ],
+      "validation_method": "scRNA-seq cell cycle gating",
+      "gate_definition": "MKI67 > 0 UMI count",
+      "notes": "Canonical cell-cycle proliferation marker utilized across all HLCA lineages",
+      "decision_reason": "Explicit author declaration defining the proliferating state"
+    },
+    {
+      "record_id": "DOI_10.1038_s41591-023-02327-2_M10",
+      "marker": "SCGB3A2",
+      "marker_original": "SCGB3A2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Secretory cell",
+      "cell_type_original": "pre-TB secretory cells",
+      "author_cluster_id": "Cluster_Pre_TB_Secretory",
+      "species": "human",
+      "organ_or_tissue": "distal airway epithelium",
+      "experimental_context": "HLCA proximal-to-distal airway axis analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secretoglobin family 3A member 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1568, Extended Data Fig. 4d",
+      "source_context": "pre-TB secretory cells, found in 11 out of 11 studies... SCGB3A2+, SFTPClow and SCGB3A1high",
+      "sources": [
+        {
+          "file": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+          "pdf_page": 6,
+          "printed_page": 1568,
+          "figure_panel": "Extended Data Fig. 4d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SCGB3A2+, SFTPClow and SCGB3A1high defining pre-terminal bronchiole secretory cells",
+          "mapping_basis": "Anatomical axis cell state marker"
+        }
+      ],
+      "validation_method": "scRNA-seq spatial axis gradient analysis",
+      "gate_definition": "SCGB3A2+ SFTPC-low SCGB3A1-high",
+      "notes": "Distal airway secretoglobin marking junctional pre-terminal bronchiole epithelium",
+      "decision_reason": "Anatomically mapped marker combination identifying novel distal secretory cells"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Medicine Resource article (34 pages including main text Figures 1-6, Extended Data Figures 1-10, and consensus re-annotation tables).",
+    "missing_materials": "External Supplementary Tables 1-13 (full cross-study cluster statistics) not locally provided.",
+    "potential_leakage_scope": "scANVI integrated latent space embeddings and cross-dataset transfer uncertainty matrices."
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "review_id": "REV_ELIFE_01_RIMS2",
+    "source_id": "DOI_10.7554_elife.62522_M06",
+    "source_gene": "WNT7A",
+    "current_gene": "RIMS2",
+    "source_cell": "alveolar type 1 cell",
+    "current_cell": "Pulmonary neuroendocrine cell"
+  },
+  {
+    "review_id": "REV_ELIFE_02_CALCA",
+    "source_id": "DOI_10.7554_elife.62522_M07",
+    "source_gene": "TEKT4",
+    "current_gene": "CALCA",
+    "source_cell": "ciliated cell",
+    "current_cell": "Pulmonary neuroendocrine cell"
+  },
+  {
+    "review_id": "REV_ELIFE_03_CHGA",
+    "source_id": "DOI_10.7554_elife.62522_M08",
+    "source_gene": "MYB",
+    "current_gene": "CHGA",
+    "source_cell": "ciliated cell",
+    "current_cell": "Pulmonary neuroendocrine cell"
+  },
+  {
+    "review_id": "REV_ELIFE_04_LAMC3",
+    "source_id": "DOI_10.7554_elife.62522_M12",
+    "source_gene": "MUC5B",
+    "current_gene": "LAMC3",
+    "source_cell": "goblet cell",
+    "current_cell": "Pericyte (claimed in repair)"
+  },
+  {
+    "review_id": "REV_ELIFE_05_FCN1",
+    "source_id": "DOI_10.7554_elife.62522_M16",
+    "source_gene": "TCF21",
+    "current_gene": "FCN1",
+    "source_cell": "matrix fibroblast",
+    "current_cell": "Interstitial macrophage (claimed in repair)"
+  },
+  {
+    "review_id": "REV_IPAIN_01_Cd86",
+    "source_id": "DOI_10.1038_s41467-024-52052-8_M07",
+    "source_gene": "Rbfox3",
+    "current_gene": "Cd86",
+    "source_cell": "sensory neuron",
+    "current_cell": "Macrophage"
+  },
+  {
+    "review_id": "REV_IPAIN_03_Calca",
+    "source_id": "DOI_10.1038_s41467-024-52052-8_M02",
+    "source_gene": "Th",
+    "current_gene": "Calca",
+    "source_cell": "C-low threshold mechanoreceptor",
+    "current_cell": "Peptidergic Nociceptor"
+  },
+  {
+    "review_id": "REV_IPAIN_04_Mrgprd",
+    "source_id": "DOI_10.1038_s41467-024-52052-8_M03",
+    "source_gene": "Nefh",
+    "current_gene": "Mrgprd",
+    "source_cell": "A-fiber mechanoreceptor",
+    "current_cell": "Non-Peptidergic Nociceptor"
+  },
+  {
+    "review_id": "REV_IPAIN_05_Piezo2",
+    "source_id": "DOI_10.1038_s41467-024-52052-8_M04",
+    "source_gene": "Sst",
+    "current_gene": "Piezo2",
+    "source_cell": "somatosensory neuron",
+    "current_cell": "C-Low Threshold Mechanoreceptor"
+  },
+  {
+    "review_id": "REV_BLADDER_01_NRXN1",
+    "source_id": "DOI_10.1016_j.isci.2024.111628_M02",
+    "source_gene": "XKR4",
+    "current_gene": "NRXN1",
+    "source_cell": "Schwann cell",
+    "current_cell": "Schwann cell"
+  }
+]

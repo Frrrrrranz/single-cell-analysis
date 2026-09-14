@@ -1,0 +1,942 @@
+{
+  "schema_version": "3.0",
+  "paper_id": "DOI_10.7554_elife.62522",
+  "doi": "10.7554/eLife.62522",
+  "title": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV-2 host genes",
+  "materials_reviewed": [
+    {
+      "material_name": "Main Text (Full Article PDF)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "全文共 28 页，完整查阅 Introduction, Results, Discussion 及 Methods。"
+    },
+    {
+      "material_name": "Figure 1 (Panels A, B, C, D)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "高分辨率图放大肉眼复核：Fig. 1B (snATAC 19群基因可及性点图) 与 Fig. 1D (snRNA 31群基因表达点图)。"
+    },
+    {
+      "material_name": "Figure 2 (Panels A-E)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅候选 SARS-CoV-2 进入受体表达，确认为宿主受体分析而非细胞身份 marker。"
+    },
+    {
+      "material_name": "Figure 3 & Figure 4",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅 AT2 细胞衰老与 TMPRSS2 表达调控，确认为功能调控机制。"
+    },
+    {
+      "material_name": "Figure 1-figure supplement 1 & 2",
+      "status": "missing",
+      "historical_status": "missing",
+      "notes": "PDF 原文未随附在线扩展补充图（需在线获取）。"
+    },
+    {
+      "material_name": "Supplementary files 1-7",
+      "status": "missing",
+      "historical_status": "missing",
+      "notes": "在线补充 Excel 数据大表，本地目录未随附。"
+    }
+  ],
+  "cluster_inventory": [
+    { "author_cluster_id": "PNEC", "cluster_name": "Pulmonary neuroendocrine cells", "lineage": "Epithelial", "four_layer_category": "L4" },
+    { "author_cluster_id": "AT1", "cluster_name": "Alveolar type 1 cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "AT2", "cluster_name": "Alveolar type 2 cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Basal", "cluster_name": "Basal cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Club", "cluster_name": "Club cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Ciliated", "cluster_name": "Ciliated cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Goblet", "cluster_name": "Goblet cells", "lineage": "Epithelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Chondro", "cluster_name": "Chondrocytes", "lineage": "Mesenchymal", "four_layer_category": "outside" },
+    { "author_cluster_id": "Pericyte", "cluster_name": "Pericytes", "lineage": "Mesenchymal", "four_layer_category": "outside" },
+    { "author_cluster_id": "Vasc_Sm", "cluster_name": "Vascular smooth muscle cells", "lineage": "Mesenchymal", "four_layer_category": "outside" },
+    { "author_cluster_id": "Airway_Sm", "cluster_name": "Airway smooth muscle cells", "lineage": "Mesenchymal", "four_layer_category": "outside" },
+    { "author_cluster_id": "Myofib", "cluster_name": "Myofibroblasts", "lineage": "Mesenchymal", "four_layer_category": "outside" },
+    { "author_cluster_id": "Matrix_fib_1", "cluster_name": "Matrix fibroblasts 1", "lineage": "Mesenchymal", "four_layer_category": "outside" },
+    { "author_cluster_id": "Matrix_fib_2", "cluster_name": "Matrix fibroblasts 2", "lineage": "Mesenchymal", "four_layer_category": "outside" },
+    { "author_cluster_id": "Arteries", "cluster_name": "Arterial endothelial cells", "lineage": "Endothelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Veins", "cluster_name": "Venous endothelial cells", "lineage": "Endothelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Cap1", "cluster_name": "Capillary 1 endothelial cells", "lineage": "Endothelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Cap2", "cluster_name": "Capillary 2 endothelial cells", "lineage": "Endothelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Lymphatics", "cluster_name": "Lymphatic endothelial cells", "lineage": "Endothelial", "four_layer_category": "outside" },
+    { "author_cluster_id": "Alv_macro", "cluster_name": "Alveolar macrophages", "lineage": "Hematopoietic", "four_layer_category": "outside" },
+    { "author_cluster_id": "Inter_macro", "cluster_name": "Interstitial macrophages", "lineage": "Hematopoietic", "four_layer_category": "outside" },
+    { "author_cluster_id": "Mast_cells", "cluster_name": "Mast cells", "lineage": "Hematopoietic", "four_layer_category": "outside" },
+    { "author_cluster_id": "T_cells", "cluster_name": "T cells", "lineage": "Hematopoietic", "four_layer_category": "outside" },
+    { "author_cluster_id": "NK_cells", "cluster_name": "NK cells", "lineage": "Hematopoietic", "four_layer_category": "outside" },
+    { "author_cluster_id": "B_cells", "cluster_name": "B cells", "lineage": "Hematopoietic", "four_layer_category": "outside" }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.7554_elife.62522_M01",
+      "marker": "ASCL1",
+      "marker_original": "ASCL1",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "pulmonary neuroendocrine cell",
+      "cell_type_original": "PNECs",
+      "author_cluster_id": "PNEC",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan (premature born to 30 yo)",
+      "four_layer_category": "L4",
+      "measurement_type": "chromatin accessibility",
+      "entity_detail": "nuclear chromatin accessibility at promoter/gene locus",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1B",
+      "source_context": "Dot plot of marker genes from snATAC-seq used for cluster annotation: PNECs exhibit prominent chromatin accessibility at ASCL1.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel B shows high normalized gene accessibility of ASCL1 in PNECs (dot size ~1.0).",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snATAC-seq clustering annotation",
+      "gate_definition": null,
+      "notes": "匹配当前总表已有记录 M00051。原提取曾误脑补为 CALCA，现纠正并建立真实直接证据。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M02",
+      "marker": "RIMS2",
+      "marker_original": "RIMS2",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "pulmonary neuroendocrine cell",
+      "cell_type_original": "PNECs",
+      "author_cluster_id": "PNEC",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan (premature born to 30 yo)",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Dot plot of marker genes from snRNA-seq used for cluster annotation: PNECs specifically express RIMS2.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows strong, highly restricted expression of RIMS2 in PNECs (average expression > 1.5, express % > 75%).",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq clustering annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。Fig. 1D 专有标记，属于 L4 神经内分泌关键标志物。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M03",
+      "marker": "SFTPC",
+      "marker_original": "SFTPC",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 2 cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "AT2",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "chromatin accessibility",
+      "entity_detail": "nuclear chromatin accessibility at SFTPC locus",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1B",
+      "source_context": "Supporting these cluster annotations, we observed cell-type-specific patterns of chromatin accessibility at known marker genes: AT2 cells marked by SFTPC.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Fig. 1B dot plot shows strong SFTPC chromatin accessibility in AT2 cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snATAC-seq annotation",
+      "gate_definition": null,
+      "notes": "已有记录确认。保留自原提取 M09。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M04",
+      "marker": "SFTPA2",
+      "marker_original": "SFTPA2",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 2 cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "AT2",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot of marker genes from snRNA-seq shows SFTPA2 strongly and specifically expressed in AT2 cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows SFTPA2 highly expressed in AT2 cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M05",
+      "marker": "AGER",
+      "marker_original": "AGER",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 1 cell",
+      "cell_type_original": "AT1 cells",
+      "author_cluster_id": "AT1",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows AGER as specific marker for AT1 cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows AGER strongly expressed in AT1 cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "已有记录确认。保留自原提取 M10。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M06",
+      "marker": "WNT7A",
+      "marker_original": "WNT7A",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "alveolar type 1 cell",
+      "cell_type_original": "AT1 cells",
+      "author_cluster_id": "AT1",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "chromatin accessibility",
+      "entity_detail": "nuclear chromatin accessibility at WNT7A locus",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1B",
+      "source_context": "Fig. 1B dot plot shows WNT7A accessibility specific to AT1 cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel B shows WNT7A accessibility in AT1 cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snATAC-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1B 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M07",
+      "marker": "TEKT4",
+      "marker_original": "TEKT4",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "ciliated cell",
+      "cell_type_original": "Ciliated cells",
+      "author_cluster_id": "Ciliated",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "chromatin accessibility",
+      "entity_detail": "nuclear chromatin accessibility at TEKT4 locus",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1B",
+      "source_context": "Fig. 1B dot plot shows TEKT4 accessibility as the primary marker for ciliated cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel B shows TEKT4 highest normalized accessibility in ciliated cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snATAC-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1B 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M08",
+      "marker": "MYB",
+      "marker_original": "MYB",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "ciliated cell",
+      "cell_type_original": "Ciliated cells",
+      "author_cluster_id": "Ciliated",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows MYB specifically expressed in ciliated cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows MYB expression restricted to ciliated cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M09",
+      "marker": "KRT5",
+      "marker_original": "KRT5",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "basal cell",
+      "cell_type_original": "Basal cells",
+      "author_cluster_id": "Basal",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "chromatin accessibility",
+      "entity_detail": "nuclear chromatin accessibility at KRT5 locus",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1B",
+      "source_context": "Fig. 1B dot plot shows KRT5 accessibility specific to basal cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel B shows KRT5 accessibility in basal cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snATAC-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1B 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M10",
+      "marker": "TP63",
+      "marker_original": "TP63",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "basal cell",
+      "cell_type_original": "Basal cells",
+      "author_cluster_id": "Basal",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows TP63 expression specific to basal cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows TP63 expression restricted to basal cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M11",
+      "marker": "SCGB3A2",
+      "marker_original": "SCGB3A2",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "club cell",
+      "cell_type_original": "Club cells",
+      "author_cluster_id": "Club",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows SCGB3A2 specifically expressed in club cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows SCGB3A2 expression in club cells and AT2/club-like cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M12",
+      "marker": "MUC5B",
+      "marker_original": "MUC5B",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "goblet cell",
+      "cell_type_original": "Goblet cells",
+      "author_cluster_id": "Goblet",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows MUC5B specifically expressed in goblet cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows MUC5B highly restricted to goblet cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M13",
+      "marker": "COL2A1",
+      "marker_original": "COL2A1",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "chondrocyte",
+      "cell_type_original": "Chondrocytes",
+      "author_cluster_id": "Chondro",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows COL2A1 specific to chondrocytes.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows COL2A1 expression restricted to chondrocytes.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M14",
+      "marker": "LAMC3",
+      "marker_original": "LAMC3",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "pericyte",
+      "cell_type_original": "Pericytes",
+      "author_cluster_id": "Pericyte",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows LAMC3 specifically expressed in pericytes.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows LAMC3 expression in pericytes.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M15",
+      "marker": "MYOCD",
+      "marker_original": "MYOCD",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "airway smooth muscle cell",
+      "cell_type_original": "Airway Sm.",
+      "author_cluster_id": "Airway_Sm",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows MYOCD expressed in airway and vascular smooth muscle.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows MYOCD expression in airway and vascular smooth muscle.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M16",
+      "marker": "TCF21",
+      "marker_original": "TCF21",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "matrix fibroblast",
+      "cell_type_original": "Matrix fib. 1",
+      "author_cluster_id": "Matrix_fib_1",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows TCF21 specifically expressed in matrix fibroblast 1.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows TCF21 restricted to matrix fib. 1.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M17",
+      "marker": "MFAP5",
+      "marker_original": "MFAP5",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "matrix fibroblast",
+      "cell_type_original": "Matrix fib. 2",
+      "author_cluster_id": "Matrix_fib_2",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows MFAP5 specifically expressed in matrix fibroblast 2.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows MFAP5 restricted to matrix fib. 2.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M18",
+      "marker": "BMX",
+      "marker_original": "BMX",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "arterial endothelial cell",
+      "cell_type_original": "Arteries",
+      "author_cluster_id": "Arteries",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows BMX specifically expressed in arterial endothelial cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows BMX expression restricted to arteries.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M19",
+      "marker": "ACKR1",
+      "marker_original": "ACKR1",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "venous endothelial cell",
+      "cell_type_original": "Veins",
+      "author_cluster_id": "Veins",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows ACKR1 specifically expressed in vein endothelial cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows ACKR1 expression restricted to veins.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M20",
+      "marker": "CA4",
+      "marker_original": "CA4",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "capillary endothelial cell",
+      "cell_type_original": "Cap1",
+      "author_cluster_id": "Cap1",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows CA4 specifically expressed in Cap1 capillary cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows CA4 expressed in Cap1.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M21",
+      "marker": "PLTP",
+      "marker_original": "PLTP",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "lymphatic endothelial cell",
+      "cell_type_original": "Lymphatics",
+      "author_cluster_id": "Lymphatics",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows PLTP specifically expressed in lymphatics.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows PLTP expression restricted to lymphatics.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M22",
+      "marker": "FCN1",
+      "marker_original": "FCN1",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "interstitial macrophage",
+      "cell_type_original": "Inter. macro.",
+      "author_cluster_id": "Inter_macro",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows FCN1 expressed in interstitial macrophages.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows FCN1 in interstitial macrophages.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M23",
+      "marker": "MS4A2",
+      "marker_original": "MS4A2",
+      "normalization_basis": "HGNC symbol",
+      "cell_type": "mast cell",
+      "cell_type_original": "Mast cells",
+      "author_cluster_id": "Mast_cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "Healthy donors across lifespan",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "nuclear RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1D",
+      "source_context": "Fig. 1D dot plot shows MS4A2 and KIT specifically expressed in mast cells.",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot panel D shows MS4A2 restricted to mast cells.",
+          "mapping_basis": "image_observation"
+        }
+      ],
+      "validation_method": "snRNA-seq annotation",
+      "gate_definition": null,
+      "notes": "新发现项 (novel)。由 Fig. 1D 补齐。"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.7554_elife.62522_C01",
+      "marker": "ACE2",
+      "cell_type": "alveolar type 2 cell",
+      "role": "SARS-CoV-2 viral entry receptor (host factor analysis)",
+      "source_location": "Main Text p. 3; Fig. 2A"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_C02",
+      "marker": "TMPRSS2",
+      "cell_type": "alveolar type 2 cell",
+      "role": "SARS-CoV-2 viral entry protease (host factor analysis)",
+      "source_location": "Main Text pp. 3-5; Fig. 2A, Fig. 3"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_C03",
+      "marker": "SLC6A20",
+      "cell_type": "alveolar type 2 cell",
+      "role": "COVID-19 genetic susceptibility locus and entry cofactor",
+      "source_location": "Main Text pp. 7-9; Fig. 4"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_C04",
+      "marker": "CTSL",
+      "cell_type": "macrophage",
+      "role": "Lysosomal cysteine protease host factor",
+      "source_location": "Main Text pp. 3-4; Fig. 2A"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_C05",
+      "marker": "BSG",
+      "cell_type": "endothelial cell",
+      "role": "CD147 candidate viral entry receptor",
+      "source_location": "Main Text pp. 3-4; Fig. 2A"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_C06",
+      "marker": "FURIN",
+      "cell_type": "airway epithelial cell",
+      "role": "Proprotein convertase host factor",
+      "source_location": "Main Text pp. 3-4; Fig. 2A"
+    }
+  ],
+  "excluded": [],
+  "unresolved": [
+    {
+      "marker": "CALCA",
+      "cell_type": "pulmonary neuroendocrine cell",
+      "reason_unresolved": "【已确认错误并撤销】原提取在 formal_markers 中引用 Fig. 1B/D 作为 CALCA 证据，经核查原图，该面板中实为 ASCL1 与 RIMS2，未呈现 CALCA。撤销原配对记录。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.7554_elife.62522_M07",
+        "revocation_action": "revoked",
+        "reason": "原图未呈现该基因标签，系常识脑补错误配对。"
+      }
+    },
+    {
+      "marker": "CHGA",
+      "cell_type": "pulmonary neuroendocrine cell",
+      "reason_unresolved": "【已确认错误并撤销】原提取在 formal_markers 中引用 Fig. 1B/D 作为 CHGA 证据，经核查原图，该面板中实为 ASCL1 与 RIMS2，未呈现 CHGA。撤销原配对记录。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.7554_elife.62522_M08",
+        "revocation_action": "revoked",
+        "reason": "原图未呈现该基因标签，系常识脑补错误配对。"
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_formal_markers": 23,
+    "four_layer_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 0,
+      "L4": 2,
+      "outside": 21,
+      "unknown": 0
+    },
+    "materials_status": {
+      "Main_Text": "reviewed",
+      "Figure_1": "reviewed",
+      "Figure_2": "reviewed",
+      "Figure_3_4": "reviewed",
+      "Figure_supplements": "missing",
+      "Supplementary_tables": "missing"
+    },
+    "reconciliation_notes": "解除10条限制，撤销CALCA/CHGA错误引文，宿主受体转入context_only，从Fig. 1B/D点图新增20条可靠直接证据，L4神经内分泌收录ASCL1 (snATAC)与RIMS2 (snRNA)。"
+  }
+}

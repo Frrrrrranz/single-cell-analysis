@@ -1,0 +1,637 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "PMID_37664243",
+  "doi": "10.3389/fnmol.2023.1232447",
+  "title": "Analysis of matrisome expression patterns in murine and human dorsal root ganglia",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含正文 16 页、Figure 1-7、Table 1、Methods 及原位杂交/免疫荧光图片"
+    },
+    {
+      "material_name": "PMID_37664243.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含全文 Markdown、详细图注与 Table 1"
+    },
+    {
+      "material_name": "Supplementary Tables S1-S5",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "期刊补充表格 Excel 文件在本地未单独提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "NOCI",
+      "cluster_name": "Nociceptors",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "伤害性感觉神经元，高表达 Scn10a, Cd44"
+    },
+    {
+      "cluster_id": "LDN",
+      "cluster_name": "Large diameter neurons",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "大直径有髓感觉神经元，表达 Nefh, S100 蛋白"
+    },
+    {
+      "cluster_id": "SCHW",
+      "cluster_name": "Schwann cells",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L2",
+      "description": "周围神经施万细胞"
+    },
+    {
+      "cluster_id": "SATG",
+      "cluster_name": "Satellite glial cells",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L2",
+      "description": "卫星神经胶质细胞，表达 Sdc4, Apoe"
+    },
+    {
+      "cluster_id": "VLMC-like",
+      "cluster_name": "Vascular leptomeningeal-like cells / Fibroblasts",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L3",
+      "description": "DRG 脑膜样成纤维细胞，主要胶原产生细胞，表达 Dcn, Col1a1, Col1a2"
+    },
+    {
+      "cluster_id": "VEC",
+      "cluster_name": "Vascular endothelial cells",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L3",
+      "description": "血管内皮细胞"
+    },
+    {
+      "cluster_id": "VSMCA",
+      "cluster_name": "Vascular smooth muscle cells arterial",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L3",
+      "description": "动脉血管平滑肌细胞"
+    },
+    {
+      "cluster_id": "IMM",
+      "cluster_name": "Immune cells",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "outside",
+      "description": "DRG 浸润免疫细胞"
+    },
+    {
+      "cluster_id": "Human_Nociceptors",
+      "cluster_name": "Human Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "人类 DRG 伤害感受器，以 SCN10A 标记"
+    },
+    {
+      "cluster_id": "Human_VLMC_Fibroblasts",
+      "cluster_name": "Human VLMC-like cells / Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L3",
+      "description": "人类 DRG 成纤维细胞，以 DCN, GPC3 标记"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "PMID_37664243_M01",
+      "marker": "SCN10A",
+      "marker_original": "SCN10A",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "nociceptors",
+      "author_cluster_id": "Human_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG Visium spatial transcriptomics and RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Nav1.8 sodium channel transcript",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text p. 5, p. 10; Figure 5B, Figure 6A-E",
+      "source_context": "DCN and SCN10A were selected as markers to identify VLMC-like (fibroblasts) and nociceptor barcodes, respectively... RNAscope was used to identify and quantify cells expressing SCN10A (nociceptor marker)",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 5B, Figure 6A-E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SCN10A functions as a widely accepted marker for nociceptors, and DCN was identified as a marker for VLMC-like cells (fibroblasts)",
+          "mapping_basis": "author explicit marker for defining nociceptors"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "SCN10A+ RNAscope signal (>= 2 dots/cell)",
+      "notes": "人 DRG 伤害感受神经元确证标记"
+    },
+    {
+      "record_id": "PMID_37664243_M02",
+      "marker": "DCN",
+      "marker_original": "DCN",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human VLMC-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like cells (fibroblasts)",
+      "author_cluster_id": "Human_VLMC_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG Visium spatial transcriptomics and RNAscope",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "decorin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text p. 5, p. 10; Figure 5B, Figure 6B-F",
+      "source_context": "DCN was identified as a marker for VLMC-like cells (fibroblasts)... RNAscope was used to identify and quantify cells expressing DCN (VLMC-like/fibroblast marker)",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 5B, Figure 6B-F",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "DCN was identified as a marker for VLMC-like cells (fibroblasts)",
+          "mapping_basis": "author explicit marker for defining DRG fibroblasts"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "DCN+ RNAscope signal (>= 2 dots/cell)",
+      "notes": "人 DRG 基质成纤维细胞定义标记"
+    },
+    {
+      "record_id": "PMID_37664243_M03",
+      "marker": "GPC3",
+      "marker_original": "glypican 3 (GPC3)",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human VLMC-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like cell (fibroblast)",
+      "author_cluster_id": "Human_VLMC_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG immunohistochemistry",
+      "four_layer_category": "L3",
+      "measurement_type": "protein",
+      "entity_detail": "glypican 3 antibody (ThermoFisher #MA5-17083)",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Figure 6G",
+      "source_context": "we performed IHC on human DRG samples for the VLMC-like cell (fibroblast) cell marker, glypican 3 (GPC3), combined with the neuronal marker NeuN... demonstrated that VLMC-like cells (fibroblasts) are in close proximity to neuronal cells",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 6G",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "IHC on human DRG samples for the VLMC-like cell (fibroblast) cell marker, glypican 3 (GPC3)",
+          "mapping_basis": "author declared protein marker"
+        }
+      ],
+      "validation_method": "immunohistochemistry",
+      "gate_definition": null,
+      "notes": "人 DRG 成纤维细胞蛋白标志物"
+    },
+    {
+      "record_id": "PMID_37664243_M04",
+      "marker": "RBFOX3",
+      "marker_original": "NeuN",
+      "normalization_basis": "HGNC standard symbol for NeuN is RBFOX3",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "neurons",
+      "author_cluster_id": "Human_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG immunohistochemistry",
+      "four_layer_category": "L1",
+      "measurement_type": "protein",
+      "entity_detail": "NeuN antibody (Cell Signaling Technology #24307)",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text p. 10, Figure 6G",
+      "source_context": "combined with the neuronal marker NeuN (Figure 6G)... Neurons with GPC3-immunolabelling are surrounded by non-neuronal cells",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 6G",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "combined with the neuronal marker NeuN (Figure 6G)",
+          "mapping_basis": "canonical neuronal marker in human DRG"
+        }
+      ],
+      "validation_method": "immunohistochemistry",
+      "gate_definition": null,
+      "notes": "人 DRG 神经元全貌鉴定蛋白标记"
+    },
+    {
+      "record_id": "PMID_37664243_M05",
+      "marker": "COL1A1",
+      "marker_original": "COL1A1",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human VLMC-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like cells (fibroblasts)",
+      "author_cluster_id": "Human_VLMC_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG RNAscope and spatial transcriptomics",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "collagen type I alpha 1 chain",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Figure 5C, Figure 6B, 6D, 6F",
+      "source_context": "RNAscope in situ hybridization was performed on human DRG... in 22% ± 1.8% of DRG cells, co-expression of COL1A1 with DCN was observed... support the idea that fibroblasts produce collagens and surround neuronal cell bodies",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 6B, 6D, 6F",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "co-expression of COL1A1 with DCN was observed... confirm our earlier results from the murine scRNAseq data in human DRG samples",
+          "mapping_basis": "fibroblast-derived structural collagen"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": null,
+      "notes": "成纤维细胞核心分泌胶原"
+    },
+    {
+      "record_id": "PMID_37664243_M06",
+      "marker": "COL1A1",
+      "marker_original": "COL1A1",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "nociceptors",
+      "author_cluster_id": "Human_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "collagen type I alpha 1 chain",
+      "marker_direction": "negative",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Figure 6A, 6C, 6E",
+      "source_context": "SCN10A positive cells did not show co-expression with COL1A1... confirming minimal collagen expression by nociceptors",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 6A, 6C, 6E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SCN10A positive cells did not show co-expression with COL1A1",
+          "mapping_basis": "negative exclusion marker in nociceptors"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "SCN10A+ COL1A1-",
+      "notes": "伤害感受神经元确证不表达 COL1A1"
+    },
+    {
+      "record_id": "PMID_37664243_M07",
+      "marker": "CD44",
+      "marker_original": "CD44",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "nociceptors",
+      "author_cluster_id": "Human_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG spatial transcriptomics",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "CD44 collagen receptor",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Figure 5D",
+      "source_context": "Subsequent examination of their predicted receptors showed significantly more co-expression of CD44 with SCN10A (Figure 5D), consistent with the murine data",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 5D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "significantly more co-expression of CD44 with SCN10A (Figure 5D), consistent with the murine data (Figure 4D)",
+          "mapping_basis": "nociceptor collagen receptor"
+        }
+      ],
+      "validation_method": "spatial transcriptomics",
+      "gate_definition": null,
+      "notes": "伤害感受器胶原受体"
+    },
+    {
+      "record_id": "PMID_37664243_M08",
+      "marker": "SDC4",
+      "marker_original": "SDC4",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human VLMC-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like cells (fibroblasts)",
+      "author_cluster_id": "Human_VLMC_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG spatial transcriptomics",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "syndecan 4",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Figure 5D",
+      "source_context": "and of SDC4 with DCN (Figure 5D)",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 5D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "and of SDC4 with DCN (Figure 5D)",
+          "mapping_basis": "fibroblast proteoglycan receptor"
+        }
+      ],
+      "validation_method": "spatial transcriptomics",
+      "gate_definition": null,
+      "notes": "成纤维细胞受体"
+    },
+    {
+      "record_id": "PMID_37664243_M09",
+      "marker": "Scn10a",
+      "marker_original": "Scn10a",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Nociceptors",
+      "cell_type_original": "NOCI",
+      "author_cluster_id": "NOCI",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Nav1.8",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text p. 7, Figure 3, Supplementary Figure S3",
+      "source_context": "Based on cluster specific markers, eight different cell types were identified, including neuronal cells [nociceptors (NOCI)...]... Scn10a marks nociceptors",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "figure_panel": "Figure 3",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Based on cluster specific markers, eight different cell types were identified, including neuronal cells [nociceptors (NOCI) and large diameter neurons (LDN)]",
+          "mapping_basis": "defining murine nociceptor cluster"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小鼠伤害感受神经元注释标记"
+    },
+    {
+      "record_id": "PMID_37664243_M10",
+      "marker": "Dcn",
+      "marker_original": "Dcn",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Vascular leptomeningeal-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like",
+      "author_cluster_id": "VLMC-like",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "decorin",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text p. 7, Figure 3, Supplementary Figure S3",
+      "source_context": "vascular leptomeningeal-like cells (VLMC-like)/fibroblast-like... marked by Dcn",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "figure_panel": "Figure 3",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "vascular cell types [vascular leptomeningeal-like cells (VLMC-like)/fibroblast-like, vascular endothelial cells (VEC)]",
+          "mapping_basis": "defining murine VLMC-like cluster"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小鼠成纤维样细胞定义标记"
+    },
+    {
+      "record_id": "PMID_37664243_M11",
+      "marker": "Col1a1",
+      "marker_original": "Col1a1",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Vascular leptomeningeal-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like",
+      "author_cluster_id": "VLMC-like",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "type I collagen alpha 1",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 7, Figure 4C",
+      "source_context": "revealed that the ligands of the Collagen pathway were primarily expressed by the vascular cell types, in particular the VLMC-like cells (fibroblasts)... Col1a1, Col1a2, Col4a1, and Col4a2",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "figure_panel": "Figure 4C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "the ligands of the Collagen pathway were primarily expressed by the vascular cell types, in particular the VLMC-like cells (fibroblasts)",
+          "mapping_basis": "major ligand gene in VLMC-like"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小鼠 VLMC 特征性 I 型胶原基因"
+    },
+    {
+      "record_id": "PMID_37664243_M12",
+      "marker": "Cd44",
+      "marker_original": "Cd44",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Nociceptors",
+      "cell_type_original": "NOCI",
+      "author_cluster_id": "NOCI",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "CD44 antigen",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 8, Figure 4D",
+      "source_context": "Cd44 was expressed by nociceptors and immune cells (Figure 4D)",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 8,
+          "printed_page": 8,
+          "figure_panel": "Figure 4D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Cd44 was expressed by nociceptors and immune cells (Figure 4D)",
+          "mapping_basis": "receptor expressed in nociceptors"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小鼠伤害感受神经元胶原受体"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "PMID_37664243_C01",
+      "marker": "IGF1",
+      "marker_original": "IGF1",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human VLMC-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like cells (fibroblasts)",
+      "author_cluster_id": "Human_VLMC_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human neuropathic pain bulk RNA-seq and spatial transcriptomics co-expression",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "insulin like growth factor 1",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Table 1, Figure 7A",
+      "source_context": "IGF1 was upregulated in FP... Our data showed that IGF1 had greater co-expression with DCN, while its receptors IGFR1 and ITGB3 had more co-expression with SCN10A",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 7A",
+          "table_locator": "Table 1",
+          "evidence_mode": "text_quote",
+          "source_context": "IGF1 had greater co-expression with DCN, while its receptors described in the CellChatDB interaction explorer database IGFR1 and ITGB3 had more co-expression with SCN10A",
+          "mapping_basis": "pain-related differential expression and ligand-receptor discussion"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "女性神经病理性疼痛样本中上调的基质分子，与 DCN 共定位，参与疼痛机制讨论",
+      "decision_reason": "疾病状态下的差异表达基因与通路配体分析，未用于细胞常态定义"
+    },
+    {
+      "record_id": "PMID_37664243_C02",
+      "marker": "SEMA6B",
+      "marker_original": "SEMA6B",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human VLMC-like cells / Fibroblasts",
+      "cell_type_original": "VLMC-like cells (fibroblasts)",
+      "author_cluster_id": "Human_VLMC_Fibroblasts",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human neuropathic pain bulk RNA-seq and spatial transcriptomics co-expression",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "semaphorin 6B",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Table 1, Figure 7B",
+      "source_context": "SEMA6B was upregulated in MP... SEMA6B also showed more co-expression with DCN (Figure 7B). Interactions of SEMA6B with plexin receptor like PLXNA2 and PLXNA4... showed more co-expression with SCN10A",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 7B",
+          "table_locator": "Table 1",
+          "evidence_mode": "text_quote",
+          "source_context": "SEMA6B also showed more co-expression with DCN (Figure 7B)",
+          "mapping_basis": "pain-related differential expression"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "男性神经痛中差异上调的轴突导向分子",
+      "decision_reason": "差异表达分析与机制讨论，非标准细胞标记"
+    }
+  ],
+  "excluded": [
+    {
+      "record_id": "PMID_37664243_E01",
+      "marker": "COL1A1",
+      "marker_original": "COL1A1",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "nociceptors",
+      "author_cluster_id": "Human_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Human DRG RNAscope examination of potential neuronal collagen production",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "collagen alpha-1(I) chain",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 10, Figure 6A, 6C",
+      "source_context": "SCN10A positive cells did not show co-expression with COL1A1",
+      "sources": [
+        {
+          "file": "PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "pdf_page": 10,
+          "printed_page": 10,
+          "figure_panel": "Figure 6A, 6C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SCN10A positive cells did not show co-expression with COL1A1",
+          "mapping_basis": "explicit negative validation result"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": null,
+      "notes": "历史上曾有神经元可能表达胶原的假说，但在本实验中被证明在人类 DRG 伤害感受器中不表达",
+      "decision_reason": "被原位验证实验明确否决的阳性表达假说"
+    }
+  ],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 12,
+    "context_only_count": 2,
+    "excluded_count": 1,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full text PDF (16 pages), Figures 1-7, Table 1, RNAscope and IHC figures.",
+    "missing_materials": "Supplementary Tables S1-S5 Excel files were referenced but not provided as standalone files.",
+    "potential_leakage_scope": "Subtype-specific matrisome genes beyond the top 50 bulk list and CellChat key pathways."
+  }
+}

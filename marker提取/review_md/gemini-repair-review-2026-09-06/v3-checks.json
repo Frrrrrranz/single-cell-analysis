@@ -1,0 +1,1343 @@
+{
+  "counts": {
+    "baseline_existing": 953,
+    "context_only": 28,
+    "excluded": 121,
+    "pending_adjudication": 62,
+    "unresolved": 12
+  },
+  "different_gene_or_missing_links": 5,
+  "same_relation_cell_string_differences": [
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00899",
+      "marker": "KRT5",
+      "old_cell": "Basal Epithelial Cell",
+      "new_cell": "basal cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00900",
+      "marker": "TP63",
+      "old_cell": "Basal Epithelial Cell",
+      "new_cell": "basal cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00921",
+      "marker": "FOXJ1",
+      "old_cell": "Ciliated Epithelial Cell",
+      "new_cell": "ciliated cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00923",
+      "marker": "FOXJ1",
+      "old_cell": "Ciliated Epithelial Cell",
+      "new_cell": "Ciliated cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00928",
+      "marker": "DEUP1",
+      "old_cell": "Deuterosomal Cell",
+      "new_cell": "deuterosomal cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00936",
+      "marker": "KRT5",
+      "old_cell": "Basal Epithelial Cell",
+      "new_cell": "Developing secretory and goblet cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00948",
+      "marker": "MUC5AC",
+      "old_cell": "Goblet Cell",
+      "new_cell": "goblet cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00949",
+      "marker": "MUC5AC",
+      "old_cell": "Goblet Cell",
+      "new_cell": "Goblet cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00954",
+      "marker": "CFTR",
+      "old_cell": "Respiratory Ionocyte",
+      "new_cell": "ionocytes"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M00955",
+      "marker": "FOXI1",
+      "old_cell": "Respiratory Ionocyte",
+      "new_cell": "ionocytes"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M01001",
+      "marker": "TPSB2",
+      "old_cell": "Mast Cell",
+      "new_cell": "mast cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M01004",
+      "marker": "IL3RA",
+      "old_cell": "Plasmacytoid Dendritic Cell",
+      "new_cell": "plasmacytoid DCs"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M01007",
+      "marker": "BPIFA1",
+      "old_cell": "Secretory Epithelial Cell",
+      "new_cell": "Secretory cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M01029",
+      "marker": "SCEL",
+      "old_cell": "Squamous Epithelial Cell",
+      "new_cell": "squamous cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2021.07.023_M01034",
+      "marker": "CD3E",
+      "old_cell": "T Lymphocyte",
+      "new_cell": "T cells"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2022.11.005_M03",
+      "marker": "GHRL",
+      "old_cell": "Ghrelin-producing Neuroendocrine Cell",
+      "new_cell": "neuroendocrine cell"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2022.11.005_M07",
+      "marker": "CHGA",
+      "old_cell": "Pulmonary Neuroendocrine Cell",
+      "new_cell": "neuroendocrine cell"
+    },
+    {
+      "id": "DOI_10.1016_j.cell.2022.11.005_M08",
+      "marker": "SYP",
+      "old_cell": "Pulmonary Neuroendocrine Cell",
+      "new_cell": "neuroendocrine cell"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M03",
+      "marker": "UPK2",
+      "old_cell": "Urothelial Umbrella Cell",
+      "new_cell": "umbrella cell"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M04",
+      "marker": "UPK3A",
+      "old_cell": "Urothelial Umbrella Cell",
+      "new_cell": "umbrella cell"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M05",
+      "marker": "KRT20",
+      "old_cell": "Urothelial Umbrella Cell",
+      "new_cell": "umbrella cell"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M06",
+      "marker": "LAMC3",
+      "old_cell": "Peri-Urothelial Fibroblast",
+      "new_cell": "fibroblast"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M07",
+      "marker": "GAS1",
+      "old_cell": "Lamina Propria Fibroblast",
+      "new_cell": "fibroblast"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M08",
+      "marker": "C7",
+      "old_cell": "Intra-Muscular Fibroblast",
+      "new_cell": "fibroblast"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M09",
+      "marker": "CXCL14",
+      "old_cell": "CXCL14hi Fibroblast",
+      "new_cell": "fibroblast"
+    },
+    {
+      "id": "DOI_10.1016_j.isci.2024.111628_M11",
+      "marker": "RGS5",
+      "old_cell": "Vascular Smooth Muscle Cell / Pericyte",
+      "new_cell": "vascular smooth muscle cell"
+    },
+    {
+      "id": "DOI_10.1016_j.stem.2022.11.013_M01",
+      "marker": "HOPX",
+      "old_cell": "Alveolar Type 1 Cell",
+      "new_cell": "alveolar type 2 cell"
+    },
+    {
+      "id": "DOI_10.1016_j.stem.2022.11.013_M03",
+      "marker": "SOX2",
+      "old_cell": "Distal Bud Tip Progenitor",
+      "new_cell": "distal bud tip progenitor cell"
+    },
+    {
+      "id": "DOI_10.1016_j.stem.2022.11.013_M05",
+      "marker": "CD36",
+      "old_cell": "Late-Stage Alveolar-Committed Tip Cell",
+      "new_cell": "alveolar type 2 cell"
+    },
+    {
+      "id": "DOI_10.1016_j.stem.2022.11.013_M08",
+      "marker": "PDPN",
+      "old_cell": "Tip-adjacent Airway Stalk Cell",
+      "new_cell": "stalk cell"
+    },
+    {
+      "id": "DOI_10.1016_j.stem.2022.11.013_M09",
+      "marker": "CD44",
+      "old_cell": "Late-Stage Alveolar-Committed Tip Cell",
+      "new_cell": "stalk cell"
+    },
+    {
+      "id": "DOI_10.1038_s41467-021-21783-3_M01584",
+      "marker": "Csn2",
+      "old_cell": "Aberrant Alveolar Differentiated Luminal Cell",
+      "new_cell": "alveolar cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-021-21783-3_M01585",
+      "marker": "Wap",
+      "old_cell": "Aberrant Alveolar Differentiated Luminal Cell",
+      "new_cell": "alveolar cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-021-21783-3_M01586",
+      "marker": "Csn2",
+      "old_cell": "Aberrant Alveolar Differentiated Luminal Cell",
+      "new_cell": "Alveolar cells (Avd)"
+    },
+    {
+      "id": "DOI_10.1038_s41467-021-21783-3_M01587",
+      "marker": "Elf5",
+      "old_cell": "Luminal Progenitor Cell",
+      "new_cell": "Alveolar cells (Avd)"
+    },
+    {
+      "id": "DOI_10.1038_s41467-021-21783-3_M02565",
+      "marker": "Epcam",
+      "old_cell": "Mammary Epithelial Cell",
+      "new_cell": "Avd cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00729",
+      "marker": "AGER",
+      "old_cell": "Alveolar Type 1 Cell",
+      "new_cell": "Alveolar type 1 cells (AT1)"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00741",
+      "marker": "DEUP1",
+      "old_cell": "Deuterosomal Cell",
+      "new_cell": "deuterosomal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00742",
+      "marker": "FOXN4",
+      "old_cell": "Deuterosomal Cell",
+      "new_cell": "deuterosomal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00760",
+      "marker": "KLK11",
+      "old_cell": "Respiratory Airway Secretory Cell",
+      "new_cell": "respiratory airway secretory cells (RAS)"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00761",
+      "marker": "SCGB3A2",
+      "old_cell": "Respiratory Airway Secretory Cell",
+      "new_cell": "respiratory airway secretory cells (RAS)"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00763",
+      "marker": "ALDH1A3",
+      "old_cell": "Mature Dendritic Cell",
+      "new_cell": "SMG duct cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00770",
+      "marker": "KRT19",
+      "old_cell": "Suprabasal Epithelial Cell",
+      "new_cell": "suprabasal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00772",
+      "marker": "SERPINB4",
+      "old_cell": "Suprabasal Epithelial Cell",
+      "new_cell": "suprabasal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00774",
+      "marker": "ACKR1",
+      "old_cell": "Systemic Venous Endothelial Cell",
+      "new_cell": "systemic venous endothelial cells (SVEC)"
+    },
+    {
+      "id": "DOI_10.1038_s41467-023-40173-5_M00775",
+      "marker": "COL15A1",
+      "old_cell": "Systemic Venous Endothelial Cell",
+      "new_cell": "systemic venous endothelial cells (SVEC)"
+    },
+    {
+      "id": "DOI_10.1038_s41467-024-52052-8_M04",
+      "marker": "Sst",
+      "old_cell": "Somatostatin-positive Nociceptor",
+      "new_cell": "somatosensory neuron"
+    },
+    {
+      "id": "DOI_10.1038_s41467-024-52052-8_C01",
+      "marker": "Sox11",
+      "old_cell": "Senescent Nociceptor",
+      "new_cell": "nociceptor"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00795",
+      "marker": "AGER",
+      "old_cell": "Alveolar Type 1 Cell",
+      "new_cell": "alveolar type I (AT1) cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00796",
+      "marker": "CLIC5",
+      "old_cell": "Alveolar Type 1 Cell",
+      "new_cell": "alveolar type I (AT1) cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00797",
+      "marker": "SFTPB",
+      "old_cell": "Alveolar Type 2 Cell",
+      "new_cell": "alveolar type II (AT2) cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00798",
+      "marker": "SFTPC",
+      "old_cell": "Alveolar Type 2 Cell",
+      "new_cell": "alveolar type II (AT2) cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00805",
+      "marker": "CLDN4",
+      "old_cell": "Damage-Associated Transient Progenitor",
+      "new_cell": "damage-associated transient progenitors (DATP)"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00806",
+      "marker": "KRT8",
+      "old_cell": "Damage-Associated Transient Progenitor",
+      "new_cell": "damage-associated transient progenitors (DATP)"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00808",
+      "marker": "CLDN4",
+      "old_cell": "Damage-Associated Transient Progenitor",
+      "new_cell": "DATPs"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00809",
+      "marker": "KRT8",
+      "old_cell": "Damage-Associated Transient Progenitor",
+      "new_cell": "DATPs"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00811",
+      "marker": "COL3A1",
+      "old_cell": "Pathological Fibroblast",
+      "new_cell": "ECMhigh epithelium"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00818",
+      "marker": "COL1A1",
+      "old_cell": "Pathological Fibroblast",
+      "new_cell": "pathological fibroblasts"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00819",
+      "marker": "CTHRC1",
+      "old_cell": "Pathological Fibroblast",
+      "new_cell": "pathological fibroblasts"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00820",
+      "marker": "COL3A1",
+      "old_cell": "Pathological Fibroblast",
+      "new_cell": "pathological fibroblasts (pFBs)"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M00821",
+      "marker": "CTHRC1",
+      "old_cell": "Pathological Fibroblast",
+      "new_cell": "pathological fibroblasts (pFBs)"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-03569-1_M02569",
+      "marker": "CAV1",
+      "old_cell": "Alveolar Type 1 Cell",
+      "new_cell": "AT1 cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00339",
+      "marker": "PIFO",
+      "old_cell": "Ciliated 1 Cell",
+      "new_cell": "ciliated 1"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00340",
+      "marker": "CFAP54",
+      "old_cell": "Ciliated 2 Cell",
+      "new_cell": "ciliated 2"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00342",
+      "marker": "SCGB1A1",
+      "old_cell": "Club Cell",
+      "new_cell": "club cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00343",
+      "marker": "SCGB3A1",
+      "old_cell": "Club Cell",
+      "new_cell": "club cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00345",
+      "marker": "KRT14",
+      "old_cell": "Hillock-like Cell",
+      "new_cell": "cycling Hillock"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00347",
+      "marker": "CDC20",
+      "old_cell": "Deuterosomal Intermediate Cell",
+      "new_cell": "deuterosomal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00348",
+      "marker": "FOXN4",
+      "old_cell": "Deuterosomal Intermediate Cell",
+      "new_cell": "deuterosomal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00349",
+      "marker": "TFF1",
+      "old_cell": "Goblet 1 Cell",
+      "new_cell": "goblet 1"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00354",
+      "marker": "MUC5AC",
+      "old_cell": "Goblet Cell",
+      "new_cell": "goblet cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00356",
+      "marker": "KRT14",
+      "old_cell": "Hillock-like Cell",
+      "new_cell": "Hillock"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00359",
+      "marker": "KRT14",
+      "old_cell": "Hillock-like Cell",
+      "new_cell": "Hillock precursor"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00362",
+      "marker": "KRT14",
+      "old_cell": "Hillock-like Cell",
+      "new_cell": "Hillock-like populations"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00393",
+      "marker": "GALNT4",
+      "old_cell": "Secretory GALNT4+ Cell",
+      "new_cell": "secretory"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00394",
+      "marker": "GALNT4",
+      "old_cell": "Secretory GALNT4+ Cell",
+      "new_cell": "Secretory GALNT4+"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00396",
+      "marker": "SPRR3",
+      "old_cell": "Squamous Cell",
+      "new_cell": "squamous cells"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00402",
+      "marker": "PIFO",
+      "old_cell": "Ciliated 1 Cell",
+      "new_cell": "Transit epi 1"
+    },
+    {
+      "id": "DOI_10.1038_s41586-021-04345-x_M00408",
+      "marker": "PIFO",
+      "old_cell": "Ciliated 1 Cell",
+      "new_cell": "Transit epi 2"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01691",
+      "marker": "Bcl11b",
+      "old_cell": "Deep-Layer Cortical Neuron",
+      "new_cell": "deep-layer neurons"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01693",
+      "marker": "Tbr1",
+      "old_cell": "Deep-Layer Cortical Neuron",
+      "new_cell": "deep-layer neurons"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01708",
+      "marker": "Pax6",
+      "old_cell": "Retinal Progenitor Cell",
+      "new_cell": "intermediate neuronal progenitors"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01739",
+      "marker": "Erbb4",
+      "old_cell": "Neural Crest (PNS Glia)",
+      "new_cell": "notochord"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01741",
+      "marker": "Sox10",
+      "old_cell": "Neural Crest (PNS Glia)",
+      "new_cell": "notochord"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01743",
+      "marker": "Rax",
+      "old_cell": "Retinal Progenitor Cell",
+      "new_cell": "optic stalk"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01780",
+      "marker": "Pax6",
+      "old_cell": "Retinal Progenitor Cell",
+      "new_cell": "retinal progenitor cells RPCs"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01781",
+      "marker": "Rax",
+      "old_cell": "Retinal Progenitor Cell",
+      "new_cell": "retinal progenitor cells RPCs"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01783",
+      "marker": "Foxp2",
+      "old_cell": "Subplate Neuron",
+      "new_cell": "subplate neurons"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01784",
+      "marker": "Kcnab1",
+      "old_cell": "Subplate Neuron",
+      "new_cell": "subplate neurons"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01794",
+      "marker": "Pax6",
+      "old_cell": "Retinal Progenitor Cell",
+      "new_cell": "VA1-astrocytes"
+    },
+    {
+      "id": "DOI_10.1038_s41586-024-07069-w_M01797",
+      "marker": "Pax6",
+      "old_cell": "Retinal Progenitor Cell",
+      "new_cell": "VA2-astrocytes"
+    },
+    {
+      "id": "CTX_07069_ISL1_MN",
+      "marker": "Isl1",
+      "old_cell": "Spinal Motor Neuron Progenitor",
+      "new_cell": "post-mitotic motor neurons"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M00238",
+      "marker": "CCR10",
+      "old_cell": "Gland-Associated IgA Plasma Cell",
+      "new_cell": "IgA plasma cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M00265",
+      "marker": "ACTA2",
+      "old_cell": "SMG Myoepithelial Cell",
+      "new_cell": "myoepithelial cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M00291",
+      "marker": "ALDH1A3",
+      "old_cell": "SMG Duct Cell",
+      "new_cell": "SMG duct cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M00292",
+      "marker": "MIA",
+      "old_cell": "SMG Duct Cell",
+      "new_cell": "SMG duct cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M00293",
+      "marker": "RARRES1",
+      "old_cell": "SMG Duct Cell",
+      "new_cell": "SMG duct cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M00295",
+      "marker": "RARRES1",
+      "old_cell": "SMG Duct Cell",
+      "new_cell": "SMG serous cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M00296",
+      "marker": "MUC5B",
+      "old_cell": "SMG Mucous Cell",
+      "new_cell": "SMG-mucous"
+    },
+    {
+      "id": "DOI_10.1038_s41588-022-01243-4_M01895",
+      "marker": "ACTA2",
+      "old_cell": "SMG Myoepithelial Cell",
+      "new_cell": "smooth muscle cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00776",
+      "marker": "CA4",
+      "old_cell": "CA4+ capillary endothelial cell",
+      "new_cell": "CA4+ capillary"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00779",
+      "marker": "PECAM1",
+      "old_cell": "Endothelial cell",
+      "new_cell": "endothelial cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00780",
+      "marker": "PTPRC",
+      "old_cell": "Immune cell",
+      "new_cell": "endothelial cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00781",
+      "marker": "EPCAM",
+      "old_cell": "Epithelial cell",
+      "new_cell": "epithelial cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00782",
+      "marker": "PTPRC",
+      "old_cell": "Immune cell",
+      "new_cell": "immune cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00783",
+      "marker": "KRT17",
+      "old_cell": "Aberrant basaloid cell",
+      "new_cell": "KRT5−/KRT17+"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00785",
+      "marker": "SPP1",
+      "old_cell": "SPP1+ macrophage",
+      "new_cell": "Macrophage − SPP1+"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00786",
+      "marker": "EPCAM",
+      "old_cell": "Epithelial cell",
+      "new_cell": "mesenchymal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00787",
+      "marker": "PECAM1",
+      "old_cell": "Endothelial cell",
+      "new_cell": "mesenchymal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00788",
+      "marker": "PTPRC",
+      "old_cell": "Immune cell",
+      "new_cell": "mesenchymal cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00789",
+      "marker": "MUC5B",
+      "old_cell": "Secretory cell",
+      "new_cell": "Secretory—SCGB1A1+/MUC5B+"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00790",
+      "marker": "SCGB1A1",
+      "old_cell": "Secretory cell",
+      "new_cell": "Secretory—SCGB1A1+/MUC5B+"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00791",
+      "marker": "SCGB1A1",
+      "old_cell": "Secretory cell",
+      "new_cell": "Secretory—SCGB1A1+/SCGB3A2+"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00792",
+      "marker": "SCGB3A2",
+      "old_cell": "Secretory cell",
+      "new_cell": "Secretory—SCGB1A1+/SCGB3A2+"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00793",
+      "marker": "SCGB3A2",
+      "old_cell": "Secretory cell",
+      "new_cell": "Secretory—SCGB3A2+"
+    },
+    {
+      "id": "DOI_10.1038_s41588-024-01702-0_M00794",
+      "marker": "WNT2",
+      "old_cell": "WNT2+ fibroblast",
+      "new_cell": "WNT2+ FB"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01336",
+      "marker": "CD86",
+      "old_cell": "Macrophage",
+      "new_cell": "Macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01337",
+      "marker": "FLT3",
+      "old_cell": "Dendritic cell",
+      "new_cell": "Dendritic cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01338",
+      "marker": "IRF8",
+      "old_cell": "Dendritic cell",
+      "new_cell": "Dendritic cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01339",
+      "marker": "PTPRB",
+      "old_cell": "Endothelial cell",
+      "new_cell": "Endothelial cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01344",
+      "marker": "CD163",
+      "old_cell": "Macrophage",
+      "new_cell": "Macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01358",
+      "marker": "ISL1",
+      "old_cell": "Neuroblast",
+      "new_cell": "Neuroblasts"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01359",
+      "marker": "PHOX2B",
+      "old_cell": "Neuroblast",
+      "new_cell": "Neuroblasts"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02158-6_M01362",
+      "marker": "PLP1",
+      "old_cell": "Schwann cell",
+      "new_cell": "Schwann cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M00068",
+      "marker": "CHGA",
+      "old_cell": "Neuroendocrine cell",
+      "new_cell": "Enteroendocrine cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M00070",
+      "marker": "CHGA",
+      "old_cell": "Neuroendocrine cell",
+      "new_cell": "Neuroendocrine cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01401",
+      "marker": "HOPX",
+      "old_cell": "Alveolar type 1 cell",
+      "new_cell": "Alveolar type 1 cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01402",
+      "marker": "SFTPB",
+      "old_cell": "Alveolar type 2 cell",
+      "new_cell": "Alveolar type 2 cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01425",
+      "marker": "ASGR1",
+      "old_cell": "Hepatocyte",
+      "new_cell": "Hepatocytes"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01442",
+      "marker": "ELAVL3",
+      "old_cell": "Neuron",
+      "new_cell": "Neural"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01444",
+      "marker": "DEFA5",
+      "old_cell": "Paneth cell",
+      "new_cell": "Paneth cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01445",
+      "marker": "DEFA6",
+      "old_cell": "Paneth cell",
+      "new_cell": "Paneth cells"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01453",
+      "marker": "PAX8",
+      "old_cell": "Thyrocyte",
+      "new_cell": "Thyrocytes"
+    },
+    {
+      "id": "DOI_10.1038_s41588-025-02182-6_M01454",
+      "marker": "AVIL",
+      "old_cell": "Tuft cell",
+      "new_cell": "Tuft cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00716",
+      "marker": "CCL19",
+      "old_cell": "Migratory dendritic cell",
+      "new_cell": "migratory DCs"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00717",
+      "marker": "CCR7",
+      "old_cell": "Migratory dendritic cell",
+      "new_cell": "migratory DCs"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00718",
+      "marker": "LAD1",
+      "old_cell": "Migratory dendritic cell",
+      "new_cell": "migratory DCs"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00719",
+      "marker": "CCR7",
+      "old_cell": "Migratory dendritic cell",
+      "new_cell": "migratory dendritic cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00723",
+      "marker": "SPP1",
+      "old_cell": "Monocyte-derived macrophage",
+      "new_cell": "monocyte-derived macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00724",
+      "marker": "FAM83D",
+      "old_cell": "Smooth muscle cell",
+      "new_cell": "smooth muscle FAM83D+"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00725",
+      "marker": "FAM83D",
+      "old_cell": "Smooth muscle cell",
+      "new_cell": "smooth muscle FAM83D+ cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M00726",
+      "marker": "SPP1",
+      "old_cell": "Monocyte-derived macrophage",
+      "new_cell": "SPP1+ profibrotic monocyte-derived macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M02572",
+      "marker": "MKI67",
+      "old_cell": "Proliferating cell",
+      "new_cell": "Proliferating cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-023-02327-2_M02573",
+      "marker": "SCGB3A2",
+      "old_cell": "Secretory cell",
+      "new_cell": "preterminal bronchiole secretory cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-024-03215-z_M01309",
+      "marker": "EPCAM",
+      "old_cell": "Malignant breast cancer cell",
+      "new_cell": "epithelial cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-024-03215-z_M01311",
+      "marker": "CD163",
+      "old_cell": "Tumor-associated macrophage",
+      "new_cell": "Macrophage"
+    },
+    {
+      "id": "DOI_10.1038_s41591-024-03215-z_M01315",
+      "marker": "CD68",
+      "old_cell": "Tumor-associated macrophage",
+      "new_cell": "macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s41591-024-03215-z_M02574",
+      "marker": "KRT8",
+      "old_cell": "Malignant breast cancer cell",
+      "new_cell": "Epithelial breast cancer cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-024-03215-z_M02575",
+      "marker": "KRT18",
+      "old_cell": "Malignant breast cancer cell",
+      "new_cell": "Epithelial breast cancer cells"
+    },
+    {
+      "id": "DOI_10.1038_s41591-024-03215-z_M02576",
+      "marker": "KRT19",
+      "old_cell": "Malignant breast cancer cell",
+      "new_cell": "Epithelial breast cancer cells"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01318",
+      "marker": "FLT1",
+      "old_cell": "Endothelial cell",
+      "new_cell": "Endothelial cells"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01319",
+      "marker": "COL3A1",
+      "old_cell": "Hepatic stellate cell",
+      "new_cell": "Hepatic stellate cells"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01320",
+      "marker": "COL6A3",
+      "old_cell": "Hepatic stellate cell",
+      "new_cell": "Hepatic stellate cells"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01321",
+      "marker": "ALB",
+      "old_cell": "Hepatocyte",
+      "new_cell": "Hepatocytes"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01322",
+      "marker": "APOC3",
+      "old_cell": "Hepatocyte",
+      "new_cell": "Hepatocytes"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01323",
+      "marker": "CYP3A4",
+      "old_cell": "Hepatocyte",
+      "new_cell": "Hepatocytes"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01324",
+      "marker": "HPGD",
+      "old_cell": "Hepatocyte",
+      "new_cell": "Hepatocytes"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01326",
+      "marker": "CD163",
+      "old_cell": "Kupffer cell",
+      "new_cell": "Kupffer cells"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01327",
+      "marker": "CD68",
+      "old_cell": "Kupffer cell",
+      "new_cell": "Kupffer cells"
+    },
+    {
+      "id": "DOI_10.1038_s42003-021-02562-8_M01329",
+      "marker": "GPC3",
+      "old_cell": "Hepatoblastoma tumor cell",
+      "new_cell": "Tumor cells"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01811",
+      "marker": "moxd1",
+      "old_cell": "Wound surface macrophage",
+      "new_cell": "cluster 1"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01816",
+      "marker": "moxd1",
+      "old_cell": "Wound surface macrophage",
+      "new_cell": "Cluster 1 mono/Mphi"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01834",
+      "marker": "gda",
+      "old_cell": "Wound-associated macrophage",
+      "new_cell": "cluster 4"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01846",
+      "marker": "tcf21",
+      "old_cell": "Epicardial cell / cardiac fibroblast",
+      "new_cell": "epicardial cells and fibroblasts"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01853",
+      "marker": "lcp1",
+      "old_cell": "Macrophage / Leukocyte",
+      "new_cell": "lcp1+ macrophage"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01857",
+      "marker": "havcr1",
+      "old_cell": "Cardiac injury macrophage",
+      "new_cell": "macrophage"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01862",
+      "marker": "Folr2",
+      "old_cell": "Resident cardiac macrophage",
+      "new_cell": "mm4 macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01863",
+      "marker": "Lyve1",
+      "old_cell": "Resident cardiac macrophage",
+      "new_cell": "mm4 macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01864",
+      "marker": "Timd4",
+      "old_cell": "Resident cardiac macrophage",
+      "new_cell": "mm4 macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01875",
+      "marker": "gda",
+      "old_cell": "Wound-associated macrophage",
+      "new_cell": "zebrafish cluster 4 macrophages"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M01883",
+      "marker": "mpeg1.1",
+      "old_cell": "Macrophage",
+      "new_cell": "zebrafish mono/Mphi"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M02577",
+      "marker": "moxd1",
+      "old_cell": "Wound surface macrophage",
+      "new_cell": "mono/Mϕ clusters 1, 2 and 7"
+    },
+    {
+      "id": "DOI_10.1038_s42003-024-07315-x_M02578",
+      "marker": "havcr1",
+      "old_cell": "Cardiac injury macrophage",
+      "new_cell": "mono/Mϕ clusters 3, 4 and 6"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M00095",
+      "marker": "Plp1",
+      "old_cell": "Schwann cell",
+      "new_cell": "Schwann"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M00096",
+      "marker": "Sox10",
+      "old_cell": "Schwann cell",
+      "new_cell": "Schwann"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01612",
+      "marker": "Gcg",
+      "old_cell": "Pancreatic alpha cell",
+      "new_cell": "α"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01613",
+      "marker": "Gcg",
+      "old_cell": "Pancreatic alpha cell",
+      "new_cell": "α-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01617",
+      "marker": "Ttr",
+      "old_cell": "Pancreatic alpha cell",
+      "new_cell": "α-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01619",
+      "marker": "Ins1",
+      "old_cell": "Pancreatic beta cell",
+      "new_cell": "β"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01620",
+      "marker": "Ins2",
+      "old_cell": "Pancreatic beta cell",
+      "new_cell": "β"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01628",
+      "marker": "Ins1",
+      "old_cell": "Pancreatic beta cell",
+      "new_cell": "β-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01629",
+      "marker": "Ins2",
+      "old_cell": "Pancreatic beta cell",
+      "new_cell": "β-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01638",
+      "marker": "Rbp4",
+      "old_cell": "Pancreatic delta cell",
+      "new_cell": "β-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01641",
+      "marker": "Ppy",
+      "old_cell": "Pancreatic gamma cell",
+      "new_cell": "γ"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01642",
+      "marker": "Ppy",
+      "old_cell": "Pancreatic gamma cell",
+      "new_cell": "γ-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01644",
+      "marker": "Sst",
+      "old_cell": "Pancreatic delta cell",
+      "new_cell": "δ"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01647",
+      "marker": "Rbp4",
+      "old_cell": "Pancreatic delta cell",
+      "new_cell": "δ-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01650",
+      "marker": "Sst",
+      "old_cell": "Pancreatic delta cell",
+      "new_cell": "δ-cell"
+    },
+    {
+      "id": "DOI_10.1038_s42255-023-00876-x_M01651",
+      "marker": "Ghrl",
+      "old_cell": "Pancreatic epsilon cell",
+      "new_cell": "ε"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01092",
+      "marker": "CD1C",
+      "old_cell": "Conventional Dendritic Cell Type 2",
+      "new_cell": "cDC2"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01093",
+      "marker": "CD14",
+      "old_cell": "Classical Monocyte-derived Phagocyte",
+      "new_cell": "classical myeloid DC (cDC)"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01095",
+      "marker": "CD1C",
+      "old_cell": "Conventional Dendritic Cell Type 2",
+      "new_cell": "MNP cluster"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01096",
+      "marker": "CLEC9A",
+      "old_cell": "Conventional Dendritic Cell Type 1",
+      "new_cell": "MNP cluster"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01101",
+      "marker": "CD14",
+      "old_cell": "Classical Monocyte-derived Phagocyte",
+      "new_cell": "MNPa and MNPd"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01102",
+      "marker": "FCGR3A",
+      "old_cell": "Non-Classical Monocyte-derived Phagocyte",
+      "new_cell": "MNPb"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01103",
+      "marker": "CD14",
+      "old_cell": "Classical Monocyte-derived Phagocyte",
+      "new_cell": "monocyte-derived macrophages"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M01105",
+      "marker": "KRT17",
+      "old_cell": "Pelvic Epithelial Cell",
+      "new_cell": "pelvic epithelium (PE)"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M02579",
+      "marker": "LCN2",
+      "old_cell": "Pelvic Epithelial Cell",
+      "new_cell": "pelvic epithelium"
+    },
+    {
+      "id": "DOI_10.1126_science.aat5031_M02580",
+      "marker": "MRC1",
+      "old_cell": "Tissue-Resident Macrophage",
+      "new_cell": "MNPd"
+    },
+    {
+      "id": "DOI_10.1126_science.abl4290_M01467",
+      "marker": "LYVE1",
+      "old_cell": "Perivascular Macrophage",
+      "new_cell": "MΦ LYVE1high"
+    },
+    {
+      "id": "DOI_10.1126_science.abl4290_M02581",
+      "marker": "F13A1",
+      "old_cell": "Perivascular Macrophage",
+      "new_cell": "MΦ LYVE1high"
+    },
+    {
+      "id": "DOI_10.1126_science.abl4290_M02582",
+      "marker": "HLA-DRA",
+      "old_cell": "Antigen-Presenting Macrophage",
+      "new_cell": "MΦ HLAIIhigh"
+    },
+    {
+      "id": "DOI_10.1126_science.abl4290_M02583",
+      "marker": "TREM2",
+      "old_cell": "Lipid-Associated Macrophage",
+      "new_cell": "LAM-like macrophages"
+    },
+    {
+      "id": "DOI_10.1126_science.abl4290_M02584",
+      "marker": "DCN",
+      "old_cell": "Fibroblast",
+      "new_cell": "Fibroblasts"
+    },
+    {
+      "id": "DOI_10.1126_science.abl4290_M02585",
+      "marker": "NPNT",
+      "old_cell": "Lung-Specific Fibroblast",
+      "new_cell": "Lung fibroblasts"
+    },
+    {
+      "id": "DOI_10.7554_elife.62522_C04",
+      "marker": "CTSL",
+      "old_cell": "Lung macrophage",
+      "new_cell": "macrophage"
+    },
+    {
+      "id": "DOI_10.7554_elife.62522_C05",
+      "marker": "BSG",
+      "old_cell": "Lung endothelial cell",
+      "new_cell": "endothelial cell"
+    },
+    {
+      "id": "PMID_35115729_M00076",
+      "marker": "Prx",
+      "old_cell": "Myelinating Schwann Cell",
+      "new_cell": "myelinating Schwann cell (mSC)"
+    },
+    {
+      "id": "PMID_35115729_M00078",
+      "marker": "Mbp",
+      "old_cell": "Myelinating Schwann Cell",
+      "new_cell": "myelinating Schwann cell (mSC)"
+    },
+    {
+      "id": "PMID_35115729_M00082",
+      "marker": "Cldn14",
+      "old_cell": "Motor-associated Myelinating Schwann Cell",
+      "new_cell": "myelinating Schwann cell (mSC)"
+    },
+    {
+      "id": "PMID_35115729_M00083",
+      "marker": "Adamtsl1",
+      "old_cell": "Motor-associated Myelinating Schwann Cell",
+      "new_cell": "myelinating Schwann cell (mSC)"
+    },
+    {
+      "id": "PMID_35115729_M00084",
+      "marker": "Pmp2",
+      "old_cell": "Motor-associated Myelinating Schwann Cell",
+      "new_cell": "myelinating Schwann cell (mSC)"
+    },
+    {
+      "id": "PMID_35115729_M00087",
+      "marker": "Scn7a",
+      "old_cell": "Non-Myelinating Schwann Cell",
+      "new_cell": "non-myelinating Schwann cell (nmSC)"
+    },
+    {
+      "id": "PMID_35115729_M00093",
+      "marker": "Ngfr",
+      "old_cell": "Non-Myelinating Schwann Cell",
+      "new_cell": "non-myelinating Schwann cell (nmSC)"
+    },
+    {
+      "id": "PMID_35115729_M01516",
+      "marker": "Pdgfra",
+      "old_cell": "Endoneurial Fibroblast",
+      "new_cell": "endoneurial fibroblasts (EFs)"
+    },
+    {
+      "id": "PMID_35115729_M01517",
+      "marker": "Cd34",
+      "old_cell": "Endoneurial Fibroblast",
+      "new_cell": "endoneurial/epineurial fibroblasts"
+    },
+    {
+      "id": "PMID_35115729_M01525",
+      "marker": "Chat",
+      "old_cell": "Motor Axon",
+      "new_cell": "motor axons"
+    },
+    {
+      "id": "PMID_35115729_M01529",
+      "marker": "Slc2a1",
+      "old_cell": "Perineurial Cell",
+      "new_cell": "perineurial fibroblasts"
+    },
+    {
+      "id": "PMID_35115729_M01885",
+      "marker": "Pdgfra",
+      "old_cell": "Endoneurial Fibroblast",
+      "new_cell": "epineurial fibroblasts"
+    },
+    {
+      "id": "PMID_35115729_M02589",
+      "marker": "Tubb3",
+      "old_cell": "Axon",
+      "new_cell": "Axons"
+    },
+    {
+      "id": "CTX_35115729_CLEC3B",
+      "marker": "Clec3b",
+      "old_cell": "Epineurial Fibroblast",
+      "new_cell": "Epineurial / stromal fibroblasts"
+    }
+  ],
+  "unresolved_count": 28,
+  "unique_ids": 28,
+  "original_ids_match": true,
+  "reason_mismatches": [],
+  "missing_images": []
+}

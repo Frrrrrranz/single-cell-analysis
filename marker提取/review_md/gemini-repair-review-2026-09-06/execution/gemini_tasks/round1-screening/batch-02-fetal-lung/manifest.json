@@ -1,0 +1,43 @@
+{
+  "batch_id": "batch-02-fetal-lung",
+  "created_at": "2026-09-06T19:59:55.546820",
+  "executor": "Gemini 3.8 Flash (thinking: high)",
+  "manual_version": "operations-manual.md v1.2",
+  "policy_version": "MARKER_POLICY.md v1.2",
+  "baseline_hashes": {
+    "our_markers.xlsx": "9557463f25ee2f654b9cb7980287140e7cf239276da34c7a6e746a59bc8bbd35",
+    "our_markers_by_cell.xlsx": "4238e833dc86111f12cb3bc5fe27357603c4cf7e7fb174b2ca559194e99a8ea4"
+  },
+  "batch_summary": {
+    "total_baseline_records": 277,
+    "papers_covered": [
+      "DOI_10.1016_j.stem.2022.11.013",
+      "DOI_10.1016_j.cell.2022.11.005"
+    ],
+    "action_breakdown": {
+      "keep": 187,
+      "context_only": 44,
+      "merge_duplicate": 33,
+      "exclude": 11,
+      "update": 2
+    }
+  },
+  "deliverables": {
+    "manifest.json": "batch-02-fetal-lung/manifest.json",
+    "screening_round1.json": "batch-02-fetal-lung/screening_round1.json",
+    "evidence_index.json": "batch-02-fetal-lung/evidence_index.json",
+    "coverage.json": "batch-02-fetal-lung/coverage.json",
+    "handoff_to_luna.md": "batch-02-fetal-lung/handoff_to_luna.md",
+    "PROGRESS.md": "batch-02-fetal-lung/PROGRESS.md",
+    "evidence_images": [
+      "evidence_images/stem_2022_fig3_at2_hopx.png",
+      "evidence_images/stem_2022_figs1_tip_epithelium.png",
+      "evidence_images/stem_2022_figs5_myofibroblast_wnt2_at1.png",
+      "evidence_images/cell_2022_fig2_epithelial_subtypes.png",
+      "evidence_images/cell_2022_fig4_mesenchymal_types.png",
+      "evidence_images/cell_2022_fig7_neuroendocrine_subtypes.png",
+      "evidence_images/cell_2022_figs7_endothelial_mesenchymal.png",
+      "evidence_images/cell_2022_figs8_tf_ne_subtypes.png"
+    ]
+  }
+}

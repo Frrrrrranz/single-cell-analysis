@@ -1,0 +1,473 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41588-024-01702-0",
+  "doi": "10.1038/s41588-024-01702-0",
+  "pmid": "38548990",
+  "title": "Mapping cell-type-specific and disease-interaction eQTLs in the human lung",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Genetics 原文（10页），包含主图 Figures 1-6、详细 Methods 实验及图表"
+    },
+    {
+      "material_name": "DOI_10.1038_s41588-024-01702-0.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 114 例肺组织（正常与 ILD 纤维化）、475,047 个单细胞的 43 种细胞类型注释、谱系分选标志物及 cis-eQTL 映射"
+    },
+    {
+      "material_name": "Supplementary Information & Supplementary Tables 1-9",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Tables 1-9（特别是 Table 2 细胞 Marker 与 Table 7 GWAS）的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Immune_Cells",
+      "cluster_name": "Immune cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺组织浸润与常驻免疫细胞大类（包含巨噬细胞、单核细胞、T/NK细胞、B细胞、树突状细胞等），由 PTPRC+ 门控聚类"
+    },
+    {
+      "cluster_id": "Cluster_Epithelial_Cells",
+      "cluster_name": "Epithelial cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺上皮细胞大类（包含气道分泌细胞、纤毛细胞、基底细胞及肺泡 AT1/AT2 细胞），由 EPCAM+ 门控聚类"
+    },
+    {
+      "cluster_id": "Cluster_Endothelial_Cells",
+      "cluster_name": "Endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺血管与淋巴内皮细胞大类，由 PECAM1+/PTPRC- 门控聚类"
+    },
+    {
+      "cluster_id": "Cluster_Mesenchymal_Cells",
+      "cluster_name": "Mesenchymal cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺间充质细胞大类（包含各类成纤维细胞、平滑肌细胞与周细胞），由 PTPRC-/EPCAM-/PECAM1- 阴性排除聚类"
+    },
+    {
+      "cluster_id": "Cluster_Macrophage_SPP1_pos",
+      "cluster_name": "SPP1+ macrophage",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺纤维化中显著活化并参与致纤维化反应的 SPP1 高表达巨噬细胞亚群"
+    },
+    {
+      "cluster_id": "Cluster_WNT2_pos_FB",
+      "cluster_name": "WNT2+ fibroblast",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺间充质中特异表达 WNT2 的成纤维细胞亚群"
+    },
+    {
+      "cluster_id": "Cluster_CA4_pos_Capillary",
+      "cluster_name": "CA4+ capillary endothelial cell",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺泡毛细血管内皮细胞，高表达碳酸酐酶 CA4"
+    },
+    {
+      "cluster_id": "Cluster_Secretory_MUC5B_pos",
+      "cluster_name": "Secretory SCGB1A1+/MUC5B+ cell",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺气道粘液分泌/杯状细胞亚群，高表达 MUC5B 与 SCGB1A1，与 IPF 强关联"
+    },
+    {
+      "cluster_id": "Cluster_Secretory_SCGB3A2_pos",
+      "cluster_name": "Secretory SCGB1A1+/SCGB3A2+ cell",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺远端细支气管分泌细胞（Club 样细胞），特异表达 SCGB3A2 与 SCGB1A1"
+    },
+    {
+      "cluster_id": "Cluster_Aberrant_Basaloid",
+      "cluster_name": "KRT5-/KRT17+ aberrant basaloid cell",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "four_layer_category": "outside",
+      "description": "肺纤维化病理特异的异常基底样上皮细胞，特征为 KRT5 阴性、KRT17 强阳性"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M01",
+      "marker": "PTPRC",
+      "marker_original": "PTPRC",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Immune cell",
+      "cell_type_original": "immune cells",
+      "author_cluster_id": "Cluster_Immune_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq of 475,047 cells from 114 human lung samples (ILD and unaffected)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Protein tyrosine phosphatase receptor type C (CD45) transcript and cell-surface protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods, Participants, samples and tissue processing; Data integration, clustering",
+      "source_context": "The resulting clusters were divided into four major cell subgroups based on marker gene expression: PTPRC+ for immune cells; cell sorting using serial columns (Miltenyi MicroBeads, CD235a and CD45)",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 8,
+          "printed_page": 602,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "PTPRC+ for immune cells",
+          "mapping_basis": "Lineage gating and CD45 MACS/FACS sorting"
+        }
+      ],
+      "validation_method": "MACS/FACS cell sorting / scRNA-seq lineage isolation",
+      "gate_definition": "PTPRC+",
+      "notes": "CD45/PTPRC used both in tissue dissociation sorting and computational lineage separation",
+      "decision_reason": "Direct experimental gating marker separating the entire immune cell compartment"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M02",
+      "marker": "EPCAM",
+      "marker_original": "EPCAM",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Epithelial cell",
+      "cell_type_original": "epithelial cells",
+      "author_cluster_id": "Cluster_Epithelial_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq of 475,047 cells across 114 lung donors",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Epithelial cell adhesion molecule transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods, Data integration, clustering, cell type annotation",
+      "source_context": "EPCAM+ for epithelial cells; PECAM1/+PTPRC− for endothelial cells; and PTPRC−/EPCAM−/PECAM1− for mesenchymal cells.",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 8,
+          "printed_page": 602,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "EPCAM+ for epithelial cells",
+          "mapping_basis": "Lineage defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq computational subgrouping",
+      "gate_definition": "EPCAM+",
+      "notes": "Canonical epithelial gate in single-cell lung decomposition",
+      "decision_reason": "Defines the entire epithelial lineage subgroup for second-tier subclustering"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M03",
+      "marker": "PECAM1",
+      "marker_original": "PECAM1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Endothelial cell",
+      "cell_type_original": "endothelial cells",
+      "author_cluster_id": "Cluster_Endothelial_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq of 475,047 human lung cells",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Platelet and endothelial cell adhesion molecule 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods, Data integration, clustering, cell type annotation",
+      "source_context": "PECAM1/+PTPRC− for endothelial cells",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 8,
+          "printed_page": 602,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "PECAM1/+PTPRC− for endothelial cells",
+          "mapping_basis": "Lineage defining combination"
+        }
+      ],
+      "validation_method": "scRNA-seq computational subgrouping",
+      "gate_definition": "PECAM1+ PTPRC-",
+      "notes": "Specifically marks endothelial lineage while excluding CD45+ leukocytes",
+      "decision_reason": "Primary lineage gate identifying all vascular and lymphatic endothelial cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M04",
+      "marker": "SPP1",
+      "marker_original": "SPP1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SPP1+ macrophage",
+      "cell_type_original": "Macrophage − SPP1+",
+      "author_cluster_id": "Cluster_Macrophage_SPP1_pos",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq and cis-eQTL mapping in human pulmonary fibrosis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secreted phosphoprotein 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text Fig. 1c, Fig. 2c, Table cell type list",
+      "source_context": "Identification and profiling of Macrophage − SPP1+ as a distinct fibrosis-associated myeloid cell type",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 2,
+          "printed_page": 596,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Macrophage − SPP1+",
+          "mapping_basis": "Marker-defined cell cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq differential expression & cluster annotation",
+      "gate_definition": null,
+      "notes": "Well-known profibrotic alveolar/interstitial macrophage subset",
+      "decision_reason": "Gene name directly embedded in cluster nomenclature and used for cell-type eQTL mapping"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M05",
+      "marker": "WNT2",
+      "marker_original": "WNT2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "WNT2+ fibroblast",
+      "cell_type_original": "WNT2+ FB",
+      "author_cluster_id": "Cluster_WNT2_pos_FB",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq across 114 human lung samples",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Wnt family member 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text Fig. 1c, Fig. 2c, Mesenchymal subclusters",
+      "source_context": "WNT2+ FB annotated as a distinct fibroblast population among mesenchymal lineages",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 2,
+          "printed_page": 596,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "WNT2+ FB",
+          "mapping_basis": "Marker-defined cell cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Distinguishes specialized peribronchial/alveolar niche fibroblasts",
+      "decision_reason": "WNT2 directly names and distinguishes this mesenchymal fibroblast subset"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M06",
+      "marker": "CA4",
+      "marker_original": "CA4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "CA4+ capillary endothelial cell",
+      "cell_type_original": "CA4+ capillary",
+      "author_cluster_id": "Cluster_CA4_pos_Capillary",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq of human lung vascular endothelial cells",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Carbonic anhydrase 4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text Fig. 1c, Fig. 2c, Endothelial subclustering",
+      "source_context": "CA4+ capillary microvascular endothelial cells participating in gas exchange",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 2,
+          "printed_page": 596,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CA4+ capillary",
+          "mapping_basis": "Marker-defined cell cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Distinguishes aerocyte/alveolar capillary endothelial cells from general capillary cells",
+      "decision_reason": "CA4 specifically defines and names the specialized capillary endothelial population"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M07",
+      "marker": "MUC5B",
+      "marker_original": "MUC5B",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Secretory cell",
+      "cell_type_original": "Secretory—SCGB1A1+/MUC5B+",
+      "author_cluster_id": "Cluster_Secretory_MUC5B_pos",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq and GWAS colocalization in human pulmonary fibrosis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Mucin 5B, oligomeric mucus/gel-forming transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 598, Fig. 1c, Fig. 6",
+      "source_context": "Secretory—SCGB1A1+/MUC5B+; MUC5B was robustly expressed and colocalized with the top IPF risk variants in specific epithelial cell types.",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 4,
+          "printed_page": 598,
+          "figure_panel": "Fig. 1c, Fig. 6",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Secretory—SCGB1A1+/MUC5B+; MUC5B was robustly expressed and colocalized with top IPF risk variants",
+          "mapping_basis": "scRNA-seq expression and GWAS colocalization"
+        }
+      ],
+      "validation_method": "scRNA-seq & Bayesian GWAS colocalization",
+      "gate_definition": null,
+      "notes": "Major genetic risk locus in IPF driving excessive airway mucus production",
+      "decision_reason": "Dual evidence: cluster definition and genetic colocalization in airway secretory cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M08",
+      "marker": "SCGB3A2",
+      "marker_original": "SCGB3A2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Secretory cell",
+      "cell_type_original": "Secretory—SCGB1A1+/SCGB3A2+",
+      "author_cluster_id": "Cluster_Secretory_SCGB3A2_pos",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq in human airway epithelial lineages",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secretoglobin family 3A member 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text Fig. 1c, Fig. 2c, Table",
+      "source_context": "Secretory—SCGB1A1+/SCGB3A2+ subpopulation in human respiratory epithelium",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 2,
+          "printed_page": 596,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Secretory—SCGB1A1+/SCGB3A2+",
+          "mapping_basis": "Marker-defined cell cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Characteristic of distal club cells in terminal bronchioles",
+      "decision_reason": "Names and delineates the distal club-like secretory cell subpopulation"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M09",
+      "marker": "SCGB1A1",
+      "marker_original": "SCGB1A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Secretory cell",
+      "cell_type_original": "Secretory cells",
+      "author_cluster_id": "Cluster_Secretory_MUC5B_pos",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq in human airway epithelial lineages",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secretoglobin family 1A member 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text Fig. 1c, Fig. 2c, Table",
+      "source_context": "Secretory—SCGB1A1+/SCGB3A2+ and Secretory—SCGB1A1+/MUC5B+",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 2,
+          "printed_page": 596,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Secretory—SCGB1A1+",
+          "mapping_basis": "Marker-defined cell cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Core lineage marker for all secretory/club lineages in human lung",
+      "decision_reason": "Core secretory lineage marker defining both major secretory subclusters"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-024-01702-0_M10",
+      "marker": "KRT17",
+      "marker_original": "KRT17",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Aberrant basaloid cell",
+      "cell_type_original": "KRT5−/KRT17+ aberrant basaloid cells",
+      "author_cluster_id": "Cluster_Aberrant_Basaloid",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "scRNA-seq and interaction eQTL mapping in human pulmonary fibrosis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 17 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text Fig. 1c, Methods Disease interaction cell-type eQTL mapping",
+      "source_context": "KRT5−KRT17+ cell type in fibrotic lungs",
+      "sources": [
+        {
+          "file": "PMID_38548990_Mapping cell-type-specific and disease-interaction eQTLs in the human lung.pdf",
+          "pdf_page": 8,
+          "printed_page": 602,
+          "figure_panel": "Fig. 1c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "KRT5−KRT17+",
+          "mapping_basis": "Marker combination defining pathogenic cell state"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation & eQTL mapping",
+      "gate_definition": "KRT5- KRT17+",
+      "notes": "Epithelial cell state emerging specifically in fibrotic remodeling and senescence",
+      "decision_reason": "Positive defining marker distinguishing aberrant basaloid cells from classic basal cells"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Genetics article (10 pages including main text Figures 1-6, Methods, and accompanying legends).",
+    "missing_materials": "External Supplementary Tables 1-9 (large supplementary tables) not locally provided.",
+    "potential_leakage_scope": "eQTL summary statistics and whole-genome cis-regulatory interaction networks."
+  }
+}

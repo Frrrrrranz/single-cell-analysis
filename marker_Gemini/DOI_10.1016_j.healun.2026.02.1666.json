@@ -1,0 +1,176 @@
+{
+  "schema_version": 3,
+  "paper_id": "10.1016/j.healun.2026.02.1666",
+  "title": "Human lung allografts experience persistent fibrogenic shift following acute cellular rejection",
+  "documents_reviewed": [
+    {
+      "file_name": "DOI_10.1016_j.healun.2026.02.1666.pdf",
+      "document_role": "primary",
+      "review_status": "complete",
+      "notes": "包含正文、图 1-4、表 1-3，共 13 页；论文指出完整 59 群 Marker 见 Supplemental Table 3 及在线平台"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "clustering_level": "全局跨区室整合聚类",
+      "population": "人肺同种异体移植经支气管活检细胞 (56,676 cells)",
+      "species": "human",
+      "tissue_condition": "肺移植后急性细胞性排斥反应 (ACR)、Resolved 及 Never 对照",
+      "clusters_reported": 59,
+      "annotation_labels_reported": 59,
+      "author_cell_labels": [
+        "Lymphoid",
+        "Myeloid",
+        "Stromal",
+        "Epithelial",
+        "Endothelial",
+        "Alveolar Fibroblast",
+        "Adventitial Fibroblast",
+        "Myofibroblast",
+        "Vascular Smooth Muscle",
+        "Pericyte",
+        "AT1",
+        "AT2",
+        "Basal",
+        "Proliferating basal",
+        "Teff",
+        "Trm",
+        "Texhaust",
+        "Tfh",
+        "Treg",
+        "B cell",
+        "Plasma cell",
+        "NK cell",
+        "Dendritic cell",
+        "Macrophage",
+        "Monocyte"
+      ],
+      "source_locator": "Main Text, Results p. 1151 (pdf_page 3); Figure 1A, Supplemental Figure 1",
+      "coverage_notes": "识别出 5 大组织区室共 59 个独特细胞群，各亚群特异性 Marker 主要存放于 Supplemental Table 3 及 Lung AlloMap 门户"
+    }
+  ],
+  "formal_markers": [
+    {
+      "cell_type": "Myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "tissue_condition": "肺同种异体移植活检组织 (ACR 与 Resolved 样本)",
+      "gene_original": "α-SMA (ACTA2)",
+      "gene_normalized": "ACTA2",
+      "normalization_status": "exact",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "document_role": "primary",
+      "pdf_page": 5,
+      "printed_page": 1153,
+      "source_locator": "Main Text p. 1153; Figure 3A",
+      "source_context": "suggests state transition within the fibrogenic compartment, accompanied by upregulation of myofibroblast markers α-SMA (ACTA2) and TAGLN (Figure 3A).",
+      "confidence": "high",
+      "notes": "作者明确声明为肌成纤维细胞 Marker"
+    },
+    {
+      "cell_type": "Myofibroblast",
+      "subtype": null,
+      "species": "human",
+      "tissue_condition": "肺同种异体移植活检组织 (ACR 与 Resolved 样本)",
+      "gene_original": "TAGLN",
+      "gene_normalized": "TAGLN",
+      "normalization_status": "exact",
+      "evidence_type": "author_declared",
+      "marker_polarity": "positive",
+      "document_role": "primary",
+      "pdf_page": 5,
+      "printed_page": 1153,
+      "source_locator": "Main Text p. 1153, 1154; Figure 3A; Supplemental Figure 5A",
+      "source_context": "accompanied by upregulation of myofibroblast markers α-SMA (ACTA2) and TAGLN (Figure 3A)... with myofibroblast marker TAGLN also increasing in AT1",
+      "confidence": "high",
+      "notes": "作者明确声明为肌成纤维细胞 Marker"
+    },
+    {
+      "cell_type": "Endothelial",
+      "subtype": null,
+      "species": "human",
+      "tissue_condition": "肺同种异体移植活检组织",
+      "gene_original": "VE-Cadherin",
+      "gene_normalized": "CDH5",
+      "normalization_status": "alias_resolved",
+      "evidence_type": "annotation_marker",
+      "marker_polarity": "positive",
+      "document_role": "primary",
+      "pdf_page": 7,
+      "printed_page": 1155,
+      "source_locator": "Main Text p. 1155",
+      "source_context": "IF analysis of phospho-STAT1 (pSTAT1-Y701)... revealed decreased pSTAT1+ cells specifically within VE-Cadherin+ cells... Endothelial cells, which serve as the primary interface...",
+      "confidence": "high",
+      "notes": "作者实际使用 VE-Cadherin (CDH5) 门控识别内皮细胞"
+    }
+  ],
+  "context_candidates": [
+    {
+      "cell_type": "Fibrogenic cell",
+      "gene_original": "COL3A1",
+      "evidence_type": "cluster_enriched",
+      "source_locator": "Main Text p. 1153; Figure 2C/D, Table 3",
+      "source_context": "COL3A1+ cells showed significant enrichment in ACR (36.0%)... Percentage of cells positive for COL3A1 (TGF-β-induced collagen)",
+      "reason_not_formal": "TGF-β 诱导的胶原基质分泌功能状态标记，并非细胞谱系注释 Marker"
+    },
+    {
+      "cell_type": "Fibrogenic cell",
+      "gene_original": "THY1",
+      "evidence_type": "cluster_enriched",
+      "source_locator": "Main Text p. 1153",
+      "source_context": "Broad upregulation of THY1, which modulates myofibroblast lineage, across fibroblast subtypes and VSM cells",
+      "reason_not_formal": "调控肌成纤维细胞谱系的状态转变基因，属于差异上调基因"
+    },
+    {
+      "cell_type": "Myofibroblast",
+      "gene_original": "ASPN",
+      "evidence_type": "cluster_enriched",
+      "source_locator": "Main Text p. 1153",
+      "source_context": "ASPN, an extracellular protein that induces myofibroblast differentiation, was increased in adventitial fibroblasts, VSM and myofibroblasts",
+      "reason_not_formal": "诱导分化的细胞外蛋白差异基因，未作为定义该细胞群的独有 Marker"
+    }
+  ],
+  "unresolved": [
+    {
+      "cell_type": "59 individual clusters in Lung AlloMap",
+      "gene_original": null,
+      "source_locator": "Main Text p. 1151, Results; Supplemental Table 3",
+      "source_context": "Cell-type marker information is available through the Lung AlloMap web portal (https://lungallomap.net) and Supplemental Table 3.",
+      "reason": "主论文 PDF 未在正文或图注中逐一罗列全部 59 群的完整 Marker 列表，作者将详细清单导向补充表 3 及在线平台"
+    }
+  ],
+  "coverage_summary": {
+    "all_main_text_checked": true,
+    "all_figure_legends_checked": true,
+    "all_tables_checked": true,
+    "supplement_checked": false,
+    "extended_data_checked": true,
+    "reported_cell_labels_without_formal_markers": [
+      "Alveolar Fibroblast",
+      "Adventitial Fibroblast",
+      "Vascular Smooth Muscle",
+      "Pericyte",
+      "AT1",
+      "AT2",
+      "Basal",
+      "Proliferating basal",
+      "Teff",
+      "Trm",
+      "Texhaust",
+      "Tfh",
+      "Treg",
+      "B cell",
+      "Plasma cell",
+      "NK cell",
+      "Dendritic cell",
+      "Macrophage",
+      "Monocyte"
+    ],
+    "missing_or_unavailable_materials": [
+      "Supplemental Table 3 (仅存放于外部在线补充材料中，本地 PDF 未附带)"
+    ],
+    "possible_output_truncation": false,
+    "completion_notes": "本篇正文中作者明确给予 Marker 声明的仅有 α-SMA (ACTA2)、TAGLN 与 VE-Cadherin (CDH5)，其余 59 群 Marker 数据均外置于补充表。"
+  }
+}

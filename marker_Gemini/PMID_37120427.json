@@ -1,0 +1,566 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "PMID_37120427",
+  "doi": "10.1038/s41467-023-38241-x",
+  "title": "Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含正文 13 页、Figure 1-7、Methods 及相关图注"
+    },
+    {
+      "material_name": "PMID_37120427.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含全文 Markdown 及详细图注"
+    },
+    {
+      "material_name": "Supplementary Figures 1-13",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中详述了 Supplementary Figures 1-13 的结果与对应图注"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "PEP",
+      "cluster_name": "Peptidergic nociceptors",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "肽能伤害感受神经元，表达 Scn10a (NaV1.8), Ntrk1, Calca"
+    },
+    {
+      "cluster_id": "PEP2",
+      "cluster_name": "PEP2 nociceptor subclass",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "机械痛敏肽能伤害感受器亚群，强共表达 Scn10a, Piezo2 与 Ntrk1"
+    },
+    {
+      "cluster_id": "NP",
+      "cluster_name": "Non-peptidergic nociceptors",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "非肽能伤害感受神经元"
+    },
+    {
+      "cluster_id": "NF",
+      "cluster_name": "Neurofilament / Large diameter neurons / Proprioceptors",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "大直径有髓感觉神经元及本体感觉神经元，表达 Piezo2, Nefh，缺乏 Scn10a"
+    },
+    {
+      "cluster_id": "TRPM8",
+      "cluster_name": "TRPM8+ cool sensing neurons",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "冷感受神经元，富集 Trpm8"
+    },
+    {
+      "cluster_id": "TH",
+      "cluster_name": "Tyrosine hydroxylase containing neurons / cLTMRs",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "C低阈值机械感受神经元，富集 Th"
+    },
+    {
+      "cluster_id": "SCHW",
+      "cluster_name": "Schwann cells",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L2",
+      "description": "周围神经施万细胞"
+    },
+    {
+      "cluster_id": "SATG",
+      "cluster_name": "Satellite glia",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L2",
+      "description": "周围神经节卫星胶质细胞"
+    },
+    {
+      "cluster_id": "Human_Sensory_Nociceptors",
+      "cluster_name": "Human Nociceptors (SCN10A+)",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "人类腰段 DRG 伤害感受神经元"
+    },
+    {
+      "cluster_id": "Human_Proprioceptors",
+      "cluster_name": "Human Proprioceptors / Large diameter neurons",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "人类大直径有髓感觉神经元及本体感觉神经元"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "PMID_37120427_M01",
+      "marker": "Scn10a",
+      "marker_original": "NaV1.8 (Scn10a)",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Peptidergic nociceptors",
+      "cell_type_original": "nociceptors (NaV1.8+)",
+      "author_cluster_id": "PEP",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Conditional knock-out mouse generation (NaV1.8-Cre) and RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "NaV1.8 sodium channel subunit",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text p. 2, Figure 1",
+      "source_context": "Piezo2 can be specifically depleted from nociceptors in mice by using the marker NaV1.8... We crossed NaV1.8-Cre mice with Piezo2-loxp mice",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Figure 1a-e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Piezo2 was deleted specifically from nociceptors by using the marker NaV1.8",
+          "mapping_basis": "author explicit lineage/marker for nociceptor-specific targeting"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "NaV1.8-Cre conditional driver",
+      "notes": "小鼠伤害感受神经元核心门控及标记分子"
+    },
+    {
+      "record_id": "PMID_37120427_M02",
+      "marker": "Piezo2",
+      "marker_original": "Piezo2",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "PEP2 nociceptor subclass",
+      "cell_type_original": "subset of nociceptors (NaV1.8+ Piezo2+)",
+      "author_cluster_id": "PEP2",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq and RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "mechanosensitive ion channel Piezo2",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 2, Figure 1a-c; Figure 6a,b,e",
+      "source_context": "ScRNA-seq of naive L3-L5 DRG cells demonstrates that Piezo2 is expressed by a subset of nociceptors (NaV1.8+ neurons)... 38±2% of DRG neurons expressing both NaV1.8 and Piezo2",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Figure 1a-e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ScRNA-seq... demonstrates that Piezo2 is expressed by a subset of nociceptors (NaV1.8+ neurons) in addition to large diameter neurons",
+          "mapping_basis": "author declared expression subset"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "NaV1.8+ Piezo2+",
+      "notes": "机械痛敏伤害感受神经元亚型特征通道"
+    },
+    {
+      "record_id": "PMID_37120427_M03",
+      "marker": "Ntrk1",
+      "marker_original": "Ntrk1 (TrkA)",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "PEP2 nociceptor subclass",
+      "cell_type_original": "nociceptor subset (NaV1.8+ Piezo2+ Ntrk1+)",
+      "author_cluster_id": "PEP2",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq and multiplex RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "NGF receptor TrkA",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 5, Figure 6a,b,e",
+      "source_context": "RNAscope of the lumbar DRGs of adult healthy mice indicated that NaV1.8, Piezo2 and Ntrk1 are co-expressed by 16±0.9% of all DRG neurons... Piezo2 and Ntrk1 were co-expressed in 38% of NaV1.8+ DRG neurons",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 6a,b,e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NaV1.8, Piezo2 and Ntrk1 (gene that encodes TrkA) are co-expressed by 16±0.9% of all DRG neurons",
+          "mapping_basis": "triple co-expression marker defining NGF-responsive mechanonociceptors"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "NaV1.8+ Piezo2+ Ntrk1+",
+      "notes": "小鼠 NGF 介导骨关节炎痛觉敏化的核心靶神经元亚型"
+    },
+    {
+      "record_id": "PMID_37120427_M04",
+      "marker": "Piezo2",
+      "marker_original": "Piezo2",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Neurofilament / Large diameter neurons / Proprioceptors",
+      "cell_type_original": "large diameter neurons (NF)",
+      "author_cluster_id": "NF",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq and RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "mechanosensory ion channel",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 2, p. 5; Figure 1a,b; Figure 6g",
+      "source_context": "as well as by large diameter neurons, which includes the proprioceptor subset (Fig. 1a,b)... single positive Piezo2 expressing neurons were larger diameter cells than single positive NaV1.8 expressing neurons, consistent with the idea that this population represents proprioceptors",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 6f,g",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "population of PIEZO2+/NaV1.8-/NTRK1- neurons represents proprioceptors",
+          "mapping_basis": "proprioceptor / large diameter mechanoreceptor marker"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "Piezo2+ NaV1.8- Ntrk1-",
+      "notes": "小鼠本体感觉神经元经典阳性标记"
+    },
+    {
+      "record_id": "PMID_37120427_M05",
+      "marker": "Scn10a",
+      "marker_original": "NaV1.8",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Neurofilament / Large diameter neurons / Proprioceptors",
+      "cell_type_original": "proprioceptors (NF)",
+      "author_cluster_id": "NF",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Murine DRG RNAscope cell size quantification",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "voltage gated sodium channel alpha subunit 10",
+      "marker_direction": "negative",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 5, Figure 6f,g",
+      "source_context": "population of PIEZO2+/NaV1.8-/NTRK1- neurons represents proprioceptors",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 6f,g",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "population of PIEZO2+/NaV1.8-/NTRK1- neurons represents proprioceptors",
+          "mapping_basis": "negative exclusion marker"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "NaV1.8 negative in proprioceptors",
+      "notes": "小鼠本体感受器排他阴性标记"
+    },
+    {
+      "record_id": "PMID_37120427_M06",
+      "marker": "SCN10A",
+      "marker_original": "NaV1.8 (SCN10A)",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "human nociceptors",
+      "author_cluster_id": "Human_Sensory_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Human lumbar DRG RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Nav1.8",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text p. 5, Figure 6c,d,e,f",
+      "source_context": "In human lumbar level DRG... examination of a total of 486 neurons showed that NaV1.8, PIEZO2 and NTRK1 were co-expressed by 19±4% of all DRG neurons",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 6c-f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "In human lumbar level DRG, a similar pattern of co-expression was observed by RNAscope... NaV1.8, PIEZO2 and NTRK1 were co-expressed by 19±4% of all DRG neurons",
+          "mapping_basis": "human nociceptor RNAscope marker"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "NaV1.8+ PIEZO2+ NTRK1+",
+      "notes": "人 DRG 伤害感受神经元确证阳性标记"
+    },
+    {
+      "record_id": "PMID_37120427_M07",
+      "marker": "PIEZO2",
+      "marker_original": "PIEZO2",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "human nociceptors",
+      "author_cluster_id": "Human_Sensory_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Human lumbar DRG RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "mechanosensory ion channel",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 5, Figure 6c-f",
+      "source_context": "PIEZO2 is more commonly expressed together with NaV1.8 and/or NTRK1 in human neurons (12% single expression of PIEZO2) compared to mouse (27% single expression)",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 6c-f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "PIEZO2 is more commonly expressed together with NaV1.8 and/or NTRK1 in human neurons",
+          "mapping_basis": "human mechanonociceptor co-expression"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "PIEZO2+ in human nociceptors",
+      "notes": "人 DRG 伤害感受器高频共表达机械通道"
+    },
+    {
+      "record_id": "PMID_37120427_M08",
+      "marker": "NTRK1",
+      "marker_original": "NTRK1",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Nociceptors",
+      "cell_type_original": "human nociceptors",
+      "author_cluster_id": "Human_Sensory_Nociceptors",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Human lumbar DRG RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "TrkA neurotrophin receptor",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 5, Figure 6c-f",
+      "source_context": "NTRK1 is more broadly expressed by NaV1.8+ cells in human compared to mouse (Fig. 6f)",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 6f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NTRK1 is more broadly expressed by NaV1.8+ cells in human compared to mouse",
+          "mapping_basis": "human nociceptor NGF receptor"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": null,
+      "notes": "人 DRG 伤害感受器广泛阳性受体"
+    },
+    {
+      "record_id": "PMID_37120427_M09",
+      "marker": "PIEZO2",
+      "marker_original": "PIEZO2",
+      "normalization_basis": "HGNC standard symbol",
+      "cell_type": "Human Proprioceptors",
+      "cell_type_original": "proprioceptors",
+      "author_cluster_id": "Human_Proprioceptors",
+      "species": "human",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Human DRG RNAscope",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "PIEZO2 mechanosensory channel",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 5, Figure 6f,h",
+      "source_context": "In both species, single positive PIEZO2 expressing neurons were larger diameter cells than single positive NaV1.8 expressing neurons, consistent with the idea that this population of PIEZO2+/NaV1.8-/NTRK1- neurons represents proprioceptors",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 6f,h",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "population of PIEZO2+/NaV1.8-/NTRK1- neurons represents proprioceptors",
+          "mapping_basis": "defining human proprioceptors"
+        }
+      ],
+      "validation_method": "RNAscope in situ hybridization",
+      "gate_definition": "PIEZO2+ NaV1.8- NTRK1-",
+      "notes": "人 DRG 大直径本体感觉神经元特征组合"
+    },
+    {
+      "record_id": "PMID_37120427_M10",
+      "marker": "Nefh",
+      "marker_original": "NF (Nefh)",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Neurofilament / Large diameter neurons / Proprioceptors",
+      "cell_type_original": "NF",
+      "author_cluster_id": "NF",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "neurofilament heavy polypeptide",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Figure 1a legend",
+      "source_context": "NF neurofilament... large diameter neurons (NF; NaV1.8- neurons)",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Figure 1a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NF neurofilament, NP non-peptidergic nociceptors, PEP peptidergic nociceptors",
+          "mapping_basis": "author declared cluster label"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小鼠神经纤维重链神经元定义标记"
+    },
+    {
+      "record_id": "PMID_37120427_M11",
+      "marker": "Trpm8",
+      "marker_original": "TRPM8",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "TRPM8+ cool sensing neurons",
+      "cell_type_original": "TRPM8",
+      "author_cluster_id": "TRPM8",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "transient receptor potential melastatin 8",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Figure 1a legend",
+      "source_context": "TRPM8 transient receptor potential melastatin 8",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Figure 1a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "TRPM8 transient receptor potential melastatin 8",
+          "mapping_basis": "cluster defining gene"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小鼠冷感受神经元簇标记"
+    },
+    {
+      "record_id": "PMID_37120427_M12",
+      "marker": "Th",
+      "marker_original": "TH",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Tyrosine hydroxylase containing neurons / cLTMRs",
+      "cell_type_original": "TH",
+      "author_cluster_id": "TH",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "Murine DRG scRNA-seq",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "tyrosine hydroxylase",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Figure 1a legend",
+      "source_context": "TH tyrosine hydroxylase containing",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Figure 1a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "TH tyrosine hydroxylase containing",
+          "mapping_basis": "cluster defining gene"
+        }
+      ],
+      "validation_method": "none",
+      "gate_definition": null,
+      "notes": "小鼠 cLTMR 感觉神经元标志基因"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "PMID_37120427_C01",
+      "marker": "Calca",
+      "marker_original": "Calca (CGRP)",
+      "normalization_basis": "MGI standard symbol",
+      "cell_type": "Peptidergic nociceptors",
+      "cell_type_original": "L3-L5 DRG neurons",
+      "author_cluster_id": "PEP",
+      "species": "mouse",
+      "organ_or_tissue": "lumbar dorsal root ganglion",
+      "experimental_context": "qPCR following NGF intra-articular injection",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "calcitonin gene-related peptide alpha",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 5, Figure 7e",
+      "source_context": "In wild-type mice, NGF injection resulted in increased DRG levels of Calca compared to vehicle, whereas Piezo2CKO mice were protected",
+      "sources": [
+        {
+          "file": "PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Figure 7e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NGF injection resulted in increased DRG levels of Calca compared to vehicle",
+          "mapping_basis": "downstream sensitization gene expression"
+        }
+      ],
+      "validation_method": "qPCR",
+      "gate_definition": null,
+      "notes": "NGF 处理后上调的神经肽，用于敏化机制研究，非本底细胞定义",
+      "decision_reason": "刺激诱导性表达变化/机制验证，未用于稳态细胞注释定义"
+    }
+  ],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 12,
+    "context_only_count": 1,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full text PDF (13 pages), Figures 1-7, Methods, RNAscope images of mouse and human DRG.",
+    "missing_materials": "Supplementary Figures 1-13 referenced in text but not provided as standalone PDF.",
+    "potential_leakage_scope": "Specific sub-clustering details within non-neuronal cells."
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "evidence_id": "EVID_01",
+    "paper_id": "DOI_10.7554_elife.62522",
+    "pdf_page": 4,
+    "figure_panel": "Fig. 1B and 1D",
+    "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+    "full_image_sha256": "154e3727ad1212ee00763689775fb1d1850c8a03ceac368bdc8d47d0e545a2e4",
+    "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1D_dotplot_detail.png",
+    "detail_image_sha256": "f4d02d89656929e73b7d1b063c824f9c0d5ed79941f9e57b12cfccfe5397cc92",
+    "verbatim_quote": "Fig. 1D panel label: 'RIMS2' in PNEC row. Fig. 1B panel label: 'ASCL1' open chromatin accessibility peak in PNEC.",
+    "visual_observation": "实地查看 PDF 第 4 页 Fig. 1D 点图：PNEC 对应的主标签确为 RIMS2，Fig. 1B 展示 PNEC 开放峰包含 ASCL1；该图面板中完全未见 CALCA 与 CHGA 标签。LAMC3 对应的主群为 Chondro.（软骨细胞），Pericyte 对应的标签为 NTRK3；FCN1 对应的主群为 Monocytes，Interstitial macrophage 对应的标签为 FOLR2。CA4 对应 Cap1/Cap2 毛细血管内皮。",
+    "verdict_impact": "纠正此前 Codex 误记为 CHGB，确认 Fig. 1D 的 PNEC 基因确为 RIMS2；保留 RIMS2 作为待入库候选；确认 LAMC3 与 FCN1 在修补中存在细胞配对错位，原配对须撤销；CALCA/CHGA 撤销原图引文并保持未决。",
+    "target_genes_cells": [
+      {
+        "gene": "RIMS2",
+        "cell": "PNEC (Pulmonary neuroendocrine cell)",
+        "finding": "confirmed_candidate_in_Fig1D"
+      },
+      {
+        "gene": "ASCL1",
+        "cell": "PNEC",
+        "finding": "confirmed_chromatin_accessibility_in_Fig1B"
+      },
+      {
+        "gene": "CALCA / CHGA",
+        "cell": "PNEC",
+        "finding": "not_present_in_Fig1_panel"
+      },
+      {
+        "gene": "LAMC3",
+        "cell": "Chondrocytes (not Pericyte)",
+        "finding": "mispaired_in_repair_repair_claimed_pericyte"
+      },
+      {
+        "gene": "NTRK3",
+        "cell": "Pericyte",
+        "finding": "actual_panel_marker_for_pericyte"
+      },
+      {
+        "gene": "FCN1",
+        "cell": "Monocytes (not Interstitial macrophage)",
+        "finding": "mispaired_in_repair_repair_claimed_interstitial_macrophage"
+      },
+      {
+        "gene": "FOLR2",
+        "cell": "Interstitial macrophage",
+        "finding": "actual_panel_marker_for_interstitial_macrophage"
+      }
+    ]
+  },
+  {
+    "evidence_id": "EVID_02",
+    "paper_id": "DOI_10.1038_s41467-024-52052-8",
+    "pdf_page": 3,
+    "figure_panel": "Fig. 1 (full page) and Fig. 1d/h",
+    "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1_full.png",
+    "full_image_sha256": "b8874bb63d911357c2e9116cb3f91a01a97a31e00d59bf13a930fe7a536a386e",
+    "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1d_heatmap_detail.png",
+    "detail_image_sha256": "a34e86e06fe8f20ab651efb91ce04bf2e35f34cad4f91f6f29c7ad9ade8af9b2",
+    "verbatim_quote": "Fig. 1 | iPain: an integrated atlas of somatosensory changes across diverse pain conditions. ... (d) Heatmap showing marker gene expression across DRG cell clusters.",
+    "visual_observation": "实地核实 PDF 第 3 页真实 Fig. 1：巨噬细胞 (Macrophage) 的标注基因为 H2-Eb1、H2-Aa、H2-Ab1，根本不存在 Cd86 标签。在当前可见的 Fig. 1d 面板中，未见 Calca、Mrgprd、Piezo2 的明确独立文字标签。因此绝不凭常识推断已观察到，如实记录当前主图面板未观察到直接标注，这三项继续维持待核（pending_verification）。",
+    "verdict_impact": "证实修补 JSON 中的 Cd86—Macrophage 系错误挪用其他论文裁决，撤销该虚假来源并坚决拒绝入库；Calca/Mrgprd/Piezo2 维持待核，不因推断而擅自判为通过。",
+    "target_genes_cells": [
+      {
+        "gene": "H2-Eb1, H2-Aa, H2-Ab1",
+        "cell": "Macrophage",
+        "finding": "actual_panel_markers"
+      },
+      {
+        "gene": "Cd86",
+        "cell": "Macrophage",
+        "finding": "absent_fabricated_cross_paper_reference"
+      },
+      {
+        "gene": "Calca, Mrgprd, Piezo2",
+        "cell": "Nociceptors (PEP, NP, C-LTMR)",
+        "finding": "not_directly_readable_in_current_main_panel_maintain_pending"
+      }
+    ]
+  },
+  {
+    "evidence_id": "EVID_03",
+    "paper_id": "DOI_10.1016_j.isci.2024.111628",
+    "pdf_page": 6,
+    "figure_panel": "Main text p. 6 & Fig. 1E",
+    "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+    "full_image_sha256": "828fb9584b637a5376d4358ea95cca2424ad42dfcb23cd280664154beedd365c",
+    "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_full.png",
+    "detail_image_sha256": "94d175f90fe8ac9d3cde8b169ecc061b0be6a20fbd787267c2840f2737149366",
+    "verbatim_quote": "Lastly, we identiﬁed a single Schwann cell cluster (CDH19+/NRXN+/XKR4+).20",
+    "visual_observation": "实地查看宽幅无截断截屏：整句 'Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+).' 完整保留，前置引用标号完整。正文作者明确将该群定名为 Schwann cell，修补 JSON 的细胞定名完全正确，纠正了此前销项表误称的'固有层间质/肌成纤维细胞'；基因符号为家族通称 NRXN+，未指明具体为 NRXN1/2/3。",
+    "verdict_impact": "证实修补 JSON 中细胞分类 Schwann cell 正确无误；确认 NRXN+ 无法唯一解析到 NRXN1，应保持 unresolved。",
+    "target_genes_cells": [
+      {
+        "gene": "CDH19",
+        "cell": "Schwann cell",
+        "finding": "confirmed_author_declared"
+      },
+      {
+        "gene": "NRXN+ (NRXN1)",
+        "cell": "Schwann cell",
+        "finding": "unresolved_ambiguous_family_symbol"
+      },
+      {
+        "gene": "XKR4",
+        "cell": "Schwann cell",
+        "finding": "confirmed_author_declared"
+      }
+    ]
+  },
+  {
+    "evidence_id": "EVID_04",
+    "paper_id": "DOI_10.1038_s41588-022-01243-4",
+    "pdf_page": 34,
+    "figure_panel": "Extended Data Fig. 10g & p. 35 Legend",
+    "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g_detail.png",
+    "full_image_sha256": "60d1aad38a8a81f11b1e09e382cae0d631b96435ae78577b68b3836580ddf684",
+    "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41588-022-01243-4_p35_ExtDataFig10_legend.png",
+    "detail_image_sha256": "57a6fc3d3347c4a4c7328e7c95341448fbc3241887c774bfa50b29d49d3ccb1c",
+    "verbatim_quote": "(g) IHC from the HPA showing HLA-DR, MUC5B and PRR4 staining with HLA-DR+ regions corresponding with non-mucous areas",
+    "visual_observation": "PDF 第 34 页 Extended Data Fig. 10g 图像子图明确标注 'PRR4 (SMG-serous)' 与 'MUC5B (SMG-mucous)'，展示清晰的组织原位蛋白染色定位。图注原句明确采用 HPA 免疫组化验证 PRR4 在支气管黏膜下腺浆液性细胞的蛋白定位。",
+    "verdict_impact": "逐字引文与观察总结彻底分开。依据 MARKER_POLICY.md 第 2 条，该图属 figure_labeled 确凿蛋白定位识别证据，不能以非新发现或仅有 IHC 为由排除，应作为有效候选保留。",
+    "target_genes_cells": [
+      {
+        "gene": "PRR4",
+        "cell": "SMG Serous Cell (Submucosal gland serous)",
+        "finding": "confirmed_protein_localization_marker"
+      }
+    ]
+  },
+  {
+    "evidence_id": "EVID_05",
+    "paper_id": "DOI_10.1126_science.aat5031",
+    "pdf_page": 13,
+    "figure_panel": "Fig. 1 (full plate on Page 13)",
+    "full_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1126_science.aat5031_p13_Fig1_full.png",
+    "full_image_sha256": "2f910b9c4f07f6a023a59879948b68f8f7fea70c12c805b6c05e09549819f9e6",
+    "detail_image_relative_path": "marker_Gemini_evidence_v3/evidence/DOI_10.1126_science.aat5031_p13_Fig1_panel.png",
+    "detail_image_sha256": "8b3b740cc774b9c5f3cdb44f4d5eb3f63c84fc8ece0e9a1e0163405155d118cd",
+    "verbatim_quote": "Fig. 1. Mapping the spatial and temporal architecture of the mature and developing human kidney. (A) Schematic overview of mature human kidney zones...",
+    "visual_observation": "纠正此前将 Page 4 正文页当成图的错误，真实图板位于 PDF 第 13 页。Fig. 1 展示肾皮质、髓质与肾单位结构总图，以及胎儿发育单细胞聚类。主图未直接给出上述 4 个肾实质经典标记的单基因点图，相关基因具体证据需进一步核对补充数据表格。",
+    "verdict_impact": "定位真实 Fig. 1 图板；明确 4 条肾实质记录当前未在主图获得直接点图定位，维持待核（pending_verification），不擅自物理排除。",
+    "target_genes_cells": [
+      {
+        "gene": "SLC12A1",
+        "cell": "Thick Ascending Limb Epithelial Cell",
+        "finding": "pending_verification_in_supplementary"
+      },
+      {
+        "gene": "AQP2",
+        "cell": "Collecting Duct Principal Cell",
+        "finding": "pending_verification_in_supplementary"
+      },
+      {
+        "gene": "SLC12A3",
+        "cell": "Distal Convoluted Tubule Cell",
+        "finding": "pending_verification_in_supplementary"
+      },
+      {
+        "gene": "NPHS2",
+        "cell": "Podocyte",
+        "finding": "pending_verification_in_supplementary"
+      }
+    ]
+  }
+]

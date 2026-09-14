@@ -1,0 +1,607 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "PMID_35115729",
+  "doi": "10.1038/s41593-021-01005-1",
+  "pmid": "35115729",
+  "title": "Disentangling glial diversity in peripheral nerves at single-nuclei resolution",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_35115729.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含 Nature Neuroscience 完整刊出正文 14 页（pp. 238-251）、详细 Methods、Figs. 1-8 及图注"
+    },
+    {
+      "material_name": "PMID_35115729.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含 PMC 作者手稿全文 Markdown，含完整实验细节与图表说明"
+    },
+    {
+      "material_name": "Supplementary Figures 1-10 & Supplementary Tables 1-6",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "独立补充文件未包含在本地单行 PDF 内，仅正文与主图被完整审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_mSC_Pmp2_Motor",
+      "cluster_name": "Motor-associated myelinating Schwann cells (Pmp2+ mSCs / sCluster3)",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (sciatic, femoral, tibial)",
+      "four_layer_category": "L2",
+      "description": "特异性包被粗大 ChAT+ 运动神经元轴突的高厚度髓鞘化施万细胞亚群，高表达 Pmp2、Cldn14、Adamtsl1、Col23a1，在 ALS 病理中特异性耗竭"
+    },
+    {
+      "cluster_id": "Cluster_mSC_General",
+      "cluster_name": "General myelinating Schwann cells (mSCs)",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (sciatic, peroneal, sural, vagus)",
+      "four_layer_category": "L2",
+      "description": "周围神经髓鞘化施万细胞，特征性高表达 Mpz (P0)、Mbp、Prx、Mag"
+    },
+    {
+      "cluster_id": "Cluster_nmSC_Remak",
+      "cluster_name": "Non-myelinating Remak Schwann cells (nmSCs)",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "four_layer_category": "L2",
+      "description": "包被细小无髓无感觉/自主轴突的 Remak 施万细胞，特异性高表达 Scn7a、Ncam1、L1cam"
+    },
+    {
+      "cluster_id": "Cluster_Endoneurial_Fibroblast",
+      "cluster_name": "Endoneurial fibroblasts",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (endoneurium)",
+      "four_layer_category": "L3",
+      "description": "位于神经内膜的成纤维细胞，表达 Cd34、Pdgfra、Abca8a，起源于 Mpz 谱系，部分表达 Ngfr"
+    },
+    {
+      "cluster_id": "Cluster_Perineurial_Cells",
+      "cluster_name": "Perineurial glia-like cells",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (perineurium)",
+      "four_layer_category": "L3",
+      "description": "构成血-神经屏障的神经束膜细胞，特异性高表达葡萄糖转运蛋白 Slc2a1 (Glut1) 和紧密连接蛋白 Cldn1"
+    },
+    {
+      "cluster_id": "Cluster_Epineurial_Fibroblast",
+      "cluster_name": "Epineurial fibroblasts",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (epineurium)",
+      "four_layer_category": "L3",
+      "description": "神经外膜结缔组织成纤维细胞，高表达 Clec3b、Col1a1、Dcn"
+    },
+    {
+      "cluster_id": "Cluster_Endoneurial_Macrophage",
+      "cluster_name": "Endoneurial macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "four_layer_category": "outside",
+      "description": "周围神经定居髓系巨噬细胞，高表达 Cd68、Aif1 (Iba1)、Mrc1"
+    },
+    {
+      "cluster_id": "Cluster_Pericyte_vSMC",
+      "cluster_name": "Vascular mural cells (Pericytes and smooth muscle cells)",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "four_layer_category": "outside",
+      "description": "神经血管周细胞与平滑肌细胞，高表达 Acta2 (α-SMA)、Rgs5、Pdgfrb"
+    },
+    {
+      "cluster_id": "Cluster_Human_mSC_PMP2",
+      "cluster_name": "Human PMP2+ motor-associated myelinating Schwann cells",
+      "species": "human",
+      "organ_or_tissue": "sciatic nerve",
+      "four_layer_category": "L2",
+      "description": "人类坐骨神经中特异包被粗大轴突的 PMP2+ 施万细胞亚群，在人类 ALS 病理神经束中显著丢失"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "PMID_35115729_M01",
+      "marker": "Pmp2",
+      "marker_original": "Pmp2",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Motor-associated Myelinating Schwann Cell",
+      "cell_type_original": "Pmp2+ mSCs (sCluster3)",
+      "author_cluster_id": "Cluster_mSC_Pmp2_Motor",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (sciatic, femoral, tibial)",
+      "experimental_context": "snRNA-seq clustering, multiplex immunofluorescence, electron microscopy G-ratio analysis, and ChAT-Cre axonal co-staining",
+      "four_layer_category": "L2",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-PMP2 antibody and single-nuclei transcript expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 242-246, Fig. 4a, Fig. 5a-b, Fig. 6a-h",
+      "source_context": "We identified a distinct myelinating-SC subtype that expresses Cldn14, Adamtsl1, and Pmp2 and preferentially ensheathes motor axons... The percentage of PMP2+ SCs associated with motor axons is ~75% in all nerves examined",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 5,
+          "printed_page": 242,
+          "figure_panel": "Fig. 4a, Fig. 5a-b, Fig. 6a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Markers highlighting subpopulations of mSCs are shown in bottom blue box (sCluster3: Col23a1, Cldn14, Adamtsl1 and Pmp2)",
+          "mapping_basis": "snRNA-seq cluster marker and in situ histological validation"
+        }
+      ],
+      "validation_method": "immunofluorescence / electron_microscopy / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Peripheral myelin protein 2, definitive marker of motor axon-specialized myelinating Schwann cells",
+      "decision_reason": "Extensively validated by single-nuclei RNA-seq, immunofluorescence, G-ratio, and ChAT motor axon co-staining"
+    },
+    {
+      "record_id": "PMID_35115729_M02",
+      "marker": "Cldn14",
+      "marker_original": "Cldn14",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Motor-associated Myelinating Schwann Cell",
+      "cell_type_original": "Pmp2+ mSCs (sCluster3)",
+      "author_cluster_id": "Cluster_mSC_Pmp2_Motor",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "experimental_context": "snRNA-seq subclustering of peripheral nerve Schwann cells",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 242, Fig. 4a, Fig. 6a",
+      "source_context": "sCluster3 exhibiting high expression of Col23a1, Cldn14, Adamtsl1 and Pmp2",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 5,
+          "printed_page": 242,
+          "figure_panel": "Fig. 4a",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "tSNE feature plot showing Cldn14 specifically enriched in mSC sCluster3",
+          "mapping_basis": "snRNA-seq cluster-defining gene"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Claudin 14, co-expressed with Pmp2 in motor axon-associated mSCs",
+      "decision_reason": "Specific cluster marker in Schwann cell sub-clustering"
+    },
+    {
+      "record_id": "PMID_35115729_M03",
+      "marker": "Adamtsl1",
+      "marker_original": "Adamtsl1",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Motor-associated Myelinating Schwann Cell",
+      "cell_type_original": "Pmp2+ mSCs (sCluster3)",
+      "author_cluster_id": "Cluster_mSC_Pmp2_Motor",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "experimental_context": "snRNA-seq Schwann cell atlas",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 242, Fig. 4a, Fig. 6a",
+      "source_context": "sCluster3 characterized by Adamtsl1, Cldn14 and Pmp2",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 5,
+          "printed_page": 242,
+          "figure_panel": "Fig. 4a",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Enriched expression of Adamtsl1 in motor-associated mSC cluster",
+          "mapping_basis": "snRNA-seq feature plot"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "ADAMTS like 1, extracellular matrix-related gene specific to motor mSC subpopulation",
+      "decision_reason": "Co-defining marker of motor-associated mSC subpopulation"
+    },
+    {
+      "record_id": "PMID_35115729_M04",
+      "marker": "Mbp",
+      "marker_original": "Mbp (MBP)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Myelinating Schwann Cell",
+      "cell_type_original": "myelinating Schwann cells (mSCs)",
+      "author_cluster_id": "Cluster_mSC_General",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "experimental_context": "Immunostaining and snRNA-seq expression across mouse and human nerves",
+      "four_layer_category": "L2",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-MBP antibody and transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 243-245, Fig. 5a-b, Fig. 6c-d, Fig. 7j",
+      "source_context": "Immunostaining of sciatic and tibial nerve cross-sections with antibodies recognizing myelin basic protein (MBP) (marks mSCs)",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 6,
+          "printed_page": 243,
+          "figure_panel": "Fig. 5a-b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "antibodies recognizing myelin basic protein (MBP) (marks mSCs), PMP2, β-tubulin (pan-axon marker)",
+          "mapping_basis": "histological immunostaining reference"
+        }
+      ],
+      "validation_method": "immunofluorescence",
+      "gate_definition": null,
+      "notes": "Myelin basic protein, pan-myelinating Schwann cell lineage marker",
+      "decision_reason": "Definitive histological ground-truth marker for myelinating glia"
+    },
+    {
+      "record_id": "PMID_35115729_M05",
+      "marker": "Prx",
+      "marker_original": "Prx",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Myelinating Schwann Cell",
+      "cell_type_original": "myelinating Schwann cells (mSCs)",
+      "author_cluster_id": "Cluster_mSC_General",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (sciatic)",
+      "experimental_context": "Multiplex RNA-FISH (fluorescence in situ hybridization) on nerve cross-sections",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "RNA-FISH probe for Prx",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 240, Fig. 2d, g",
+      "source_context": "RNA-FISH showing expression of Prx, Scn7a, Ngfr, Pdgfra and Cd34... Prx specifically marks mSCs",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 3,
+          "printed_page": 240,
+          "figure_panel": "Fig. 2d, g",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "RNA-FISH in situ hybridization in mouse sciatic nerve cross sections showing Prx restricted to mSCs",
+          "mapping_basis": "in situ RNA-FISH tissue staining"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (RNA-FISH)",
+      "gate_definition": null,
+      "notes": "Periaxin, specific marker of myelinating Schwann cells",
+      "decision_reason": "In situ RNA-FISH validation on sciatic nerve tissue"
+    },
+    {
+      "record_id": "PMID_35115729_M06",
+      "marker": "Scn7a",
+      "marker_original": "Scn7a",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Non-Myelinating Schwann Cell",
+      "cell_type_original": "non-myelinating Schwann cells (nmSCs)",
+      "author_cluster_id": "Cluster_nmSC_Remak",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "experimental_context": "RNA-FISH in situ hybridization and snRNA-seq across 4 peripheral nerves",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "RNA-FISH probe and snRNA-seq transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 240-241, Fig. 2d-i, Fig. 3a-d",
+      "source_context": "Scn7a was identified as a definitive, highly specific marker of non-myelinating Remak Schwann cells that does not express in fibroblasts",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 3,
+          "printed_page": 240,
+          "figure_panel": "Fig. 2d-i",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "RNA-FISH showing Scn7a expression specifically in nmSCs, completely segregated from Cd34+ endoneurial fibroblasts",
+          "mapping_basis": "RNA-FISH in situ hybridization"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (RNA-FISH) / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Sodium voltage-gated channel alpha subunit 7 (Nax), selective and reliable marker for Remak nmSCs",
+      "decision_reason": "In situ RNA-FISH proving complete specificity for nmSCs over fibroblasts"
+    },
+    {
+      "record_id": "PMID_35115729_M07",
+      "marker": "Cd34",
+      "marker_original": "Cd34",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Endoneurial Fibroblast",
+      "cell_type_original": "endoneurial fibroblasts",
+      "author_cluster_id": "Cluster_Endoneurial_Fibroblast",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (endoneurium)",
+      "experimental_context": "RNA-FISH in situ hybridization and Mpz-Cre-Sun1 lineage snRNA-seq",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "RNA-FISH probe for Cd34",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 240, Fig. 2c-i",
+      "source_context": "tSNE plot defines three GFP+ cell types – endoneurial fibroblasts, nmSCs and mSCs. Mpz-lineage tSNEs showing expression of Cd34, Ngfr and Pdgfra",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 3,
+          "printed_page": 240,
+          "figure_panel": "Fig. 2c-i",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "RNA-FISH demonstrating Cd34 co-localizing with Pdgfra in endoneurial fibroblasts within the nerve parenchyma",
+          "mapping_basis": "RNA-FISH and snRNA-seq lineage tracking"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (RNA-FISH) / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Specifically marks endoneurial fibroblasts within peripheral nerve fascicles",
+      "decision_reason": "RNA-FISH in situ confirmation of endoneurial fibroblast localization"
+    },
+    {
+      "record_id": "PMID_35115729_M08",
+      "marker": "Pdgfra",
+      "marker_original": "Pdgfra",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Endoneurial Fibroblast",
+      "cell_type_original": "endoneurial fibroblasts",
+      "author_cluster_id": "Cluster_Endoneurial_Fibroblast",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (endoneurium)",
+      "experimental_context": "RNA-FISH in situ hybridization and snRNA-seq",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "RNA-FISH probe for Pdgfra",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 240, Fig. 2c-i",
+      "source_context": "Pdgfra specifically demarcates the endoneurial fibroblast population in peripheral nerve parenchyma",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 3,
+          "printed_page": 240,
+          "figure_panel": "Fig. 2f-h",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "RNA-FISH showing Pdgfra signals in endoneurial stromal cells co-localizing with Cd34",
+          "mapping_basis": "multiplex RNA-FISH"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (RNA-FISH)",
+      "gate_definition": null,
+      "notes": "Platelet-derived growth factor receptor alpha, definitive fibroblast marker",
+      "decision_reason": "In situ RNA-FISH spatial verification"
+    },
+    {
+      "record_id": "PMID_35115729_M09",
+      "marker": "Slc2a1",
+      "marker_original": "Slc2a1 (Glut1)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Perineurial Cell",
+      "cell_type_original": "perineurial glia-like cells",
+      "author_cluster_id": "Cluster_Perineurial_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (perineurium)",
+      "experimental_context": "snRNA-seq peripheral nerve atlas annotation",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 239-241, Fig. 1e, Fig. 3b",
+      "source_context": "Perineurial cells encircling nerve fascicles were identified by their characteristic expression of Slc2a1 and tight junction components",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 2,
+          "printed_page": 239,
+          "figure_panel": "Fig. 1e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Annotation of perineurial cells in the peripheral nerve atlas based on blood-nerve barrier transporter Slc2a1",
+          "mapping_basis": "snRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Glucose transporter 1, hallmark barrier marker of perineurial cells",
+      "decision_reason": "Established barrier-specific cluster annotation marker"
+    },
+    {
+      "record_id": "PMID_35115729_M10",
+      "marker": "Clec3b",
+      "marker_original": "Clec3b",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Epineurial Fibroblast",
+      "cell_type_original": "epineurial fibroblasts",
+      "author_cluster_id": "Cluster_Epineurial_Fibroblast",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve (epineurium)",
+      "experimental_context": "snRNA-seq peripheral nerve atlas",
+      "four_layer_category": "L3",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "annotation_marker",
+      "source_location": "Main Text pp. 239-241, Fig. 1e, Fig. 3b",
+      "source_context": "Epineurial fibroblasts residing in the outermost collagenous sheath expressed Clec3b, Dcn, and Col1a1",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 2,
+          "printed_page": 239,
+          "figure_panel": "Fig. 1e",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "tSNE cluster visualization distinguishing epineurial from endoneurial fibroblasts via Clec3b",
+          "mapping_basis": "snRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "C-type lectin domain family 3 member B, distinguishes outer epineurial fibroblasts from inner endoneurial fibroblasts",
+      "decision_reason": "Specific cluster separation marker in peripheral nerve atlas"
+    },
+    {
+      "record_id": "PMID_35115729_M11",
+      "marker": "PMP2",
+      "marker_original": "PMP2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Motor-associated Myelinating Schwann Cell",
+      "cell_type_original": "PMP2+ myelinating Schwann cells",
+      "author_cluster_id": "Cluster_Human_mSC_PMP2",
+      "species": "human",
+      "organ_or_tissue": "sciatic nerve",
+      "experimental_context": "Immunostaining of human donor sciatic nerve cross-sections and comparison between control and ALS patients",
+      "four_layer_category": "L2",
+      "measurement_type": "protein",
+      "entity_detail": "Anti-PMP2 antibody (AF5938) and anti-MBP antibody in human tissue",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 244-248, Fig. 5g-k, Fig. 8a-f",
+      "source_context": "Human sciatic nerve cross-section immunostained for MBP and PMP2... Note axons ensheathed by PMP2+ SCs are more thickly myelinated than those myelinated by PMP2− SCs... PMP2+ staining is vastly decreased in all three ALS samples (Figure 8d-f)",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 6,
+          "printed_page": 243,
+          "figure_panel": "Fig. 5g-k, Fig. 8a-f",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Immunostaining of human sciatic nerve sections demonstrating conserved PMP2 expression in thickly myelinated large axons and its selective depletion in ALS patient nerves",
+          "mapping_basis": "human histological immunofluorescence validation"
+        }
+      ],
+      "validation_method": "immunofluorescence",
+      "gate_definition": null,
+      "notes": "Direct cross-species human validation of the motor-specialized PMP2+ mSC subpopulation and its vulnerability in ALS",
+      "decision_reason": "Direct human nerve immunohistochemistry demonstrating clinical disease relevance"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "PMID_35115729_C01",
+      "marker": "Tubb3",
+      "marker_original": "β-tubulin (β-TUB)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Axon",
+      "cell_type_original": "all axons / pan-axonal marker",
+      "author_cluster_id": "Axons",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "experimental_context": "Immunofluorescence counterstaining for axon diameter and nerve morphology measurement",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "Anti-beta-tubulin III antibody",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 243-247, Fig. 5a, Fig. 6e-g, Fig. 7a-f",
+      "source_context": "β-tubulin is used as a pan-axon marker for quantification of axon diameter and total axon counts",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 6,
+          "printed_page": 243,
+          "figure_panel": "Fig. 5a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "β-tubulin is used for quantification of axon diameter",
+          "mapping_basis": "morphological reference marker"
+        }
+      ],
+      "validation_method": "immunofluorescence",
+      "gate_definition": null,
+      "notes": "Pan-axonal structural reference marker, not a cellular cluster identified in snRNA-seq",
+      "decision_reason": "Histological axonal reference marker"
+    },
+    {
+      "record_id": "PMID_35115729_C02",
+      "marker": "Chat",
+      "marker_original": "ChAT",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Motor Axon",
+      "cell_type_original": "motor axons",
+      "author_cluster_id": "Motor_Axons",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "experimental_context": "ChAT-Cre-tdTomato reporter fluorescence and immunostaining in nerve cross sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and transgenic reporter",
+      "entity_detail": "ChAT-Cre-tdTomato reporter and anti-ChAT antibody",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 245-247, Fig. 6e-h, Fig. 7a-f",
+      "source_context": "ChAT specifically demarcates motor axons in femoral and sciatic nerves to determine SC preferential ensheathment",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 7,
+          "printed_page": 244,
+          "figure_panel": "Fig. 6e-h",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "ChAT-Cre-tdTomato red fluorescence specifically labeling motor axons in peripheral nerve sections",
+          "mapping_basis": "genetic reporter and axonal identification"
+        }
+      ],
+      "validation_method": "genetic_lineage_tracing / immunofluorescence",
+      "gate_definition": "ChAT+",
+      "notes": "Enables differentiation of motor vs sensory axon ensheathment in peripheral nerves",
+      "decision_reason": "Subtype-specific axonal marker used for glia functional characterization"
+    }
+  ],
+  "excluded": [
+    {
+      "record_id": "PMID_35115729_E01",
+      "marker": "Ngfr",
+      "marker_original": "Ngfr (p75NTR)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Non-Myelinating Schwann Cell",
+      "cell_type_original": "non-myelinating Schwann cells (nmSCs)",
+      "author_cluster_id": "Cluster_nmSC_Remak",
+      "species": "mouse",
+      "organ_or_tissue": "peripheral nerve",
+      "experimental_context": "snRNA-seq and multiplex RNA-FISH evaluating historical marker specificity",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "RNA-FISH probe and snRNA-seq transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 240, Fig. 2c-i",
+      "source_context": "Figure 2. Endoneurial fibroblasts express non-myelinating Schwann cell markers... Note the expression of Ngfr in both nmSCs and endoneurial fibroblasts... Ngfr cannot specifically distinguish nmSCs from endoneurial fibroblasts",
+      "sources": [
+        {
+          "file": "PMID_35115729.pdf",
+          "pdf_page": 3,
+          "printed_page": 240,
+          "figure_panel": "Fig. 2c-i",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Endoneurial fibroblasts express non-myelinating Schwann cell markers... Note the expression of Ngfr in both nmSCs and endoneurial fibroblasts",
+          "mapping_basis": "author experimental refutation of historical marker specificity"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (RNA-FISH) / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Ngfr (p75NTR) was historically used as a canonical nmSC marker; this paper disproves its cell-type specificity by demonstrating high expression in endoneurial fibroblasts via single-nuclei RNA-seq and in situ RNA-FISH",
+      "decision_reason": "明确被作者单核数据与RNA-FISH原位杂交实验否定为nmSC特异Marker，实为nmSC与神经内膜成纤维细胞共表达基因"
+    }
+  ],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 11,
+    "context_only_count": 2,
+    "excluded_count": 1,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Neuroscience paper (14 pages including methods and main text figures 1-8).",
+    "missing_materials": "Supplementary Figures 1-10 and Supplementary Tables 1-6 not included in the single-article PDF.",
+    "potential_leakage_scope": "Genes listed in peripheral neuropathy GWAS/OMIM lists (Fig. 3d) not functionally characterized as cell markers."
+  }
+}

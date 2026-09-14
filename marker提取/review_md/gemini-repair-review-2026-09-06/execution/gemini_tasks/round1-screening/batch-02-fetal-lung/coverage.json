@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch-02-fetal-lung",
+  "batch_status": "completed_round1",
+  "total_records_reviewed": 277,
+  "paper_coverage": {
+    "DOI_10.1016_j.stem.2022.11.013": {
+      "title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning",
+      "baseline_count": 70,
+      "completed_count": 70,
+      "unresolved_count": 0,
+      "status": "completed_round1"
+    },
+    "DOI_10.1016_j.cell.2022.11.005": {
+      "title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators",
+      "baseline_count": 207,
+      "completed_count": 207,
+      "unresolved_count": 0,
+      "status": "completed_round1"
+    }
+  },
+  "action_breakdown": {
+    "keep": 187,
+    "context_only": 44,
+    "merge_duplicate": 33,
+    "exclude": 11,
+    "update": 2
+  },
+  "evidence_count": 9,
+  "images_extracted_count": 8
+}

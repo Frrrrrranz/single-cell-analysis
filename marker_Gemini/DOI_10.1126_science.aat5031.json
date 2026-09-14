@@ -1,0 +1,535 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1126_science.aat5031",
+  "doi": "10.1126/science.aat5031",
+  "pmid": "31604275",
+  "title": "Spatio-temporal immune zonation of the human kidney",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含 Science 正文 6 页（pp. 1461-1466）、图表 Figs. 1-4 及其完整图注说明"
+    },
+    {
+      "material_name": "DOI_10.1126_science.aat5031.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含 PMC 作者手稿全文 Markdown，含完整 Methods、补充分析及实验描述"
+    },
+    {
+      "material_name": "Supplementary Figures S1-S14 & Supplementary Tables S1-S12",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "独立外部补充表格和补充图未合并在主刊 PDF 中"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Pelvic_Epithelium",
+      "cluster_name": "Pelvic and medullary epithelium",
+      "species": "human",
+      "organ_or_tissue": "kidney (medulla and pelvis)",
+      "four_layer_category": "outside",
+      "description": "肾盂与髓质移行上皮细胞，具有高强度先天免疫防御表型，特异性高表达抗菌肽 LCN2、SAA1、SAA2，共表达角蛋白 KRT17 与趋化因子 CXCL8"
+    },
+    {
+      "cluster_id": "Cluster_MNPa_Classical_Mono_Mac",
+      "cluster_name": "Mononuclear phagocyte subset a (MNPa / Classical monocyte-derived)",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "four_layer_category": "outside",
+      "description": "类似于经典单核细胞的单核吞噬细胞亚群，高表达 CD14 与 S100A9"
+    },
+    {
+      "cluster_id": "Cluster_MNPb_NonClassical_Mono_Mac",
+      "cluster_name": "Mononuclear phagocyte subset b (MNPb / Non-classical monocyte-derived)",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "four_layer_category": "outside",
+      "description": "类似于非经典单核细胞的单核吞噬细胞亚群，高表达 FCGR3A (CD16)"
+    },
+    {
+      "cluster_id": "Cluster_MNPc_Dendritic_Cell",
+      "cluster_name": "Mononuclear phagocyte subset c (MNPc / Dendritic cells)",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "four_layer_category": "outside",
+      "description": "MHC-II类抗原提呈能力最高的树突状细胞群，表达 CLEC9A、XCR1 (cDC1) 以及 CD1C (cDC2)"
+    },
+    {
+      "cluster_id": "Cluster_MNPd_Tissue_Resident_Mac",
+      "cluster_name": "Mononuclear phagocyte subset d (MNPd / Tissue-resident macrophages)",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "four_layer_category": "outside",
+      "description": "肾脏稳态组织定居巨噬细胞亚群，表达 CD68、MRC1 (CD206) 与 C1QA"
+    },
+    {
+      "cluster_id": "Cluster_TAL_Epithelium",
+      "cluster_name": "Thick ascending limb epithelial cells (TAL)",
+      "species": "human",
+      "organ_or_tissue": "kidney (medulla)",
+      "four_layer_category": "outside",
+      "description": "髓袢升支粗段上皮细胞，特异性表达钠钾氯协同转运蛋白 SLC12A1 (NKCC2) 与尿调节素 UMOD"
+    },
+    {
+      "cluster_id": "Cluster_Collecting_Duct_PC",
+      "cluster_name": "Collecting duct principal cells (CD-PC)",
+      "species": "human",
+      "organ_or_tissue": "kidney (cortex and medulla)",
+      "four_layer_category": "outside",
+      "description": "集合管主细胞，特异性高表达水通道蛋白 AQP2 与上皮钠通道亚基 SCNN1G"
+    },
+    {
+      "cluster_id": "Cluster_Distal_Tubule",
+      "cluster_name": "Distal convoluted tubule cells (DCT)",
+      "species": "human",
+      "organ_or_tissue": "kidney (cortex)",
+      "four_layer_category": "outside",
+      "description": "远曲小管上皮细胞，特征性表达噻嗪类敏感钠氯共转运体 SLC12A3 (NCC)"
+    },
+    {
+      "cluster_id": "Cluster_Podocytes",
+      "cluster_name": "Podocytes",
+      "species": "human",
+      "organ_or_tissue": "kidney (glomerulus)",
+      "four_layer_category": "outside",
+      "description": "肾小球足细胞，特异性表达裂孔隔膜标志 NPHS1 (Nephrin) 与 NPHS2 (Podocin)"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M01",
+      "marker": "LCN2",
+      "marker_original": "LCN2 (Lipocalin 2)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pelvic Epithelial Cell",
+      "cell_type_original": "pelvic epithelium",
+      "author_cluster_id": "Cluster_Pelvic_Epithelium",
+      "species": "human",
+      "organ_or_tissue": "kidney (medulla and pelvis)",
+      "experimental_context": "Single-cell RNA-seq, bulk ex vivo qPCR, and confocal immunofluorescence co-staining with CK17 and CXCL8 on human kidney tissue sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-LCN2 antibody in confocal microscopy and single-cell transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1463-1465, Fig. 2b-c, Fig. 4b",
+      "source_context": "Lipocalin 2 (LCN2), an iron chelator with bacteriostatic effects... Confocal microscopy images illustrating co-expression of CK17 (white), CXCL8 (green), and LCN2 (red) in human medullary and pelvic epithelium",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 5,
+          "printed_page": 1465,
+          "figure_panel": "Fig. 4b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Confocal microscopy images showing LCN2 specifically enriched in CK17+ pelvic epithelium lining the urinary tract",
+          "mapping_basis": "in situ confocal immunofluorescence co-staining"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Bacteriostatic iron-chelator peptide, acts as zone-specific mucosal defense marker for kidney pelvis",
+      "decision_reason": "High-evidence validation by scRNA-seq and in situ confocal imaging"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M02",
+      "marker": "KRT17",
+      "marker_original": "CK17 (KRT17)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pelvic Epithelial Cell",
+      "cell_type_original": "pelvic and medullary epithelium",
+      "author_cluster_id": "Cluster_Pelvic_Epithelium",
+      "species": "human",
+      "organ_or_tissue": "kidney (pelvis)",
+      "experimental_context": "Confocal immunofluorescence microscopy on human kidney sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "Anti-cytokeratin 17 antibody",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1465, Fig. 4b",
+      "source_context": "Confocal microscopy images illustrating co-expression of CK17 (white), CXCL8 (green), and LCN2 (red) in human medullary and pelvic epithelium",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 5,
+          "printed_page": 1465,
+          "figure_panel": "Fig. 4b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "CK17 antibody staining delineates pelvic epithelial cell boundary in human renal tissue",
+          "mapping_basis": "confocal microscopy histology"
+        }
+      ],
+      "validation_method": "immunofluorescence",
+      "gate_definition": null,
+      "notes": "Cytokeratin 17, structural marker for transitional and pelvic epithelium of human kidney",
+      "decision_reason": "Immunofluorescence ground-truth marker for pelvic epithelium"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M03",
+      "marker": "CXCL8",
+      "marker_original": "CXCL8 (IL-8)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pelvic Epithelial Cell",
+      "cell_type_original": "pelvic epithelium",
+      "author_cluster_id": "Cluster_Pelvic_Epithelium",
+      "species": "human",
+      "organ_or_tissue": "kidney (pelvis)",
+      "experimental_context": "Confocal immunofluorescence co-staining",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CXCL8 antibody and single-cell transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1465, Fig. 4a-b",
+      "source_context": "Pelvic epithelium produces high levels of CXCL8, recruiting neutrophils and MNP subsets to the pelvic-medullary border",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 5,
+          "printed_page": 1465,
+          "figure_panel": "Fig. 4b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Confocal images confirming CXCL8 production by CK17+ pelvic epithelial cells",
+          "mapping_basis": "in situ tissue imaging"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Interleukin-8 chemokine, key functional beacon produced by pelvic epithelium",
+      "decision_reason": "In situ protein co-localization with epithelial markers"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M04",
+      "marker": "CD14",
+      "marker_original": "CD14",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Classical Monocyte-derived Phagocyte",
+      "cell_type_original": "mononuclear phagocyte subset a (MNPa)",
+      "author_cluster_id": "Cluster_MNPa_Classical_Mono_Mac",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "experimental_context": "scRNA-seq sub-clustering of kidney myeloid compartment",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CD14 transcript in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1463, Fig. 3c",
+      "source_context": "MNPa and MNPd contained cells expressing CD14, whilst MNPb expressed CD16 (FCGR3A) (Fig. 3C). MNPa was transcriptionally similar to 'classical' monocytes",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 3,
+          "printed_page": 1463,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Violin plot showing high expression of CD14 in MNPa and MNPd myeloid subsets",
+          "mapping_basis": "scRNA-seq cluster violin plot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Distinguishes classical monocyte-derived MNPa from non-classical MNPb",
+      "decision_reason": "Defining marker in kidney mononuclear phagocyte dissection"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M05",
+      "marker": "FCGR3A",
+      "marker_original": "CD16 (FCGR3A)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Non-Classical Monocyte-derived Phagocyte",
+      "cell_type_original": "mononuclear phagocyte subset b (MNPb)",
+      "author_cluster_id": "Cluster_MNPb_NonClassical_Mono_Mac",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "experimental_context": "scRNA-seq sub-clustering of kidney myeloid cells",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "FCGR3A transcript in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1463, Fig. 3c",
+      "source_context": "MNPb expressed CD16 (FCGR3A) (Fig. 3C)... MNPb was transcriptionally similar to 'non-classical' monocytes",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 3,
+          "printed_page": 1463,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Violin plot demonstrating selective FCGR3A expression in MNPb",
+          "mapping_basis": "scRNA-seq violin plot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "CD16, key discriminator for non-classical monocyte-derived phagocytes in kidney",
+      "decision_reason": "Specific cluster discriminator in kidney myeloid atlas"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M06",
+      "marker": "CLEC9A",
+      "marker_original": "CLEC9A",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Conventional Dendritic Cell Type 1",
+      "cell_type_original": "cDC1 cells within MNPc",
+      "author_cluster_id": "Cluster_MNPc_Dendritic_Cell",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "experimental_context": "scRNA-seq myeloid cluster analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CLEC9A transcript in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1463, Fig. 3c",
+      "source_context": "Some cells in this cluster expressed CD1C, XCR1, CLEC9A and CD141 (THBD) (Fig. 3C) indicating that it included cDC1 and cDC2 cells",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 3,
+          "printed_page": 1463,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Violin plot showing restricted expression of CLEC9A in MNPc DC cluster",
+          "mapping_basis": "scRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "C-type lectin domain family 9 member A, definitive cross-presenting cDC1 marker",
+      "decision_reason": "Canonical dendritic cell lineage subset marker"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M07",
+      "marker": "CD1C",
+      "marker_original": "CD1C",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Conventional Dendritic Cell Type 2",
+      "cell_type_original": "cDC2 cells within MNPc",
+      "author_cluster_id": "Cluster_MNPc_Dendritic_Cell",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "experimental_context": "scRNA-seq myeloid sub-clustering",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CD1C transcript in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1463, Fig. 3c",
+      "source_context": "Some cells in this cluster expressed CD1C, XCR1, CLEC9A and CD141 (THBD) indicating that it included cDC1 and cDC2 cells",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 3,
+          "printed_page": 1463,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Violin plot showing CD1C marking cDC2 population in MNPc",
+          "mapping_basis": "scRNA-seq violin plot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Classic human cDC2 surface marker",
+      "decision_reason": "Establishes presence of cDC2 subset in kidney tissue"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M08",
+      "marker": "MRC1",
+      "marker_original": "MRC1 (CD206)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Tissue-Resident Macrophage",
+      "cell_type_original": "mononuclear phagocyte subset d (MNPd)",
+      "author_cluster_id": "Cluster_MNPd_Tissue_Resident_Mac",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "experimental_context": "scRNA-seq myeloid characterization",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "MRC1 transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1463, Fig. 3c",
+      "source_context": "MNPd showed little transcriptional similarity to circulating monocytes and expressed tissue-resident macrophage markers including MRC1 and CD68",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 3,
+          "printed_page": 1463,
+          "figure_panel": "Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Violin plot illustrating selective MRC1 enrichment in tissue-resident MNPd cluster",
+          "mapping_basis": "scRNA-seq violin plot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Mannose receptor C-type 1, defines resting homeostatic tissue-resident macrophages in human kidney",
+      "decision_reason": "Distinguishes tissue-resident MNPd from monocyte-derived subsets"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M09",
+      "marker": "SLC12A1",
+      "marker_original": "SLC12A1 (NKCC2)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Thick Ascending Limb Epithelial Cell",
+      "cell_type_original": "thick ascending limb (TAL)",
+      "author_cluster_id": "Cluster_TAL_Epithelium",
+      "species": "human",
+      "organ_or_tissue": "kidney (medulla)",
+      "experimental_context": "scRNA-seq nephron compartment mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "SLC12A1 transcript expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1461-1463, Fig. 1b, Fig. 2a",
+      "source_context": "Nephron compartments were annotated based on segment-specific ion transporters, with SLC12A1 defining the thick ascending limb of Henle",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 2,
+          "printed_page": 1462,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Annotations derived from compartment-specific analysis (Fig. S8, 11, 13) including SLC12A1 for TAL",
+          "mapping_basis": "scRNA-seq nephron segment annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "NKCC2 sodium-potassium-chloride cotransporter, diagnostic marker of Henle's thick ascending limb",
+      "decision_reason": "Specific anatomical transporter defining TAL nephron segment"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M10",
+      "marker": "AQP2",
+      "marker_original": "AQP2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Collecting Duct Principal Cell",
+      "cell_type_original": "collecting duct principal cells (CD-PC)",
+      "author_cluster_id": "Cluster_Collecting_Duct_PC",
+      "species": "human",
+      "organ_or_tissue": "kidney",
+      "experimental_context": "scRNA-seq nephron epithelial annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "AQP2 transcript expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1461-1463, Fig. 1b, Fig. 2a",
+      "source_context": "Collecting duct principal cells were identified by specific expression of vasopressin-sensitive water channel AQP2",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 2,
+          "printed_page": 1462,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "UMAP cluster visualization showing AQP2 specifically marking collecting duct principal cells",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Aquaporin 2, hallmark physiological marker of collecting duct principal cells",
+      "decision_reason": "Definitive lineage marker for collecting duct principal cells"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M11",
+      "marker": "SLC12A3",
+      "marker_original": "SLC12A3 (NCC)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Distal Convoluted Tubule Cell",
+      "cell_type_original": "distal convoluted tubule (DCT)",
+      "author_cluster_id": "Cluster_Distal_Tubule",
+      "species": "human",
+      "organ_or_tissue": "kidney (cortex)",
+      "experimental_context": "scRNA-seq nephron zonation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "SLC12A3 transcript expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1461-1463, Fig. 1b, Fig. 2a",
+      "source_context": "Distal convoluted tubule cells were mapped via exclusive expression of the thiazide-sensitive cotransporter SLC12A3",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 2,
+          "printed_page": 1462,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Nephron cluster annotation showing SLC12A3 marking DCT",
+          "mapping_basis": "scRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Solute carrier family 12 member 3, definitive marker of distal convoluted tubule",
+      "decision_reason": "Specific physiological transporter defining DCT identity"
+    },
+    {
+      "record_id": "DOI_10.1126_science.aat5031_M12",
+      "marker": "NPHS2",
+      "marker_original": "NPHS2 (Podocin)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Podocyte",
+      "cell_type_original": "podocytes",
+      "author_cluster_id": "Cluster_Podocytes",
+      "species": "human",
+      "organ_or_tissue": "kidney (glomerulus)",
+      "experimental_context": "scRNA-seq glomerular compartment annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "NPHS2 transcript expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1461-1463, Fig. 1b, Fig. 2a",
+      "source_context": "Glomerular podocytes were identified by expression of slit diaphragm proteins NPHS1 and NPHS2",
+      "sources": [
+        {
+          "file": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+          "pdf_page": 2,
+          "printed_page": 1462,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Single-cell cluster visualization delineating podocyte cluster by NPHS2",
+          "mapping_basis": "scRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Podocin, exclusive structural component of glomerular slit diaphragm",
+      "decision_reason": "Diagnostic cell-type marker for glomerular podocytes"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 12,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Science paper (6 pages including main text figures 1-4 and accompanying legends).",
+    "missing_materials": "Supplementary Figures S1-S14 and Supplementary Tables S1-S12 not included as standalone files in the local archive.",
+    "potential_leakage_scope": "Extensive antimicrobial peptide lists (Fig. 2b) and CellPhoneDB receptor-ligand pairs (Fig. 4a) beyond the validated pelvic and myeloid markers."
+  }
+}

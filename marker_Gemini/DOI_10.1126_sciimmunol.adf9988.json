@@ -1,0 +1,1681 @@
+{
+  "schema_version": "v3",
+  "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+  "doi": "10.1126/sciimmunol.adf9988",
+  "pmid": "38100570",
+  "title": "Early human lung immune cell development and its role in epithelial cell fate",
+  "journal": "Science Immunology",
+  "year": 2023,
+  "species": "human",
+  "organ_or_tissue": "fetal lung",
+  "cluster_inventory": [
+    {
+      "cluster_id": "C01",
+      "cluster_name": "HSC/MPP",
+      "cluster_description": "Hematopoietic stem cell / Multipotent progenitor",
+      "lineage": "Stem/Progenitor",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C02",
+      "cluster_name": "LMPP/ELP",
+      "cluster_description": "Lymphoid-primed multipotent progenitor / Early lymphoid progenitor",
+      "lineage": "Lymphoid progenitor",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C03",
+      "cluster_name": "CMP",
+      "cluster_description": "Common myeloid progenitor",
+      "lineage": "Myeloid progenitor",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C04",
+      "cluster_name": "GMP",
+      "cluster_description": "Granulocyte-monocyte progenitor",
+      "lineage": "Myeloid progenitor",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C05",
+      "cluster_name": "MEP",
+      "cluster_description": "Megakaryocyte-erythroid progenitor",
+      "lineage": "Erythroid/Megakaryocyte progenitor",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C06",
+      "cluster_name": "Megk progenitor",
+      "cluster_description": "Megakaryocyte progenitor",
+      "lineage": "Megakaryocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C07",
+      "cluster_name": "Megk",
+      "cluster_description": "Megakaryocyte",
+      "lineage": "Megakaryocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C08",
+      "cluster_name": "Erythroid",
+      "cluster_description": "Erythroid cell",
+      "lineage": "Erythroid lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C09",
+      "cluster_name": "Pro-myelocyte",
+      "cluster_description": "Promyelocyte",
+      "lineage": "Granulocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C10",
+      "cluster_name": "Myelocyte-like",
+      "cluster_description": "Myelocyte-like cell",
+      "lineage": "Granulocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C11",
+      "cluster_name": "Neutrophil",
+      "cluster_description": "Neutrophil",
+      "lineage": "Granulocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C12",
+      "cluster_name": "Baso/Eosino",
+      "cluster_description": "Basophil / Eosinophil",
+      "lineage": "Granulocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C13",
+      "cluster_name": "Mast",
+      "cluster_description": "Mast cell",
+      "lineage": "Granulocyte/Mast lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C14",
+      "cluster_name": "Pro-monocyte",
+      "cluster_description": "Promonocyte",
+      "lineage": "Monocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C15",
+      "cluster_name": "S100A12-hi CD14+ mono",
+      "cluster_description": "S100A12-high CD14+ classical monocyte",
+      "lineage": "Monocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C16",
+      "cluster_name": "S100A12-lo CD14+ mono",
+      "cluster_description": "S100A12-low CD14+ monocyte",
+      "lineage": "Monocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C17",
+      "cluster_name": "CD16+ mono",
+      "cluster_description": "CD16+ non-classical monocyte",
+      "lineage": "Monocyte lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C18",
+      "cluster_name": "MΦ",
+      "cluster_description": "Fetal lung interstitial macrophage",
+      "lineage": "Macrophage lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C19",
+      "cluster_name": "APOE+ MΦ",
+      "cluster_description": "APOE+ alveolar macrophage precursor",
+      "lineage": "Macrophage lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C20",
+      "cluster_name": "CXCL9+ MΦ",
+      "cluster_description": "CXCL9+ inflammatory macrophage",
+      "lineage": "Macrophage lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C21",
+      "cluster_name": "DC1",
+      "cluster_description": "Conventional dendritic cell type 1 (cDC1)",
+      "lineage": "Dendritic cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C22",
+      "cluster_name": "DC2",
+      "cluster_description": "Conventional dendritic cell type 2 (cDC2)",
+      "lineage": "Dendritic cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C23",
+      "cluster_name": "aDC",
+      "cluster_description": "Activated dendritic cell",
+      "lineage": "Dendritic cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C24",
+      "cluster_name": "Pre-pDC/DC5",
+      "cluster_description": "Pre-plasmacytoid dendritic cell / DC5",
+      "lineage": "Dendritic cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C25",
+      "cluster_name": "pDC",
+      "cluster_description": "Plasmacytoid dendritic cell",
+      "lineage": "Dendritic cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C26",
+      "cluster_name": "Pre-pro-B",
+      "cluster_description": "Pre-pro-B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C27",
+      "cluster_name": "Pro-B",
+      "cluster_description": "Early pro-B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C28",
+      "cluster_name": "Late pro-B",
+      "cluster_description": "Late pro-B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C29",
+      "cluster_name": "Pro-B/Pre-B transition",
+      "cluster_description": "Pro-B/Pre-B transition cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C30",
+      "cluster_name": "Large pre-B",
+      "cluster_description": "Large pre-B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C31",
+      "cluster_name": "κ small pre-B",
+      "cluster_description": "Kappa small pre-B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C32",
+      "cluster_name": "λ small pre-B",
+      "cluster_description": "Lambda small pre-B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C33",
+      "cluster_name": "Late pre-B",
+      "cluster_description": "Late pre-B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C34",
+      "cluster_name": "Immature B",
+      "cluster_description": "Immature B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C35",
+      "cluster_name": "CD5- Mature B",
+      "cluster_description": "CD5- mature B cell",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C36",
+      "cluster_name": "CD5+ Mature B",
+      "cluster_description": "CD5+ mature B cell (B-1-like)",
+      "lineage": "B cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C37",
+      "cluster_name": "T progenitors",
+      "cluster_description": "Thymic-like T progenitor immigrant",
+      "lineage": "T cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C38",
+      "cluster_name": "CD4 T",
+      "cluster_description": "CD4+ T lymphocyte",
+      "lineage": "T cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C39",
+      "cluster_name": "CD8 T",
+      "cluster_description": "CD8+ T lymphocyte",
+      "lineage": "T cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C40",
+      "cluster_name": "Treg",
+      "cluster_description": "Regulatory T cell",
+      "lineage": "T cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C41",
+      "cluster_name": "Type 1 innate T",
+      "cluster_description": "Type 1 innate T cell (unconventional T)",
+      "lineage": "T cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C42",
+      "cluster_name": "Type 3 innate T",
+      "cluster_description": "Type 3 innate T cell (unconventional T)",
+      "lineage": "T cell lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C43",
+      "cluster_name": "ILCP",
+      "cluster_description": "Innate lymphoid cell progenitor",
+      "lineage": "ILC lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C44",
+      "cluster_name": "ILC2",
+      "cluster_description": "Type 2 innate lymphoid cell",
+      "lineage": "ILC lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C45",
+      "cluster_name": "ILC3",
+      "cluster_description": "Type 3 innate lymphoid cell",
+      "lineage": "ILC lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C46",
+      "cluster_name": "aNK",
+      "cluster_description": "Activated NK cell",
+      "lineage": "NK lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C47",
+      "cluster_name": "Cycling NK",
+      "cluster_description": "Cycling NK cell",
+      "lineage": "NK lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C48",
+      "cluster_name": "CD56bright NK",
+      "cluster_description": "CD56bright NK cell",
+      "lineage": "NK lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C49",
+      "cluster_name": "Intermediate NK",
+      "cluster_description": "Intermediate NK cell",
+      "lineage": "NK lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C50",
+      "cluster_name": "CD16+ NK",
+      "cluster_description": "CD16+ cytotoxic NK cell",
+      "lineage": "NK lineage",
+      "broad_category": "Immune"
+    },
+    {
+      "cluster_id": "C51",
+      "cluster_name": "Distal epithelial",
+      "cluster_description": "Distal lung epithelial tip progenitor",
+      "lineage": "Epithelial lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C52",
+      "cluster_name": "Secretory epithelial",
+      "cluster_description": "Secretory airway epithelial cell",
+      "lineage": "Epithelial lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C53",
+      "cluster_name": "Ciliated",
+      "cluster_description": "Ciliated epithelial cell",
+      "lineage": "Epithelial lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C54",
+      "cluster_name": "Basal cell",
+      "cluster_description": "Airway basal epithelial cell",
+      "lineage": "Epithelial lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C55",
+      "cluster_name": "Endo",
+      "cluster_description": "Endothelial cell",
+      "lineage": "Endothelial lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C56",
+      "cluster_name": "Alveolar fibro",
+      "cluster_description": "Alveolar fibroblast",
+      "lineage": "Fibroblast lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C57",
+      "cluster_name": "TNC+ fibro",
+      "cluster_description": "Tenascin C+ fibroblast",
+      "lineage": "Fibroblast lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C58",
+      "cluster_name": "Adventitial fibro",
+      "cluster_description": "Adventitial fibroblast",
+      "lineage": "Fibroblast lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C59",
+      "cluster_name": "SMC",
+      "cluster_description": "Smooth muscle cell",
+      "lineage": "Smooth muscle lineage",
+      "broad_category": "Non-immune"
+    },
+    {
+      "cluster_id": "C60",
+      "cluster_name": "Pericyte",
+      "cluster_description": "Pericyte",
+      "lineage": "Mural/Pericyte lineage",
+      "broad_category": "Non-immune"
+    }
+  ],
+  "formal_markers": [
+    {
+      "marker": "CD34",
+      "cell_type": "HSC/MPP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Defined as CD34+ immature hematopoietic precursor"
+    },
+    {
+      "marker": "SPINK2",
+      "cell_type": "HSC/MPP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Fig 5G, Main Text P9",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "HSCs identified spatially as SMIM24+SPINK2+"
+    },
+    {
+      "marker": "SMIM24",
+      "cell_type": "HSC/MPP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5G, Main Text P9",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Rare SMIM24+SPINK2+ HSCs validated by RNAscope"
+    },
+    {
+      "marker": "CD34",
+      "cell_type": "LMPP/ELP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "LMPP/ELP defined by CD34+EBF1-"
+    },
+    {
+      "marker": "EBF1",
+      "cell_type": "LMPP/ELP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "negative",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Explicitly defined as EBF1-negative in LMPP/ELP"
+    },
+    {
+      "marker": "SPINK2",
+      "cell_type": "LMPP/ELP",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 3C",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in early lymphoid progenitor dotplot"
+    },
+    {
+      "marker": "EBF1",
+      "cell_type": "Pre-pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Pre-pro-B defined as EBF1+SPINK2+VPREB1+"
+    },
+    {
+      "marker": "SPINK2",
+      "cell_type": "Pre-pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Pre-pro-B defined as EBF1+SPINK2+VPREB1+"
+    },
+    {
+      "marker": "VPREB1",
+      "cell_type": "Pre-pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Pre-pro-B defined as EBF1+SPINK2+VPREB1+"
+    },
+    {
+      "marker": "IL7R",
+      "cell_type": "Pre-pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Acquisition of B cell markers such as IL7R at pre-pro-B stage"
+    },
+    {
+      "marker": "DNTT",
+      "cell_type": "Pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Fig 3E, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Pro-B defined as DNTT+ and VPREB1+DNTT+ via RNAscope"
+    },
+    {
+      "marker": "VPREB1",
+      "cell_type": "Pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Fig 3E, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "VPREB1+DNTT+ cells representing pro-B cell stages"
+    },
+    {
+      "marker": "EBF1",
+      "cell_type": "Pro-B",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 3C",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "High expression in pro-B cells"
+    },
+    {
+      "marker": "RAG1",
+      "cell_type": "Pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Biphasic expression of RAG1 at pro-B and pre-B cell stages"
+    },
+    {
+      "marker": "NEIL1",
+      "cell_type": "Late pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "NEIL1+MKI67- late pro-B cells"
+    },
+    {
+      "marker": "MKI67",
+      "cell_type": "Late pro-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "negative",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "MKI67- characterizes late pro-B stage"
+    },
+    {
+      "marker": "RAG1",
+      "cell_type": "Pro-B/Pre-B transition",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "RAG1+MS4A1+ pro-B/pre-B transition cells"
+    },
+    {
+      "marker": "MS4A1",
+      "cell_type": "Pro-B/Pre-B transition",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "RAG1+MS4A1+ pro-B/pre-B transition cells"
+    },
+    {
+      "marker": "IGLL1",
+      "cell_type": "Pro-B/Pre-B transition",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 3C",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Surrogate light chain gene expressed during pre-B transition"
+    },
+    {
+      "marker": "IL7R",
+      "cell_type": "Large pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Large pre-B defined by IL7R+MS4A1+MKI67+"
+    },
+    {
+      "marker": "MS4A1",
+      "cell_type": "Large pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Large pre-B defined by IL7R+MS4A1+MKI67+"
+    },
+    {
+      "marker": "MKI67",
+      "cell_type": "Large pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Large pre-B defined by IL7R+MS4A1+MKI67+"
+    },
+    {
+      "marker": "BEST3",
+      "cell_type": "Large pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3E, Legend P31",
+      "marker_direction": "negative",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "BEST3-RAG1- or BEST3- differentiates large pre-B in Fig 3E"
+    },
+    {
+      "marker": "IL7R",
+      "cell_type": "κ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Small pre-B defined as IL7R+SPIB+MKI67-"
+    },
+    {
+      "marker": "SPIB",
+      "cell_type": "κ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Small pre-B defined as IL7R+SPIB+MKI67-"
+    },
+    {
+      "marker": "MKI67",
+      "cell_type": "κ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "negative",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Small pre-B defined as IL7R+SPIB+MKI67-"
+    },
+    {
+      "marker": "BEST3",
+      "cell_type": "κ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Fig 3E, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "RAG1+BEST3+ small pre-B cells validated by RNAscope"
+    },
+    {
+      "marker": "RAG1",
+      "cell_type": "κ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Fig 3E, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "RAG1+BEST3+ small pre-B cells validated by RNAscope"
+    },
+    {
+      "marker": "IGKC",
+      "cell_type": "κ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressing immunoglobulin kappa (IGKC+) light chain"
+    },
+    {
+      "marker": "IL7R",
+      "cell_type": "λ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Small pre-B defined as IL7R+SPIB+MKI67-"
+    },
+    {
+      "marker": "SPIB",
+      "cell_type": "λ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Small pre-B defined as IL7R+SPIB+MKI67-"
+    },
+    {
+      "marker": "MKI67",
+      "cell_type": "λ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "negative",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Small pre-B defined as IL7R+SPIB+MKI67-"
+    },
+    {
+      "marker": "BEST3",
+      "cell_type": "λ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Fig 3E, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "RAG1+BEST3+ small pre-B cells validated by RNAscope"
+    },
+    {
+      "marker": "RAG1",
+      "cell_type": "λ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Fig 3E, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "RAG1+BEST3+ small pre-B cells validated by RNAscope"
+    },
+    {
+      "marker": "IGLC2",
+      "cell_type": "λ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressing immunoglobulin lambda (IGLC2+IGLC3+) light chain genes"
+    },
+    {
+      "marker": "IGLC3",
+      "cell_type": "λ small pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressing immunoglobulin lambda (IGLC2+IGLC3+) light chain genes"
+    },
+    {
+      "marker": "MS4A1",
+      "cell_type": "Late pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "MS4A1+ late pre-B cells"
+    },
+    {
+      "marker": "IGLL1",
+      "cell_type": "Late pre-B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Marker for surrogate light chain, IGLL1"
+    },
+    {
+      "marker": "MS4A1",
+      "cell_type": "Immature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "MS4A1+IGHDloIGHMhiVPREB3hi immature B cells"
+    },
+    {
+      "marker": "IGHD",
+      "cell_type": "Immature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "low",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "IGHDlo marks immature stage"
+    },
+    {
+      "marker": "IGHM",
+      "cell_type": "Immature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "IGHMhi marks immature stage"
+    },
+    {
+      "marker": "VPREB3",
+      "cell_type": "Immature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "VPREB3hi marks immature B cells"
+    },
+    {
+      "marker": "MS4A1",
+      "cell_type": "CD5- Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "MS4A1+ (CD20) validated on tissue sections"
+    },
+    {
+      "marker": "IGHD",
+      "cell_type": "CD5- Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "IGHDhi marks mature B cells"
+    },
+    {
+      "marker": "IGHM",
+      "cell_type": "CD5- Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "IGHMhi marks mature B cells"
+    },
+    {
+      "marker": "VPREB3",
+      "cell_type": "CD5- Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "low",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "VPREB3lo marks mature B cells"
+    },
+    {
+      "marker": "CD5",
+      "cell_type": "CD5- Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P6",
+      "marker_direction": "negative",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Explicitly defined as CD5-"
+    },
+    {
+      "marker": "CD5",
+      "cell_type": "CD5+ Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Marked by CD5, representative of putative human B-1-like cells"
+    },
+    {
+      "marker": "CD27",
+      "cell_type": "CD5+ Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Marked by CD27"
+    },
+    {
+      "marker": "SPN",
+      "cell_type": "CD5+ Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Marked by SPN (CD43)"
+    },
+    {
+      "marker": "CCR10",
+      "cell_type": "CD5+ Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Marked by CCR10 (B-1 cell-specific chemokine receptor)"
+    },
+    {
+      "marker": "CCL22",
+      "cell_type": "CD5+ Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Marked by CCL22"
+    },
+    {
+      "marker": "PRDM1",
+      "cell_type": "CD5+ Mature B",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 3C, Main Text P7",
+      "marker_direction": "negative",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Absence of PRDM1 confirms lack of plasma cell activation"
+    },
+    {
+      "marker": "PTCRA",
+      "cell_type": "T progenitors",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P7, Fig S6D",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "T progenitors defined as PTCRA+RAG1+RAG2+"
+    },
+    {
+      "marker": "RAG1",
+      "cell_type": "T progenitors",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P7, Fig S6D",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "T progenitors defined as PTCRA+RAG1+RAG2+"
+    },
+    {
+      "marker": "RAG2",
+      "cell_type": "T progenitors",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P7, Fig S6D",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "T progenitors defined as PTCRA+RAG1+RAG2+"
+    },
+    {
+      "marker": "SELL",
+      "cell_type": "CD4 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Naive T cell marker"
+    },
+    {
+      "marker": "CD27",
+      "cell_type": "CD4 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in CD4 T cells"
+    },
+    {
+      "marker": "LEF1",
+      "cell_type": "CD4 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in naive CD4 T cells"
+    },
+    {
+      "marker": "CCR7",
+      "cell_type": "CD4 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Lymphoid homing / naive marker"
+    },
+    {
+      "marker": "CD45RA",
+      "cell_type": "CD4 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "CITE-seq",
+      "confidence": "high",
+      "notes": "Naive protein isoform expressed in CD4 T"
+    },
+    {
+      "marker": "CD45RO",
+      "cell_type": "CD4 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "CITE-seq",
+      "confidence": "high",
+      "notes": "Memory protein isoform also detected"
+    },
+    {
+      "marker": "GZMA",
+      "cell_type": "CD4 T",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Fetal naive T cells express cytotoxicity marker GZMA"
+    },
+    {
+      "marker": "NKG7",
+      "cell_type": "CD4 T",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Fetal naive T cells express cytotoxicity marker NKG7"
+    },
+    {
+      "marker": "SELL",
+      "cell_type": "CD8 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Naive T cell marker"
+    },
+    {
+      "marker": "CD27",
+      "cell_type": "CD8 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in CD8 T cells"
+    },
+    {
+      "marker": "LEF1",
+      "cell_type": "CD8 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in naive CD8 T cells"
+    },
+    {
+      "marker": "CCR7",
+      "cell_type": "CD8 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Naive marker in CD8 T cells"
+    },
+    {
+      "marker": "GZMA",
+      "cell_type": "CD8 T",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Cytotoxicity marker expressed in fetal CD8 T cells"
+    },
+    {
+      "marker": "NKG7",
+      "cell_type": "CD8 T",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P7",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Cytotoxicity marker expressed in fetal CD8 T cells"
+    },
+    {
+      "marker": "GZMB",
+      "cell_type": "CD8 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Granzyme B cytotoxicity marker"
+    },
+    {
+      "marker": "PRF1",
+      "cell_type": "CD8 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Perforin 1 cytotoxicity marker"
+    },
+    {
+      "marker": "CD45RA",
+      "cell_type": "CD8 T",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "CITE-seq",
+      "confidence": "high",
+      "notes": "CITE-seq CD45RA protein"
+    },
+    {
+      "marker": "CCR4",
+      "cell_type": "Treg",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "CCR4 selectively expressed in Tregs among T cells"
+    },
+    {
+      "marker": "CD45RO",
+      "cell_type": "Treg",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "CITE-seq",
+      "confidence": "high",
+      "notes": "Tregs express CD45RO"
+    },
+    {
+      "marker": "SELL",
+      "cell_type": "Treg",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in Tregs"
+    },
+    {
+      "marker": "CD27",
+      "cell_type": "Treg",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 4B",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in Tregs"
+    },
+    {
+      "marker": "HPN",
+      "cell_type": "ILCP",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P8, Fig S6E",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "A cluster of ILCPs was identified by expression of marker genes HPN and SCN1B"
+    },
+    {
+      "marker": "SCN1B",
+      "cell_type": "ILCP",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P8, Fig S6E",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "A cluster of ILCPs was identified by expression of marker genes HPN and SCN1B"
+    },
+    {
+      "marker": "MPO",
+      "cell_type": "CMP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5H, Main Text P9",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "CMPs identified as MPO+ via RNAscope"
+    },
+    {
+      "marker": "ELANE",
+      "cell_type": "GMP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5H, Main Text P9",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "GMPs identified as ELANE+MPO+ via RNAscope"
+    },
+    {
+      "marker": "MPO",
+      "cell_type": "GMP",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5H, Main Text P9",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "GMPs identified as ELANE+MPO+ via RNAscope"
+    },
+    {
+      "marker": "AZU1",
+      "cell_type": "Pro-myelocyte",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5H, Legend P35",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Promyelocytes identified as AZU1+MPO+ via RNAscope"
+    },
+    {
+      "marker": "MPO",
+      "cell_type": "Pro-myelocyte",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5H, Legend P35",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Promyelocytes identified as AZU1+MPO+ via RNAscope"
+    },
+    {
+      "marker": "S100A8",
+      "cell_type": "Pro-monocyte",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5H, Legend P35",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Promonocytes identified as S100A8+MPO+ via RNAscope"
+    },
+    {
+      "marker": "MPO",
+      "cell_type": "Pro-monocyte",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 5H, Legend P35",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Promonocytes identified as S100A8+MPO+ via RNAscope"
+    },
+    {
+      "marker": "CD14",
+      "cell_type": "S100A12-hi CD14+ mono",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P8-9, Fig 5F",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "CD14 a marker gene of classical monocytes"
+    },
+    {
+      "marker": "S100A12",
+      "cell_type": "S100A12-hi CD14+ mono",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P8-9, Fig 5F, Fig 7F",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "S100A12hi defines classical monocyte cluster"
+    },
+    {
+      "marker": "CCR2",
+      "cell_type": "S100A12-hi CD14+ mono",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 5F",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in classical monocyte trajectory"
+    },
+    {
+      "marker": "IL6",
+      "cell_type": "S100A12-hi CD14+ mono",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 5F",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Modulated in S100A12-hi monocyte clustermap"
+    },
+    {
+      "marker": "CD14",
+      "cell_type": "S100A12-lo CD14+ mono",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 2A, Main Text P8",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Expressed in intermediate monocyte cluster"
+    },
+    {
+      "marker": "FCGR3A",
+      "cell_type": "CD16+ mono",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 2A, Main Text P8",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "CD16 non-classical monocyte marker"
+    },
+    {
+      "marker": "S100A9",
+      "cell_type": "Neutrophil",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 7F, Main Text P11",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "S100A9+S100A12+ neutrophils/monocytes validated near epithelium"
+    },
+    {
+      "marker": "S100A12",
+      "cell_type": "Neutrophil",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 7F, Main Text P11",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "S100A9+S100A12+ neutrophils/monocytes validated near epithelium"
+    },
+    {
+      "marker": "IL1B",
+      "cell_type": "Neutrophil",
+      "evidence_type": "cluster_marker",
+      "source_location": "Fig 7B, Fig 7C, Fig 7F",
+      "marker_direction": "positive",
+      "validation_method": "RNAscope",
+      "confidence": "high",
+      "notes": "Neutrophils are top source of IL-1beta"
+    },
+    {
+      "marker": "CD1C",
+      "cell_type": "DC2",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P11, Fig 7D",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "Utilizing CD1C as a marker for DC2 cells in tissue sections"
+    },
+    {
+      "marker": "IL1B",
+      "cell_type": "DC2",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P11, Fig 7B-C",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "DC2 is the single largest cellular source of IL1B in developing lung"
+    },
+    {
+      "marker": "CD68",
+      "cell_type": "MΦ",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P9, Fig 5I",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "Most myeloid cells, defined by their expression of CD68"
+    },
+    {
+      "marker": "MRC1",
+      "cell_type": "MΦ",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P9, P11, Fig 7E",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "CD206 (MRC1), macrophage mannose receptor, as a marker for macrophages"
+    },
+    {
+      "marker": "CD14",
+      "cell_type": "MΦ",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P9, Fig S8C",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Fetal MΦ express CD14 characteristic of interstitial macrophages"
+    },
+    {
+      "marker": "CD36",
+      "cell_type": "MΦ",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P9, Fig S8C",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Fetal MΦ express CD36 characteristic of interstitial macrophages"
+    },
+    {
+      "marker": "IL10",
+      "cell_type": "MΦ",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P9, Fig 5F",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "IL-10 expression increases during macrophage differentiation"
+    },
+    {
+      "marker": "APOE",
+      "cell_type": "APOE+ MΦ",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 2A, Main Text P9",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "APOE+ macrophage cluster expresses adult alveolar macrophage markers"
+    },
+    {
+      "marker": "CXCL9",
+      "cell_type": "CXCL9+ MΦ",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 2A, Fig 5C",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "CXCL9+ macrophage cluster"
+    },
+    {
+      "marker": "SOX9",
+      "cell_type": "Distal epithelial",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P9, P10, Fig 6A, 7D-E",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "Distal epithelial tips composed of SOX9+ progenitors"
+    },
+    {
+      "marker": "SOX2",
+      "cell_type": "Distal epithelial",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10, Fig 7G",
+      "marker_direction": "negative",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "SOX2 is low/negative in tip progenitors compared to stalk/basal"
+    },
+    {
+      "marker": "EPCAM",
+      "cell_type": "Distal epithelial",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 7A, Main Text P6",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "Epithelial marker EpCAM used in tissue immunostaining"
+    },
+    {
+      "marker": "SOX2",
+      "cell_type": "Basal cell",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10-11, Fig 7G",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "Basal cells marked by SOX2+TP63+KRT5+"
+    },
+    {
+      "marker": "TP63",
+      "cell_type": "Basal cell",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10-11, Fig 6H-I, 7G",
+      "marker_direction": "positive",
+      "validation_method": "qPCR",
+      "confidence": "high",
+      "notes": "TP63 marker of basal cells induced by IL-1beta"
+    },
+    {
+      "marker": "KRT5",
+      "cell_type": "Basal cell",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10-11, Fig 6J-K, 7G",
+      "marker_direction": "positive",
+      "validation_method": "qPCR",
+      "confidence": "high",
+      "notes": "Mature basal cell marker KRT5 induced by IL-1beta and DSA"
+    },
+    {
+      "marker": "FOXJ1",
+      "cell_type": "Ciliated",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10",
+      "marker_direction": "positive",
+      "validation_method": "qPCR",
+      "confidence": "high",
+      "notes": "Ciliated cell marker FOXJ1"
+    },
+    {
+      "marker": "SCGB3A1",
+      "cell_type": "Secretory epithelial",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10",
+      "marker_direction": "positive",
+      "validation_method": "qPCR",
+      "confidence": "high",
+      "notes": "Secretory cell marker SCGB3A1"
+    },
+    {
+      "marker": "SCGB3A2",
+      "cell_type": "Secretory epithelial",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10",
+      "marker_direction": "positive",
+      "validation_method": "qPCR",
+      "confidence": "high",
+      "notes": "Secretory cell marker SCGB3A2"
+    },
+    {
+      "marker": "MUC5AC",
+      "cell_type": "Secretory epithelial",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10",
+      "marker_direction": "positive",
+      "validation_method": "qPCR",
+      "confidence": "high",
+      "notes": "Secretory cell marker MUC5AC"
+    },
+    {
+      "marker": "MUC5B",
+      "cell_type": "Secretory epithelial",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text P10",
+      "marker_direction": "positive",
+      "validation_method": "qPCR",
+      "confidence": "high",
+      "notes": "Secretory cell marker MUC5B"
+    },
+    {
+      "marker": "PECAM1",
+      "cell_type": "Endo",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 1C, Fig 3E, Fig 5I, Main Text P5",
+      "marker_direction": "positive",
+      "validation_method": "IHC",
+      "confidence": "high",
+      "notes": "CD31 (PECAM1) marker of endothelium/blood vessels"
+    },
+    {
+      "marker": "TNC",
+      "cell_type": "TNC+ fibro",
+      "evidence_type": "author_declared",
+      "source_location": "Fig 2A",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "TNC defines TNC+ fibroblast cluster"
+    }
+  ],
+  "context_candidates": [
+    {
+      "gene": "PTPRC",
+      "context": "Pan-immune marker CD45 used for FACS isolation and IHC spatial detection (Fig 1, Fig 7A)"
+    },
+    {
+      "gene": "CDH1",
+      "context": "E-cadherin (ECAD) used as epithelial boundary marker in IHC (Fig 1C, Fig 3E, Fig 5I)"
+    },
+    {
+      "gene": "IL1B",
+      "context": "Immuno-epithelial signal secreted by DC2s, macrophages, monocytes, and neutrophils (Fig 7A-I)"
+    },
+    {
+      "gene": "IL1R1",
+      "context": "IL-1 receptor subunit 1 expressed on distal tip epithelial cells (Fig 6C, E)"
+    },
+    {
+      "gene": "IL1RAP",
+      "context": "IL-1 receptor accessory protein expressed on distal tip epithelial cells (Fig 6C, E)"
+    },
+    {
+      "gene": "IL1RN",
+      "context": "IL-1 receptor antagonist expressed by fetal myeloid cells to prevent autoactivation (Main Text P11)"
+    },
+    {
+      "gene": "CASP1",
+      "context": "Caspase 1 cleaving pro-IL-1beta in myeloid cells (Main Text P11)"
+    },
+    {
+      "gene": "IL6",
+      "context": "Cytokine secreted by myeloid cells in culture (Fig 7H, I)"
+    },
+    {
+      "gene": "IL8",
+      "context": "CXCL8 secreted by DC and macrophages, receptor absent from epithelial tips (Main Text P12)"
+    },
+    {
+      "gene": "IL10",
+      "context": "Cytokine secreted by DC and macrophages (Main Text P12)"
+    },
+    {
+      "gene": "TNF",
+      "context": "TNF-alpha secreted by DC and macrophages in culture (Main Text P12)"
+    },
+    {
+      "gene": "IL13",
+      "context": "Cytokine tested on organoids influencing withdrawal from tip self-renewal (Main Text P10)"
+    },
+    {
+      "gene": "MAP3K7",
+      "context": "TAK1 kinase mediating IL-1 signaling downstream to promote basal fate (Main Text P11)"
+    },
+    {
+      "gene": "PAX5",
+      "context": "B cell transcription factor dynamically changing along pseudotime (Fig 3D)"
+    },
+    {
+      "gene": "IKZF1",
+      "context": "Ikaros transcription factor in B cell trajectory (Fig 3D)"
+    },
+    {
+      "gene": "IKZF3",
+      "context": "Aiolos transcription factor in B cell trajectory (Fig 3D)"
+    },
+    {
+      "gene": "FLT3",
+      "context": "Expressed in early multipotent progenitors along B trajectory (Fig 3D)"
+    }
+  ],
+  "unresolved": [
+    {
+      "issue": "Specific markers for some minor non-immune stromal clusters (e.g. adventitial fibro, alveolar fibro, pericytes, SMC) were annotated based on reference lung atlases rather than de novo discovery within this immune-focused paper.",
+      "status": "annotated_from_labels"
+    }
+  ]
+}

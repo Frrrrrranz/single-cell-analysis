@@ -1,0 +1,1924 @@
+{
+  "authority": "Luna建议; Astra最终裁决",
+  "expected_baseline_sha256": {
+    "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+    "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+  },
+  "proposed_changes": [
+    {
+      "change_id": "UPDATE:M00071",
+      "change_type": "modify",
+      "luna_suggested": true,
+      "stable_marker_id": "M00071",
+      "before_values": {
+        "marker_id": "M00071",
+        "paper_id": "DOI_10.1038_s41467-024-52052-8",
+        "gene_symbol": "Rbfox3",
+        "original_symbol": "NeuN",
+        "cell_type": "senescent nociceptors",
+        "subtype": null,
+        "species": "mouse",
+        "evidence_type": "author_declared",
+        "marker_polarity": "positive",
+        "four_layer_category": null,
+        "source_locator": "Results, 'Development and persistence of pain and senescence of pain-sensing neurons', Fig.3i",
+        "source_context": "We identified a senescent phenotype in a subset of nociceptors, which were characterized by high expression of the neuronal nuclei marker (NeuN) and their smaller size (Fig.3i).",
+        "notes": "作者明确用 Neuronal nuclei marker NeuN 高表达定义小鼠 DRG 中衰老伤害感受神经元亚群；符号规范化为 RBFOX3。",
+        "audit_status": "audited_include",
+        "citation_verified": true,
+        "audit_model": "deepseek-v4-flash"
+      },
+      "after_values": {
+        "marker_id": "M00071",
+        "paper_id": "DOI_10.1038_s41467-024-52052-8",
+        "gene_symbol": "Rbfox3",
+        "original_symbol": "NeuN",
+        "cell_type": "nociceptors/neurons",
+        "subtype": null,
+        "species": "mouse",
+        "evidence_type": "author_declared",
+        "marker_polarity": "positive",
+        "four_layer_category": null,
+        "source_locator": "Results, 'Development and persistence of pain and senescence of pain-sensing neurons', Fig.3i",
+        "source_context": "We identified a senescent phenotype in a subset of nociceptors, which were characterized by high expression of the neuronal nuclei marker (NeuN) and their smaller size (Fig.3i).",
+        "notes": "NeuN/RBFOX3 is a pan-neuronal nuclear marker; retain the senescence experimental context without treating NeuN as senescence-specific. Luna建议，Astra final.",
+        "audit_status": "audited_include",
+        "citation_verified": true,
+        "audit_model": "deepseek-v4-flash"
+      },
+      "reason": "NeuN/RBFOX3 是神经元核 marker；原表将该关系压缩为 senescent nociceptors，独立检查支持保留关系，但建议把细胞实体回到 nociceptors/neurons，并在备注中保留衰老实验条件，避免把 NeuN 泛化成衰老特异 marker。",
+      "evidence_refs": [
+        "EVID_02"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "CONTEXT_ONLY:M01510",
+      "change_type": "move_to_context_only",
+      "luna_suggested": true,
+      "stable_marker_id": "M01510",
+      "before_values": {
+        "marker_id": "M01510",
+        "paper_id": "DOI_10.1038_s41467-024-52052-8",
+        "gene_symbol": "Sst",
+        "original_symbol": "SST",
+        "cell_type": "SST neurons (somatostatin-positive nociceptor subtype)",
+        "subtype": "SST nociceptor subtype",
+        "species": "mouse",
+        "evidence_type": "annotation_marker",
+        "marker_polarity": "positive",
+        "four_layer_category": "L1",
+        "source_locator": "Introduction, paragraph 2: 'Those neurons are of different subtypes...'",
+        "source_context": "Those neurons are of different subtypes that are classified as peptidergic (PEPs), non-peptidergic (NPs), C-LowThreshold mechanoreceptor (C-LTMRs), and a subtype of somatostatin positive neurons (SST)",
+        "notes": "SST is explicitly used by the authors to define and name a nociceptor subtype ('somatostatin positive neurons (SST)'). It is therefore a formal marker for this cell population, not merely a DEG. The paper's primary model is mouse, so the mouse ortholog Sst is used as the normalized symbol.",
+        "audit_status": "recovery_include",
+        "citation_verified": true,
+        "audit_model": "deepseek-v4-flash"
+      },
+      "after_values": {
+        "semantic_decision": "context_only",
+        "physical_delete": false
+      },
+      "reason": "独立复核仅找到引言中的分类/背景陈述，未找到该记录对应的直接作者 marker 用途；按政策应与 unresolved 分开，撤销其作为正式 marker 的语义但不物理删除。",
+      "evidence_refs": [
+        "EVID_02"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "ADD:REV_ELIFE_01_RIMS2",
+      "change_type": "add_candidate",
+      "luna_suggested": true,
+      "stable_candidate_id": "REV_ELIFE_01_RIMS2",
+      "marker_id": null,
+      "before_values": null,
+      "after_values": {
+        "marker_original": "RIMS2",
+        "gene_symbol": "RIMS2",
+        "cell_type": "Pulmonary neuroendocrine cell",
+        "subtype": "PNEC",
+        "species": "human",
+        "measurement_type": "RNA",
+        "marker_polarity": "positive",
+        "four_layer_category": "L4",
+        "source_locator": "Fig. 1D, PDF p.4",
+        "source_context": "Fig. 1D dot plot shows specific expression of RIMS2 in PNEC cluster",
+        "requires_astra_id_allocation": true
+      },
+      "reason": "独立查看原图/图注或直接标记后，基因与作者标注细胞关系成立；当前正式表没有同一完整关系，建议新增候选。",
+      "evidence_refs": [
+        "EVID_01"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "ADD:REV_SMG_01_PRR4",
+      "change_type": "add_candidate",
+      "luna_suggested": true,
+      "stable_candidate_id": "REV_SMG_01_PRR4",
+      "marker_id": null,
+      "before_values": null,
+      "after_values": {
+        "marker_original": "PRR4",
+        "gene_symbol": "PRR4",
+        "cell_type": "SMG Serous Cell",
+        "subtype": "SMG-serous",
+        "species": "human",
+        "measurement_type": "protein_IHC",
+        "marker_polarity": "positive",
+        "four_layer_category": "outside",
+        "source_locator": "Extended Data Fig. 10g, PDF pp. 34-35",
+        "source_context": "(g) IHC from the HPA showing HLA-DR, MUC5B and PRR4 staining with HLA-DR+ regions corresponding with non-mucous areas",
+        "requires_astra_id_allocation": true
+      },
+      "reason": "独立查看原图/图注或直接标记后，基因与作者标注细胞关系成立；当前正式表没有同一完整关系，建议新增候选。",
+      "evidence_refs": [
+        "EVID_04"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00041->M00036",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00041",
+      "target_marker_id": "M00036",
+      "before_values": {
+        "source": {
+          "marker_id": "M00041",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "GHRL",
+          "original_symbol": "GHRL",
+          "cell_type": "NE cell",
+          "subtype": "GHRL+",
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Discussion, p.4856",
+          "source_context": "We find that GHRL+ NE cells are transcriptionally similar to the NEUROD1+ N subtype of SCLC",
+          "notes": "GHRL defines the GHRL+ NE subtype, within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00036",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "GHRL",
+          "original_symbol": "GHRL",
+          "cell_type": "GHRL+ neuroendocrine cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Results: 'Two subtypes of neuroendocrine cells are present in the developing airways'",
+          "source_context": "GHRL+ NE cells (TTR+, GHRL+)",
+          "notes": "Used to identify GHRL+ NE subtype; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00036 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_09"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00042->M00034",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00042",
+      "target_marker_id": "M00034",
+      "before_values": {
+        "source": {
+          "marker_id": "M00042",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "GRP",
+          "original_symbol": "GRP",
+          "cell_type": "pulmonary neuroendocrine cells",
+          "subtype": "GRP+ pulmonary NE cells",
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Figure S3C legend",
+          "source_context": "GRP+ pulmonary neuroendocrine cells (arrow, green)",
+          "notes": "Figure-labeled marker of pulmonary NE cells; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00034",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "GRP",
+          "original_symbol": "GRP",
+          "cell_type": "pulmonary neuroendocrine cell",
+          "subtype": "classical",
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Results: 'Two subtypes of neuroendocrine cells are present in the developing airways'",
+          "source_context": "classical pulmonary NE cells (GRP+)",
+          "notes": "Used to identify classical pulmonary NE cells; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00034 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_11"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00043->M00035",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00043",
+      "target_marker_id": "M00035",
+      "before_values": {
+        "source": {
+          "marker_id": "M00043",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "ASCL1",
+          "original_symbol": "ASCL1",
+          "cell_type": "pulmonary neuroendocrine cells",
+          "subtype": "GRP+ pulmonary NE cells",
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Figure S3K legend",
+          "source_context": "ASCL1+ pulmonary neuroendocrine (arrow)",
+          "notes": "Figure-labeled marker of pulmonary NE cells; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00035",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "ASCL1",
+          "original_symbol": "ASCL1",
+          "cell_type": "pulmonary neuroendocrine cell",
+          "subtype": "classical",
+          "species": "human",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "these two TFs coincide with the scRNA-seq marker genes ... ASCL1 was co-expressed with GRP",
+          "notes": "Author-declared/used as marker for pulmonary NE subtype; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00035 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_11"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00047->M00036",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00047",
+      "target_marker_id": "M00036",
+      "before_values": {
+        "source": {
+          "marker_id": "M00047",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "GHRL",
+          "original_symbol": "GHRL",
+          "cell_type": "GHRL+ neuroendocrine cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Figure S3C legend",
+          "source_context": "GHRL+ neuroendocrine (dashed line, red)",
+          "notes": "Figure-labeled marker of GHRL+ NE subtype; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00036",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "GHRL",
+          "original_symbol": "GHRL",
+          "cell_type": "GHRL+ neuroendocrine cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Results: 'Two subtypes of neuroendocrine cells are present in the developing airways'",
+          "source_context": "GHRL+ NE cells (TTR+, GHRL+)",
+          "notes": "Used to identify GHRL+ NE subtype; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00036 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_11"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00048->M00038",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00048",
+      "target_marker_id": "M00038",
+      "before_values": {
+        "source": {
+          "marker_id": "M00048",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "NEUROD1",
+          "original_symbol": "NEUROD1",
+          "cell_type": "GHRL+ neuroendocrine cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Figure S8C legend",
+          "source_context": "#3 labeled GRP-NEUROD1+GHRL+, GHRL+ NE cells",
+          "notes": "Figure-labeled marker of GHRL+ NE subtype; within target scope.; 自动复核：去空格连续窗口复检通过（PDF 粘连文本）",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00038",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "NEUROD1",
+          "original_symbol": "NEUROD1",
+          "cell_type": "GHRL+ neuroendocrine cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "these two TFs coincide with the scRNA-seq marker genes ... NEUROD1 was co-expressed with GHRL",
+          "notes": "Author-declared/used as marker for GHRL+ NE subtype; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00038 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_11"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00050->M00039",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00050",
+      "target_marker_id": "M00039",
+      "before_values": {
+        "source": {
+          "marker_id": "M00050",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "RFX6",
+          "original_symbol": "RFX6",
+          "cell_type": "GHRL+ neuroendocrine cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Figure S8E legend",
+          "source_context": "Representative HCR images showing RFX6 expression in GHRL+ NE cells",
+          "notes": "Figure-labeled positive RFX6 in GHRL+ NE cells; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00039",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "RFX6",
+          "original_symbol": "RFX6",
+          "cell_type": "GHRL+ neuroendocrine cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "author_declared",
+          "marker_polarity": "positive",
+          "four_layer_category": null,
+          "source_locator": "Results: 'Transcriptional control of neuroendocrine cell subtype formation'",
+          "source_context": "the GHRL+NE-specific RFX6",
+          "notes": "Author-declared GHRL+ NE-specific marker; within target scope.",
+          "audit_status": "audited_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00039 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_11"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00417->M00415",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00417",
+      "target_marker_id": "M00415",
+      "before_values": {
+        "source": {
+          "marker_id": "M00417",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "CA4",
+          "original_symbol": "CA4",
+          "cell_type": "aerocytes",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S7B legend",
+          "source_context": "Aerocytes (S100A3+ red/CA4+ white)",
+          "notes": "CA4 is labeled as an aerocyte marker.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00415",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "CA4",
+          "original_symbol": "CA4",
+          "cell_type": "aerocyte",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "Aerocytes (CA4LO, S100A3+)",
+          "notes": "CA4 is part of the aerocyte marker definition.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00415 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_12"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00418->M00416",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00418",
+      "target_marker_id": "M00416",
+      "before_values": {
+        "source": {
+          "marker_id": "M00418",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "S100A3",
+          "original_symbol": "S100A3",
+          "cell_type": "aerocytes",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S7B legend",
+          "source_context": "Aerocytes (S100A3+ red/CA4+ white)",
+          "notes": "S100A3 is labeled as an aerocyte marker.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00416",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "S100A3",
+          "original_symbol": "S100A3",
+          "cell_type": "aerocyte",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "Aerocytes (CA4LO, S100A3+)",
+          "notes": "S100A3 is part of the aerocyte marker definition.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00416 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_12"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00456->M00455",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00456",
+      "target_marker_id": "M00455",
+      "before_values": {
+        "source": {
+          "marker_id": "M00456",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "FOXJ1",
+          "original_symbol": "FOXJ1",
+          "cell_type": "ciliated cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S3H legend",
+          "source_context": "Ciliated cells (arrowhead), FOXJ1+/SCGB3A2-",
+          "notes": "FOXJ1 is used as a ciliated cell marker.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00455",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "FOXJ1",
+          "original_symbol": "FOXJ1",
+          "cell_type": "ciliated cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "We detected ciliated cells (FOXJ1+, ALOX15+)",
+          "notes": "FOXJ1 is part of the ciliated cell marker definition.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00455 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_09"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00466->M00460",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00466",
+      "target_marker_id": "M00460",
+      "before_values": {
+        "source": {
+          "marker_id": "M00466",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "SCGB1A1",
+          "original_symbol": "SCGB1A1",
+          "cell_type": "club cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S3B legend",
+          "source_context": "SCGB1A1 indicates club cells",
+          "notes": "SCGB1A1 is used as a club cell marker in spatial imaging.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00460",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "SCGB1A1",
+          "original_symbol": "SCGB1A1",
+          "cell_type": "club cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Club cells (SCGB3A2+, SCGB1A1+, SCGB3A1-, SPDEF-, MUC16-)",
+          "notes": "SCGB1A1 is a positive marker used to define club cells.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00460 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_09"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00467->M00462",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00467",
+      "target_marker_id": "M00462",
+      "before_values": {
+        "source": {
+          "marker_id": "M00467",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "SCGB3A2",
+          "original_symbol": "SCGB3A2",
+          "cell_type": "club cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S3D legend",
+          "source_context": "club cells ... are marked by SCGB3A2+/SCGB1A1+",
+          "notes": "SCGB3A2 is used as a club cell marker.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00462",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "SCGB3A2",
+          "original_symbol": "SCGB3A2",
+          "cell_type": "club cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Multiple secretory cell subtypes in the proximal cartilaginous airways'",
+          "source_context": "Club cells (SCGB3A2+, SCGB1A1+, SCGB3A1-, SPDEF-, MUC16-)",
+          "notes": "SCGB3A2 is part of the formal club cell marker set.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00462 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_09"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00494->M00491",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00494",
+      "target_marker_id": "M00491",
+      "before_values": {
+        "source": {
+          "marker_id": "M00494",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "PROX1",
+          "original_symbol": "PROX1",
+          "cell_type": "lymphatic endothelial cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S7E legend",
+          "source_context": "Lymphatic endothelial cells (PROX1+ white)",
+          "notes": "PROX1 is labeled as a lymphatic endothelial cell marker.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00491",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "PROX1",
+          "original_symbol": "PROX1",
+          "cell_type": "lymphatic endothelial cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "lymphatic ECs (PROX1+, STAB1+, and UCP2LO)",
+          "notes": "PROX1 is part of the lymphatic EC marker definition.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00491 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_12"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00531->M00530",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00531",
+      "target_marker_id": "M00530",
+      "before_values": {
+        "source": {
+          "marker_id": "M00531",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "FAM162B",
+          "original_symbol": "FAM162B",
+          "cell_type": "pericytes",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S7I legend",
+          "source_context": "FAM162B+ pericytes (red)",
+          "notes": "FAM162B is labeled as a pericyte marker.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00530",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "FAM162B",
+          "original_symbol": "FAM162B",
+          "cell_type": "pericyte",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "Pericytes (FAM162B+)",
+          "notes": "FAM162B is the marker used to define pericytes.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00530 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_10"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00554->M00553",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00554",
+      "target_marker_id": "M00553",
+      "before_values": {
+        "source": {
+          "marker_id": "M00554",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "FOXI1",
+          "original_symbol": "FOXI1",
+          "cell_type": "putative ionocytes",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S4E legend",
+          "source_context": "rare cell type markers of putative ionocytes (FOXI1 yellow)",
+          "notes": "FOXI1 is labeled as a rare cell type marker for putative ionocytes.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00553",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "FOXI1",
+          "original_symbol": "FOXI1",
+          "cell_type": "putative ionocyte",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Other airway cells'",
+          "source_context": "putative ionocytes (FOXI1+; 4/4 lungs)",
+          "notes": "FOXI1 is used to identify putative ionocytes.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00553 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_09"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00592->M00585",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00592",
+      "target_marker_id": "M00585",
+      "before_values": {
+        "source": {
+          "marker_id": "M00592",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "NTN4",
+          "original_symbol": "NTN4",
+          "cell_type": "vascular smooth muscle cells",
+          "subtype": "vascular SMC1",
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S7F legend",
+          "source_context": "each marked by NTN4+/PLN-/low (vSMC1, arrows)",
+          "notes": "NTN4 is used to mark vSMC1 in spatial imaging.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00585",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "NTN4",
+          "original_symbol": "NTN4",
+          "cell_type": "vascular smooth muscle cell",
+          "subtype": "vSMC1",
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Developmental trajectories of mesenchymal cells'",
+          "source_context": "vSMC1 (NTRK3+, NTN4+, and PLN-)",
+          "notes": "NTN4 is part of the vSMC1 marker definition.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00585 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_10"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    },
+    {
+      "change_id": "MERGE:M00597->M00594",
+      "change_type": "deduplicate_preserving_provenance",
+      "luna_suggested": true,
+      "source_marker_id": "M00597",
+      "target_marker_id": "M00594",
+      "before_values": {
+        "source": {
+          "marker_id": "M00597",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "ACKR3",
+          "original_symbol": "ACKR3",
+          "cell_type": "venous endothelial cells",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "figure_labeled",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Figure S7D legend",
+          "source_context": "venous endothelial cells (ACKR3+ white)",
+          "notes": "ACKR3 is labeled as a venous endothelial cell marker.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        },
+        "target": {
+          "marker_id": "M00594",
+          "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+          "gene_symbol": "ACKR3",
+          "original_symbol": "ACKR3",
+          "cell_type": "venous endothelial cell",
+          "subtype": null,
+          "species": "human",
+          "evidence_type": "annotation_marker",
+          "marker_polarity": "positive",
+          "four_layer_category": "outside",
+          "source_locator": "Results: 'Lung endothelial cells exhibit early specialization...'",
+          "source_context": "venous ECs (PVLAP+, ACKR3+, and HDAC9+)",
+          "notes": "ACKR3 is part of the venous EC marker definition.",
+          "audit_status": "recovery_include",
+          "citation_verified": true,
+          "audit_model": "deepseek-v4-flash"
+        }
+      },
+      "after_values": {
+        "retain_target": true,
+        "preserve_source_provenance": true,
+        "physical_delete_by_luna": false
+      },
+      "reason": "独立复核 gene-cell-species-polarity 与目标行 M00594 一致，来源是同一作者 marker 关系的重复表述；建议保留完整来源并由 Astra 批准去重。",
+      "evidence_refs": [
+        "EVID_12"
+      ],
+      "expected_baseline_sha256": {
+        "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+        "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2"
+      },
+      "final_authority": "Astra"
+    }
+  ],
+  "rejected_or_no_change_round1_proposals": [
+    {
+      "stable_id": "M00051",
+      "round1_action": "update",
+      "luna_recommendation": "no_change",
+      "reason": "EVID01 的 Fig.1B/1D 同时支持 PNEC 的染色质可及性与 RNA 表达；正式表没有独立 measurement_type 字段，现有 notes 已保留双模态信息，不应把它改写成 RNA-only。",
+      "evidence_refs": [
+        "EVID_01"
+      ]
+    },
+    {
+      "stable_id": "M00074",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "Peripherin/Prph 的 Fig.5 免疫染色支持 neurons，但与 M00073 的 small-diameter peripherin-positive neurons 不是完整相同关系；不同实验粒度下不自动合并。",
+      "evidence_refs": [
+        "EVID_02"
+      ]
+    },
+    {
+      "stable_id": "REV_ELIFE_02_CALCA",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_01"
+      ]
+    },
+    {
+      "stable_id": "REV_ELIFE_03_CHGA",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_01"
+      ]
+    },
+    {
+      "stable_id": "REV_ELIFE_04_LAMC3",
+      "round1_action": "hold",
+      "luna_recommendation": "exclude_candidate_hold",
+      "reason": "独立查看对应图/图注后，候选被映射到错误实体、错误用途或把活性/染色对象改写成 RNA marker；不进入正式表，保留候选审计记录供 Astra 裁决。",
+      "evidence_refs": [
+        "EVID_01"
+      ]
+    },
+    {
+      "stable_id": "REV_ELIFE_05_FCN1",
+      "round1_action": "hold",
+      "luna_recommendation": "exclude_candidate_hold",
+      "reason": "独立查看对应图/图注后，候选被映射到错误实体、错误用途或把活性/染色对象改写成 RNA marker；不进入正式表，保留候选审计记录供 Astra 裁决。",
+      "evidence_refs": [
+        "EVID_01"
+      ]
+    },
+    {
+      "stable_id": "REV_IPAIN_01_Cd86",
+      "round1_action": "hold",
+      "luna_recommendation": "exclude_candidate_hold",
+      "reason": "独立查看对应图/图注后，候选被映射到错误实体、错误用途或把活性/染色对象改写成 RNA marker；不进入正式表，保留候选审计记录供 Astra 裁决。",
+      "evidence_refs": [
+        "EVID_02"
+      ]
+    },
+    {
+      "stable_id": "REV_IPAIN_02_Glb1",
+      "round1_action": "hold",
+      "luna_recommendation": "exclude_candidate_hold",
+      "reason": "独立查看对应图/图注后，候选被映射到错误实体、错误用途或把活性/染色对象改写成 RNA marker；不进入正式表，保留候选审计记录供 Astra 裁决。",
+      "evidence_refs": [
+        "EVID_02"
+      ]
+    },
+    {
+      "stable_id": "REV_IPAIN_03_Calca",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_02"
+      ]
+    },
+    {
+      "stable_id": "REV_IPAIN_04_Mrgprd",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_02"
+      ]
+    },
+    {
+      "stable_id": "REV_IPAIN_05_Piezo2",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_02"
+      ]
+    },
+    {
+      "stable_id": "REV_IPAIN_06_Fabp7",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_02"
+      ]
+    },
+    {
+      "stable_id": "REV_BLADDER_01_NRXN1",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_03"
+      ]
+    },
+    {
+      "stable_id": "REV_KIDNEY_01_SLC12A1",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_05"
+      ]
+    },
+    {
+      "stable_id": "REV_KIDNEY_02_AQP2",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_05"
+      ]
+    },
+    {
+      "stable_id": "REV_KIDNEY_03_SLC12A3",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_05"
+      ]
+    },
+    {
+      "stable_id": "REV_KIDNEY_04_NPHS2",
+      "round1_action": "hold",
+      "luna_recommendation": "unresolved_hold",
+      "reason": "已查看首轮指定图/图注与论文局部文本，但没有足以把候选基因稳定绑定到申报细胞实体的直接证据；不把面板未出现误判为全文否定。",
+      "evidence_refs": [
+        "EVID_05"
+      ]
+    },
+    {
+      "stable_id": "M00828",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00829",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00831",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00832",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00833",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00846",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00847",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00848",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00849",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00850",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00851",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00855",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00856",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00859",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00860",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00871",
+      "round1_action": "update",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核支持当前关系，但首轮 proposed cell_type 把 LinPOS organoids 直接泛化为 AT2；原文仅说明 LAMP3/SFTPC 在 LinPOS organoids 中表达，不能升级细胞粒度。",
+      "evidence_refs": [
+        "EVID_06"
+      ]
+    },
+    {
+      "stable_id": "M00872",
+      "round1_action": "update",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核支持当前关系，但首轮 proposed cell_type 把 LinPOS organoids 直接泛化为 AT2；原文仅说明 LAMP3/SFTPC 在 LinPOS organoids 中表达，不能升级细胞粒度。",
+      "evidence_refs": [
+        "EVID_06"
+      ]
+    },
+    {
+      "stable_id": "M00873",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00878",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00879",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00880",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00881",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_08"
+      ]
+    },
+    {
+      "stable_id": "M00883",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00885",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00888",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00889",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_07"
+      ]
+    },
+    {
+      "stable_id": "M00044",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_13"
+      ]
+    },
+    {
+      "stable_id": "M00045",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_13"
+      ]
+    },
+    {
+      "stable_id": "M00046",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_13"
+      ]
+    },
+    {
+      "stable_id": "M00049",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_13"
+      ]
+    },
+    {
+      "stable_id": "M00413",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00426",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00428",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00432",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00433",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00438",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00444",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00447",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00449",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00451",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00452",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00457",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00459",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00461",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00463",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00468",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00469",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00477",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_12"
+      ]
+    },
+    {
+      "stable_id": "M00478",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00479",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00480",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00481",
+      "round1_action": "exclude",
+      "luna_recommendation": "no_change",
+      "reason": "论文把该条作为注释、分选、阴性/阳性门控或污染群标识使用；政策明确不能仅因组织范围、污染、非目标谱系或负方向删除作者实际 marker。",
+      "evidence_refs": [
+        "EVID_14"
+      ]
+    },
+    {
+      "stable_id": "M00482",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00485",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00486",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00509",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00510",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00511",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00514",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00515",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00516",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00517",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00524",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00547",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00548",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00550",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00551",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00558",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00566",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00570",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_09"
+      ]
+    },
+    {
+      "stable_id": "M00587",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_12"
+      ]
+    },
+    {
+      "stable_id": "M00588",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00589",
+      "round1_action": "merge_duplicate",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核后发现首轮未提供可接受的 merge target，且该行与相近记录存在亚群、门控或实验粒度差异；不自动合并。",
+      "evidence_refs": [
+        "EVID_10"
+      ]
+    },
+    {
+      "stable_id": "M00593",
+      "round1_action": "context_only",
+      "luna_recommendation": "no_change",
+      "reason": "独立复核显示该条属于作者实际 annotation/gating/signature 关系（包括阴性、low 和组合门控），不是只有 DEG、模型推断或纯外部引用；按政策不能仅因方向为 negative 或非特异而降为 context_only。",
+      "evidence_refs": [
+        "EVID_12"
+      ]
+    }
+  ],
+  "change_count": 20,
+  "rejected_count": 91
+}

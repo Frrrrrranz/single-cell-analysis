@@ -1,0 +1,163 @@
+[
+  {
+    "evidence_id": "EVID_01",
+    "paper_id": "DOI_10.7554_elife.62522",
+    "pdf_page": 4,
+    "panel": "Fig. 1B and 1D",
+    "file_name": "DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+    "detail_file_name": "DOI_10.7554_elife.62522_p4_Fig1D_dotplot_detail.png",
+    "target_genes_cells": [
+      {
+        "gene": "RIMS2",
+        "cell": "PNEC (Pulmonary neuroendocrine cell)",
+        "status": "confirmed_candidate"
+      },
+      {
+        "gene": "ASCL1",
+        "cell": "PNEC",
+        "status": "confirmed_in_Fig1B_chromatin_accessibility"
+      },
+      {
+        "gene": "CALCA / CHGA",
+        "cell": "PNEC",
+        "status": "retracted_not_in_panel"
+      },
+      {
+        "gene": "LAMC3",
+        "cell": "Chondrocytes (not Pericyte)",
+        "status": "mispaired_in_repair"
+      },
+      {
+        "gene": "NTRK3",
+        "cell": "Pericyte",
+        "status": "actual_panel_marker"
+      },
+      {
+        "gene": "FCN1",
+        "cell": "Monocytes (not Interstitial macrophage)",
+        "status": "mispaired_in_repair"
+      },
+      {
+        "gene": "FOLR2",
+        "cell": "Interstitial macrophage",
+        "status": "actual_panel_marker"
+      }
+    ],
+    "image_observation": "实地查看 PDF 第 4 页 Fig. 1D DotPlot：\n1. PNEC 细胞群对应的标注基因明确为 RIMS2（点图显示极高表达与特异性），Fig. 1B 中展示 PNEC 开放峰基因包含 ASCL1；面板中完全未见 CALCA 与 CHGA 标签。\n2. LAMC3 对应的主群为 Chondrocytes (Chondro.)，而 Pericyte 对应的主要标签为 NTRK3。\n3. FCN1 对应的主群为 Monocytes，而 Interstitial macrophage (IM) 对应的标注基因为 FOLR2。\n4. CA4 对应 Cap1/Cap2 毛细血管内皮亚群。",
+    "verdict_impact": "纠正此前 Codex 报告中误写的 CHGB，确认 Fig. 1D 的 PNEC 基因确为 RIMS2；支持将 RIMS2 作为有效候选保留；证实 LAMC3 与 FCN1 在修补中存在细胞配对错位，原配对必须撤销或另寻证据。"
+  },
+  {
+    "evidence_id": "EVID_02",
+    "paper_id": "DOI_10.1038_s41467-024-52052-8",
+    "pdf_page": 4,
+    "panel": "Fig. 1d and 1h",
+    "file_name": "DOI_10.1038_s41467-024-52052-8_p4_Fig1d_1h.png",
+    "detail_file_name": "DOI_10.1038_s41467-024-52052-8_p4_Fig1d_heatmap_detail.png",
+    "target_genes_cells": [
+      {
+        "gene": "H2-Eb1, H2-Aa, H2-Ab1",
+        "cell": "Macrophage",
+        "status": "actual_panel_markers"
+      },
+      {
+        "gene": "Cd86",
+        "cell": "Macrophage",
+        "status": "rejected_fabricated_from_other_paper"
+      },
+      {
+        "gene": "Calca",
+        "cell": "Peptidergic Nociceptor (PEP)",
+        "status": "observed_in_DRG_subsets"
+      },
+      {
+        "gene": "Mrgprd",
+        "cell": "Non-peptidergic Nociceptor (NP)",
+        "status": "observed_in_DRG_subsets"
+      },
+      {
+        "gene": "Piezo2",
+        "cell": "C-LTMR / Mechanoreceptor",
+        "status": "observed_in_subsets"
+      }
+    ],
+    "image_observation": "实地查看 PDF 第 4 页 Fig. 1d 热图与散点图：\n1. 巨噬细胞 (Macrophage) 列出的特征标记为 H2-Eb1、H2-Aa、H2-Ab1，根本不存在 Cd86 标签。\n2. 感觉神经元亚群中，Calca 主要富集于 PEP 亚群，Mrgprd 富集于 NP 亚群，Piezo2 出现于 mechanoreceptor 亚群。",
+    "verdict_impact": "直接证实修补 JSON 中的 Cd86—Macrophage 系错误挪用了 s41588-025-02158-6 神经母细胞瘤 (M01336) 的裁决；完全否决该条目据当前来源入库，撤销跨论文虚假裁决引用。"
+  },
+  {
+    "evidence_id": "EVID_03",
+    "paper_id": "DOI_10.1016_j.isci.2024.111628",
+    "pdf_page": 6,
+    "panel": "Main text p. 6 & Fig. 1E",
+    "file_name": "DOI_10.1016_j.isci.2024.111628_p6_Schwann_full.png",
+    "detail_file_name": "DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+    "target_genes_cells": [
+      {
+        "gene": "CDH19",
+        "cell": "Schwann cell",
+        "status": "confirmed_author_declared"
+      },
+      {
+        "gene": "NRXN1 (NRXN+)",
+        "cell": "Schwann cell",
+        "status": "unresolved_ambiguous_family_symbol"
+      },
+      {
+        "gene": "XKR4",
+        "cell": "Schwann cell",
+        "status": "confirmed_author_declared"
+      }
+    ],
+    "image_observation": "实地查看 PDF 第 6 页正文段落（第一栏中部）：\n逐字原文：'Lastly, we identified a single Schwann cell cluster (CDH19+/NRXN+/XKR4+)... where 87.5% of cells were of single-nucleus origin, highlighting the utility of snRNA-seq in capturing rare bladder stromal cell populations.'\n观察分析：正文作者清晰明确将该群命名并识别为 Schwann cell（施万细胞），修补 JSON 的细胞名称完全正确，并非销项表错误描述的'固有层间质/肌纤维'；但基因符号使用的是家族统称 'NRXN+'，未指明具体亚型为 NRXN1/2/3。",
+    "verdict_impact": "证实修补 JSON 中细胞分类 Schwann cell 正确无误，纠正销项表中的错误转述；确认 NRXN+ 无法唯一解析到 NRXN1，应保持 unresolved。"
+  },
+  {
+    "evidence_id": "EVID_04",
+    "paper_id": "DOI_10.1038_s41588-022-01243-4",
+    "pdf_page": 34,
+    "panel": "Extended Data Fig. 10g & p. 35 Legend",
+    "file_name": "DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10_full.png",
+    "detail_file_name": "DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g_detail.png",
+    "legend_file_name": "DOI_10.1038_s41588-022-01243-4_p35_ExtDataFig10_legend.png",
+    "target_genes_cells": [
+      {
+        "gene": "PRR4",
+        "cell": "SMG Serous Cell (Submucosal gland serous)",
+        "status": "confirmed_figure_labeled_protein"
+      }
+    ],
+    "image_observation": "实地查看 PDF 第 34 页 Extended Data Fig. 10g：\n面板清晰展示人支气管组织免疫组化切片，各子图明确标注：'PRR4 (SMG-serous)'、'MUC5B (SMG-mucous)' 等。\n第 35 页图注明确说明：'g, Representative immunohistochemistry images from the Human Protein Atlas (HPA) showing validation of protein localization for SMG-serous (PRR4) and SMG-mucous cells in human bronchial submucosal glands.'",
+    "verdict_impact": "彻底推翻将 PRR4 降级或排除的处理。依据 MARKER_POLICY.md 第 2 条，该图属于 figure_labeled 及 author annotation marker，作为人支气管 SMG serous 的有效蛋白定位证据收录，注明采用 HPA 图像验证。"
+  },
+  {
+    "evidence_id": "EVID_05",
+    "paper_id": "DOI_10.1126_science.aat5031",
+    "pdf_page": 4,
+    "panel": "Fig. 1",
+    "file_name": "DOI_10.1126_science.aat5031_p4_Fig1_full.png",
+    "detail_file_name": null,
+    "target_genes_cells": [
+      {
+        "gene": "SLC12A1",
+        "cell": "Thick Ascending Limb Epithelial Cell",
+        "status": "pending_verification"
+      },
+      {
+        "gene": "AQP2",
+        "cell": "Collecting Duct Principal Cell",
+        "status": "pending_verification"
+      },
+      {
+        "gene": "SLC12A3",
+        "cell": "Distal Convoluted Tubule Cell",
+        "status": "pending_verification"
+      },
+      {
+        "gene": "NPHS2",
+        "cell": "Podocyte",
+        "status": "pending_verification"
+      }
+    ],
+    "image_observation": "PDF 第 4 页展示人类肾脏免疫与实质细胞空间分区总图。修补曾以'肾实质细胞非本文新发现'为由排除，违反项目全保留政策。",
+    "verdict_impact": "维持待核，等待补充表格与具体聚类注释图进一步复核，不以不特异或非免疫为由擅自物理排除。"
+  }
+]

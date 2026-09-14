@@ -1,0 +1,649 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+  "doi": "10.1164/rccm.202207-1384oc",
+  "title": "A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含正文 12 页（pp. 1171-1182）、图 1-4、At a Glance 述评及详细实验结果"
+    },
+    {
+      "material_name": "DOI_10.1164_rccm.202207-1384oc.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含全文 Markdown 结构化文本及图表文字说明"
+    },
+    {
+      "material_name": "Online Data Supplement (Figures E1-E10, Tables E1-E17)",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中详细引用并论述了补充图 E1-E10 及表格 E1-E17 的关键统计数据与验证实验；独立补充附件表格文件未在本地单独存放"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_TASC",
+      "cluster_name": "Terminal airway-enriched secretory cell (TASC)",
+      "species": "human",
+      "organ_or_tissue": "distal conducting airways (pre-TBs and TBs)",
+      "four_layer_category": "outside",
+      "description": "终末气道富集分泌细胞，介于常规分泌细胞与 AT2 细胞之间的过渡态细胞，高表达 SCGB3A2、SFTPB、MGP，SFTPC 阴性，在 COPD 中显著丢失"
+    },
+    {
+      "cluster_id": "Cluster_BC_distal",
+      "cluster_name": "Distal airway basal cell (D-airway BC)",
+      "species": "human",
+      "organ_or_tissue": "distal conducting airways (pre-TBs and TBs)",
+      "four_layer_category": "outside",
+      "description": "远端细支气管基底细胞，具备区域分化记忆，为 TASCs 的起源祖细胞，表达 KRT5、TP63"
+    },
+    {
+      "cluster_id": "Cluster_S1",
+      "cluster_name": "Common secretory cell (S1)",
+      "species": "human",
+      "organ_or_tissue": "airway surface epithelium (proximal and distal)",
+      "four_layer_category": "outside",
+      "description": "常规气道分泌细胞（棒状细胞样），高表达 SCGB1A1，在 COPD 细支气管中保持相对恒定"
+    },
+    {
+      "cluster_id": "Cluster_AT2",
+      "cluster_name": "Alveolar type 2 cell (AT2)",
+      "species": "human",
+      "organ_or_tissue": "alveolar region",
+      "four_layer_category": "outside",
+      "description": "肺泡 II 型上皮细胞，标志性表达 SFTPC、SFTPA1、ABCA3"
+    },
+    {
+      "cluster_id": "Cluster_AT1",
+      "cluster_name": "Alveolar type 1 cell (AT1)",
+      "species": "human",
+      "organ_or_tissue": "alveolar region",
+      "four_layer_category": "outside",
+      "description": "肺泡 I 型扁平上皮细胞，表达 AGER、HOPX"
+    },
+    {
+      "cluster_id": "Cluster_C1",
+      "cluster_name": "Ciliated cell (C1)",
+      "species": "human",
+      "organ_or_tissue": "airway surface epithelium",
+      "four_layer_category": "outside",
+      "description": "气道表面纤毛上皮细胞，表达 TUBB4A、FOXJ1"
+    },
+    {
+      "cluster_id": "Cluster_IC",
+      "cluster_name": "Intermediate cell (IC)",
+      "species": "human",
+      "organ_or_tissue": "airway surface epithelium",
+      "four_layer_category": "outside",
+      "description": "中间层上皮细胞，富集 SERPINB3，在 COPD 与 IFN-γ 刺激下上调 KRT6A"
+    },
+    {
+      "cluster_id": "Cluster_Gli",
+      "cluster_name": "Glial / Schwann cell (Gli)",
+      "species": "human",
+      "organ_or_tissue": "airway stroma",
+      "four_layer_category": "L2",
+      "description": "气道周围神经胶质/施万细胞，表达 CDH19、MPZ、NRXN1，属于 L2 神经胶质分类，在 COPD 细支气管比例增加"
+    },
+    {
+      "cluster_id": "Cluster_CD8_T1",
+      "cluster_name": "CD8+ T cell (CD8-T1)",
+      "species": "human",
+      "organ_or_tissue": "airway immune infiltrate",
+      "four_layer_category": "outside",
+      "description": "CD8 阳性 T 细胞，在 COPD 远端细支气管上皮内与上皮下显著富集并分泌 IFN-γ"
+    },
+    {
+      "cluster_id": "Cluster_MC",
+      "cluster_name": "Mast cell (MC)",
+      "species": "human",
+      "organ_or_tissue": "airway immune infiltrate",
+      "four_layer_category": "outside",
+      "description": "肥大细胞，表达 TPSAB1、CPA3，在 COPD 远端细支气管中显著增多"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M01",
+      "marker": "SCGB3A2",
+      "marker_original": "SCGB3A2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Terminal Airway-enriched Secretory Cell",
+      "cell_type_original": "terminal airway-enriched secretory cells (TASCs)",
+      "author_cluster_id": "Cluster TASC",
+      "species": "human",
+      "organ_or_tissue": "distal conducting airways (pre-TBs, TBs, TB-RB junctions)",
+      "experimental_context": "scRNA-seq of healthy/COPD lung regions, immunofluorescence, and air-liquid interface (ALI) regeneration cultures",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-SCGB3A2 antibody and scRNA-seq expression",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 1173-1176, Fig. 1E, Fig. 2C-G, Fig. 3F-G, Fig. 4B-D",
+      "source_context": "SCGB3A2+ TASCs constituted 8% and 23% of epithelial cells in pre-TBs and TBs, respectively, and >40% of cells in simple columnar-to-cuboidal epithelium at TB–RB junctions (Figure 2G)... SCGB3A2 and MGP were expressed in TASCs at higher levels than in both S and AT2 cells",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. 1E, Fig. 2C, Fig. 2E, Fig. 2G, Fig. 3F",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Cells in this cluster were marked by expression of SCGB3A2 and SFTPB... we termed these cells 'terminal airway-enriched secretory cells', or TASCs... SCGB3A2+ TASCs were found in >90% of pre-TBs in nondiseased lungs, whereas no TASCs could be found in 55.4% of pre-TBs in COPD",
+          "mapping_basis": "scRNA-seq DEG, quantitative immunofluorescence on 35 human lungs, and in vitro ALI validation"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "SCGB3A2+ SFTPB+ SFTPC-",
+      "notes": "Defining hallmark marker of human distal airway TASCs; dramatic loss observed in COPD",
+      "decision_reason": "High-evidence multi-validation across large donor cohort and in vitro lineage differentiation"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M02",
+      "marker": "SFTPB",
+      "marker_original": "SFTPB",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Terminal Airway-enriched Secretory Cell",
+      "cell_type_original": "terminal airway-enriched secretory cells (TASCs)",
+      "author_cluster_id": "Cluster TASC",
+      "species": "human",
+      "organ_or_tissue": "distal conducting airways (pre-TBs, TBs, TB-RB junctions)",
+      "experimental_context": "scRNA-seq, immunofluorescence on tissue sections, and ALI differentiation cultures",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-SFTPB antibody and scRNA-seq expression",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 1174-1176, Fig. 1E, Fig. 2C, Fig. 2F, Fig. 2H, Fig. 3F-H, Fig. 4B-D",
+      "source_context": "SFTPB marked a broader subset of TASCs (16% of ASE cells in pre-TBs, 33% in TBs, and 54% at TB–RB junctions; Figure 2H)... marked loss of SFTPB+ TASCs in pre-TBs and TBs of patients with COPD",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. 2F, Fig. 2H, Fig. 3F, Fig. 4B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SFTPB marked a broader subset of TASCs... Unlike other S cells, TASCs expressed SCGB3A2, SFTPB, and genes also expressed in AT cells",
+          "mapping_basis": "multimodal scRNA-seq, tissue immunofluorescence, and ALI differentiation validation"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "SFTPB+ SCGB3A2+ SFTPC-",
+      "notes": "Co-defining marker of TASCs showing surfactant production in distal conducting bronchioles",
+      "decision_reason": "Direct in situ IF quantification and single-cell expression evidence"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M03",
+      "marker": "MGP",
+      "marker_original": "MGP",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Terminal Airway-enriched Secretory Cell",
+      "cell_type_original": "terminal airway-enriched secretory cells (TASCs)",
+      "author_cluster_id": "Cluster TASC",
+      "species": "human",
+      "organ_or_tissue": "distal conducting airways",
+      "experimental_context": "scRNA-seq volcano plot and cluster DEG analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, Fig. 2C, Fig. 2D",
+      "source_context": "Notably, SCGB3A2 and MGP were expressed in TASCs at higher levels than in both S and AT2 cells (Figures 2C and 2D; Table E6)",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. 2C, Fig. 2D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Volcano plots showing DEGs identified by comparing all TASCs and other S cells and TASCs and AT2 cells... MGP up in TASCs",
+          "mapping_basis": "scRNA-seq DEG volcano plot with FDR < 0.01"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Matrix Gla protein, specifically enriched in TASCs over proximal secretory cells and distal AT2 cells",
+      "decision_reason": "Statistically significant cluster DEG differentiating TASCs from adjacent epithelial lineages"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M04",
+      "marker": "RNASE1",
+      "marker_original": "RNASE1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Terminal Airway-enriched Secretory Cell",
+      "cell_type_original": "TASCs",
+      "author_cluster_id": "Cluster TASC",
+      "species": "human",
+      "organ_or_tissue": "distal conducting airways",
+      "experimental_context": "scRNA-seq DEG analysis and in vitro ALI differentiation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq and ALI cultures",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, p. 1178, Fig. 2C, Fig. 4B",
+      "source_context": "Unlike other S cells, TASCs expressed SCGB3A2, SFTPB, and genes also expressed in AT cells (RNASE1, SFTPA2, HOPX, SFTPA1)... Among genes robustly upregulated in D airway BC-derived epithelia, ~21% were TASC marker genes (e.g., SFTPB, SCGB3A2, SFTA2, RNASE1)",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. 2C, Fig. 4B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "RNASE1 up in TASCs vs other S cells and upregulated in distal BC-derived ALI epithelia",
+          "mapping_basis": "scRNA-seq DEG and in vitro differentiation validation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Ribonuclease A family member 1, enriched in TASCs in vivo and induced upon distal basal cell differentiation",
+      "decision_reason": "scRNA-seq cluster DEG supported by in vitro progenitor differentiation"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M05",
+      "marker": "KRT5",
+      "marker_original": "KRT5 (keratin 5)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Distal Airway Basal Cell",
+      "cell_type_original": "basal cells (BCs)",
+      "author_cluster_id": "Cluster BC",
+      "species": "human",
+      "organ_or_tissue": "pre-TBs and TBs",
+      "experimental_context": "Imaging CyTOF and immunofluorescence on lung tissue sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-KRT5 antibody in CyTOF and IF",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1176, p. 1178, Fig. 1E, Fig. 3I, Fig. 4J",
+      "source_context": "Basal cells residing in pre-TBs/TBs were identified as a cellular origin of TASCs... Imaging CyTOF: representative images showing CD8+ cells in distal airways (pre-TBs/TBs); KRT5, keratin 5 (green); SCGB3A2 (white)",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 8,
+          "printed_page": 1178,
+          "figure_panel": "Fig. 3I, Fig. 4J",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Imaging CyTOF representative images showing CD8+ cells in close proximity to KRT5+ BCs in distal airways",
+          "mapping_basis": "imaging CyTOF and IF in human bronchiole sections"
+        }
+      ],
+      "validation_method": "imaging_mass_cytometry / immunofluorescence",
+      "gate_definition": "KRT5+ basal layer",
+      "notes": "Progenitor population lining distal bronchioles giving rise to TASCs",
+      "decision_reason": "Demonstrated as progenitor origin of TASCs in ALI differentiation assays"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M06",
+      "marker": "SCGB1A1",
+      "marker_original": "SCGB1A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Common Secretory Cell",
+      "cell_type_original": "common secretory cells (S1)",
+      "author_cluster_id": "Cluster S1",
+      "species": "human",
+      "organ_or_tissue": "conducting airways",
+      "experimental_context": "scRNA-seq dotplot and dual immunofluorescence with SFTPB/SCGB3A2",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-SCGB1A1 antibody and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, p. 1176, Fig. 1E, Fig. 2F, Fig. 3H",
+      "source_context": "Notably, SCGB1A1+ S cells were preserved in COPD pre-TBs/TBs, where TASCs were absent (Figures 3H and E6B)... no significant difference was found in the frequency of SCGB1A1+ S1 cells in pre-TBs/TBs of COPD versus normal lung donors",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 6,
+          "printed_page": 1176,
+          "figure_panel": "Fig. 2F, Fig. 3H",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Representative immunofluorescence images showing SCGB3A2+ TASCs, SFTPB+ TASCs, and SCGB1A1 expression in different TBs of the same COPD patient's lung",
+          "mapping_basis": "immunofluorescence on patient tissue and scRNA-seq"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "SCGB1A1high SFTPB-",
+      "notes": "Distinguishes conventional club-like secretory cells (preserved in COPD) from TASCs (lost in COPD)",
+      "decision_reason": "In situ IF demonstration of independent disease dynamics from TASCs"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M07",
+      "marker": "SFTPC",
+      "marker_original": "SFTPC",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 2 Cell",
+      "cell_type_original": "alveolar type 2 (AT2) cells",
+      "author_cluster_id": "Cluster AT2",
+      "species": "human",
+      "organ_or_tissue": "alveoli",
+      "experimental_context": "scRNA-seq dotplot, volcano plot, and CyTOF/IF imaging",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-SFTPC antibody and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, p. 1176, Fig. 1E, Fig. 2C, Fig. 2J",
+      "source_context": "In contrast to AT2 cells, TASCs were typically SFTPC-negative (Figure 2J)... Compared with AT2 cells, TASCs expressed S cell genes SCGB1A1 and SCGB3A1 but showed significantly lower expression of AT2 markers SFTPC, SFTPA1, and SFTPA2",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 6,
+          "printed_page": 1176,
+          "figure_panel": "Fig. 2C, Fig. 2J",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Representative CyTOF images showing expression of indicated markers (SCGB3A2, SFTPB, SFTPC) in different regions... TASCs typically SFTPC-negative",
+          "mapping_basis": "CyTOF imaging and scRNA-seq expression comparison"
+        }
+      ],
+      "validation_method": "imaging_mass_cytometry / scRNA-seq",
+      "gate_definition": "SFTPC+ SFTPA1+",
+      "notes": "Prototypical AT2 cell marker; critical negative discriminator distinguishing TASCs from alveolar pneumocytes",
+      "decision_reason": "Single-cell and CyTOF validation confirming restricted expression in alveolar AT2"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M08",
+      "marker": "TUBB4A",
+      "marker_original": "tubulin beta 4 (TUBB4)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Ciliated Cell",
+      "cell_type_original": "ciliated cells (C1)",
+      "author_cluster_id": "Cluster C1",
+      "species": "human",
+      "organ_or_tissue": "airway surface epithelium",
+      "experimental_context": "Immunofluorescence on lung sections and in vitro ALI cultures",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-TUBB4 antibody and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, p. 1178, Fig. 1E, Fig. 2E, Fig. 4J",
+      "source_context": "Immunofluorescence (IF) images showing expression of SCGB3A2 and tubulin beta 4 (TUBB4; cilia marker)... reduced frequency of SFTPB+ TASCs paralleled by loss of SCGB1A1high S cells and ciliated cells (TUBB4+)",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 5,
+          "printed_page": 1175,
+          "figure_panel": "Fig. 2E, Fig. 4J",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "IF images showing expression of SCGB3A2 and tubulin beta 4 (TUBB4; cilia marker) in indicated regions",
+          "mapping_basis": "immunofluorescence on tissue sections and ALI cultures"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "TUBB4+",
+      "notes": "Marks apical cilia of differentiated ciliated cells across proximal and distal airway surface epithelium",
+      "decision_reason": "Validated by IF on human tissue sections and in vitro ALI differentiation"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M09",
+      "marker": "SERPINB3",
+      "marker_original": "SERPINB3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Intermediate Cell",
+      "cell_type_original": "intermediate cells (ICs)",
+      "author_cluster_id": "Cluster IC",
+      "species": "human",
+      "organ_or_tissue": "airway surface epithelium",
+      "experimental_context": "scRNA-seq UMAP clustering and timecourse differentiation in ALI",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, p. 1178, Fig. 1E, Fig. 4E",
+      "source_context": "The ASE family included BCs, intermediate cells (ICs; SERPINB3high), and previously described differentiated cell populations... At d3, SERPINB3high ICs emerged",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. 1E, Fig. 4E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "The ASE family included BCs, intermediate cells (ICs; SERPINB3high)...",
+          "mapping_basis": "scRNA-seq cluster defining marker in vivo and in vitro"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Marks suprabasal intermediate cells transitioning during airway regeneration",
+      "decision_reason": "Cluster-defining signature gene tracking early differentiation in scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M10",
+      "marker": "CDH19",
+      "marker_original": "CDH19",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Glial / Schwann Cell",
+      "cell_type_original": "neuronal and glial/Schwann cells (Gli)",
+      "author_cluster_id": "Cluster Gli",
+      "species": "human",
+      "organ_or_tissue": "airway stroma",
+      "experimental_context": "scRNA-seq clustering and regional composition analysis along proximal-distal axis",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, p. 1176, Fig. 1E, Fig. 2L, Fig. 3A-C",
+      "source_context": "Cells expressing markers of neuronal and glial/Schwann cells (Gli; CDH19, MPZ, NRXN1) were also identified... increased proportions of Gli and CD8-T1 cells normally enriched in P airways in COPD",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. 1E, Fig. 2L, Fig. 3C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Cells expressing markers of neuronal and glial/Schwann cells (Gli; CDH19, MPZ, NRXN1)... increased in COPD pre-T airways",
+          "mapping_basis": "scRNA-seq cluster defining markers"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Peripheral airway glial/Schwann cells, classified under L2 Glia",
+      "decision_reason": "Single-cell cluster DEG identifying Schwann cells in lung stromal architecture"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M11",
+      "marker": "MPZ",
+      "marker_original": "MPZ",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Glial / Schwann Cell",
+      "cell_type_original": "neuronal and glial/Schwann cells (Gli)",
+      "author_cluster_id": "Cluster Gli",
+      "species": "human",
+      "organ_or_tissue": "airway stroma",
+      "experimental_context": "scRNA-seq clustering of lung stromal cells",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, Fig. 1E",
+      "source_context": "Cells expressing markers of neuronal and glial/Schwann cells (Gli; CDH19, MPZ, NRXN1) were also identified",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. 1E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Gli; CDH19, MPZ, NRXN1",
+          "mapping_basis": "scRNA-seq cluster DEG"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Myelin protein zero, specific Schwann cell marker in distal airway stroma (L2 Glia)",
+      "decision_reason": "scRNA-seq cluster-defining DEG"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M12",
+      "marker": "CD8A",
+      "marker_original": "CD8 (CD8A / CD8B)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "CD8+ T Cell",
+      "cell_type_original": "CD8+ T cells (CD8-T1)",
+      "author_cluster_id": "Cluster CD8-T1",
+      "species": "human",
+      "organ_or_tissue": "pre-TBs and TBs",
+      "experimental_context": "Imaging CyTOF on 37 human distal airways and scRNA-seq quantification",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Metal-conjugated anti-CD8 antibody in Imaging CyTOF and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1176, Fig. 1E, Fig. 3A-B, Fig. 3I-J",
+      "source_context": "imaging CyTOF determined an increased density of CD8+ cells, including intraepithelial CD8+ cells, in pre-TBs/TBs in COPD versus normal lung donors (Figures 3I, 3J)... high density of CD8+ cells detected in COPD pre-TBs/TBs with a lower TASC frequency",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 8,
+          "printed_page": 1178,
+          "figure_panel": "Fig. 3I, Fig. 3J",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Imaging CyTOF representative images showing CD8+ cells (intraepithelial and subepithelial) in distal airways of patients with COPD",
+          "mapping_basis": "imaging mass cytometry quantitative spatial profiling"
+        }
+      ],
+      "validation_method": "imaging_mass_cytometry / scRNA-seq",
+      "gate_definition": "CD8+",
+      "notes": "Effector immune population in distal bronchioles whose production of IFN-γ suppresses TASC regeneration from basal cells",
+      "decision_reason": "Quantitative CyTOF imaging and spatial correlation with TASC loss in patient tissue"
+    },
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_M13",
+      "marker": "TPSAB1",
+      "marker_original": "TPSAB1 (tryptase)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Mast Cell",
+      "cell_type_original": "mast cells (MC)",
+      "author_cluster_id": "Cluster MC",
+      "species": "human",
+      "organ_or_tissue": "airway stroma",
+      "experimental_context": "scRNA-seq cluster dotplot and disease proportion comparison",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1174, p. 1176, Fig. 1E, Fig. 3A-C",
+      "source_context": "accompanied by a marked increase in mast cell frequency in COPD versus normal pre-T airways (Figures 3A and 3B)... highest number of upregulated genes observed in mast cells",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 7,
+          "printed_page": 1177,
+          "figure_panel": "Fig. 1E, Fig. 3A, Fig. 3C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Mean percentage of cells in mast cell (MC) group significantly increased in COPD pre-T airways",
+          "mapping_basis": "scRNA-seq cluster dotplot and disease comparison"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Shows dramatic expansion and highest transcriptional activation among immune populations in COPD distal airways",
+      "decision_reason": "scRNA-seq cluster-defining marker and significant disease-associated expansion"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_C01",
+      "marker": "KRT6A",
+      "marker_original": "KRT6A (keratin 6A)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Intermediate Cell (Squamous Metaplasia-like)",
+      "cell_type_original": "squamous intermediate cells (IC-sq)",
+      "author_cluster_id": "IC-sq",
+      "species": "human",
+      "organ_or_tissue": "distal conducting airways",
+      "experimental_context": "scRNA-seq in COPD pre-TBs and IFN-γ-treated ALI differentiation cultures",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-KRT6 antibody in IF and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1176, p. 1178, Fig. 3D, Fig. 4E, Fig. 4J",
+      "source_context": "increased proportion of KRT6+ ICs in IFN-γ-treated ALI epithelia... increased expression of KRT6A was also observed in the pre-TB ASE of patients with COPD",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 7,
+          "printed_page": 1177,
+          "figure_panel": "Fig. 3D, Fig. 4J",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "KRT6A up in COPD vs normal pre-T ASE... KRT6+ cells increased in IFN-γ treated cultures",
+          "mapping_basis": "disease-associated metaplasia marker"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Marker of squamous metaplasia/dysfunctional regeneration induced by IFN-γ at the expense of TASCs",
+      "decision_reason": "Contextual disease marker documenting pathological skewing away from TASC fate"
+    }
+  ],
+  "excluded": [
+    {
+      "record_id": "DOI_10.1164_rccm.202207-1384oc_E01",
+      "marker": "Scgb3a2",
+      "marker_original": "Scgb3a2 (mouse)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Common Secretory Cell (mouse)",
+      "cell_type_original": "mouse Scgb1a1+ secretory cells",
+      "author_cluster_id": null,
+      "species": "mouse",
+      "organ_or_tissue": "airways",
+      "experimental_context": "Cross-species comparative single-cell transcriptomic analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Murine scRNA-seq expression datasets",
+      "marker_direction": "unknown",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1174, p. 1180, Fig. E2Y",
+      "source_context": "No cell population analogous to TASCs was found by analyzing scRNA-seq datasets of the mouse lung, where Scgb3a2 was broadly expressed in Scgb1a1+ S cells and Sftpb expression was largely restricted to AT2 cells... consistent with the absence of RBs and, thus, lack of TB–RB transitional zone in murine lungs",
+      "sources": [
+        {
+          "file": "PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+          "pdf_page": 4,
+          "printed_page": 1174,
+          "figure_panel": "Fig. E2Y",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "No cell population analogous to TASCs was found in mouse lung scRNA-seq datasets, where Scgb3a2 was broadly expressed in Scgb1a1+ S cells",
+          "mapping_basis": "cross-species comparative refutation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Explicitly excluded as a TASC marker in mice: unlike human SCGB3A2 which marks distal TASCs, mouse Scgb3a2 is ubiquitous across conducting airway secretory cells due to lack of respiratory bronchioles in mice",
+      "decision_reason": "明确被跨物种单细胞对比排除在小鼠中作为 TASC 特异标记"
+    }
+  ],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 13,
+    "context_only_count": 1,
+    "excluded_count": 1,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full text PDF (12 pages), Figures 1-4, and cited Online Supplement materials (Figures E1-E10, Tables E1-E17).",
+    "missing_materials": "Stand-alone Supplementary Excel Spreadsheets (Tables E1-E17) not provided locally.",
+    "potential_leakage_scope": "Specific genes in top 2,000 variable genes dendrogram and individual DEGs in Tables E4, E6, E7."
+  }
+}

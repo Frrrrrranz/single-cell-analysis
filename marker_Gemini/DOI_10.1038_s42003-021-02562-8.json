@@ -1,0 +1,441 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s42003-021-02562-8",
+  "doi": "10.1038/s42003-021-02562-8",
+  "pmid": "34497364",
+  "title": "Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequencing in hepatoblastoma",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Communications Biology 2021 原文（11页），包含小儿肝母细胞瘤患者原发瘤、背景肝脏及 PDX 模型单细胞测序（67,111 细胞）与 qRT-PCR/IHC 验证"
+    },
+    {
+      "material_name": "DOI_10.1038_s42003-021-02562-8.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述 11 种细胞类型注释、经典细胞标志物（CYP3A4, ALB, FLT1, COL3A1, CD68, GPC3 等）及微环境分子特征"
+    },
+    {
+      "material_name": "Supplementary Information & Fig. S1",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Figures S1-S4 与 ToppCell 模块的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Hepatocytes",
+      "cluster_name": "Hepatocytes",
+      "species": "human",
+      "organ_or_tissue": "liver (background liver and tumor)",
+      "four_layer_category": "outside",
+      "description": "肝脏实质成熟肝细胞，特征性表达细胞色素 P450 酶 CYP3A4、白蛋白 ALB 及载脂蛋白 APOC3"
+    },
+    {
+      "cluster_id": "Cluster_Endothelial_Cells",
+      "cluster_name": "Endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "liver vasculature / sinusoids",
+      "four_layer_category": "outside",
+      "description": "肝窦及血管内皮细胞，特异表达血管内皮生长因子受体 1 (FLT1)"
+    },
+    {
+      "cluster_id": "Cluster_Hepatic_Stellate_Cells",
+      "cluster_name": "Hepatic stellate cells",
+      "species": "human",
+      "organ_or_tissue": "liver / tumor stroma",
+      "four_layer_category": "outside",
+      "description": "肝星状细胞/周细胞，特征性合成胶原蛋白 COL3A1 与 COL6A3"
+    },
+    {
+      "cluster_id": "Cluster_Kupffer_Cells",
+      "cluster_name": "Kupffer cells",
+      "species": "human",
+      "organ_or_tissue": "liver sinusoids",
+      "four_layer_category": "outside",
+      "description": "肝脏常驻巨噬细胞（库普弗细胞），特征性共表达 CD68 与 CD163"
+    },
+    {
+      "cluster_id": "Cluster_Immune_Cells",
+      "cluster_name": "Immune cells",
+      "species": "human",
+      "organ_or_tissue": "liver immune compartment",
+      "four_layer_category": "outside",
+      "description": "肿瘤微环境及背景肝脏中的各类白细胞，由 PTPRC (CD45) 广泛标记"
+    },
+    {
+      "cluster_id": "Cluster_Hepatoblastoma_Tumor",
+      "cluster_name": "Hepatoblastoma tumor cells",
+      "species": "human",
+      "organ_or_tissue": "liver tumor",
+      "four_layer_category": "outside",
+      "description": "恶性肝母细胞瘤驱动肿瘤细胞，显著过表达硫酸缩二脲聚糖 GPC3，经 qRT-PCR 与 IHC 双重验证"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M01",
+      "marker": "CYP3A4",
+      "marker_original": "CYP3A4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatocyte",
+      "cell_type_original": "hepatocytes",
+      "author_cluster_id": "Cluster_Hepatocytes",
+      "species": "human",
+      "organ_or_tissue": "liver",
+      "experimental_context": "scRNA-seq of 67,111 cells across human hepatoblastoma, background liver, and PDX models",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Cytochrome P450 family 3 subfamily A member 4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Single-cell transcriptome landscape of HB",
+      "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b, c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+          "mapping_basis": "Author declared defining marker set"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation & ToppCell analysis",
+      "gate_definition": null,
+      "notes": "Key cytochrome P450 enzyme defining differentiated mature hepatocytes",
+      "decision_reason": "Core author-declared canonical marker for hepatocytes"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M02",
+      "marker": "ALB",
+      "marker_original": "ALB",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatocyte",
+      "cell_type_original": "hepatocytes",
+      "author_cluster_id": "Cluster_Hepatocytes",
+      "species": "human",
+      "organ_or_tissue": "liver",
+      "experimental_context": "scRNA-seq across human liver and hepatoblastoma samples",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Albumin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+          "mapping_basis": "Author declared defining marker set"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Classic hepatocyte serum albumin transcript",
+      "decision_reason": "Core author-declared canonical marker for hepatocytes"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M03",
+      "marker": "APOC3",
+      "marker_original": "APOC3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatocyte",
+      "cell_type_original": "hepatocytes",
+      "author_cluster_id": "Cluster_Hepatocytes",
+      "species": "human",
+      "organ_or_tissue": "liver",
+      "experimental_context": "scRNA-seq of human background liver and tumor",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Apolipoprotein C3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+          "mapping_basis": "Author declared defining marker set"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Lipid transport apolipoprotein produced specifically in liver parenchymal cells",
+      "decision_reason": "Author declared canonical marker for hepatocytes"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M04",
+      "marker": "HPGD",
+      "marker_original": "HPGD",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatocyte",
+      "cell_type_original": "hepatocytes",
+      "author_cluster_id": "Cluster_Hepatocytes",
+      "species": "human",
+      "organ_or_tissue": "liver",
+      "experimental_context": "scRNA-seq of human liver and hepatoblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "15-hydroxyprostaglandin dehydrogenase transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "canonical markers, such as CYP3A4, ALB, APOC3, and HPGD for hepatocytes",
+          "mapping_basis": "Author declared defining marker set"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Prostaglandin catabolic enzyme enriched in mature hepatic parenchymal cells",
+      "decision_reason": "Author declared canonical marker for hepatocytes"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M05",
+      "marker": "FLT1",
+      "marker_original": "FLT1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Endothelial cell",
+      "cell_type_original": "endothelial cells",
+      "author_cluster_id": "Cluster_Endothelial_Cells",
+      "species": "human",
+      "organ_or_tissue": "liver vasculature",
+      "experimental_context": "scRNA-seq in hepatoblastoma and liver microenvironment",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Fms related receptor tyrosine kinase 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "FLT1 for endothelial cells",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "FLT1 for endothelial cells",
+          "mapping_basis": "Author declared defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Vascular endothelial growth factor receptor 1 defining sinusoidal and vascular endothelium",
+      "decision_reason": "Author declared canonical marker for endothelial cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M06",
+      "marker": "COL3A1",
+      "marker_original": "COL3A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatic stellate cell",
+      "cell_type_original": "hepatic stellate cells",
+      "author_cluster_id": "Cluster_Hepatic_Stellate_Cells",
+      "species": "human",
+      "organ_or_tissue": "liver stroma",
+      "experimental_context": "scRNA-seq in human hepatoblastoma and liver",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type III alpha 1 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "COL3A1 and COL6A3 for hepatic stellate cells",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "COL3A1 and COL6A3 for hepatic stellate cells",
+          "mapping_basis": "Author declared defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Extracellular matrix collagen highly expressed by perisinusoidal stellate cells",
+      "decision_reason": "Author declared canonical marker for hepatic stellate cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M07",
+      "marker": "COL6A3",
+      "marker_original": "COL6A3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatic stellate cell",
+      "cell_type_original": "hepatic stellate cells",
+      "author_cluster_id": "Cluster_Hepatic_Stellate_Cells",
+      "species": "human",
+      "organ_or_tissue": "liver stroma",
+      "experimental_context": "scRNA-seq in human hepatoblastoma stroma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Collagen type VI alpha 3 chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "COL3A1 and COL6A3 for hepatic stellate cells",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "COL3A1 and COL6A3 for hepatic stellate cells",
+          "mapping_basis": "Author declared defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Collagen VI alpha 3 chain characteristic of hepatic mesenchymal stellate populations",
+      "decision_reason": "Author declared canonical marker for hepatic stellate cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M08",
+      "marker": "CD68",
+      "marker_original": "CD68",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Kupffer cell",
+      "cell_type_original": "Kupffer cells",
+      "author_cluster_id": "Cluster_Kupffer_Cells",
+      "species": "human",
+      "organ_or_tissue": "liver sinusoids",
+      "experimental_context": "scRNA-seq in human liver and hepatoblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CD68 molecule transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "CD68 and CD163 for Kupffer cells",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD68 and CD163 for Kupffer cells",
+          "mapping_basis": "Author declared defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Pan-macrophage marker identifying liver-resident Kupffer cells",
+      "decision_reason": "Author declared canonical marker for Kupffer cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M09",
+      "marker": "CD163",
+      "marker_original": "CD163",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Kupffer cell",
+      "cell_type_original": "Kupffer cells",
+      "author_cluster_id": "Cluster_Kupffer_Cells",
+      "species": "human",
+      "organ_or_tissue": "liver sinusoids",
+      "experimental_context": "scRNA-seq in human liver and hepatoblastoma",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "CD163 molecule transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3",
+      "source_context": "CD68 and CD163 for Kupffer cells",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD68 and CD163 for Kupffer cells",
+          "mapping_basis": "Author declared defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Hemoglobin scavenger receptor highly expressed by resident hepatic macrophages",
+      "decision_reason": "Author declared canonical marker for Kupffer cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-021-02562-8_M10",
+      "marker": "GPC3",
+      "marker_original": "GPC3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hepatoblastoma tumor cell",
+      "cell_type_original": "tumor cells / driver tumor cell cluster",
+      "author_cluster_id": "Cluster_Hepatoblastoma_Tumor",
+      "species": "human",
+      "organ_or_tissue": "liver tumor",
+      "experimental_context": "scRNA-seq, qRT-PCR, and immunohistochemistry in patient tumors and PDX",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Glypican 3 transcript and cell-surface proteoglycan",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-3, Fig. 1c, e",
+      "source_context": "We observed upregulation of GPC3 gene expression, a known marker, in HB tumor relative to background liver and PDX tumor... GPC3 upregulation was also seen at the protein level by IHC",
+      "sources": [
+        {
+          "file": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequ.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1c, e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "GPC3 gene expression increased in tumor and PDX; confirmed by qRT-PCR (p<0.05) and IHC protein staining",
+          "mapping_basis": "qRT-PCR and IHC protein validation"
+        }
+      ],
+      "validation_method": "qRT-PCR / immunohistochemistry (IHC) / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Oncofetal proteoglycan serving as hallmark diagnostic marker and therapeutic target in pediatric hepatoblastoma",
+      "decision_reason": "Direct experimental qRT-PCR, IHC, and single-cell validated tumor driver marker"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Communications Biology article (11 pages including main text Figures 1-5, Table 1, and Methods).",
+    "missing_materials": "External Supplementary Datasets 1-3 (full DEG lists) not locally provided.",
+    "potential_leakage_scope": "ToppCell module ranking scores and PDX mouse-host deconvolution read-filtering metrics."
+  }
+}

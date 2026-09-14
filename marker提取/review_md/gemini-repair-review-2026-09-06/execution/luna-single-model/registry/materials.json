@@ -1,0 +1,548 @@
+{
+  "run_id": "20260906-luna-single-model",
+  "materials": [
+    {
+      "material_id": "MAT_DOI_10.1002_pros.24020",
+      "paper_id": "DOI_10.1002_pros.24020",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1002_pros.24020.md",
+      "markdown_sha256": "b9dec695dbacf03d68d6f4948c0278045c737d54953bce5364c15c5e9cdded20",
+      "markdown_bytes": 61377,
+      "markdown_line_count": 603,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.cell.2017.09.004",
+      "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.cell.2017.09.004.md",
+      "markdown_sha256": "a987d11a3dced75f3ec6033ddb547b68e040cee63efe3e4c3ae936ddd42b8c67",
+      "markdown_bytes": 81674,
+      "markdown_line_count": 993,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.cell.2021.07.023",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.cell.2021.07.023.md",
+      "markdown_sha256": "bd95b27572ed87953026915c7ab0822ccbd5ded9663739f847e48ee26cee2a33",
+      "markdown_bytes": 168797,
+      "markdown_line_count": 2857,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.cell.2022.11.005",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.cell.2022.11.005.md",
+      "markdown_sha256": "eb484e744da3fb773b45ed42b37f5c559bdf0f4d11b45f25da12c3aa76fb261d",
+      "markdown_bytes": 140565,
+      "markdown_line_count": 1699,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.celrep.2018.11.086",
+      "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.celrep.2018.11.086.md",
+      "markdown_sha256": "229dd90b9e7cd231e2c2dd0b9e71833a5c423fb29096a2951668468bda1bcfd8",
+      "markdown_bytes": 78816,
+      "markdown_line_count": 873,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.healun.2026.02.1666",
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.healun.2026.02.1666.md",
+      "markdown_sha256": "40cec4abc27a63ad1400f6461217c644ec31d1b7a1699cd1eb2c70d1cfe5dbe6",
+      "markdown_bytes": 57747,
+      "markdown_line_count": 1050,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1016_j.healun.2026.02.1666.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1016_j.healun.2026.02.1666.pdf",
+          "sha256": "22d8603724d4a5f66b883b73d5c728715afb07c32ad70df2674c7611a708f581"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.isci.2024.111628",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.isci.2024.111628.md",
+      "markdown_sha256": "35d1315840f6b8e96b3539115441868be6040a9071de39543d9162a529bc8938",
+      "markdown_bytes": 59980,
+      "markdown_line_count": 768,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.jcf.2025.01.016",
+      "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.jcf.2025.01.016.md",
+      "markdown_sha256": "c2c5982a60d70cbb4e6060b72ba6aa50fe08879f60eed3fc2cb4ace265ac8e5c",
+      "markdown_bytes": 65670,
+      "markdown_line_count": 1392,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1016_j.jcf.2025.01.016_Cystic Fibrosis and healthy control biopsy.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1016_j.jcf.2025.01.016_Cystic Fibrosis and healthy control biopsy.pdf",
+          "sha256": "011493f8607576f90fa5cedd963be74f633117207d5a9c7a9d3c678e1d940864"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1016_j.stem.2022.11.013",
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1016_j.stem.2022.11.013.md",
+      "markdown_sha256": "e3bec7315a04916c33421ad9beb21cf0982ed0d4787a84949f6a5ec424f5dc0f",
+      "markdown_bytes": 131651,
+      "markdown_line_count": 1619,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41467-021-21783-3",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41467-021-21783-3.md",
+      "markdown_sha256": "3c9ce6eb25b46a717e41819692bd207399562b6a28f2b3efc994b8e34a7b435b",
+      "markdown_bytes": 67644,
+      "markdown_line_count": 1590,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41467-023-40173-5",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41467-023-40173-5.md",
+      "markdown_sha256": "0c0eb52f41374b3790c0bded8e65591917787df85655b50e122f7ae6ac803d2e",
+      "markdown_bytes": 106724,
+      "markdown_line_count": 996,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41467-024-52052-8",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41467-024-52052-8.md",
+      "markdown_sha256": "10da70815baa115818708be4add14806a4c4ae199a7ebfb0c291ae92d0c24aa0",
+      "markdown_bytes": 78643,
+      "markdown_line_count": 764,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41586-020-2496-1",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41586-020-2496-1.md",
+      "markdown_sha256": "6fe7c0a707748b3c326c4f295b2dfb945c5cebe61c236d3e4e2bb63a49e3e71c",
+      "markdown_bytes": 79928,
+      "markdown_line_count": 3821,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41586-020-2922-4",
+      "paper_id": "DOI_10.1038_s41586-020-2922-4",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41586-020-2922-4.md",
+      "markdown_sha256": "880a84c7fbbf99dad3a681f7569becb2a8694de952f998bc3180365f3de3a48c",
+      "markdown_bytes": 146086,
+      "markdown_line_count": 1423,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41586-021-03569-1",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41586-021-03569-1.md",
+      "markdown_sha256": "494c1f0fa06da4bfaa8228631673ed5ce0bfa387442ed402e2dd5118db399e6b",
+      "markdown_bytes": 120589,
+      "markdown_line_count": 1058,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41586-021-03710-0",
+      "paper_id": "DOI_10.1038_s41586-021-03710-0",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41586-021-03710-0.md",
+      "markdown_sha256": "43e191d9fb7a8aa5a09883d076a0f83984417858a026ebf5d8b38b376f172baa",
+      "markdown_bytes": 94269,
+      "markdown_line_count": 1008,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41586-021-03929-x",
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41586-021-03929-x.md",
+      "markdown_sha256": "eb9822794c92ea6d4fb05bf98de29a41fd64c80811964637542e6c8d456d3a44",
+      "markdown_bytes": 122150,
+      "markdown_line_count": 1341,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41586-021-04345-x",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41586-021-04345-x.md",
+      "markdown_sha256": "1370487112a4d88a7c63a1957957df2d781cd9b91fed2272bb54c880c0b19e24",
+      "markdown_bytes": 217072,
+      "markdown_line_count": 3556,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41586-024-07069-w",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41586-024-07069-w.md",
+      "markdown_sha256": "10437512cf523c4a4b2b73f8cfdf08ccdf763475253da02a628fe03a8dab2d34",
+      "markdown_bytes": 182827,
+      "markdown_line_count": 4401,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41588-022-01243-4",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41588-022-01243-4.md",
+      "markdown_sha256": "41452b6a626f8928aadfa3798a51774606997bcf698dccca4a7e49b24f181d78",
+      "markdown_bytes": 171531,
+      "markdown_line_count": 1551,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41588-024-01702-0",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41588-024-01702-0.md",
+      "markdown_sha256": "4e116607d62730c69eb89ae675c80fdf344b6a9169562874c1eccfeebacc4bd3",
+      "markdown_bytes": 156803,
+      "markdown_line_count": 1148,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41588-025-02158-6",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41588-025-02158-6.md",
+      "markdown_sha256": "d56ad71910c28735f35ce990a35a2f2d08416e868ebc8bee8b3f0198d6c5c264",
+      "markdown_bytes": 188211,
+      "markdown_line_count": 1963,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41588-025-02182-6",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41588-025-02182-6.md",
+      "markdown_sha256": "d9ad82a289ce387d18873cda9959dea6af238a343b77c19e7855dac8b43e935f",
+      "markdown_bytes": 138317,
+      "markdown_line_count": 4035,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41591-023-02327-2",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41591-023-02327-2.md",
+      "markdown_sha256": "f4fe663fa7349f252a39194fc110c8d5ce12476f9eee3a0b2c73bc9f1673c0b0",
+      "markdown_bytes": 210648,
+      "markdown_line_count": 4394,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s41591-024-03215-z",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s41591-024-03215-z.md",
+      "markdown_sha256": "7c9f2ad43758537dd327ca21c2a9a254c1a3a18a0efaaf3e1bf5660ea543ae75",
+      "markdown_bytes": 203718,
+      "markdown_line_count": 2058,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s42003-021-02562-8",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s42003-021-02562-8.md",
+      "markdown_sha256": "0d058b77090da43c284ab1744d36bb974a4b327b25f96ba65aa1d1a66c1e2e3b",
+      "markdown_bytes": 77850,
+      "markdown_line_count": 983,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s42003-024-07315-x",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s42003-024-07315-x.md",
+      "markdown_sha256": "01a704529527f26a7633eefb5e1525628121edfd11f7fbf3733c2b870e9958af",
+      "markdown_bytes": 115043,
+      "markdown_line_count": 2190,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s42255-023-00876-x",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s42255-023-00876-x.md",
+      "markdown_sha256": "4668e0ee3cc44f271f7284cf15d7f24ec06c546300016800d6850a91af01daa4",
+      "markdown_bytes": 182233,
+      "markdown_line_count": 1792,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1038_s44318-024-00328-6",
+      "paper_id": "DOI_10.1038_s44318-024-00328-6",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1038_s44318-024-00328-6.md",
+      "markdown_sha256": "92be88548596a877677cc849fc06b046b3faddfc3a3984a9bf7f4c1e8446dd11",
+      "markdown_bytes": 131176,
+      "markdown_line_count": 2062,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1038_s44318-024-00328-6_A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant .pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1038_s44318-024-00328-6_A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant .pdf",
+          "sha256": "c690f7c2d16a0e99c1f614d0fa994db3ead8fb2a21e16b5bd3193bb1c5334a07"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1101_2024.10.23.619925",
+      "paper_id": "DOI_10.1101_2024.10.23.619925",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1101_2024.10.23.619925.md",
+      "markdown_sha256": "d567aa688d5df99ee77629b0e23dd9a7ba10cc956c80cc5f6288abadcf566cb6",
+      "markdown_bytes": 133418,
+      "markdown_line_count": 3930,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1101_2024.10.23.619925_Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localis.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1101_2024.10.23.619925_Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localis.pdf",
+          "sha256": "c80250ff2b657838703580a3f9b2b921d95a63db9eca0b93c68b5c33840b910e"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1101_2025.01.17.633590",
+      "paper_id": "DOI_10.1101_2025.01.17.633590",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1101_2025.01.17.633590.md",
+      "markdown_sha256": "7fc9da375726437ea24e48228790599e7bfc1f72590849899a776aea76a25c2e",
+      "markdown_bytes": 146273,
+      "markdown_line_count": 2095,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1101_2025.01.17.633590_A pancreatic islet scRNA-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1101_2025.01.17.633590_A pancreatic islet scRNA-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals.pdf",
+          "sha256": "022b74fa07c3aa736e2dbe6ccff6ed6b875885558fbc8c483818ea270dc1cbed"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1101_2025.09.26.678707",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1101_2025.09.26.678707.md",
+      "markdown_sha256": "10cab012f63f4c0856d4ce57a26513a61187a25ae62f9b0ba34f19b2d2be9448",
+      "markdown_bytes": 302258,
+      "markdown_line_count": 3465,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1101_2025.09.26.678707_Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.1101_2025.09.26.678707_Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney.pdf",
+          "sha256": "cc68fc0097f8f1c0b4121ce69808e920fc43f8deae0bfe5d973ecd59df060882"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1126_science.aat5031",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1126_science.aat5031.md",
+      "markdown_sha256": "87240f92156d65dd605eee80c42dff2abf61470689704ac3109b364d2cfc4c8f",
+      "markdown_bytes": 50113,
+      "markdown_line_count": 2162,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1126_science.abl4290",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1126_science.abl4290.md",
+      "markdown_sha256": "5fcb15367cd332e99e7ae0d6c880d0ab1b865056f68bbe949e003b35a8be0178",
+      "markdown_bytes": 125603,
+      "markdown_line_count": 4729,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1126_science.abo0510",
+      "paper_id": "DOI_10.1126_science.abo0510",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1126_science.abo0510.md",
+      "markdown_sha256": "2da00ec6508f94d3d5928a15fe1624b18eea1a2c8d963c09495a6dae2018735f",
+      "markdown_bytes": 116303,
+      "markdown_line_count": 1881,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1126_sciimmunol.adf9988",
+      "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1126_sciimmunol.adf9988.md",
+      "markdown_sha256": "a6fd2c2de8bba3e19f84f45c977533efe038abfdfcd301cbb1c90b3a37f4a315",
+      "markdown_bytes": 106130,
+      "markdown_line_count": 4367,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.1164_rccm.202207-1384oc",
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.1164_rccm.202207-1384oc.md",
+      "markdown_sha256": "9a15b2fba680013d301dc128548c435e23bd2388635efb4a2bf3023edc0be850",
+      "markdown_bytes": 67466,
+      "markdown_line_count": 1178,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.64898_2025.12.18.695268",
+      "paper_id": "DOI_10.64898_2025.12.18.695268",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.64898_2025.12.18.695268.md",
+      "markdown_sha256": "a3b1a5b5761352616388ee19bedc247a84e2d325633c1a1a556526963df28b24",
+      "markdown_bytes": 91879,
+      "markdown_line_count": 2125,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.64898_2025.12.18.695268_A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/DOI_10.64898_2025.12.18.695268_A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder.pdf",
+          "sha256": "66dba92905e9e1f26204069c721cdf7f7583f0dbadd1b0102ed8e0cf3550e9a4"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.7554_elife.62522",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.7554_elife.62522.md",
+      "markdown_sha256": "a8dd309722fe570e5494027e9b2ec58c8280fce978982652b35db908fd99c2c3",
+      "markdown_bytes": 108942,
+      "markdown_line_count": 1443,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_DOI_10.7554_elife.71752",
+      "paper_id": "DOI_10.7554_elife.71752",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/DOI_10.7554_elife.71752.md",
+      "markdown_sha256": "999adf1edcabf15ab90c15c25d13fb95efa8b9eea919d4a7288fe2a996c96870",
+      "markdown_bytes": 89940,
+      "markdown_line_count": 1033,
+      "pdf_paths": [],
+      "pdf_sha256": [],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_PMID_35115729",
+      "paper_id": "PMID_35115729",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/PMID_35115729.md",
+      "markdown_sha256": "60fc6cb53113c10888b55a92cd7767642c7f68c49eb8ec3e053738d0fc835bf9",
+      "markdown_bytes": 93686,
+      "markdown_line_count": 1405,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/PMID_35115729.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/PMID_35115729.pdf",
+          "sha256": "67b15f7c6d171d3c18aeee9d6d43581d56ab78e8d2af23d3eef8386e934942c7"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_PMID_37120427",
+      "paper_id": "PMID_37120427",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/PMID_37120427.md",
+      "markdown_sha256": "9ef82ee64bf006b1a3e2e45b391c319d38ffc57c391e7e65a2818270ef8cd504",
+      "markdown_bytes": 86195,
+      "markdown_line_count": 904,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+          "sha256": "4095a3d776f6ef7c889f3cffc5c80267af53874c0776556b49453b5b71267d83"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    },
+    {
+      "material_id": "MAT_PMID_37664243",
+      "paper_id": "PMID_37664243",
+      "markdown_path": "D:/OneDrive/Desktop/组/marker提取/review_md/PMID_37664243.md",
+      "markdown_sha256": "1a25603314503048e928c11ce5cde40e4973d2cbc9b8901401fd1b85677cb88e",
+      "markdown_bytes": 88699,
+      "markdown_line_count": 886,
+      "pdf_paths": [
+        "D:/OneDrive/Desktop/组/marker提取/pdf/PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf"
+      ],
+      "pdf_sha256": [
+        {
+          "path": "D:/OneDrive/Desktop/组/marker提取/pdf/PMID_37664243_Analysis of matrisome expression patterns in murine and human dorsal root ganglia.pdf",
+          "sha256": "dfad8c4b5fc6f6857d5b4bf6bcc25ef8593c85e760f1abd39867fb0c3e90c3a9"
+        }
+      ],
+      "local_source_type": "markdown_with_optional_pdf"
+    }
+  ]
+}

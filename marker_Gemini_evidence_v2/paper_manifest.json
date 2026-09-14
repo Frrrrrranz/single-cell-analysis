@@ -1,0 +1,307 @@
+[
+  {
+    "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+    "title": "Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19",
+    "doi": "10.1016/j.cell.2021.07.023",
+    "pmid": "34352228",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+    "pdf_page_count": 44,
+    "repair_json_title": "Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+    "title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates",
+    "doi": "10.1016/j.cell.2022.11.005",
+    "pmid": "36493756",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+    "pdf_page_count": 46,
+    "repair_json_title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1016_j.isci.2024.111628",
+    "title": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq",
+    "doi": "10.1016/j.isci.2024.111628",
+    "pmid": "39850354",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+    "pdf_page_count": 16,
+    "repair_json_title": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+    "title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and lineage commitment",
+    "doi": "10.1016/j.stem.2022.11.013",
+    "pmid": "36493780",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+    "pdf_page_count": 46,
+    "repair_json_title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and neonatal respiratory disease",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and neonatal respiratory disease'，实际论文为：'Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and lineage commitment'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41467-021-21783-3",
+    "title": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation of luminal progenitors",
+    "doi": "10.1038/s41467-021-21783-3",
+    "pmid": "33686070",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+    "pdf_page_count": 11,
+    "repair_json_title": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation of luminal progenitors",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41467-023-40173-5",
+    "title": "Guided construction of single cell reference for human and mouse lung",
+    "doi": "10.1038/s41467-023-40173-5",
+    "pmid": "37516747",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+    "pdf_page_count": 20,
+    "repair_json_title": "Guided construction of single cell reference for human and mouse lung",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41467-024-52052-8",
+    "title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for pain in osteoarthritis",
+    "doi": "10.1038/s41467-024-52052-8",
+    "pmid": "39362841",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+    "pdf_page_count": 15,
+    "repair_json_title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain'，实际论文为：'The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for pain in osteoarthritis'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41586-021-03569-1",
+    "title": "A molecular single-cell lung atlas of lethal COVID-19",
+    "doi": "10.1038/s41586-021-03569-1",
+    "pmid": "33915568",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+    "pdf_page_count": 33,
+    "repair_json_title": "Pediatric COVID-19 single-cell atlas reveals distinct cellular and viral trajectories",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Pediatric COVID-19 single-cell atlas reveals distinct cellular and viral trajectories'，实际论文为：'A molecular single-cell lung atlas of lethal COVID-19'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41586-021-04345-x",
+    "title": "Local and systemic responses to SARS-CoV-2 infection in children and adults",
+    "doi": "10.1038/s41586-021-04345-x",
+    "pmid": "34937051",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+    "pdf_page_count": 59,
+    "repair_json_title": "Single-cell profiling of the prenatal human neural crest and developing sensory nervous system",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Single-cell profiling of the prenatal human neural crest and developing sensory nervous system'，实际论文为：'Local and systemic responses to SARS-CoV-2 infection in children and adults'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41586-024-07069-w",
+    "title": "A single-cell time-lapse of mouse prenatal development from gastrula to birth",
+    "doi": "10.1038/s41586-024-07069-w",
+    "pmid": "38355799",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+    "pdf_page_count": 39,
+    "repair_json_title": "A complete temporal transcription factor code for motor neuron development",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'A complete temporal transcription factor code for motor neuron development'，实际论文为：'A single-cell time-lapse of mouse prenatal development from gastrula to birth'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41588-022-01243-4",
+    "title": "A spatially resolved atlas of the human lung characterizes a gland-associated immune niche",
+    "doi": "10.1038/s41588-022-01243-4",
+    "pmid": "36543915",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+    "pdf_page_count": 39,
+    "repair_json_title": "Spatial multi-omics reveals a regulatory role of subepithelial fibroblasts in the human airway",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Spatial multi-omics reveals a regulatory role of subepithelial fibroblasts in the human airway'，实际论文为：'A spatially resolved atlas of the human lung characterizes a gland-associated immune niche'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41588-024-01702-0",
+    "title": "Cell-type-specific and disease-associated expression quantitative trait loci in the human lung",
+    "doi": "10.1038/s41588-024-01702-0",
+    "pmid": "38548990",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_38548990_Cell-type-specific and disease-associated expression quantitative trait loci in the human lung..pdf",
+    "pdf_page_count": 17,
+    "repair_json_title": "Single-cell dissection of cellular microenvironment in cancer",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Single-cell dissection of cellular microenvironment in cancer'，实际论文为：'Cell-type-specific and disease-associated expression quantitative trait loci in the human lung'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41588-025-02158-6",
+    "title": "Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tumor microenvironment rewiring",
+    "doi": "10.1038/s41588-025-02158-6",
+    "pmid": "40229600",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+    "pdf_page_count": 40,
+    "repair_json_title": "Spatial multi-omic analysis of human adrenal gland development and steroidogenesis",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Spatial multi-omic analysis of human adrenal gland development and steroidogenesis'，实际论文为：'Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tumor microenvironment rewiring'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41588-025-02182-6",
+    "title": "An integrated transcriptomic cell atlas of human endoderm-derived organoids",
+    "doi": "10.1038/s41588-025-02182-6",
+    "pmid": "40355592",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+    "pdf_page_count": 34,
+    "repair_json_title": "Single-cell multi-omic profiling of rare lung neuroendocrine cells and pulmonary neuroendocrine tumors",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Single-cell multi-omic profiling of rare lung neuroendocrine cells and pulmonary neuroendocrine tumors'，实际论文为：'An integrated transcriptomic cell atlas of human endoderm-derived organoids'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41591-023-02327-2",
+    "title": "An integrated cell atlas of the lung in health and disease",
+    "doi": "10.1038/s41591-023-02327-2",
+    "pmid": "37291214",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+    "pdf_page_count": 47,
+    "repair_json_title": "Single-cell spatial multi-omic atlas of chronic wound healing and cellular senescence",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Single-cell spatial multi-omic atlas of chronic wound healing and cellular senescence'，实际论文为：'An integrated cell atlas of the lung in health and disease'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s41591-024-03215-z",
+    "title": "A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features",
+    "doi": "10.1038/s41591-024-03215-z",
+    "pmid": "39478111",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+    "pdf_page_count": 38,
+    "repair_json_title": "Single-cell spatial multi-omics of non-alcoholic steatohepatitis (NASH) progression",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Single-cell spatial multi-omics of non-alcoholic steatohepatitis (NASH) progression'，实际论文为：'A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across clinicopathological features'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s42003-021-02562-8",
+    "title": "Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequencing in hepatoblastoma",
+    "doi": "10.1038/s42003-021-02562-8",
+    "pmid": "34497364",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell seq.pdf",
+    "pdf_page_count": 14,
+    "repair_json_title": "Single-cell transcriptome analysis of human liver sinusoidal endothelial cells",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Single-cell transcriptome analysis of human liver sinusoidal endothelial cells'，实际论文为：'Identification of distinct tumor cell populations and key genetic mechanisms through single cell sequencing in hepatoblastoma'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s42003-024-07315-x",
+    "title": "Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac inflammatory responses after myocardial injury",
+    "doi": "10.1038/s42003-024-07315-x",
+    "pmid": "39627536",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac .pdf",
+    "pdf_page_count": 20,
+    "repair_json_title": "Cross-species single-cell transcriptomic analysis reveals conservation and divergence of the cardiac macrophage response to myocardial injury",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Cross-species single-cell transcriptomic analysis reveals conservation and divergence of the cardiac macrophage response to myocardial injury'，实际论文为：'Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac inflammatory responses after myocardial injury'",
+      "修补JSON中引用的本地文件名 PMID_39702582_... 不存在，实际本地文件为 PMID_39627536_..."
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1038_s42255-023-00876-x",
+    "title": "Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas",
+    "doi": "10.1038/s42255-023-00876-x",
+    "pmid": "37697055",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_37697055_Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+    "pdf_page_count": 42,
+    "repair_json_title": "Single-cell landscape of the pancreas in health and type 2 diabetes",
+    "discrepancy_notes": [
+      "修补JSON标题原填为：'Single-cell landscape of the pancreas in health and type 2 diabetes'，实际论文为：'Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas'"
+    ],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1126_science.aat5031",
+    "title": "Spatiotemporal immune zonation of the human kidney",
+    "doi": "10.1126/science.aat5031",
+    "pmid": "31604275",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+    "pdf_page_count": 19,
+    "repair_json_title": "Spatiotemporal immune zonation of the human kidney",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.1126_science.abl4290",
+    "title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
+    "doi": "10.1126/science.abl4290",
+    "pmid": "35549429",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+    "pdf_page_count": 38,
+    "repair_json_title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "DOI_10.7554_elife.62522",
+    "title": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV-2 host genes",
+    "doi": "10.7554/eLife.62522",
+    "pmid": "33164753",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+    "pdf_page_count": 28,
+    "repair_json_title": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV-2 host genes",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  },
+  {
+    "paper_id": "PMID_35115729",
+    "title": "Disentangling glial diversity in peripheral nerves at single-nuclei resolution",
+    "doi": "10.1038/s41593-021-01005-1",
+    "pmid": "35115729",
+    "pmid_source": "filename_and_pubmed",
+    "pdf_filename": "PMID_35115729.pdf",
+    "pdf_page_count": 40,
+    "repair_json_title": "Disentangling glial diversity in peripheral nerves at single-nuclei resolution",
+    "discrepancy_notes": [],
+    "verified_by_pdf": true
+  }
+]

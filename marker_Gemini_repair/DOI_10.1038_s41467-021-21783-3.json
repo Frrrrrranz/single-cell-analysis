@@ -1,0 +1,555 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41467-021-21783-3",
+  "doi": "10.1038/s41467-021-21783-3",
+  "title": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation of luminal progenitors",
+  "materials_reviewed": [
+    {
+      "material_name": "Main Text",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "Full text parsed from PDF and review_md. Aberrant alveolar differentiation of luminal progenitors in Brca1 mutants reviewed."
+    },
+    {
+      "material_name": "Methods",
+      "status": "reviewed",
+      "historical_status": "missing",
+      "notes": "Mammary gland single cell dissociation, Seurat pipeline, pseudotime trajectory (Slingshot) methods reviewed."
+    },
+    {
+      "material_name": "Figures 1-6",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "Fig. 1 (experimental overview), Fig. 2 (Avd cluster identification), Fig. 3-4 (alveolar differentiation trajectory), Fig. 5-6 reviewed."
+    },
+    {
+      "material_name": "Supplementary Figures S1-S8",
+      "status": "reviewed",
+      "historical_status": "missing",
+      "notes": "Supplementary Fig. 7 (TAM myeloid subclustering and marker panel) thoroughly checked."
+    }
+  ],
+  "cluster_inventory": [
+    "Aberrant alveolar differentiated luminal cells (Avd)",
+    "Tumour-associated macrophages (TAMs)",
+    "Basal, mature luminal, luminal progenitor, stromal, and immune subsets"
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01584",
+      "is_existing_record": true,
+      "our_marker_id": "M01584",
+      "marker": "Csn2",
+      "marker_original": "Csn2",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "alveolar cells",
+      "cell_type_original": "alveolar cells",
+      "author_cluster_id": "alveolar cells",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Fig.4c legend",
+      "source_context": "Gene expression for the paracrine signalling factors Rankl and Igf2 in hormone-sensing cells and the alveolar markers Csn2 and Wap in luminal progenitors and alveolar cells.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Fig.4c legend",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Gene expression for the paracrine signalling factors Rankl and Igf2 in hormone-sensing cells and the alveolar markers Csn2 and Wap in luminal progenitors and alveolar cells.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01584。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01585",
+      "is_existing_record": true,
+      "our_marker_id": "M01585",
+      "marker": "Wap",
+      "marker_original": "Wap",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "alveolar cells",
+      "cell_type_original": "alveolar cells",
+      "author_cluster_id": "alveolar cells",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Fig.4c legend",
+      "source_context": "Gene expression for the paracrine signalling factors Rankl and Igf2 in hormone-sensing cells and the alveolar markers Csn2 and Wap in luminal progenitors and alveolar cells.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Fig.4c legend",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Gene expression for the paracrine signalling factors Rankl and Igf2 in hormone-sensing cells and the alveolar markers Csn2 and Wap in luminal progenitors and alveolar cells.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01585。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01586",
+      "is_existing_record": true,
+      "our_marker_id": "M01586",
+      "marker": "Csn2",
+      "marker_original": "Csn2",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Alveolar cells (Avd)",
+      "cell_type_original": "Alveolar cells (Avd)",
+      "author_cluster_id": "Alveolar cells (Avd)",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, paragraph describing Fig. 2c,d",
+      "source_context": "despite all animals being nulliparous we observed a progressive differentiation of the luminal progenitor (Lp) compartment towards the alveolar fate (Avd) ... This was accompanied by the expression of known markers of alveologenesis such as the milk protein beta-casein (Csn2) and the transcription factor Elf5 (Fig. 2c, d).",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, paragraph describing Fig. 2c,d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "despite all animals being nulliparous we observed a progressive differentiation of the luminal progenitor (Lp) compartment towards the alveolar fate (Avd) ... This was accompanied by the expression of known markers of alveologenesis such as the milk protein beta-casein (Csn2) and the transcription factor Elf5 (Fig. 2c, d).",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01586。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01587",
+      "is_existing_record": true,
+      "our_marker_id": "M01587",
+      "marker": "Elf5",
+      "marker_original": "Elf5",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Alveolar cells (Avd)",
+      "cell_type_original": "Alveolar cells (Avd)",
+      "author_cluster_id": "Alveolar cells (Avd)",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, paragraph describing Fig. 2c,d",
+      "source_context": "despite all animals being nulliparous we observed a progressive differentiation of the luminal progenitor (Lp) compartment towards the alveolar fate (Avd) ... This was accompanied by the expression of known markers of alveologenesis such as the milk protein beta-casein (Csn2) and the transcription factor Elf5 (Fig. 2c, d).",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, paragraph describing Fig. 2c,d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "despite all animals being nulliparous we observed a progressive differentiation of the luminal progenitor (Lp) compartment towards the alveolar fate (Avd) ... This was accompanied by the expression of known markers of alveologenesis such as the milk protein beta-casein (Csn2) and the transcription factor Elf5 (Fig. 2c, d).",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01587。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01588",
+      "is_existing_record": true,
+      "our_marker_id": "M01588",
+      "marker": "Arg1",
+      "marker_original": "Arg1",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Tumour-associated macrophages",
+      "cell_type_original": "Tumour-associated macrophages",
+      "author_cluster_id": "Tumour-associated macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01588。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01589",
+      "is_existing_record": true,
+      "our_marker_id": "M01589",
+      "marker": "Spp1",
+      "marker_original": "Spp1",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Tumour-associated macrophages",
+      "cell_type_original": "Tumour-associated macrophages",
+      "author_cluster_id": "Tumour-associated macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01589。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01590",
+      "is_existing_record": true,
+      "our_marker_id": "M01590",
+      "marker": "Trem2",
+      "marker_original": "Trem2",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Tumour-associated macrophages",
+      "cell_type_original": "Tumour-associated macrophages",
+      "author_cluster_id": "Tumour-associated macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01590。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01591",
+      "is_existing_record": true,
+      "our_marker_id": "M01591",
+      "marker": "Apoe",
+      "marker_original": "Apoe",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Tumour-associated macrophages",
+      "cell_type_original": "Tumour-associated macrophages",
+      "author_cluster_id": "Tumour-associated macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01591。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01592",
+      "is_existing_record": true,
+      "our_marker_id": "M01592",
+      "marker": "C1qb",
+      "marker_original": "C1qb",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Tumour-associated macrophages",
+      "cell_type_original": "Tumour-associated macrophages",
+      "author_cluster_id": "Tumour-associated macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01592。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01593",
+      "is_existing_record": true,
+      "our_marker_id": "M01593",
+      "marker": "C1qc",
+      "marker_original": "C1qc",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Tumour-associated macrophages",
+      "cell_type_original": "Tumour-associated macrophages",
+      "author_cluster_id": "Tumour-associated macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01593。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M01594",
+      "is_existing_record": true,
+      "our_marker_id": "M01594",
+      "marker": "Lgmn",
+      "marker_original": "Lgmn",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Tumour-associated macrophages",
+      "cell_type_original": "Tumour-associated macrophages",
+      "author_cluster_id": "Tumour-associated macrophages",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": true,
+      "evidence_type": "author_declared",
+      "source_location": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+      "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Results, myeloid compartment paragraph (Supplementary Fig. 7)",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "We further found two types of tumour-associated macrophages Tam 1 (marked by Arg1, Spp1 and Trem2) and Tam2 (marked by C1qb, C1qc, Lgmn and Apoe) (Supplementary Fig.7)18.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M01594。本文直接证据支持。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-021-21783-3_M02565",
+      "is_existing_record": true,
+      "our_marker_id": "M02565",
+      "marker": "Epcam",
+      "marker_original": "Epcam",
+      "normalization_basis": "MGI symbol verified",
+      "cell_type": "Avd cells",
+      "cell_type_original": "Avd cells",
+      "author_cluster_id": "Avd cells",
+      "species": "mouse",
+      "organ_or_tissue": "mammary gland / breast tumour",
+      "experimental_context": "Brca1-associated mammary tumourigenesis scRNA-seq (mouse)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell mRNA transcript",
+      "marker_direction": "positive",
+      "is_pns_candidate": false,
+      "evidence_type": "author_declared",
+      "source_location": "Fig.2c, PDF p.3",
+      "source_context": "Epcam included in the epithelial lineage-marker panel for the Avd cluster.",
+      "validation_method": "scRNA-seq clustering, trajectory inference & IHC",
+      "gate_definition": null,
+      "sources": [
+        {
+          "file": "PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+          "pdf_page": 3,
+          "printed_page": "3",
+          "figure_panel": "Fig.2c, PDF p.3",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Epcam included in the epithelial lineage-marker panel for the Avd cluster.",
+          "mapping_basis": "author_declared_text"
+        }
+      ],
+      "notes": "对齐总表条目 M02565。本文直接证据支持。"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "CTX_21783_CANONICAL_PANEL",
+      "marker": "Acta2, Krt14, Col1a1, Adgre1, Kit",
+      "cell_type": "Mammary cell compartments",
+      "context_role": "lineage_gating_and_background_panel",
+      "notes": "Canonical lineage markers utilized to define basal, stromal, immune and progenitor populations during quality filtering."
+    }
+  ],
+  "excluded": [
+    {
+      "record_id": "EXCL_21783_ACTA2_KRT14",
+      "marker": "Acta2 / Krt14",
+      "cell_type": "Basal / Myoepithelial Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason_excluded": "未决项核查结论：Acta2 与 Krt14 在本文仅作为小鼠乳腺常规解剖外周肌上皮的已知对照基因提及，并非本文针对 Brca1 突变异常分化谱系新建立或重点论证的特异 Marker。总表 audit_exclusions 已确认排除，转入 context_only 留痕。",
+      "source_locator": "Results p.2",
+      "original_citation": "Basal markers Acta2 and Krt14"
+    },
+    {
+      "record_id": "EXCL_21783_COL1A1_FIBRO",
+      "marker": "Col1a1",
+      "cell_type": "Mammary Stromal Fibroblast",
+      "exclusion_type": "background_canonical_reference",
+      "reason_excluded": "未决项核查结论：Col1a1 在本文仅作为乳腺间质成纤维细胞的先验常规标志物用于去除基质污染，缺乏本文独立的分群验证证据。总表 audit_exclusions 已排除，转入 context_only。",
+      "source_locator": "Results / Methods",
+      "original_citation": "Stromal marker Col1a1"
+    },
+    {
+      "record_id": "EXCL_21783_ADGRE1_MACRO",
+      "marker": "Adgre1",
+      "cell_type": "Mammary Macrophage",
+      "exclusion_type": "background_canonical_reference",
+      "reason_excluded": "未决项核查结论：Adgre1 (F4/80) 作为广泛泛巨噬细胞常识标记，本文核心鉴定的是高表达 Arg1, Spp1, Trem2, Apoe 的肿瘤相关巨噬细胞 (TAM) 亚群。泛巨噬细胞 Adgre1 缺乏本文亚群特异度，总表 audit_exclusions 已排除。",
+      "source_locator": "Supplementary Fig. 7",
+      "original_citation": "Adgre1 (F4/80) pan-macrophage marker"
+    },
+    {
+      "record_id": "EXCL_21783_KIT_ELF5_LP",
+      "marker": "Kit / Elf5",
+      "cell_type": "Luminal Progenitor Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason_excluded": "未决项核查结论：Elf5 与 Kit 作为野生型腔面祖细胞常规标志物，总表已将 Elf5 准确分配至异常分化的 Avd 细胞 (M01587)；Kit 作为常规参考 marker 不作为本文新候选，列入 audit_exclusions。",
+      "source_locator": "Results p.2",
+      "original_citation": "Luminal progenitor canonical markers"
+    },
+    {
+      "record_id": "EXCL_21783_TNFSF11_IGF2_ML",
+      "marker": "Tnfsf11 / Igf2",
+      "cell_type": "Hormone-Sensing Mature Luminal Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason_excluded": "未决项核查结论：Tnfsf11 与 Igf2 属于成熟激素感应腔面细胞已知特征基因，总表 audit_exclusions 已裁决排除。",
+      "source_locator": "Results p.2",
+      "original_citation": "Mature luminal cell markers"
+    }
+  ],
+  "unresolved": [],
+  "coverage_summary": {
+    "total_formal_markers": 12,
+    "four_layer_distribution": {
+      "outside": 12
+    },
+    "materials_status": {
+      "reviewed": [
+        "Main Text",
+        "Methods",
+        "Figures 1-6",
+        "Supplementary Figures S1-S8"
+      ]
+    },
+    "audit_notes": "Resolved pending markers: Acta2, Krt14, Col1a1, Adgre1 categorized as excluded/context_only canonical background panel per audit_exclusions. Formal candidate focus placed on aberrant Avd cells and TAM subclusters. Aligned with all 12 verified candidates in our_markers.xlsx."
+  }
+}

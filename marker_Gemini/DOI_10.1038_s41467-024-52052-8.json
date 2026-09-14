@@ -1,0 +1,492 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41467-024-52052-8",
+  "doi": "10.1038/s41467-024-52052-8",
+  "pmid": "39362841",
+  "title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain treatment",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含 Nature Communications 完整刊出正文 15 页（pp. 1-15）、详细 Methods、Figs. 1-5 及图注"
+    },
+    {
+      "material_name": "DOI_10.1038_s41467-024-52052-8.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，包括实验模型、单细胞算法与统计结果"
+    },
+    {
+      "material_name": "Supplementary Figures 1-7 & Supplementary Data 1-7",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "正文中引用的补充图表独立文件在本地未提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_PEP_Nociceptor",
+      "cluster_name": "Peptidergic nociceptors (PEPs)",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG), trigeminal ganglion (TG)",
+      "four_layer_category": "L1",
+      "description": "肽能伤害性感觉神经元，表达神经肽 Tac1 (P物质)、Calca (CGRP) 以及神经营养因子受体 Ntrk1 (TrkA)"
+    },
+    {
+      "cluster_id": "Cluster_NP_Nociceptor",
+      "cluster_name": "Non-peptidergic nociceptors (NPs)",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG), trigeminal ganglion (TG)",
+      "four_layer_category": "L1",
+      "description": "非肽能无髓伤害性感受器，特征性表达 Mrgprd、P2rx3 与 Ret"
+    },
+    {
+      "cluster_id": "Cluster_cLTMR_Nociceptor",
+      "cluster_name": "C-low threshold mechanoreceptors (c-LTMRs)",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG), trigeminal ganglion (TG)",
+      "four_layer_category": "L1",
+      "description": "C纤维低阈值机械感受器，特征性表达机械敏感离子通道 Piezo2、酪氨酸羟化酶 Th 与谷氨酸转运体 Slc17a8"
+    },
+    {
+      "cluster_id": "Cluster_SST_Nociceptor",
+      "cluster_name": "Somatostatin-positive nociceptors (SST)",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG), trigeminal ganglion (TG)",
+      "four_layer_category": "L1",
+      "description": "生长抑素阳性感觉神经元亚群，特征性高表达 Sst 与 Klhl1"
+    },
+    {
+      "cluster_id": "Cluster_NF_Mechanoreceptor",
+      "cluster_name": "Neurofilament / A-fiber mechanoreceptors (NFs)",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG), trigeminal ganglion (TG)",
+      "four_layer_category": "L1",
+      "description": "粗大有髓A类感觉神经元/机械感受器与本体感受器，高表达重链神经丝 Nefh (NF200) 与 Pvalb"
+    },
+    {
+      "cluster_id": "Cluster_Senescent_Nociceptor",
+      "cluster_name": "Senescent / Lasting pain nociceptors",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG), trigeminal ganglion (TG)",
+      "four_layer_category": "L1",
+      "description": "神经病理性慢性疼痛维持期的衰老伤害性感觉神经元亚群，呈现不可逆表型，特征性上调 Sox11、Atf3、Cdkn1a 并经 SA-β-gal 原位酶活性染色直接证实"
+    },
+    {
+      "cluster_id": "Cluster_Human_Senescent_Nociceptor",
+      "cluster_name": "Human chronic pain senescent nociceptors",
+      "species": "human",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L1",
+      "description": "人类慢性疼痛与糖尿病痛性神经病变患者 DRG 中显著富集的衰老伤害性感受器状态，SenMayo 评分显著升高"
+    },
+    {
+      "cluster_id": "Cluster_Satellite_Glia",
+      "cluster_name": "Satellite glial cells (SGCs)",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "four_layer_category": "L2",
+      "description": "包裹感觉神经元胞体的卫星胶质细胞，表达 Fabp7 与 Apoe，在疼痛进程中通过细胞通讯与感觉神经元交互"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M01",
+      "marker": "Tac1",
+      "marker_original": "Tac1",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Peptidergic Nociceptor",
+      "cell_type_original": "peptidergic nociceptors (PEPs)",
+      "author_cluster_id": "Cluster_PEP_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "iPain single-cell atlas integration and sensory subtype classification",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in sc/snRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1-3, Fig. 1d",
+      "source_context": "Those neurons are of different subtypes that are classified as peptidergic (PEPs), non-peptidergic (NPs), C-Low Threshold mechanoreceptor (C-LTMRs), and a subtype of somatostatin positive neurons (SST)",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "dotplot representing the top gene markers for each cell type... Tac1 defining peptidergic nociceptors",
+          "mapping_basis": "scRNA-seq sensory neuron subtype marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Substance P precursor, canonical marker of peptidergic pain-sensing neurons",
+      "decision_reason": "Core cluster marker defining peptidergic nociceptor identity"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M02",
+      "marker": "Calca",
+      "marker_original": "Calca (CGRP)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Peptidergic Nociceptor",
+      "cell_type_original": "peptidergic nociceptors (PEPs)",
+      "author_cluster_id": "Cluster_PEP_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG), trigeminal ganglion (TG)",
+      "experimental_context": "iPainDRG and iPainTG atlas integration",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in single-cell data",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1-3, Fig. 1d, h",
+      "source_context": "Calca expression defines peptidergic nociceptive lineage in both DRG and TG atlases",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d, h",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot showing high selective expression of Calca in PEP clusters",
+          "mapping_basis": "scRNA-seq cluster-defining gene"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Calcitonin-related polypeptide alpha, hallmark neuropeptide marker for peptidergic primary sensory neurons",
+      "decision_reason": "Specific cluster marker in integrated somatosensory atlas"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M03",
+      "marker": "Mrgprd",
+      "marker_original": "Mrgprd",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Non-Peptidergic Nociceptor",
+      "cell_type_original": "non-peptidergic nociceptors (NPs)",
+      "author_cluster_id": "Cluster_NP_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "Single-cell clustering of DRG nociceptive lineage",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1-3, Fig. 1d",
+      "source_context": "Non-peptidergic nociceptors were classified based on canonical markers including Mrgprd and P2rx3",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot demonstrating Mrgprd restriction to non-peptidergic NP clusters",
+          "mapping_basis": "scRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Mas-related G-protein coupled receptor member D, definitive marker of non-peptidergic C-fiber nociceptors",
+      "decision_reason": "Canonical and data-validated non-peptidergic identity marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M04",
+      "marker": "Piezo2",
+      "marker_original": "Piezo2",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "C-Low Threshold Mechanoreceptor",
+      "cell_type_original": "C-Low Threshold mechanoreceptor (C-LTMRs)",
+      "author_cluster_id": "Cluster_cLTMR_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "scRNA-seq cluster annotation",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1-3, Fig. 1d",
+      "source_context": "C-LTMRs were identified by co-expression of low-threshold mechanosensitive channel Piezo2 and Th",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dotplot showing enrichment of Piezo2 in mechanoreceptor and c-LTMR clusters",
+          "mapping_basis": "scRNA-seq dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Piezo-type mechanosensitive ion channel component 2, essential for mechanical sensitivity",
+      "decision_reason": "Cluster-defining marker in the sensory atlas"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M05",
+      "marker": "Th",
+      "marker_original": "Th",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "C-Low Threshold Mechanoreceptor",
+      "cell_type_original": "C-Low Threshold mechanoreceptor (C-LTMRs)",
+      "author_cluster_id": "Cluster_cLTMR_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "scRNA-seq cluster annotation",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Tyrosine hydroxylase transcript in single cells",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 1-3, Fig. 1d",
+      "source_context": "Th is a definitive positive marker for c-LTMR unmyelinated mechanoreceptive neurons",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "High expression of Th specifically marking c-LTMRs",
+          "mapping_basis": "scRNA-seq cluster-defining gene"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Tyrosine hydroxylase, canonical marker distinguishing c-LTMRs from other nociceptive C-fibers",
+      "decision_reason": "Conserved cluster-specific marker for c-LTMRs"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M06",
+      "marker": "Sst",
+      "marker_original": "Sst",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Somatostatin-positive Nociceptor",
+      "cell_type_original": "somatostatin positive neurons (SST)",
+      "author_cluster_id": "Cluster_SST_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "Single-cell clustering of sensory neurons",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Somatostatin transcript expression",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1, Fig. 1d",
+      "source_context": "and a subtype of somatostatin positive neurons (SST)",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Sst expression exclusively identifying the SST nociceptor cluster",
+          "mapping_basis": "scRNA-seq cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Somatostatin, marks a distinct pruriceptive/itch and noxious heat sensory neuron subpopulation",
+      "decision_reason": "Eponymous marker defining this discrete sensory neuronal cluster"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M07",
+      "marker": "Nefh",
+      "marker_original": "Nefh (NF200)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "A-fiber Mechanoreceptor",
+      "cell_type_original": "neurofilament neurons (NFs)",
+      "author_cluster_id": "Cluster_NF_Mechanoreceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "scRNA-seq cluster dotplot and neuronal subtyping",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Neurofilament heavy chain transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1, Fig. 1d",
+      "source_context": "Myelinated A-fiber mechanoreceptors and proprioceptors were demarcated by high Nefh expression",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Nefh selectively enriched in NF clusters separating large myelinated neurons from unmyelinated nociceptors",
+          "mapping_basis": "scRNA-seq cluster marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Neurofilament heavy, canonical marker distinguishing myelinated A-fibers from unmyelinated nociceptors",
+      "decision_reason": "Lineage segregation marker in primary sensory ganglia"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M08",
+      "marker": "Sox11",
+      "marker_original": "Sox11",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Senescent Nociceptor",
+      "cell_type_original": "senescent nociceptors in Lasting Pain state",
+      "author_cluster_id": "Cluster_Senescent_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "Single-cell multiome ATAC-seq peak accessibility and pseudotime regulon analysis",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Sox11 regulon and open promoter chromatin accessibility in ATAC-seq",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-4, Fig. 2f-g, Supplementary Fig. 5a-f",
+      "source_context": "Particularly, Sox11 regulon activity was found to increase as pseudotime progressed and remained elevated in the Lasting Pain state... Sox11 was identified as the sole transcription factor remaining elevated in chronic neuropathic pain",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 2f-g",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Sox11 regulon activity remained elevated in the Lasting Pain state, in contrast to Atf3 and Jun regulons, which exhibited an initial increase followed by a decline",
+          "mapping_basis": "scMultiome ATAC-seq accessibility and transcript regulon activity"
+        }
+      ],
+      "validation_method": "scATAC-seq / snRNA-seq",
+      "gate_definition": null,
+      "notes": "SRY-box transcription factor 11, master driver of sustained injury-induced neuropathic pain state in nociceptors",
+      "decision_reason": "Direct multiomic validation across ATAC accessibility and regulon dynamics"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M09",
+      "marker": "Glb1",
+      "marker_original": "SA-β-gal (Glb1 activity)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Senescent Nociceptor",
+      "cell_type_original": "senescent nociceptors",
+      "author_cluster_id": "Cluster_Senescent_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "In situ senescence-associated beta-galactosidase (SA-β-gal) enzymatic fluorescence staining co-stained with sensory neuronal markers (Peripherin, NeuN)",
+      "four_layer_category": "L1",
+      "measurement_type": "enzymatic activity and protein",
+      "entity_detail": "Fluorescent SA-β-gal substrate SPiDER-βGal and anti-Peripherin antibody",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4-6, Fig. 3h-i",
+      "source_context": "We then verified the time course of senescence development in silico and in vivo by detecting the Senescence-Associated Beta-galactosidase (SA-β-gal) in sensory neurons... SA-β-gal area significantly increased at Day 7, 14, and 28 post-injury",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 3h-i",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Representative confocal micrographs showing robust SA-β-gal puncta within Peripherin+ nociceptive neuron soma in chronic constriction injury models",
+          "mapping_basis": "in situ histological enzymatic fluorescence validation"
+        }
+      ],
+      "validation_method": "in_situ_histochemistry (SA-beta-gal) / immunofluorescence",
+      "gate_definition": null,
+      "notes": "Senescence-associated beta-galactosidase activity encoded by Glb1, the definitive biological hallmark of cellular senescence directly confirmed in primary nociceptors",
+      "decision_reason": "In vivo tissue staining directly validating senescent nociceptor existence"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M10",
+      "marker": "Cdkn1a",
+      "marker_original": "Cdkn1a (p21)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Senescent Nociceptor",
+      "cell_type_original": "senescent nociceptors",
+      "author_cluster_id": "Cluster_Senescent_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "SenMayo gene score and cell senescence profiling in scRNA-seq",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "Cyclin dependent kinase inhibitor 1A transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4-5, Fig. 3a-e",
+      "source_context": "Senescent nociceptors exhibited high enrichment of SenMayo signature genes including Cdkn1a alongside elevated CellAge and GenAge scores",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 4,
+          "printed_page": 4,
+          "figure_panel": "Fig. 3a-b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "enrichment of senescent cellular characteristics within nociceptors following injury in all pain models",
+          "mapping_basis": "scRNA-seq SenMayo senescence scoring"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "p21 cyclin-dependent kinase inhibitor, core senescence cell-cycle arrest marker functionally validated by senolytic clearance with ABT-263",
+      "decision_reason": "Core SenMayo marker validating senescent state of injured nociceptors"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M11",
+      "marker": "Fabp7",
+      "marker_original": "Fabp7",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Satellite Glial Cell",
+      "cell_type_original": "satellite glial cells (SGCs)",
+      "author_cluster_id": "Cluster_Satellite_Glia",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion (DRG)",
+      "experimental_context": "iPain atlas non-neuronal clustering and ligand-receptor interaction modeling",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Fatty acid binding protein 7 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 2-4, Fig. 1d, Fig. 2h",
+      "source_context": "Satellite glial cells were identified as the primary non-neuronal glial partner communicating with nociceptors across pain models",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Dot plot indicating selective Fabp7 expression in SGC cluster",
+          "mapping_basis": "scRNA-seq cluster-defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Brain lipid-binding protein (BLBP), canonical lineage marker of sensory ganglion satellite glia",
+      "decision_reason": "Specific cluster marker for satellite glia in DRG atlas"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 11,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full text Nature Communications paper (15 pages including methods, figures 1-5, and detailed legend descriptions).",
+    "missing_materials": "Supplementary Figures 1-7 and Supplementary Data 1-7 standalone files not provided locally.",
+    "potential_leakage_scope": "Individual ligand-receptor pairs in Factor analysis (Fig. 2h) not evaluated as lineage identity markers."
+  }
+}

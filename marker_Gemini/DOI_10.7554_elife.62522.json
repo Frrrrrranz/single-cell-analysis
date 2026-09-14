@@ -1,0 +1,449 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.7554_elife.62522",
+  "doi": "10.7554/eLife.62522",
+  "pmid": "33164753",
+  "title": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV2 host genes",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "eLife 2020 原文（28页），包含跨年龄段人肺单核转录组（46,500 snRNA）与单核染色质可及性（90,980 snATAC）多组学图谱、Figure 1-5 及 Methods"
+    },
+    {
+      "material_name": "DOI_10.7554_elife.62522.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述肺泡 II 型细胞（AT2）、罕见肺神经内分泌细胞（PNEC）、纤毛及分泌细胞宿主因子（TMPRSS2, ACE2, SLC6A20 等）细胞特异性调控"
+    },
+    {
+      "material_name": "Supplementary files 1-8 & Figures supplements 1-3",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary files 1-8 与 Figure supplements 1-3 的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Alveolar_Type_2",
+      "cluster_name": "Alveolar type 2 cells (AT2)",
+      "species": "human",
+      "organ_or_tissue": "lung parenchyma",
+      "four_layer_category": "outside",
+      "description": "人肺肺泡 II 型上皮细胞，特征性高表达跨膜丝氨酸蛋白酶 TMPRSS2、SARS-CoV-2 功能受体 ACE2 及氨基酸转运蛋白 SLC6A20"
+    },
+    {
+      "cluster_id": "Cluster_PNEC",
+      "cluster_name": "Pulmonary neuroendocrine cells (PNEC)",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "four_layer_category": "L4",
+      "description": "呼吸道罕见感觉性肺神经内分泌细胞群，在 snATAC-seq 与 snRNA-seq 双模态中均被特异捕获并表征"
+    },
+    {
+      "cluster_id": "Cluster_Alveolar_Type_1",
+      "cluster_name": "Alveolar type 1 cells (AT1)",
+      "species": "human",
+      "organ_or_tissue": "lung parenchyma",
+      "four_layer_category": "outside",
+      "description": "人肺扁平肺泡 I 型气体交换上皮细胞"
+    },
+    {
+      "cluster_id": "Cluster_Ciliated_Cells",
+      "cluster_name": "Ciliated cells",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "four_layer_category": "outside",
+      "description": "呼吸道纤毛清除上皮细胞"
+    },
+    {
+      "cluster_id": "Cluster_Club_Cells",
+      "cluster_name": "Club cells",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "four_layer_category": "outside",
+      "description": "细支气管分泌细胞（棒状细胞）"
+    },
+    {
+      "cluster_id": "Cluster_Lung_Macrophage",
+      "cluster_name": "Lung macrophages",
+      "species": "human",
+      "organ_or_tissue": "lung immune compartment",
+      "four_layer_category": "outside",
+      "description": "肺泡与间质常驻巨噬细胞，高表达溶酶体组织蛋白酶 CTSL"
+    },
+    {
+      "cluster_id": "Cluster_Lung_Endothelial",
+      "cluster_name": "Lung endothelial cells",
+      "species": "human",
+      "organ_or_tissue": "pulmonary vasculature",
+      "four_layer_category": "outside",
+      "description": "肺毛细血管与大血管内皮细胞，富集表达替代受体 BSG (CD147)"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.7554_elife.62522_M01",
+      "marker": "TMPRSS2",
+      "marker_original": "TMPRSS2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar type 2 cell",
+      "cell_type_original": "alveolar type 2 cells (AT2)",
+      "author_cluster_id": "Cluster_Alveolar_Type_2",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "snRNA-seq (46,500 nuclei) and snATAC-seq (90,980 nuclei) across human lifespans",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Transmembrane serine protease 2 transcript and promoter chromatin peak",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-5, Fig. 2, Fig. 3",
+      "source_context": "entry gene TMPRSS2 in alveolar type 2 cells... TMPRSS2 was detected in 3,315/7,226 nuclei, or 45.8% of the AT2 cells",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2, Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "TMPRSS2 detected in 45.8% of AT2 cells as primary cell-entry protease",
+          "mapping_basis": "Single-nucleus expression and cis-regulatory element linkage"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq co-accessibility",
+      "gate_definition": "TMPRSS2 >= 1 UMI",
+      "notes": "Cell-entry host protease predominantly expressed in mature AT2 pneumocytes",
+      "decision_reason": "Core author-declared and multi-omic characterized AT2 host factor marker"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M02",
+      "marker": "ACE2",
+      "marker_original": "ACE2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar type 2 cell",
+      "cell_type_original": "alveolar type 2 cells (AT2)",
+      "author_cluster_id": "Cluster_Alveolar_Type_2",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "snRNA-seq and snATAC-seq in human lung development and adulthood",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Angiotensin converting enzyme 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Fig. 2A, Fig. 3B",
+      "source_context": "AT2 cells had the highest number of ACE2+ nuclei, accounting for 48.8% of all ACE2-expressing nuclei... mostly confined to AT2 cells",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2A, Fig. 3B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "AT2 cells account for 48.8% of all ACE2+ expressing nuclei in the lung",
+          "mapping_basis": "Single-nucleus expression gating"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq",
+      "gate_definition": "ACE2 >= 1 UMI",
+      "notes": "Primary high-affinity SARS-CoV-2 entry receptor enriched specifically in AT2 alveolar cells",
+      "decision_reason": "Statistically and experimentally validated AT2 cell receptor enrichment"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M03",
+      "marker": "SLC6A20",
+      "marker_original": "SLC6A20",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar type 2 cell",
+      "cell_type_original": "alveolar type 2 cells (AT2)",
+      "author_cluster_id": "Cluster_Alveolar_Type_2",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "snRNA-seq, snATAC-seq cCRE linkage, and eQTL colocalization",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Solute carrier family 6 member 20 transcript and linked distal enhancer",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 7-9, Fig. 4, L517",
+      "source_context": "target genes for this cCRE was SLC6A20 which was predominantly expressed in AT2 cells... The highest expression observed was in AT2 cells",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 7,
+          "printed_page": 7,
+          "figure_panel": "Fig. 4E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SLC6A20 predominantly expressed in AT2 cells and regulated by COVID-19 risk variant",
+          "mapping_basis": "Single-nucleus expression and cCRE promoter interaction"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq enhancer linkage",
+      "gate_definition": null,
+      "notes": "Amino acid transporter physically interacting with ACE2 and linked to COVID-19 3p21.31 risk locus",
+      "decision_reason": "Author declared AT2-predominant transporter gene"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M04",
+      "marker": "CTSL",
+      "marker_original": "CTSL",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Lung macrophage",
+      "cell_type_original": "macrophages / myeloid cells",
+      "author_cluster_id": "Cluster_Lung_Macrophage",
+      "species": "human",
+      "organ_or_tissue": "lung",
+      "experimental_context": "snRNA-seq and snATAC-seq across human lungs",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Cathepsin L transcript and promoter accessibility",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-4, Fig. 2",
+      "source_context": "TMPRSS2 and CTSL cleave the viral spike protein... CTSL widely accessible and expressed across macrophages and epithelial subsets",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CTSL expression profiling across discrete lung cell types",
+          "mapping_basis": "snRNA-seq cluster profiling"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq",
+      "gate_definition": null,
+      "notes": "Lysosomal endopeptidase enabling alternative endosomal viral entry pathway",
+      "decision_reason": "Author evaluated cell-entry protease marker"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M05",
+      "marker": "BSG",
+      "marker_original": "BSG",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Lung endothelial cell",
+      "cell_type_original": "endothelial cells",
+      "author_cluster_id": "Cluster_Lung_Endothelial",
+      "species": "human",
+      "organ_or_tissue": "pulmonary vasculature",
+      "experimental_context": "snRNA-seq and snATAC-seq across human lungs",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Basigin (CD147) transcript and open chromatin peak",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-4, Fig. 2",
+      "source_context": "discrete cell types that express ACE2, TMPRSS2, CTSL, BSG, and FURIN... BSG expressed broadly with high levels in endothelial cells",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "BSG expression and promoter accessibility evaluated across pulmonary cell types",
+          "mapping_basis": "snRNA-seq and snATAC-seq cluster profiling"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq",
+      "gate_definition": null,
+      "notes": "Transmembrane glycoprotein acting as auxiliary host entry factor in pulmonary endothelium",
+      "decision_reason": "Author evaluated cell-surface entry factor marker"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M06",
+      "marker": "FURIN",
+      "marker_original": "FURIN",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Airway epithelial cell",
+      "cell_type_original": "airway epithelial cells",
+      "author_cluster_id": "Cluster_Club_Cells",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "experimental_context": "snRNA-seq and snATAC-seq across human lungs",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Furin, paired basic amino acid cleaving enzyme transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 3-4, Fig. 2",
+      "source_context": "identify the discrete cell types that express ACE2, TMPRSS2, CTSL, BSG, and FURIN",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 2",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "FURIN expression across discrete respiratory cell clusters",
+          "mapping_basis": "snRNA-seq and snATAC-seq cluster profiling"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq",
+      "gate_definition": null,
+      "notes": "Proprotein convertase mediating cleavage at the SARS-CoV-2 spike S1/S2 boundary",
+      "decision_reason": "Author evaluated proprotein convertase marker"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M07",
+      "marker": "CALCA",
+      "marker_original": "CALCA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pulmonary neuroendocrine cell",
+      "cell_type_original": "pulmonary neuroendocrine cells (PNECs)",
+      "author_cluster_id": "Cluster_PNEC",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "experimental_context": "snATAC-seq and snRNA-seq dual-modality clustering in human lung",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Calcitonin related polypeptide alpha transcript and open promoter peak",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Fig. 1A-D, Figure supplement 2",
+      "source_context": "highlighted by a cluster of rare pulmonary neuroendocrine cells (PNECs) represented in both modalities (Figure 1A–D, Figure 1—figure supplement 2A, B)",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1A-D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "rare pulmonary neuroendocrine cells (PNECs) identified across snATAC and snRNA modalities",
+          "mapping_basis": "Dual-modality cluster annotation"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq consensus clustering",
+      "gate_definition": null,
+      "notes": "Classical peptide hormone defining pulmonary neuroendocrine cells (L4)",
+      "decision_reason": "Dual-modality confirmed rare neuroendocrine cell cluster (L4)"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M08",
+      "marker": "CHGA",
+      "marker_original": "CHGA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Pulmonary neuroendocrine cell",
+      "cell_type_original": "pulmonary neuroendocrine cells (PNECs)",
+      "author_cluster_id": "Cluster_PNEC",
+      "species": "human",
+      "organ_or_tissue": "airway epithelium",
+      "experimental_context": "snRNA-seq and snATAC-seq in human lungs",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Chromogranin A transcript and open promoter peak",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Fig. 1B, D",
+      "source_context": "canonical marker genes used for cluster annotation in PNEC",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 3,
+          "printed_page": 3,
+          "figure_panel": "Fig. 1B, D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "canonical marker genes for PNEC annotation",
+          "mapping_basis": "Cluster annotation canonical marker"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq consensus clustering",
+      "gate_definition": null,
+      "notes": "Neuroendocrine dense-core vesicle glycoprotein marking airway PNECs",
+      "decision_reason": "High-confidence L4 pulmonary neuroendocrine defining marker"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M09",
+      "marker": "SFTPC",
+      "marker_original": "SFTPC",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar type 2 cell",
+      "cell_type_original": "alveolar type 2 cells (AT2)",
+      "author_cluster_id": "Cluster_Alveolar_Type_2",
+      "species": "human",
+      "organ_or_tissue": "lung parenchyma",
+      "experimental_context": "snRNA-seq and snATAC-seq in human lung",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Surfactant protein C transcript and accessible promoter peak",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 18, Fig. 1",
+      "source_context": "Final cluster annotation was done using canonical markers (AT2: SFTPC)",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 18,
+          "printed_page": 18,
+          "figure_panel": "Fig. 1B, D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "canonical markers used for AT2 cluster annotation",
+          "mapping_basis": "Methods cluster annotation definition"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq",
+      "gate_definition": null,
+      "notes": "Surfactant protein C strictly specific to type II alveolar epithelial cells",
+      "decision_reason": "Core canonical lineage marker defining AT2 cells"
+    },
+    {
+      "record_id": "DOI_10.7554_elife.62522_M10",
+      "marker": "AGER",
+      "marker_original": "AGER",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar type 1 cell",
+      "cell_type_original": "alveolar type 1 cells (AT1)",
+      "author_cluster_id": "Cluster_Alveolar_Type_1",
+      "species": "human",
+      "organ_or_tissue": "lung parenchyma",
+      "experimental_context": "snRNA-seq and snATAC-seq in human lung",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and chromatin accessibility",
+      "entity_detail": "Advanced glycosylation end-product specific receptor transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 3, Methods p. 18, Fig. 1",
+      "source_context": "Final cluster annotation was done using canonical markers (AT1: AGER)",
+      "sources": [
+        {
+          "file": "PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+          "pdf_page": 18,
+          "printed_page": 18,
+          "figure_panel": "Fig. 1B, D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "canonical markers used for AT1 cluster annotation",
+          "mapping_basis": "Methods cluster annotation definition"
+        }
+      ],
+      "validation_method": "snRNA-seq / snATAC-seq",
+      "gate_definition": null,
+      "notes": "Receptor for advanced glycation end products defining squamous type I pneumocytes",
+      "decision_reason": "Core canonical lineage marker defining AT1 cells"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full eLife Research Article (28 pages including main text Figures 1-5, Supplementary files 1-8, and Methods).",
+    "missing_materials": "External high-throughput raw FASTQ/BAM alignment files not locally provided.",
+    "potential_leakage_scope": "snATAC-seq Cicero co-accessibility scores and age-dependent differential peak statistics."
+  }
+}

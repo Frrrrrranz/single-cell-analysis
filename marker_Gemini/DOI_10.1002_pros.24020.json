@@ -1,0 +1,676 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1002_pros.24020",
+  "doi": "10.1002/pros.24020",
+  "title": "Urethral luminal epithelia are castration-insensitive cells of the proximal prostate",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含正文 13 页、图 1-5、Methods 及原著讨论"
+    },
+    {
+      "material_name": "DOI_10.1002_pros.24020.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含全文 Markdown 文本、分段描述及图表说明"
+    },
+    {
+      "material_name": "Supporting Information Data (Tables S1-S7, Figures S1-S10)",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中详述了补充图 S1-S10 及补充表 S1-S7 的核心发现与统计数据；独立补充附件表格文件未在本地单独存放"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Mouse_Ur_Luminal",
+      "cluster_name": "Urethral luminal epithelia (mouse)",
+      "species": "mouse",
+      "organ_or_tissue": "prostatic urethra and proximal prostate ducts",
+      "four_layer_category": "outside",
+      "description": "小鼠尿道腔上皮细胞及其延伸至近端前列腺导管部分，高表达 Krt4、Tacstd2(Trop2)、Ly6a、Ly6d、Krt19，去势后富集"
+    },
+    {
+      "cluster_id": "Mouse_Basal",
+      "cluster_name": "Basal epithelia (mouse)",
+      "species": "mouse",
+      "organ_or_tissue": "prostate and urethra",
+      "four_layer_category": "outside",
+      "description": "小鼠前列腺及尿道基底上皮细胞，表达 Krt5、Tp63、Pdpn"
+    },
+    {
+      "cluster_id": "Mouse_AP_Luminal",
+      "cluster_name": "Anterior prostate luminal epithelia (mouse)",
+      "species": "mouse",
+      "organ_or_tissue": "anterior prostate",
+      "four_layer_category": "outside",
+      "description": "小鼠前列腺前叶分泌性腔上皮，富集 Tgm4、Nkx3.1、Dpp4"
+    },
+    {
+      "cluster_id": "Mouse_DLP_Luminal",
+      "cluster_name": "Dorsolateral prostate luminal epithelia (mouse)",
+      "species": "mouse",
+      "organ_or_tissue": "dorsolateral prostate",
+      "four_layer_category": "outside",
+      "description": "小鼠前列腺背外侧叶分泌性腔上皮，富集 Msmb、Nkx3.1、Dpp4"
+    },
+    {
+      "cluster_id": "Mouse_VP_Luminal",
+      "cluster_name": "Ventral prostate luminal epithelia (mouse)",
+      "species": "mouse",
+      "organ_or_tissue": "ventral prostate",
+      "four_layer_category": "outside",
+      "description": "小鼠前列腺腹侧叶分泌性腔上皮，富集 Sbp、Nkx3.1、Dpp4"
+    },
+    {
+      "cluster_id": "Mouse_SV_ED_Luminal",
+      "cluster_name": "Seminal vesicle and ejaculatory duct luminal (mouse)",
+      "species": "mouse",
+      "organ_or_tissue": "seminal vesicle and ejaculatory duct",
+      "four_layer_category": "outside",
+      "description": "小鼠精囊及射精管腔上皮细胞，富集 Svs2 及 Prom1(CD133)"
+    },
+    {
+      "cluster_id": "Human_Club_Urethral",
+      "cluster_name": "Club urethral luminal epithelia (human)",
+      "species": "human",
+      "organ_or_tissue": "prostatic urethra and proximal prostate ducts",
+      "four_layer_category": "outside",
+      "description": "人类棒状尿道腔上皮细胞，表达 SCGB1A1，在 BPH 及 5ARI 治疗后萎缩区富集"
+    },
+    {
+      "cluster_id": "Human_Hillock_Urethral",
+      "cluster_name": "Hillock urethral luminal epithelia (human)",
+      "species": "human",
+      "organ_or_tissue": "prostatic urethra and proximal prostate ducts",
+      "four_layer_category": "outside",
+      "description": "人类小丘尿道上皮细胞，表达 KRT13，在 BPH 及 5ARI 治疗后萎缩区富集"
+    },
+    {
+      "cluster_id": "Neuroendocrine_Epithelia",
+      "cluster_name": "Neuroendocrine epithelia (mouse and human)",
+      "species": "mouse",
+      "organ_or_tissue": "urethra and proximal prostate ducts",
+      "four_layer_category": "L4",
+      "description": "罕见神经内分泌上皮细胞，富集于尿道及近端前列腺导管，表达 CGRP(Calca) 和 CHGA"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1002_pros.24020_M01",
+      "marker": "Krt4",
+      "marker_original": "Keratin 4 (Krt4 / KRT4)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Urethral Luminal Epithelial Cell",
+      "cell_type_original": "urethral luminal epithelia (Ur Luminal)",
+      "author_cluster_id": "Ur Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "prostatic urethra and proximal prostate ducts",
+      "experimental_context": "scRNA-seq clustering, developmental sagittal sections (E18.5, P9, adult) and transverse whole-mount immunofluorescence",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-KRT4 antibody and scRNA-seq expression",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 4-6, Fig. 1D, Fig. 2A, Fig. 4A-C",
+      "source_context": "Mouse urethral cells highly express Keratin 4 (Figure 1D)... luminal epithelia of the urethra and proximal ducts within and leading out of the rhabdosphincter are KRT4+/NKX3.1- and transition immediately into KRT4-/NKX3.1+ secretory prostate luminal cells",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 5,
+          "printed_page": 899,
+          "figure_panel": "Fig. 1D, Fig. 2A, Fig. 4A-C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Transverse section through the mouse prostatic urethra labeled with antibodies to KRT4 (in white, labels urethral luminal cells), KRT5 (in green, labels basal cells) and NKX3.1 (in red, labels prostate secretory luminal cells)",
+          "mapping_basis": "cluster DEG confirmed by multiplex immunofluorescence during development and adulthood"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "KRT4+ NKX3.1-",
+      "notes": "Directly demonstrates that putative proximal prostate progenitors previously identified by KRT4 are urethral luminal cells extending into proximal ducts",
+      "decision_reason": "High-evidence multimodal in situ validation across developmental timecourse"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M02",
+      "marker": "Tacstd2",
+      "marker_original": "Trop2 (Tacstd2)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Urethral Luminal Epithelial Cell",
+      "cell_type_original": "urethral luminal epithelia (Ur Luminal)",
+      "author_cluster_id": "Ur Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "prostatic urethra and proximal prostate ducts",
+      "experimental_context": "Flow cytometry of intact and castrated mice, scRNA-seq, and immunohistochemistry",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-Trop2 antibody and scRNA-seq expression",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 7-8, Fig. 2C, Fig. 3B-E, Fig. S4E",
+      "source_context": "Trop2 is highly expressed in urethral luminal cells (Figure 2C) and immunostaining for Trop2 overlaps with KRT4 in mouse urethral luminal cells... Trop2+ urethral luminal epithelia are increased in prostates from castrated mice (11.9% of total epithelia) compared with sham-castrated mice (1.33%)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 8,
+          "printed_page": 902,
+          "figure_panel": "Fig. 3B-E",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Flow cytometry of Trop2+ urethral luminal cells in prostate tissue from sham-castrated and castrated mice... Whole-mount lower urinary tract sections labeled with antibodies to Trop2",
+          "mapping_basis": "scRNA-seq, surface FACS gating, and castrate-enrichment IHC validation"
+        }
+      ],
+      "validation_method": "flow_cytometry / immunohistochemistry / scRNA-seq",
+      "gate_definition": "CD45- CD326+ PDPN- CD26- Trop2+",
+      "notes": "Key surface marker proving urethral luminal cells are castration-insensitive and survive androgen deprivation in proximal ducts",
+      "decision_reason": "scRNA-seq cluster DEG validated by flow cytometry sorting and IHC in vivo"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M03",
+      "marker": "Ly6d",
+      "marker_original": "Ly6d",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Urethral Luminal Epithelial Cell",
+      "cell_type_original": "urethral luminal epithelia",
+      "author_cluster_id": "Ur Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "prostatic urethra",
+      "experimental_context": "scRNA-seq dotplot of mouse epithelial populations",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 6, Fig. 2C",
+      "source_context": "According to previous studies, prostate epithelia that are enriched in facultative stem cell assays display markers such as Sca-1, Trop2, LY6D, and KRT4. A dot plot of putative progenitor cell markers demonstrates that these genes are highly expressed in the urethral luminal epithelial cluster",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 6,
+          "printed_page": 900,
+          "figure_panel": "Fig. 2C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Dot plot of mouse prostate and urethral epithelial cell type-specific markers and progenitor cell markers (Ly6d)",
+          "mapping_basis": "scRNA-seq cluster dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Previously linked to castration-resistant luminal progenitors, shown here to mark urethral luminal cells",
+      "decision_reason": "Cluster-specific enrichment demonstrated by scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M04",
+      "marker": "Krt19",
+      "marker_original": "Krt19",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Urethral Luminal Epithelial Cell",
+      "cell_type_original": "urethral luminal epithelia",
+      "author_cluster_id": "Ur Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "prostatic urethra",
+      "experimental_context": "scRNA-seq dotplot across mouse prostate and urethral clusters",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 6, Fig. 2C",
+      "source_context": "Krt19 expression, which has been associated with KRT5+/KRT8+ 'intermediate' cells transitioning from basal to luminal, is highly enriched in urethral luminal epithelia (Figure 2C)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 6,
+          "printed_page": 900,
+          "figure_panel": "Fig. 2C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Krt19 expression... is highly enriched in urethral luminal epithelia",
+          "mapping_basis": "scRNA-seq expression reclassifying putative intermediate cell marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Clarifies that high Krt19 expression corresponds to urethral luminal cells rather than an uncommitted transitional state",
+      "decision_reason": "Cluster-defining DEG re-annotating historical marker attribution"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M05",
+      "marker": "Nkx3-1",
+      "marker_original": "Nkx3.1 / NKX3.1",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Secretory Prostate Luminal Epithelial Cell",
+      "cell_type_original": "secretory prostate luminal cells",
+      "author_cluster_id": "AP, DLP, VP Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "prostate lobes",
+      "experimental_context": "Transverse immunofluorescence and scRNA-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-NKX3.1 antibody and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 5-6, Fig. 1D, Fig. 2A, Fig. S4B",
+      "source_context": "Urethral luminal cells are a distinct population from the secretory prostate luminal epithelium, which express the prostate differentiation markers Nkx3.1 and Dpp4 (CD26)... cell counts from the urethra, proximal ducts, and distal prostate demonstrate that KRT4+ cells do not coexpress NKX3.1",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 5,
+          "printed_page": 899,
+          "figure_panel": "Fig. 2A, Fig. S4B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "KRT4+ cells do not coexpress NKX3.1... transition from urethral luminal cells to secretory prostate luminal epithelium is clearly visible in the periurethral transition zone",
+          "mapping_basis": "IF co-staining demonstrating mutually exclusive expression with KRT4"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "KRT4- NKX3.1+",
+      "notes": "Prostate lineage differentiation master factor, negative in urethral luminal cells",
+      "decision_reason": "In situ IF demonstration of prostate lobe boundary versus urethral luminal identity"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M06",
+      "marker": "Dpp4",
+      "marker_original": "CD26 (Dpp4)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Secretory Prostate Luminal Epithelial Cell",
+      "cell_type_original": "prostate secretory luminal cells",
+      "author_cluster_id": "AP, DLP, VP Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "prostate lobes",
+      "experimental_context": "Flow cytometry gating and scRNA-seq dotplot",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD26 antibody for flow cytometry",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 7, Fig. 2C, Fig. 3B, Fig. S4A",
+      "source_context": "Hence, we used CD26 (Dpp4) which is enriched in prostate luminal epithelia over urethral luminal cells (Figure 2C) to specifically sort out prostate secretory luminal cells... CD26+ prostate luminal cells are enriched in the proximal and distal prostate compared with the urethra",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 7,
+          "printed_page": 901,
+          "figure_panel": "Fig. 3B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD26+ prostate luminal cells are enriched in the proximal and distal prostate (42.1% and 40.1% of total epithelia) compared with urethra (12.5%)",
+          "mapping_basis": "cell surface flow cytometry gate"
+        }
+      ],
+      "validation_method": "flow_cytometry / scRNA-seq",
+      "gate_definition": "CD45- CD326+ CD26+",
+      "notes": "Selectively isolates mature secretory prostate luminal cells over urethral luminal cells",
+      "decision_reason": "Flow cytometry sorting strategy confirmed across 4 independent cohorts"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M07",
+      "marker": "Msmb",
+      "marker_original": "Msmb",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Dorsolateral Prostate Luminal Cell",
+      "cell_type_original": "dorsolateral prostate luminal (DLP Lum)",
+      "author_cluster_id": "DLP Lum",
+      "species": "mouse",
+      "organ_or_tissue": "dorsolateral prostate",
+      "experimental_context": "scRNA-seq cluster dotplot and lobe-specific DEG matching",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 4, Fig. 1D",
+      "source_context": "The three clusters of luminal epithelia corresponded to specific prostate lobes based on a previous study that identified lobe-specific gene expression of Msmb (dorsolateral, DLP), Tgm4 (anterior, AP), and Sbp (ventral, VP) (Figure 1D)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 4,
+          "printed_page": 898,
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Dot plot of differentially expressed genes for each cluster (Msmb in DLP Lum)",
+          "mapping_basis": "cluster-specific DEG dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Lobe-specific marker for mouse dorsolateral prostate luminal epithelium",
+      "decision_reason": "Defines DLP luminal cluster in scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M08",
+      "marker": "Tgm4",
+      "marker_original": "Tgm4",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Anterior Prostate Luminal Cell",
+      "cell_type_original": "anterior prostate luminal (AP Lum)",
+      "author_cluster_id": "AP Lum",
+      "species": "mouse",
+      "organ_or_tissue": "anterior prostate",
+      "experimental_context": "scRNA-seq cluster dotplot and lobe-specific DEG matching",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 4, Fig. 1D",
+      "source_context": "lobe-specific gene expression of Msmb (dorsolateral, DLP), Tgm4 (anterior, AP), and Sbp (ventral, VP) (Figure 1D)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 4,
+          "printed_page": 898,
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Dot plot of differentially expressed genes for each cluster (Tgm4 in AP Lum)",
+          "mapping_basis": "cluster-specific DEG dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Transglutaminase 4, lobe-specific marker for anterior prostate (coagulating gland)",
+      "decision_reason": "Defines AP luminal cluster in scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M09",
+      "marker": "Sbp",
+      "marker_original": "Sbp",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Ventral Prostate Luminal Cell",
+      "cell_type_original": "ventral prostate luminal (VP Lum)",
+      "author_cluster_id": "VP Lum",
+      "species": "mouse",
+      "organ_or_tissue": "ventral prostate",
+      "experimental_context": "scRNA-seq cluster dotplot and lobe-specific DEG matching",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 4, Fig. 1D",
+      "source_context": "lobe-specific gene expression of Msmb (dorsolateral, DLP), Tgm4 (anterior, AP), and Sbp (ventral, VP) (Figure 1D)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 4,
+          "printed_page": 898,
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Dot plot of differentially expressed genes for each cluster (Sbp in VP Lum)",
+          "mapping_basis": "cluster-specific DEG dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Spermine binding protein, lobe-specific marker for ventral prostate luminal cells",
+      "decision_reason": "Defines VP luminal cluster in scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M10",
+      "marker": "Svs2",
+      "marker_original": "Svs2",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Seminal Vesicle and Ejaculatory Duct Luminal Cell",
+      "cell_type_original": "seminal vesicle and ejaculatory duct luminal (SV/ED Lum)",
+      "author_cluster_id": "SV/ED Lum",
+      "species": "mouse",
+      "organ_or_tissue": "seminal vesicle and ejaculatory duct",
+      "experimental_context": "scRNA-seq cluster dotplot and tissue annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 4, Fig. 1D",
+      "source_context": "Given the enrichment of the seminal vesicle-specific gene Svs2, we labeled one of the urethral clusters as seminal vesicle and ejaculatory duct luminal cells (SV/ED luminal) (Figure 1D)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 4,
+          "printed_page": 898,
+          "figure_panel": "Fig. 1D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Dot plot of differentially expressed genes for each cluster (Svs2 in SV/ED Lum)",
+          "mapping_basis": "cluster-specific DEG dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Seminal vesicle secretory protein 2, defines the contaminating/co-isolated SV/ED luminal cluster",
+      "decision_reason": "Distinct cluster annotation in scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M11",
+      "marker": "SCGB1A1",
+      "marker_original": "SCGB1A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Club Urethral Luminal Epithelial Cell",
+      "cell_type_original": "club urethral cells",
+      "author_cluster_id": "Club epithelia",
+      "species": "human",
+      "organ_or_tissue": "prostatic urethra, proximal ducts, and BPH nodules",
+      "experimental_context": "scRNA-seq of normal vs BPH, sagittal developmental IHC (12w, 19w, adult), and dual IHC in 5ARI-treated BPH patients",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-SCGB1A1 antibody and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 8-10, Fig. 4D-F, Fig. 5A, Fig. 5D-F",
+      "source_context": "The results demonstrate an increase in club urethral luminal epithelia from 2% of epithelia in the normal prostate to 9% of epithelia within glandular BPH (Figure 5A)... analysis of prostate sections from 11 different 5ARI-treated men revealed an increase in the number of club and hillock urethral cells in focal areas of atrophy (Figure 5F)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 10,
+          "printed_page": 904,
+          "figure_panel": "Fig. 5D-F",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Dual IHC for KRT13 (in red, labels hillock urethral cells) and SCGB1A1 (in brown, labels club urethral cells) on prostate sections from normal adults, glandular BPH, and 5ARI-treated BPH patients",
+          "mapping_basis": "developmental and adult pathological IHC validation"
+        }
+      ],
+      "validation_method": "immunohistochemistry / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Human club urethral cells persist and expand in 5ARI-induced atrophic areas of BPH, proving androgen independence",
+      "decision_reason": "High-evidence multi-cohort clinical and developmental validation"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M12",
+      "marker": "KRT13",
+      "marker_original": "KRT13",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hillock Urethral Luminal Epithelial Cell",
+      "cell_type_original": "hillock urethral cells",
+      "author_cluster_id": "Hillock epithelia",
+      "species": "human",
+      "organ_or_tissue": "prostatic urethra, proximal ducts, and BPH nodules",
+      "experimental_context": "Sagittal developmental IHC (12w, 19w, adult), transverse human prostate IF with ACPP, and dual IHC in 5ARI-treated BPH cohorts",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-KRT13 antibody and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 5-10, Fig. 2B, Fig. 4D-F, Fig. 5D-F",
+      "source_context": "The transition from urethral identity to prostate identity in human proximal ducts can be similarly highlighted using KRT13 (urethral luminal cells) and ACPP (prostate secretory luminal cells) (Figure 2B)... club and hillock urethral cells were enriched in the urethra and proximal prostate ducts... increase in the number of club and hillock urethral cells in focal areas of atrophy",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 6,
+          "printed_page": 900,
+          "figure_panel": "Fig. 2B, Fig. 5D-F",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Transverse section through a normal human prostate labeled with antibodies to KRT13 (in white, labels hillock urethral cells), KRT5 (in green, labels basal cells) and ACPP (in red, labels prostate secretory luminal cells)",
+          "mapping_basis": "IF and dual IHC across development, normal, and BPH cohorts"
+        }
+      ],
+      "validation_method": "immunofluorescence / immunohistochemistry",
+      "gate_definition": "KRT13+ ACPP-",
+      "notes": "Human hillock urethral cells mark proximal duct transitions and survive androgen-deprivation therapy (5ARI) in BPH",
+      "decision_reason": "High-evidence multimodal in situ validation across developmental and disease cohorts"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M13",
+      "marker": "PSCA",
+      "marker_original": "PSCA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Club and Hillock Urethral Luminal Epithelial Cell",
+      "cell_type_original": "urethral luminal epithelia (human)",
+      "author_cluster_id": "Club / Hillock",
+      "species": "human",
+      "organ_or_tissue": "prostate and BPH glandular nodules",
+      "experimental_context": "Flow cytometry quantification comparing normal young donor prostates (n=6) to simple prostatectomy BPH specimens (n=6)",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "Anti-PSCA flow cytometry antibody",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 9, Fig. 5B",
+      "source_context": "We previously established PSCA as a highly specific cell surface marker capable of capturing a 94% pure population of urethral luminal cells in humans... PSCA+ urethral luminal epithelia are significantly increased in glandular BPH compared with normal donor prostates (Figure 5B)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 10,
+          "printed_page": 904,
+          "figure_panel": "Fig. 5B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Quantification of PSCA+ urethral epithelia from normal prostate and BPH prostates by flow cytometry (n=6 per group). P value was obtained from Student's t test",
+          "mapping_basis": "flow cytometry quantitative cohort comparison"
+        }
+      ],
+      "validation_method": "flow_cytometry",
+      "gate_definition": "CD326+ CD26- PDPN- PSCA+",
+      "notes": "Quantitatively validates expansion of human urethral luminal cells in primary clinical BPH nodules",
+      "decision_reason": "Statistically significant cohort flow cytometry validation"
+    },
+    {
+      "record_id": "DOI_10.1002_pros.24020_M14",
+      "marker": "Calca",
+      "marker_original": "CGRP (Calca)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Neuroendocrine Epithelial Cell",
+      "cell_type_original": "neuroendocrine epithelia",
+      "author_cluster_id": "NE",
+      "species": "mouse",
+      "organ_or_tissue": "urethra and proximal prostate ducts",
+      "experimental_context": "Supervised scRNA-seq expression and in situ immunostaining",
+      "four_layer_category": "L4",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CGRP antibody and scRNA-seq expression",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 4, Fig. S3A-D",
+      "source_context": "neuroendocrine epithelia are an extremely rare cell type that do not cluster independently, but can be identified using known markers such as CGRP and CHGA (Figure S3A,C). We also observed that neuroendocrine cells are enriched within the urethra and proximal prostatic ducts in the mouse and human",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 4,
+          "printed_page": 898,
+          "figure_panel": "Fig. S3A-D",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "neuroendocrine cells are enriched within the urethra and proximal prostatic ducts in the mouse and human (CGRP and CHGA)",
+          "mapping_basis": "supervised scRNA-seq and in situ localization"
+        }
+      ],
+      "validation_method": "immunostaining / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Neuroendocrine epithelial marker, four_layer_category is L4 Neuroendocrine",
+      "decision_reason": "Identified in mouse urethral/proximal duct single cells and localized in situ"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.1002_pros.24020_C01",
+      "marker": "Ly6a",
+      "marker_original": "Sca-1 (Ly6a)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Urethral Luminal Epithelial Cell / Stroma",
+      "cell_type_original": "urethral luminal epithelia and stroma",
+      "author_cluster_id": "Ur Luminal",
+      "species": "mouse",
+      "organ_or_tissue": "urethra and prostate",
+      "experimental_context": "scRNA-seq dotplot and evaluation of marker specificity",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Transcript expression in scRNA-seq and cell surface antibody",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 6-7, Fig. 2C",
+      "source_context": "developed a flow cytometry scheme using Trop2 (TACSTD2) as a cell surface marker, given its selectivity for urethral luminal epithelia over Sca-1 (Ly6a) in the scRNA-seq data from intact mice",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 7,
+          "printed_page": 901,
+          "figure_panel": "Fig. 2C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "selectivity for urethral luminal epithelia over Sca-1 (Ly6a)... Sca-1 is expressed across multiple cell types including stroma",
+          "mapping_basis": "comparative marker evaluation against Trop2"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Classic facultative stem cell marker (CD49fmed Sca-1hi LSCmed), which this paper shows reflects urethral luminal epithelial identity but is less specific than Trop2",
+      "decision_reason": "Critical contextual marker re-evaluating historical stem cell claims"
+    }
+  ],
+  "excluded": [
+    {
+      "record_id": "DOI_10.1002_pros.24020_E01",
+      "marker": "Prom1",
+      "marker_original": "CD133 (Prom1)",
+      "normalization_basis": "MGI approved symbol",
+      "cell_type": "Seminal Vesicle and Ejaculatory Duct Luminal Cell",
+      "cell_type_original": "seminal vesicle and ejaculatory ducts (SV/ED Lum)",
+      "author_cluster_id": "SV/ED Lum",
+      "species": "mouse",
+      "organ_or_tissue": "seminal vesicle and ejaculatory duct",
+      "experimental_context": "scRNA-seq dotplot evaluating putative prostate stem cell markers",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Prom1 transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 6, Fig. 2C",
+      "source_context": "although some proposed progenitor cell markers such as CD133 (Prom1) are enriched in luminal cells of the seminal vesicle and ejaculatory ducts (Figure 2C)",
+      "sources": [
+        {
+          "file": "PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+          "pdf_page": 6,
+          "printed_page": 900,
+          "figure_panel": "Fig. 2C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "proposed progenitor cell markers such as CD133 (Prom1) are enriched in luminal cells of the seminal vesicle and ejaculatory ducts",
+          "mapping_basis": "scRNA-seq evidence refuting prostate progenitor specificity"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "CD133 was historically claimed to be a prostate epithelial stem cell marker; this paper disproves this claim by demonstrating its expression is actually restricted to co-isolated seminal vesicle and ejaculatory duct epithelium",
+      "decision_reason": "明确被单细胞数据排除为前列腺干细胞标记，实为精囊与射精管上皮假阳性来源"
+    }
+  ],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 14,
+    "context_only_count": 1,
+    "excluded_count": 1,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full text PDF (13 pages), Figures 1-5, Table 1, and referenced Supplemental Figures S1-S10.",
+    "missing_materials": "Supplemental Tables S1-S7 standalone files not provided locally.",
+    "potential_leakage_scope": "Individual DEGs in Table S5 and S7 not discussed in main text figures."
+  }
+}

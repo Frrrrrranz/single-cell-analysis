@@ -1,0 +1,203 @@
+{
+  "schema_version": "v3",
+  "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+  "doi": "10.1016/j.cell.2017.09.004",
+  "pmid": "28965763",
+  "title": "Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns",
+  "journal": "Cell",
+  "year": 2017,
+  "species": "human",
+  "organ_or_tissue": "pancreas",
+  "cluster_inventory": [
+    {
+      "cluster_id": "C01",
+      "cluster_name": "β-cells",
+      "cluster_description": "Pancreatic islet beta cells (insulin-producing)",
+      "lineage": "Endocrine",
+      "broad_category": "Islet"
+    },
+    {
+      "cluster_id": "C02",
+      "cluster_name": "α-cells",
+      "cluster_description": "Pancreatic islet alpha cells (glucagon-producing)",
+      "lineage": "Endocrine",
+      "broad_category": "Islet"
+    },
+    {
+      "cluster_id": "C03",
+      "cluster_name": "δ-cells",
+      "cluster_description": "Pancreatic islet delta cells (somatostatin-producing)",
+      "lineage": "Endocrine",
+      "broad_category": "Islet"
+    },
+    {
+      "cluster_id": "C04",
+      "cluster_name": "PP-cells",
+      "cluster_description": "Pancreatic polypeptide producing gamma/PP cells",
+      "lineage": "Endocrine",
+      "broad_category": "Islet"
+    },
+    {
+      "cluster_id": "C05",
+      "cluster_name": "acinar",
+      "cluster_description": "Exocrine pancreatic acinar cells (digestive enzyme producing)",
+      "lineage": "Exocrine",
+      "broad_category": "Exocrine"
+    },
+    {
+      "cluster_id": "C06",
+      "cluster_name": "ductal",
+      "cluster_description": "Exocrine pancreatic ductal epithelial cells",
+      "lineage": "Exocrine",
+      "broad_category": "Exocrine"
+    },
+    {
+      "cluster_id": "C07",
+      "cluster_name": "mesenchymal",
+      "cluster_description": "Pancreatic mesenchymal / stellate stromal cells",
+      "lineage": "Mesenchymal",
+      "broad_category": "Stroma"
+    }
+  ],
+  "formal_markers": [
+    {
+      "marker": "INS",
+      "cell_type": "β-cells",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1A, Figure 1D, Figure 2A, Main Text P3",
+      "marker_direction": "positive",
+      "validation_method": "in situ RNA/protein staining",
+      "confidence": "high",
+      "notes": "Primary canonical marker defining beta cells in tSNE; verified using multiplex in situ RNA and antibody staining"
+    },
+    {
+      "marker": "GCG",
+      "cell_type": "α-cells",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1A, Figure 1D, Figure 2A, Main Text P3",
+      "marker_direction": "positive",
+      "validation_method": "in situ RNA/protein staining",
+      "confidence": "high",
+      "notes": "Primary canonical marker defining alpha cells in tSNE; verified using multiplex in situ RNA and antibody staining"
+    },
+    {
+      "marker": "SST",
+      "cell_type": "δ-cells",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1A, Main Text P3",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Primary canonical marker defining delta cells in tSNE"
+    },
+    {
+      "marker": "PPY",
+      "cell_type": "PP-cells",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1A, Main Text P3",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Primary canonical marker defining PP (pancreatic polypeptide) cells in tSNE"
+    },
+    {
+      "marker": "PRSS1",
+      "cell_type": "acinar",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1A, Main Text P3",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "Primary marker defining exocrine acinar cells in tSNE"
+    },
+    {
+      "marker": "PROM1",
+      "cell_type": "ductal",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1A, STAR Methods P12-13",
+      "marker_direction": "positive",
+      "validation_method": "FACS",
+      "confidence": "high",
+      "notes": "CD133 (PROM1) used as cell-type marker defining ductal cells in tSNE and for flow cytometry enrichment"
+    },
+    {
+      "marker": "EPCAM",
+      "cell_type": "ductal",
+      "evidence_type": "author_declared",
+      "source_location": "STAR Methods P12-13",
+      "marker_direction": "positive",
+      "validation_method": "FACS",
+      "confidence": "high",
+      "notes": "Anti-human EpCAM used in FACS antibody panel for isolating pancreatic epithelial/ductal cells"
+    },
+    {
+      "marker": "THY1",
+      "cell_type": "mesenchymal",
+      "evidence_type": "author_declared",
+      "source_location": "Figure 1A, Main Text P3",
+      "marker_direction": "positive",
+      "validation_method": "none",
+      "confidence": "high",
+      "notes": "CD90 (THY1) defines pancreatic mesenchymal stromal cells in tSNE"
+    }
+  ],
+  "context_candidates": [
+    {
+      "gene": "CDKN2A",
+      "context": "Known marker of organismal aging (p16INK4A); fraction of cells expressing CDKN2A increases significantly with age in human pancreatic cells (Fig 1B, S4C-D)"
+    },
+    {
+      "gene": "NR4A1",
+      "context": "Top stress/transcriptional noise-associated nuclear receptor gene identified by linear rank regression (Fig 2B)"
+    },
+    {
+      "gene": "HSPA1A",
+      "context": "Heat shock 70kDa protein 1A, cellular stress response gene strongly associated with transcriptional noise in aging cells (Fig 2B)"
+    },
+    {
+      "gene": "HSPA1B",
+      "context": "Heat shock 70kDa protein 1B, cellular stress response gene strongly associated with transcriptional noise (Fig 2B)"
+    },
+    {
+      "gene": "HSPB1",
+      "context": "Heat shock 27kDa protein 1, chaperone protein associated with cellular stress and transcriptional noise (Fig 2B)"
+    },
+    {
+      "gene": "FOSB",
+      "context": "AP-1 transcription factor subunit associated with cellular stress response and transcriptional noise (Fig 2B)"
+    },
+    {
+      "gene": "JUND",
+      "context": "AP-1 family transcription factor mediating oxidative stress response, strongly associated with transcriptional noise (Fig 2B)"
+    },
+    {
+      "gene": "CRYBA2",
+      "context": "Crystallin beta A2, associated with age and transcriptional noise in pancreatic endocrine cells (Fig 2B)"
+    },
+    {
+      "gene": "PCSK1N",
+      "context": "Proprotein convertase subtilisin/kexin type 1 inhibitor (proSAAS), associated with endocrine transcriptional regulation (Fig 2B)"
+    },
+    {
+      "gene": "RPL36",
+      "context": "Ribosomal protein L36, associated with high mutational signature S1 burden and protein synthesis pathways (Fig 6B)"
+    },
+    {
+      "gene": "ROMO1",
+      "context": "Reactive oxygen species modulator 1, associated with mutational signature S1 load in endocrine cells (Fig 6B)"
+    },
+    {
+      "gene": "TCEB2",
+      "context": "Transcription elongation factor B polypeptide 2 (Elongin B), correlated with mutational signature S1 load (Fig 6B)"
+    },
+    {
+      "gene": "PON2",
+      "context": "Paraoxonase 2 antioxidant membrane enzyme displaying upregulation with mutational signature S2 load (Page 8)"
+    },
+    {
+      "gene": "EGR1",
+      "context": "Early growth response 1 transcription factor upregulated in correlation with mutational signature S2 load (Page 8)"
+    }
+  ],
+  "unresolved": []
+}

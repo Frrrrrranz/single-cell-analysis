@@ -1,0 +1,441 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s42003-024-07315-x",
+  "doi": "10.1038/s42003-024-07315-x",
+  "pmid": "39627536",
+  "title": "Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac inflammatory responses upon heart injury",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Communications Biology 2024 原文（17页），包含斑马鱼心肌冷冻损伤与小鼠心肌梗死跨物种单细胞转录组（26.7 万细胞）对比及 HCR 原位荧光杂交验证"
+    },
+    {
+      "material_name": "DOI_10.1038_s42003-024-07315-x.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述斑马鱼损伤心肌巨噬细胞亚群 HCR 染色验证（gda, moxd1, havcr1, lcp1）及小鼠组织驻留巨噬细胞 TLF 标志物（Timd4, Lyve1, Folr2）"
+    },
+    {
+      "material_name": "Supplementary Figures 1-7 & Supplementary Data 1-3",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对补充图表与跨物种差异表达基因模块的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Dr_Cardiac_Mph_C4",
+      "cluster_name": "Zebrafish cardiac injury macrophage cluster 4 (gda+)",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (ventricular wound area)",
+      "four_layer_category": "outside",
+      "description": "斑马鱼心脏冷冻损伤伤口区瞬时急剧活化的第 4 群巨噬细胞，特征性高表达鸟嘌呤脱氨酶 gda，经 HCR 原位荧光杂交直接证实"
+    },
+    {
+      "cluster_id": "Cluster_Dr_Cardiac_Mph_C6",
+      "cluster_name": "Zebrafish cardiac injury macrophage cluster 6 (moxd1+)",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (ventricular surface of the wound)",
+      "four_layer_category": "outside",
+      "description": "斑马鱼心脏损伤伤口心室表面浸润的第 6 群巨噬细胞，特异富集表达单加氧酶 moxd1，经 HCR 原位荧光杂交直接证实"
+    },
+    {
+      "cluster_id": "Cluster_Dr_Cardiac_Mph_C346",
+      "cluster_name": "Zebrafish cardiac injury macrophage cluster (havcr1+)",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (boundary zone and ventricular wall)",
+      "four_layer_category": "outside",
+      "description": "斑马鱼心肌损伤边缘区与心室壁巨噬细胞，高表达 havcr1 (Tim-1)，经 HCR 原位荧光杂交证实"
+    },
+    {
+      "cluster_id": "Cluster_Dr_Macrophages_General",
+      "cluster_name": "Zebrafish macrophages (general)",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart and whole kidney marrow",
+      "four_layer_category": "outside",
+      "description": "斑马鱼单核巨噬细胞全群，特征性共表达白细胞骨架蛋白 lcp1 与巨噬细胞特异标记 mpeg1.1"
+    },
+    {
+      "cluster_id": "Cluster_Dr_Epicardial_Fibroblast",
+      "cluster_name": "Zebrafish epicardial cells and fibroblasts",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (epicardium)",
+      "four_layer_category": "outside",
+      "description": "斑马鱼心脏心外膜细胞与心肌成纤维细胞，特征性表达转录因子 tcf21"
+    },
+    {
+      "cluster_id": "Cluster_Mm_Resident_Cardiac_Mph",
+      "cluster_name": "Mouse resident cardiac macrophages (TLF+)",
+      "species": "mouse",
+      "organ_or_tissue": "heart (myocardium)",
+      "four_layer_category": "outside",
+      "description": "小鼠心肌常驻自稳态巨噬细胞，特征性共表达 TLF 三联体标志物 Timd4、Lyve1 与 Folr2"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M01",
+      "marker": "gda",
+      "marker_original": "gda",
+      "normalization_basis": "ZFIN approved gene symbol",
+      "cell_type": "Wound-associated macrophage",
+      "cell_type_original": "mono/Mϕ cluster 4 (wound-infiltrating macrophages)",
+      "author_cluster_id": "Cluster_Dr_Cardiac_Mph_C4",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (ventricular wound area)",
+      "experimental_context": "scRNA-seq (70,783 zebrafish cells) and multiplex HCR in situ hybridization post-cardiac cryoinjury",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Guanine deaminase transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 5-7, Fig. 3h-j",
+      "source_context": "expression of the cluster 4 marker gda... Images of heart cryosection showing HCR staining signals of gda in green and anti-lcp1 in blue; arrowheads indicate representative gda+lcp1+ cells",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 6,
+          "printed_page": 6,
+          "figure_panel": "Fig. 3h-j",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "gda validated as cluster 4 marker by HCR in situ hybridization in gda+lcp1+ wound macrophages",
+          "mapping_basis": "HCR in situ hybridization histological validation"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (HCR) / scRNA-seq",
+      "gate_definition": "gda+ lcp1+",
+      "notes": "Transiently expanded in cardiac wound at 1 dpci and reduces by 7 dpci during regeneration",
+      "decision_reason": "Direct experimental HCR in situ hybridization validated wound macrophage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M02",
+      "marker": "moxd1",
+      "marker_original": "moxd1",
+      "normalization_basis": "ZFIN approved gene symbol",
+      "cell_type": "Wound surface macrophage",
+      "cell_type_original": "mono/Mϕ cluster 6 (ventricular surface wound macrophages)",
+      "author_cluster_id": "Cluster_Dr_Cardiac_Mph_C6",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (ventricular surface of the wound)",
+      "experimental_context": "scRNA-seq and HCR in situ hybridization post-cardiac cryoinjury",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Monooxygenase DBH like 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 5-7, Fig. 3h, k",
+      "source_context": "cluster 6 enriched moxd1 was mostly on the ventricular surface of the wound... arrows indicate representative moxd1+lcp1+ cells",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 6,
+          "printed_page": 6,
+          "figure_panel": "Fig. 3h, k",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "moxd1 validated as cluster 6 marker by HCR in situ hybridization in moxd1+lcp1+ cells",
+          "mapping_basis": "HCR in situ hybridization histological validation"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (HCR) / scRNA-seq",
+      "gate_definition": "moxd1+ lcp1+",
+      "notes": "Specifically localized to the epicardial/ventricular surface of the cryoinjury lesion",
+      "decision_reason": "Direct experimental HCR in situ hybridization validated wound macrophage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M03",
+      "marker": "havcr1",
+      "marker_original": "havcr1",
+      "normalization_basis": "ZFIN approved gene symbol",
+      "cell_type": "Cardiac injury macrophage",
+      "cell_type_original": "mono/Mϕ cluster 3, 4, 6",
+      "author_cluster_id": "Cluster_Dr_Cardiac_Mph_C346",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (boundary zone and ventricular wall)",
+      "experimental_context": "scRNA-seq and HCR in situ hybridization post-cardiac cryoinjury",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Hepatitis A virus cellular receptor 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 5-7, Fig. 3k",
+      "source_context": "cluster 3, 4, and 6 enriched havcr1 was expressed in mono/Mϕ both in the boundary zone and ventricular wall at 1 dpci... representative havcr1+lcp1+ cells",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 6,
+          "printed_page": 6,
+          "figure_panel": "Fig. 3k",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "havcr1 validated by HCR in situ hybridization in havcr1+lcp1+ macrophages",
+          "mapping_basis": "HCR in situ hybridization histological validation"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (HCR) / scRNA-seq",
+      "gate_definition": "havcr1+ lcp1+",
+      "notes": "Cellular receptor Tim-1 marking activated inflammatory macrophages in injured zebrafish heart",
+      "decision_reason": "Direct experimental HCR in situ hybridization validated macrophage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M04",
+      "marker": "lcp1",
+      "marker_original": "lcp1",
+      "normalization_basis": "ZFIN approved gene symbol",
+      "cell_type": "Macrophage / Leukocyte",
+      "cell_type_original": "macrophages / leukocytes",
+      "author_cluster_id": "Cluster_Dr_Macrophages_General",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart and whole kidney marrow",
+      "experimental_context": "Immunofluorescence antibody staining and scRNA-seq in zebrafish heart",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Lymphocyte cytosolic protein 1 (L-plastin) transcript and protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 6, Fig. 3h-k",
+      "source_context": "co-stained with the antibody against the common leukocyte/macrophage marker L-plastin (lymphocyte cytosolic protein 1, lcp1)",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 6,
+          "printed_page": 6,
+          "figure_panel": "Fig. 3h-k",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "antibody against common leukocyte/macrophage marker L-plastin (lcp1)",
+          "mapping_basis": "Immunofluorescence co-staining reference"
+        }
+      ],
+      "validation_method": "immunofluorescence (anti-lcp1) / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Universal lineage antibody marker for zebrafish macrophages in cryosections",
+      "decision_reason": "Direct experimental antibody staining reference marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M05",
+      "marker": "mpeg1.1",
+      "marker_original": "mpeg1.1",
+      "normalization_basis": "ZFIN approved gene symbol",
+      "cell_type": "Macrophage",
+      "cell_type_original": "macrophages",
+      "author_cluster_id": "Cluster_Dr_Macrophages_General",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart and hematopoietic tissue",
+      "experimental_context": "scRNA-seq in zebrafish cardiac and extracardiac tissues",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Macrophage expressed gene 1, tandem duplicate 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 6",
+      "source_context": "enriched for common macrophage markers such as mpeg1.1, cd74a, mhc2a, marco, mfap4",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 6,
+          "printed_page": 6,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "common macrophage markers such as mpeg1.1",
+          "mapping_basis": "Author declared defining marker set"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Canonical zebrafish macrophage-specific gene promoter utilized widely for macrophage tracing",
+      "decision_reason": "Author declared canonical lineage marker for zebrafish macrophages"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M06",
+      "marker": "tcf21",
+      "marker_original": "tcf21",
+      "normalization_basis": "ZFIN approved gene symbol",
+      "cell_type": "Epicardial cell / cardiac fibroblast",
+      "cell_type_original": "epicardial cells and fibroblasts",
+      "author_cluster_id": "Cluster_Dr_Epicardial_Fibroblast",
+      "species": "zebrafish",
+      "organ_or_tissue": "heart (epicardium)",
+      "experimental_context": "scRNA-seq in zebrafish heart",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcription factor 21 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 2",
+      "source_context": "remaining cell types, including epicardial cells and fibroblasts (tcf21+)",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 2,
+          "printed_page": 2,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "epicardial cells and fibroblasts (tcf21+)",
+          "mapping_basis": "Author declared defining marker"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": "tcf21+",
+      "notes": "Basic helix-loop-helix transcription factor defining epicardium and epicardium-derived cardiac fibroblasts",
+      "decision_reason": "Author declared defining marker for epicardial lineage"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M07",
+      "marker": "Timd4",
+      "marker_original": "Timd4",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Resident cardiac macrophage",
+      "cell_type_original": "mono/Mϕ TLF+ resident subclusters",
+      "author_cluster_id": "Cluster_Mm_Resident_Cardiac_Mph",
+      "species": "mouse",
+      "organ_or_tissue": "heart (myocardium)",
+      "experimental_context": "scRNA-seq of 194,315 cells across 5 mouse organs following MI",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "T cell immunoglobulin and mucin domain containing 4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 5, Fig. 2d",
+      "source_context": "Common mono/Mϕ marker genes and MHC-II and TLF (Timd4, Lyve1 and Folr2) genes are indicated.",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 2d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Timd4 specifically marks tissue resident TLF+ cardiac macrophage cluster",
+          "mapping_basis": "Figure dot plot cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Part of the canonical TLF signature marking self-renewing resident cardiac macrophages",
+      "decision_reason": "Direct visual dotplot evidence defining TLF+ resident macrophage subpopulation"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M08",
+      "marker": "Lyve1",
+      "marker_original": "Lyve1",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Resident cardiac macrophage",
+      "cell_type_original": "mono/Mϕ TLF+ resident subclusters",
+      "author_cluster_id": "Cluster_Mm_Resident_Cardiac_Mph",
+      "species": "mouse",
+      "organ_or_tissue": "heart (myocardium)",
+      "experimental_context": "scRNA-seq across mouse organs post-MI",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Lymphatic vessel endothelial hyaluronan receptor 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 5, Fig. 2d",
+      "source_context": "TLF (Timd4, Lyve1 and Folr2) genes are indicated.",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 2d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Lyve1 marks resident TLF+ cardiac macrophages in Fig. 2d",
+          "mapping_basis": "Figure dot plot cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Hyaluronan receptor defining resident perivascular and cardiac interstitial macrophages",
+      "decision_reason": "Direct visual dotplot evidence defining resident macrophages"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M09",
+      "marker": "Folr2",
+      "marker_original": "Folr2",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Resident cardiac macrophage",
+      "cell_type_original": "mono/Mϕ TLF+ resident subclusters",
+      "author_cluster_id": "Cluster_Mm_Resident_Cardiac_Mph",
+      "species": "mouse",
+      "organ_or_tissue": "heart (myocardium)",
+      "experimental_context": "scRNA-seq across mouse organs post-MI",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Folate receptor beta transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 5, Fig. 2d",
+      "source_context": "TLF (Timd4, Lyve1 and Folr2) genes are indicated.",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 2d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Folr2 marks resident TLF+ cardiac macrophages in Fig. 2d",
+          "mapping_basis": "Figure dot plot cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Folate receptor beta component of the tripartite resident cardiac macrophage marker panel",
+      "decision_reason": "Direct visual dotplot evidence defining resident macrophages"
+    },
+    {
+      "record_id": "DOI_10.1038_s42003-024-07315-x_M10",
+      "marker": "Ccr2",
+      "marker_original": "Ccr2",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Infiltrating monocyte / macrophage",
+      "cell_type_original": "mono/Mϕ infiltrating subclusters",
+      "author_cluster_id": "Cluster_Mm_Resident_Cardiac_Mph",
+      "species": "mouse",
+      "organ_or_tissue": "heart and peripheral blood",
+      "experimental_context": "scRNA-seq post-myocardial infarction",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "C-C motif chemokine receptor 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 5, Fig. 2d",
+      "source_context": "Common mono/Mϕ marker genes: Ccr2 distinguishes circulating/infiltrating monocytes from resident TLF+ cells",
+      "sources": [
+        {
+          "file": "PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardi.pdf",
+          "pdf_page": 5,
+          "printed_page": 5,
+          "figure_panel": "Fig. 2d",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Ccr2 displayed marking recruited inflammatory monocyte/macrophage clusters",
+          "mapping_basis": "Figure dot plot cluster annotation"
+        }
+      ],
+      "validation_method": "scRNA-seq dotplot expression",
+      "gate_definition": null,
+      "notes": "Chemokine receptor marking monocyte recruitment into infarcted myocardium",
+      "decision_reason": "Direct visual dotplot evidence defining recruited monocytic populations"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Communications Biology article (17 pages including main text Figures 1-6, HCR imaging panels, and Methods).",
+    "missing_materials": "External Supplementary Data 1-3 (full cross-species ortholog mapping matrices) not locally provided.",
+    "potential_leakage_scope": "Cross-species orthology mapping scores and SingleR automated correlation matrices."
+  }
+}

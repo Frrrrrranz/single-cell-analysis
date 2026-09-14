@@ -1,0 +1,433 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41588-022-01243-4",
+  "doi": "10.1038/s41588-022-01243-4",
+  "pmid": "36543915",
+  "title": "A spatially resolved atlas of the human lung characterizes a gland-associated immune niche",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Genetics 全文（12页），包含主要图表 Figures 1-5、详细图注与 Methods 实验说明"
+    },
+    {
+      "material_name": "DOI_10.1038_s41588-022-01243-4.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述人肺呼吸道黏膜下腺体单细胞与空间转录组、GAIN 腺体免疫微环境及 smFISH 验证"
+    },
+    {
+      "material_name": "Extended Data Figures 1-10 & Supplementary Tables 1-15",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Extended Data Figures 1-10 和补充表格的引用说明已审阅，外部独立大文件表格未在本地提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_SMG_Serous_Cells",
+      "cluster_name": "Submucosal gland serous cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "four_layer_category": "outside",
+      "description": "支气管黏膜下腺体浆液腺泡细胞，特征性表达乳过氧化物酶 LPO、富含脯氨酸蛋白 PRR4 与趋化因子 CCL28"
+    },
+    {
+      "cluster_id": "Cluster_SMG_Mucous_Cells",
+      "cluster_name": "Submucosal gland mucous cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "four_layer_category": "outside",
+      "description": "支气管黏膜下腺体黏液腺泡细胞，特征性分泌大量胶状粘蛋白 MUC5B"
+    },
+    {
+      "cluster_id": "Cluster_SMG_Duct_Cells",
+      "cluster_name": "Submucosal gland duct cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "four_layer_category": "outside",
+      "description": "连接腺泡与气道腔的腺体导管上皮细胞，特异性高表达 ALDH1A3、RARRES1 与 MIA"
+    },
+    {
+      "cluster_id": "Cluster_SMG_Myoepithelial_Cells",
+      "cluster_name": "Submucosal gland myoepithelial cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "four_layer_category": "outside",
+      "description": "包绕腺体腺泡与导管的收缩性肌上皮细胞，兼具基底上皮 (TP63, KRT14) 与平滑肌 (ACTA2) 特征"
+    },
+    {
+      "cluster_id": "Cluster_Gland_Associated_IgA_Plasma",
+      "cluster_name": "Gland-associated IgA plasma cells",
+      "species": "human",
+      "organ_or_tissue": "lung (gland-associated immune niche)",
+      "four_layer_category": "outside",
+      "description": "定位于黏膜下腺体周围免疫微环境 (GAIN) 的 IgA 浆细胞，特异性高表达趋化因子受体 CCR10 与免疫球蛋白 IGHA1"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M01",
+      "marker": "LPO",
+      "marker_original": "LPO",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Serous Cell",
+      "cell_type_original": "SMG serous cells",
+      "author_cluster_id": "Cluster_SMG_Serous_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "snRNA-seq, Visium spatial transcriptomics, and smFISH in human bronchus",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Lactoperoxidase transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 68-71, Fig. 4, Extended Data Fig. 7",
+      "source_context": "smFISH staining for mucous (MUC5B), serous (LPO) and duct (MIA/ALDH1A3) cell markers in human bronchi sections",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 5,
+          "printed_page": 70,
+          "figure_panel": "Fig. 4b, d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "LPO verified by smFISH as hallmark defining marker of SMG serous acinar cells",
+          "mapping_basis": "smFISH histological verification and snRNA-seq"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (smFISH) / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Lactoperoxidase, antimicrobial enzyme uniquely localized to serous demilunes and acini in submucosal glands",
+      "decision_reason": "Histologically validated spatial hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M02",
+      "marker": "CCL28",
+      "marker_original": "CCL28",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Serous Cell",
+      "cell_type_original": "SMG serous cells",
+      "author_cluster_id": "Cluster_SMG_Serous_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "snRNA-seq and CellChat cell-cell signaling modeling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "C-C motif chemokine ligand 28 transcript and secreted chemokine",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Abstract, Main Text pp. 71-73, Fig. 5a-d",
+      "source_context": "promote longevity and antibody secretion locally through expression of CCL28... known to recruit IgA plasma cells through CCR10",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 6,
+          "printed_page": 71,
+          "figure_panel": "Fig. 5a-d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CCL28 expression concentrated in SMG serous epithelium orchestrating the gland-associated immune niche",
+          "mapping_basis": "Author declared niche-organizing cytokine marker"
+        }
+      ],
+      "validation_method": "snRNA-seq / smFISH / immunohistochemistry",
+      "gate_definition": null,
+      "notes": "Mucosal chemokine driving homing of CCR10+ IgA-secreting plasma cells to the gland niche",
+      "decision_reason": "Author declared defining niche chemokine marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M03",
+      "marker": "PRR4",
+      "marker_original": "PRR4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Serous Cell",
+      "cell_type_original": "serous glands",
+      "author_cluster_id": "Cluster_SMG_Serous_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "Immunostaining and snRNA-seq cluster annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Proline rich 4 protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 71, Fig. 5b",
+      "source_context": "PRR4 staining with HLA-DR+ regions corresponding with non-mucous areas of glands",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 6,
+          "printed_page": 71,
+          "figure_panel": "Fig. 5b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "PRR4 selectively identifies serous gland acini distinct from mucous tubules",
+          "mapping_basis": "Tissue staining and transcriptomic marker"
+        }
+      ],
+      "validation_method": "immunohistochemistry / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Proline-rich protein 4 characteristic of glandular serous secretion",
+      "decision_reason": "Histological marker of serous acini"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M04",
+      "marker": "MUC5B",
+      "marker_original": "MUC5B",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Mucous Cell",
+      "cell_type_original": "SMG mucous cells",
+      "author_cluster_id": "Cluster_SMG_Mucous_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "smFISH on human bronchial sections",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Mucin 5B, oligomeric mucus/gel-forming transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 69-70, Fig. 4b, d",
+      "source_context": "smFISH staining of mucous (MUC5B), serous (LPO) and duct cells in human bronchus",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 5,
+          "printed_page": 70,
+          "figure_panel": "Fig. 4b, d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "MUC5B selectively labels mucous tubules of human airway submucosal glands",
+          "mapping_basis": "smFISH validation of mucous identity"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (smFISH)",
+      "gate_definition": null,
+      "notes": "Major airway gel-forming mucin specifically produced by submucosal gland mucous cells",
+      "decision_reason": "Canonical mucous lineage defining marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M05",
+      "marker": "ALDH1A3",
+      "marker_original": "ALDH1A3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Duct Cell",
+      "cell_type_original": "SMG duct cells",
+      "author_cluster_id": "Cluster_SMG_Duct_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "snRNA-seq and smFISH co-staining",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Aldehyde dehydrogenase 1 family member A3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 69-70, Fig. 4b",
+      "source_context": "smFISH staining of mucous (MUC5B), serous (LPO) and duct (ALDH1A3/RARRES1) cells in human bronchus",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 5,
+          "printed_page": 70,
+          "figure_panel": "Fig. 4b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ALDH1A3 specifically identifies glandular ductal epithelium connecting acini to the airway lumen",
+          "mapping_basis": "smFISH duct marker validation"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (smFISH) / snRNA-seq",
+      "gate_definition": null,
+      "notes": "Aldehyde dehydrogenase family member defining submucosal gland collecting ducts",
+      "decision_reason": "Validated ductal epithelial marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M06",
+      "marker": "RARRES1",
+      "marker_original": "RARRES1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Duct Cell",
+      "cell_type_original": "SMG duct cells",
+      "author_cluster_id": "Cluster_SMG_Duct_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "smFISH staining in human bronchus",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Retinoic acid receptor responder 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 69-70, Fig. 4b",
+      "source_context": "smFISH staining of mucous (MUC5B), serous (LPO) and duct (ALDH1A3/RARRES1) cells",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 5,
+          "printed_page": 70,
+          "figure_panel": "Fig. 4b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "RARRES1 co-defines SMG ductal cells in human airways",
+          "mapping_basis": "smFISH validation"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (smFISH)",
+      "gate_definition": null,
+      "notes": "Retinoid acid responder protein marking gland ducts",
+      "decision_reason": "Co-defining ductal marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M07",
+      "marker": "MIA",
+      "marker_original": "MIA",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Duct Cell",
+      "cell_type_original": "duct (MIA) cells",
+      "author_cluster_id": "Cluster_SMG_Duct_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "smFISH in bronchial sections",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Melanoma inhibitory activity transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 70, Fig. 4d",
+      "source_context": "smFISH staining for mucous (MUC5B), serous (LPO) and duct (MIA) cell markers in human bronchi sections",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 5,
+          "printed_page": 70,
+          "figure_panel": "Fig. 4d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "MIA selectively identifies submucosal duct structures in human bronchi",
+          "mapping_basis": "smFISH visualization"
+        }
+      ],
+      "validation_method": "in_situ_hybridization (smFISH)",
+      "gate_definition": null,
+      "notes": "Secreted cartilage/duct associated protein enriched in gland duct lining",
+      "decision_reason": "Direct histological marker for gland ducts"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M08",
+      "marker": "ACTA2",
+      "marker_original": "ACTA2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Myoepithelial Cell",
+      "cell_type_original": "myoepithelial cells",
+      "author_cluster_id": "Cluster_SMG_Myoepithelial_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "snRNA-seq epithelial annotation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Actin alpha 2, smooth muscle transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 69, Extended Data Fig. 7",
+      "source_context": "myoepithelial cells in snRNA-seq, expressing basal epithelium (TP63 and KRT14) and muscle (ACTA2, MYH11)",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 4,
+          "printed_page": 69,
+          "figure_panel": "Extended Data Fig. 7",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ACTA2 distinguishes myoepithelial cells from regular basal airway progenitors",
+          "mapping_basis": "snRNA-seq contractile profile"
+        }
+      ],
+      "validation_method": "snRNA-seq",
+      "gate_definition": null,
+      "notes": "Alpha smooth muscle actin providing contractile function to expel glandular secretions",
+      "decision_reason": "Author declared dual lineage contractile marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M09",
+      "marker": "CCR10",
+      "marker_original": "CCR10",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Gland-Associated IgA Plasma Cell",
+      "cell_type_original": "IgA plasma cells",
+      "author_cluster_id": "Cluster_Gland_Associated_IgA_Plasma",
+      "species": "human",
+      "organ_or_tissue": "lung (gland-associated immune niche)",
+      "experimental_context": "Visium spatial transcriptomics and CellChat interactome analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "C-C motif chemokine receptor 10 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 71-73, Fig. 5a-d",
+      "source_context": "CCL28, known to recruit IgA plasma cells through CCR10 (Fig. 5a?d)",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 6,
+          "printed_page": 71,
+          "figure_panel": "Fig. 5a-d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CCR10 expression marks mucosal IgA plasma cells selectively homing to airway glands",
+          "mapping_basis": "Spatial receptor-ligand pairing"
+        }
+      ],
+      "validation_method": "snRNA-seq / spatial transcriptomics",
+      "gate_definition": null,
+      "notes": "Chemokine receptor responding to glandular CCL28 to establish the gland-associated immune niche",
+      "decision_reason": "Defining receptor marker of gland-resident IgA plasma cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41588-022-01243-4_M10",
+      "marker": "PIGR",
+      "marker_original": "PIGR",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "SMG Serous Cell",
+      "cell_type_original": "SMG epithelial cells",
+      "author_cluster_id": "Cluster_SMG_Serous_Cells",
+      "species": "human",
+      "organ_or_tissue": "lung (airway submucosal glands)",
+      "experimental_context": "snRNA-seq and immunohistochemistry",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Polymeric immunoglobulin receptor transcript and transporter protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 71-73, Fig. 5a, h",
+      "source_context": "Expression of PIGR, which transcytoses polymeric Ig across the surface epithelium, was high across the GAIN",
+      "sources": [
+        {
+          "file": "PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+          "pdf_page": 6,
+          "printed_page": 71,
+          "figure_panel": "Fig. 5a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "PIGR mediates transcytosis of dimeric IgA produced by adjacent plasma cells across glandular epithelium",
+          "mapping_basis": "Functional transporter expression in gland niche"
+        }
+      ],
+      "validation_method": "snRNA-seq / immunohistochemistry",
+      "gate_definition": null,
+      "notes": "Polymeric immunoglobulin receptor responsible for mucosal secretory IgA transport",
+      "decision_reason": "Core functional transporter marker of mucosal gland epithelium"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Genetics article (12 pages including main text Figures 1-5, Methods, and accompanying legends).",
+    "missing_materials": "External Supplementary Tables 1-15 (large cell2location NMF weight factor matrices) not locally provided.",
+    "potential_leakage_scope": "Ligand-receptor communication interactome (APRIL, TNFSF13, IL-6) and cell2location spatial deconvolution factor loadings."
+  }
+}

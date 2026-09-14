@@ -1,0 +1,144 @@
+{
+  "validation_status": "passed_with_documented_round1_exceptions",
+  "authority": "Luna验证; Astra最终裁决",
+  "model_configuration": {
+    "model_name": "GPT-5.6 Luna",
+    "reasoning_effort": "max",
+    "role": "independent_round2_screening",
+    "authority": "recommendation_only",
+    "decision_label": "Luna建议"
+  },
+  "file_integrity": {
+    "official_hashes_unchanged_from_expected": true,
+    "official_workbooks_written": false,
+    "staged_workbook_generated": false
+  },
+  "unit_coverage": {
+    "round1_units": 490,
+    "round2_units": 490,
+    "unique_screening_unit_ids": 490,
+    "one_to_one": true,
+    "round1_review_id_coverage": {
+      "round1_ids": 490,
+      "round2_ids": 490,
+      "missing_in_round2": [],
+      "unexpected_in_round2": []
+    }
+  },
+  "stable_id_validation": {
+    "baseline_ids_in_current_official_table": 473,
+    "baseline_ids_missing": [],
+    "duplicate_current_marker_ids": 0
+  },
+  "evidence_validation": {
+    "referenced_evidence_ids": [
+      "EVID_01",
+      "EVID_02",
+      "EVID_03",
+      "EVID_04",
+      "EVID_05",
+      "EVID_06",
+      "EVID_07",
+      "EVID_08",
+      "EVID_09",
+      "EVID_10",
+      "EVID_11",
+      "EVID_12",
+      "EVID_13",
+      "EVID_14"
+    ],
+    "path_exists_by_id": {
+      "EVID_01": true,
+      "EVID_02": true,
+      "EVID_03": true,
+      "EVID_04": true,
+      "EVID_05": true,
+      "EVID_06": true,
+      "EVID_07": true,
+      "EVID_08": true,
+      "EVID_09": true,
+      "EVID_10": true,
+      "EVID_11": true,
+      "EVID_12": true,
+      "EVID_13": true,
+      "EVID_14": true
+    },
+    "all_referenced_paths_exist": true,
+    "per_record_mapping_present": true
+  },
+  "semantic_action_consistency": {
+    "include_no_change_or_reviewable": 474,
+    "candidate_exclude_is_held": true,
+    "unresolved_is_held": true,
+    "all_changes_marked_luna": true
+  },
+  "counts": {
+    "executed": 490,
+    "evidence_supported": 479,
+    "relationship_unresolved": 11,
+    "blocked": 0,
+    "luna_include": 474,
+    "luna_context_only": 1,
+    "luna_exclude_candidate": 4,
+    "luna_unresolved": 11,
+    "suggested_non_no_change": 35
+  },
+  "quantity_reconciliation": {
+    "round1_total": 490,
+    "round2_total": 490,
+    "proposed_change_count": 20,
+    "round1_rejected_or_no_change_proposal_count": 91,
+    "not_additive_historical_sets": true
+  },
+  "remaining_risks": [
+    "Some Batch-01 rows share a paper-level evidence ID while source locators span other pages; Luna preserved this as a delivery exception and anchored each row to its own source locator.",
+    "Batch-02 image evidence was mostly caption/text evidence; no unseen plot detail is claimed.",
+    "No staged workbook was generated, so workbook-level post-edit invariants are not applicable."
+  ],
+  "unresolved_items": [
+    {
+      "stable_id": "REV_ELIFE_02_CALCA",
+      "paper_id": "DOI_10.7554_elife.62522"
+    },
+    {
+      "stable_id": "REV_ELIFE_03_CHGA",
+      "paper_id": "DOI_10.7554_elife.62522"
+    },
+    {
+      "stable_id": "REV_IPAIN_03_Calca",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8"
+    },
+    {
+      "stable_id": "REV_IPAIN_04_Mrgprd",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8"
+    },
+    {
+      "stable_id": "REV_IPAIN_05_Piezo2",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8"
+    },
+    {
+      "stable_id": "REV_IPAIN_06_Fabp7",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8"
+    },
+    {
+      "stable_id": "REV_BLADDER_01_NRXN1",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628"
+    },
+    {
+      "stable_id": "REV_KIDNEY_01_SLC12A1",
+      "paper_id": "DOI_10.1126_science.aat5031"
+    },
+    {
+      "stable_id": "REV_KIDNEY_02_AQP2",
+      "paper_id": "DOI_10.1126_science.aat5031"
+    },
+    {
+      "stable_id": "REV_KIDNEY_03_SLC12A3",
+      "paper_id": "DOI_10.1126_science.aat5031"
+    },
+    {
+      "stable_id": "REV_KIDNEY_04_NPHS2",
+      "paper_id": "DOI_10.1126_science.aat5031"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s42255-023-00876-x",
+  "doi": "10.1038/s42255-023-00876-x",
+  "pmid": "37697055",
+  "title": "Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature Metabolism 2023 原文（23页含 Extended Data），包含小鼠胰岛图谱 MIA（超 30 万细胞，涵盖健康衰老及 T1D/T2D 糖尿病模型）及 IHC 验证"
+    },
+    {
+      "material_name": "DOI_10.1038_s42255-023-00876-x.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述内分泌细胞类型权威 Marker 清单（β: Ins1, Ins2; α: Gcg, Ttr; δ: Sst, Rbp4; γ: Ppy; ε: Ghrl; Schwann: Plp1, Sox10）"
+    },
+    {
+      "material_name": "Supplementary Information & Supplementary Tables 1-10",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对 Supplementary Tables 1-10（样本信息与胰岛细胞亚群 Marker 列表）的引用说明已审阅"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Beta_Cells",
+      "cluster_name": "Pancreatic beta cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreatic islets of Langerhans",
+      "four_layer_category": "L4",
+      "description": "胰岛核心胰岛素分泌内分泌细胞，特征性特异表达胰岛素转录本 Ins1 与 Ins2"
+    },
+    {
+      "cluster_id": "Cluster_Alpha_Cells",
+      "cluster_name": "Pancreatic alpha cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreatic islets of Langerhans",
+      "four_layer_category": "L4",
+      "description": "胰岛胰高血糖素分泌内分泌细胞，特异表达胰高血糖素前体 Gcg 与甲状腺素运载蛋白 Ttr（经 IHC 验证）"
+    },
+    {
+      "cluster_id": "Cluster_Delta_Cells",
+      "cluster_name": "Pancreatic delta cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreatic islets of Langerhans",
+      "four_layer_category": "L4",
+      "description": "胰岛生长抑素分泌内分泌细胞，特征性共表达生长抑素 Sst 与视黄醇结合蛋白 Rbp4（经 IHC 验证）"
+    },
+    {
+      "cluster_id": "Cluster_Gamma_PP_Cells",
+      "cluster_name": "Pancreatic gamma / PP cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreatic islets of Langerhans",
+      "four_layer_category": "L4",
+      "description": "胰岛多肽分泌内分泌细胞，特征性特异分泌胰多肽 Ppy"
+    },
+    {
+      "cluster_id": "Cluster_Epsilon_Cells",
+      "cluster_name": "Pancreatic epsilon cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreatic islets of Langerhans",
+      "four_layer_category": "L4",
+      "description": "胰岛胃饥饿素分泌内分泌细胞，特征性特异分泌胃饥饿素 Ghrl"
+    },
+    {
+      "cluster_id": "Cluster_Islet_Schwann_Cells",
+      "cluster_name": "Islet Schwann cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreatic islets (peri-insular nerves)",
+      "four_layer_category": "L2",
+      "description": "胰岛伴行自主神经末梢支持胶质细胞，特征性表达神经嵴施万细胞经典转录因子 Sox10 与髓鞘脂蛋白 Plp1"
+    },
+    {
+      "cluster_id": "Cluster_Acinar_Cells",
+      "cluster_name": "Pancreatic acinar cells",
+      "species": "mouse",
+      "organ_or_tissue": "exocrine pancreas",
+      "four_layer_category": "outside",
+      "description": "胰腺外分泌腺泡细胞，特征性表达消化酶羧肽酶 A1 (Cpa1)"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M01",
+      "marker": "Ins1",
+      "marker_original": "Ins1",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic beta cell",
+      "cell_type_original": "beta cells (β)",
+      "author_cluster_id": "Cluster_Beta_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq cross-condition mouse islet atlas (>300,000 cells across 56 samples)",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Insulin I transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630, Preprocessing of datasets for atlas building",
+      "source_context": "The marker list is acinar: Cpa1, Prss2; α: Gcg; β: Ins1, Ins2; δ: Sst; ductal: Krt19, Muc1, Sox9",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "β: Ins1, Ins2 defining pancreatic beta cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq consensus cluster gating",
+      "gate_definition": "Ins1+",
+      "notes": "Rodent-specific non-allelic insulin 1 gene driving glucose homeostasis",
+      "decision_reason": "High-confidence L4 endocrine hormone hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M02",
+      "marker": "Ins2",
+      "marker_original": "Ins2",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic beta cell",
+      "cell_type_original": "beta cells (β)",
+      "author_cluster_id": "Cluster_Beta_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq mouse islet atlas integration",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Insulin II transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630",
+      "source_context": "The marker list is: β: Ins1, Ins2",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "β: Ins1, Ins2 defining pancreatic beta cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq consensus cluster gating",
+      "gate_definition": "Ins2+",
+      "notes": "Conserved mammalian ancestral insulin 2 gene",
+      "decision_reason": "High-confidence L4 endocrine hormone hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M03",
+      "marker": "Gcg",
+      "marker_original": "Gcg",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic alpha cell",
+      "cell_type_original": "alpha cells (α)",
+      "author_cluster_id": "Cluster_Alpha_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq mouse islet atlas",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Glucagon transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630",
+      "source_context": "The marker list is: α: Gcg",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "α: Gcg defining pancreatic alpha cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq consensus cluster gating",
+      "gate_definition": "Gcg+",
+      "notes": "Canonical counter-regulatory hormone mobilizing hepatic glycogen stores",
+      "decision_reason": "High-confidence L4 endocrine hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M04",
+      "marker": "Ttr",
+      "marker_original": "Ttr",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic alpha cell",
+      "cell_type_original": "alpha cells (α)",
+      "author_cluster_id": "Cluster_Alpha_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq and immunohistochemistry in mouse islets",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Transthyretin transcript and protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1617, Extended Data Fig. 3c",
+      "source_context": "Ttr, Gcg, Irx2 and Slc7a2 for α-cells... We analyzed the protein expression of two transcriptome-based markers (Ttr in α-cells and Rbp4 in δ-cells) with immunohistochemistry in mouse islets (Extended Data Fig. 3c)",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 3,
+          "printed_page": 1617,
+          "figure_panel": "Extended Data Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Ttr protein validated by immunohistochemistry in mouse islet alpha cells",
+          "mapping_basis": "Histological immunohistochemistry validation"
+        }
+      ],
+      "validation_method": "immunohistochemistry (IHC) / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Novel transcriptome-derived alpha cell marker verified at protein level by histology",
+      "decision_reason": "Direct experimental IHC protein and single-cell validated L4 endocrine marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M05",
+      "marker": "Sst",
+      "marker_original": "Sst",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic delta cell",
+      "cell_type_original": "delta cells (δ)",
+      "author_cluster_id": "Cluster_Delta_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq mouse islet atlas",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Somatostatin transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630",
+      "source_context": "The marker list is: δ: Sst",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "δ: Sst defining pancreatic delta cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq consensus cluster gating",
+      "gate_definition": "Sst+",
+      "notes": "Inhibitory paracrine hormone peptide suppressing both insulin and glucagon secretion",
+      "decision_reason": "High-confidence L4 endocrine hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M06",
+      "marker": "Rbp4",
+      "marker_original": "Rbp4",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic delta cell",
+      "cell_type_original": "delta cells (δ)",
+      "author_cluster_id": "Cluster_Delta_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq and immunohistochemistry in mouse islets",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Retinol binding protein 4 transcript and protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 1617, Extended Data Fig. 3c",
+      "source_context": "Sst and Rbp4 for δ-cells... We analyzed the protein expression of two transcriptome-based markers (Ttr in α-cells and Rbp4 in δ-cells) with immunohistochemistry in mouse islets",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 3,
+          "printed_page": 1617,
+          "figure_panel": "Extended Data Fig. 3c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Rbp4 protein validated by immunohistochemistry in mouse islet delta cells",
+          "mapping_basis": "Histological immunohistochemistry validation"
+        }
+      ],
+      "validation_method": "immunohistochemistry (IHC) / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Novel transcriptome-derived delta cell marker verified at protein level by histology",
+      "decision_reason": "Direct experimental IHC protein and single-cell validated L4 endocrine marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M07",
+      "marker": "Ppy",
+      "marker_original": "Ppy",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic gamma cell",
+      "cell_type_original": "gamma cells / PP cells (γ)",
+      "author_cluster_id": "Cluster_Gamma_PP_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq mouse islet atlas",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Pancreatic polypeptide transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630",
+      "source_context": "The marker list is: γ: Ppy",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "γ: Ppy defining pancreatic polypeptide gamma cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq consensus cluster gating",
+      "gate_definition": "Ppy+",
+      "notes": "Pancreatic polypeptide regulating exocrine and gastrointestinal secretion",
+      "decision_reason": "High-confidence L4 endocrine hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M08",
+      "marker": "Ghrl",
+      "marker_original": "Ghrl",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Pancreatic epsilon cell",
+      "cell_type_original": "epsilon cells (ε)",
+      "author_cluster_id": "Cluster_Epsilon_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (islets of Langerhans)",
+      "experimental_context": "scRNA-seq mouse islet atlas",
+      "four_layer_category": "L4",
+      "measurement_type": "RNA",
+      "entity_detail": "Ghrelin and obestatin prepropeptide transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630",
+      "source_context": "The marker list is: ε: Ghrl",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ε: Ghrl defining pancreatic epsilon cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq consensus cluster gating",
+      "gate_definition": "Ghrl+",
+      "notes": "Orexigenic hormone producing rare endocrine islet subset",
+      "decision_reason": "High-confidence L4 endocrine hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M09",
+      "marker": "Sox10",
+      "marker_original": "Sox10",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Schwann cell",
+      "cell_type_original": "Schwann cells",
+      "author_cluster_id": "Cluster_Islet_Schwann_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (peri-insular innervation)",
+      "experimental_context": "scRNA-seq mouse islet atlas",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "SRY-box transcription factor 10 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630",
+      "source_context": "The marker list is: Schwann: Cryab, Plp1, Sox10",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Schwann: Cryab, Plp1, Sox10 defining islet-associated Schwann cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Core neural crest transcription factor maintaining Schwann cell peripheral glial identity",
+      "decision_reason": "High-confidence L2 peripheral glial cell marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s42255-023-00876-x_M10",
+      "marker": "Plp1",
+      "marker_original": "Plp1",
+      "normalization_basis": "MGI approved gene symbol",
+      "cell_type": "Schwann cell",
+      "cell_type_original": "Schwann cells",
+      "author_cluster_id": "Cluster_Islet_Schwann_Cells",
+      "species": "mouse",
+      "organ_or_tissue": "pancreas (peri-insular innervation)",
+      "experimental_context": "scRNA-seq mouse islet atlas",
+      "four_layer_category": "L2",
+      "measurement_type": "RNA",
+      "entity_detail": "Proteolipid protein (myelin) 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 1630",
+      "source_context": "The marker list is: Schwann: Cryab, Plp1, Sox10",
+      "sources": [
+        {
+          "file": "PMID_37697055_Delineating mouse beta-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+          "pdf_page": 16,
+          "printed_page": 1630,
+          "figure_panel": null,
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Schwann: Cryab, Plp1, Sox10 defining islet-associated Schwann cells",
+          "mapping_basis": "Atlas consensus cell type marker list"
+        }
+      ],
+      "validation_method": "scRNA-seq cluster annotation",
+      "gate_definition": null,
+      "notes": "Classic myelin/glial proteolipid protein marking peripheral Schwann cells surrounding pancreatic islets",
+      "decision_reason": "High-confidence L2 peripheral glial cell marker"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 10,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full Nature Metabolism article (23 pages including main text Figures 1-7, Extended Data Figures 1-10, Table 1, and Methods).",
+    "missing_materials": "External Supplementary Tables 1-10 (full cross-condition gene modules) not locally provided.",
+    "potential_leakage_scope": "scvi-tools joint latent space coordinates and gene program NMF weights."
+  }
+}

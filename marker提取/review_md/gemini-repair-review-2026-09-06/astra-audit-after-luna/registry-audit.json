@@ -1,0 +1,53 @@
+{
+  "category_counts": {
+    "luna_context_crosschecked": 1018,
+    "historical_evidence_reused_with_limit": 1008,
+    "old_round2": 473
+  },
+  "context_crosschecked": {
+    "total": 1018,
+    "quote_matches_reported_lines": 96,
+    "quote_matches_anywhere": 337
+  },
+  "historical_objects_exact_copy": {
+    "received_crosswalk": true,
+    "mapping_differences": true,
+    "audit_records": true,
+    "previous_unresolved": true
+  },
+  "historical_category_counts": {
+    "formal_markers": 1015,
+    "context_only": 28,
+    "excluded": 121,
+    "unresolved": 12
+  },
+  "historical_mapping_counts": {
+    "baseline_backfill": 743,
+    "same_relation_match": 381,
+    "independent_new_candidate": 52
+  },
+  "historical_reference_counts": {
+    "excluded": {
+      "total": 121,
+      "has_current_reference": 0
+    },
+    "context_only": {
+      "total": 28,
+      "has_current_reference": 0
+    },
+    "unresolved": {
+      "total": 12,
+      "has_current_reference": 0
+    },
+    "formal_markers": {
+      "total": 1015,
+      "has_current_reference": 999
+    }
+  },
+  "broken_change_decision_ids": [
+    "DEC-M02590-v1",
+    "DEC-M02592-v1",
+    "DEC-M02591-v1"
+  ],
+  "samples": 78
+}

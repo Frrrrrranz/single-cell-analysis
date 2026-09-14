@@ -1,0 +1,634 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+  "doi": "10.1016/j.stem.2022.11.013",
+  "pmid": "36493780",
+  "title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and neonatal respiratory disease",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Cell Stem Cell 刊出全文（pp. 20-37），包含主要图表 Figures 1-7、STAR Methods 与详细图注"
+    },
+    {
+      "material_name": "DOI_10.1016_j.stem.2022.11.013.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，涵盖芽尖祖细胞分选、类器官分化模型、NOTUM+肌成纤维细胞互作等直接论证"
+    },
+    {
+      "material_name": "Supplementary Figures S1-S7 & Supplementary Tables S1-S4",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "文章中引用的补图补表图注已审阅，外部大文件表格本地未独立提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "cluster_name": "Distal bud tip progenitor cells (Early/mid tip)",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal bud tip)",
+      "four_layer_category": "outside",
+      "description": "人类早期/分支期胚胎肺芽尖多能祖细胞，特异性表达 SOX9、SOX2 及转录因子 ETV5"
+    },
+    {
+      "cluster_id": "Cluster_Late_Tip_Alveolar_Committed",
+      "cluster_name": "Late-stage alveolar-committed tip cells (LinPOS / CD44+CD36+)",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal tip)",
+      "four_layer_category": "outside",
+      "description": "15 pcw 起获得肺泡发育能力的晚期芽尖细胞，共表达 CD44 与 CD36，并启动表达 AT2 相关标志物"
+    },
+    {
+      "cluster_id": "Cluster_Airway_Stalk",
+      "cluster_name": "Tip-adjacent stalk / Airway stalk cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (stalk region)",
+      "four_layer_category": "outside",
+      "description": "芽尖相邻近端茎部上皮，低表达 SOX9，富集 PDPN 与气道基底祖细胞标志 TP63"
+    },
+    {
+      "cluster_id": "Cluster_AT2_Cells",
+      "cluster_name": "Alveolar type 2 (AT2) cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "four_layer_category": "outside",
+      "description": "II型肺泡上皮细胞，高表达表面活性物质蛋白 SFTPC、溶酶体相关膜蛋白 LAMP3 与磷酸盐转运蛋白 SLC34A2"
+    },
+    {
+      "cluster_id": "Cluster_AT1_Cells",
+      "cluster_name": "Alveolar type 1 (AT1) cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "four_layer_category": "outside",
+      "description": "I型肺泡上皮细胞，高表达晚期糖基化终末产物受体 AGER (RAGE)、同源框蛋白 HOPX 与膜蛋白 PDPN"
+    },
+    {
+      "cluster_id": "Cluster_Bipotent_Progenitor",
+      "cluster_name": "Bipotent alveolar progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "four_layer_category": "outside",
+      "description": "肺泡分化过程中的双能瞬时中间祖细胞，特征性共表达 SFTPC 与 HOPX"
+    },
+    {
+      "cluster_id": "Cluster_NOTUM_Myofibroblasts",
+      "cluster_name": "NOTUM+ myofibroblasts",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (mesenchyme)",
+      "four_layer_category": "outside",
+      "description": "间质肌成纤维细胞亚群，特异性高表达并分泌 Wnt 拮抗蛋白 NOTUM，介导肺泡细胞命运的空间微环境模式形成"
+    },
+    {
+      "cluster_id": "Cluster_PNEC_Lineage",
+      "cluster_name": "Pulmonary neuroendocrine precursors (NE)",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "four_layer_category": "L4",
+      "description": "类器官定向分化中检出的微量肺神经内分泌前体谱系"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M01",
+      "marker": "SOX9",
+      "marker_original": "SOX9",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Distal Bud Tip Progenitor Cell",
+      "cell_type_original": "early-mid distal tip epithelium",
+      "author_cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal bud tip)",
+      "experimental_context": "qRT-PCR, immunostaining, and organoid self-renewal assays across 7-22 pcw fetal lungs",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "SOX9 transcription factor transcript and nuclear protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 20-22, Fig. 1B, Fig. 1J-M",
+      "source_context": "Tip progenitor markers, such as SOX9 and SOX2, were highly expressed in early-mid stage tips and downregulated upon alveolar commitment",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 3,
+          "printed_page": 22,
+          "figure_panel": "Fig. 1B, Fig. 1K-M",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SOX9 transcript and protein mark self-renewing multipotent bud tip progenitors",
+          "mapping_basis": "Author-declared bud tip progenitor marker"
+        }
+      ],
+      "validation_method": "immunofluorescence / qRT-PCR / organoid culture",
+      "gate_definition": null,
+      "notes": "Canonical transcription factor defining multipotent branching bud tips",
+      "decision_reason": "Author declared and validated lineage progenitor marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M02",
+      "marker": "ETV5",
+      "marker_original": "ETV5",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Distal Bud Tip Progenitor Cell",
+      "cell_type_original": "tip progenitor cells",
+      "author_cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (bud tip)",
+      "experimental_context": "RNA-seq and organoid functional genetic manipulation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "ETS-family transcription factor ETV5 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 22-26, Fig. 2, Fig. 4",
+      "source_context": "ETV5 downstream of FGF signaling maintains bud tip progenitor identity and prevents premature differentiation",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 4,
+          "printed_page": 23,
+          "figure_panel": "Fig. 2G",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "ETV5 is an essential tip-expressed TF regulating tip maintenance",
+          "mapping_basis": "RNA-seq differential expression and lineage analysis"
+        }
+      ],
+      "validation_method": "RNA-seq / organoid perturbation",
+      "gate_definition": null,
+      "notes": "Key downstream effector of FGF signalling in tip progenitors",
+      "decision_reason": "Core progenitor identity transcription factor"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M03",
+      "marker": "CD36",
+      "marker_original": "CD36",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Late-Stage Alveolar-Committed Tip Cell",
+      "cell_type_original": "CD44+CD36+ tip epithelium",
+      "author_cluster_id": "Cluster_Late_Tip_Alveolar_Committed",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal tip)",
+      "experimental_context": "Flow cytometry sorting, single-cell analysis, and organoid differentiation (15-22 pcw)",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Cell-surface scavenger receptor CD36",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 21-23, Fig. 1H-1M, Fig. 2A-D",
+      "source_context": "Dual expression of CD44 and CD36 marks the emerging alveolar competence in human fetal lung distal tips from 15 pcw",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 3,
+          "printed_page": 22,
+          "figure_panel": "Fig. 1I-J",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD36 surface expression isolates alveolar-competent bud tip progenitor population",
+          "mapping_basis": "FACS prospective isolation and in vivo immunofluorescence"
+        }
+      ],
+      "validation_method": "flow cytometry / immunofluorescence / organoid differentiation",
+      "gate_definition": "EPCAM+ CD44+ CD36+",
+      "notes": "Novel functional prospective surface marker discovered in this study defining alveolar-competent tip cells",
+      "decision_reason": "Direct prospective isolation marker and validated functional determinant"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M04",
+      "marker": "CD44",
+      "marker_original": "CD44",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Late-Stage Alveolar-Committed Tip Cell",
+      "cell_type_original": "distal tip epithelium",
+      "author_cluster_id": "Cluster_Late_Tip_Alveolar_Committed",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal tip)",
+      "experimental_context": "Flow cytometry and organoid colony formation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Cell-surface glycoprotein CD44",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 21-22, Fig. 1H-I",
+      "source_context": "CD44+CD36+ cells robustly expressed CD36, CD44, SFTPC, and SOX9, marking tip cells competent for alveolar differentiation",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 3,
+          "printed_page": 22,
+          "figure_panel": "Fig. 1H-I",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Purified tip epithelium analyzed by CD44 and CD36 gating",
+          "mapping_basis": "FACS gating and transcript quantification"
+        }
+      ],
+      "validation_method": "flow cytometry / qRT-PCR",
+      "gate_definition": "EPCAM+ CD44+",
+      "notes": "Surface marker used in combination with CD36 for prospective isolation of bud tip sub-populations",
+      "decision_reason": "Author-declared prospective gating marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M05",
+      "marker": "PDPN",
+      "marker_original": "PDPN (Podoplanin)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Tip-adjacent Airway Stalk Cell",
+      "cell_type_original": "stalk cells",
+      "author_cluster_id": "Cluster_Airway_Stalk",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (stalk)",
+      "experimental_context": "Immunofluorescence on human fetal lung tissue sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "Transmembrane glycoprotein Podoplanin",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 21, Fig. 1E-G",
+      "source_context": "A lower level of CD44 extends into the SOX9-/PDPN+ tip-adjacent (stalk) cells",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 2,
+          "printed_page": 21,
+          "figure_panel": "Fig. 1E-G",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Confocal immunostaining demonstrating PDPN localization in stalk epithelium adjacent to SOX9+ tips",
+          "mapping_basis": "In situ protein staining pattern"
+        }
+      ],
+      "validation_method": "immunofluorescence",
+      "gate_definition": null,
+      "notes": "Marks proximal stalk epithelial zone distinct from the distal SOX9+ buds",
+      "decision_reason": "Direct histological spatial marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M06",
+      "marker": "TP63",
+      "marker_original": "TP63 (p63)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Airway Basal-like Stalk Progenitor",
+      "cell_type_original": "CD44-CD36- stalk cells",
+      "author_cluster_id": "Cluster_Airway_Stalk",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (stalk)",
+      "experimental_context": "qRT-PCR and tissue section immunofluorescence",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "p63 transcription factor transcript and protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 21-22, Fig. 1H",
+      "source_context": "CD44-CD36- cells had higher levels of TP63 and SOX2, but low SFTPC and SOX9, indicating airway basal-like progenitor identity",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 3,
+          "printed_page": 22,
+          "figure_panel": "Fig. 1H",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "qRT-PCR showing enrichment of basal marker TP63 in sorted negative fractions",
+          "mapping_basis": "Expression in airway progenitor stalk fraction"
+        }
+      ],
+      "validation_method": "qRT-PCR",
+      "gate_definition": null,
+      "notes": "Transcription factor defining basal airway progenitor identity",
+      "decision_reason": "Airway basal-like cell marker in stalk zone"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M07",
+      "marker": "SFTPC",
+      "marker_original": "SFTPC (Surfactant Protein C)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 2 Cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "Cluster_AT2_Cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "experimental_context": "SFTPC-eGFP reporter organoid line, scRNA-seq, and immunostaining",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Surfactant protein C transcript and pro-protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 20-25, Fig. 1A, Fig. 2B-D, Fig. 3",
+      "source_context": "AT2 cells were identified by robust expression of surfactant protein genes SFTPC and LAMP3",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 2,
+          "printed_page": 21,
+          "figure_panel": "Fig. 1A-C",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SFTPC expression marks mature AT2 cells and emerging alveolar lineages in organoids",
+          "mapping_basis": "Primary hallmark AT2 marker"
+        }
+      ],
+      "validation_method": "immunofluorescence / reporter_organoid / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Hallmark surfactant protein defining alveolar type 2 lineage identity",
+      "decision_reason": "Primary lineage definitive marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M08",
+      "marker": "LAMP3",
+      "marker_original": "LAMP3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 2 Cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "Cluster_AT2_Cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "experimental_context": "qRT-PCR and single-cell RNA-seq of organoid alveolar differentiation",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Lysosomal associated membrane protein 3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 21-24, Fig. 1B, Fig. 1J, Fig. S1B",
+      "source_context": "Differential gene expression analysis showed upregulation of mature AT2 markers such as SFTPC, LAMP3, and SLC34A2",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 3,
+          "printed_page": 22,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "LAMP3 is co-upregulated with SFTPC during organoid AT2 maturation",
+          "mapping_basis": "qRT-PCR and RNA-seq AT2 signature"
+        }
+      ],
+      "validation_method": "qRT-PCR / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Lamellar body and lysosome associated membrane protein marking mature AT2 cells",
+      "decision_reason": "Validated AT2 differentiation marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M09",
+      "marker": "SLC34A2",
+      "marker_original": "SLC34A2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 2 Cell",
+      "cell_type_original": "AT2 cells",
+      "author_cluster_id": "Cluster_AT2_Cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "experimental_context": "Microarray and single-cell RNA-seq profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Sodium-dependent phosphate transporter member 2 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 21, Fig. 1B",
+      "source_context": "Mature alveolar type 2 cell markers including SLC34A2 were significantly enriched in differentiated organoids",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 3,
+          "printed_page": 22,
+          "figure_panel": "Fig. 1B",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SLC34A2 identified among top upregulated AT2 lineage transcripts",
+          "mapping_basis": "Differential transcriptomic marker"
+        }
+      ],
+      "validation_method": "scRNA-seq / qRT-PCR",
+      "gate_definition": null,
+      "notes": "Solute carrier family 34 member 2, specific to pulmonary surfactant-producing AT2 cells",
+      "decision_reason": "Specific alveolar epithelial type 2 marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M10",
+      "marker": "AGER",
+      "marker_original": "AGER (RAGE)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 1 Cell",
+      "cell_type_original": "AT1 cells",
+      "author_cluster_id": "Cluster_AT1_Cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "experimental_context": "Immunofluorescence and scRNA-seq of differentiated organoids",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Advanced glycosylation end product-specific receptor transcript and surface protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 20-25, Fig. 1A, Fig. 3B-D",
+      "source_context": "AT1 cells were distinguished by the induction of canonical AT1 markers AGER (RAGE) and HOPX",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 2,
+          "printed_page": 21,
+          "figure_panel": "Fig. 1A",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "AGER marks flattened alveolar type 1 cells responsible for gas exchange",
+          "mapping_basis": "Hallmark AT1 surface receptor"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Classic surface receptor uniquely expressed in alveolar type 1 pneumocytes",
+      "decision_reason": "Canonical AT1 marker directly validated in organoid culture"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M11",
+      "marker": "HOPX",
+      "marker_original": "HOPX",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Alveolar Type 1 Cell",
+      "cell_type_original": "AT1 cells and bipotent progenitors",
+      "author_cluster_id": "Cluster_AT1_Cells",
+      "species": "human",
+      "organ_or_tissue": "fetal lung / organoid",
+      "experimental_context": "Confocal microscopy and trajectory pseudotime mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Homeodomain-only protein HOPX nuclear protein and transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 21-25, Fig. 1A, Fig. 4, Fig. S4",
+      "source_context": "HOPX marks alveolar type 1 cells and transitional bipotent progenitors during fetal alveolar lineage specification",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 5,
+          "printed_page": 24,
+          "figure_panel": "Fig. 4",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "HOPX marks AT1 differentiation and is transiently co-expressed with SFTPC in bipotent intermediates",
+          "mapping_basis": "Lineage trajectory and protein staining"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Homeobox protein defining AT1 specification and intermediate alveolar progenitors",
+      "decision_reason": "Author-declared AT1 and bipotent progenitor marker"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_M12",
+      "marker": "NOTUM",
+      "marker_original": "NOTUM",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "NOTUM+ Myofibroblast",
+      "cell_type_original": "myofibroblasts",
+      "author_cluster_id": "Cluster_NOTUM_Myofibroblasts",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (mesenchyme)",
+      "experimental_context": "scRNA-seq, in situ hybridization, and mesenchymal-epithelial organoid co-culture",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "Secreted Wnt deacylase NOTUM transcript and protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Highlights, Main Text pp. 26-29, Fig. 5A-G",
+      "source_context": "NOTUM+ myofibroblasts spatially pattern differentiating human alveolar-type-2 cells by secreting the Wnt inhibitor NOTUM",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 8,
+          "printed_page": 27,
+          "figure_panel": "Fig. 5A-G",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NOTUM specifically localized in sub-epithelial myofibroblasts regulating alveolar niche formation",
+          "mapping_basis": "Functional niche discovery and RNA-seq"
+        }
+      ],
+      "validation_method": "in situ hybridization / scRNA-seq / functional co-culture",
+      "gate_definition": null,
+      "notes": "Secreted Wnt inhibitor acting as a spatial niche determinant of alveolar differentiation",
+      "decision_reason": "Central mechanistic marker highlighted in study"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_C01",
+      "marker": "ACTA2",
+      "marker_original": "ACTA2 (alpha-SMA)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Myofibroblast",
+      "cell_type_original": "myofibroblasts",
+      "author_cluster_id": "Cluster_NOTUM_Myofibroblasts",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (mesenchyme)",
+      "experimental_context": "Immunostaining of fetal lung mesenchyme",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "Alpha-smooth muscle actin protein",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 26-28, Fig. 5",
+      "source_context": "NOTUM-expressing mesenchymal cells also express ACTA2, characteristic of myofibroblasts",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 8,
+          "printed_page": 27,
+          "figure_panel": "Fig. 5",
+          "table_locator": null,
+          "evidence_mode": "visual_observation",
+          "source_context": "Immunofluorescence co-staining of ACTA2 and NOTUM",
+          "mapping_basis": "Broad mesenchymal marker"
+        }
+      ],
+      "validation_method": "immunofluorescence",
+      "gate_definition": null,
+      "notes": "ACTA2 provides lineage context for myofibroblasts rather than a specific sublineage marker",
+      "decision_reason": "Broad lineage structural protein rather than sublineage determinant"
+    },
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_C02",
+      "marker": "EPCAM",
+      "marker_original": "EPCAM",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Epithelial Cell",
+      "cell_type_original": "fetal lung epithelium",
+      "author_cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung",
+      "experimental_context": "FACS gating prior to CD44/CD36 fraction sorting",
+      "four_layer_category": "outside",
+      "measurement_type": "protein",
+      "entity_detail": "Epithelial cell adhesion molecule surface protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 21, STAR Methods",
+      "source_context": "Live EPCAM+ epithelial cells were gated for subsequent CD44 and CD36 subfractionation",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 2,
+          "printed_page": 21,
+          "figure_panel": "Fig. 1H",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "EPCAM gating used to isolate pan-epithelial fraction",
+          "mapping_basis": "Pan-epithelial gating"
+        }
+      ],
+      "validation_method": "flow cytometry",
+      "gate_definition": "EPCAM+",
+      "notes": "EPCAM is used exclusively as a pan-epithelial gating handle",
+      "decision_reason": "Pan-epithelial gating handle"
+    }
+  ],
+  "excluded": [
+    {
+      "record_id": "DOI_10.1016_j.stem.2022.11.013_E01",
+      "marker": "SOX2",
+      "marker_original": "SOX2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Distal Bud Tip Progenitor",
+      "cell_type_original": "bud tip epithelium",
+      "author_cluster_id": "Cluster_Bud_Tip_Progenitors",
+      "species": "human",
+      "organ_or_tissue": "fetal lung (distal tip)",
+      "experimental_context": "qRT-PCR and tissue immunostaining across developmental stages",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA and protein",
+      "entity_detail": "SOX2 transcription factor transcript and protein",
+      "marker_direction": "negative",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 21-22, Fig. 1B, 1H",
+      "source_context": "SOX2 is primarily expressed in proximal airway progenitors; while present at low levels in early bud tips, it is actively downregulated during distal alveolar commitment and cannot serve as a specific distal marker",
+      "sources": [
+        {
+          "file": "PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+          "pdf_page": 3,
+          "printed_page": 22,
+          "figure_panel": "Fig. 1H",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SOX2 downregulation during alveolar specification",
+          "mapping_basis": "Lineage exclusion"
+        }
+      ],
+      "validation_method": "qRT-PCR / immunofluorescence",
+      "gate_definition": null,
+      "notes": "SOX2 is explicitly noted as being downregulated during alveolar fate commitment, refuting its utility as a distal alveolar marker",
+      "decision_reason": "Expressly documented by authors as an airway progenitor marker downregulated during alveolar specification"
+    }
+  ],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 12,
+    "context_only_count": 2,
+    "excluded_count": 1,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed Cell Stem Cell article (18 pages including Figures 1-7, STAR Methods, and accompanying legends).",
+    "missing_materials": "External Supplementary Tables S1-S4 (large differential expression spreadsheets) not locally provided.",
+    "potential_leakage_scope": "Organoid signaling components (FGF7, CHIR99021, DAPT, SB431542, DCI) used for pharmacological differentiation and disease modeling gene panels."
+  }
+}

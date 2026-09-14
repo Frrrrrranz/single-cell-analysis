@@ -1,0 +1,426 @@
+{
+  "schema_version": "3.0",
+  "paper_id": "DOI_10.1038_s41467-024-52052-8",
+  "doi": "10.1038/s41467-024-52052-8",
+  "title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain",
+  "materials_reviewed": [
+    {
+      "material_name": "Main Text (Full Article PDF)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "全文共 15 页，完整查阅各章节、细胞状态转换分析与衰老机制阐述。"
+    },
+    {
+      "material_name": "Figure 1 (Panels a-h)",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅 Fig. 1d/h 聚类 UMAP 及右侧 Top marker 点图；核实 18 类细胞亚群真实标注。"
+    },
+    {
+      "material_name": "Figure 2 & Figure 3",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅 Sox11 regulon 分析 (Fig. 2f-g) 及 p21/Cdkn1a、SA-β-gal 染色实验 (Fig. 3h-i)。"
+    },
+    {
+      "material_name": "Figure 5",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅 Prph (Peripherin) 荧光染色与 senolytic 药物治疗靶向实验。"
+    },
+    {
+      "material_name": "Methods Section",
+      "status": "reviewed",
+      "historical_status": "partially_reviewed",
+      "notes": "查阅流式分选与免疫荧光抗体门控信息 (NeuN/Rbfox3 等)。"
+    },
+    {
+      "material_name": "Supplementary Data 1-8",
+      "status": "missing",
+      "historical_status": "missing",
+      "notes": "在线补充 Excel 数据大表，本地目录未随附。"
+    }
+  ],
+  "cluster_inventory": [
+    { "author_cluster_id": "PEP1", "cluster_name": "Peptidergic nociceptors 1", "lineage": "Sensory Neuron", "four_layer_category": "L1" },
+    { "author_cluster_id": "cLTMR1", "cluster_name": "C-low threshold mechanoreceptors 1", "lineage": "Sensory Neuron", "four_layer_category": "L1" },
+    { "author_cluster_id": "NF2", "cluster_name": "A-fiber mechanoreceptors 2 (Nefh-positive)", "lineage": "Sensory Neuron", "four_layer_category": "L1" },
+    { "author_cluster_id": "SST", "cluster_name": "Somatostatin-positive nociceptor subtype", "lineage": "Sensory Neuron", "four_layer_category": "L1" },
+    { "author_cluster_id": "Senescent_Nociceptor", "cluster_name": "Senescent nociceptors (pain-induced)", "lineage": "Sensory Neuron", "four_layer_category": "L1" },
+    { "author_cluster_id": "Peripherin_Neuron", "cluster_name": "Peripherin-positive sensory neurons", "lineage": "Sensory Neuron", "four_layer_category": "L1" },
+    { "author_cluster_id": "Sensory_Neuron_General", "cluster_name": "Pan-sensory neurons (NeuN-positive)", "lineage": "Sensory Neuron", "four_layer_category": "L1" },
+    { "author_cluster_id": "Macrophage", "cluster_name": "Macrophages (CD86-positive)", "lineage": "Immune", "four_layer_category": "outside" },
+    { "author_cluster_id": "SGC", "cluster_name": "Satellite glial cells", "lineage": "Glial", "four_layer_category": "L2" }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M01",
+      "marker": "Tac1",
+      "marker_original": "Tac1",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "peptidergic nociceptor",
+      "cell_type_original": "PEP1",
+      "author_cluster_id": "PEP1",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Neuropathic pain models (spared nerve injury, chronic constriction injury, etc.)",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 2-3; Fig. 1d, h",
+      "source_context": "Fig. 1d right, dot plot representing the top 3 gene markers for each cell type; Tac1 is the top marker for PEP1 nociceptors.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1d caption: 'Right, a dot plot representing the top 3 gene markers for each cell type', including Tac1 in PEP1.",
+          "mapping_basis": "figure_dot_plot"
+        }
+      ],
+      "validation_method": "scANVI integrated atlas prediction",
+      "gate_definition": null,
+      "notes": "对应总表新增记录 M02566。纠正此前常识外延泛化，精准归属至 PEP1。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M02",
+      "marker": "Th",
+      "marker_original": "Th",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "C-low threshold mechanoreceptor",
+      "cell_type_original": "cLTMR1",
+      "author_cluster_id": "cLTMR1",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Neuropathic pain models",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 2-3; Fig. 1d, h",
+      "source_context": "Fig. 1d dot plot: Th is the characteristic top marker for cLTMR1 mechanoreceptors.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1d dot plot displays Th as top marker for cLTMR1 subtype.",
+          "mapping_basis": "figure_dot_plot"
+        }
+      ],
+      "validation_method": "scANVI integrated atlas prediction",
+      "gate_definition": null,
+      "notes": "对应总表新增记录 M02567。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M03",
+      "marker": "Nefh",
+      "marker_original": "Nefh",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "A-fiber mechanoreceptor",
+      "cell_type_original": "NF2",
+      "author_cluster_id": "NF2",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Neuropathic pain models",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 2-3; Fig. 1d, h",
+      "source_context": "Fig. 1d dot plot: Nefh is the definitive top marker for NF2 A-fiber neurons.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1d dot plot displays Nefh as top marker for NF2 subtype.",
+          "mapping_basis": "figure_dot_plot"
+        }
+      ],
+      "validation_method": "scANVI integrated atlas prediction",
+      "gate_definition": null,
+      "notes": "对应总表新增记录 M02568。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M04",
+      "marker": "Sst",
+      "marker_original": "Sst",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "somatosensory neuron",
+      "cell_type_original": "SST neurons (somatostatin-positive nociceptor subtype)",
+      "author_cluster_id": "SST",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Neuropathic pain models",
+      "four_layer_category": "L1",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 1; Fig. 1d",
+      "source_context": "Sst identifies somatostatin-positive nociceptor subtype in DRG atlas.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1d shows Sst defining the SST nociceptor cluster.",
+          "mapping_basis": "figure_dot_plot"
+        }
+      ],
+      "validation_method": "scANVI clustering",
+      "gate_definition": null,
+      "notes": "匹配当前总表已有记录 M01510。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M05",
+      "marker": "Cdkn1a",
+      "marker_original": "Cdkn1a (p21)",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "senescent nociceptor",
+      "cell_type_original": "senescent nociceptors",
+      "author_cluster_id": "Senescent_Nociceptor",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Chronic pain post-injury models (28 days post-injury)",
+      "four_layer_category": "L1",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "nuclear protein immunostaining & RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text pp. 4-5; Fig. 3a-e, Supplementary Fig. 5g,h",
+      "source_context": "Upregulation of the p53/p21 pathway during pain progression... The distribution of p21 (Cdkn1a) correlated with the presence of cellular senescence during pain chronification.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 5,
+          "printed_page": "5",
+          "figure_panel": "Fig. 3a-e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Text states p21 (Cdkn1a) activation identifies senescent nociceptor state post-injury.",
+          "mapping_basis": "experimental_validation"
+        }
+      ],
+      "validation_method": "Immunohistochemistry and transcriptional score",
+      "gate_definition": null,
+      "notes": "匹配当前总表已有记录 M00072。正文明确作为 senescent nociceptor 的分子标记与免疫荧光验证标志。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M06",
+      "marker": "Prph",
+      "marker_original": "Prph",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "sensory neuron",
+      "cell_type_original": "peripherin-positive neurons",
+      "author_cluster_id": "Peripherin_Neuron",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "DRG sensory neurons validation",
+      "four_layer_category": "L1",
+      "measurement_type": "protein",
+      "entity_detail": "intermediate filament protein",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 6; Fig. 5c, d",
+      "source_context": "Immunostaining with peripherin (Prph) identified small-to-medium sensory nociceptors in DRG sections.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 7,
+          "printed_page": "7",
+          "figure_panel": "Fig. 5c,d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Prph used as definitive sensory nociceptor marker in tissue staining.",
+          "mapping_basis": "experimental_staining"
+        }
+      ],
+      "validation_method": "Immunofluorescence microscopy",
+      "gate_definition": null,
+      "notes": "匹配当前总表已有记录 M00073 及 M00074。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M07",
+      "marker": "Rbfox3",
+      "marker_original": "NeuN (Rbfox3)",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "sensory neuron",
+      "cell_type_original": "neurons",
+      "author_cluster_id": "Sensory_Neuron_General",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Fluorescence-activated nuclei sorting (FANS) and histology",
+      "four_layer_category": "L1",
+      "measurement_type": "protein",
+      "entity_detail": "nuclear neuronal antigen NeuN",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Methods p. 11; Fig. 3i",
+      "source_context": "NeuN (Rbfox3) staining used for pan-neuronal identification and FANS gating of neuronal nuclei.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 11,
+          "printed_page": "11",
+          "figure_panel": "Fig. 3i",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "NeuN positive gating applied to isolate neuronal nuclei.",
+          "mapping_basis": "sorting_gate"
+        }
+      ],
+      "validation_method": "Flow cytometry / FANS gating & IHC",
+      "gate_definition": "NeuN+ nuclear gating",
+      "notes": "匹配当前总表已有记录 M00071 与 M00075。恢复实际用于门控与识别的 pan-neuronal 标志物。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_M08",
+      "marker": "Cd86",
+      "marker_original": "CD86",
+      "normalization_basis": "MGI symbol",
+      "cell_type": "macrophage",
+      "cell_type_original": "Macrophages",
+      "author_cluster_id": "Macrophage",
+      "species": "mouse",
+      "organ_or_tissue": "dorsal root ganglion",
+      "experimental_context": "Neuropathic pain models",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "single-cell RNA transcript",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 3; Fig. 1d",
+      "source_context": "Fig. 1d dot plot identifies CD86 as top marker for the Macrophage cluster.",
+      "sources": [
+        {
+          "file": "PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Fig. 1d shows CD86 marking macrophages in DRG microenvironment.",
+          "mapping_basis": "figure_dot_plot"
+        }
+      ],
+      "validation_method": "scANVI cell type annotation",
+      "gate_definition": null,
+      "notes": "纠错项 (correction)。裁决报告已确认：Fig. 1d 中 CD86 确系 Macrophages 标志物，纠正原表误归为 Dendritic cells 错配。"
+    }
+  ],
+  "context_only": [
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_C01",
+      "marker": "Sox11",
+      "cell_type": "nociceptor",
+      "role": "dynamic injury driver transcription factor & SCENIC regulon activity",
+      "source_location": "Main Text pp. 3-4; Fig. 2f-g, Supplementary Fig. 5a-f",
+      "notes": "Sox11 属于微状态跃迁的 driver gene 与调控子推断，不代表静态细胞身份 marker。"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_C02",
+      "marker": "Atf3",
+      "cell_type": "nociceptor",
+      "role": "regeneration-associated transcription factor (RAG regulon)",
+      "source_location": "Main Text p. 3; Fig. 2g"
+    },
+    {
+      "record_id": "DOI_10.1038_s41467-024-52052-8_C03",
+      "marker": "Jun",
+      "cell_type": "nociceptor",
+      "role": "injury response transcription factor (regulon)",
+      "source_location": "Main Text p. 3; Fig. 2g"
+    }
+  ],
+  "excluded": [],
+  "unresolved": [
+    {
+      "marker": "Glb1",
+      "cell_type": "senescent nociceptor",
+      "reason_unresolved": "【已确认错误并撤销】原提取将 SA-β-gal (senescence-associated beta-galactosidase) 酶活性染色直接改写为 Glb1 基因表达 marker。原文实验实为底物组织化学染色，未提供 Glb1 转录本特异性 marker 证据。撤销该记录。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1038_s41467-024-52052-8_M09",
+        "revocation_action": "revoked",
+        "reason": "酶活性组织化学表型不能直接等同于 Glb1 基因表达，撤销错误改写。"
+      }
+    },
+    {
+      "marker": "Calca",
+      "cell_type": "peptidergic nociceptor",
+      "reason_unresolved": "【已确认错误并撤销】原提取引用 Fig. 1d/h 作为 Calca 证据，经核查点图，该面板中实为 Tac1 等，未见 Calca 列。撤销常识脑补记录。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1038_s41467-024-52052-8_M02",
+        "revocation_action": "revoked",
+        "reason": "原图未呈现该基因标签，系常识脑补错误配对。"
+      }
+    },
+    {
+      "marker": "Mrgprd",
+      "cell_type": "non-peptidergic nociceptor",
+      "reason_unresolved": "【已确认错误并撤销】原提取引用 Fig. 1d 作为 Mrgprd 证据，经核查原图无该列标签。撤销常识脑补记录。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1038_s41467-024-52052-8_M03",
+        "revocation_action": "revoked",
+        "reason": "原图未呈现该基因标签，系常识脑补错误配对。"
+      }
+    },
+    {
+      "marker": "Piezo2",
+      "cell_type": "C-low threshold mechanoreceptor",
+      "reason_unresolved": "【已确认错误并撤销】原提取引用 Fig. 1d 作为 Piezo2 证据，经核查该群实际展示 marker 为 Th。撤销常识脑补记录。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1038_s41467-024-52052-8_M04",
+        "revocation_action": "revoked",
+        "reason": "原图未呈现该基因标签，系常识脑补错误配对。"
+      }
+    },
+    {
+      "marker": "Fabp7",
+      "cell_type": "satellite glial cell",
+      "reason_unresolved": "【已确认错误并撤销】原提取引用 Fig. 1d/h 作为 Fabp7 证据，经核查原图无该列标签。撤销常识脑补记录。",
+      "revocation_details": {
+        "original_record_id": "DOI_10.1038_s41467-024-52052-8_M11",
+        "revocation_action": "revoked",
+        "reason": "原图未呈现该基因标签，系常识脑补错误配对。"
+      }
+    }
+  ],
+  "coverage_summary": {
+    "total_formal_markers": 8,
+    "four_layer_distribution": {
+      "L1": 7,
+      "L2": 0,
+      "L3": 0,
+      "L4": 0,
+      "outside": 1,
+      "unknown": 0
+    },
+    "materials_status": {
+      "Main_Text": "reviewed",
+      "Figure_1": "reviewed",
+      "Figure_2_3": "reviewed",
+      "Figure_5": "reviewed",
+      "Methods": "reviewed",
+      "Supplementary_Data": "missing"
+    },
+    "reconciliation_notes": "彻底清理常识脑补，撤销Glb1酶活混淆与Calca/Mrgprd/Piezo2/Fabp7伪引文；Sox11转入context_only；正名收录Tac1 (PEP1, M02566)、Th (cLTMR1, M02567)、Nefh (NF2, M02568)；纠正CD86为Macrophages；核准Cdkn1a、Sst、Prph、Rbfox3既有条目。"
+  }
+}

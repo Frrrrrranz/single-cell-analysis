@@ -1,0 +1,516 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41586-021-04345-x",
+  "doi": "10.1038/s41586-021-04345-x",
+  "pmid": "34937051",
+  "title": "Local and systemic responses to SARS-CoV-2 infection in children and adults",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "Nature 刊出全文，包含主要图表 Figures 1-5、Methods 及详细图注说明"
+    },
+    {
+      "material_name": "DOI_10.1038_s41586-021-04345-x.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含完整结构化 Markdown 文本，详述儿童与成人鼻刷片单细胞测序、上皮分化轨迹、IFN 应答与免疫亚群"
+    },
+    {
+      "material_name": "Extended Data Figures 1-10 & Supplementary Tables 1-12",
+      "material_type": "supplementary_data",
+      "status": "partially_reviewed",
+      "notes": "正文中对应补图补表描述已审阅，外部大型独立数据表格未在本地单独提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_Neuroendocrine_Airway",
+      "cluster_name": "Airway neuroendocrine cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "L4",
+      "description": "鼻腔呼吸道黏膜上皮中检出的微量神经内分泌细胞亚群，表达经典神经内分泌标志"
+    },
+    {
+      "cluster_id": "Cluster_Club_Cells",
+      "cluster_name": "Club cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "呼吸道分泌性棒状细胞，特征性高表达分泌珠蛋白 SCGB1A1 与 SCGB3A1"
+    },
+    {
+      "cluster_id": "Cluster_Secretory_GALNT4",
+      "cluster_name": "Secretory GALNT4+ cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "特异性表达乙酰半乳糖胺转移酶 GALNT4 的鼻黏膜特化分泌细胞亚群"
+    },
+    {
+      "cluster_id": "Cluster_Goblet_1",
+      "cluster_name": "Goblet 1 (TFF1-hi)",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "高表达三叶因子 TFF1 与粘蛋白 MUC5AC 的主要杯状细胞亚群"
+    },
+    {
+      "cluster_id": "Cluster_Goblet_2_Inflammatory",
+      "cluster_name": "Goblet 2 inflammatory cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "受 SARS-CoV-2 感染后在儿童和成人鼻腔中显著扩增的炎性杯状细胞，高度诱导干扰素刺激基因 IFI6、ISG15 与 MX1"
+    },
+    {
+      "cluster_id": "Cluster_Squamous_Cells",
+      "cluster_name": "Squamous cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "鼻前庭与化生区域鳞状上皮细胞，特征性表达富含脯氨酸小蛋白 SPRR3 与细胞角蛋白 KRT78"
+    },
+    {
+      "cluster_id": "Cluster_Hillock_Cells",
+      "cluster_name": "Hillock-like cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "呈丘状聚集的特化上皮结构细胞，高表达细胞角蛋白 KRT14、KRT6A 与 KRT13"
+    },
+    {
+      "cluster_id": "Cluster_Ciliated_1",
+      "cluster_name": "Ciliated 1 cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "早期分化阶段纤毛细胞，特征性表达纤毛发生关键因子 PIFO 与少突胶质细胞髓鞘糖蛋白 OMG"
+    },
+    {
+      "cluster_id": "Cluster_Ciliated_2",
+      "cluster_name": "Ciliated 2 cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "终末成熟纤毛上皮细胞，高表达纤毛轴丝相关蛋白 CFAP54 与纤毛基体蛋白 DZIP1L"
+    },
+    {
+      "cluster_id": "Cluster_Deuterosomal_Cells",
+      "cluster_name": "Deuterosomal cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "分泌细胞向纤毛细胞转化的中间过渡态，特征性高表达 CDC20 与转录因子 FOXN4"
+    },
+    {
+      "cluster_id": "Cluster_Transit_Epithelial",
+      "cluster_name": "Transit epithelial 1 & 2 cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "four_layer_category": "outside",
+      "description": "连接分泌细胞与纤毛细胞的全新过渡桥接亚群，共表达 PIFO 与 MUC2，伴 FOXJ1 低表达"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M01",
+      "marker": "SCGB1A1",
+      "marker_original": "SCGB1A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Club Cell",
+      "cell_type_original": "club cells",
+      "author_cluster_id": "Cluster_Club_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq of nasal brushings in pediatric and adult cohorts",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secretoglobin family 1A member 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b, d",
+      "source_context": "differentiation intermediates giving rise to more differentiated club cells (SCGB1A1, SCGB3A1)",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SCGB1A1 defines differentiated club cell cluster in the nasal epithelial hierarchy",
+          "mapping_basis": "Airway epithelial lineage marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Classic secretoglobin marker defining club cells in human respiratory tract",
+      "decision_reason": "Author declared defining lineage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M02",
+      "marker": "SCGB3A1",
+      "marker_original": "SCGB3A1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Club Cell",
+      "cell_type_original": "club cells",
+      "author_cluster_id": "Cluster_Club_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq nasal epithelial profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Secretoglobin family 3A member 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b",
+      "source_context": "giving rise to more differentiated club cells (SCGB1A1, SCGB3A1)",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SCGB3A1 co-defines differentiated club cells alongside SCGB1A1",
+          "mapping_basis": "scRNA-seq marker combination"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Secretoglobin family 3A member 1 enriched in mucosal secretor cells",
+      "decision_reason": "Co-defining club cell marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M03",
+      "marker": "GALNT4",
+      "marker_original": "GALNT4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Secretory GALNT4+ Cell",
+      "cell_type_original": "Secretory GALNT4+ cluster",
+      "author_cluster_id": "Cluster_Secretory_GALNT4",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq sub-clustering of secretory lineage",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Polypeptide N-acetylgalactosaminyltransferase 4 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b",
+      "source_context": "GALNT4 marks a distinct secretory subtype",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "GALNT4 uniquely defines a distinct nasal secretory sublineage",
+          "mapping_basis": "Author declared subtype marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Glycosyltransferase specifically marking a distinct secretory subtype in upper airways",
+      "decision_reason": "Author declared subtype defining marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M04",
+      "marker": "TFF1",
+      "marker_original": "TFF1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Goblet 1 Cell",
+      "cell_type_original": "TFF1-hi goblet 1",
+      "author_cluster_id": "Cluster_Goblet_1",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq goblet cell sub-classification",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Trefoil factor 1 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b",
+      "source_context": "Goblet cells have high MUC5AC expression and were subdivided into TFF1-hi goblet 1 and three distinct goblet 2 populations",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "TFF1 specifically defines the goblet 1 subpopulation",
+          "mapping_basis": "Subtype signature marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Trefoil factor 1, mucosal repair peptide defining goblet 1 subset",
+      "decision_reason": "Cluster defining hallmark marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M05",
+      "marker": "MUC5AC",
+      "marker_original": "MUC5AC",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Goblet Cell",
+      "cell_type_original": "goblet cells",
+      "author_cluster_id": "Cluster_Goblet_1",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq nasal airway epithelial profiling",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Mucin 5AC transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b",
+      "source_context": "Goblet cells have high MUC5AC expression and were subdivided into TFF1-hi goblet 1 and three distinct goblet 2 populations",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "MUC5AC is the canonical mucin defining the entire goblet cell compartment",
+          "mapping_basis": "Canonical goblet marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Major airway gel-forming mucin marking goblet cells",
+      "decision_reason": "Canonical lineage marker for goblet cells"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M06",
+      "marker": "SPRR3",
+      "marker_original": "SPRR3",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Squamous Cell",
+      "cell_type_original": "squamous cells",
+      "author_cluster_id": "Cluster_Squamous_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq nasal epithelial hierarchy",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Small proline rich protein 3 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b",
+      "source_context": "Furthermore, we detect squamous cells (SPRR3, KRT78)",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "SPRR3 selectively identifies nasal squamous cells",
+          "mapping_basis": "Squamous differentiation marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Cornified envelope structural precursor marking stratified squamous cells",
+      "decision_reason": "Author declared lineage marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M07",
+      "marker": "KRT14",
+      "marker_original": "KRT14",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Hillock-like Cell",
+      "cell_type_original": "Hillock-like populations",
+      "author_cluster_id": "Cluster_Hillock_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq epithelial trajectory analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Keratin 14 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b, d",
+      "source_context": "and identify three Hillock-like populations, all marked by KRT14, KRT6A and KRT13 expression and referred to as Hillock, cycling Hillock and Hillock precursor cells",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b, d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "KRT14 defines Hillock cell trajectory in human nasal mucosa",
+          "mapping_basis": "Hillock structure signature"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Basal keratin co-defining the discrete airway hillock structures",
+      "decision_reason": "Trajectory and cluster defining marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M08",
+      "marker": "PIFO",
+      "marker_original": "PIFO",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Ciliated 1 Cell",
+      "cell_type_original": "ciliated 1 cells",
+      "author_cluster_id": "Cluster_Ciliated_1",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "Trajectory analysis of ciliogenesis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Pitchfork ciliary assembly transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b, d",
+      "source_context": "Within the ciliated cell domain, the differentiation trajectory points from ciliated 1 (PIFO, OMG) to ciliated 2 (CFAP54, DZIP1L) cells",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "PIFO marks early differentiating ciliated 1 cluster",
+          "mapping_basis": "Ciliogenesis trajectory marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Centriole and cilium assembly factor defining early ciliated cells",
+      "decision_reason": "Trajectory-origin marker for ciliated subpopulation"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M09",
+      "marker": "CFAP54",
+      "marker_original": "CFAP54",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Ciliated 2 Cell",
+      "cell_type_original": "ciliated 2 cells",
+      "author_cluster_id": "Cluster_Ciliated_2",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "Trajectory analysis of terminal ciliogenesis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Cilia and flagella associated protein 54 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b, d",
+      "source_context": "to ciliated 2 (CFAP54, DZIP1L) cells",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CFAP54 marks mature terminal ciliated 2 cells",
+          "mapping_basis": "Mature ciliated marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Axonemal protein component marking mature beating ciliated cells",
+      "decision_reason": "Terminal ciliated differentiation marker"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M10",
+      "marker": "CDC20",
+      "marker_original": "CDC20",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Deuterosomal Intermediate Cell",
+      "cell_type_original": "deuterosomal cells",
+      "author_cluster_id": "Cluster_Deuterosomal_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq intermediate trajectory mapping",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Cell division cycle 20 transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b, d",
+      "source_context": "Between secretory and ciliated clusters, we observe deuterosomal cells as intermediates marked by CDC20 and FOXN4",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1b, d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CDC20 explicitly marks the deuterosomal transition stage",
+          "mapping_basis": "Deuterosomal intermediate marker"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Co-factor required for centriole amplification during multiciliogenesis",
+      "decision_reason": "Defining marker for deuterosomal intermediate stage"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-04345-x_M11",
+      "marker": "FOXN4",
+      "marker_original": "FOXN4",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Deuterosomal Intermediate Cell",
+      "cell_type_original": "deuterosomal cells",
+      "author_cluster_id": "Cluster_Deuterosomal_Cells",
+      "species": "human",
+      "organ_or_tissue": "nasal epithelium",
+      "experimental_context": "scRNA-seq ciliogenesis trajectory analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Forkhead box N4 transcription factor transcript",
+      "marker_direction": "positive",
+      "evidence_type": "author_declared",
+      "source_location": "Main Text p. 322, Fig. 1b, d",
+      "source_context": "Between secretory and ciliated clusters, we observe deuterosomal cells as intermediates marked by CDC20 and FOXN4",
+      "sources": [
+        {
+          "file": "PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+          "pdf_page": 2,
+          "printed_page": 322,
+          "figure_panel": "Fig. 1d",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "FOXN4 transcription factor directly regulates deuterosome formation",
+          "mapping_basis": "Deuterosomal master regulator"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Master transcription factor driving multiciliogenesis and deuterosome assembly",
+      "decision_reason": "Core regulatory marker of deuterosomal phase"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 11,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed Nature article (7 pages including main text Figures 1-5, Methods, and accompanying legends).",
+    "missing_materials": "Extended Data Figures 1-10 standalone PDF and Supplementary Tables 1-12 spreadsheets not locally provided.",
+    "potential_leakage_scope": "Interferon stimulated gene lists (ISG signature comprising 22 genes) and paired PBMC T/B receptor VDJ clonotype expansions."
+  }
+}

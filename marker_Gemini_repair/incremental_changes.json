@@ -1,0 +1,1303 @@
+{
+  "report_name": "Incremental Changes & Repair Audit Report",
+  "generated_at": "2026-09-06",
+  "baseline_hashes": {
+    "our_markers.xlsx": "8abdddb800dce6e84ca711d9cb5905cc114390e77adc499f8ef5471f09021373",
+    "our_markers_by_cell.xlsx": "9b166cd7aef77d39c8019dcc163a6e2aa8dd0ab74927dbe0195060390062c3e2",
+    "integrity_verified": true
+  },
+  "statistics": {
+    "total_papers_repaired": 23,
+    "total_original_formal_markers": 242,
+    "total_repaired_formal_markers": 1015,
+    "net_marker_increase": 773,
+    "total_documented_exclusions": 121,
+    "total_context_only_markers": 28
+  },
+  "papers": [
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "title": "Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19",
+      "orig_formal_count": 12,
+      "repaired_formal_count": 146,
+      "incremental_formal": 134,
+      "excluded_count": 12,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 146
+      }
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 11,
+      "incremental_formal": 1,
+      "excluded_count": 0,
+      "context_only_count": 0,
+      "four_layer_distribution": {
+        "L1": 0,
+        "L2": 0,
+        "L3": 0,
+        "L4": 10,
+        "outside": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "title": "Exploring the utility of snRNA-seq in profiling human bladder tissue: A comprehensive comparison with scRNA-seq",
+      "orig_formal_count": 12,
+      "repaired_formal_count": 11,
+      "incremental_formal": -1,
+      "excluded_count": 0,
+      "context_only_count": 0,
+      "four_layer_distribution": {
+        "L1": 0,
+        "L2": 2,
+        "L3": 0,
+        "L4": 0,
+        "outside": 9,
+        "unknown": 0
+      }
+    },
+    {
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "title": "Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patterning and neonatal respiratory disease",
+      "orig_formal_count": 12,
+      "repaired_formal_count": 9,
+      "incremental_formal": -3,
+      "excluded_count": 0,
+      "context_only_count": 0,
+      "four_layer_distribution": {
+        "L1": 0,
+        "L2": 0,
+        "L3": 0,
+        "L4": 0,
+        "outside": 9,
+        "unknown": 0
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "title": "Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant differentiation of luminal progenitors",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 12,
+      "incremental_formal": 2,
+      "excluded_count": 5,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 12
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "title": "Guided construction of single cell reference for human and mouse lung",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 47,
+      "incremental_formal": 37,
+      "excluded_count": 1,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 47
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "title": "The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical target for chronic pain",
+      "orig_formal_count": 11,
+      "repaired_formal_count": 8,
+      "incremental_formal": -3,
+      "excluded_count": 0,
+      "context_only_count": 3,
+      "four_layer_distribution": {
+        "L1": 7,
+        "L2": 0,
+        "L3": 0,
+        "L4": 0,
+        "outside": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "title": "Pediatric COVID-19 single-cell atlas reveals distinct cellular and viral trajectories",
+      "orig_formal_count": 11,
+      "repaired_formal_count": 31,
+      "incremental_formal": 20,
+      "excluded_count": 11,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 31
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "title": "Single-cell profiling of the prenatal human neural crest and developing sensory nervous system",
+      "orig_formal_count": 11,
+      "repaired_formal_count": 80,
+      "incremental_formal": 69,
+      "excluded_count": 11,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 80
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "title": "A complete temporal transcription factor code for motor neuron development",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 152,
+      "incremental_formal": 142,
+      "excluded_count": 4,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 125,
+        "L2": 12,
+        "L1": 14,
+        "L3": 1
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "title": "Spatial multi-omics reveals a regulatory role of subepithelial fibroblasts in the human airway",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 86,
+      "incremental_formal": 76,
+      "excluded_count": 2,
+      "context_only_count": 2,
+      "four_layer_distribution": {
+        "outside": 79,
+        "L3": 7
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "title": "Single-cell dissection of cellular microenvironment in cancer",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 19,
+      "incremental_formal": 9,
+      "excluded_count": 10,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 19
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "title": "Spatial multi-omic analysis of human adrenal gland development and steroidogenesis",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 35,
+      "incremental_formal": 25,
+      "excluded_count": 8,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 26,
+        "L3": 3,
+        "L1": 4,
+        "L2": 2
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "title": "Single-cell multi-omic profiling of rare lung neuroendocrine cells and pulmonary neuroendocrine tumors",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 60,
+      "incremental_formal": 50,
+      "excluded_count": 10,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 58,
+        "L1": 2
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "title": "Single-cell spatial multi-omic atlas of chronic wound healing and cellular senescence",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 30,
+      "incremental_formal": 20,
+      "excluded_count": 7,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 30
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "title": "Single-cell spatial multi-omics of non-alcoholic steatohepatitis (NASH) progression",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 16,
+      "incremental_formal": 6,
+      "excluded_count": 10,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 16
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "title": "Single-cell transcriptome analysis of human liver sinusoidal endothelial cells",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 14,
+      "incremental_formal": 4,
+      "excluded_count": 10,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 14
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "title": "Cross-species single-cell transcriptomic analysis reveals conservation and divergence of the cardiac macrophage response to myocardial injury",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 83,
+      "incremental_formal": 73,
+      "excluded_count": 1,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 83
+      }
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "title": "Single-cell landscape of the pancreas in health and type 2 diabetes",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 60,
+      "incremental_formal": 50,
+      "excluded_count": 10,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 20,
+        "L4": 40
+      }
+    },
+    {
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "title": "Spatiotemporal immune zonation of the human kidney",
+      "orig_formal_count": 12,
+      "repaired_formal_count": 18,
+      "incremental_formal": 6,
+      "excluded_count": 4,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 18
+      }
+    },
+    {
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 20,
+      "incremental_formal": 10,
+      "excluded_count": 4,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 18,
+        "L3": 2
+      }
+    },
+    {
+      "paper_id": "DOI_10.7554_elife.62522",
+      "title": "Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of SARS-CoV-2 host genes",
+      "orig_formal_count": 10,
+      "repaired_formal_count": 23,
+      "incremental_formal": 13,
+      "excluded_count": 0,
+      "context_only_count": 6,
+      "four_layer_distribution": {
+        "L1": 0,
+        "L2": 0,
+        "L3": 0,
+        "L4": 2,
+        "outside": 21,
+        "unknown": 0
+      }
+    },
+    {
+      "paper_id": "PMID_35115729",
+      "title": "Disentangling glial diversity in peripheral nerves at single-nuclei resolution",
+      "orig_formal_count": 11,
+      "repaired_formal_count": 44,
+      "incremental_formal": 33,
+      "excluded_count": 1,
+      "context_only_count": 1,
+      "four_layer_distribution": {
+        "outside": 22,
+        "L3": 19,
+        "L1": 1,
+        "L2": 2
+      }
+    }
+  ],
+  "detailed_exclusions": [
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_1",
+      "marker": "TP63",
+      "cell_type": "Basal Epithelial Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 TP63 -> Basal Epithelial Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_2",
+      "marker": "KRT5",
+      "cell_type": "Basal Epithelial Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 KRT5 -> Basal Epithelial Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_3",
+      "marker": "BPIFA1",
+      "cell_type": "Secretory Epithelial Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 BPIFA1 -> Secretory Epithelial Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_4",
+      "marker": "MUC5AC",
+      "cell_type": "Goblet Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 MUC5AC -> Goblet Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_5",
+      "marker": "FOXI1",
+      "cell_type": "Respiratory Ionocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 FOXI1 -> Respiratory Ionocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_6",
+      "marker": "CFTR",
+      "cell_type": "Respiratory Ionocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CFTR -> Respiratory Ionocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_7",
+      "marker": "DEUP1",
+      "cell_type": "Deuterosomal Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 DEUP1 -> Deuterosomal Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_8",
+      "marker": "FOXJ1",
+      "cell_type": "Ciliated Epithelial Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 FOXJ1 -> Ciliated Epithelial Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_9",
+      "marker": "SCEL",
+      "cell_type": "Squamous Epithelial Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SCEL -> Squamous Epithelial Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_10",
+      "marker": "TPSB2",
+      "cell_type": "Mast Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 TPSB2 -> Mast Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_11",
+      "marker": "IL3RA",
+      "cell_type": "Plasmacytoid Dendritic Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 IL3RA -> Plasmacytoid Dendritic Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "record_id": "EXCL_DOI_10.1016_j.cell.2021.07.023_ORIG_12",
+      "marker": "CD3E",
+      "cell_type": "T Lymphocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CD3E -> T Lymphocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "record_id": "EXCL_21783_ACTA2_KRT14",
+      "marker": "Acta2 / Krt14",
+      "cell_type": "Basal / Myoepithelial Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项核查结论：Acta2 与 Krt14 在本文仅作为小鼠乳腺常规解剖外周肌上皮的已知对照基因提及，并非本文针对 Brca1 突变异常分化谱系新建立或重点论证的特异 Marker。总表 audit_exclusions 已确认排除，转入 context_only 留痕。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "record_id": "EXCL_21783_COL1A1_FIBRO",
+      "marker": "Col1a1",
+      "cell_type": "Mammary Stromal Fibroblast",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项核查结论：Col1a1 在本文仅作为乳腺间质成纤维细胞的先验常规标志物用于去除基质污染，缺乏本文独立的分群验证证据。总表 audit_exclusions 已排除，转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "record_id": "EXCL_21783_ADGRE1_MACRO",
+      "marker": "Adgre1",
+      "cell_type": "Mammary Macrophage",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项核查结论：Adgre1 (F4/80) 作为广泛泛巨噬细胞常识标记，本文核心鉴定的是高表达 Arg1, Spp1, Trem2, Apoe 的肿瘤相关巨噬细胞 (TAM) 亚群。泛巨噬细胞 Adgre1 缺乏本文亚群特异度，总表 audit_exclusions 已排除。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "record_id": "EXCL_21783_KIT_ELF5_LP",
+      "marker": "Kit / Elf5",
+      "cell_type": "Luminal Progenitor Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项核查结论：Elf5 与 Kit 作为野生型腔面祖细胞常规标志物，总表已将 Elf5 准确分配至异常分化的 Avd 细胞 (M01587)；Kit 作为常规参考 marker 不作为本文新候选，列入 audit_exclusions。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "record_id": "EXCL_21783_TNFSF11_IGF2_ML",
+      "marker": "Tnfsf11 / Igf2",
+      "cell_type": "Hormone-Sensing Mature Luminal Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项核查结论：Tnfsf11 与 Igf2 属于成熟激素感应腔面细胞已知特征基因，总表 audit_exclusions 已裁决排除。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "record_id": "EXCL_40173_ALDH1A3_MDC",
+      "marker": "ALDH1A3",
+      "cell_type": "Mature Dendritic Cell",
+      "exclusion_type": "mismatch_correction",
+      "reason": "原 Gemini 提取错误将 ALDH1A3 与 Mature dendritic cell 配对。原文明确声明 ALDH1A3 为 SMG duct cells 的 marker (MIA, ALDH1A3, RARRES1)；成熟树突状细胞 (maDC) 的 marker 为 CCR7, CCL19, LAD1。该错误配对已撤销，正确记录移至 SMG duct cells (M00763)。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_1",
+      "marker": "KRT8",
+      "cell_type": "Damage-Associated Transient Progenitor",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 KRT8 -> Damage-Associated Transient Progenitor 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_2",
+      "marker": "CLDN4",
+      "cell_type": "Damage-Associated Transient Progenitor",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CLDN4 -> Damage-Associated Transient Progenitor 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_3",
+      "marker": "SFTPC",
+      "cell_type": "Alveolar Type 2 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SFTPC -> Alveolar Type 2 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_4",
+      "marker": "SFTPB",
+      "cell_type": "Alveolar Type 2 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SFTPB -> Alveolar Type 2 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_5",
+      "marker": "ETV5",
+      "cell_type": "Alveolar Type 2 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 ETV5 -> Alveolar Type 2 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_6",
+      "marker": "AGER",
+      "cell_type": "Alveolar Type 1 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 AGER -> Alveolar Type 1 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_7",
+      "marker": "CLIC5",
+      "cell_type": "Alveolar Type 1 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CLIC5 -> Alveolar Type 1 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_8",
+      "marker": "CAV1",
+      "cell_type": "Alveolar Type 1 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CAV1 -> Alveolar Type 1 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_9",
+      "marker": "CTHRC1",
+      "cell_type": "Pathological Fibroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CTHRC1 -> Pathological Fibroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_10",
+      "marker": "COL1A1",
+      "cell_type": "Pathological Fibroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 COL1A1 -> Pathological Fibroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-03569-1_ORIG_11",
+      "marker": "COL3A1",
+      "cell_type": "Pathological Fibroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 COL3A1 -> Pathological Fibroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_1",
+      "marker": "SCGB1A1",
+      "cell_type": "Club Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SCGB1A1 -> Club Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_2",
+      "marker": "SCGB3A1",
+      "cell_type": "Club Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SCGB3A1 -> Club Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_3",
+      "marker": "GALNT4",
+      "cell_type": "Secretory GALNT4+ Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 GALNT4 -> Secretory GALNT4+ Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_4",
+      "marker": "TFF1",
+      "cell_type": "Goblet 1 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 TFF1 -> Goblet 1 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_5",
+      "marker": "MUC5AC",
+      "cell_type": "Goblet Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 MUC5AC -> Goblet Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_6",
+      "marker": "SPRR3",
+      "cell_type": "Squamous Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SPRR3 -> Squamous Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_7",
+      "marker": "KRT14",
+      "cell_type": "Hillock-like Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 KRT14 -> Hillock-like Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_8",
+      "marker": "PIFO",
+      "cell_type": "Ciliated 1 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 PIFO -> Ciliated 1 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_9",
+      "marker": "CFAP54",
+      "cell_type": "Ciliated 2 Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CFAP54 -> Ciliated 2 Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_10",
+      "marker": "CDC20",
+      "cell_type": "Deuterosomal Intermediate Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CDC20 -> Deuterosomal Intermediate Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "record_id": "EXCL_DOI_10.1038_s41586-021-04345-x_ORIG_11",
+      "marker": "FOXN4",
+      "cell_type": "Deuterosomal Intermediate Cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 FOXN4 -> Deuterosomal Intermediate Cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "record_id": "EXCL_07069_SOX10_PNS_GLIA",
+      "marker": "Sox10",
+      "cell_type": "Neural Crest (PNS Glia)",
+      "exclusion_type": "mismatch_correction",
+      "reason": "原 Gemini 提取将 Sox10 常识脑补为 Neural Crest (PNS Glia)。原文 Extended Data Fig. 4i 实质展示的是 notochord (脊索) 及其衍生亚群中 Sox10 的特异表达。该神经嵴脑补条目彻底撤销，正名为 notochord (M01741)。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "record_id": "EXCL_07069_ERBB4_PNS_GLIA",
+      "marker": "Erbb4",
+      "cell_type": "Neural Crest (PNS Glia)",
+      "exclusion_type": "mismatch_correction",
+      "reason": "原提取将 Erbb4 错配为 PNS Glia。原文 Extended Data Fig. 4i 确认为 notochord 亚群表达。该错配条目撤销，正名为 notochord (M01739)。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "record_id": "EXCL_07069_ISL1_MN_PROG",
+      "marker": "Isl1",
+      "cell_type": "Spinal Motor Neuron Progenitor",
+      "exclusion_type": "lacks_direct_evidence",
+      "reason": "未决项查证排除：原提取称 Isl1 为 Spinal Motor Neuron Progenitor 标志物。经查证，Isl1 在早期祖细胞阶段未显示特异区分度，原文将其作为后部分化神经元转录因子而非祖细胞门控 Marker，总表 audit_exclusions 已裁决排除。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "record_id": "EXCL_07069_ZFP536_SCHWANN",
+      "marker": "Zfp536",
+      "cell_type": "Myelinating Schwann Cell",
+      "exclusion_type": "lacks_direct_evidence",
+      "reason": "未决项查证排除：原文未将 Zfp536 确立为有充分证据的髓鞘化雪旺细胞特异性 marker，总表 audit_exclusions 已裁决排除。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "record_id": "EXCL_01243_PRR4_FORMAL_EXCL",
+      "marker": "PRR4",
+      "cell_type": "SMG Serous Cell",
+      "exclusion_type": "validation_staining_only",
+      "reason": "未决项查证结论：PRR4 在本文主要作为组织切片免疫荧光/抗体染色验证标志物（Extended Data Fig. 10），而在单细胞转录组分群中，作者定义的基准特异 Marker 为 LPO (M00294) 与 RARRES1 (M00295)。总表 audit_exclusions 已排除其作为独立 formal candidate，将其转入 context_only 完整记录。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "record_id": "EXCL_01243_PIGR_SEROUS",
+      "marker": "PIGR",
+      "cell_type": "SMG Serous Cell",
+      "exclusion_type": "pan_epithelial_transcytosis_receptor",
+      "reason": "PIGR 作为多聚免疫球蛋白受体，在多种粘膜上皮中普遍介导 IgA 转运，缺乏对 SMG serous 的排他特异性。总表 audit_exclusions 已排除。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_1",
+      "marker": "PTPRC",
+      "cell_type": "Immune cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 PTPRC -> Immune cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_2",
+      "marker": "EPCAM",
+      "cell_type": "Epithelial cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 EPCAM -> Epithelial cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_3",
+      "marker": "PECAM1",
+      "cell_type": "Endothelial cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 PECAM1 -> Endothelial cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_4",
+      "marker": "SPP1",
+      "cell_type": "SPP1+ macrophage",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SPP1 -> SPP1+ macrophage 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_5",
+      "marker": "WNT2",
+      "cell_type": "WNT2+ fibroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 WNT2 -> WNT2+ fibroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_6",
+      "marker": "CA4",
+      "cell_type": "CA4+ capillary endothelial cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CA4 -> CA4+ capillary endothelial cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_7",
+      "marker": "MUC5B",
+      "cell_type": "Secretory cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 MUC5B -> Secretory cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_8",
+      "marker": "SCGB3A2",
+      "cell_type": "Secretory cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SCGB3A2 -> Secretory cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_9",
+      "marker": "SCGB1A1",
+      "cell_type": "Secretory cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SCGB1A1 -> Secretory cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "record_id": "EXCL_DOI_10.1038_s41588-024-01702-0_ORIG_10",
+      "marker": "KRT17",
+      "cell_type": "Aberrant basaloid cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 KRT17 -> Aberrant basaloid cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_1",
+      "marker": "PHOX2B",
+      "cell_type": "Neuroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 PHOX2B -> Neuroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_2",
+      "marker": "ISL1",
+      "cell_type": "Neuroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 ISL1 -> Neuroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_3",
+      "marker": "PLP1",
+      "cell_type": "Schwann cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 PLP1 -> Schwann cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_5",
+      "marker": "CD163",
+      "cell_type": "Macrophage",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CD163 -> Macrophage 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_6",
+      "marker": "CD86",
+      "cell_type": "Macrophage",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CD86 -> Macrophage 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_7",
+      "marker": "IRF8",
+      "cell_type": "Dendritic cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 IRF8 -> Dendritic cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_8",
+      "marker": "FLT3",
+      "cell_type": "Dendritic cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 FLT3 -> Dendritic cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02158-6_ORIG_10",
+      "marker": "PTPRB",
+      "cell_type": "Endothelial cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 PTPRB -> Endothelial cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_1",
+      "marker": "CHGA",
+      "cell_type": "Neuroendocrine cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CHGA -> Neuroendocrine cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_2",
+      "marker": "CHGA",
+      "cell_type": "Enteroendocrine cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CHGA -> Enteroendocrine cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_3",
+      "marker": "ELAVL3",
+      "cell_type": "Neuron",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 ELAVL3 -> Neuron 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_4",
+      "marker": "DEFA5",
+      "cell_type": "Paneth cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 DEFA5 -> Paneth cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_5",
+      "marker": "DEFA6",
+      "cell_type": "Paneth cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 DEFA6 -> Paneth cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_6",
+      "marker": "SFTPB",
+      "cell_type": "Alveolar type 2 cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SFTPB -> Alveolar type 2 cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_7",
+      "marker": "HOPX",
+      "cell_type": "Alveolar type 1 cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 HOPX -> Alveolar type 1 cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_8",
+      "marker": "PAX8",
+      "cell_type": "Thyrocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 PAX8 -> Thyrocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_9",
+      "marker": "ASGR1",
+      "cell_type": "Hepatocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 ASGR1 -> Hepatocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "record_id": "EXCL_DOI_10.1038_s41588-025-02182-6_ORIG_10",
+      "marker": "AVIL",
+      "cell_type": "Tuft cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 AVIL -> Tuft cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "record_id": "EXCL_DOI_10.1038_s41591-023-02327-2_ORIG_4",
+      "marker": "CCR7",
+      "cell_type": "Migratory dendritic cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CCR7 -> Migratory dendritic cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "record_id": "EXCL_DOI_10.1038_s41591-023-02327-2_ORIG_5",
+      "marker": "CCL19",
+      "cell_type": "Migratory dendritic cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CCL19 -> Migratory dendritic cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "record_id": "EXCL_DOI_10.1038_s41591-023-02327-2_ORIG_6",
+      "marker": "LAD1",
+      "cell_type": "Migratory dendritic cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 LAD1 -> Migratory dendritic cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "record_id": "EXCL_DOI_10.1038_s41591-023-02327-2_ORIG_7",
+      "marker": "FAM83D",
+      "cell_type": "Smooth muscle cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 FAM83D -> Smooth muscle cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "record_id": "EXCL_DOI_10.1038_s41591-023-02327-2_ORIG_8",
+      "marker": "SPP1",
+      "cell_type": "Monocyte-derived macrophage",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SPP1 -> Monocyte-derived macrophage 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "record_id": "EXCL_DOI_10.1038_s41591-023-02327-2_ORIG_9",
+      "marker": "MKI67",
+      "cell_type": "Proliferating cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 MKI67 -> Proliferating cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "record_id": "EXCL_DOI_10.1038_s41591-023-02327-2_ORIG_10",
+      "marker": "SCGB3A2",
+      "cell_type": "Secretory cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SCGB3A2 -> Secretory cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_1",
+      "marker": "EPCAM",
+      "cell_type": "Malignant breast cancer cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 EPCAM -> Malignant breast cancer cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_2",
+      "marker": "KRT8",
+      "cell_type": "Malignant breast cancer cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 KRT8 -> Malignant breast cancer cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_3",
+      "marker": "KRT18",
+      "cell_type": "Malignant breast cancer cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 KRT18 -> Malignant breast cancer cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_4",
+      "marker": "KRT19",
+      "cell_type": "Malignant breast cancer cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 KRT19 -> Malignant breast cancer cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_5",
+      "marker": "COL1A1",
+      "cell_type": "Cancer-associated fibroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 COL1A1 -> Cancer-associated fibroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_6",
+      "marker": "DCN",
+      "cell_type": "Cancer-associated fibroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 DCN -> Cancer-associated fibroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_7",
+      "marker": "ACTA2",
+      "cell_type": "Myofibroblast",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 ACTA2 -> Myofibroblast 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_8",
+      "marker": "CD68",
+      "cell_type": "Tumor-associated macrophage",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CD68 -> Tumor-associated macrophage 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_9",
+      "marker": "CD163",
+      "cell_type": "Tumor-associated macrophage",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CD163 -> Tumor-associated macrophage 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "record_id": "EXCL_DOI_10.1038_s41591-024-03215-z_ORIG_10",
+      "marker": "SPP1",
+      "cell_type": "Metastatic lesion macrophage",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 SPP1 -> Metastatic lesion macrophage 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_1",
+      "marker": "CYP3A4",
+      "cell_type": "Hepatocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CYP3A4 -> Hepatocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_2",
+      "marker": "ALB",
+      "cell_type": "Hepatocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 ALB -> Hepatocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_3",
+      "marker": "APOC3",
+      "cell_type": "Hepatocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 APOC3 -> Hepatocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_4",
+      "marker": "HPGD",
+      "cell_type": "Hepatocyte",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 HPGD -> Hepatocyte 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_5",
+      "marker": "FLT1",
+      "cell_type": "Endothelial cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 FLT1 -> Endothelial cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_6",
+      "marker": "COL3A1",
+      "cell_type": "Hepatic stellate cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 COL3A1 -> Hepatic stellate cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_7",
+      "marker": "COL6A3",
+      "cell_type": "Hepatic stellate cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 COL6A3 -> Hepatic stellate cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_8",
+      "marker": "CD68",
+      "cell_type": "Kupffer cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CD68 -> Kupffer cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_9",
+      "marker": "CD163",
+      "cell_type": "Kupffer cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 CD163 -> Kupffer cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "record_id": "EXCL_DOI_10.1038_s42003-021-02562-8_ORIG_10",
+      "marker": "GPC3",
+      "cell_type": "Hepatoblastoma tumor cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 GPC3 -> Hepatoblastoma tumor cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "record_id": "EXCL_07315_CCR2_MOUSE_INFILT",
+      "marker": "Ccr2",
+      "cell_type": "Infiltrating monocyte / macrophage",
+      "exclusion_type": "mismatch_correction",
+      "reason": "原 Gemini 提取存在严重跨物种混淆与脑补命名：原文在斑马鱼 cluster 4 中提及 ccr2 与 tgfb1a 富集，并未在小鼠单细胞图谱中定义所谓 'Infiltrating monocyte / macrophage' 独立亚群。小鼠巨噬细胞亚群严格定义为 mm1-mm6 (如 mm2 为 H2-Aa, mm3 为 Ly6c2, mm4 为 Mrc1/Folr2/Lyve1/Timd4)。该小鼠错配条目彻底撤销留痕。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_1",
+      "marker": "Ins1",
+      "cell_type": "Pancreatic beta cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Ins1 -> Pancreatic beta cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_2",
+      "marker": "Ins2",
+      "cell_type": "Pancreatic beta cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Ins2 -> Pancreatic beta cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_3",
+      "marker": "Gcg",
+      "cell_type": "Pancreatic alpha cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Gcg -> Pancreatic alpha cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_4",
+      "marker": "Ttr",
+      "cell_type": "Pancreatic alpha cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Ttr -> Pancreatic alpha cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_5",
+      "marker": "Sst",
+      "cell_type": "Pancreatic delta cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Sst -> Pancreatic delta cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_6",
+      "marker": "Rbp4",
+      "cell_type": "Pancreatic delta cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Rbp4 -> Pancreatic delta cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_7",
+      "marker": "Ppy",
+      "cell_type": "Pancreatic gamma cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Ppy -> Pancreatic gamma cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_8",
+      "marker": "Ghrl",
+      "cell_type": "Pancreatic epsilon cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Ghrl -> Pancreatic epsilon cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_9",
+      "marker": "Sox10",
+      "cell_type": "Schwann cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Sox10 -> Schwann cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "record_id": "EXCL_DOI_10.1038_s42255-023-00876-x_ORIG_10",
+      "marker": "Plp1",
+      "cell_type": "Schwann cell",
+      "exclusion_type": "canonical_or_lacks_subcluster_novelty",
+      "reason": "原历史粗筛条目 Plp1 -> Schwann cell 经总表系统审计，判定为常规先验常识或缺乏细分亚群排他特异性证据，未纳入正式总表，在此予以留痕并转入 context_only。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "record_id": "EXCL_AAT5031_SLC12A1_TAL",
+      "marker": "SLC12A1",
+      "cell_type": "Thick Ascending Limb Epithelial Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：SLC12A1 属于肾脏髓袢升支粗段 (TAL) 已知教科书标志物，本文为肾脏免疫细胞时空分区研究，其实质细胞标志物仅用于背景图谱对照，缺乏本文独立的新发现证据。总表 audit_exclusions 已裁决排除，转入 context_only 留痕。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "record_id": "EXCL_AAT5031_AQP2_CD",
+      "marker": "AQP2",
+      "cell_type": "Collecting Duct Principal Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：AQP2 为集合管主细胞先验经典标志物，本文研究重点为免疫微环境，总表 audit_exclusions 已裁决排除其实质细胞候选资格。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "record_id": "EXCL_AAT5031_SLC12A3_DCT",
+      "marker": "SLC12A3",
+      "cell_type": "Distal Convoluted Tubule Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：SLC12A3 为远曲小管经典标志物，总表 audit_exclusions 已排除。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "record_id": "EXCL_AAT5031_NPHS2_PODO",
+      "marker": "NPHS2",
+      "cell_type": "Podocyte",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：NPHS2 (Podocin) 为肾小球足细胞经典标志物，总表 audit_exclusions 已排除。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "record_id": "EXCL_ABL4290_SOX10_SCHWANN",
+      "marker": "SOX10",
+      "cell_type": "Schwann Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：SOX10 作为外周神经胶质经典通用标志物，在本文仅作为跨组织图谱对神经胶质核团的粗分类背景标签，缺乏针对跨组织特异亚群的独立论证。总表 audit_exclusions 已裁决排除，转入 context_only 留痕。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "record_id": "EXCL_ABL4290_TTN_MYONUCLEUS",
+      "marker": "TTN",
+      "cell_type": "Skeletal Muscle Myonucleus",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：TTN 为肌小节结构蛋白先验常识标志物，本文对肌细胞的核心发现为区分快肌 (MYH2) 与慢肌 (MYH7, PPARGC1A) 亚型。泛肌核 TTN 缺乏亚型区分度，总表 audit_exclusions 已排除。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "record_id": "EXCL_ABL4290_TNNT2_CARDIO",
+      "marker": "TNNT2",
+      "cell_type": "Cardiomyocyte",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：TNNT2 为心肌细胞先验经典标志物，总表 audit_exclusions 已裁决排除其实质细胞候选资格。"
+    },
+    {
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "record_id": "EXCL_ABL4290_ACTA2_VSMC",
+      "marker": "ACTA2",
+      "cell_type": "Vascular Smooth Muscle Cell",
+      "exclusion_type": "background_canonical_reference",
+      "reason": "未决项查证排除：ACTA2 为血管平滑肌先验经典标志物，总表 audit_exclusions 已排除。"
+    },
+    {
+      "paper_id": "PMID_35115729",
+      "record_id": "EXCL_35115729_CLEC3B_EPINEURIAL",
+      "marker": "Clec3b",
+      "cell_type": "Epineurial Fibroblast",
+      "exclusion_type": "lacks_direct_evidence",
+      "reason": "未决项查证排除：Clec3b 属于广泛结缔组织间质成纤维共表达基因，在本文外神经膜 (epineurium) 中并未展现出超越 Pcolce, Ccbe1, Pi16 的特异区分度。总表 audit_exclusions 已明确排除，转入 context_only 留痕。"
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "schema_version": "v3.0",
+  "paper_id": "DOI_10.1038_s41586-021-03929-x",
+  "doi": "10.1038/s41586-021-03929-x",
+  "title": "Blood and immune development in human fetal bone marrow and Down syndrome",
+  "materials_reviewed": [
+    {
+      "material_name": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+      "material_type": "primary_article_pdf",
+      "status": "reviewed",
+      "notes": "包含正文 5 页（pp. 327-331）、Methods、Extended Data Figures 1-10 及相关图注"
+    },
+    {
+      "material_name": "DOI_10.1038_s41586-021-03929-x.md",
+      "material_type": "review_markdown",
+      "status": "reviewed",
+      "notes": "包含全文 Markdown 结构化文本及图表文字说明"
+    },
+    {
+      "material_name": "Supplementary Tables 1-49",
+      "material_type": "supplementary_data",
+      "status": "missing",
+      "notes": "正文中引用的 49 个 Supplementary Tables 独立 Excel 文件在本地未单独提供"
+    }
+  ],
+  "cluster_inventory": [
+    {
+      "cluster_id": "Cluster_HSC_MPP",
+      "cluster_name": "Haematopoietic stem cell / multipotent progenitor (HSC/MPP)",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "胎儿骨髓造血干细胞及多能祖细胞，表达 CD34、KIT(CD117)、SPINK2、PRSS57"
+    },
+    {
+      "cluster_id": "Cluster_Erythroid",
+      "cluster_name": "Erythroid lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "红系分化细胞群，表达 HBA1/2、ALAS2、GYPA(CD235a)、KLF1，在唐氏综合征中过度扩张"
+    },
+    {
+      "cluster_id": "Cluster_MK",
+      "cluster_name": "Megakaryocyte lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "巨核细胞谱系，表达 ITGA2B(CD41)、GP9、PLEK"
+    },
+    {
+      "cluster_id": "Cluster_B_lineage",
+      "cluster_name": "B lymphocyte lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "B 细胞发育谱系（包含 Pre pro-B、Pro-B、Pre-B、Immature B 等），表达 VPREB1、IGLL1、CD79A、CD19"
+    },
+    {
+      "cluster_id": "Cluster_Neutrophil",
+      "cluster_name": "Neutrophil lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "胎儿骨髓首次涌现的中性粒细胞谱系，表达 MPO、ELANE、FUT4(CD15)、S100A8/9"
+    },
+    {
+      "cluster_id": "Cluster_Eo_Baso_Mast",
+      "cluster_name": "Eosinophil, basophil, and mast cell lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "嗜酸性、嗜碱性粒细胞及肥大细胞，表达 GATA2、HDC、PRG2，经分选涂片显微镜直接验证"
+    },
+    {
+      "cluster_id": "Cluster_DC",
+      "cluster_name": "Dendritic cell subsets (pDC, tDC, DC1, DC2, DC3)",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "骨髓分化的树突状细胞亚群，表达 CLEC4C(BDCA-2)、IL3RA(CD123)、CLEC9A、CD1C"
+    },
+    {
+      "cluster_id": "Cluster_Monocyte",
+      "cluster_name": "Monocyte lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "单核细胞谱系，表达 CD14、CD68、CSF1R"
+    },
+    {
+      "cluster_id": "Cluster_EC_Tip",
+      "cluster_name": "Tip endothelial cell",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow (metaphysis)",
+      "four_layer_category": "outside",
+      "description": "干骺端分支状非窦状内皮细胞，高表达 CD34、VIM、COL15A1、DLL4，低表达 VEGFR2(KDR)"
+    },
+    {
+      "cluster_id": "Cluster_EC_Sinusoidal",
+      "cluster_name": "Sinusoidal endothelial cell",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow (diaphysis)",
+      "four_layer_category": "outside",
+      "description": "骨干回旋窦状血管内皮细胞，高表达 VEGFR2(KDR)、CTSL、STAB2、SELENOP，低表达 CD34"
+    },
+    {
+      "cluster_id": "Cluster_Stroma_CXCL12",
+      "cluster_name": "CXCL12+ stromal cells",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "four_layer_category": "outside",
+      "description": "伴行小动脉的 CXCL12+ 骨髓基质细胞，参与构成干细胞生态位"
+    }
+  ],
+  "formal_markers": [
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M01",
+      "marker": "CD34",
+      "marker_original": "CD34",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Haematopoietic Stem Cell / Multipotent Progenitor",
+      "cell_type_original": "HSC/MPP & progenitors",
+      "author_cluster_id": "Cluster HSC/MPP",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "FACS prospective isolation, CITE-seq, and multiplex immunofluorescence on fetal femur sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD34 antibody in FACS, CITE-seq ADT, and multiplex IF",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text pp. 327-330, Fig. 1b, Fig. 3b, Extended Data Fig. 1d-e, Extended Data Fig. 9f-g",
+      "source_context": "CD34+CD117+ HSC/MPPs and progenitors were manually annotated... relative cellular density within each ROI assessed by dividing HSC/MPP and progenitor counts by total cells",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 4,
+          "printed_page": 330,
+          "figure_panel": "Fig. 1b, Fig. 3b, Extended Data Fig. 9f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Identification of HSC/MPP and progenitors as cells co-expressing CD34 and CD117... represented in multiplex IF channels",
+          "mapping_basis": "CITE-seq surface protein, FACS sorting gate, and multiplex histological IF"
+        }
+      ],
+      "validation_method": "immunofluorescence / flow_cytometry / scRNA-seq",
+      "gate_definition": "CD34+ CD38- CD45RA-",
+      "notes": "Classic human haematopoietic stem/progenitor marker, also marks vascular tip endothelial cells at high levels",
+      "decision_reason": "High-evidence multi-validation across CITE-seq, flow sorting, and in situ tissue IF"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M02",
+      "marker": "KIT",
+      "marker_original": "CD117 (KIT)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Haematopoietic Stem Cell / Multipotent Progenitor",
+      "cell_type_original": "HSC/MPP & progenitors",
+      "author_cluster_id": "Cluster HSC/MPP",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "Multiplex immunofluorescence on fetal femur sections and scRNA-seq/CITE-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD117 antibody in multiplex IF",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 330, Fig. 3b, Extended Data Fig. 9b, f, g",
+      "source_context": "The frequency of CD34+CD117+ HSC/MPPs and progenitors relative to cellular density was similar in metaphyseal and diaphyseal areas... Identification of HSC/MPP and progenitors as cells co-expressing CD34 and CD117 (Extended Data Fig. 9f)",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 4,
+          "printed_page": 330,
+          "figure_panel": "Fig. 3b, Extended Data Fig. 9f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Identification of HSC/MPP and progenitors as cells co-expressing CD34 and CD117 (white arrow): left = all multiplex channels, middle = CD117 only, right = CD34 only",
+          "mapping_basis": "in situ multiplex immunofluorescence on primary fetal femur sections"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "CD34+ CD117+",
+      "notes": "Receptor tyrosine kinase c-Kit, co-localizes with CD34 on bone marrow stem and progenitor cells",
+      "decision_reason": "Direct in situ imaging validation and quantification across 127 anatomical ROIs"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M03",
+      "marker": "SPINK2",
+      "marker_original": "SPINK2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Haematopoietic Stem Cell / Multipotent Progenitor",
+      "cell_type_original": "HSC/MPP & progenitors",
+      "author_cluster_id": "Cluster HSC/MPP",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "scRNA-seq cluster dotplot and DEG analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Fig. 1b",
+      "source_context": "Gene expression dot plot of cell-state-defining genes for broad categories in FBM scRNA-seq data (SPINK2 in HSC/MPP & pro.)",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Dot plot of cell-state-defining genes for broad categories in FBM: CD34, SPINK2, PRSS57 in HSC/MPP & pro.",
+          "mapping_basis": "scRNA-seq cluster dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Serine peptidase inhibitor Kazal type 2, highly specific transcriptomic marker for immature human HSC/MPP compartment",
+      "decision_reason": "Defines HSC/MPP cluster in scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M04",
+      "marker": "GYPA",
+      "marker_original": "CD235a (GYPA)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Erythroid Cell",
+      "cell_type_original": "erythroid lineage",
+      "author_cluster_id": "Cluster Erythroid",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "Single-cell in vitro colony readout assays on MS5 stroma and scRNA-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD235a antibody in colony flow cytometry and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Methods p. 331, Fig. 1b, Extended Data Fig. 6c",
+      "source_context": "Erythroid colonies were identified as CD45-GYPA+ >= 30 cells... Gene expression dot plot of cell-state-defining genes: ALAS2, GYPA in Erythroid",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1b, Extended Data Fig. 6c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Erythroid colonies were identified as CD45-GYPA+ >= 30 cells... ALAS2, GYPA in Erythroid",
+          "mapping_basis": "functional single-cell clonogenic assay readout and scRNA-seq DEG"
+        }
+      ],
+      "validation_method": "flow_cytometry / scRNA-seq",
+      "gate_definition": "CD45- GYPA+",
+      "notes": "Glycophorin A, definitive cell surface erythroid differentiation marker",
+      "decision_reason": "Single-cell colony functional validation and scRNA-seq DEG"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M05",
+      "marker": "ITGA2B",
+      "marker_original": "CD41 (ITGA2B)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Megakaryocyte",
+      "cell_type_original": "megakaryocyte (MK)",
+      "author_cluster_id": "Cluster MK",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "Single-cell clonogenic colony flow cytometry and scRNA-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD41 antibody in colony flow cytometry",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Methods p. 331, Fig. 1b, Extended Data Fig. 6c",
+      "source_context": "megakaryocyte colonies as CD41+ >= 30 cells... cell-state-defining genes for MK: PLEK, ITGA2B",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1b, Extended Data Fig. 6c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "megakaryocyte colonies as CD41+ >= 30 cells (Extended Data Fig. 6c)",
+          "mapping_basis": "single-cell functional clonal assay gating"
+        }
+      ],
+      "validation_method": "flow_cytometry / scRNA-seq",
+      "gate_definition": "CD41+",
+      "notes": "Integrin subunit alpha 2b, defining surface marker for megakaryocyte differentiation",
+      "decision_reason": "Clonal functional colony differentiation readout"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M06",
+      "marker": "VPREB1",
+      "marker_original": "VPREB1",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "B-lineage Progenitor Cell",
+      "cell_type_original": "B lineage (Pre pro-B / Pro-B)",
+      "author_cluster_id": "Cluster B_lineage",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "scRNA-seq dotplot and B-cell developmental trajectory analysis",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Fig. 1b, Fig. 2b, Extended Data Fig. 4a",
+      "source_context": "Gene expression dot plot of cell-state-defining genes: VPREB1, IGLL1, CD79A in B lineage... The substantial expansion of B lymphocytes in FBM contrasts with fetal liver",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1b, Extended Data Fig. 4a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "VPREB1, IGLL1, CD79A in B lineage",
+          "mapping_basis": "scRNA-seq cluster defining DEG dotplot"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Surrogate light chain component essential for pre-B cell receptor assembly during early B lymphopoiesis",
+      "decision_reason": "Defines expanding B-lineage compartment in FBM"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M07",
+      "marker": "FUT4",
+      "marker_original": "CD15 (FUT4)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Neutrophil",
+      "cell_type_original": "neutrophil lineage",
+      "author_cluster_id": "Cluster Neutrophil",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "Prospective FACS isolation, Smart-seq2 scRNA-seq, cytospin morphology, and clonal colony flow cytometry",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD15 antibody in FACS sorting, Giemsa cytospin, and colony assay",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Methods p. 331, Fig. 1f, Extended Data Fig. 1e-f, Extended Data Fig. 6c",
+      "source_context": "We validated their presence in FBM by morphology and prospective FACS isolation for scRNA-seq (Smart-seq2) (Fig. 1f, Extended Data Fig. 1)... myeloid colonies as [(CD45+CD14+) + (CD45+CD15+)] >= 30 cells",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1f, Extended Data Fig. 1e",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Cytospin images of FBM neutrophils sorted according to gating strategy and stained with Giemsa (Fig. 1f)",
+          "mapping_basis": "prospective FACS isolation, Giemsa cytospin morphological confirmation, and scRNA-seq"
+        }
+      ],
+      "validation_method": "flow_cytometry / cytospin / scRNA-seq",
+      "gate_definition": "CD45+ CD15+",
+      "notes": "Landmark validation demonstrating that granulopoiesis initiates in fetal bone marrow but not in fetal liver",
+      "decision_reason": "High-evidence morphological, flow cytometric, and single-cell sequencing validation"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M08",
+      "marker": "GATA2",
+      "marker_original": "GATA2",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Eosinophil / Basophil / Mast Cell Progenitor",
+      "cell_type_original": "Eo/baso/mast cell",
+      "author_cluster_id": "Cluster Eo_Baso_Mast",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "scRNA-seq dotplot, prospective FACS isolation, and Giemsa cytospin imaging",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "GATA2 transcript expression and sorted Giemsa cytospins",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Fig. 1b, Fig. 1f",
+      "source_context": "Gene expression dot plot: GATA2, HDC in Eo/baso/mast cell... Cytospin images of FBM eosinophils, basophils, mast cells sorted according to gating strategy (Fig. 1f)",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1b, Fig. 1f",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Cytospin images of FBM eosinophils, basophils, mast cells and neutrophils sorted according to gating strategy... stained with Giemsa (Scale bars, 10 µm)",
+          "mapping_basis": "scRNA-seq cluster DEG plus cytospin histological confirmation"
+        }
+      ],
+      "validation_method": "cytospin / flow_cytometry / scRNA-seq",
+      "gate_definition": null,
+      "notes": "Master transcription factor defining mast cell, basophil, and eosinophil differentiation in fetal bone marrow",
+      "decision_reason": "scRNA-seq cluster DEG supported by cytospin morphology"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M09",
+      "marker": "CLEC4C",
+      "marker_original": "BDCA-2 (CLEC4C)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Plasmacytoid Dendritic Cell",
+      "cell_type_original": "pDC / dendritic cell (DC)",
+      "author_cluster_id": "Cluster DC",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "scRNA-seq dotplot and DC subset developmental trajectory",
+      "four_layer_category": "outside",
+      "measurement_type": "RNA",
+      "entity_detail": "Transcript expression in scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Fig. 1b, Fig. 2a",
+      "source_context": "CLEC4C, IL3RA in DC... Plasmacytoid (pDC), transitional DC (tDC) and DC3 emerged during FBM haematopoiesis",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1b, Fig. 2a",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CLEC4C, IL3RA, HLA-DPA1 in DC",
+          "mapping_basis": "scRNA-seq cluster defining DEG"
+        }
+      ],
+      "validation_method": "scRNA-seq",
+      "gate_definition": null,
+      "notes": "Prototypical surface marker for human plasmacytoid dendritic cells emerging in FBM",
+      "decision_reason": "Defines newly emerging pDC cluster in FBM"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M10",
+      "marker": "CD14",
+      "marker_original": "CD14",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Monocyte",
+      "cell_type_original": "monocyte lineage",
+      "author_cluster_id": "Cluster Monocyte",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "scRNA-seq dotplot and single-cell colony flow cytometry",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD14 antibody in colony flow cytometry and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 328, Methods p. 331, Fig. 1b, Fig. 2a, Extended Data Fig. 6c",
+      "source_context": "Gene expression dot plot: CD14, CD68 in Monocyte... myeloid colonies as [(CD45+CD14+) + (CD45+CD15+)] >= 30 cells",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 2,
+          "printed_page": 328,
+          "figure_panel": "Fig. 1b, Extended Data Fig. 6c",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "CD14, CD68 in Monocyte",
+          "mapping_basis": "clonal colony flow cytometry readout and scRNA-seq DEG"
+        }
+      ],
+      "validation_method": "flow_cytometry / scRNA-seq",
+      "gate_definition": "CD45+ CD14+",
+      "notes": "Classic classical monocyte marker, defines monocyte lineage differentiation in FBM",
+      "decision_reason": "Validated by single-cell colony output flow cytometry and scRNA-seq"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M11",
+      "marker": "CD34",
+      "marker_original": "CD34 (high in Tip EC)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Tip Endothelial Cell",
+      "cell_type_original": "tip endothelial cells (non-sinusoidal ECs)",
+      "author_cluster_id": "Cluster EC_Tip",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow metaphysis",
+      "experimental_context": "scRNA-seq, CITE-seq, and multiplex immunofluorescence on fetal femur sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CD34 antibody in multiplex IF and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 330, Fig. 3a, Fig. 3b",
+      "source_context": "Using multiplex immunofluorescence microscopy, we identified CD34hiVEGFR2lo branching vessels adjacent to the epiphyseal cartilage (metaphysis)... The non-sinusoidal 'tip endothelial cells' expressed high levels of VIM and CD34, associated with non-sinusoidal endothelial cells in mice",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 4,
+          "printed_page": 330,
+          "figure_panel": "Fig. 3a, Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Longitudinal section of fetal femur with multiplex immunofluorescence staining, showing CD34 (red) and VEGFR2 (green) channels to demonstrate regional differences in BM vasculature between metaphysis (M) and diaphysis (D)",
+          "mapping_basis": "multiplex IF spatial compartmentalization and scRNA-seq/CITE-seq DEG"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "CD34hi VEGFR2lo",
+      "notes": "Distinguishes metaphyseal arteriolar/tip capillaries from diaphyseal sinusoidal capillaries",
+      "decision_reason": "High-evidence histological in situ spatial validation"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M12",
+      "marker": "KDR",
+      "marker_original": "VEGFR2 (KDR)",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Sinusoidal Endothelial Cell",
+      "cell_type_original": "sinusoidal endothelial cells",
+      "author_cluster_id": "Cluster EC_Sinusoidal",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow diaphysis",
+      "experimental_context": "Multiplex immunofluorescence on fetal femur sections, scRNA-seq, and CITE-seq",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-VEGFR2 antibody in multiplex IF and scRNA-seq",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 330, Fig. 3a, Fig. 3b",
+      "source_context": "VEGFR2hiCD34lo cells formed convoluted structures in more-distal regions (diaphysis)... FBM sinusoid endothelial cells expressed characteristic genes CTSL, STAB2, and SELENOP",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 4,
+          "printed_page": 330,
+          "figure_panel": "Fig. 3a, Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "VEGFR2hiCD34lo cells formed convoluted structures in more-distal regions (diaphysis)... reminiscent of L-type sinusoids in mouse BM",
+          "mapping_basis": "in situ multiplex immunofluorescence and single-cell transcriptomics"
+        }
+      ],
+      "validation_method": "immunofluorescence / scRNA-seq",
+      "gate_definition": "VEGFR2hi CD34lo",
+      "notes": "Defines diaphyseal sinusoidal vascular plexus supporting haematopoietic expansion",
+      "decision_reason": "High-evidence spatial histological localization in human fetal bone"
+    },
+    {
+      "record_id": "DOI_10.1038_s41586-021-03929-x_M13",
+      "marker": "CXCL12",
+      "marker_original": "CXCL12",
+      "normalization_basis": "HGNC approved symbol",
+      "cell_type": "Bone Marrow Stromal Cell",
+      "cell_type_original": "CXCL12+ stromal cells / periarteriolar stroma",
+      "author_cluster_id": "Cluster Stroma_CXCL12",
+      "species": "human",
+      "organ_or_tissue": "fetal bone marrow",
+      "experimental_context": "Multiplex immunofluorescence on fetal femur sections",
+      "four_layer_category": "outside",
+      "measurement_type": "protein and RNA",
+      "entity_detail": "Anti-CXCL12 antibody in multiplex IF",
+      "marker_direction": "positive",
+      "evidence_type": "figure_labeled",
+      "source_location": "Main Text p. 330, Fig. 3b",
+      "source_context": "Thicker-walled CD34hi vessels, co-localizing with CXCL12+ cells, were present in both metaphysis and diaphysis (Fig. 3b, Extended Data Fig. 9)",
+      "sources": [
+        {
+          "file": "PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+          "pdf_page": 4,
+          "printed_page": 330,
+          "figure_panel": "Fig. 3b",
+          "table_locator": null,
+          "evidence_mode": "text_quote",
+          "source_context": "Thicker-walled CD34hi vessels, co-localizing with CXCL12+ cells... Scale bars, 50 µm",
+          "mapping_basis": "in situ multiplex immunofluorescence on fetal femur"
+        }
+      ],
+      "validation_method": "immunofluorescence",
+      "gate_definition": "CXCL12+ peri-arteriolar",
+      "notes": "Essential stromal chemokine niche factor maintaining stem cell retention and quiescence",
+      "decision_reason": "In situ multiplex imaging showing association with CD34hi arterioles"
+    }
+  ],
+  "context_only": [],
+  "excluded": [],
+  "unresolved": [],
+  "coverage_summary": {
+    "formal_markers_count": 13,
+    "context_only_count": 0,
+    "excluded_count": 0,
+    "unresolved_count": 0,
+    "materials_reviewed_scope": "Reviewed full text PDF (15 pages including methods and Extended Data), Figures 1-3, Extended Data Figures 1-10.",
+    "missing_materials": "Supplementary Tables 1-49 referenced in text not provided as standalone files.",
+    "potential_leakage_scope": "Individual genes in 64 detailed cell state signatures (Extended Data Figs. 3, 4, 8) beyond the explicitly validated lineage markers."
+  }
+}
