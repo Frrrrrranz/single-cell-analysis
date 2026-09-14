@@ -210,3 +210,9 @@ marker提取/
 - 已删除旧流水线、可再生依赖缓存、一次性脚本、staged/baseline/reviewing 工作簿与渲染预览，以及不进入最终交付的 `our_paper_metadata.xlsx`。
 - 两份无法归属的 PDF 未删除，已移至 `audit/unresolved-assets/pdf/` 并保留供人工复核。
 - 最终验证通过：44 个文章目录；42 组 PDF/Markdown 配对和 2 个缺失来源状态说明；75 个保留审核 JSON 均可解析；3 张正式表保留；任务表 44 篇，正式 Marker 表 2,480 条唯一记录，按细胞类型表 1,062 个分组。
+
+### 根目录遗留项清理（2026-09-14）
+
+- 在 `feat/0914` 上删除已完成批次的 `.claude/`、`.temp/`、`tmp/` 与根目录裁图/页面预览图；这些均为临时交换或可再生资产。
+- 删除已被 `articles/` 和 `audit/` 最终结构取代的 `marker_Gemini*` 根目录遗留文件。
+- `papers_report/` 按用户要求完整保留，未进行任何删除或移动。

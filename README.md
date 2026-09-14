@@ -12,7 +12,6 @@
 │   ├── reference/    # 导师参考工作簿
 │   ├── MARKER_POLICY.md
 │   └── README.md
-├── .temp/            # 当前批次的 Gemini 输入、输出及人工补充材料
 └── papers_report/    # 既有论文阅读与分析资料
 ```
 
