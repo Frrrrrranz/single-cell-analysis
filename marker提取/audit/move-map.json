@@ -1,0 +1,1612 @@
+{
+  "scope": "Only files with exactly one task-paper association and a deterministic final article location.",
+  "not_moved": "Orphans, shared audit records, workbook copies, scripts, and files without an unambiguous article role remain in place for later review.",
+  "mode": "applied",
+  "summary": {
+    "mapping_count": 177,
+    "by_category": {
+      "evidence_image_v2": 13,
+      "evidence_image_v3": 14,
+      "extraction_json": 42,
+      "repair_json": 23,
+      "source_conversion_json": 1,
+      "source_markdown": 42,
+      "source_pdf": 42
+    }
+  },
+  "mappings": [
+    {
+      "source": "marker提取/pdf/A_molecular_cell_atlas_of_the_human_lung_from_single-cell_RNA_sequencing(科研通-ablesci.com).pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-020-2922-4\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41586-020-2922-4",
+      "category": "source_pdf",
+      "size_bytes": 24850008,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.1016_j.healun.2026.02.1666.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.healun.2026.02.1666\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "category": "source_pdf",
+      "size_bytes": 8203781,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.1016_j.jcf.2025.01.016_Cystic Fibrosis and healthy control biopsy.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.jcf.2025.01.016\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+      "category": "source_pdf",
+      "size_bytes": 4313490,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.1038_s44318-024-00328-6_A novel human fetal lung-derived alveolar organoid model reveals mechanisms of surfactant protein C maturation relevant .pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s44318-024-00328-6\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s44318-024-00328-6",
+      "category": "source_pdf",
+      "size_bytes": 10784094,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.1101_2024.10.23.619925_Profiling of epithelial functional states and fibroblast phenotypes in hormone therapy-naïve localis.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1101_2024.10.23.619925\\source\\paper.pdf",
+      "paper_id": "DOI_10.1101_2024.10.23.619925",
+      "category": "source_pdf",
+      "size_bytes": 3501253,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.1101_2025.01.17.633590_A pancreatic islet scRNA-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1101_2025.01.17.633590\\source\\paper.pdf",
+      "paper_id": "DOI_10.1101_2025.01.17.633590",
+      "category": "source_pdf",
+      "size_bytes": 4613942,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.1101_2025.09.26.678707.json",
+      "destination": "marker提取\\articles\\DOI_10.1101_2025.09.26.678707\\extraction\\source-conversion.json",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "category": "source_conversion_json",
+      "size_bytes": 72550,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.1101_2025.09.26.678707_Cellular and Spatial Drivers of Unresolved Injury and Functional Decline in the Human Kidney.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1101_2025.09.26.678707\\source\\paper.pdf",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "category": "source_pdf",
+      "size_bytes": 39940889,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/DOI_10.64898_2025.12.18.695268_A poly(A) isoform–aware single-cell and spatial atlas defines fibroblast niches in the human bladder.pdf",
+      "destination": "marker提取\\articles\\DOI_10.64898_2025.12.18.695268\\source\\paper.pdf",
+      "paper_id": "DOI_10.64898_2025.12.18.695268",
+      "category": "source_pdf",
+      "size_bytes": 17044355,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/Early_human_lung_immune_cell_development_and_its_role_in_epithelial_cell_fate(科研通-ablesci.com) (1).pdf",
+      "destination": "marker提取\\articles\\DOI_10.1126_sciimmunol.adf9988\\source\\paper.pdf",
+      "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+      "category": "source_pdf",
+      "size_bytes": 4165887,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_28965763_Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutat.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2017.09.004\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+      "category": "source_pdf",
+      "size_bytes": 4502919,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_30566875_A Cellular Anatomy of the Normal Adult Human Prostate and Prostatic Urethra..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.celrep.2018.11.086\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "category": "source_pdf",
+      "size_bytes": 7429581,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_31604275_Spatiotemporal immune zonation of the human kidney.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.aat5031\\source\\paper.pdf",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "category": "source_pdf",
+      "size_bytes": 2276423,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_32497356_Urethral luminal epithelia are castration-insensitive cells of the proximal prostate.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1002_pros.24020\\source\\paper.pdf",
+      "paper_id": "DOI_10.1002_pros.24020",
+      "category": "source_pdf",
+      "size_bytes": 4664186,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_32669714_A single-cell transcriptomic atlas characterizes ageing tissues in the mouse..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-020-2496-1\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "category": "source_pdf",
+      "size_bytes": 5855501,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_33164753_Single-cell multiomic profiling of human lungs reveals cell-type-specific and age-dynamic control of.pdf",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\source\\paper.pdf",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "source_pdf",
+      "size_bytes": 3827308,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_33686070_Time-resolved single-cell analysis of Brca1 associated mammary tumourigenesis reveals aberrant diffe.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-021-21783-3\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "category": "source_pdf",
+      "size_bytes": 5071364,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_33915568_A molecular single-cell lung atlas of lethal COVID-19..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03569-1\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "category": "source_pdf",
+      "size_bytes": 20688925,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_34153974_Dysregulation of brain and choroid plexus cell types in severe COVID-19..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03710-0\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41586-021-03710-0",
+      "category": "source_pdf",
+      "size_bytes": 15753777,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_34352228_Impaired local intrinsic immunity to SARS-CoV-2 infection in severe COVID-19..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2021.07.023\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "category": "source_pdf",
+      "size_bytes": 39155374,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_34497364_Identification of distinct tumor cell populations and key genetic mechanisms through single cell seq.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-021-02562-8\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "category": "source_pdf",
+      "size_bytes": 7073265,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_34588693_Blood and immune development in human fetal bone marrow and Down syndrome.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03929-x\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "category": "source_pdf",
+      "size_bytes": 13369795,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_34825887_Single-nucleus transcriptomic analysis of human dorsal root ganglion neurons..pdf",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.71752\\source\\paper.pdf",
+      "paper_id": "DOI_10.7554_elife.71752",
+      "category": "source_pdf",
+      "size_bytes": 8143123,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_34937051_Local and systemic responses to SARS-CoV-2 infection in children and adults..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-04345-x\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "category": "source_pdf",
+      "size_bytes": 5079560,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_35115729.pdf",
+      "destination": "marker提取\\articles\\PMID_35115729\\source\\paper.pdf",
+      "paper_id": "PMID_35115729",
+      "category": "source_pdf",
+      "size_bytes": 11511831,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_35549310_Mapping the developing human immune system across organs..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.abo0510\\source\\paper.pdf",
+      "paper_id": "DOI_10.1126_science.abo0510",
+      "category": "source_pdf",
+      "size_bytes": 44309115,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_35549429_Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.abl4290\\source\\paper.pdf",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "category": "source_pdf",
+      "size_bytes": 3856486,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_36493756_A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulato.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2022.11.005\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "category": "source_pdf",
+      "size_bytes": 26074390,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_36493780_Organoid modeling of human fetal lung alveolar development reveals mechanisms of cell fate patternin.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.stem.2022.11.013\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "category": "source_pdf",
+      "size_bytes": 30681310,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_36543915_A spatially resolved atlas of the human lung characterizes a gland-associated immune niche..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "source_pdf",
+      "size_bytes": 19652587,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_36796082_A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1164_rccm.202207-1384oc\\source\\paper.pdf",
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "category": "source_pdf",
+      "size_bytes": 3314270,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_37120427_Piezo2 expressing nociceptors mediate mechanical sensitization in experimental osteoarthritis.pdf",
+      "destination": "marker提取\\articles\\PMID_37120427\\source\\paper.pdf",
+      "paper_id": "PMID_37120427",
+      "category": "source_pdf",
+      "size_bytes": 2845061,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_37291214_An integrated cell atlas of the lung in health and disease..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-023-02327-2\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "category": "source_pdf",
+      "size_bytes": 21570970,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_37516747_Guided construction of single cell reference for human and mouse lung..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-023-40173-5\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "category": "source_pdf",
+      "size_bytes": 11404221,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_37697055_Delineating mouse β-cell identity during lifetime and in diabetes with a single cell atlas..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42255-023-00876-x\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "category": "source_pdf",
+      "size_bytes": 26632519,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_38355799_A single-cell time-lapse of mouse prenatal development from gastrula to birth..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-024-07069-w\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "category": "source_pdf",
+      "size_bytes": 66210352,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_38548990_Cell-type-specific and disease-associated expression quantitative trait loci in the human lung..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-024-01702-0\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "category": "source_pdf",
+      "size_bytes": 2713602,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_39362841_The single-cell transcriptomic atlas iPain identifies senescence of nociceptors as a therapeutical t.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "source_pdf",
+      "size_bytes": 4739481,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_39478111_A multi-modal single-cell and spatial expression map of metastatic breast cancer biopsies across cli.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-024-03215-z\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "category": "source_pdf",
+      "size_bytes": 20211798,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_39627536_Cross-species single-cell RNA-seq analysis reveals disparate and conserved cardiac and extracardiac .pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-024-07315-x\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "category": "source_pdf",
+      "size_bytes": 5390903,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_39850354_Exploring the utility of snRNA-seq in profiling human bladder tissue_ A comprehensive comparison wit.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\source\\paper.pdf",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "source_pdf",
+      "size_bytes": 5935498,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_40229600_Longitudinal single-cell multiomic atlas of high-risk neuroblastoma reveals chemotherapy-induced tum.pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02158-6\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "category": "source_pdf",
+      "size_bytes": 32385765,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/pdf/PMID_40355592_An integrated transcriptomic cell atlas of human endoderm-derived organoids..pdf",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02182-6\\source\\paper.pdf",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "category": "source_pdf",
+      "size_bytes": 31998570,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1002_pros.24020.md",
+      "destination": "marker提取\\articles\\DOI_10.1002_pros.24020\\source\\paper.md",
+      "paper_id": "DOI_10.1002_pros.24020",
+      "category": "source_markdown",
+      "size_bytes": 61377,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.cell.2017.09.004.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2017.09.004\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+      "category": "source_markdown",
+      "size_bytes": 81674,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.cell.2021.07.023.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2021.07.023\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "category": "source_markdown",
+      "size_bytes": 168797,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.cell.2022.11.005.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2022.11.005\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "category": "source_markdown",
+      "size_bytes": 140565,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.celrep.2018.11.086.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.celrep.2018.11.086\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "category": "source_markdown",
+      "size_bytes": 78816,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.healun.2026.02.1666.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.healun.2026.02.1666\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "category": "source_markdown",
+      "size_bytes": 57747,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.isci.2024.111628.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "source_markdown",
+      "size_bytes": 59980,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.jcf.2025.01.016.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.jcf.2025.01.016\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+      "category": "source_markdown",
+      "size_bytes": 65670,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1016_j.stem.2022.11.013.md",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.stem.2022.11.013\\source\\paper.md",
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "category": "source_markdown",
+      "size_bytes": 131651,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41467-021-21783-3.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-021-21783-3\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "category": "source_markdown",
+      "size_bytes": 67644,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41467-023-40173-5.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-023-40173-5\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "category": "source_markdown",
+      "size_bytes": 106724,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41467-024-52052-8.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "source_markdown",
+      "size_bytes": 78643,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41586-020-2496-1.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-020-2496-1\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "category": "source_markdown",
+      "size_bytes": 79928,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41586-020-2922-4.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-020-2922-4\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41586-020-2922-4",
+      "category": "source_markdown",
+      "size_bytes": 146086,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41586-021-03569-1.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03569-1\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "category": "source_markdown",
+      "size_bytes": 120589,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41586-021-03710-0.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03710-0\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41586-021-03710-0",
+      "category": "source_markdown",
+      "size_bytes": 94269,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41586-021-03929-x.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03929-x\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "category": "source_markdown",
+      "size_bytes": 122150,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41586-021-04345-x.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-04345-x\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "category": "source_markdown",
+      "size_bytes": 217072,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41586-024-07069-w.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-024-07069-w\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "category": "source_markdown",
+      "size_bytes": 182827,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41588-022-01243-4.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "source_markdown",
+      "size_bytes": 171531,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41588-024-01702-0.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-024-01702-0\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "category": "source_markdown",
+      "size_bytes": 156803,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41588-025-02158-6.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02158-6\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "category": "source_markdown",
+      "size_bytes": 188211,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41588-025-02182-6.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02182-6\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "category": "source_markdown",
+      "size_bytes": 138317,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41591-023-02327-2.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-023-02327-2\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "category": "source_markdown",
+      "size_bytes": 210648,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s41591-024-03215-z.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-024-03215-z\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "category": "source_markdown",
+      "size_bytes": 203718,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s42003-021-02562-8.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-021-02562-8\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "category": "source_markdown",
+      "size_bytes": 77850,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s42003-024-07315-x.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-024-07315-x\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "category": "source_markdown",
+      "size_bytes": 115043,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s42255-023-00876-x.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42255-023-00876-x\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "category": "source_markdown",
+      "size_bytes": 182233,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1038_s44318-024-00328-6.md",
+      "destination": "marker提取\\articles\\DOI_10.1038_s44318-024-00328-6\\source\\paper.md",
+      "paper_id": "DOI_10.1038_s44318-024-00328-6",
+      "category": "source_markdown",
+      "size_bytes": 131176,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1101_2024.10.23.619925.md",
+      "destination": "marker提取\\articles\\DOI_10.1101_2024.10.23.619925\\source\\paper.md",
+      "paper_id": "DOI_10.1101_2024.10.23.619925",
+      "category": "source_markdown",
+      "size_bytes": 133418,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1101_2025.01.17.633590.md",
+      "destination": "marker提取\\articles\\DOI_10.1101_2025.01.17.633590\\source\\paper.md",
+      "paper_id": "DOI_10.1101_2025.01.17.633590",
+      "category": "source_markdown",
+      "size_bytes": 146273,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1101_2025.09.26.678707.md",
+      "destination": "marker提取\\articles\\DOI_10.1101_2025.09.26.678707\\source\\paper.md",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "category": "source_markdown",
+      "size_bytes": 302258,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1126_science.aat5031.md",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.aat5031\\source\\paper.md",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "category": "source_markdown",
+      "size_bytes": 50113,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1126_science.abl4290.md",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.abl4290\\source\\paper.md",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "category": "source_markdown",
+      "size_bytes": 125603,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1126_science.abo0510.md",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.abo0510\\source\\paper.md",
+      "paper_id": "DOI_10.1126_science.abo0510",
+      "category": "source_markdown",
+      "size_bytes": 116303,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1126_sciimmunol.adf9988.md",
+      "destination": "marker提取\\articles\\DOI_10.1126_sciimmunol.adf9988\\source\\paper.md",
+      "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+      "category": "source_markdown",
+      "size_bytes": 106130,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.1164_rccm.202207-1384oc.md",
+      "destination": "marker提取\\articles\\DOI_10.1164_rccm.202207-1384oc\\source\\paper.md",
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "category": "source_markdown",
+      "size_bytes": 67466,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.64898_2025.12.18.695268.md",
+      "destination": "marker提取\\articles\\DOI_10.64898_2025.12.18.695268\\source\\paper.md",
+      "paper_id": "DOI_10.64898_2025.12.18.695268",
+      "category": "source_markdown",
+      "size_bytes": 91879,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.7554_elife.62522.md",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\source\\paper.md",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "source_markdown",
+      "size_bytes": 108942,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/DOI_10.7554_elife.71752.md",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.71752\\source\\paper.md",
+      "paper_id": "DOI_10.7554_elife.71752",
+      "category": "source_markdown",
+      "size_bytes": 89940,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/PMID_35115729.md",
+      "destination": "marker提取\\articles\\PMID_35115729\\source\\paper.md",
+      "paper_id": "PMID_35115729",
+      "category": "source_markdown",
+      "size_bytes": 93686,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker提取/review_md/PMID_37120427.md",
+      "destination": "marker提取\\articles\\PMID_37120427\\source\\paper.md",
+      "paper_id": "PMID_37120427",
+      "category": "source_markdown",
+      "size_bytes": 86195,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1002_pros.24020.json",
+      "destination": "marker提取\\articles\\DOI_10.1002_pros.24020\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1002_pros.24020",
+      "category": "extraction_json",
+      "size_bytes": 37373,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.cell.2017.09.004.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2017.09.004\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.cell.2017.09.004",
+      "category": "extraction_json",
+      "size_bytes": 7634,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.cell.2021.07.023.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2021.07.023\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "category": "extraction_json",
+      "size_bytes": 27408,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.cell.2022.11.005.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2022.11.005\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "category": "extraction_json",
+      "size_bytes": 22016,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.celrep.2018.11.086.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.celrep.2018.11.086\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.celrep.2018.11.086",
+      "category": "extraction_json",
+      "size_bytes": 50474,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.healun.2026.02.1666.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.healun.2026.02.1666\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.healun.2026.02.1666",
+      "category": "extraction_json",
+      "size_bytes": 7201,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.isci.2024.111628.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "extraction_json",
+      "size_bytes": 26637,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.jcf.2025.01.016.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.jcf.2025.01.016\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.jcf.2025.01.016",
+      "category": "extraction_json",
+      "size_bytes": 6366,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1016_j.stem.2022.11.013.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.stem.2022.11.013\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "category": "extraction_json",
+      "size_bytes": 31812,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41467-021-21783-3.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-021-21783-3\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "category": "extraction_json",
+      "size_bytes": 23532,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41467-023-40173-5.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-023-40173-5\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "category": "extraction_json",
+      "size_bytes": 21159,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41467-024-52052-8.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "extraction_json",
+      "size_bytes": 25465,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41586-020-2496-1.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-020-2496-1\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41586-020-2496-1",
+      "category": "extraction_json",
+      "size_bytes": 42269,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41586-020-2922-4.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-020-2922-4\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41586-020-2922-4",
+      "category": "extraction_json",
+      "size_bytes": 73943,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41586-021-03569-1.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03569-1\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "category": "extraction_json",
+      "size_bytes": 22937,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41586-021-03710-0.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03710-0\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41586-021-03710-0",
+      "category": "extraction_json",
+      "size_bytes": 31100,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41586-021-03929-x.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03929-x\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41586-021-03929-x",
+      "category": "extraction_json",
+      "size_bytes": 30464,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41586-021-04345-x.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-04345-x\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "category": "extraction_json",
+      "size_bytes": 23447,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41586-024-07069-w.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-024-07069-w\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "category": "extraction_json",
+      "size_bytes": 22222,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41588-022-01243-4.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "extraction_json",
+      "size_bytes": 21239,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41588-024-01702-0.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-024-01702-0\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "category": "extraction_json",
+      "size_bytes": 22220,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41588-025-02158-6.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02158-6\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "category": "extraction_json",
+      "size_bytes": 21151,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41588-025-02182-6.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02182-6\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "category": "extraction_json",
+      "size_bytes": 21411,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41591-023-02327-2.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-023-02327-2\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "category": "extraction_json",
+      "size_bytes": 22079,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s41591-024-03215-z.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-024-03215-z\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "category": "extraction_json",
+      "size_bytes": 21463,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s42003-021-02562-8.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-021-02562-8\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "category": "extraction_json",
+      "size_bytes": 20542,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s42003-024-07315-x.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-024-07315-x\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "category": "extraction_json",
+      "size_bytes": 22623,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s42255-023-00876-x.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42255-023-00876-x\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "category": "extraction_json",
+      "size_bytes": 21177,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1038_s44318-024-00328-6.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s44318-024-00328-6\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1038_s44318-024-00328-6",
+      "category": "extraction_json",
+      "size_bytes": 29804,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1101_2024.10.23.619925.json",
+      "destination": "marker提取\\articles\\DOI_10.1101_2024.10.23.619925\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1101_2024.10.23.619925",
+      "category": "extraction_json",
+      "size_bytes": 107992,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1101_2025.01.17.633590.json",
+      "destination": "marker提取\\articles\\DOI_10.1101_2025.01.17.633590\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1101_2025.01.17.633590",
+      "category": "extraction_json",
+      "size_bytes": 200928,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1101_2025.09.26.678707.json",
+      "destination": "marker提取\\articles\\DOI_10.1101_2025.09.26.678707\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1101_2025.09.26.678707",
+      "category": "extraction_json",
+      "size_bytes": 130657,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1126_science.aat5031.json",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.aat5031\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "category": "extraction_json",
+      "size_bytes": 25696,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1126_science.abl4290.json",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.abl4290\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "category": "extraction_json",
+      "size_bytes": 23221,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1126_science.abo0510.json",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.abo0510\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1126_science.abo0510",
+      "category": "extraction_json",
+      "size_bytes": 41543,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1126_sciimmunol.adf9988.json",
+      "destination": "marker提取\\articles\\DOI_10.1126_sciimmunol.adf9988\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1126_sciimmunol.adf9988",
+      "category": "extraction_json",
+      "size_bytes": 54500,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.1164_rccm.202207-1384oc.json",
+      "destination": "marker提取\\articles\\DOI_10.1164_rccm.202207-1384oc\\extraction\\gemini.json",
+      "paper_id": "DOI_10.1164_rccm.202207-1384oc",
+      "category": "extraction_json",
+      "size_bytes": 35549,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.64898_2025.12.18.695268.json",
+      "destination": "marker提取\\articles\\DOI_10.64898_2025.12.18.695268\\extraction\\gemini.json",
+      "paper_id": "DOI_10.64898_2025.12.18.695268",
+      "category": "extraction_json",
+      "size_bytes": 96836,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.7554_elife.62522.json",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\extraction\\gemini.json",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "extraction_json",
+      "size_bytes": 22087,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/DOI_10.7554_elife.71752.json",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.71752\\extraction\\gemini.json",
+      "paper_id": "DOI_10.7554_elife.71752",
+      "category": "extraction_json",
+      "size_bytes": 61120,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/PMID_35115729.json",
+      "destination": "marker提取\\articles\\PMID_35115729\\extraction\\gemini.json",
+      "paper_id": "PMID_35115729",
+      "category": "extraction_json",
+      "size_bytes": 29520,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini/PMID_37120427.json",
+      "destination": "marker提取\\articles\\PMID_37120427\\extraction\\gemini.json",
+      "paper_id": "PMID_37120427",
+      "category": "extraction_json",
+      "size_bytes": 25743,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1016_j.cell.2021.07.023.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2021.07.023\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1016_j.cell.2021.07.023",
+      "category": "repair_json",
+      "size_bytes": 293563,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1016_j.cell.2022.11.005.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.cell.2022.11.005\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1016_j.cell.2022.11.005",
+      "category": "repair_json",
+      "size_bytes": 20953,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1016_j.isci.2024.111628.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "repair_json",
+      "size_bytes": 19112,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1016_j.stem.2022.11.013.json",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.stem.2022.11.013\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1016_j.stem.2022.11.013",
+      "category": "repair_json",
+      "size_bytes": 17619,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41467-021-21783-3.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-021-21783-3\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41467-021-21783-3",
+      "category": "repair_json",
+      "size_bytes": 29392,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41467-023-40173-5.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-023-40173-5\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41467-023-40173-5",
+      "category": "repair_json",
+      "size_bytes": 89770,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41467-024-52052-8.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "repair_json",
+      "size_bytes": 19771,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41586-021-03569-1.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-03569-1\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41586-021-03569-1",
+      "category": "repair_json",
+      "size_bytes": 74433,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41586-021-04345-x.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-021-04345-x\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41586-021-04345-x",
+      "category": "repair_json",
+      "size_bytes": 162796,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41586-024-07069-w.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41586-024-07069-w\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41586-024-07069-w",
+      "category": "repair_json",
+      "size_bytes": 267514,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41588-022-01243-4.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "repair_json",
+      "size_bytes": 180000,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41588-024-01702-0.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-024-01702-0\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41588-024-01702-0",
+      "category": "repair_json",
+      "size_bytes": 48712,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41588-025-02158-6.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02158-6\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41588-025-02158-6",
+      "category": "repair_json",
+      "size_bytes": 77452,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41588-025-02182-6.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-025-02182-6\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41588-025-02182-6",
+      "category": "repair_json",
+      "size_bytes": 117257,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41591-023-02327-2.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-023-02327-2\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41591-023-02327-2",
+      "category": "repair_json",
+      "size_bytes": 66433,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s41591-024-03215-z.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41591-024-03215-z\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s41591-024-03215-z",
+      "category": "repair_json",
+      "size_bytes": 42087,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s42003-021-02562-8.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-021-02562-8\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s42003-021-02562-8",
+      "category": "repair_json",
+      "size_bytes": 34903,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s42003-024-07315-x.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42003-024-07315-x\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s42003-024-07315-x",
+      "category": "repair_json",
+      "size_bytes": 159580,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1038_s42255-023-00876-x.json",
+      "destination": "marker提取\\articles\\DOI_10.1038_s42255-023-00876-x\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1038_s42255-023-00876-x",
+      "category": "repair_json",
+      "size_bytes": 121910,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1126_science.aat5031.json",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.aat5031\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "category": "repair_json",
+      "size_bytes": 36364,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.1126_science.abl4290.json",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.abl4290\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.1126_science.abl4290",
+      "category": "repair_json",
+      "size_bytes": 42085,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/DOI_10.7554_elife.62522.json",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\extraction\\gemini-repair.json",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "repair_json",
+      "size_bytes": 41615,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_repair/PMID_35115729.json",
+      "destination": "marker提取\\articles\\PMID_35115729\\extraction\\gemini-repair.json",
+      "paper_id": "PMID_35115729",
+      "category": "repair_json",
+      "size_bytes": 81535,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\evidence\\v2-DOI_10.1016_j.isci.2024.111628_p6_Schwann_full.png",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "evidence_image_v2",
+      "size_bytes": 475905,
+      "sha256": "94d175f90fe8ac9d3cde8b169ecc061b0be6a20fbd787267c2840f2737149366",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\evidence\\v2-DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "evidence_image_v2",
+      "size_bytes": 203663,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1038_s41467-024-52052-8_p4_Fig1_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\evidence\\v2-DOI_10.1038_s41467-024-52052-8_p4_Fig1_full.png",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "evidence_image_v2",
+      "size_bytes": 585875,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1038_s41467-024-52052-8_p4_Fig1d_1h.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\evidence\\v2-DOI_10.1038_s41467-024-52052-8_p4_Fig1d_1h.png",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "evidence_image_v2",
+      "size_bytes": 452489,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1038_s41467-024-52052-8_p4_Fig1d_heatmap_detail.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\evidence\\v2-DOI_10.1038_s41467-024-52052-8_p4_Fig1d_heatmap_detail.png",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "evidence_image_v2",
+      "size_bytes": 230830,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v2-DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10_full.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v2",
+      "size_bytes": 1803942,
+      "sha256": "3603a728e9c769d994b41a2b45fabc200924d055d6abf2f04ee81ff5e5d0cccf",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v2-DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v2",
+      "size_bytes": 913366,
+      "sha256": "293b1ab635cdfdc2531d238dc504e67ddbf5c43e431ed0bc4a7123bc68eb9aa2",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g_detail.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v2-DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g_detail.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v2",
+      "size_bytes": 366497,
+      "sha256": "60d1aad38a8a81f11b1e09e382cae0d631b96435ae78577b68b3836580ddf684",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1038_s41588-022-01243-4_p35_ExtDataFig10_legend.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v2-DOI_10.1038_s41588-022-01243-4_p35_ExtDataFig10_legend.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v2",
+      "size_bytes": 117548,
+      "sha256": "57a6fc3d3347c4a4c7328e7c95341448fbc3241887c774bfa50b29d49d3ccb1c",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.1126_science.aat5031_p4_Fig1_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.aat5031\\evidence\\v2-DOI_10.1126_science.aat5031_p4_Fig1_full.png",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "category": "evidence_image_v2",
+      "size_bytes": 346803,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.7554_elife.62522_p4_Fig1_full.png",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\evidence\\v2-DOI_10.7554_elife.62522_p4_Fig1_full.png",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "evidence_image_v2",
+      "size_bytes": 608361,
+      "sha256": "f5793c1d9b4dbdd7ffc7285f6ba9f76ec733765cc40b2b37bee32402ca120232",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\evidence\\v2-DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "evidence_image_v2",
+      "size_bytes": 552317,
+      "sha256": "154e3727ad1212ee00763689775fb1d1850c8a03ceac368bdc8d47d0e545a2e4",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v2/evidence/DOI_10.7554_elife.62522_p4_Fig1D_dotplot_detail.png",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\evidence\\v2-DOI_10.7554_elife.62522_p4_Fig1D_dotplot_detail.png",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "evidence_image_v2",
+      "size_bytes": 249116,
+      "sha256": "f4d02d89656929e73b7d1b063c824f9c0d5ed79941f9e57b12cfccfe5397cc92",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\evidence\\v3-DOI_10.1016_j.isci.2024.111628_p6_Schwann_full.png",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "evidence_image_v3",
+      "size_bytes": 475905,
+      "sha256": "94d175f90fe8ac9d3cde8b169ecc061b0be6a20fbd787267c2840f2737149366",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+      "destination": "marker提取\\articles\\DOI_10.1016_j.isci.2024.111628\\evidence\\v3-DOI_10.1016_j.isci.2024.111628_p6_Schwann_paragraph_crop.png",
+      "paper_id": "DOI_10.1016_j.isci.2024.111628",
+      "category": "evidence_image_v3",
+      "size_bytes": 75060,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\evidence\\v3-DOI_10.1038_s41467-024-52052-8_p3_Fig1_full.png",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "evidence_image_v3",
+      "size_bytes": 744825,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1d_1h.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\evidence\\v3-DOI_10.1038_s41467-024-52052-8_p3_Fig1d_1h.png",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "evidence_image_v3",
+      "size_bytes": 618141,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41467-024-52052-8_p3_Fig1d_heatmap_detail.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41467-024-52052-8\\evidence\\v3-DOI_10.1038_s41467-024-52052-8_p3_Fig1d_heatmap_detail.png",
+      "paper_id": "DOI_10.1038_s41467-024-52052-8",
+      "category": "evidence_image_v3",
+      "size_bytes": 374475,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v3-DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10_full.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v3",
+      "size_bytes": 1803942,
+      "sha256": "3603a728e9c769d994b41a2b45fabc200924d055d6abf2f04ee81ff5e5d0cccf",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v3-DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v3",
+      "size_bytes": 913366,
+      "sha256": "293b1ab635cdfdc2531d238dc504e67ddbf5c43e431ed0bc4a7123bc68eb9aa2",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g_detail.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v3-DOI_10.1038_s41588-022-01243-4_p34_ExtDataFig10g_detail.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v3",
+      "size_bytes": 366497,
+      "sha256": "60d1aad38a8a81f11b1e09e382cae0d631b96435ae78577b68b3836580ddf684",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1038_s41588-022-01243-4_p35_ExtDataFig10_legend.png",
+      "destination": "marker提取\\articles\\DOI_10.1038_s41588-022-01243-4\\evidence\\v3-DOI_10.1038_s41588-022-01243-4_p35_ExtDataFig10_legend.png",
+      "paper_id": "DOI_10.1038_s41588-022-01243-4",
+      "category": "evidence_image_v3",
+      "size_bytes": 117548,
+      "sha256": "57a6fc3d3347c4a4c7328e7c95341448fbc3241887c774bfa50b29d49d3ccb1c",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1126_science.aat5031_p13_Fig1_full.png",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.aat5031\\evidence\\v3-DOI_10.1126_science.aat5031_p13_Fig1_full.png",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "category": "evidence_image_v3",
+      "size_bytes": 607743,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.1126_science.aat5031_p13_Fig1_panel.png",
+      "destination": "marker提取\\articles\\DOI_10.1126_science.aat5031\\evidence\\v3-DOI_10.1126_science.aat5031_p13_Fig1_panel.png",
+      "paper_id": "DOI_10.1126_science.aat5031",
+      "category": "evidence_image_v3",
+      "size_bytes": 856072,
+      "sha256": null,
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1_full.png",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\evidence\\v3-DOI_10.7554_elife.62522_p4_Fig1_full.png",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "evidence_image_v3",
+      "size_bytes": 608361,
+      "sha256": "f5793c1d9b4dbdd7ffc7285f6ba9f76ec733765cc40b2b37bee32402ca120232",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\evidence\\v3-DOI_10.7554_elife.62522_p4_Fig1B_1D.png",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "evidence_image_v3",
+      "size_bytes": 552317,
+      "sha256": "154e3727ad1212ee00763689775fb1d1850c8a03ceac368bdc8d47d0e545a2e4",
+      "status": "moved"
+    },
+    {
+      "source": "marker_Gemini_evidence_v3/evidence/DOI_10.7554_elife.62522_p4_Fig1D_dotplot_detail.png",
+      "destination": "marker提取\\articles\\DOI_10.7554_elife.62522\\evidence\\v3-DOI_10.7554_elife.62522_p4_Fig1D_dotplot_detail.png",
+      "paper_id": "DOI_10.7554_elife.62522",
+      "category": "evidence_image_v3",
+      "size_bytes": 249116,
+      "sha256": "f4d02d89656929e73b7d1b063c824f9c0d5ed79941f9e57b12cfccfe5397cc92",
+      "status": "moved"
+    }
+  ]
+}

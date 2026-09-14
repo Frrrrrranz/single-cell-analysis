@@ -189,3 +189,10 @@ marker提取/
 - `audit/IMPORTANT_JSON_MANIFEST.md` 已记录 239 个候选保留 JSON 的路径、大小和 SHA-256。
 - 检查点暂存范围为 270 个 JSON、Markdown、PNG/JPEG 证据文件、盘点报告和本计划更新；不包含 PDF、XLSX、Python/MJS 脚本、缓存或 `.claude/`。
 - 提交完成后，提交号即为上述资产的 Git 恢复来源；PDF 仍仅依赖用户约定的外部备份。
+
+### 阶段 3 进度（2026-09-14）
+
+- 已生成并执行 `audit/move-map.json`，其中 177 个唯一归属文件均已移动并核对目标存在、文件大小一致。
+- 已为 42 篇具有可归属资料的论文建立 `articles/<paper_id>/source|extraction|evidence`：移动 42 个 PDF、42 个转换 Markdown、42 个原始提取 JSON、23 个 repair JSON、1 个转换记录和 27 张证据图片。
+- 未自动移动 201 个未归属文件、共享审核资产、脚本、工作簿副本或两份未归属 PDF；它们将在后续审核资产收口和人工归属复核后处理。
+- 两篇任务表明确缺少有效 PDF 的论文已建立目录并标记资料缺失。
